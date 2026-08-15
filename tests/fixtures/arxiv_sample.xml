@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <id>http://arxiv.org/abs/2508.01234v2</id>
+    <updated>2026-08-02T00:00:00Z</updated>
+    <published>2026-08-01T12:00:00Z</published>
+    <title>  A Study of  Something   Interesting  </title>
+    <summary>This paper studies something interesting in great detail.</summary>
+    <author><name>Jane Doe</name></author>
+    <author><name>John Smith</name></author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.05678v1</id>
+    <updated>2026-08-03T00:00:00Z</updated>
+    <published>2026-08-03T09:30:00Z</published>
+    <title>Another Paper Without Authors Listed Correctly</title>
+    <summary>Edge case: this entry has no author elements at all.</summary>
+  </entry>
+  <entry>
+    <!-- malformed: missing <id> entirely, must be skipped, not crash the page -->
+    <updated>2026-08-04T00:00:00Z</updated>
+    <published>2026-08-04T09:30:00Z</published>
+    <title>Broken Entry</title>
+    <author><name>Nobody</name></author>
+  </entry>
+</feed>
