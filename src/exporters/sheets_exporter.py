@@ -59,14 +59,14 @@ class SheetsExporter:
         spreadsheet_id = self._settings.google_sheets_spreadsheet_id
         sheet = self._service.spreadsheets()
 
-        sheet.values().clear(spreadsheetId=spreadsheet_id, range=tab, body={}).execute()
+        sheet.values().clear(spreadsheetId=spreadsheet_id, range=f"'{tab}'", body={}).execute()
 
         rows = self._rows_from_payloads(payloads)
         batch_size = self._settings.sheets_batch_size
         for i in range(0, len(rows), batch_size):
             chunk = rows[i : i + batch_size]
             start_row = i + 1  # 1-indexed, header already included at i=0
-            range_str = f"{tab}!A{start_row}"
+            range_str = f"'{tab}'!A{start_row}"
             sheet.values().update(
                 spreadsheetId=spreadsheet_id,
                 range=range_str,

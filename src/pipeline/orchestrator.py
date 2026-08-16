@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import asyncio
 from datetime import datetime, timezone
+import json
 
 from src.adapters.arxiv_adapter import ArxivAdapter
 from src.adapters.repo_evidence_adapter import RepoEvidenceAdapter
@@ -190,21 +191,29 @@ async def run_validation(settings: Settings, storage: Storage) -> None:
     papers = await storage.get_papers_by_status("RESOLVED", settings.pipeline_batch_size)
     for paper in papers:
         paper_id = paper["id"]
-        parsed = _ParsedPaper(
-            arxiv_id=paper["arxiv_id"],
-            canonical_url=paper["canonical_url"],
-            title=paper["title"] or "",
-            authors=paper["authors"] if isinstance(paper["authors"], list) else [],
-            abstract=paper["abstract"],
-            published_date=paper["published_date"],
-        )
-        selected = await storage.get_selected_repo_link(paper_id)
-        snapshot = None
-        if selected is not None:
-            snapshot = await storage.get_latest_github_snapshot(selected["repo_url"])
-
         try:
+            parsed = _ParsedPaper(
+                arxiv_id=paper["arxiv_id"],
+                canonical_url=paper["canonical_url"],
+                title=paper["title"] or "",
+                authors=(
+                    json.loads(paper["authors"])
+                    if isinstance(paper["authors"], str)
+                    else paper["authors"]
+                    if isinstance(paper["authors"], list)
+                    else []
+                ),
+                abstract=paper["abstract"],
+                published_date=paper["published_date"],
+            )
+
+            selected = await storage.get_selected_repo_link(paper_id)
+            snapshot = None
+            if selected is not None:
+                snapshot = await storage.get_latest_github_snapshot(selected["repo_url"])
+
             payload = validate_and_build_export(parsed, selected, snapshot)
+
         except PaperValidationError as exc:
             await storage.mark_failed(paper_id, exc.reason)
             await storage.log_event(
@@ -214,6 +223,15 @@ async def run_validation(settings: Settings, storage: Storage) -> None:
             )
             continue
 
+        except ValueError as exc:
+            reason = f"ParsedPaper validation failed: {exc}"
+            await storage.mark_failed(paper_id, reason)
+            await storage.log_event(
+                stage="validate", status="FAILED", source="arxiv",
+                record_id=paper_id, error_type="ParsedPaperValidationError",
+                detail={"reason": reason},
+            )
+            continue
         await storage.upsert_validated_record(paper_id, payload)
         await storage.claim_paper(paper_id, "RESOLVED", "VALIDATED")
         await storage.log_event(stage="validate", status="OK", source="arxiv", record_id=paper_id)
