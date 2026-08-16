@@ -15,11 +15,24 @@ import httpx
 from src.config.settings import Settings
 from src.models.schemas import GithubApiStatus, GithubSnapshot
 from src.pipeline.logging_config import get_logger
-from src.pipeline.retry import NonRetryableError, RetryConfig, retry_with_backoff
+from src.pipeline.retry import NonRetryableError, RetryConfig, RetryExhaustedError, retry_with_backoff
 
 logger = get_logger(__name__)
 
 _REPO_URL_RE = re.compile(r"github\.com/([^/]+)/([^/#?]+)")
+
+
+class GithubRateLimitedError(Exception):
+    """Raised only when the response carries direct evidence of a GitHub
+    rate limit (429, or 403 with X-RateLimit-Remaining: 0). Distinguishing
+    this from a generic GithubServerError is what lets retry-exhaustion be
+    classified truthfully instead of defaulting everything to RATE_LIMITED."""
+
+
+class GithubServerError(Exception):
+    """Raised for 5xx and other retryable-but-not-rate-limit-evidenced
+    failures. Retry-exhaustion on this (or on network/timeout errors that
+    were never reclassified) maps to ERROR, not RATE_LIMITED."""
 
 
 class GithubClient:
@@ -77,11 +90,11 @@ class GithubClient:
                 ) as client:
                     resp = await client.get(url, headers=self._headers())
                     if resp.status_code == 403 and resp.headers.get("X-RateLimit-Remaining") == "0":
-                        raise Exception("github rate limited (403 secondary/primary limit)")
+                        raise GithubRateLimitedError("github rate limited (403 secondary/primary limit)")
                     if resp.status_code == 429:
-                        raise Exception("github rate limited (429)")
+                        raise GithubRateLimitedError("github rate limited (429)")
                     if resp.status_code >= 500:
-                        raise Exception(f"github server error {resp.status_code}")
+                        raise GithubServerError(f"github server error {resp.status_code}")
                     return resp
 
         def _retry_after(exc: Exception) -> float | None:
@@ -97,10 +110,20 @@ class GithubClient:
                 repo_url=repo_url, exists_verified=False, stargazers_count=None,
                 stars_fetched_at=datetime.now(timezone.utc), api_status=GithubApiStatus.ERROR,
             )
-        except Exception:  # noqa: BLE001 -- retry exhausted
+        except RetryExhaustedError as exc:
+            # Classify truthfully by what actually caused the exhaustion --
+            # never default an arbitrary exhausted retry to RATE_LIMITED.
+            # Only direct rate-limit evidence (GithubRateLimitedError) maps
+            # to RATE_LIMITED; server errors, network failures, and timeouts
+            # (any other exception type, including raw httpx exceptions that
+            # were never reclassified) map to ERROR.
+            if isinstance(exc.last_error, GithubRateLimitedError):
+                status = GithubApiStatus.RATE_LIMITED
+            else:
+                status = GithubApiStatus.ERROR
             return GithubSnapshot(
                 repo_url=repo_url, exists_verified=False, stargazers_count=None,
-                stars_fetched_at=datetime.now(timezone.utc), api_status=GithubApiStatus.RATE_LIMITED,
+                stars_fetched_at=datetime.now(timezone.utc), api_status=status,
             )
 
         fetched_at = datetime.now(timezone.utc)

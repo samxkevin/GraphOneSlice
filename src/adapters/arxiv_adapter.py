@@ -25,8 +25,15 @@ logger = get_logger(__name__)
 
 
 class ArxivAdapter:
-    def __init__(self, settings: Settings):
+    def __init__(self, settings: Settings, transport: httpx.AsyncBaseTransport | None = None):
+        """transport: optional override for tests (httpx.MockTransport),
+        matching the same pattern already used by GithubClient and
+        RepoEvidenceAdapter. Never set in production -- defaults to a
+        real connection. Added here specifically so the lineage tests
+        required in this pass can exercise run_discovery_and_parse()
+        without making a real network call."""
         self._settings = settings
+        self._transport = transport
         self._retry_config = RetryConfig(
             max_attempts=settings.max_retry_attempts,
             backoff_base_seconds=settings.retry_backoff_base_seconds,
@@ -48,7 +55,10 @@ class ArxivAdapter:
         source_url = self._settings.arxiv_api_base
 
         async def _do_fetch() -> httpx.Response:
-            async with httpx.AsyncClient(timeout=self._settings.arxiv_http_timeout_seconds) as client:
+            async with httpx.AsyncClient(
+                timeout=self._settings.arxiv_http_timeout_seconds,
+                transport=self._transport,
+            ) as client:
                 resp = await client.get(source_url, params=params)
                 if resp.status_code == 429:
                     raise Exception(f"arXiv 429 rate limited at start={start}")

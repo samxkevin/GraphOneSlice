@@ -65,6 +65,43 @@ class Storage:
             )
             return row["id"]
 
+    async def link_paper_to_observation(self, paper_id: UUID, fetch_observation_id: UUID) -> None:
+        """Associates a paper with the (possibly-shared) fetch_observation
+        that supplied its raw data, after the paper's identity is known.
+        Idempotent: the composite primary key makes reruns a safe no-op,
+        never a duplicate row and never a misattribution -- linking is by
+        explicit id, not by URL matching."""
+        async with self._pool.acquire() as conn:
+            await conn.execute(
+                """
+                INSERT INTO paper_fetch_observations (paper_id, fetch_observation_id)
+                VALUES ($1, $2)
+                ON CONFLICT (paper_id, fetch_observation_id) DO NOTHING
+                """,
+                paper_id,
+                fetch_observation_id,
+            )
+
+    async def get_observations_for_paper(self, paper_id: UUID) -> list[dict[str, Any]]:
+        """Returns every fetch_observation linked to a paper -- either via
+        the direct scalar paper_id (1:1 fetches, e.g. abs-page HTML) or via
+        the paper_fetch_observations join table (shared page fetches, e.g.
+        arXiv Atom discovery). Used by tests/audits to verify lineage."""
+        async with self._pool.acquire() as conn:
+            rows = await conn.fetch(
+                """
+                SELECT fo.* FROM fetch_observations fo
+                WHERE fo.paper_id = $1
+                UNION
+                SELECT fo.* FROM fetch_observations fo
+                JOIN paper_fetch_observations pfo ON pfo.fetch_observation_id = fo.id
+                WHERE pfo.paper_id = $1
+                ORDER BY fetched_at
+                """,
+                paper_id,
+            )
+            return [dict(r) for r in rows]
+
     # -----------------------------------------------------------
     # papers -- logical identity, conflict-safe insert, atomic claims
     # -----------------------------------------------------------

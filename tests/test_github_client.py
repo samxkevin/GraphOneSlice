@@ -50,8 +50,26 @@ async def test_verify_deleted_repo_returns_not_found():
 
 
 @pytest.mark.asyncio
-async def test_rate_limited_response_never_fabricates_stars():
-    # Outcome class: retry/rate-limit handling path
+async def test_429_rate_limit_classified_as_rate_limited():
+    # Outcome class: explicit rate-limit evidence (429)
+    call_count = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        call_count["n"] += 1
+        return httpx.Response(429, json={"message": "rate limited"})
+
+    transport = httpx.MockTransport(handler)
+    client = GithubClient(_settings(max_retry_attempts=2), transport=transport)
+
+    snapshot = await client.verify_and_get_stars("https://github.com/org/repo")
+    assert snapshot.stargazers_count is None
+    assert snapshot.api_status == GithubApiStatus.RATE_LIMITED
+    assert call_count["n"] == 2
+
+
+@pytest.mark.asyncio
+async def test_403_with_ratelimit_remaining_zero_classified_as_rate_limited():
+    # Outcome class: explicit rate-limit evidence (403 + X-RateLimit-Remaining: 0)
     call_count = {"n": 0}
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -62,9 +80,9 @@ async def test_rate_limited_response_never_fabricates_stars():
     client = GithubClient(_settings(max_retry_attempts=2), transport=transport)
 
     snapshot = await client.verify_and_get_stars("https://github.com/org/repo")
-    assert snapshot.stargazers_count is None  # never guessed
+    assert snapshot.stargazers_count is None
     assert snapshot.api_status == GithubApiStatus.RATE_LIMITED
-    assert call_count["n"] == 2  # bounded retries, exactly max_attempts
+    assert call_count["n"] == 2
 
 
 @pytest.mark.asyncio
@@ -76,9 +94,11 @@ async def test_unparseable_repo_url_returns_error_status():
 
 
 @pytest.mark.asyncio
-async def test_server_error_retries_then_reports_status_honestly():
-    # Outcome class: transient failure exhausts retries -> reported honestly,
-    # never silently treated as success
+async def test_repeated_500_classified_as_error_not_rate_limited():
+    # Outcome class: transient server failure exhausts retries -- must be
+    # reported as ERROR, never defaulted to RATE_LIMITED. This is the
+    # specific bug this pass fixes: previously ANY exhausted retry (5xx,
+    # timeouts, network failures) was misclassified as RATE_LIMITED.
     call_count = {"n": 0}
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -91,4 +111,25 @@ async def test_server_error_retries_then_reports_status_honestly():
     snapshot = await client.verify_and_get_stars("https://github.com/org/flaky")
     assert snapshot.exists_verified is False
     assert snapshot.stargazers_count is None
+    assert snapshot.api_status == GithubApiStatus.ERROR  # NOT RATE_LIMITED
     assert call_count["n"] == 3
+
+
+@pytest.mark.asyncio
+async def test_network_timeout_classified_as_error_not_rate_limited():
+    # Outcome class: connection/timeout failure (no HTTP response at all)
+    # exhausts retries -- must also be ERROR, not RATE_LIMITED.
+    call_count = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        call_count["n"] += 1
+        raise httpx.ConnectTimeout("connection timed out", request=request)
+
+    transport = httpx.MockTransport(handler)
+    client = GithubClient(_settings(max_retry_attempts=2), transport=transport)
+
+    snapshot = await client.verify_and_get_stars("https://github.com/org/unreachable")
+    assert snapshot.exists_verified is False
+    assert snapshot.stargazers_count is None
+    assert snapshot.api_status == GithubApiStatus.ERROR  # NOT RATE_LIMITED
+    assert call_count["n"] == 2

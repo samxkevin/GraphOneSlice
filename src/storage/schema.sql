@@ -128,3 +128,30 @@ CREATE TABLE IF NOT EXISTS pipeline_log (
 
 CREATE INDEX IF NOT EXISTS idx_pipeline_log_stage_ts ON pipeline_log (stage, ts DESC);
 CREATE INDEX IF NOT EXISTS idx_pipeline_log_record ON pipeline_log (record_id);
+
+-- ============================================================
+-- Migration 002: paper <-> fetch_observation lineage
+--
+-- fetch_observations.paper_id (a single nullable scalar FK) is correct
+-- for a 1:1 fetch (e.g. one abs-page HTML fetch produces evidence for
+-- exactly one paper). It cannot correctly represent the arXiv Atom
+-- discovery case, where ONE page fetch observation legitimately yields
+-- MANY papers (up to arxiv_page_size per page). Forcing that into a
+-- scalar column would silently drop the lineage for every paper on a
+-- page except whichever one happened to claim the column.
+--
+-- This join table is the minimal correct structure for that genuinely
+-- many-to-many fact (a paper can in principle also be re-observed by a
+-- later rerun's fetch, hence many-to-many rather than many-to-one).
+-- Idempotent: the composite primary key makes re-linking safe to retry.
+-- ============================================================
+CREATE TABLE IF NOT EXISTS paper_fetch_observations (
+    paper_id             UUID NOT NULL REFERENCES papers(id),
+    fetch_observation_id UUID NOT NULL REFERENCES fetch_observations(id),
+    linked_at            TIMESTAMPTZ NOT NULL DEFAULT now(),
+    PRIMARY KEY (paper_id, fetch_observation_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_paper_fetch_obs_paper ON paper_fetch_observations (paper_id);
+CREATE INDEX IF NOT EXISTS idx_paper_fetch_obs_obs ON paper_fetch_observations (fetch_observation_id);
+

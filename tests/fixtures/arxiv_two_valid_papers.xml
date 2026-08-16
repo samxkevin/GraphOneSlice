@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <id>http://arxiv.org/abs/2508.11111v1</id>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <published>2026-08-10T09:00:00Z</published>
+    <title>First Valid Paper On This Page</title>
+    <summary>Abstract of the first paper.</summary>
+    <author><name>Alice Author</name></author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.22222v1</id>
+    <updated>2026-08-10T00:00:00Z</updated>
+    <published>2026-08-10T10:00:00Z</published>
+    <title>Second Valid Paper On This Page</title>
+    <summary>Abstract of the second paper.</summary>
+    <author><name>Bob Author</name></author>
+  </entry>
+</feed>

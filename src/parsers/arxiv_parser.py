@@ -94,15 +94,11 @@ def parse_atom_feed(atom_xml: str) -> list[ParsedPaper]:
     return papers
 
 
-def extract_authoritative_repo_links(entry_atom_xml_fragment: str, arxiv_abs_url: str) -> list[str]:
-    """
-    arXiv's own Atom entries do not carry a structured GitHub-link field.
-    This function is a placeholder for the (separate, explicit) step of
-    fetching the arXiv abs page HTML and looking for an explicit,
-    author-provided code link (e.g. a 'Code' badge / journal-ref link).
-    It intentionally does NOT do title-similarity or org-name guessing --
-    see repo_association/associator.py for the evidence policy.
-    Not wired into the discovery loop in this first slice; returns []
-    until the abs-page-scraping step is implemented.
-    """
-    return []
+# NOTE: the former `extract_authoritative_repo_links()` stub that lived
+# here has been implemented for real and moved out of this module.
+# arXiv's Atom entries carry no structured GitHub-link field, so
+# repository evidence requires fetching + parsing the abs page HTML --
+# that's I/O plus HTML parsing, not Atom parsing, so it doesn't belong
+# in this pure/synchronous module. See:
+#   src/adapters/repo_evidence_adapter.py   (async HTML fetch)
+#   src/parsers/repo_evidence_parser.py     (pure HTML -> RepoLinkCandidate)
