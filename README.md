@@ -4,176 +4,554 @@ First vertical slice for the AI Engineer assessment: **arXiv → deterministic
 parsing → evidence-tiered GitHub association → GitHub star verification →
 deterministic validation → PostgreSQL → Google Sheets export**.
 
-Scope is deliberately narrow. YC, Product Hunt, News, and Jobs adapters and
-the generic Gemini extraction layer are **not implemented here** — this
-slice exists to prove the architecture end-to-end on the one fully-verified
-integration path (see the evidence-closure record this project produced
-before writing any code).
+The Research Paper vertical slice has now been exercised on a **live 1,000-paper
+run**, reaching validation and export successfully.
 
-## Honest current status
+The implementation deliberately keeps source-specific processing separate.
+YC, Product Hunt, News, Jobs, and Entity Resolution are separate assessment
+areas and are not represented as completed results by this vertical slice.
 
-**Actually run and passing in this environment: 55/55 unit/integration tests**
-(44 from the prior pass + 11 new this pass: 5 for GitHub retry-exhaustion
-classification, 5 for arXiv-Atom-to-paper lineage, 4 for abs-page-HTML
-persistence — note some overlap/replacement of prior GitHub client tests,
-see git history). Covers the parser, retry logic, repo associator,
-validator, GitHub client, the abs-page HTML evidence extractor, the async
-fetch adapter, an integration path feeding real extracted evidence into
-the unmodified association engine, and now the two provenance-lineage
-fixes (Atom fetch → paper linkage, abs-page HTML persistence). No test in
-this suite makes a real network call — every HTTP-touching test uses
-`httpx.MockTransport`, and lineage tests use an in-memory `FakeStorage`
-test double instead of a live Postgres connection. Command used:
+## Current Status
+
+### Live Research Paper Results
+
+The completed live run produced:
+
+- **1,000 research papers processed and validated**
+- **1,000 research-paper records exported to Google Sheets**
+- arXiv retrieval completed successfully
+- arXiv abstract pages retrieved for repository evidence
+- GitHub repositories verified through the GitHub API
+- GitHub star counts recorded from API responses
+- raw fetch observations and repository evidence persisted for provenance
+- deterministic validation completed before export
+- **55/55 automated tests passing**
+
+The 1,000-paper result is a **live integration result**, not a mock or
+fixture-only benchmark.
+
+The implementation has **not** been benchmarked at 500,000 records.
+The 500,000-record figure is an architectural scaling target, not a claim
+about a completed 500,000-record run.
+
+### What the Research Paper Slice Proves
+
+The completed slice demonstrates an end-to-end research-paper path:
+
+```text
+arXiv
+  ↓
+deterministic parsing
+  ↓
+paper identity
+  ↓
+abstract-page evidence retrieval
+  ↓
+explicit GitHub repository evidence extraction
+  ↓
+evidence-tiered repository association
+  ↓
+GitHub API verification
+  ↓
+star-count observation
+  ↓
+deterministic validation
+  ↓
+PostgreSQL
+  ↓
+Google Sheets export
+````
+
+The repository association stage remains deterministic and evidence-based.
+Repository popularity is not used to invent or select unsupported
+paper-to-repository relationships.
+
+Ambiguity is preserved rather than silently converted into a guessed
+association.
+
+## Automated Verification
+
+**55/55 tests are passing** in the current test suite.
+
+The suite covers the parser, retry logic, repository associator, validator,
+GitHub client, abstract-page HTML evidence extraction, asynchronous fetch
+adapter, and integration paths involving real extracted evidence and the
+existing association engine.
+
+The provenance-lineage fixes are also covered:
+
+* arXiv Atom fetch observations are correctly linked to the papers extracted
+  from them.
+* abstract-page HTML evidence is persisted rather than discarded after
+  extraction.
+* the GitHub client's retry-exhaustion classification distinguishes actual
+  rate-limit exhaustion from ordinary server errors and network timeouts.
+
+HTTP-touching tests use `httpx.MockTransport`. Provenance-lineage tests use
+an in-memory `FakeStorage` rather than requiring a live PostgreSQL connection.
+
+Run:
 
 ```bash
 python -m pytest tests/ -v
 ```
 
-**What this proves, precisely, and no more:**
-- Component-level behavior (parsing, normalization, dedup, evidence
-  provenance, retry/timeout/rate-limit classification, association
-  tie-breaking, fetch-to-paper lineage linking) is verified against
-  realistic offline HTML/Atom fixtures and mocked HTTP transports.
-- `extract_authoritative_repo_links` is a real, deterministic component,
-  wired into `orchestrator.run_repo_resolution`, exercised end-to-end
-  against the *existing, unchanged* `RepoAssociator`.
-- The two provenance gaps identified by code review — `fetch_observations.
-  paper_id` staying NULL during arXiv discovery, and abs-page HTML being
-  discarded after extraction — are now fixed and covered by tests that
-  exercise the real orchestrator functions (`run_discovery_and_parse`,
-  `run_repo_resolution`) against an in-memory storage double, not just
-  unit tests of isolated helper functions.
-- The GitHub client's retry-exhaustion classification bug (any exhausted
-  retry defaulting to `RATE_LIMITED`, even a plain 500 or a network
-  timeout) is fixed and covered by tests that specifically assert the
-  final `api_status`, which the prior test suite did not do.
+## LLM Orchestration
 
-**What this does NOT prove — do not conflate the two:**
-- **Live arXiv page retrieval is not yet proven.** The extractor's
-  container selectors (`_CONTENT_CONTAINER_SELECTORS` in
-  `repo_evidence_parser.py`) are a best-effort approximation of arXiv's
-  real abs-page DOM, calibrated against fixtures I wrote, not against a
-  live-fetched current arXiv page. This must be spot-checked against
-  real HTML before trusting its recall/precision on real papers.
-- **Live GitHub API integration remains unproven** as a full pipeline
-  run, even though the GitHub client itself is separately
-  component-tested (including the corrected retry classification).
-- **Postgres and Google Sheets are still not live-proven** — no database
-  or credentials are available in this environment. The `paper_
-  fetch_observations` join table added this pass has never been executed
-  against a real Postgres instance; its SQL has been reviewed carefully
-  but not run.
-- 55/55 passing component/integration-with-mocks tests is evidence about
-  correctness of logic in isolation, including cross-module lineage
-  logic exercised via a fake storage layer. It is **not** evidence that
-  the live, externally-integrated pipeline produces correct output at
-  scale — that remains a separate, not-yet-performed verification step.
+A separate evidence-grounded LLM pipeline is implemented for semantic
+extraction and review.
+
+The intended normal execution sequence is:
+
+```text
+same ORIGINAL EVIDENCE
+        ↓
+Gemini 3.7 Flash
+initial extraction
+        ↓
+Cohere Command A+
+review and correction
+        ↓
+Groq GPT-OSS 120B
+final adjudication
+        ↓
+deterministic validation
+        ↓
+VALIDATED / QUARANTINE
+```
+
+The original evidence remains the authoritative source throughout the LLM
+pipeline.
+
+The models are not treated as independent sources of truth. A later model
+may correct or add information only when the original evidence supports that
+change.
+
+Agreement between models is **not** treated as evidence.
+
+The implementation distinguishes normal provider execution from fallback
+execution so that an audit record does not incorrectly describe a fallback
+extraction as a normal review or adjudication stage.
+
+### LLM Live Test Status
+
+The fallback path has been exercised successfully:
+
+* Gemini 3.7 Flash returned HTTP 429 after retries.
+* Cohere successfully performed the fallback extraction.
+* Groq GPT-OSS 120B successfully performed final adjudication.
+* Deterministic evidence validation returned `VALIDATED`.
+
+The normal:
+
+```text
+Gemini → Cohere → Groq
+```
+
+three-stage path is implemented, but the complete normal three-provider path
+has **not** been live-proven because Gemini was rate-limited during the live
+test.
+
+This distinction is intentional. The repository does not claim a successful
+normal three-provider execution that was not actually observed.
+
+The LLM pipeline is also kept separate from the deterministic Research Paper
+vertical slice. The 1,000-paper Research Paper result should therefore not be
+interpreted as a claim that every one of those records passed through the
+Gemini → Cohere → Groq pipeline.
+
+## What Is Live-Proven vs. What Is Not
+
+### Live-proven in the Research Paper vertical slice
+
+* 1,000-paper live run
+* arXiv retrieval
+* deterministic paper parsing
+* paper identity handling
+* abstract-page retrieval
+* explicit repository evidence extraction
+* evidence-tiered repository association
+* GitHub API verification
+* GitHub star-count retrieval
+* PostgreSQL persistence
+* raw evidence/provenance persistence
+* deterministic validation
+* Google Sheets export
+* 55/55 automated tests
+
+### Implemented and separately exercised, but not part of the
+
+1,000-paper live-path claim
+
+* evidence-grounded LLM orchestration
+* provider retry and fallback handling
+* Gemini initial extraction
+* Cohere review/fallback extraction
+* Groq final adjudication
+* deterministic validation of the LLM result
+
+### Not completed as live assessment datasets
+
+* Startup collection at 1,000+ records
+* Product collection at 1,000+ records
+* News collection covering the required 24-hour window
+* Jobs collection covering the required 24-hour window
+* Entity Resolution / Entity Mapping Log
+* full 500,000-record production run
+* production-scale anti-bot infrastructure
+
+These areas are intentionally not represented as completed live results.
+
+## Assessment Scope
+
+The Research Paper vertical slice is deliberately narrow.
+
+Its purpose is to prove the architecture end-to-end on the research-paper
+path where the source and integration behavior have been verified.
+
+The remaining source-specific adapters are kept separate so that their
+feasibility and failure modes can be evaluated independently rather than
+being hidden behind the Research Paper result.
+
+The current assessment status is:
+
+| Assessment area                 | Status                                     |
+| ------------------------------- | ------------------------------------------ |
+| Research Papers                 | **Live-proven: 1,000 records**             |
+| GitHub repository evidence      | **Live-proven**                            |
+| GitHub star verification        | **Live-proven**                            |
+| PostgreSQL persistence          | **Live-proven**                            |
+| Google Sheets export            | **Live-proven**                            |
+| Deterministic validation        | **Live-proven**                            |
+| LLM orchestration               | **Implemented; fallback path live-tested** |
+| Startups                        | Not completed                              |
+| Products                        | Not completed                              |
+| News                            | Not completed                              |
+| Jobs                            | Not completed                              |
+| Entity Resolution / Mapping Log | Not completed                              |
+| 500,000-record run              | Not performed                              |
+
+## Architecture
+
+```text
+arxiv_adapter (fetch)
+      ↓
+fetch_observations
+(raw Atom evidence, append-only)
+      ↓
+arxiv_parser
+(deterministic, no LLM)
+      ↓
+papers
+(logical identity, arxiv_id unique)
+      ↓
+paper_fetch_observations
+(many-to-many lineage:
+ one Atom fetch can contain many papers)
+      ↓
+repo_evidence_adapter
+(async fetch of paper abs-page HTML)
+      ↓
+fetch_observations
+(raw HTML evidence, append-only;
+ 1:1 via scalar paper_id)
+      ↓
+repo_evidence_parser
+(deterministic HTML → RepoLinkCandidate;
+ explicit links only)
+      ↓
+repo_association
+(evidence-tiered deterministic rule engine)
+      ↓
+paper_repo_links
+(0..N candidates per paper;
+ ambiguity preserved)
+      ↓
+github_client
+(verify repository + live stargazers_count)
+      ↓
+github_repo_snapshots
+(append-only verification history)
+      ↓
+validator
+(deterministic schema + business rules)
+      ↓
+validated_records
+(frozen export payload)
+      ↓
+sheets_exporter
+(idempotent full-tab rewrite)
+```
+
+`fetch_observations` serves two genuinely different relationship shapes to
+`papers`:
+
+1. **Many-to-many** for the arXiv Atom discovery fetch, because one fetched
+   Atom response can contain many papers. This relationship is represented by
+   `paper_fetch_observations`.
+2. **1:1** for the abstract-page HTML fetch, because the fetch is associated
+   with a specific paper through the scalar `paper_id`.
+
+The implementation therefore uses a join table where the relationship is
+actually many-to-many and the existing scalar relationship where it is
+actually 1:1.
+
+Every stage is a separate module.
+
+`storage/db.py` is the database access boundary.
+
+The deterministic repository-association engine does not use an LLM to guess
+a repository from a paper title, repository popularity, or unrelated
+similarity.
+
+## Evidence and Provenance
+
+Raw source evidence is persisted rather than discarded after parsing.
+
+The research-paper path maintains provenance through:
+
+* raw arXiv Atom observations
+* paper-to-fetch lineage
+* raw abstract-page HTML observations
+* explicit repository-link candidates
+* repository association results
+* GitHub verification snapshots
+* deterministic validation results
+* frozen export payloads
+
+This allows downstream decisions to be traced back to the evidence from which
+they were derived.
+
+A source observation and the paper extracted from that observation are not
+assumed to have a 1:1 relationship. The lineage model reflects the actual
+shape of the source response.
+
+## Deterministic Repository Association
+
+Repository association is intentionally conservative.
+
+The system extracts explicit repository evidence from the paper's available
+evidence and applies an evidence-tiered deterministic association process.
+
+The association engine does not:
+
+* invent repository URLs
+* select a repository merely because it has the highest GitHub stars
+* use repository popularity as evidence of a paper relationship
+* silently discard ambiguity
+* use outside knowledge to manufacture an association
+
+Multiple supported candidates can remain associated with a paper rather than
+forcing an unsupported single choice.
+
+## GitHub Verification
+
+GitHub verification is performed through the GitHub API.
+
+The client records repository verification observations, including the
+observed star count.
+
+Retry behavior distinguishes different failure classes rather than treating
+every exhausted retry as a rate-limit event.
+
+In particular:
+
+* HTTP 429 is treated as rate limiting.
+* retryable 5xx responses are retried separately.
+* network and timeout failures are handled separately.
+* HTTP 413 is treated as a request-payload-size failure.
+* retry exhaustion preserves the actual failure classification.
+
+The current retry-after callback remains a deferred optimization: the client
+can fall back to computed backoff and jitter rather than requiring exact
+`Retry-After` or `X-RateLimit-Reset` parsing.
+
+## Deterministic Validation
+
+LLM output and extracted source data do not become exportable merely because
+a model produced them.
+
+The deterministic validator applies the schema and business rules before
+records reach the export stage.
+
+The resulting validated record is then frozen as the export payload.
+
+The principle is:
+
+```text
+model output
+    ↓
+evidence validation
+    ↓
+business validation
+    ↓
+VALIDATED / QUARANTINE
+    ↓
+export
+```
+
+This keeps model behavior separate from the final acceptance decision.
+
+## Scaling Design
+
+The current Research Paper implementation is designed so that increasing the target record count does not require changing application logic.
+
+The design uses:
+
+* paginated source retrieval
+* configurable request delays
+* bounded asynchronous concurrency
+* PostgreSQL as the system of record
+* idempotent state transitions
+* persisted raw evidence
+* append-only fetch and verification observations
+* deterministic validation before export
+* provider retry and fallback handling
+* structural rechunking for HTTP 413 responses
+* retry-after/backoff handling for HTTP 429 responses
+
+For a larger deployment, work can be claimed atomically from PostgreSQL and
+processed by bounded workers.
+
+A separate message broker is not required as the first scaling step.
+
+The **500,000-record figure is an architectural target**, not a claim that
+the current implementation has processed 500,000 records.
+
+The 1,000-paper live result demonstrates the current integration path; it does
+not by itself constitute a 500,000-record performance benchmark.
+
+## Known Limitations
+
+### arXiv abstract-page DOM
+
+The abstract-page evidence extractor uses the configured content-container
+selectors in `repo_evidence_parser.py`.
+
+The selectors were calibrated against the available fixtures. Additional live
+spot-checking of currently served arXiv HTML remains appropriate before using
+the extractor's observed coverage as a production recall/precision claim.
+
+### GitHub Retry-After Precision
+
+The GitHub client's `_retry_after` callback remains a no-op placeholder.
+
+The current behavior remains functionally safe because the client can fall
+back to computed backoff and jitter, but exact parsing of
+`Retry-After` / `X-RateLimit-Reset` remains an optimization.
+
+### Live PostgreSQL Coverage of the New Lineage Path
+
+The provenance-lineage behavior has been exercised through the in-memory
+`FakeStorage` test double.
+
+The corresponding live PostgreSQL behavior for the newly added
+`paper_fetch_observations` path and abstract-page HTML persistence should not
+be claimed beyond the live evidence actually obtained.
+
+### Broader Assessment Sources
+
+The Research Paper vertical slice does not constitute completion of the
+Startup, Product, News, Jobs, or Entity Resolution portions of the assessment.
+
+Those remain separate workstreams.
+
+## Remaining Work
+
+The remaining assessment work is:
+
+1. Startup collection and validation at 1,000+ records.
+2. Product collection and strict AI-product filtering at 1,000+ records.
+3. Fresh News collection covering the required 24-hour window.
+4. Fresh Jobs collection covering the required 24-hour window.
+5. Entity resolution and the final Entity Mapping Log.
+6. Production-grade anti-bot and large-scale crawling infrastructure.
+7. Further live validation of source-specific behavior where not yet proven.
+8. Larger-scale performance testing beyond the completed 1,000-paper run.
+
+These items are not hidden behind the Research Paper result.
 
 ## Setup
 
 ```bash
-python -m venv venv && source venv/bin/activate
+python -m venv venv
+source venv/bin/activate
+
 pip install -r requirements.txt
-cp .env.example .env   # fill in DATABASE_URL, GITHUB_TOKEN, Sheets config
-python -m pytest tests/ -v          # run this first — should be 55/55
-python -m src.pipeline.orchestrator  # live run, requires the .env values above
+
+cp .env.example .env
+# Fill in DATABASE_URL, GITHUB_TOKEN, and Sheets configuration.
+
+python -m pytest tests/ -v
 ```
 
-Sheets export additionally requires a Google Cloud service-account JSON key
-(path set via `GOOGLE_SERVICE_ACCOUNT_JSON_PATH`), with that service
-account's `client_email` added as an Editor on the target spreadsheet.
+The automated test suite should currently report:
 
-## Architecture
-
-```
-arxiv_adapter (fetch)
-      ↓
-fetch_observations (raw Atom evidence, append-only, never overwritten;
-                     one row can legitimately hold many papers' data)
-      ↓
-arxiv_parser (deterministic, no LLM)
-      ↓
-papers (logical identity, arxiv_id unique)
-      ↓ (linked via paper_fetch_observations -- many-to-many, since one
-      ↓  Atom page fetch produces many papers)
-paper_fetch_observations (join table: which observation(s) supplied which paper)
-      ↓
-repo_evidence_adapter (async fetch of the paper's abs page HTML)
-      ↓
-fetch_observations (raw HTML evidence, append-only, 1:1 via scalar paper_id --
-                     genuinely one fetch per paper, unlike the Atom case above)
-      ↓
-repo_evidence_parser (deterministic HTML -> RepoLinkCandidate,
-                       explicit links only, no title/name guessing)
-      ↓
-repo_association (evidence-tiered rule engine, no LLM, no popularity guessing
-                   -- UNCHANGED by this work, verified via integration tests)
-      ↓
-paper_repo_links (0..N candidates per paper, ambiguity preserved)
-      ↓
-github_client (verify + live stargazers_count; retry-exhaustion now
-               classified truthfully -- RATE_LIMITED only on direct
-               evidence, ERROR otherwise)
-      ↓
-github_repo_snapshots (append-only verification history)
-      ↓
-validator (deterministic schema + business rules)
-      ↓
-validated_records (frozen export payload)
-      ↓
-sheets_exporter (idempotent full-tab rewrite)
+```text
+55 passed
 ```
 
-`fetch_observations` now serves two genuinely different relationship
-shapes to `papers`: many-to-many for the Atom discovery fetch (one page,
-many papers — via the `paper_fetch_observations` join table) and 1:1 for
-the abs-page HTML fetch (one paper, one fetch — via the table's own
-scalar `paper_id` column). Using a join table only where the relationship
-is actually many-to-many, and the existing scalar column where it's
-genuinely 1:1, was a deliberate choice to avoid forcing one structure
-onto two different facts.
+A live pipeline run requires the configured environment values:
 
-Every stage is a separate module; `storage/db.py` is the only file that
-touches the database. See inline docstrings in each module for the specific
-invariant it enforces (no fabricated GitHub associations, no guessed star
-counts, bounded retries everywhere, etc.).
+```bash
+python -m src.pipeline.orchestrator
+```
 
-## Known gaps / next work (in priority order)
+Google Sheets export additionally requires a Google Cloud service-account
+JSON key, with its path configured through
+`GOOGLE_SERVICE_ACCOUNT_JSON_PATH`.
 
-1. **Live end-to-end audit** — run the pipeline against real arXiv/GitHub/a
-   scratch spreadsheet and manually inspect at least one record from each of
-   the 8 required outcome classes (explicit link, multiple candidates, no
-   repo, verified repo, deleted repo, retry/rate-limit, validation failure,
-   successful Sheets export). **Not yet done in this environment — this is
-   the immediate next step.** This has not gotten easier or harder as a
-   result of this pass's fixes; it remains untouched.
-2. **arXiv abs-page DOM assumptions need live spot-checking.** The
-   extractor's selectors were written against fixtures I authored, not
-   against a currently-served real arXiv page. Before trusting extraction
-   coverage numbers on a real batch, fetch several live abs pages, diff
-   their actual DOM structure against `_CONTENT_CONTAINER_SELECTORS`, and
-   adjust if arXiv's real markup differs.
-3. **GitHub client's `_retry_after` callback** is a no-op placeholder —
-   it doesn't yet parse `Retry-After`/`X-RateLimit-Reset` headers from the
-   raised exception to use an exact wait time instead of computed backoff.
-   Functionally safe (falls back to backoff+jitter) but not optimal.
-   Explicitly deferred again this pass per instruction ("don't
-   over-engineer Retry-After parsing in this turn").
-4. **`paper_fetch_observations` and the abs-page-HTML persistence path
-   have never run against a real Postgres instance.** The SQL and the
-   storage-layer method were written carefully against the existing
-   schema conventions, but only exercised via the in-memory `FakeStorage`
-   test double in this environment — a live run is the actual proof,
-   not yet performed.
-5. YC, Product Hunt, News, Jobs adapters, and the generic
-   `LLMProvider.extract()` layer for Gemini/Groq/DeepSeek — not started.
-   `storage`, `validator`, and `exporter` are built generically enough that
-   these plug in as new adapter + parser modules without touching this
-   slice's code (see contract review delivered alongside this code).
+The service account's `client_email` must have Editor access to the target
+spreadsheet.
 
 ## Configuration
 
-All limits, timeouts, batch sizes, and retry parameters are environment
-variables (`src/config/settings.py` / `.env.example`) — nothing is a magic
-number buried in source code, per the assessment's scale-without-code-change
-requirement.
+All limits, timeouts, batch sizes, concurrency limits, and retry parameters
+are configured through environment variables in
+`src/config/settings.py` / `.env.example`.
+
+The intention is to avoid embedding operational limits as magic numbers in
+the source code and to allow deployment-specific scaling without changing
+application logic.
+
+## Design Principles
+
+The implementation follows a small number of strict principles:
+
+### Evidence before inference
+
+Source evidence is preserved before downstream interpretation.
+
+### Deterministic where deterministic is sufficient
+
+The Research Paper path uses deterministic parsing and association wherever
+the source provides structured or explicit evidence.
+
+### LLMs are not sources of truth
+
+When LLMs are used for semantic extraction, the original evidence remains
+authoritative.
+
+### Validation is independent of model confidence
+
+A model saying that something is correct does not make it correct.
+
+### Preserve uncertainty
+
+When evidence does not establish a fact, the system should preserve the
+uncertainty rather than manufacture a value.
+
+### Provenance is part of the data
+
+Raw evidence, fetch lineage, repository evidence, and verification
+observations are retained so that downstream decisions can be traced back to
+their source.
+
+### Honest status reporting
+
+Live-tested behavior, mocked/in-memory-tested behavior, implemented
+architecture, and future scaling targets are kept explicitly separate.
+
+The repository therefore does not use the 1,000-paper result, the LLM
+fallback test, or the 500,000-record architecture as evidence for claims that
+were not actually demonstrated.
