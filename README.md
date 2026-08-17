@@ -1,4 +1,4 @@
-# GraphOne / FrontierAtlas: Research Paper Vertical Slice
+# GraphOne / FrontierAtlas : Research Paper Vertical Slice
 
 First vertical slice for the AI Engineer assessment: **arXiv → deterministic
 parsing → evidence-tiered GitHub association → GitHub star verification →
@@ -7,13 +7,13 @@ deterministic validation → PostgreSQL → Google Sheets export**.
 The Research Paper vertical slice has now been exercised on a **live 1,000-paper
 run**, reaching validation and export successfully.
 
-The implementation deliberately keeps source-specific processing separate.
-YC, Product Hunt, News, Jobs, and Entity Resolution are separate assessment
-areas and are not represented as completed results by this vertical slice.
-
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![Google Sheet(EvidenceBackedResearchPapers)](https://img.shields.io/badge/Google%20Sheet-Live-blue?logo=google-sheets)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)
+
+The implementation deliberately keeps source-specific processing separate.
+YC, Product Hunt, News, Jobs, and Entity Resolution are separate assessment
+areas and are not represented as completed results by this vertical slice.
 
 ## Current Status
 

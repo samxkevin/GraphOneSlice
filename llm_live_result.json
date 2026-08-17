@@ -1,0 +1,170 @@
+{
+  "final_extraction": {
+    "company": "Acme AI",
+    "role_family": "Machine Learning Engineer",
+    "is_remote": true,
+    "summary": "Acme AI is hiring a Machine Learning Engineer.",
+    "evidence_quotes": [
+      "Acme AI is hiring a Machine Learning Engineer.",
+      "The position is fully remote."
+    ],
+    "claims": [
+      {
+        "field": "company",
+        "value": "Acme AI",
+        "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+        "supported": true
+      },
+      {
+        "field": "role_family",
+        "value": "Machine Learning Engineer",
+        "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+        "supported": true
+      },
+      {
+        "field": "is_remote",
+        "value": true,
+        "evidence_quote": "The position is fully remote.",
+        "supported": true
+      },
+      {
+        "field": "summary",
+        "value": "Acme AI is hiring a Machine Learning Engineer.",
+        "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+        "supported": true
+      }
+    ]
+  },
+  "gemini": {
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "success": true,
+    "result": {
+      "company": "Acme AI",
+      "role_family": "Machine Learning Engineer",
+      "is_remote": true,
+      "summary": "Acme AI is hiring a fully remote Machine Learning Engineer.",
+      "evidence_quotes": [
+        "Acme AI is hiring a Machine Learning Engineer.",
+        "The position is fully remote."
+      ],
+      "claims": [
+        {
+          "field": "company",
+          "value": "Acme AI",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        },
+        {
+          "field": "role_family",
+          "value": "Machine Learning Engineer",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        },
+        {
+          "field": "is_remote",
+          "value": true,
+          "evidence_quote": "The position is fully remote.",
+          "supported": true
+        },
+        {
+          "field": "summary",
+          "value": "Acme AI is hiring a fully remote Machine Learning Engineer.",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        }
+      ]
+    },
+    "error": null
+  },
+  "cohere": {
+    "provider": "cohere",
+    "model": "command-a-plus-05-2026",
+    "success": true,
+    "result": {
+      "corrected_extraction": {
+        "company": "Acme AI",
+        "role_family": "Machine Learning Engineer",
+        "is_remote": true,
+        "summary": null,
+        "evidence_quotes": [
+          "Acme AI is hiring a Machine Learning Engineer.",
+          "The position is fully remote."
+        ],
+        "claims": [
+          {
+            "field": "company",
+            "value": "Acme AI",
+            "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+            "supported": true
+          },
+          {
+            "field": "role_family",
+            "value": "Machine Learning Engineer",
+            "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+            "supported": true
+          },
+          {
+            "field": "is_remote",
+            "value": true,
+            "evidence_quote": "The position is fully remote.",
+            "supported": true
+          }
+        ]
+      },
+      "corrections": [
+        "Set summary to null and removed its claim because no single evidence quote supports the full summary."
+      ],
+      "added_information": [],
+      "removed_information": [
+        "Summary field value: Acme AI is hiring a fully remote Machine Learning Engineer."
+      ],
+      "review_status": "CORRECTED"
+    },
+    "error": null
+  },
+  "groq": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "success": true,
+    "result": {
+      "company": "Acme AI",
+      "role_family": "Machine Learning Engineer",
+      "is_remote": true,
+      "summary": "Acme AI is hiring a Machine Learning Engineer.",
+      "evidence_quotes": [
+        "Acme AI is hiring a Machine Learning Engineer.",
+        "The position is fully remote."
+      ],
+      "claims": [
+        {
+          "field": "company",
+          "value": "Acme AI",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        },
+        {
+          "field": "role_family",
+          "value": "Machine Learning Engineer",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        },
+        {
+          "field": "is_remote",
+          "value": true,
+          "evidence_quote": "The position is fully remote.",
+          "supported": true
+        },
+        {
+          "field": "summary",
+          "value": "Acme AI is hiring a Machine Learning Engineer.",
+          "evidence_quote": "Acme AI is hiring a Machine Learning Engineer.",
+          "supported": true
+        }
+      ]
+    },
+    "error": null
+  },
+  "validation_status": "VALIDATED",
+  "validation_errors": []
+}
