@@ -1,4 +1,4 @@
-# GraphOne / FrontierAtlas — Research Paper Vertical Slice
+# GraphOne / FrontierAtlas: Research Paper Vertical Slice
 
 First vertical slice for the AI Engineer assessment: **arXiv → deterministic
 parsing → evidence-tiered GitHub association → GitHub star verification →
