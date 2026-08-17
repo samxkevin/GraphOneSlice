@@ -264,6 +264,26 @@ class Storage:
                 repo_url,
             )
             return dict(row) if row else None
+    async def get_resolved_papers_without_github_snapshot(self, limit: int) -> list[dict[str, Any]]:
+        """Returns RESOLVED papers with a selected repo that has no snapshot yet."""
+        async with self._pool.acquire() as conn:
+            rows = await conn.fetch(
+                """
+                SELECT p.*
+                FROM papers p
+                JOIN paper_repo_links prl
+                  ON prl.paper_id = p.id
+                 AND prl.is_selected = TRUE
+                LEFT JOIN github_repo_snapshots grs
+                  ON grs.repo_url = prl.repo_url
+                WHERE p.status = 'RESOLVED'
+                  AND grs.id IS NULL
+                ORDER BY p.first_seen_at
+                LIMIT $1
+                """,
+                limit,
+            )
+            return [dict(r) for r in rows]
 
     # -----------------------------------------------------------
     # validated_records -- frozen export payload

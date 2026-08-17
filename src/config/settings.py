@@ -24,12 +24,18 @@ class Settings(BaseSettings):
     arxiv_max_results: int = 2000
     arxiv_search_query: str = "cat:cs.AI"
     arxiv_http_timeout_seconds: float = 20.0
+    arxiv_abs_max_concurrency: int = 5
 
     # --- GitHub ---
     github_token: str | None = Field(default=None, description="required for 5000/hr authenticated tier")
     github_api_base: str = "https://api.github.com"
     github_max_concurrency: int = 5
     github_http_timeout_seconds: float = 15.0
+    
+    # --- LLM ---
+    gemini_api_key: str | None = Field(default=None)
+    cohere_api_key: str | None = Field(default=None)
+    groq_api_key: str | None = Field(default=None)
 
     # --- Retry / backoff (generic, used across external calls) ---
     max_retry_attempts: int = 5
