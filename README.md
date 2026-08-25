@@ -1,6 +1,10 @@
-# GraphOneSlice — AI Orbit Ingestion Continuation
+# GraphOneSlice : AI Orbit Ingestion Continuation
 
 This repository now contains **two distinct ingestion workstreams**. They share engineering principles, but their outputs must not be conflated.
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-CE8837?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/samxkevin/GraphOneSlice/blob/main/LICENSE)
+[![Google Sheet](https://img.shields.io/badge/Google_Sheet-Live_Data-34A853?style=flat-square&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)   
 
 ## Workstream A — existing research-paper pipeline
 
