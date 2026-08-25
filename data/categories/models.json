@@ -20,7 +20,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -85,7 +85,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -150,7 +150,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -215,7 +215,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -280,7 +280,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -345,7 +345,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -410,7 +410,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -475,7 +475,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -523,6 +523,252 @@
     "categories": [
       "Models"
     ],
+    "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
+    "entity_type": "model",
+    "id": "9ec6f4ea-bfff-5718-811c-2d3cd60d71e2",
+    "metadata": {
+      "model": {
+        "canonical_slug": "deepseek/deepseek-v4-pro-20260423",
+        "context_length": 1048576,
+        "input_modalities": [
+          "text"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 384000,
+        "modalities": "text->text",
+        "model_identifier": "deepseek/deepseek-v4-pro",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "DeepSeek",
+        "source_created_at": "2026-04-24T03:17:59+00:00",
+        "source_created_unix": 1777000679,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    },
+    "name": "DeepSeek: DeepSeek V4 Pro",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
+        "model": {
+          "canonical_slug": "deepseek/deepseek-v4-pro-20260423",
+          "context_length": 1048576,
+          "input_modalities": [
+            "text"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 384000,
+          "modalities": "text->text",
+          "model_identifier": "deepseek/deepseek-v4-pro",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "DeepSeek",
+          "source_created_at": "2026-04-24T03:17:59+00:00",
+          "source_created_unix": 1777000679,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logit_bias",
+            "logprobs",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ]
+        },
+        "name": "DeepSeek: DeepSeek V4 Pro",
+        "url": "https://models.dev/api/v1/models/deepseek/deepseek-v4-pro-20260423/endpoints"
+      },
+      "source_record_id": "models-dev:model:deepseek/deepseek-v4-pro",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "DeepSeek: DeepSeek V4 Pro",
+          "operation": "normalize_name",
+          "output": "deepseek: deepseek v4 pro",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/deepseek/deepseek-v4-pro-20260423/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/deepseek/deepseek-v4-pro-20260423/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+    "entity_type": "model",
+    "id": "dd926075-11e7-501d-a3d8-b47dad5c34f0",
+    "metadata": {
+      "model": {
+        "canonical_slug": "google/gemini-3.1-flash-lite-20260507",
+        "context_length": 1048576,
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 65536,
+        "modalities": "text+image+file+audio+video->text",
+        "model_identifier": "google/gemini-3.1-flash-lite",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Google",
+        "source_created_at": "2026-05-07T15:47:08+00:00",
+        "source_created_unix": 1778168828,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_tokens",
+          "reasoning",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Google: Gemini 3.1 Flash Lite",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
+        "model": {
+          "canonical_slug": "google/gemini-3.1-flash-lite-20260507",
+          "context_length": 1048576,
+          "input_modalities": [
+            "text",
+            "image",
+            "video",
+            "file",
+            "audio"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 65536,
+          "modalities": "text+image+file+audio+video->text",
+          "model_identifier": "google/gemini-3.1-flash-lite",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Google",
+          "source_created_at": "2026-05-07T15:47:08+00:00",
+          "source_created_unix": 1778168828,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ]
+        },
+        "name": "Google: Gemini 3.1 Flash Lite",
+        "url": "https://models.dev/api/v1/models/google/gemini-3.1-flash-lite-20260507/endpoints"
+      },
+      "source_record_id": "models-dev:model:google/gemini-3.1-flash-lite",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Google: Gemini 3.1 Flash Lite",
+          "operation": "normalize_name",
+          "output": "google: gemini 3 1 flash lite",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/google/gemini-3.1-flash-lite-20260507/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/google/gemini-3.1-flash-lite-20260507/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Model identifier `gpt-4.1` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
     "entity_type": "model",
     "id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a",
@@ -540,7 +786,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -605,7 +851,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -670,7 +916,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -735,7 +981,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -800,7 +1046,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -865,7 +1111,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -913,6 +1159,240 @@
     "categories": [
       "Models"
     ],
+    "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
+    "entity_type": "model",
+    "id": "2e0faca3-8dba-5222-b79a-e7e585c18e7a",
+    "metadata": {
+      "model": {
+        "canonical_slug": "ibm-granite/granite-4.1-8b-20260429",
+        "context_length": 131072,
+        "input_modalities": [
+          "text"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 131072,
+        "modalities": "text->text",
+        "model_identifier": "ibm-granite/granite-4.1-8b",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "IBM",
+        "source_created_at": "2026-04-30T19:24:31+00:00",
+        "source_created_unix": 1777577071,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "max_tokens",
+          "presence_penalty",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_p"
+        ]
+      }
+    },
+    "name": "IBM: Granite 4.1 8B",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
+        "model": {
+          "canonical_slug": "ibm-granite/granite-4.1-8b-20260429",
+          "context_length": 131072,
+          "input_modalities": [
+            "text"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 131072,
+          "modalities": "text->text",
+          "model_identifier": "ibm-granite/granite-4.1-8b",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "IBM",
+          "source_created_at": "2026-04-30T19:24:31+00:00",
+          "source_created_unix": 1777577071,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "max_tokens",
+            "presence_penalty",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ]
+        },
+        "name": "IBM: Granite 4.1 8B",
+        "url": "https://models.dev/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints"
+      },
+      "source_record_id": "models-dev:model:ibm-granite/granite-4.1-8b",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "IBM: Granite 4.1 8B",
+          "operation": "normalize_name",
+          "output": "ibm: granite 4 1 8b",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+    "entity_type": "model",
+    "id": "e9a8f380-553c-5219-a3a3-678d6908a30d",
+    "metadata": {
+      "model": {
+        "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+        "context_length": 262144,
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": null,
+        "modalities": "text+image+file->text",
+        "model_identifier": "mistralai/mistral-medium-3-5",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Mistral",
+        "source_created_at": "2026-04-30T17:33:59+00:00",
+        "source_created_unix": 1777570439,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Mistral: Mistral Medium 3.5",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
+        "model": {
+          "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+          "context_length": 262144,
+          "input_modalities": [
+            "text",
+            "image",
+            "file"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": null,
+          "modalities": "text+image+file->text",
+          "model_identifier": "mistralai/mistral-medium-3-5",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Mistral",
+          "source_created_at": "2026-04-30T17:33:59+00:00",
+          "source_created_unix": 1777570439,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ]
+        },
+        "name": "Mistral: Mistral Medium 3.5",
+        "url": "https://models.dev/api/v1/models/mistralai/mistral-medium-3.5-20260430/endpoints"
+      },
+      "source_record_id": "models-dev:model:mistralai/mistral-medium-3-5",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Mistral: Mistral Medium 3.5",
+          "operation": "normalize_name",
+          "output": "mistral: mistral medium 3 5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/mistralai/mistral-medium-3.5-20260430/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/mistralai/mistral-medium-3.5-20260430/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Model identifier `o3` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
     "entity_type": "model",
     "id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38",
@@ -930,7 +1410,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -995,7 +1475,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T15:35:39.075794+00:00",
+      "fetched_at": "2026-08-25T16:50:23.217350+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1038,5 +1518,955 @@
       "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
     },
     "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L42"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
+    "entity_type": "model",
+    "id": "502a1636-ad07-5807-9063-62d2fe109e77",
+    "metadata": {
+      "model": {
+        "canonical_slug": "openrouter/owl-alpha",
+        "context_length": 1048756,
+        "input_modalities": [
+          "text"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 262144,
+        "modalities": "text->text",
+        "model_identifier": "openrouter/owl-alpha",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Openrouter",
+        "source_created_at": "2026-04-28T17:49:49+00:00",
+        "source_created_unix": 1777398589,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "logit_bias",
+          "max_tokens",
+          "presence_penalty",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tools",
+          "top_k",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Owl Alpha",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instruction execution....",
+        "model": {
+          "canonical_slug": "openrouter/owl-alpha",
+          "context_length": 1048756,
+          "input_modalities": [
+            "text"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 262144,
+          "modalities": "text->text",
+          "model_identifier": "openrouter/owl-alpha",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Openrouter",
+          "source_created_at": "2026-04-28T17:49:49+00:00",
+          "source_created_unix": 1777398589,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "logit_bias",
+            "max_tokens",
+            "presence_penalty",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tools",
+            "top_k",
+            "top_p"
+          ]
+        },
+        "name": "Owl Alpha",
+        "url": "https://models.dev/api/v1/models/openrouter/owl-alpha/endpoints"
+      },
+      "source_record_id": "models-dev:model:openrouter/owl-alpha",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Owl Alpha",
+          "operation": "normalize_name",
+          "output": "owl alpha",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/openrouter/owl-alpha/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/openrouter/owl-alpha/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+    "entity_type": "model",
+    "id": "550aa9a4-ff2a-573e-92d0-b8741c965d25",
+    "metadata": {
+      "model": {
+        "canonical_slug": "perceptron/perceptron-mk1-20260512",
+        "context_length": 32768,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 8192,
+        "modalities": "text+image+video->text",
+        "model_identifier": "perceptron/perceptron-mk1",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Perceptron",
+        "source_created_at": "2026-05-12T14:43:49+00:00",
+        "source_created_unix": 1778597029,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "structured_outputs",
+          "temperature",
+          "top_k",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Perceptron: Perceptron Mk1",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual understanding...",
+        "model": {
+          "canonical_slug": "perceptron/perceptron-mk1-20260512",
+          "context_length": 32768,
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 8192,
+          "modalities": "text+image+video->text",
+          "model_identifier": "perceptron/perceptron-mk1",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Perceptron",
+          "source_created_at": "2026-05-12T14:43:49+00:00",
+          "source_created_unix": 1778597029,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "structured_outputs",
+            "temperature",
+            "top_k",
+            "top_p"
+          ]
+        },
+        "name": "Perceptron: Perceptron Mk1",
+        "url": "https://models.dev/api/v1/models/perceptron/perceptron-mk1-20260512/endpoints"
+      },
+      "source_record_id": "models-dev:model:perceptron/perceptron-mk1",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Perceptron: Perceptron Mk1",
+          "operation": "normalize_name",
+          "output": "perceptron: perceptron mk1",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/perceptron/perceptron-mk1-20260512/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/perceptron/perceptron-mk1-20260512/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This...",
+    "entity_type": "model",
+    "id": "20d76d81-67a4-5654-9c8a-28e153b72d58",
+    "metadata": {
+      "model": {
+        "canonical_slug": "qwen/qwen3.5-plus-20260420",
+        "context_length": 1000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 65536,
+        "modalities": "text+image+video->text",
+        "model_identifier": "qwen/qwen3.5-plus-20260420",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Qwen",
+        "source_created_at": "2026-04-27T03:42:48+00:00",
+        "source_created_unix": 1777261368,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This...",
+        "model": {
+          "canonical_slug": "qwen/qwen3.5-plus-20260420",
+          "context_length": 1000000,
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 65536,
+          "modalities": "text+image+video->text",
+          "model_identifier": "qwen/qwen3.5-plus-20260420",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Qwen",
+          "source_created_at": "2026-04-27T03:42:48+00:00",
+          "source_created_unix": 1777261368,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ]
+        },
+        "name": "Qwen: Qwen3.5 Plus 2026-04-20",
+        "url": "https://models.dev/api/v1/models/qwen/qwen3.5-plus-20260420/endpoints"
+      },
+      "source_record_id": "models-dev:model:qwen/qwen3.5-plus-20260420",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qwen: Qwen3.5 Plus 2026-04-20",
+          "operation": "normalize_name",
+          "output": "qwen: qwen3 5 plus 2026-04-20",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/qwen/qwen3.5-plus-20260420/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/qwen/qwen3.5-plus-20260420/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
+    "entity_type": "model",
+    "id": "eef32586-4e8e-551f-aa42-dc8a44a06114",
+    "metadata": {
+      "model": {
+        "canonical_slug": "qwen/qwen3.6-27b-20260422",
+        "context_length": 262144,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 81920,
+        "modalities": "text+image+video->text",
+        "model_identifier": "qwen/qwen3.6-27b",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Qwen",
+        "source_created_at": "2026-04-27T01:57:44+00:00",
+        "source_created_unix": 1777255064,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "logprobs",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Qwen: Qwen3.6 27B",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...",
+        "model": {
+          "canonical_slug": "qwen/qwen3.6-27b-20260422",
+          "context_length": 262144,
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 81920,
+          "modalities": "text+image+video->text",
+          "model_identifier": "qwen/qwen3.6-27b",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Qwen",
+          "source_created_at": "2026-04-27T01:57:44+00:00",
+          "source_created_unix": 1777255064,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logit_bias",
+            "logprobs",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ]
+        },
+        "name": "Qwen: Qwen3.6 27B",
+        "url": "https://models.dev/api/v1/models/qwen/qwen3.6-27b-20260422/endpoints"
+      },
+      "source_record_id": "models-dev:model:qwen/qwen3.6-27b",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qwen: Qwen3.6 27B",
+          "operation": "normalize_name",
+          "output": "qwen: qwen3 6 27b",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/qwen/qwen3.6-27b-20260422/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/qwen/qwen3.6-27b-20260422/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
+    "entity_type": "model",
+    "id": "2b24b541-bafb-5e42-9987-2d5da55d0e1e",
+    "metadata": {
+      "model": {
+        "canonical_slug": "qwen/qwen3.6-35b-a3b-20260415",
+        "context_length": 262144,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 262144,
+        "modalities": "text+image+video->text",
+        "model_identifier": "qwen/qwen3.6-35b-a3b",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Qwen",
+        "source_created_at": "2026-04-27T03:24:15+00:00",
+        "source_created_unix": 1777260255,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logit_bias",
+          "max_tokens",
+          "min_p",
+          "presence_penalty",
+          "reasoning",
+          "repetition_penalty",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_k",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Qwen: Qwen3.6 35B A3B",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated...",
+        "model": {
+          "canonical_slug": "qwen/qwen3.6-35b-a3b-20260415",
+          "context_length": 262144,
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 262144,
+          "modalities": "text+image+video->text",
+          "model_identifier": "qwen/qwen3.6-35b-a3b",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Qwen",
+          "source_created_at": "2026-04-27T03:24:15+00:00",
+          "source_created_unix": 1777260255,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logit_bias",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ]
+        },
+        "name": "Qwen: Qwen3.6 35B A3B",
+        "url": "https://models.dev/api/v1/models/qwen/qwen3.6-35b-a3b-20260415/endpoints"
+      },
+      "source_record_id": "models-dev:model:qwen/qwen3.6-35b-a3b",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qwen: Qwen3.6 35B A3B",
+          "operation": "normalize_name",
+          "output": "qwen: qwen3 6 35b a3b",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/qwen/qwen3.6-35b-a3b-20260415/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/qwen/qwen3.6-35b-a3b-20260415/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in...",
+    "entity_type": "model",
+    "id": "c33c0062-ceb1-56d4-8588-66ad3bbf93ed",
+    "metadata": {
+      "model": {
+        "canonical_slug": "qwen/qwen3.6-flash",
+        "context_length": 1000000,
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 65536,
+        "modalities": "text+image+video->text",
+        "model_identifier": "qwen/qwen3.6-flash",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Qwen",
+        "source_created_at": "2026-04-27T03:42:42+00:00",
+        "source_created_unix": 1777261362,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "include_reasoning",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Qwen: Qwen3.6 Flash",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in...",
+        "model": {
+          "canonical_slug": "qwen/qwen3.6-flash",
+          "context_length": 1000000,
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 65536,
+          "modalities": "text+image+video->text",
+          "model_identifier": "qwen/qwen3.6-flash",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Qwen",
+          "source_created_at": "2026-04-27T03:42:42+00:00",
+          "source_created_unix": 1777261362,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ]
+        },
+        "name": "Qwen: Qwen3.6 Flash",
+        "url": "https://models.dev/api/v1/models/qwen/qwen3.6-flash/endpoints"
+      },
+      "source_record_id": "models-dev:model:qwen/qwen3.6-flash",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qwen: Qwen3.6 Flash",
+          "operation": "normalize_name",
+          "output": "qwen: qwen3 6 flash",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/qwen/qwen3.6-flash/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/qwen/qwen3.6-flash/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
+    "entity_type": "model",
+    "id": "e4cc9a47-4974-5155-8fe9-ee83f31770bd",
+    "metadata": {
+      "model": {
+        "canonical_slug": "qwen/qwen3.6-max-preview-20260420",
+        "context_length": 262144,
+        "input_modalities": [
+          "text"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": 65536,
+        "modalities": "text->text",
+        "model_identifier": "qwen/qwen3.6-max-preview",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "Qwen",
+        "source_created_at": "2026-04-27T03:24:02+00:00",
+        "source_created_unix": 1777260242,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "include_reasoning",
+          "logprobs",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    },
+    "name": "Qwen: Qwen3.6 Max Preview",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
+        "model": {
+          "canonical_slug": "qwen/qwen3.6-max-preview-20260420",
+          "context_length": 262144,
+          "input_modalities": [
+            "text"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": 65536,
+          "modalities": "text->text",
+          "model_identifier": "qwen/qwen3.6-max-preview",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "Qwen",
+          "source_created_at": "2026-04-27T03:24:02+00:00",
+          "source_created_unix": 1777260242,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_logprobs",
+            "top_p"
+          ]
+        },
+        "name": "Qwen: Qwen3.6 Max Preview",
+        "url": "https://models.dev/api/v1/models/qwen/qwen3.6-max-preview-20260420/endpoints"
+      },
+      "source_record_id": "models-dev:model:qwen/qwen3.6-max-preview",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qwen: Qwen3.6 Max Preview",
+          "operation": "normalize_name",
+          "output": "qwen: qwen3 6 max preview",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/qwen/qwen3.6-max-preview-20260420/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/qwen/qwen3.6-max-preview-20260420/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+    "entity_type": "model",
+    "id": "17bb491f-6dc5-5b92-a992-7c5e47194b46",
+    "metadata": {
+      "model": {
+        "canonical_slug": "x-ai/grok-4.3-20260430",
+        "context_length": 1000000,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "knowledge_cutoff": null,
+        "license": null,
+        "max_completion_tokens": null,
+        "modalities": "text+image->text",
+        "model_identifier": "x-ai/grok-4.3",
+        "output_modalities": [
+          "text"
+        ],
+        "provider": "xAI",
+        "source_created_at": "2026-04-30T23:30:21+00:00",
+        "source_created_unix": 1777591821,
+        "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+        "supported_parameters": [
+          "frequency_penalty",
+          "include_reasoning",
+          "logprobs",
+          "max_tokens",
+          "presence_penalty",
+          "reasoning",
+          "response_format",
+          "seed",
+          "stop",
+          "structured_outputs",
+          "temperature",
+          "tool_choice",
+          "tools",
+          "top_logprobs",
+          "top_p"
+        ]
+      }
+    },
+    "name": "xAI: Grok 4.3",
+    "provenance": {
+      "discovered_by": "Models.dev GitHub Model Catalog",
+      "fetched_at": "2026-08-25T16:50:24.157390+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+        "model": {
+          "canonical_slug": "x-ai/grok-4.3-20260430",
+          "context_length": 1000000,
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "knowledge_cutoff": null,
+          "license": null,
+          "max_completion_tokens": null,
+          "modalities": "text+image->text",
+          "model_identifier": "x-ai/grok-4.3",
+          "output_modalities": [
+            "text"
+          ],
+          "provider": "xAI",
+          "source_created_at": "2026-04-30T23:30:21+00:00",
+          "source_created_unix": 1777591821,
+          "source_evidence_url": "https://github.com/anomalyco/models.dev/blob/dev/models.json",
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_logprobs",
+            "top_p"
+          ]
+        },
+        "name": "xAI: Grok 4.3",
+        "url": "https://models.dev/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
+      },
+      "source_record_id": "models-dev:model:x-ai/grok-4.3",
+      "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "xAI: Grok 4.3",
+          "operation": "normalize_name",
+          "output": "xai: grok 4 3",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://models.dev/api/v1/models/x-ai/grok-4.3-20260430/endpoints",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Models.dev GitHub Model Catalog",
+      "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+    },
+    "url": "https://models.dev/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
   }
 ]

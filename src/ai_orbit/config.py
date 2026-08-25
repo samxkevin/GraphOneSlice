@@ -57,7 +57,13 @@ class AIOrbitSettings(BaseSettings):
         default="https://api.github.com/repos/lakey009/AI-Tools-List/contents/AIToolsList-Sample.json",
         validation_alias="AI_ORBIT_AI_TOOLS_PRODUCT_DIRECTORY_API_URL",
     )
-    ai_tools_product_limit: int = Field(default=15, validation_alias="AI_ORBIT_AI_TOOLS_PRODUCT_LIMIT")
+    ai_tools_product_limit: int = Field(default=50, validation_alias="AI_ORBIT_AI_TOOLS_PRODUCT_LIMIT")
+
+    models_dev_github_catalog_api_url: str = Field(
+        default="https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev",
+        validation_alias="AI_ORBIT_MODELS_DEV_GITHUB_CATALOG_API_URL",
+    )
+    models_dev_model_limit: int = Field(default=12, validation_alias="AI_ORBIT_MODELS_DEV_MODEL_LIMIT")
 
     @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", "npm_search_tool_queries", mode="before")
     @classmethod

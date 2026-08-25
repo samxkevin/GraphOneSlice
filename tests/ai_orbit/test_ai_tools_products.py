@@ -82,3 +82,29 @@ def test_product_validation_requires_product_metadata_evidence():
     assert accepted == []
     assert report["status"] == "failed"
     assert report["failure_counts_by_type"]["invalid_metadata"] == 1
+
+
+def test_ai_tools_product_filter_rejects_guides_and_model_family_blurbs():
+    adapter = AIToolsProductDirectoryAdapter(AIOrbitSettings(log_level="CRITICAL"))
+    assert not adapter._is_candidate_product(
+        {
+            "id": 33,
+            "handle": "write-like-a-pro",
+            "website": "https://aicopymastery.com",
+            "description": "A guide to improve copywriting skills using ChatGPT for effective and engaging content.",
+        }
+    )
+    assert not adapter._is_candidate_product(
+        {
+            "id": 41,
+            "handle": "stable-diffusion",
+            "website": "https://stability.ai",
+            "description": "Stability AI develops open-source AI models for image, video, 3D, and audio generation.",
+        }
+    )
+
+
+def test_ai_tools_product_dedupe_key_collapses_root_www_variants_only():
+    adapter = AIToolsProductDirectoryAdapter(AIOrbitSettings(log_level="CRITICAL"))
+    assert adapter._product_dedupe_key("https://aihouse.com") == adapter._product_dedupe_key("https://www.aihouse.com/")
+    assert adapter._product_dedupe_key("https://www.marpipe.com/schedule-ec") != adapter._product_dedupe_key("https://www.marpipe.com/")

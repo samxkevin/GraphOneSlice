@@ -25,7 +25,7 @@
     "name": "30characters",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -78,6 +78,81 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered platform for generating 3D assets from text or images in seconds.",
+    "entity_type": "product",
+    "id": "97a3a08c-2c57-51eb-b309-82d70f4c56a4",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for generating 3D assets from text or images in seconds.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://3daistudio.lemonsqueezy.com/",
+        "directory_handle": "3d-ai-studio",
+        "directory_id": 50,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "3d-ai-studio",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for generating 3D assets from text or images in seconds.",
+        "name": "3d-ai-studio",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for generating 3D assets from text or images in seconds.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://3daistudio.lemonsqueezy.com/",
+          "directory_handle": "3d-ai-studio",
+          "directory_id": 50,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://3daistudio.lemonsqueezy.com/"
+      },
+      "source_record_id": "ai-tools-list:product:50:3d-ai-studio",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "3d-ai-studio",
+          "operation": "normalize_name",
+          "output": "3d-ai-studio",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://3daistudio.lemonsqueezy.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://3daistudio.lemonsqueezy.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
     "entity_type": "product",
     "id": "91855355-be23-5bce-8fac-0a5513598cc9",
@@ -100,7 +175,7 @@
     "name": "adbot-your-search-ads-specialist",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -175,7 +250,7 @@
     "name": "adcopy-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -228,6 +303,81 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered solution to generate Google Ads copy quickly.",
+    "entity_type": "product",
+    "id": "c73b9c31-2811-563f-8167-0f77e0f6f3f7",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered solution to generate Google Ads copy quickly.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://adgenerator.pro/",
+        "directory_handle": "adgeneratorpro",
+        "directory_id": 29,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "adgeneratorpro",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered solution to generate Google Ads copy quickly.",
+        "name": "adgeneratorpro",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered solution to generate Google Ads copy quickly.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://adgenerator.pro/",
+          "directory_handle": "adgeneratorpro",
+          "directory_id": 29,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://adgenerator.pro/"
+      },
+      "source_record_id": "ai-tools-list:product:29:adgeneratorpro",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "adgeneratorpro",
+          "operation": "normalize_name",
+          "output": "adgeneratorpro",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://adgenerator.pro/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://adgenerator.pro/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI-powered platform for generating unlimited content and ideas for web creators.",
     "entity_type": "product",
     "id": "a1b4a3af-79a7-5462-a592-52bf9e6f3563",
@@ -250,7 +400,7 @@
     "name": "ai-suggests",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -303,6 +453,381 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals.",
+    "entity_type": "product",
+    "id": "10ac48ac-f668-50e7-9d88-7cb790ca0c11",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://aihouse.com/",
+        "directory_handle": "aihouse-com",
+        "directory_id": 63,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "aihouse-com",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals.",
+        "name": "aihouse-com",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered 3D interior design and manufacturing software for streamlined workflows and photorealistic visuals.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://aihouse.com/",
+          "directory_handle": "aihouse-com",
+          "directory_id": 63,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://aihouse.com/"
+      },
+      "source_record_id": "ai-tools-list:product:63:aihouse-com",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "aihouse-com",
+          "operation": "normalize_name",
+          "output": "aihouse-com",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://aihouse.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://aihouse.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI platform to transform text and 2D images into 3D assets.",
+    "entity_type": "product",
+    "id": "faffb1fb-729e-53e8-8a70-9382427ca6dd",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI platform to transform text and 2D images into 3D assets.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://alpha3d.io/",
+        "directory_handle": "alpha3d-io",
+        "directory_id": 54,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "alpha3d-io",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI platform to transform text and 2D images into 3D assets.",
+        "name": "alpha3d-io",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI platform to transform text and 2D images into 3D assets.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://alpha3d.io/",
+          "directory_handle": "alpha3d-io",
+          "directory_id": 54,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://alpha3d.io/"
+      },
+      "source_record_id": "ai-tools-list:product:54:alpha3d-io",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "alpha3d-io",
+          "operation": "normalize_name",
+          "output": "alpha3d-io",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://alpha3d.io/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://alpha3d.io/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered platform for creating realistic and customizable 3D avatars from 2D photos.",
+    "entity_type": "product",
+    "id": "78ff07e2-ec9a-59aa-9741-016f27d2fc5c",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for creating realistic and customizable 3D avatars from 2D photos.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://avaturn.me/",
+        "directory_handle": "avaturn-me",
+        "directory_id": 57,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "avaturn-me",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for creating realistic and customizable 3D avatars from 2D photos.",
+        "name": "avaturn-me",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for creating realistic and customizable 3D avatars from 2D photos.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://avaturn.me/",
+          "directory_handle": "avaturn-me",
+          "directory_id": 57,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://avaturn.me/"
+      },
+      "source_record_id": "ai-tools-list:product:57:avaturn-me",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "avaturn-me",
+          "operation": "normalize_name",
+          "output": "avaturn-me",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://avaturn.me/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://avaturn.me/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-driven ad platform for creating and managing high-converting ad campaigns.",
+    "entity_type": "product",
+    "id": "25fe80d0-8826-5fbd-acdd-dcbdd3738af4",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-driven ad platform for creating and managing high-converting ad campaigns.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://azameo.fr/",
+        "directory_handle": "azameo-fr",
+        "directory_id": 27,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "azameo-fr",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-driven ad platform for creating and managing high-converting ad campaigns.",
+        "name": "azameo-fr",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-driven ad platform for creating and managing high-converting ad campaigns.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://azameo.fr/",
+          "directory_handle": "azameo-fr",
+          "directory_id": 27,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://azameo.fr/"
+      },
+      "source_record_id": "ai-tools-list:product:27:azameo-fr",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "azameo-fr",
+          "operation": "normalize_name",
+          "output": "azameo-fr",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://azameo.fr/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://azameo.fr/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Backflip AI offers 3D AI tools to accelerate CAD and 3D modeling workflows.",
+    "entity_type": "product",
+    "id": "a2554985-575d-5c3a-b67f-584ebbde3eaf",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Backflip AI offers 3D AI tools to accelerate CAD and 3D modeling workflows.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://backflip.ai/",
+        "directory_handle": "backflip-ai",
+        "directory_id": 62,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "backflip-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Backflip AI offers 3D AI tools to accelerate CAD and 3D modeling workflows.",
+        "name": "backflip-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Backflip AI offers 3D AI tools to accelerate CAD and 3D modeling workflows.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://backflip.ai/",
+          "directory_handle": "backflip-ai",
+          "directory_id": 62,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://backflip.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:62:backflip-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "backflip-ai",
+          "operation": "normalize_name",
+          "output": "backflip-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://backflip.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://backflip.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI agents to optimize Google Ads spending 24/7.",
     "entity_type": "product",
     "id": "21dcea78-c226-51f2-a25c-afd4f08e4d0f",
@@ -325,7 +850,7 @@
     "name": "blobr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -378,6 +903,81 @@
     "categories": [
       "Products"
     ],
+    "description": "Free AI image generator with 2D/3D model support and customization options.",
+    "entity_type": "product",
+    "id": "0104984d-0a12-5743-8d30-9763db3bd66f",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Free AI image generator with 2D/3D model support and customization options.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://cgdream.ai/",
+        "directory_handle": "cgdream-ai",
+        "directory_id": 46,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "cgdream-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Free AI image generator with 2D/3D model support and customization options.",
+        "name": "cgdream-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Free AI image generator with 2D/3D model support and customization options.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://cgdream.ai/",
+          "directory_handle": "cgdream-ai",
+          "directory_id": 46,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://cgdream.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:46:cgdream-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "cgdream-ai",
+          "operation": "normalize_name",
+          "output": "cgdream-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://cgdream.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://cgdream.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI tool for generating compliant and high-converting Facebook ad copy.",
     "entity_type": "product",
     "id": "a03122b8-7b8d-5dbb-ad1f-7eaf53c63a4e",
@@ -400,7 +1000,7 @@
     "name": "copycop",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -453,6 +1053,231 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered tool to generate targeted PPC ad copy and improve ad campaign efficiency.",
+    "entity_type": "product",
+    "id": "12051059-f89b-54a8-a5a1-1ca8a45eb72b",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered tool to generate targeted PPC ad copy and improve ad campaign efficiency.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.copyflowpro.com/",
+        "directory_handle": "copyflow-pro",
+        "directory_id": 20,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "copyflow-pro",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered tool to generate targeted PPC ad copy and improve ad campaign efficiency.",
+        "name": "copyflow-pro",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered tool to generate targeted PPC ad copy and improve ad campaign efficiency.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.copyflowpro.com/",
+          "directory_handle": "copyflow-pro",
+          "directory_id": 20,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.copyflowpro.com/"
+      },
+      "source_record_id": "ai-tools-list:product:20:copyflow-pro",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "copyflow-pro",
+          "operation": "normalize_name",
+          "output": "copyflow-pro",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.copyflowpro.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.copyflowpro.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered copywriting tool for creating compelling marketing and promotional content.",
+    "entity_type": "product",
+    "id": "489264ab-72ba-5398-aeb6-9efe27cd1e23",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered copywriting tool for creating compelling marketing and promotional content.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.copywritergpt.io/",
+        "directory_handle": "copywritergpt-io",
+        "directory_id": 26,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "copywritergpt-io",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered copywriting tool for creating compelling marketing and promotional content.",
+        "name": "copywritergpt-io",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered copywriting tool for creating compelling marketing and promotional content.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.copywritergpt.io/",
+          "directory_handle": "copywritergpt-io",
+          "directory_id": 26,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.copywritergpt.io/"
+      },
+      "source_record_id": "ai-tools-list:product:26:copywritergpt-io",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "copywritergpt-io",
+          "operation": "normalize_name",
+          "output": "copywritergpt-io",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.copywritergpt.io/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.copywritergpt.io/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "CSM provides AI tools to generate controllable 3D worlds from images, text, and sketches.",
+    "entity_type": "product",
+    "id": "8aeb5ac5-48d6-5672-8f2b-6dbde5f4cfe6",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "CSM provides AI tools to generate controllable 3D worlds from images, text, and sketches.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://csm.ai/",
+        "directory_handle": "csm",
+        "directory_id": 56,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "csm",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "CSM provides AI tools to generate controllable 3D worlds from images, text, and sketches.",
+        "name": "csm",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "CSM provides AI tools to generate controllable 3D worlds from images, text, and sketches.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://csm.ai/",
+          "directory_handle": "csm",
+          "directory_id": 56,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://csm.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:56:csm",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "csm",
+          "operation": "normalize_name",
+          "output": "csm",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://csm.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://csm.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
     "entity_type": "product",
     "id": "eee508d0-d8a4-5948-a6fc-0276f87c427f",
@@ -475,7 +1300,7 @@
     "name": "engagexai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -528,6 +1353,81 @@
     "categories": [
       "Products"
     ],
+    "description": "AI platform generating high-quality static Meta ad creatives fast.",
+    "entity_type": "product",
+    "id": "c8e546fd-61cd-5ac6-8265-8d7602b8c3de",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI platform generating high-quality static Meta ad creatives fast.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.heyezra.co/",
+        "directory_handle": "ezra-ads",
+        "directory_id": 23,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "ezra-ads",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI platform generating high-quality static Meta ad creatives fast.",
+        "name": "ezra-ads",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI platform generating high-quality static Meta ad creatives fast.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.heyezra.co/",
+          "directory_handle": "ezra-ads",
+          "directory_id": 23,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.heyezra.co/"
+      },
+      "source_record_id": "ai-tools-list:product:23:ezra-ads",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ezra-ads",
+          "operation": "normalize_name",
+          "output": "ezra-ads",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.heyezra.co/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.heyezra.co/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
     "entity_type": "product",
     "id": "31d63eef-ee6a-5c28-8039-f4ce0be02855",
@@ -552,7 +1452,7 @@
     "name": "freeadcopy-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -607,6 +1507,156 @@
     "categories": [
       "Products"
     ],
+    "description": "AI writing assistant for content, transcription, and text-to-speech.",
+    "entity_type": "product",
+    "id": "b3a1b9ab-346b-5c1b-b669-f34d006669de",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI writing assistant for content, transcription, and text-to-speech.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://isavant.ai/",
+        "directory_handle": "isavantai",
+        "directory_id": 32,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "isavantai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI writing assistant for content, transcription, and text-to-speech.",
+        "name": "isavantai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI writing assistant for content, transcription, and text-to-speech.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://isavant.ai/",
+          "directory_handle": "isavantai",
+          "directory_id": 32,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://isavant.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:32:isavantai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "isavantai",
+          "operation": "normalize_name",
+          "output": "isavantai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://isavant.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://isavant.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered platform converting 2D images to 3D models for game development and more.",
+    "entity_type": "product",
+    "id": "c8c6d8ff-74ba-514b-8538-a9a78c3a4ff2",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform converting 2D images to 3D models for game development and more.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.kaedim3d.com/",
+        "directory_handle": "kaedim",
+        "directory_id": 58,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "kaedim",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform converting 2D images to 3D models for game development and more.",
+        "name": "kaedim",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform converting 2D images to 3D models for game development and more.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.kaedim3d.com/",
+          "directory_handle": "kaedim",
+          "directory_id": 58,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.kaedim3d.com/"
+      },
+      "source_record_id": "ai-tools-list:product:58:kaedim",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "kaedim",
+          "operation": "normalize_name",
+          "output": "kaedim",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.kaedim3d.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.kaedim3d.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
     "entity_type": "product",
     "id": "9958a1d5-31ce-5493-8088-9f668bcef6f3",
@@ -629,7 +1679,7 @@
     "name": "kilo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -682,6 +1732,306 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered platform for game research, design, and development.",
+    "entity_type": "product",
+    "id": "3c4e0c4a-8554-5883-8b68-352c13f92568",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for game research, design, and development.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://ludo.ai/",
+        "directory_handle": "ludo-ai",
+        "directory_id": 60,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "ludo-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for game research, design, and development.",
+        "name": "ludo-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for game research, design, and development.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://ludo.ai/",
+          "directory_handle": "ludo-ai",
+          "directory_id": 60,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://ludo.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:60:ludo-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ludo-ai",
+          "operation": "normalize_name",
+          "output": "ludo-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://ludo.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://ludo.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Luma AI: Capture the world in lifelike 3D with photorealistic detail.",
+    "entity_type": "product",
+    "id": "12f6c033-dc43-5ea3-a855-c06cda5f46a5",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Luma AI: Capture the world in lifelike 3D with photorealistic detail.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://lumalabs.ai/",
+        "directory_handle": "luma-ai",
+        "directory_id": 36,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "luma-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Luma AI: Capture the world in lifelike 3D with photorealistic detail.",
+        "name": "luma-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Luma AI: Capture the world in lifelike 3D with photorealistic detail.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://lumalabs.ai/",
+          "directory_handle": "luma-ai",
+          "directory_id": 36,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://lumalabs.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:36:luma-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "luma-ai",
+          "operation": "normalize_name",
+          "output": "luma-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://lumalabs.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://lumalabs.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Macbeth AI is an AI assistant for generating high-quality content, code, and images.",
+    "entity_type": "product",
+    "id": "999d24ce-357d-5482-b15b-b2f643ae6ee9",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Macbeth AI is an AI assistant for generating high-quality content, code, and images.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://macbeth.ai/",
+        "directory_handle": "macbeth-ai",
+        "directory_id": 30,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "macbeth-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Macbeth AI is an AI assistant for generating high-quality content, code, and images.",
+        "name": "macbeth-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Macbeth AI is an AI assistant for generating high-quality content, code, and images.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://macbeth.ai/",
+          "directory_handle": "macbeth-ai",
+          "directory_id": 30,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://macbeth.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:30:macbeth-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "macbeth-ai",
+          "operation": "normalize_name",
+          "output": "macbeth-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://macbeth.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://macbeth.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Mappedin is an indoor mapping platform with AI tools for creating and sharing maps.",
+    "entity_type": "product",
+    "id": "ea3d4abe-741c-500a-97c2-e9dcd55f0c85",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Mappedin is an indoor mapping platform with AI tools for creating and sharing maps.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://mappedin.com/",
+        "directory_handle": "mappedin-com",
+        "directory_id": 65,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "mappedin-com",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Mappedin is an indoor mapping platform with AI tools for creating and sharing maps.",
+        "name": "mappedin-com",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Mappedin is an indoor mapping platform with AI tools for creating and sharing maps.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://mappedin.com/",
+          "directory_handle": "mappedin-com",
+          "directory_id": 65,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://mappedin.com/"
+      },
+      "source_record_id": "ai-tools-list:product:65:mappedin-com",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "mappedin-com",
+          "operation": "normalize_name",
+          "output": "mappedin-com",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://mappedin.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://mappedin.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
     "entity_type": "product",
     "id": "b4d36c64-9373-54ee-9db7-9692ce4675e2",
@@ -704,7 +2054,7 @@
     "name": "marpipe-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -757,6 +2107,233 @@
     "categories": [
       "Products"
     ],
+    "description": "Meshy is an AI-powered platform for creating 3D assets from text and images quickly and easily.",
+    "entity_type": "product",
+    "id": "d0f89209-0233-5b7d-a4fd-29bb5bd73800",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Meshy is an AI-powered platform for creating 3D assets from text and images quickly and easily.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://app.meshy.ai/",
+        "directory_handle": "meshy",
+        "directory_id": 39,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "meshy",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Meshy is an AI-powered platform for creating 3D assets from text and images quickly and easily.",
+        "name": "meshy",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Meshy is an AI-powered platform for creating 3D assets from text and images quickly and easily.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://app.meshy.ai/",
+          "directory_handle": "meshy",
+          "directory_id": 39,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://app.meshy.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:39:meshy",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "meshy",
+          "operation": "normalize_name",
+          "output": "meshy",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://app.meshy.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://app.meshy.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Developer-first API platform for AI and machine learning models.",
+    "entity_type": "product",
+    "id": "87c7ab70-6052-503b-9b22-68405330d52d",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Developer-first API platform for AI and machine learning models.",
+          "field": "description",
+          "signals": [
+            "ai",
+            "machine learning"
+          ]
+        },
+        "canonical_url": "https://modelslab.com/",
+        "directory_handle": "modelslab-ai",
+        "directory_id": 59,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "modelslab-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Developer-first API platform for AI and machine learning models.",
+        "name": "modelslab-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Developer-first API platform for AI and machine learning models.",
+            "field": "description",
+            "signals": [
+              "ai",
+              "machine learning"
+            ]
+          },
+          "canonical_url": "https://modelslab.com/",
+          "directory_handle": "modelslab-ai",
+          "directory_id": 59,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://modelslab.com/"
+      },
+      "source_record_id": "ai-tools-list:product:59:modelslab-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "modelslab-ai",
+          "operation": "normalize_name",
+          "output": "modelslab-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://modelslab.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://modelslab.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered text editor to boost conversion sales and improve copywriting.",
+    "entity_type": "product",
+    "id": "d5646bbc-9171-5c09-b150-8b541b5f51d2",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered text editor to boost conversion sales and improve copywriting.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://ogilvyapp.com/",
+        "directory_handle": "ogilvy",
+        "directory_id": 21,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "ogilvy",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered text editor to boost conversion sales and improve copywriting.",
+        "name": "ogilvy",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered text editor to boost conversion sales and improve copywriting.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://ogilvyapp.com/",
+          "directory_handle": "ogilvy",
+          "directory_id": 21,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://ogilvyapp.com/"
+      },
+      "source_record_id": "ai-tools-list:product:21:ogilvy",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ogilvy",
+          "operation": "normalize_name",
+          "output": "ogilvy",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://ogilvyapp.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://ogilvyapp.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
     "entity_type": "product",
     "id": "cb44b1e8-8020-586e-a219-e6ad97e1d7b6",
@@ -779,7 +2356,7 @@
     "name": "omneky",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -832,6 +2409,81 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered presentation tool for creating engaging and influential media content.",
+    "entity_type": "product",
+    "id": "eaea1a2d-91f6-54da-ac0d-ed390344d5ca",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered presentation tool for creating engaging and influential media content.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.pageon.ai/",
+        "directory_handle": "pageon-ai",
+        "directory_id": 53,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "pageon-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered presentation tool for creating engaging and influential media content.",
+        "name": "pageon-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered presentation tool for creating engaging and influential media content.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.pageon.ai/",
+          "directory_handle": "pageon-ai",
+          "directory_id": 53,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.pageon.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:53:pageon-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "pageon-ai",
+          "operation": "normalize_name",
+          "output": "pageon-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.pageon.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.pageon.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI ad generator for faster ad creation and improved performance.",
     "entity_type": "product",
     "id": "a426365e-c952-542e-a8d9-dabdd06be9a8",
@@ -854,7 +2506,7 @@
     "name": "pencil",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -907,6 +2559,231 @@
     "categories": [
       "Products"
     ],
+    "description": "PixCanva AI generates QR codes, realistic images, removes backgrounds, and offers face swap.",
+    "entity_type": "product",
+    "id": "6b34f558-6228-58a2-9339-fd8ab1f72171",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "PixCanva AI generates QR codes, realistic images, removes backgrounds, and offers face swap.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.pixcanva.com/",
+        "directory_handle": "pixcanva",
+        "directory_id": 25,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "pixcanva",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "PixCanva AI generates QR codes, realistic images, removes backgrounds, and offers face swap.",
+        "name": "pixcanva",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "PixCanva AI generates QR codes, realistic images, removes backgrounds, and offers face swap.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.pixcanva.com/",
+          "directory_handle": "pixcanva",
+          "directory_id": 25,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.pixcanva.com/"
+      },
+      "source_record_id": "ai-tools-list:product:25:pixcanva",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "pixcanva",
+          "operation": "normalize_name",
+          "output": "pixcanva",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.pixcanva.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.pixcanva.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "A 3D home design tool using AI to convert 2D plans into 3D models.",
+    "entity_type": "product",
+    "id": "990aaa5a-ef5f-5b4e-87fa-1f05611811f5",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "A 3D home design tool using AI to convert 2D plans into 3D models.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://planner5d.com/ai",
+        "directory_handle": "planner-5d",
+        "directory_id": 37,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "planner-5d",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "A 3D home design tool using AI to convert 2D plans into 3D models.",
+        "name": "planner-5d",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "A 3D home design tool using AI to convert 2D plans into 3D models.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://planner5d.com/ai",
+          "directory_handle": "planner-5d",
+          "directory_id": 37,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://planner5d.com/ai"
+      },
+      "source_record_id": "ai-tools-list:product:37:planner-5d",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "planner-5d",
+          "operation": "normalize_name",
+          "output": "planner-5d",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://planner5d.com/ai",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://planner5d.com/ai"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Custom AI agent solutions for SMBs, specializing in automation across multiple channels.",
+    "entity_type": "product",
+    "id": "781b043e-ae9e-5ec2-b020-3532b7d46eb4",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Custom AI agent solutions for SMBs, specializing in automation across multiple channels.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://poweredby.agency/",
+        "directory_handle": "powered-by-agency",
+        "directory_id": 35,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "powered-by-agency",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Custom AI agent solutions for SMBs, specializing in automation across multiple channels.",
+        "name": "powered-by-agency",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Custom AI agent solutions for SMBs, specializing in automation across multiple channels.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://poweredby.agency/",
+          "directory_handle": "powered-by-agency",
+          "directory_id": 35,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://poweredby.agency/"
+      },
+      "source_record_id": "ai-tools-list:product:35:powered-by-agency",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "powered-by-agency",
+          "operation": "normalize_name",
+          "output": "powered-by-agency",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://poweredby.agency/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://poweredby.agency/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI ad generator for creating image and video ads quickly and efficiently.",
     "entity_type": "product",
     "id": "3a29dff1-9579-5b38-98e2-3d0d067c1dcb",
@@ -929,7 +2806,7 @@
     "name": "quickads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -982,6 +2859,306 @@
     "categories": [
       "Products"
     ],
+    "description": "AI-powered platform for 3D model and asset generation with various tools and features.",
+    "entity_type": "product",
+    "id": "34696b1b-0b4e-5a79-871a-a07f2c6d6a4a",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for 3D model and asset generation with various tools and features.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://hyper3d.ai/",
+        "directory_handle": "rodin",
+        "directory_id": 42,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "rodin",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for 3D model and asset generation with various tools and features.",
+        "name": "rodin",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for 3D model and asset generation with various tools and features.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://hyper3d.ai/",
+          "directory_handle": "rodin",
+          "directory_id": 42,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://hyper3d.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:42:rodin",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "rodin",
+          "operation": "normalize_name",
+          "output": "rodin",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://hyper3d.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://hyper3d.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Rosebud AI: Create 3D games and worlds with vibe coding, no coding required.",
+    "entity_type": "product",
+    "id": "b821239e-a634-54ec-9d8c-f1009926724c",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Rosebud AI: Create 3D games and worlds with vibe coding, no coding required.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.rosebud.ai/",
+        "directory_handle": "rosebud",
+        "directory_id": 52,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "rosebud",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Rosebud AI: Create 3D games and worlds with vibe coding, no coding required.",
+        "name": "rosebud",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Rosebud AI: Create 3D games and worlds with vibe coding, no coding required.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.rosebud.ai/",
+          "directory_handle": "rosebud",
+          "directory_id": 52,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.rosebud.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:52:rosebud",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "rosebud",
+          "operation": "normalize_name",
+          "output": "rosebud",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.rosebud.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.rosebud.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Cloud-based ComfyUI platform for AI art creation with fast GPUs and easy workflows.",
+    "entity_type": "product",
+    "id": "171c5ca8-3def-5932-90a9-f9037c761f30",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Cloud-based ComfyUI platform for AI art creation with fast GPUs and easy workflows.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.runcomfy.com/",
+        "directory_handle": "runcomfy",
+        "directory_id": 45,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "runcomfy",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Cloud-based ComfyUI platform for AI art creation with fast GPUs and easy workflows.",
+        "name": "runcomfy",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Cloud-based ComfyUI platform for AI art creation with fast GPUs and easy workflows.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.runcomfy.com/",
+          "directory_handle": "runcomfy",
+          "directory_id": 45,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.runcomfy.com/"
+      },
+      "source_record_id": "ai-tools-list:product:45:runcomfy",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "runcomfy",
+          "operation": "normalize_name",
+          "output": "runcomfy",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.runcomfy.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.runcomfy.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI copywriting tool for generating sales-focused content quickly in 106+ languages.",
+    "entity_type": "product",
+    "id": "9eabbe9b-bd0b-5d71-8c63-b341a603cf26",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI copywriting tool for generating sales-focused content quickly in 106+ languages.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://salesboosta.com/",
+        "directory_handle": "salesboosta-com",
+        "directory_id": 22,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "salesboosta-com",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI copywriting tool for generating sales-focused content quickly in 106+ languages.",
+        "name": "salesboosta-com",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI copywriting tool for generating sales-focused content quickly in 106+ languages.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://salesboosta.com/",
+          "directory_handle": "salesboosta-com",
+          "directory_id": 22,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://salesboosta.com/"
+      },
+      "source_record_id": "ai-tools-list:product:22:salesboosta-com",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "salesboosta-com",
+          "operation": "normalize_name",
+          "output": "salesboosta-com",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://salesboosta.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://salesboosta.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "Free AI writer for creating viral short video scripts and AI content.",
     "entity_type": "product",
     "id": "4eab4b90-8a6a-50b2-b268-face2d57a146",
@@ -1004,7 +3181,7 @@
     "name": "scrip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -1057,6 +3234,306 @@
     "categories": [
       "Products"
     ],
+    "description": "3D modeling platform with AI-powered generators and customization.",
+    "entity_type": "product",
+    "id": "7bfeb79c-578f-5d2a-ae16-a0ad24909f02",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "3D modeling platform with AI-powered generators and customization.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.sloyd.ai/",
+        "directory_handle": "sloyd",
+        "directory_id": 55,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "sloyd",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "3D modeling platform with AI-powered generators and customization.",
+        "name": "sloyd",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "3D modeling platform with AI-powered generators and customization.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.sloyd.ai/",
+          "directory_handle": "sloyd",
+          "directory_id": 55,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.sloyd.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:55:sloyd",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "sloyd",
+          "operation": "normalize_name",
+          "output": "sloyd",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.sloyd.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.sloyd.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered 3D model generator from images and text.",
+    "entity_type": "product",
+    "id": "d8c23c4a-1ff8-579f-9375-ee06dccee5ac",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered 3D model generator from images and text.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.tripo3d.ai/",
+        "directory_handle": "tripo-ai",
+        "directory_id": 38,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "tripo-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered 3D model generator from images and text.",
+        "name": "tripo-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered 3D model generator from images and text.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.tripo3d.ai/",
+          "directory_handle": "tripo-ai",
+          "directory_id": 38,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.tripo3d.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:38:tripo-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "tripo-ai",
+          "operation": "normalize_name",
+          "output": "tripo-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.tripo3d.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.tripo3d.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered platform for automated content creation and AI assistance.",
+    "entity_type": "product",
+    "id": "da466d03-b51d-5d2a-aefa-5ae51a4fe5e8",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for automated content creation and AI assistance.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "http://unboundcontent.ai/",
+        "directory_handle": "unbound",
+        "directory_id": 34,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "unbound",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for automated content creation and AI assistance.",
+        "name": "unbound",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for automated content creation and AI assistance.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "http://unboundcontent.ai/",
+          "directory_handle": "unbound",
+          "directory_id": 34,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "http://unboundcontent.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:34:unbound",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "unbound",
+          "operation": "normalize_name",
+          "output": "unbound",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:http://unboundcontent.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "http://unboundcontent.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered creative tool for designers to transform sketches into renders and 3D models.",
+    "entity_type": "product",
+    "id": "10827c11-ea06-5ce4-9721-39964dcbdf09",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered creative tool for designers to transform sketches into renders and 3D models.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.vizcom.ai/",
+        "directory_handle": "vizcom",
+        "directory_id": 47,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "vizcom",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered creative tool for designers to transform sketches into renders and 3D models.",
+        "name": "vizcom",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered creative tool for designers to transform sketches into renders and 3D models.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.vizcom.ai/",
+          "directory_handle": "vizcom",
+          "directory_id": 47,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.vizcom.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:47:vizcom",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "vizcom",
+          "operation": "normalize_name",
+          "output": "vizcom",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.vizcom.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.vizcom.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
     "description": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
     "entity_type": "product",
     "id": "00c2af9d-de57-55aa-812d-e4e9646011a7",
@@ -1080,7 +3557,7 @@
     "name": "wonderchat",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -1129,5 +3606,155 @@
       "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
     },
     "url": "https://wonderchat.io/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered copywriting app for iOS to automate ad copy creation and drive conversions.",
+    "entity_type": "product",
+    "id": "17382691-3101-53cd-b5f9-01c246590419",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered copywriting app for iOS to automate ad copy creation and drive conversions.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.wordcopyai.com/",
+        "directory_handle": "wordcopyai",
+        "directory_id": 28,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "wordcopyai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered copywriting app for iOS to automate ad copy creation and drive conversions.",
+        "name": "wordcopyai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered copywriting app for iOS to automate ad copy creation and drive conversions.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.wordcopyai.com/",
+          "directory_handle": "wordcopyai",
+          "directory_id": 28,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.wordcopyai.com/"
+      },
+      "source_record_id": "ai-tools-list:product:28:wordcopyai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "wordcopyai",
+          "operation": "normalize_name",
+          "output": "wordcopyai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.wordcopyai.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.wordcopyai.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI writing assistant with essay writing, content rewriting, and AI detection tools.",
+    "entity_type": "product",
+    "id": "620b13ce-8d03-550c-8960-49e4f677540c",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI writing assistant with essay writing, content rewriting, and AI detection tools.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.writeconch.ai/",
+        "directory_handle": "write-conch-ai",
+        "directory_id": 19,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "write-conch-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T16:50:23.807236+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI writing assistant with essay writing, content rewriting, and AI detection tools.",
+        "name": "write-conch-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI writing assistant with essay writing, content rewriting, and AI detection tools.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.writeconch.ai/",
+          "directory_handle": "write-conch-ai",
+          "directory_id": 19,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.writeconch.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:19:write-conch-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "write-conch-ai",
+          "operation": "normalize_name",
+          "output": "write-conch-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.writeconch.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.writeconch.ai/"
   }
 ]

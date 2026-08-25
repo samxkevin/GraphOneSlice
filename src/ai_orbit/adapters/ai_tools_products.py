@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 import json
 import re
 from typing import Any
+from urllib.parse import urlsplit
 
 from src.ai_orbit.adapters.base import SourceAdapter
 from src.ai_orbit.config import AIOrbitSettings
@@ -22,6 +23,16 @@ AI_PRODUCT_TERMS = {
     "generative",
     "stable diffusion",
 }
+
+# Product records must be distinct AI products, services, or platforms.
+# The directory also contains occasional guides/model-family/company blurbs;
+# those stay out of Product entities even when they mention AI.
+_NON_PRODUCT_DESCRIPTION_PATTERNS = (
+    re.compile(r"^\s*(?:a\s+)?guide\b", re.I),
+    re.compile(r"\bguide\s+to\b", re.I),
+    re.compile(r"\b(?:article|blog|newsletter|tutorial|course)\b", re.I),
+    re.compile(r"\bdevelops\s+(?:open-source\s+)?ai\s+models\b", re.I),
+)
 
 
 class AIToolsProductDirectoryAdapter(SourceAdapter):
@@ -114,16 +125,17 @@ class AIToolsProductDirectoryAdapter(SourceAdapter):
         evidence_url = self._html_url or source_url
         now = datetime.now(timezone.utc)
         records: list[RawEntityRecord] = []
-        seen_urls: set[str] = set()
+        seen_product_urls: set[str] = set()
         for row in self._cache:
             if len(records) >= self.settings.ai_tools_product_limit:
                 break
             record = self._record_from_row(row, source_url=source_url, evidence_url=evidence_url, fetched_at=now)
             if record is None:
                 continue
-            if record.url in seen_urls:
+            product_url_key = self._product_dedupe_key(record.url)
+            if product_url_key in seen_product_urls:
                 continue
-            seen_urls.add(record.url)
+            seen_product_urls.add(product_url_key)
             records.append(record)
         return records
 
@@ -188,7 +200,23 @@ class AIToolsProductDirectoryAdapter(SourceAdapter):
             return False
         if not isinstance(description, str) or not description.strip():
             return False
+        if not self._has_product_identity_evidence(description):
+            return False
         return self._ai_relevance_evidence(description) is not None
+
+    def _has_product_identity_evidence(self, description: str) -> bool:
+        return not any(pattern.search(description) for pattern in _NON_PRODUCT_DESCRIPTION_PATTERNS)
+
+    def _product_dedupe_key(self, url: str) -> str:
+        normalized = normalize_url(url)
+        parts = urlsplit(normalized)
+        host = parts.netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        path = parts.path or "/"
+        if path == "/":
+            path = ""
+        return f"{parts.scheme}://{host}{path}"
 
     def _ai_relevance_evidence(self, description: str) -> dict[str, Any] | None:
         normalized = f" {re.sub(r'[^a-z0-9]+', ' ', description.lower()).strip()} "

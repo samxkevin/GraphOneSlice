@@ -11,6 +11,7 @@ from src.ai_orbit.adapters.github import GitHubAdapter
 from src.ai_orbit.adapters.huggingface import HuggingFaceProbeAdapter
 from src.ai_orbit.adapters.npm_mcp import NpmMcpAdapter
 from src.ai_orbit.adapters.npm_search_tools import NpmSearchToolAdapter
+from src.ai_orbit.adapters.models_dev_catalog import ModelsDevGitHubCatalogAdapter
 from src.ai_orbit.adapters.official_sdk_models import OfficialSDKModelAdapter
 from src.ai_orbit.adapters.openai_rss_probe import OpenAIRssProbeAdapter
 from src.ai_orbit.adapters.pypi import PyPIPackageAdapter
@@ -36,6 +37,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         NpmSearchToolAdapter(settings),
         OfficialSDKModelAdapter(settings),
         AIToolsProductDirectoryAdapter(settings),
+        ModelsDevGitHubCatalogAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),
