@@ -65,6 +65,12 @@ class AIOrbitSettings(BaseSettings):
     )
     models_dev_model_limit: int = Field(default=12, validation_alias="AI_ORBIT_MODELS_DEV_MODEL_LIMIT")
 
+    ros_robots_catalog_api_url: str = Field(
+        default="https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts",
+        validation_alias="AI_ORBIT_ROS_ROBOTS_CATALOG_API_URL",
+    )
+    ros_robots_limit: int = Field(default=15, validation_alias="AI_ORBIT_ROS_ROBOTS_LIMIT")
+
     @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", "npm_search_tool_queries", mode="before")
     @classmethod
     def parse_csv_lists(cls, value: str | list[str]) -> list[str]:

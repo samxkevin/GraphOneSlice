@@ -15,6 +15,7 @@ from src.ai_orbit.adapters.models_dev_catalog import ModelsDevGitHubCatalogAdapt
 from src.ai_orbit.adapters.official_sdk_models import OfficialSDKModelAdapter
 from src.ai_orbit.adapters.openai_rss_probe import OpenAIRssProbeAdapter
 from src.ai_orbit.adapters.pypi import PyPIPackageAdapter
+from src.ai_orbit.adapters.ros_robots import RosRobotsCatalogAdapter
 from src.ai_orbit.config import AIOrbitSettings, get_ai_orbit_settings
 from src.ai_orbit.models import PipelineState, RawEntityRecord
 from src.ai_orbit.stages.classification import classify_and_create_tasks
@@ -38,6 +39,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         OfficialSDKModelAdapter(settings),
         AIToolsProductDirectoryAdapter(settings),
         ModelsDevGitHubCatalogAdapter(settings),
+        RosRobotsCatalogAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),

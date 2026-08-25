@@ -50,7 +50,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `133`
+- valid entities: `148`
 - valid relationships: `50`
 - validation status: `passed`
 - validation failures: `0`
@@ -58,16 +58,16 @@ Current generated artifacts report:
 - provenance coverage: `100%`
 - recorded source failures: `13`
 - duplicate/shared URL warnings: `4`
-- test result: `81 passed`
+- test result: `85 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, and Models.dev GitHub model-catalog ingestion. The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, and ROS Robots Catalog ingestion. The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
-- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, and task mapping guardrails are covered by automated tests.
-- **PLANNED**: Broader product coverage beyond the bounded sample, plus news, jobs, videos, robots, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, and task mapping guardrails are covered by automated tests.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus news, jobs, videos, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields.
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
@@ -247,6 +247,24 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - The source `created` field is preserved as source metadata but is **not** treated as an independently verified model release date.
 - Direct `https://models.dev/api.json` probing still fails in this environment; this adapter uses the reachable GitHub source path for the same open-source catalog.
 
+#### ROS Robots Catalog
+
+- Access: GitHub REST contents API for `ros-infrastructure/robots.ros.org` Jekyll `_posts` Markdown records.
+- Used for: bounded Robot records, not robotics software repositories.
+- Latest verified inventory: `208` post files listed; `30` sampled; `29` sampled usable Robot records after semantic filtering.
+- Current bounded ingestion limit: `15`.
+- Supplies source-backed robot fields:
+  - title/name;
+  - catalog post date;
+  - introduction/description/body text;
+  - robot class such as ground/aerial/marine/component;
+  - tags;
+  - website and/or ROS wiki homepage where supplied;
+  - source catalog post URL.
+- Does **not** supply a dedicated manufacturer/provider field. Those remain `null`.
+- The front-matter date is preserved as `robot.catalog_posted_at`; it is the catalog post date and is **not** treated as a robot launch date.
+- The adapter rejects observed software-support blurbs such as ROS-Industrial repository/support records even when they appear in the catalog.
+
 ### Feasibility probes without accepted records
 
 The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
@@ -324,7 +342,15 @@ Implemented metadata support includes:
   - canonical URL;
   - provider when supplied;
   - AI relevance evidence;
-  - current product records have directory identity/URL/description evidence, while provider remains `null` because the source does not reliably supply it.
+  - current product records have directory identity/URL/description evidence, while provider remains `null` because the source does not reliably supply it;
+- robots:
+  - catalog slug/URL;
+  - robot class;
+  - tags;
+  - website/wiki homepage when supplied;
+  - catalog post date;
+  - identity evidence;
+  - manufacturer/provider remain `null` because the ROS Robots source does not expose dedicated manufacturer/provider fields.
 
 ## Entity resolution and mapping log
 
@@ -492,7 +518,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-81 passed
+85 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -512,7 +538,8 @@ AI Orbit-specific tests cover:
 - NPM MCP `New/Recently Added` category evidence from source publication timestamps rather than version-string shape;
 - task mapping guardrails for derived integration-target tools and overly broad filesystem wording;
 - Product entity validation, AI Tools List product-directory filtering, Product semantic rejects, and Product URL deduplication;
-- Models.dev catalog filtering and model metadata preservation.
+- Models.dev catalog filtering and model metadata preservation;
+- ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection.
 
 ## Generated artifacts
 
@@ -553,6 +580,8 @@ Important values:
 - `AI_ORBIT_AI_TOOLS_PRODUCT_LIMIT`
 - `AI_ORBIT_MODELS_DEV_GITHUB_CATALOG_API_URL`
 - `AI_ORBIT_MODELS_DEV_MODEL_LIMIT`
+- `AI_ORBIT_ROS_ROBOTS_CATALOG_API_URL`
+- `AI_ORBIT_ROS_ROBOTS_LIMIT`
 - `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
 No real credentials are committed.
@@ -561,7 +590,7 @@ No real credentials are committed.
 
 - Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, and the Models.dev GitHub model catalog.
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, and the ROS Robots Catalog.
 - Feasibility-only probes for startup/company, product, model, model-enrichment, news/story, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
@@ -575,12 +604,12 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `133` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `148` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
 - Find reachable news feeds/APIs with publication timestamps; current tested news/story candidates failed in this environment or do not yet establish external article publication time.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
-- Add products/robots/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
+- Add broader products/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
 - Add `Device → runs → Model` relationships only from direct source evidence.
 - Improve assessment-scale cross-source entity resolution as more source families are added.
 
@@ -589,7 +618,8 @@ No real credentials are committed.
 - This is not yet the final 250–300 record dataset.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
 - Model license is not populated; the official SDK model source does not supply modalities, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
-- Current jobs/news categories have no accepted records because tested sources were not reachable or did not yet prove required timestamp semantics, and no fallback data was fabricated.
+- Current jobs/news/video/device/personal categories have no accepted records because tested sources were not reachable or did not yet prove required identity/timestamp semantics, and no fallback data was fabricated.
 - Product coverage is currently limited to a bounded directory sample; provider/company and launch-time metadata remain unavailable from that source. Packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
+- Robot coverage is currently limited to a bounded ROS Robots catalog sample; manufacturer/provider are not populated because the source does not expose dedicated fields.
 - Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
 - Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

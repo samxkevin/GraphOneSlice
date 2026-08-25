@@ -180,6 +180,14 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "product.canonical_url required"})
         if not product.get("ai_relevance_evidence"):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "product.ai_relevance_evidence required"})
+    robot = entity.metadata.get("robot") if entity.metadata else None
+    if entity.entity_type == "robot" and not robot:
+        failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "robot metadata required for robot entities"})
+    if entity.entity_type == "robot" and robot:
+        if not robot.get("catalog_url") or not is_valid_http_url(robot.get("catalog_url")):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "robot.catalog_url required"})
+        if not robot.get("identity_evidence"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "robot.identity_evidence required"})
     model = entity.metadata.get("model") if entity.metadata else None
     if entity.entity_type == "model" and not model:
         failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model metadata required for model entities"})

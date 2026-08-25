@@ -1270,6 +1270,156 @@
     "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
   },
   {
+    "canonical_id": "ab11b687-6bb8-5f0c-9cb0-b6c91c0db7c1",
+    "canonical_value": "PR2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:pr2",
+    "raw_value": "PR2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-06-22-pr2.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "4694ad75-e832-54f4-babd-9eaae34bf893",
+    "canonical_value": "TurtleBot2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:turtlebot",
+    "raw_value": "TurtleBot2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-07-turtlebot.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "0622826d-9a20-59ba-8c3e-c885be2dcc28",
+    "canonical_value": "Erle-Copter",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:erlecopter",
+    "raw_value": "Erle-Copter",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-08-erlecopter.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "e11eca33-9bdf-5e73-95e3-76aac5a3da25",
+    "canonical_value": "AMIGO",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:amigo",
+    "raw_value": "AMIGO",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-amigo.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "5f343062-158b-5708-ba66-fb60d8d7e9a5",
+    "canonical_value": "AsTec Pelican and Hummingbird",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:astec-pelican-and-hummingbird",
+    "raw_value": "AsTec Pelican and Hummingbird",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-astec-pelican-and-hummingbird.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "7b59128e-2ae2-521f-8ede-e739bf1d611f",
+    "canonical_value": "Innok Heros",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:innok-heros",
+    "raw_value": "Innok Heros",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-innok-heros.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "13476ad3-029f-5377-ae43-f6cec0a5f0e3",
+    "canonical_value": "Nao",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:nao",
+    "raw_value": "Nao",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-nao.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "8b48e2db-a1da-5280-bef6-45f5a01a1325",
+    "canonical_value": "Oculus Prime",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:oculus-prime",
+    "raw_value": "Oculus Prime",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-oculus-prime.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "ada35948-dac0-5c25-8647-18ac1c0d42ac",
+    "canonical_value": "Segway RMPv3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:segway-rmpv3",
+    "raw_value": "Segway RMPv3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-segway-rmpv3.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "3e63c810-241b-54ea-9e27-dc7031d21a5a",
+    "canonical_value": "BipedRobin",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:bipedrobin",
+    "raw_value": "BipedRobin",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-bipedrobin.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "086b4c0a-65f2-5940-a2de-df62977e30bc",
+    "canonical_value": "Crazyflie",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:crazyflie",
+    "raw_value": "Crazyflie",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-crazyflie.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "744c90a0-da9c-5b6e-a995-754d31eda9ed",
+    "canonical_value": "Allegro Hand",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:allegro-hand",
+    "raw_value": "Allegro Hand",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-allegro-hand.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "1f84f16c-063f-5490-b872-06a4746cb011",
+    "canonical_value": "Barrett Hand",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:barrett-hand",
+    "raw_value": "Barrett Hand",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-barrett-hand.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "c5730beb-305d-55e3-a85a-114afa93cb73",
+    "canonical_value": "BlueROV",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:bluerov",
+    "raw_value": "BlueROV",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-bluerov.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "e4ec2e59-2d3c-571a-8f37-e7280fe9f120",
+    "canonical_value": "Clearpath Husky UGV",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:husky",
+    "raw_value": "Clearpath Husky UGV",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
+  },
+  {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
     "canonical_value": "autonomous agent workflows",
     "confidence": 0.92,
