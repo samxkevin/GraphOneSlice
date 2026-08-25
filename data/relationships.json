@@ -1,0 +1,265 @@
+[
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "Anthropic <support@anthropic.com>"
+      },
+      "source_url": "https://pypi.org/pypi/anthropic/json"
+    },
+    "id": "16d5ca99-8540-5441-a098-0a450ebd1027",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/anthropic/json"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "c39b606e-3394-56fb-bbde-b1f472e08ae2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "chatgpt",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "id": "1bfdcde6-db92-54ff-b016-bf6af5b389b6",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "source_entity_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "Groq <support@groq.com>"
+      },
+      "source_url": "https://pypi.org/pypi/groq/json"
+    },
+    "id": "3e86abcf-2139-5e93-8d34-79f940179756",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/groq/json"
+    },
+    "source_entity_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf",
+    "target_entity_id": "c28d6dc8-b308-5d23-a60d-bb4706e91c13"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "machine-learning",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "id": "5311f9e7-3458-54a7-9c51-24c70faea7a8",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
+    "target_entity_id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "llm",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "id": "5844e014-39f2-511c-a2cf-34698595c5eb",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
+    "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": "Mistral",
+        "author_email": null
+      },
+      "source_url": "https://pypi.org/pypi/mistralai/json"
+    },
+    "id": "5e3f2b57-7c61-5d08-8ea2-d4e3d759d596",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/mistralai/json"
+    },
+    "source_entity_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
+    "target_entity_id": "235eb008-8407-579d-ae36-49a0ca312fe5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "llm",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "id": "671f5739-8283-5470-ac69-81e32524b752",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "source_entity_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "filesystem",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "id": "674a0187-214e-5886-83fe-78e975b98536",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "source_entity_id": "5b2129ed-c538-58c6-999d-4387a6bf5738",
+    "target_entity_id": "5bcd60d9-8f22-52d7-8a01-253dc024f904"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "sequential thinking",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "id": "8ecc08cf-4566-54dd-9fc4-6421d29b5463",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "source_entity_id": "3d504ea5-4abd-522b-8cac-1dd3772b6a2c",
+    "target_entity_id": "a5f81972-f7b8-543e-8019-1f654ecae154"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "memory",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "id": "acc2231d-814e-5962-9415-b811e839b844",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "source_entity_id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
+    "target_entity_id": "14149889-d8fa-5384-87db-95103eec7439"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "OpenAI <support@openai.com>"
+      },
+      "source_url": "https://pypi.org/pypi/openai/json"
+    },
+    "id": "d107dfde-4f68-50fa-af23-867c4d936cfe",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/openai/json"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "9850b875-7965-57f0-a25a-1518f67a2952"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "GitHub API",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "id": "e1d597a3-ab06-587d-88f5-265c6b051dc3",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "description",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "value": "MCP server for using the GitHub API"
+    },
+    "id": "e7433b12-088c-53fe-aef1-d58e8750e1be",
+    "method": "npm_package_description",
+    "relationship_type": "integrates_with",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "target_entity_id": "05ab724d-899b-524a-ba66-19cdfc43d021"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    },
+    "id": "ec9911c5-c39a-5d1f-b065-2c1d69be3a83",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    },
+    "source_entity_id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "GitHub API",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "id": "f523690e-437d-5599-a3c1-098aaafac238",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "source_entity_id": "05ab724d-899b-524a-ba66-19cdfc43d021",
+    "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
+  }
+]

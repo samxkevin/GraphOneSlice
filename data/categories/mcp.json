@@ -1,0 +1,284 @@
+[
+  {
+    "categories": [
+      "MCP",
+      "Tools",
+      "New/Recently Added"
+    ],
+    "description": "MCP server for filesystem access",
+    "entity_type": "mcp",
+    "id": "5b2129ed-c538-58c6-999d-4387a6bf5738",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "mcp-server-filesystem": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+        "package_name": "@modelcontextprotocol/server-filesystem",
+        "runtime_requirements": null,
+        "version": "2026.7.10"
+      }
+    },
+    "name": "@modelcontextprotocol/server-filesystem",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "observed_fields": {
+        "categories": [
+          "MCP",
+          "Tools",
+          "New/Recently Added"
+        ],
+        "description": "MCP server for filesystem access",
+        "mcp": {
+          "bin": {
+            "mcp-server-filesystem": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+          "package_name": "@modelcontextprotocol/server-filesystem",
+          "runtime_requirements": null,
+          "version": "2026.7.10"
+        },
+        "name": "@modelcontextprotocol/server-filesystem",
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+      },
+      "source_record_id": "npm:package:@modelcontextprotocol/server-filesystem",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@modelcontextprotocol/server-filesystem",
+          "operation": "normalize_name",
+          "output": "@modelcontextprotocol/server-filesystem",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+  },
+  {
+    "categories": [
+      "MCP",
+      "Tools"
+    ],
+    "description": "MCP server for using the GitHub API",
+    "entity_type": "mcp",
+    "id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "mcp-server-github": "dist/index.js"
+        },
+        "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
+        "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+        "package_name": "@modelcontextprotocol/server-github",
+        "runtime_requirements": null,
+        "version": "2025.4.8"
+      }
+    },
+    "name": "@modelcontextprotocol/server-github",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "observed_fields": {
+        "categories": [
+          "MCP",
+          "Tools"
+        ],
+        "description": "MCP server for using the GitHub API",
+        "mcp": {
+          "bin": {
+            "mcp-server-github": "dist/index.js"
+          },
+          "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
+          "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+          "package_name": "@modelcontextprotocol/server-github",
+          "runtime_requirements": null,
+          "version": "2025.4.8"
+        },
+        "name": "@modelcontextprotocol/server-github",
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+      },
+      "source_record_id": "npm:package:@modelcontextprotocol/server-github",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@modelcontextprotocol/server-github",
+          "operation": "normalize_name",
+          "output": "@modelcontextprotocol/server-github",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  },
+  {
+    "categories": [
+      "MCP",
+      "Tools",
+      "New/Recently Added"
+    ],
+    "description": "MCP server for enabling memory for Claude through a knowledge graph",
+    "entity_type": "mcp",
+    "id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "mcp-server-memory": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+        "package_name": "@modelcontextprotocol/server-memory",
+        "runtime_requirements": null,
+        "version": "2026.7.4"
+      }
+    },
+    "name": "@modelcontextprotocol/server-memory",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "observed_fields": {
+        "categories": [
+          "MCP",
+          "Tools",
+          "New/Recently Added"
+        ],
+        "description": "MCP server for enabling memory for Claude through a knowledge graph",
+        "mcp": {
+          "bin": {
+            "mcp-server-memory": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+          "package_name": "@modelcontextprotocol/server-memory",
+          "runtime_requirements": null,
+          "version": "2026.7.4"
+        },
+        "name": "@modelcontextprotocol/server-memory",
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+      },
+      "source_record_id": "npm:package:@modelcontextprotocol/server-memory",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@modelcontextprotocol/server-memory",
+          "operation": "normalize_name",
+          "output": "@modelcontextprotocol/server-memory",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+  },
+  {
+    "categories": [
+      "MCP",
+      "Tools",
+      "New/Recently Added"
+    ],
+    "description": "MCP server for sequential thinking and problem solving",
+    "entity_type": "mcp",
+    "id": "3d504ea5-4abd-522b-8cac-1dd3772b6a2c",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "mcp-server-sequential-thinking": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+        "package_name": "@modelcontextprotocol/server-sequential-thinking",
+        "runtime_requirements": null,
+        "version": "2026.7.4"
+      }
+    },
+    "name": "@modelcontextprotocol/server-sequential-thinking",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "observed_fields": {
+        "categories": [
+          "MCP",
+          "Tools",
+          "New/Recently Added"
+        ],
+        "description": "MCP server for sequential thinking and problem solving",
+        "mcp": {
+          "bin": {
+            "mcp-server-sequential-thinking": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+          "package_name": "@modelcontextprotocol/server-sequential-thinking",
+          "runtime_requirements": null,
+          "version": "2026.7.4"
+        },
+        "name": "@modelcontextprotocol/server-sequential-thinking",
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+      },
+      "source_record_id": "npm:package:@modelcontextprotocol/server-sequential-thinking",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@modelcontextprotocol/server-sequential-thinking",
+          "operation": "normalize_name",
+          "output": "@modelcontextprotocol/server-sequential-thinking",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+  }
+]
