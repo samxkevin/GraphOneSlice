@@ -2,11 +2,11 @@
 
 This repository now contains **two distinct ingestion workstreams**. They share engineering principles, but their outputs must not be conflated.
 
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-CE8837?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/samxkevin/GraphOneSlice/blob/main/LICENSE)
-[![Google Sheet](https://img.shields.io/badge/Google_Sheet-Live_Data-34A853?style=flat-square&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)   
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-CE8837?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/samxkevin/GraphOneSlice/blob/main/LICENSE)
+[![Google Sheet](https://img.shields.io/badge/Google_Sheet-Live_Data-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)    
 
-## Workstream A — existing research-paper pipeline
+## Workstream A : existing research-paper pipeline
 
 The original repository workstream predates the AI Orbit JSON pipeline. It remains in the existing modules under `src/adapters`, `src/parsers`, `src/pipeline`, `src/storage`, `src/validator`, and related packages.
 
@@ -25,7 +25,7 @@ arXiv
 
 The live 1,000-paper research-paper run is **separate** from the newer AI Orbit pipeline. The repository does not claim that those 1,000 research-paper records passed through the AI Orbit entity graph or through the LLM review chain.
 
-## Workstream B — AI Orbit ingestion pipeline
+## Workstream B : AI Orbit ingestion pipeline
 
 The AI Orbit pipeline lives under `src/ai_orbit/` and implements:
 
@@ -278,20 +278,20 @@ The pipeline also records feasibility probes for candidate sources before implem
 
 Current probes include:
 
-- Hugging Face Hub API — models, currently unusable in this environment due TLS/network failure.
-- OpenAI News RSS — news, currently unusable in this environment due TLS/network failure.
-- Y Combinator Companies AI page — startups/companies, currently unusable due TLS/network failure before HTML inspection.
-- Product Hunt GraphQL — products, currently unusable due TLS/network failure before schema/auth inspection.
-- Hacker News Algolia AI Stories — news/story candidate, currently unusable due TLS/network failure before JSON field inspection; even if reachable, external article publication time would still need validation.
-- Himalayas AI Jobs API — jobs candidate, currently unusable due TLS/network failure before posting timestamp inspection.
-- GDELT AI News API — news candidate, currently unusable due TLS/network failure; GDELT seendate is not assumed to be publisher publication time.
-- Models.dev Model Metadata API — model-enrichment candidate, currently unusable due TLS/network failure before modalities/license inspection.
-- NPM Search AI Packages — products/tools, currently `partial`; reachable, but package search results are not automatically product records.
-- OpenRouter Models API — models, currently unusable due TLS/network failure.
-- TechCrunch AI RSS — news, currently unusable due TLS/network failure.
-- VentureBeat AI RSS — news, currently unusable due TLS/network failure.
-- Remotive AI Jobs API — jobs, currently unusable due TLS/network failure.
-- RemoteOK Jobs API — jobs, currently unusable due TLS/network failure.
+- Hugging Face Hub API : models, currently unusable in this environment due TLS/network failure.
+- OpenAI News RSS : news, currently unusable in this environment due TLS/network failure.
+- Y Combinator Companies AI page : startups/companies, currently unusable due TLS/network failure before HTML inspection.
+- Product Hunt GraphQL : products, currently unusable due TLS/network failure before schema/auth inspection.
+- Hacker News Algolia AI Stories : news/story candidate, currently unusable due TLS/network failure before JSON field inspection; even if reachable, external article publication time would still need validation.
+- Himalayas AI Jobs API : jobs candidate, currently unusable due TLS/network failure before posting timestamp inspection.
+- GDELT AI News API : news candidate, currently unusable due TLS/network failure; GDELT seendate is not assumed to be publisher publication time.
+- Models.dev Model Metadata API : model-enrichment candidate, currently unusable due TLS/network failure before modalities/license inspection.
+- NPM Search AI Packages : products/tools, currently `partial`; reachable, but package search results are not automatically product records.
+- OpenRouter Models API : models, currently unusable due TLS/network failure.
+- TechCrunch AI RSS : news, currently unusable due TLS/network failure.
+- VentureBeat AI RSS : news, currently unusable due TLS/network failure.
+- Remotive AI Jobs API : jobs, currently unusable due TLS/network failure.
+- RemoteOK Jobs API : jobs, currently unusable due TLS/network failure.
 
 No source is marked usable without observed evidence.
 
