@@ -1,6 +1,127 @@
 [
   {
     "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "LangChain.js adapters for Model Context Protocol (MCP)",
+    "entity_type": "mcp",
+    "id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
+    "metadata": {
+      "mcp": {
+        "bin": null,
+        "deprecated": null,
+        "installation_method": "npm package @langchain/mcp-adapters",
+        "package_name": "@langchain/mcp-adapters",
+        "runtime_requirements": {
+          "node": ">=20.10.0"
+        },
+        "version": "1.1.4"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 1026556,
+          "weekly": 270970
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "langchain",
+          "mcp",
+          "model-context-protocol",
+          "ai",
+          "tools"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+          "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters/",
+          "npm": "https://www.npmjs.com/package/@langchain/mcp-adapters",
+          "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+        },
+        "package_date": "2026-08-20T01:16:28.841Z",
+        "package_name": "@langchain/mcp-adapters",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:46:22.234Z",
+        "version": "1.1.4"
+      }
+    },
+    "name": "@langchain/mcp-adapters",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "LangChain.js adapters for Model Context Protocol (MCP)",
+        "mcp": {
+          "bin": null,
+          "deprecated": null,
+          "installation_method": "npm package @langchain/mcp-adapters",
+          "package_name": "@langchain/mcp-adapters",
+          "runtime_requirements": {
+            "node": ">=20.10.0"
+          },
+          "version": "1.1.4"
+        },
+        "name": "@langchain/mcp-adapters",
+        "package": {
+          "downloads": {
+            "monthly": 1026556,
+            "weekly": 270970
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "langchain",
+            "mcp",
+            "model-context-protocol",
+            "ai",
+            "tools"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+            "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters/",
+            "npm": "https://www.npmjs.com/package/@langchain/mcp-adapters",
+            "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+          },
+          "package_date": "2026-08-20T01:16:28.841Z",
+          "package_name": "@langchain/mcp-adapters",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:46:22.234Z",
+          "version": "1.1.4"
+        },
+        "url": "https://www.npmjs.com/package/@langchain/mcp-adapters"
+      },
+      "source_record_id": "npm-search:package:@langchain/mcp-adapters",
+      "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@langchain/mcp-adapters",
+          "operation": "normalize_name",
+          "output": "@langchain/mcp-adapters",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/@langchain/mcp-adapters",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+    },
+    "url": "https://www.npmjs.com/package/@langchain/mcp-adapters"
+  },
+  {
+    "categories": [
       "MCP",
       "Tools",
       "New/Recently Added"
@@ -23,7 +144,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -93,7 +214,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -163,7 +284,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -234,7 +355,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -280,5 +401,643 @@
       "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
     },
     "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Add MCP servers to your favorite coding agents with a single command.",
+    "entity_type": "mcp",
+    "id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "add-mcp": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package add-mcp",
+        "package_name": "add-mcp",
+        "runtime_requirements": {
+          "node": ">=18"
+        },
+        "version": "2.3.0"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 664610,
+          "weekly": 142616
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "cli",
+          "mcp",
+          "model-context-protocol",
+          "ai-agents",
+          "antigravity",
+          "cline",
+          "claude-code",
+          "claude-desktop",
+          "codex",
+          "cursor",
+          "fx",
+          "github-copilot-cli",
+          "gemini-cli",
+          "goose",
+          "grok",
+          "grok-build",
+          "kilo-code",
+          "kimi-code",
+          "kiro",
+          "kiro-cli",
+          "mcporter",
+          "opencode",
+          "vscode",
+          "windsurf",
+          "zed"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/neon-solutions/add-mcp/issues",
+          "homepage": "https://github.com/neon-solutions/add-mcp#readme",
+          "npm": "https://www.npmjs.com/package/add-mcp",
+          "repository": "git+https://github.com/neon-solutions/add-mcp.git"
+        },
+        "package_date": "2026-08-24T14:58:21.312Z",
+        "package_name": "add-mcp",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:47:29.083Z",
+        "version": "2.3.0"
+      }
+    },
+    "name": "add-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Add MCP servers to your favorite coding agents with a single command.",
+        "mcp": {
+          "bin": {
+            "add-mcp": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package add-mcp",
+          "package_name": "add-mcp",
+          "runtime_requirements": {
+            "node": ">=18"
+          },
+          "version": "2.3.0"
+        },
+        "name": "add-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 664610,
+            "weekly": 142616
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "cli",
+            "mcp",
+            "model-context-protocol",
+            "ai-agents",
+            "antigravity",
+            "cline",
+            "claude-code",
+            "claude-desktop",
+            "codex",
+            "cursor",
+            "fx",
+            "github-copilot-cli",
+            "gemini-cli",
+            "goose",
+            "grok",
+            "grok-build",
+            "kilo-code",
+            "kimi-code",
+            "kiro",
+            "kiro-cli",
+            "mcporter",
+            "opencode",
+            "vscode",
+            "windsurf",
+            "zed"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/neon-solutions/add-mcp/issues",
+            "homepage": "https://github.com/neon-solutions/add-mcp#readme",
+            "npm": "https://www.npmjs.com/package/add-mcp",
+            "repository": "git+https://github.com/neon-solutions/add-mcp.git"
+          },
+          "package_date": "2026-08-24T14:58:21.312Z",
+          "package_name": "add-mcp",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:47:29.083Z",
+          "version": "2.3.0"
+        },
+        "url": "https://www.npmjs.com/package/add-mcp"
+      },
+      "source_record_id": "npm-search:package:add-mcp",
+      "source_url": "https://registry.npmjs.org/add-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "add-mcp",
+          "operation": "normalize_name",
+          "output": "add-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/add-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/add-mcp"
+    },
+    "url": "https://www.npmjs.com/package/add-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+    "entity_type": "mcp",
+    "id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "agent-install": "bin/agent-install.mjs"
+        },
+        "deprecated": null,
+        "installation_method": "npm package agent-install",
+        "package_name": "agent-install",
+        "runtime_requirements": null,
+        "version": "0.0.8"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 7453796,
+          "weekly": 1950600
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "agent",
+          "agents-md",
+          "claude",
+          "cli",
+          "codex",
+          "cursor",
+          "install",
+          "mcp",
+          "model-context-protocol",
+          "opencode",
+          "skill",
+          "skills"
+        ],
+        "license": "MIT",
+        "links": {
+          "npm": "https://www.npmjs.com/package/agent-install"
+        },
+        "package_date": "2026-06-24T09:40:13.683Z",
+        "package_name": "agent-install",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:54:16.892Z",
+        "version": "0.0.8"
+      }
+    },
+    "name": "agent-install",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+        "mcp": {
+          "bin": {
+            "agent-install": "bin/agent-install.mjs"
+          },
+          "deprecated": null,
+          "installation_method": "npm package agent-install",
+          "package_name": "agent-install",
+          "runtime_requirements": null,
+          "version": "0.0.8"
+        },
+        "name": "agent-install",
+        "package": {
+          "downloads": {
+            "monthly": 7453796,
+            "weekly": 1950600
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "agent",
+            "agents-md",
+            "claude",
+            "cli",
+            "codex",
+            "cursor",
+            "install",
+            "mcp",
+            "model-context-protocol",
+            "opencode",
+            "skill",
+            "skills"
+          ],
+          "license": "MIT",
+          "links": {
+            "npm": "https://www.npmjs.com/package/agent-install"
+          },
+          "package_date": "2026-06-24T09:40:13.683Z",
+          "package_name": "agent-install",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:54:16.892Z",
+          "version": "0.0.8"
+        },
+        "url": "https://www.npmjs.com/package/agent-install"
+      },
+      "source_record_id": "npm-search:package:agent-install",
+      "source_url": "https://registry.npmjs.org/agent-install",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "agent-install",
+          "operation": "normalize_name",
+          "output": "agent-install",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/agent-install",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-install"
+    },
+    "url": "https://www.npmjs.com/package/agent-install"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Your AI agent, fluent in Australian tax. MCP server with cited answers from 34,500+ ATO documents, the income tax and GST Acts and 4,900+ rulings, plus deduction, depreciation, BAS and audit-risk tools that know your tax profile.",
+    "entity_type": "mcp",
+    "id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "ato-mcp": "bin/ato-mcp.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package ato-mcp",
+        "package_name": "ato-mcp",
+        "runtime_requirements": {
+          "node": ">=22"
+        },
+        "version": "2.1.4"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 930555,
+          "weekly": 688889
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "mcp",
+          "model-context-protocol",
+          "ato",
+          "australian-tax",
+          "tax",
+          "australia",
+          "claude",
+          "ai-agent",
+          "rag",
+          "itaa-1997",
+          "mcp-server",
+          "gst",
+          "tax-deductions"
+        ],
+        "license": "AGPL-3.0-only",
+        "links": {
+          "bugs": "https://github.com/william-laverty/ato-mcp/issues",
+          "homepage": "https://ato-mcp.com.au",
+          "npm": "https://www.npmjs.com/package/ato-mcp",
+          "repository": "git+https://github.com/william-laverty/ato-mcp.git"
+        },
+        "package_date": "2026-07-09T20:44:04.119Z",
+        "package_name": "ato-mcp",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:51:05.588Z",
+        "version": "2.1.4"
+      }
+    },
+    "name": "ato-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Your AI agent, fluent in Australian tax. MCP server with cited answers from 34,500+ ATO documents, the income tax and GST Acts and 4,900+ rulings, plus deduction, depreciation, BAS and audit-risk tools that know your tax profile.",
+        "mcp": {
+          "bin": {
+            "ato-mcp": "bin/ato-mcp.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package ato-mcp",
+          "package_name": "ato-mcp",
+          "runtime_requirements": {
+            "node": ">=22"
+          },
+          "version": "2.1.4"
+        },
+        "name": "ato-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 930555,
+            "weekly": 688889
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "mcp",
+            "model-context-protocol",
+            "ato",
+            "australian-tax",
+            "tax",
+            "australia",
+            "claude",
+            "ai-agent",
+            "rag",
+            "itaa-1997",
+            "mcp-server",
+            "gst",
+            "tax-deductions"
+          ],
+          "license": "AGPL-3.0-only",
+          "links": {
+            "bugs": "https://github.com/william-laverty/ato-mcp/issues",
+            "homepage": "https://ato-mcp.com.au",
+            "npm": "https://www.npmjs.com/package/ato-mcp",
+            "repository": "git+https://github.com/william-laverty/ato-mcp.git"
+          },
+          "package_date": "2026-07-09T20:44:04.119Z",
+          "package_name": "ato-mcp",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:51:05.588Z",
+          "version": "2.1.4"
+        },
+        "url": "https://www.npmjs.com/package/ato-mcp"
+      },
+      "source_record_id": "npm-search:package:ato-mcp",
+      "source_url": "https://registry.npmjs.org/ato-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ato-mcp",
+          "operation": "normalize_name",
+          "output": "ato-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/ato-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "url": "https://www.npmjs.com/package/ato-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP",
+      "Creative"
+    ],
+    "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+    "entity_type": "mcp",
+    "id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "comfyui-mcp": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package comfyui-mcp",
+        "package_name": "comfyui-mcp",
+        "runtime_requirements": {
+          "node": ">=22.0.0"
+        },
+        "version": "0.52.107"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 464853,
+          "weekly": 166761
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "mcp",
+          "mcp-server",
+          "comfyui-mcp",
+          "comfyui-mcp-server",
+          "local-first",
+          "model-context-protocol",
+          "comfyui-ai-agent",
+          "comfyui-agent",
+          "comfyui-copilot",
+          "comfyui-assistant",
+          "comfyui-claude",
+          "comfyui-chatgpt",
+          "autonomous-agent",
+          "natural-language-workflow",
+          "claude-code",
+          "claude-plugin",
+          "claude-skills",
+          "agent-skills",
+          "chatgpt",
+          "gpt-5",
+          "codex",
+          "cursor",
+          "stable-diffusion",
+          "image-generation",
+          "video-generation",
+          "text-to-image",
+          "flux",
+          "wan",
+          "qwen",
+          "z-image",
+          "ltx-video",
+          "ai-agent",
+          "comfyui-extension",
+          "workflow-automation",
+          "ollama",
+          "local-llm",
+          "offline",
+          "self-hosted",
+          "gemini",
+          "openrouter",
+          "local-ai",
+          "byo-model"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+          "homepage": "https://comfyui-mcp.artokun.io/docs",
+          "npm": "https://www.npmjs.com/package/comfyui-mcp",
+          "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+        },
+        "package_date": "2026-08-25T12:12:08.648Z",
+        "package_name": "comfyui-mcp",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T12:12:40.112Z",
+        "version": "0.52.107"
+      }
+    },
+    "name": "comfyui-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP",
+          "Creative"
+        ],
+        "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+        "mcp": {
+          "bin": {
+            "comfyui-mcp": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package comfyui-mcp",
+          "package_name": "comfyui-mcp",
+          "runtime_requirements": {
+            "node": ">=22.0.0"
+          },
+          "version": "0.52.107"
+        },
+        "name": "comfyui-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 464853,
+            "weekly": 166761
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "mcp",
+            "mcp-server",
+            "comfyui-mcp",
+            "comfyui-mcp-server",
+            "local-first",
+            "model-context-protocol",
+            "comfyui-ai-agent",
+            "comfyui-agent",
+            "comfyui-copilot",
+            "comfyui-assistant",
+            "comfyui-claude",
+            "comfyui-chatgpt",
+            "autonomous-agent",
+            "natural-language-workflow",
+            "claude-code",
+            "claude-plugin",
+            "claude-skills",
+            "agent-skills",
+            "chatgpt",
+            "gpt-5",
+            "codex",
+            "cursor",
+            "stable-diffusion",
+            "image-generation",
+            "video-generation",
+            "text-to-image",
+            "flux",
+            "wan",
+            "qwen",
+            "z-image",
+            "ltx-video",
+            "ai-agent",
+            "comfyui-extension",
+            "workflow-automation",
+            "ollama",
+            "local-llm",
+            "offline",
+            "self-hosted",
+            "gemini",
+            "openrouter",
+            "local-ai",
+            "byo-model"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+            "homepage": "https://comfyui-mcp.artokun.io/docs",
+            "npm": "https://www.npmjs.com/package/comfyui-mcp",
+            "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+          },
+          "package_date": "2026-08-25T12:12:08.648Z",
+          "package_name": "comfyui-mcp",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T12:12:40.112Z",
+          "version": "0.52.107"
+        },
+        "url": "https://www.npmjs.com/package/comfyui-mcp"
+      },
+      "source_record_id": "npm-search:package:comfyui-mcp",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "comfyui-mcp",
+          "operation": "normalize_name",
+          "output": "comfyui-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/comfyui-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "url": "https://www.npmjs.com/package/comfyui-mcp"
   }
 ]

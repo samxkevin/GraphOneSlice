@@ -1,6 +1,209 @@
 [
   {
     "categories": [
+      "Tools",
+      "MCP",
+      "Creative"
+    ],
+    "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+    "entity_type": "mcp",
+    "id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "comfyui-mcp": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package comfyui-mcp",
+        "package_name": "comfyui-mcp",
+        "runtime_requirements": {
+          "node": ">=22.0.0"
+        },
+        "version": "0.52.107"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 464853,
+          "weekly": 166761
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "mcp",
+          "mcp-server",
+          "comfyui-mcp",
+          "comfyui-mcp-server",
+          "local-first",
+          "model-context-protocol",
+          "comfyui-ai-agent",
+          "comfyui-agent",
+          "comfyui-copilot",
+          "comfyui-assistant",
+          "comfyui-claude",
+          "comfyui-chatgpt",
+          "autonomous-agent",
+          "natural-language-workflow",
+          "claude-code",
+          "claude-plugin",
+          "claude-skills",
+          "agent-skills",
+          "chatgpt",
+          "gpt-5",
+          "codex",
+          "cursor",
+          "stable-diffusion",
+          "image-generation",
+          "video-generation",
+          "text-to-image",
+          "flux",
+          "wan",
+          "qwen",
+          "z-image",
+          "ltx-video",
+          "ai-agent",
+          "comfyui-extension",
+          "workflow-automation",
+          "ollama",
+          "local-llm",
+          "offline",
+          "self-hosted",
+          "gemini",
+          "openrouter",
+          "local-ai",
+          "byo-model"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+          "homepage": "https://comfyui-mcp.artokun.io/docs",
+          "npm": "https://www.npmjs.com/package/comfyui-mcp",
+          "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+        },
+        "package_date": "2026-08-25T12:12:08.648Z",
+        "package_name": "comfyui-mcp",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T12:12:40.112Z",
+        "version": "0.52.107"
+      }
+    },
+    "name": "comfyui-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP",
+          "Creative"
+        ],
+        "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+        "mcp": {
+          "bin": {
+            "comfyui-mcp": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package comfyui-mcp",
+          "package_name": "comfyui-mcp",
+          "runtime_requirements": {
+            "node": ">=22.0.0"
+          },
+          "version": "0.52.107"
+        },
+        "name": "comfyui-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 464853,
+            "weekly": 166761
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "mcp",
+            "mcp-server",
+            "comfyui-mcp",
+            "comfyui-mcp-server",
+            "local-first",
+            "model-context-protocol",
+            "comfyui-ai-agent",
+            "comfyui-agent",
+            "comfyui-copilot",
+            "comfyui-assistant",
+            "comfyui-claude",
+            "comfyui-chatgpt",
+            "autonomous-agent",
+            "natural-language-workflow",
+            "claude-code",
+            "claude-plugin",
+            "claude-skills",
+            "agent-skills",
+            "chatgpt",
+            "gpt-5",
+            "codex",
+            "cursor",
+            "stable-diffusion",
+            "image-generation",
+            "video-generation",
+            "text-to-image",
+            "flux",
+            "wan",
+            "qwen",
+            "z-image",
+            "ltx-video",
+            "ai-agent",
+            "comfyui-extension",
+            "workflow-automation",
+            "ollama",
+            "local-llm",
+            "offline",
+            "self-hosted",
+            "gemini",
+            "openrouter",
+            "local-ai",
+            "byo-model"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+            "homepage": "https://comfyui-mcp.artokun.io/docs",
+            "npm": "https://www.npmjs.com/package/comfyui-mcp",
+            "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+          },
+          "package_date": "2026-08-25T12:12:08.648Z",
+          "package_name": "comfyui-mcp",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T12:12:40.112Z",
+          "version": "0.52.107"
+        },
+        "url": "https://www.npmjs.com/package/comfyui-mcp"
+      },
+      "source_record_id": "npm-search:package:comfyui-mcp",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "comfyui-mcp",
+          "operation": "normalize_name",
+          "output": "comfyui-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/comfyui-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "url": "https://www.npmjs.com/package/comfyui-mcp"
+  },
+  {
+    "categories": [
       "Repositories",
       "Tools",
       "Collections",
@@ -12,9 +215,9 @@
     "metadata": {
       "repository": {
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T11:52:42Z",
+        "last_updated_timestamp": "2026-08-25T12:19:07Z",
         "primary_language": "HTML",
-        "stars": 167885,
+        "stars": 167886,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -40,7 +243,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -52,9 +255,9 @@
         "name": "f/prompts.chat",
         "repository": {
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T11:52:42Z",
+          "last_updated_timestamp": "2026-08-25T12:19:07Z",
           "primary_language": "HTML",
-          "stars": 167885,
+          "stars": 167886,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -103,5 +306,608 @@
       "url": "https://api.github.com/repos/f/prompts.chat"
     },
     "url": "https://github.com/f/prompts.chat"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "SDK for ComfyUI",
+    "entity_type": "tool",
+    "id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 124192,
+          "weekly": 28429
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "sdk",
+          "typescript",
+          "ts",
+          "comfy",
+          "stable-diffusion",
+          "comfyui-api",
+          "comfyui-sdk"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/tctien342/comfyui-sdk/issues",
+          "homepage": "https://github.com/tctien342/comfyui-sdk#readme",
+          "npm": "https://www.npmjs.com/package/@saintno/comfyui-sdk",
+          "repository": "git+https://github.com/tctien342/comfyui-sdk.git"
+        },
+        "package_date": "2026-04-09T17:20:49.076Z",
+        "package_name": "@saintno/comfyui-sdk",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T10:51:46.964Z",
+        "version": "0.3.1"
+      }
+    },
+    "name": "@saintno/comfyui-sdk",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "SDK for ComfyUI",
+        "name": "@saintno/comfyui-sdk",
+        "package": {
+          "downloads": {
+            "monthly": 124192,
+            "weekly": 28429
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "sdk",
+            "typescript",
+            "ts",
+            "comfy",
+            "stable-diffusion",
+            "comfyui-api",
+            "comfyui-sdk"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/tctien342/comfyui-sdk/issues",
+            "homepage": "https://github.com/tctien342/comfyui-sdk#readme",
+            "npm": "https://www.npmjs.com/package/@saintno/comfyui-sdk",
+            "repository": "git+https://github.com/tctien342/comfyui-sdk.git"
+          },
+          "package_date": "2026-04-09T17:20:49.076Z",
+          "package_name": "@saintno/comfyui-sdk",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T10:51:46.964Z",
+          "version": "0.3.1"
+        },
+        "url": "https://www.npmjs.com/package/@saintno/comfyui-sdk"
+      },
+      "source_record_id": "npm-search:package:@saintno/comfyui-sdk",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@saintno/comfyui-sdk",
+          "operation": "normalize_name",
+          "output": "@saintno/comfyui-sdk",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@saintno/comfyui-sdk",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "url": "https://www.npmjs.com/package/@saintno/comfyui-sdk"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+    "entity_type": "tool",
+    "id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 10421,
+          "weekly": 1751
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "image-generation",
+          "video-generation",
+          "stable-diffusion",
+          "flux",
+          "wan",
+          "ltx",
+          "seedance",
+          "happyhorse",
+          "alibaba",
+          "text-to-image",
+          "text-to-video",
+          "image-to-video",
+          "generative-ai",
+          "vision",
+          "vlm",
+          "multimodal",
+          "image-understanding",
+          "ocr",
+          "sogni",
+          "supernet",
+          "llm-friendly"
+        ],
+        "license": "ISC",
+        "links": {
+          "bugs": "https://github.com/Sogni-AI/sogni-client/issues",
+          "homepage": "https://github.com/Sogni-AI/sogni-client#readme",
+          "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
+          "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
+        },
+        "package_date": "2026-08-25T08:51:43.484Z",
+        "package_name": "@sogni-ai/sogni-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T08:52:14.637Z",
+        "version": "5.19.2"
+      }
+    },
+    "name": "@sogni-ai/sogni-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+        "name": "@sogni-ai/sogni-client",
+        "package": {
+          "downloads": {
+            "monthly": 10421,
+            "weekly": 1751
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "image-generation",
+            "video-generation",
+            "stable-diffusion",
+            "flux",
+            "wan",
+            "ltx",
+            "seedance",
+            "happyhorse",
+            "alibaba",
+            "text-to-image",
+            "text-to-video",
+            "image-to-video",
+            "generative-ai",
+            "vision",
+            "vlm",
+            "multimodal",
+            "image-understanding",
+            "ocr",
+            "sogni",
+            "supernet",
+            "llm-friendly"
+          ],
+          "license": "ISC",
+          "links": {
+            "bugs": "https://github.com/Sogni-AI/sogni-client/issues",
+            "homepage": "https://github.com/Sogni-AI/sogni-client#readme",
+            "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
+            "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
+          },
+          "package_date": "2026-08-25T08:51:43.484Z",
+          "package_name": "@sogni-ai/sogni-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T08:52:14.637Z",
+          "version": "5.19.2"
+        },
+        "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
+      },
+      "source_record_id": "npm-search:package:@sogni-ai/sogni-client",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@sogni-ai/sogni-client",
+          "operation": "normalize_name",
+          "output": "@sogni-ai/sogni-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@sogni-ai/sogni-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+    "entity_type": "tool",
+    "id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 9055,
+          "weekly": 2050
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "sogni",
+          "sogni-intelligence",
+          "ai",
+          "agent",
+          "agent-builder",
+          "creative-agent",
+          "contracts",
+          "tool-calling",
+          "image-generation",
+          "video-generation",
+          "audio-generation",
+          "n8n",
+          "workflow",
+          "automation",
+          "depin",
+          "stable-diffusion",
+          "flux"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/Sogni-AI/sogni-intelligence-client/issues",
+          "homepage": "https://github.com/Sogni-AI/sogni-intelligence-client#readme",
+          "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+          "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
+        },
+        "package_date": "2026-08-25T08:56:26.647Z",
+        "package_name": "@sogni-ai/sogni-intelligence-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T08:56:57.935Z",
+        "version": "3.23.2"
+      }
+    },
+    "name": "@sogni-ai/sogni-intelligence-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+        "name": "@sogni-ai/sogni-intelligence-client",
+        "package": {
+          "downloads": {
+            "monthly": 9055,
+            "weekly": 2050
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "sogni",
+            "sogni-intelligence",
+            "ai",
+            "agent",
+            "agent-builder",
+            "creative-agent",
+            "contracts",
+            "tool-calling",
+            "image-generation",
+            "video-generation",
+            "audio-generation",
+            "n8n",
+            "workflow",
+            "automation",
+            "depin",
+            "stable-diffusion",
+            "flux"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/Sogni-AI/sogni-intelligence-client/issues",
+            "homepage": "https://github.com/Sogni-AI/sogni-intelligence-client#readme",
+            "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+            "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
+          },
+          "package_date": "2026-08-25T08:56:26.647Z",
+          "package_name": "@sogni-ai/sogni-intelligence-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T08:56:57.935Z",
+          "version": "3.23.2"
+        },
+        "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
+      },
+      "source_record_id": "npm-search:package:@sogni-ai/sogni-intelligence-client",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@sogni-ai/sogni-intelligence-client",
+          "operation": "normalize_name",
+          "output": "@sogni-ai/sogni-intelligence-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
+    "entity_type": "tool",
+    "id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 21355,
+          "weekly": 5670
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "stablediffusion",
+          "comfy-ui",
+          "stable-diffusion",
+          "comfy-ui-sdk",
+          "comfy-ui-api",
+          "comfy ui node",
+          "comfy ui web",
+          "comfy ui browser",
+          "sdxl",
+          "sd1.5",
+          "flux",
+          "wan",
+          "hunyuan"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/StableCanvas/comfyui-client/issues",
+          "homepage": "https://github.com/StableCanvas/comfyui-client#readme",
+          "npm": "https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+          "repository": "git+https://github.com/StableCanvas/comfyui-client.git"
+        },
+        "package_date": "2026-02-10T10:22:03.724Z",
+        "package_name": "@stable-canvas/comfyui-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-24T05:57:50.738Z",
+        "version": "1.5.9"
+      }
+    },
+    "name": "@stable-canvas/comfyui-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
+        "name": "@stable-canvas/comfyui-client",
+        "package": {
+          "downloads": {
+            "monthly": 21355,
+            "weekly": 5670
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "stablediffusion",
+            "comfy-ui",
+            "stable-diffusion",
+            "comfy-ui-sdk",
+            "comfy-ui-api",
+            "comfy ui node",
+            "comfy ui web",
+            "comfy ui browser",
+            "sdxl",
+            "sd1.5",
+            "flux",
+            "wan",
+            "hunyuan"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/StableCanvas/comfyui-client/issues",
+            "homepage": "https://github.com/StableCanvas/comfyui-client#readme",
+            "npm": "https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+            "repository": "git+https://github.com/StableCanvas/comfyui-client.git"
+          },
+          "package_date": "2026-02-10T10:22:03.724Z",
+          "package_name": "@stable-canvas/comfyui-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-24T05:57:50.738Z",
+          "version": "1.5.9"
+        },
+        "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
+      },
+      "source_record_id": "npm-search:package:@stable-canvas/comfyui-client",
+      "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@stable-canvas/comfyui-client",
+          "operation": "normalize_name",
+          "output": "@stable-canvas/comfyui-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "GPT4 for free, No API key, no auth required.",
+    "entity_type": "tool",
+    "id": "15c7c703-213a-54e9-8672-bd5e953b6224",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 8380,
+          "weekly": 2775
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "gpt4free",
+          "gpt-free",
+          "free-gpt",
+          "gpt",
+          "gpt-3",
+          "gpt-3.5",
+          "gpt-4",
+          "bing",
+          "dalle",
+          "stable-diffusion",
+          "ai",
+          "completion",
+          "chat completion"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
+          "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
+          "npm": "https://www.npmjs.com/package/g4f",
+          "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
+        },
+        "package_date": "2024-06-30T01:42:48.000Z",
+        "package_name": "g4f",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-24T08:01:09.094Z",
+        "version": "1.4.6"
+      }
+    },
+    "name": "g4f",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "GPT4 for free, No API key, no auth required.",
+        "name": "g4f",
+        "package": {
+          "downloads": {
+            "monthly": 8380,
+            "weekly": 2775
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "gpt4free",
+            "gpt-free",
+            "free-gpt",
+            "gpt",
+            "gpt-3",
+            "gpt-3.5",
+            "gpt-4",
+            "bing",
+            "dalle",
+            "stable-diffusion",
+            "ai",
+            "completion",
+            "chat completion"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
+            "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
+            "npm": "https://www.npmjs.com/package/g4f",
+            "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
+          },
+          "package_date": "2024-06-30T01:42:48.000Z",
+          "package_name": "g4f",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-24T08:01:09.094Z",
+          "version": "1.4.6"
+        },
+        "url": "https://www.npmjs.com/package/g4f"
+      },
+      "source_record_id": "npm-search:package:g4f",
+      "source_url": "https://registry.npmjs.org/g4f",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "g4f",
+          "operation": "normalize_name",
+          "output": "g4f",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/g4f",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/g4f"
+    },
+    "url": "https://www.npmjs.com/package/g4f"
   }
 ]

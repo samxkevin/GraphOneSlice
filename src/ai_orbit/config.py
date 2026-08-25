@@ -40,10 +40,20 @@ class AIOrbitSettings(BaseSettings):
         "@modelcontextprotocol/server-github",
     ])
 
+    npm_search_tool_queries: list[str] = Field(default_factory=lambda: [
+        "keywords:openai",
+        "keywords:llm",
+        "keywords:ai-sdk",
+        "keywords:stable-diffusion",
+        "keywords:model-context-protocol",
+    ])
+    npm_search_tool_limit_per_query: int = Field(default=6, validation_alias="AI_ORBIT_NPM_SEARCH_TOOL_LIMIT_PER_QUERY")
+    npm_search_tool_max_records: int = Field(default=24, validation_alias="AI_ORBIT_NPM_SEARCH_TOOL_MAX_RECORDS")
+
     huggingface_models_url: str = Field(default="https://huggingface.co/api/models", validation_alias="AI_ORBIT_HUGGINGFACE_MODELS_URL")
     openai_rss_url: str = Field(default="https://openai.com/news/rss.xml", validation_alias="AI_ORBIT_OPENAI_RSS_URL")
 
-    @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", mode="before")
+    @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", "npm_search_tool_queries", mode="before")
     @classmethod
     def parse_csv_lists(cls, value: str | list[str]) -> list[str]:
         return _split_csv(value)

@@ -21,6 +21,74 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "Chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+    },
+    "id": "09284f75-20d4-50d6-84ab-a2472471f2e1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+    },
+    "source_entity_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/chat"
+    },
+    "id": "1038e149-7916-53f8-a249-3b8360799e36",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/chat"
+    },
+    "source_entity_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    },
+    "id": "11cd7e09-3604-56ea-beec-10d164841f58",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    },
+    "source_entity_id": "88cd445d-59f9-5420-ba3c-012080056db4",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "id": "13189fc3-1bcd-5632-a4cc-76ba5b680d7c",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "fields": {
         "author": null,
         "author_email": "Anthropic <support@anthropic.com>"
@@ -57,6 +125,23 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "image, video & audio generation",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "id": "254563f4-5c87-5a23-8223-43fbc04718bc",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 10,
       "model_identifier": "claude-sonnet-5",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -72,6 +157,57 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "37dbc504-2f5a-5912-a122-db10b9d2430b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "id": "3678255c-3e31-5e8e-92a4-797e07af413b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "source_entity_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "id": "3b47d3b5-90b1-522f-8e64-f61d17ed044b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "source_entity_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/add-mcp"
+    },
+    "id": "3bacf944-8146-54a2-b0d8-860e9eda48fe",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/add-mcp"
+    },
+    "source_entity_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,
@@ -114,6 +250,40 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "AGENTS",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/agent-install"
+    },
+    "id": "3fa3970c-401b-56e1-8ea5-17ac4081f2a8",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-install"
+    },
+    "source_entity_id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/thedotmack/claude-mem"
+    },
+    "id": "49ec294b-1d3e-51f9-a4c2-7f1b0d513d49",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/thedotmack/claude-mem"
+    },
+    "source_entity_id": "4075e6f9-e682-5f89-b239-9952e720286b",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 15,
       "model_identifier": "claude-opus-4-7",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -129,6 +299,23 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "id": "4fa3eab3-7a5f-57a7-a502-6d41a311b744",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "source_entity_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,
@@ -224,6 +411,23 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "ChatGPT",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "id": "6051ec2c-c8cb-5e70-80a3-9ec6aebe3236",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "source_entity_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "llm",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/f/prompts.chat"
@@ -237,6 +441,23 @@
     },
     "source_entity_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
     "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ChatGPT",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/ai"
+    },
+    "id": "6744fdcb-401f-5657-9a7a-68bf70c5f600",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ai"
+    },
+    "source_entity_id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
   },
   {
     "confidence": 1.0,
@@ -258,6 +479,57 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "ComfyUI",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "id": "6b27c614-1e61-5a21-b835-837061e4040c",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "source_entity_id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
+    },
+    "id": "6d2d3848-20d9-554d-8d71-b60e1e66754b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@promptbook%2Futils"
+    },
+    "source_entity_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Filesystem",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/eve"
+    },
+    "id": "731cb1b4-053a-5bb2-a140-1365f0a8ff7d",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/eve"
+    },
+    "source_entity_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
+    "target_entity_id": "5bcd60d9-8f22-52d7-8a01-253dc024f904"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 44,
       "model_identifier": "o3",
       "source_repository": "openai/openai-python",
@@ -273,6 +545,23 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "instrumentation",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "id": "7fd90bbc-3603-5beb-b85a-a6af55ef35fe",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "source_entity_id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
+    "target_entity_id": "abe4017a-270f-5e32-953b-2977f0ad7359"
   },
   {
     "confidence": 1.0,
@@ -351,6 +640,40 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/agents"
+    },
+    "id": "9081694d-f191-56bc-ad42-cd78e88c22d1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agents"
+    },
+    "source_entity_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ComfyUI",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "id": "a2289370-eb66-5f4e-ab0f-1373d9ecf94d",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "source_entity_id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 16,
       "model_identifier": "claude-mythos-preview",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -366,6 +689,23 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "e3c7349e-d4de-5a54-8019-c742d7d92c30"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agentic",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/am-i-vibing"
+    },
+    "id": "acb1d3eb-ea1c-5a88-8094-bfdf9b2083ac",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/am-i-vibing"
+    },
+    "source_entity_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,
@@ -528,6 +868,40 @@
       "url": "https://api.github.com/repos/significant-gravitas/autogpt"
     },
     "source_entity_id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/chat"
+    },
+    "id": "efa71610-37cb-5f35-bcd8-ac0ab9c712a2",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/chat"
+    },
+    "source_entity_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/eve"
+    },
+    "id": "f0711297-9708-5a6a-919f-c72d418942eb",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/eve"
+    },
+    "source_entity_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {

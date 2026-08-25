@@ -50,15 +50,15 @@ Latest verification commands run in this branch:
 
 Current generated artifacts report:
 
-- valid entities: `45`
-- valid relationships: `31`
+- valid entities: `71`
+- valid relationships: `53`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
 - recorded source failures: `9`
 - duplicate/shared URL warnings: `4`
-- test result: `67 passed`
+- test result: `69 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
@@ -152,6 +152,31 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - Relationship evidence:
   - `MCP → integrates_with → Tool` for the GitHub MCP package from the NPM package description naming the GitHub API.
   - `MCP → solves → Task` from controlled mappings over observed package descriptions.
+
+#### NPM Search AI Tool Packages
+
+- Access: NPM registry search endpoint plus package-specific registry documents.
+- Configured bounded queries include:
+  - `keywords:openai`
+  - `keywords:llm`
+  - `keywords:ai-sdk`
+  - `keywords:stable-diffusion`
+  - `keywords:model-context-protocol`
+- Used for: additional source-backed package/tool records, with MCP and Creative categories only when observed package name/description evidence supports them.
+- Supplies:
+  - package name;
+  - package description;
+  - NPM package URL;
+  - latest version;
+  - license when present;
+  - keywords;
+  - package version timestamp;
+  - download counts from NPM search.
+- Notes:
+  - NPM packages are not treated as products.
+  - package dates are version/update timestamps, not launch/news publication timestamps.
+  - package publisher/maintainer fields are not treated as company identity.
+  - each accepted search hit is verified against its package-specific registry document before export.
 
 #### Official SDK Model Definitions
 
@@ -404,7 +429,7 @@ Outputs are written to `data/`.
 Current verified result:
 
 ```text
-67 passed
+69 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -419,7 +444,8 @@ AI Orbit-specific tests cover:
 - schema/business validation;
 - bounded retry behavior;
 - source failure isolation;
-- official SDK model literal parsing.
+- official SDK model literal parsing;
+- NPM search/package filtering and MCP/Creative classification.
 
 ## Generated artifacts
 
@@ -454,6 +480,8 @@ Important values:
 - `AI_ORBIT_GITHUB_SEARCH_QUERY`
 - `AI_ORBIT_GITHUB_SEARCH_LIMIT`
 - `AI_ORBIT_OFFICIAL_SDK_MODEL_LIMIT_PER_PROVIDER`
+- `AI_ORBIT_NPM_SEARCH_TOOL_LIMIT_PER_QUERY`
+- `AI_ORBIT_NPM_SEARCH_TOOL_MAX_RECORDS`
 - `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
 No real credentials are committed.
@@ -462,7 +490,7 @@ No real credentials are committed.
 
 - Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry, and official SDK model definitions.
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, and official SDK model definitions.
 - Feasibility-only probes for startup/company, product, model, news, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
@@ -476,8 +504,8 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `45` current valid entities toward the requested 250–300 high-quality representative records.
-- Add a stricter product/tool adapter only after product identity fields are verified; NPM search is currently only `partial` feasibility.
+- Expand from `71` current valid entities toward the requested 250–300 high-quality representative records.
+- Keep NPM search records classified as package/tool records, not products; add true product records only after product identity fields are verified.
 - Find a reachable model catalog that supplies license/modalities; current official SDK model source supplies identifiers/provider but not those metadata fields.
 - Find reachable news feeds/APIs with publication timestamps; current tested news candidates failed in this environment.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.

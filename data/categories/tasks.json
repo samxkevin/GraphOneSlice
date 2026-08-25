@@ -3,6 +3,67 @@
     "categories": [
       "Tasks"
     ],
+    "description": "Task label derived from observed source value: instrumentation.",
+    "entity_type": "task",
+    "id": "abe4017a-270f-5e32-953b-2977f0ad7359",
+    "metadata": {
+      "task": {
+        "canonical_label": "AI application observability",
+        "evidence_source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+        "mapping_method": "description_phrase",
+        "observed_value": "instrumentation",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "AI application observability",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: instrumentation.",
+        "name": "AI application observability",
+        "task": {
+          "canonical_label": "AI application observability",
+          "evidence_source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+          "mapping_method": "description_phrase",
+          "observed_value": "instrumentation",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+      },
+      "source_record_id": "task:AI application observability",
+      "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "AI application observability",
+          "operation": "normalize_name",
+          "output": "ai application observability",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:ai application observability",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
     "description": "Task label derived from observed source value: agentic-ai.",
     "entity_type": "task",
     "id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
@@ -18,7 +79,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -79,7 +140,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -125,6 +186,67 @@
     "categories": [
       "Tasks"
     ],
+    "description": "Task label derived from observed source value: ComfyUI.",
+    "entity_type": "task",
+    "id": "36ea22a0-1e15-591c-962c-48c4f3288cf4",
+    "metadata": {
+      "task": {
+        "canonical_label": "creative media generation",
+        "evidence_source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+        "mapping_method": "description_phrase",
+        "observed_value": "ComfyUI",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "creative media generation",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: ComfyUI.",
+        "name": "creative media generation",
+        "task": {
+          "canonical_label": "creative media generation",
+          "evidence_source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+          "mapping_method": "description_phrase",
+          "observed_value": "ComfyUI",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+      },
+      "source_record_id": "task:creative media generation",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "creative media generation",
+          "operation": "normalize_name",
+          "output": "creative media generation",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:creative media generation",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
     "description": "Task label derived from observed source value: filesystem.",
     "entity_type": "task",
     "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
@@ -140,7 +262,7 @@
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -201,7 +323,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -262,7 +384,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -323,7 +445,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -384,7 +506,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -445,7 +567,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
+      "fetched_at": "2026-08-25T12:25:20.097334+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"

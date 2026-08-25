@@ -1,6 +1,127 @@
 [
   {
     "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "LangChain.js adapters for Model Context Protocol (MCP)",
+    "entity_type": "mcp",
+    "id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
+    "metadata": {
+      "mcp": {
+        "bin": null,
+        "deprecated": null,
+        "installation_method": "npm package @langchain/mcp-adapters",
+        "package_name": "@langchain/mcp-adapters",
+        "runtime_requirements": {
+          "node": ">=20.10.0"
+        },
+        "version": "1.1.4"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 1026556,
+          "weekly": 270970
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "langchain",
+          "mcp",
+          "model-context-protocol",
+          "ai",
+          "tools"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+          "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters/",
+          "npm": "https://www.npmjs.com/package/@langchain/mcp-adapters",
+          "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+        },
+        "package_date": "2026-08-20T01:16:28.841Z",
+        "package_name": "@langchain/mcp-adapters",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:46:22.234Z",
+        "version": "1.1.4"
+      }
+    },
+    "name": "@langchain/mcp-adapters",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "LangChain.js adapters for Model Context Protocol (MCP)",
+        "mcp": {
+          "bin": null,
+          "deprecated": null,
+          "installation_method": "npm package @langchain/mcp-adapters",
+          "package_name": "@langchain/mcp-adapters",
+          "runtime_requirements": {
+            "node": ">=20.10.0"
+          },
+          "version": "1.1.4"
+        },
+        "name": "@langchain/mcp-adapters",
+        "package": {
+          "downloads": {
+            "monthly": 1026556,
+            "weekly": 270970
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "langchain",
+            "mcp",
+            "model-context-protocol",
+            "ai",
+            "tools"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+            "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters/",
+            "npm": "https://www.npmjs.com/package/@langchain/mcp-adapters",
+            "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+          },
+          "package_date": "2026-08-20T01:16:28.841Z",
+          "package_name": "@langchain/mcp-adapters",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:46:22.234Z",
+          "version": "1.1.4"
+        },
+        "url": "https://www.npmjs.com/package/@langchain/mcp-adapters"
+      },
+      "source_record_id": "npm-search:package:@langchain/mcp-adapters",
+      "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@langchain/mcp-adapters",
+          "operation": "normalize_name",
+          "output": "@langchain/mcp-adapters",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/@langchain/mcp-adapters",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+    },
+    "url": "https://www.npmjs.com/package/@langchain/mcp-adapters"
+  },
+  {
+    "categories": [
       "MCP",
       "Tools",
       "New/Recently Added"
@@ -23,7 +144,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -93,7 +214,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -163,7 +284,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -234,7 +355,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -283,6 +404,644 @@
   },
   {
     "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Add MCP servers to your favorite coding agents with a single command.",
+    "entity_type": "mcp",
+    "id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "add-mcp": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package add-mcp",
+        "package_name": "add-mcp",
+        "runtime_requirements": {
+          "node": ">=18"
+        },
+        "version": "2.3.0"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 664610,
+          "weekly": 142616
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "cli",
+          "mcp",
+          "model-context-protocol",
+          "ai-agents",
+          "antigravity",
+          "cline",
+          "claude-code",
+          "claude-desktop",
+          "codex",
+          "cursor",
+          "fx",
+          "github-copilot-cli",
+          "gemini-cli",
+          "goose",
+          "grok",
+          "grok-build",
+          "kilo-code",
+          "kimi-code",
+          "kiro",
+          "kiro-cli",
+          "mcporter",
+          "opencode",
+          "vscode",
+          "windsurf",
+          "zed"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/neon-solutions/add-mcp/issues",
+          "homepage": "https://github.com/neon-solutions/add-mcp#readme",
+          "npm": "https://www.npmjs.com/package/add-mcp",
+          "repository": "git+https://github.com/neon-solutions/add-mcp.git"
+        },
+        "package_date": "2026-08-24T14:58:21.312Z",
+        "package_name": "add-mcp",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:47:29.083Z",
+        "version": "2.3.0"
+      }
+    },
+    "name": "add-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Add MCP servers to your favorite coding agents with a single command.",
+        "mcp": {
+          "bin": {
+            "add-mcp": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package add-mcp",
+          "package_name": "add-mcp",
+          "runtime_requirements": {
+            "node": ">=18"
+          },
+          "version": "2.3.0"
+        },
+        "name": "add-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 664610,
+            "weekly": 142616
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "cli",
+            "mcp",
+            "model-context-protocol",
+            "ai-agents",
+            "antigravity",
+            "cline",
+            "claude-code",
+            "claude-desktop",
+            "codex",
+            "cursor",
+            "fx",
+            "github-copilot-cli",
+            "gemini-cli",
+            "goose",
+            "grok",
+            "grok-build",
+            "kilo-code",
+            "kimi-code",
+            "kiro",
+            "kiro-cli",
+            "mcporter",
+            "opencode",
+            "vscode",
+            "windsurf",
+            "zed"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/neon-solutions/add-mcp/issues",
+            "homepage": "https://github.com/neon-solutions/add-mcp#readme",
+            "npm": "https://www.npmjs.com/package/add-mcp",
+            "repository": "git+https://github.com/neon-solutions/add-mcp.git"
+          },
+          "package_date": "2026-08-24T14:58:21.312Z",
+          "package_name": "add-mcp",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:47:29.083Z",
+          "version": "2.3.0"
+        },
+        "url": "https://www.npmjs.com/package/add-mcp"
+      },
+      "source_record_id": "npm-search:package:add-mcp",
+      "source_url": "https://registry.npmjs.org/add-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "add-mcp",
+          "operation": "normalize_name",
+          "output": "add-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/add-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/add-mcp"
+    },
+    "url": "https://www.npmjs.com/package/add-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+    "entity_type": "mcp",
+    "id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "agent-install": "bin/agent-install.mjs"
+        },
+        "deprecated": null,
+        "installation_method": "npm package agent-install",
+        "package_name": "agent-install",
+        "runtime_requirements": null,
+        "version": "0.0.8"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 7453796,
+          "weekly": 1950600
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "agent",
+          "agents-md",
+          "claude",
+          "cli",
+          "codex",
+          "cursor",
+          "install",
+          "mcp",
+          "model-context-protocol",
+          "opencode",
+          "skill",
+          "skills"
+        ],
+        "license": "MIT",
+        "links": {
+          "npm": "https://www.npmjs.com/package/agent-install"
+        },
+        "package_date": "2026-06-24T09:40:13.683Z",
+        "package_name": "agent-install",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:54:16.892Z",
+        "version": "0.0.8"
+      }
+    },
+    "name": "agent-install",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+        "mcp": {
+          "bin": {
+            "agent-install": "bin/agent-install.mjs"
+          },
+          "deprecated": null,
+          "installation_method": "npm package agent-install",
+          "package_name": "agent-install",
+          "runtime_requirements": null,
+          "version": "0.0.8"
+        },
+        "name": "agent-install",
+        "package": {
+          "downloads": {
+            "monthly": 7453796,
+            "weekly": 1950600
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "agent",
+            "agents-md",
+            "claude",
+            "cli",
+            "codex",
+            "cursor",
+            "install",
+            "mcp",
+            "model-context-protocol",
+            "opencode",
+            "skill",
+            "skills"
+          ],
+          "license": "MIT",
+          "links": {
+            "npm": "https://www.npmjs.com/package/agent-install"
+          },
+          "package_date": "2026-06-24T09:40:13.683Z",
+          "package_name": "agent-install",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:54:16.892Z",
+          "version": "0.0.8"
+        },
+        "url": "https://www.npmjs.com/package/agent-install"
+      },
+      "source_record_id": "npm-search:package:agent-install",
+      "source_url": "https://registry.npmjs.org/agent-install",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "agent-install",
+          "operation": "normalize_name",
+          "output": "agent-install",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/agent-install",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-install"
+    },
+    "url": "https://www.npmjs.com/package/agent-install"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Your AI agent, fluent in Australian tax. MCP server with cited answers from 34,500+ ATO documents, the income tax and GST Acts and 4,900+ rulings, plus deduction, depreciation, BAS and audit-risk tools that know your tax profile.",
+    "entity_type": "mcp",
+    "id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "ato-mcp": "bin/ato-mcp.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package ato-mcp",
+        "package_name": "ato-mcp",
+        "runtime_requirements": {
+          "node": ">=22"
+        },
+        "version": "2.1.4"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 930555,
+          "weekly": 688889
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "mcp",
+          "model-context-protocol",
+          "ato",
+          "australian-tax",
+          "tax",
+          "australia",
+          "claude",
+          "ai-agent",
+          "rag",
+          "itaa-1997",
+          "mcp-server",
+          "gst",
+          "tax-deductions"
+        ],
+        "license": "AGPL-3.0-only",
+        "links": {
+          "bugs": "https://github.com/william-laverty/ato-mcp/issues",
+          "homepage": "https://ato-mcp.com.au",
+          "npm": "https://www.npmjs.com/package/ato-mcp",
+          "repository": "git+https://github.com/william-laverty/ato-mcp.git"
+        },
+        "package_date": "2026-07-09T20:44:04.119Z",
+        "package_name": "ato-mcp",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:51:05.588Z",
+        "version": "2.1.4"
+      }
+    },
+    "name": "ato-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Your AI agent, fluent in Australian tax. MCP server with cited answers from 34,500+ ATO documents, the income tax and GST Acts and 4,900+ rulings, plus deduction, depreciation, BAS and audit-risk tools that know your tax profile.",
+        "mcp": {
+          "bin": {
+            "ato-mcp": "bin/ato-mcp.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package ato-mcp",
+          "package_name": "ato-mcp",
+          "runtime_requirements": {
+            "node": ">=22"
+          },
+          "version": "2.1.4"
+        },
+        "name": "ato-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 930555,
+            "weekly": 688889
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "mcp",
+            "model-context-protocol",
+            "ato",
+            "australian-tax",
+            "tax",
+            "australia",
+            "claude",
+            "ai-agent",
+            "rag",
+            "itaa-1997",
+            "mcp-server",
+            "gst",
+            "tax-deductions"
+          ],
+          "license": "AGPL-3.0-only",
+          "links": {
+            "bugs": "https://github.com/william-laverty/ato-mcp/issues",
+            "homepage": "https://ato-mcp.com.au",
+            "npm": "https://www.npmjs.com/package/ato-mcp",
+            "repository": "git+https://github.com/william-laverty/ato-mcp.git"
+          },
+          "package_date": "2026-07-09T20:44:04.119Z",
+          "package_name": "ato-mcp",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:51:05.588Z",
+          "version": "2.1.4"
+        },
+        "url": "https://www.npmjs.com/package/ato-mcp"
+      },
+      "source_record_id": "npm-search:package:ato-mcp",
+      "source_url": "https://registry.npmjs.org/ato-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ato-mcp",
+          "operation": "normalize_name",
+          "output": "ato-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/ato-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "url": "https://www.npmjs.com/package/ato-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP",
+      "Creative"
+    ],
+    "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+    "entity_type": "mcp",
+    "id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "comfyui-mcp": "dist/index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package comfyui-mcp",
+        "package_name": "comfyui-mcp",
+        "runtime_requirements": {
+          "node": ">=22.0.0"
+        },
+        "version": "0.52.107"
+      },
+      "package": {
+        "downloads": {
+          "monthly": 464853,
+          "weekly": 166761
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "mcp",
+          "mcp-server",
+          "comfyui-mcp",
+          "comfyui-mcp-server",
+          "local-first",
+          "model-context-protocol",
+          "comfyui-ai-agent",
+          "comfyui-agent",
+          "comfyui-copilot",
+          "comfyui-assistant",
+          "comfyui-claude",
+          "comfyui-chatgpt",
+          "autonomous-agent",
+          "natural-language-workflow",
+          "claude-code",
+          "claude-plugin",
+          "claude-skills",
+          "agent-skills",
+          "chatgpt",
+          "gpt-5",
+          "codex",
+          "cursor",
+          "stable-diffusion",
+          "image-generation",
+          "video-generation",
+          "text-to-image",
+          "flux",
+          "wan",
+          "qwen",
+          "z-image",
+          "ltx-video",
+          "ai-agent",
+          "comfyui-extension",
+          "workflow-automation",
+          "ollama",
+          "local-llm",
+          "offline",
+          "self-hosted",
+          "gemini",
+          "openrouter",
+          "local-ai",
+          "byo-model"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+          "homepage": "https://comfyui-mcp.artokun.io/docs",
+          "npm": "https://www.npmjs.com/package/comfyui-mcp",
+          "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+        },
+        "package_date": "2026-08-25T12:12:08.648Z",
+        "package_name": "comfyui-mcp",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T12:12:40.112Z",
+        "version": "0.52.107"
+      }
+    },
+    "name": "comfyui-mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP",
+          "Creative"
+        ],
+        "description": "Local-first, agent-native control plane for ComfyUI — MCP server + autonomous sidebar agent that drives your live graph in natural language on ANY LLM: Claude/ChatGPT/Gemini on your subscription (no API key), free local models via Ollama (fully offline),",
+        "mcp": {
+          "bin": {
+            "comfyui-mcp": "dist/index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package comfyui-mcp",
+          "package_name": "comfyui-mcp",
+          "runtime_requirements": {
+            "node": ">=22.0.0"
+          },
+          "version": "0.52.107"
+        },
+        "name": "comfyui-mcp",
+        "package": {
+          "downloads": {
+            "monthly": 464853,
+            "weekly": 166761
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "mcp",
+            "mcp-server",
+            "comfyui-mcp",
+            "comfyui-mcp-server",
+            "local-first",
+            "model-context-protocol",
+            "comfyui-ai-agent",
+            "comfyui-agent",
+            "comfyui-copilot",
+            "comfyui-assistant",
+            "comfyui-claude",
+            "comfyui-chatgpt",
+            "autonomous-agent",
+            "natural-language-workflow",
+            "claude-code",
+            "claude-plugin",
+            "claude-skills",
+            "agent-skills",
+            "chatgpt",
+            "gpt-5",
+            "codex",
+            "cursor",
+            "stable-diffusion",
+            "image-generation",
+            "video-generation",
+            "text-to-image",
+            "flux",
+            "wan",
+            "qwen",
+            "z-image",
+            "ltx-video",
+            "ai-agent",
+            "comfyui-extension",
+            "workflow-automation",
+            "ollama",
+            "local-llm",
+            "offline",
+            "self-hosted",
+            "gemini",
+            "openrouter",
+            "local-ai",
+            "byo-model"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/artokun/comfyui-mcp/issues",
+            "homepage": "https://comfyui-mcp.artokun.io/docs",
+            "npm": "https://www.npmjs.com/package/comfyui-mcp",
+            "repository": "git+https://github.com/artokun/comfyui-mcp.git"
+          },
+          "package_date": "2026-08-25T12:12:08.648Z",
+          "package_name": "comfyui-mcp",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T12:12:40.112Z",
+          "version": "0.52.107"
+        },
+        "url": "https://www.npmjs.com/package/comfyui-mcp"
+      },
+      "source_record_id": "npm-search:package:comfyui-mcp",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "comfyui-mcp",
+          "operation": "normalize_name",
+          "output": "comfyui-mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/comfyui-mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "url": "https://www.npmjs.com/package/comfyui-mcp"
+  },
+  {
+    "categories": [
       "Repositories",
       "Tools",
       "Collections",
@@ -294,9 +1053,9 @@
     "metadata": {
       "repository": {
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T11:52:42Z",
+        "last_updated_timestamp": "2026-08-25T12:19:07Z",
         "primary_language": "HTML",
-        "stars": 167885,
+        "stars": 167886,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -322,7 +1081,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -334,9 +1093,9 @@
         "name": "f/prompts.chat",
         "repository": {
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T11:52:42Z",
+          "last_updated_timestamp": "2026-08-25T12:19:07Z",
           "primary_language": "HTML",
-          "stars": 167885,
+          "stars": 167886,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -397,9 +1156,9 @@
     "metadata": {
       "repository": {
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-25T11:31:37Z",
+        "last_updated_timestamp": "2026-08-25T12:25:05Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103741,
+        "stars": 103740,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -426,7 +1185,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -436,9 +1195,9 @@
         "name": "rasbt/LLMs-from-scratch",
         "repository": {
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-25T11:31:37Z",
+          "last_updated_timestamp": "2026-08-25T12:25:05Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103741,
+          "stars": 103740,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -521,7 +1280,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -588,9 +1347,9 @@
     "metadata": {
       "repository": {
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-25T11:28:38Z",
+        "last_updated_timestamp": "2026-08-25T12:21:28Z",
         "primary_language": "JavaScript",
-        "stars": 91778,
+        "stars": 91781,
         "topics": [
           "ai",
           "ai-agents",
@@ -618,7 +1377,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -629,9 +1388,9 @@
         "name": "thedotmack/claude-mem",
         "repository": {
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-25T11:28:38Z",
+          "last_updated_timestamp": "2026-08-25T12:21:28Z",
           "primary_language": "JavaScript",
-          "stars": 91778,
+          "stars": 91781,
           "topics": [
             "ai",
             "ai-agents",
@@ -687,6 +1446,1581 @@
     "categories": [
       "Tools"
     ],
+    "description": "Vercel AI SDK adapter for assistant-ui",
+    "entity_type": "tool",
+    "id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 1520504,
+          "weekly": 361501
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai-sdk",
+          "vercel",
+          "assistant-ui",
+          "react",
+          "ai",
+          "chat",
+          "openai",
+          "streaming"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/assistant-ui/assistant-ui/issues",
+          "homepage": "https://www.assistant-ui.com/",
+          "npm": "https://www.npmjs.com/package/@assistant-ui/react-ai-sdk",
+          "repository": "git+https://github.com/assistant-ui/assistant-ui.git"
+        },
+        "package_date": "2026-08-20T18:20:39.743Z",
+        "package_name": "@assistant-ui/react-ai-sdk",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T10:47:06.178Z",
+        "version": "1.4.7"
+      }
+    },
+    "name": "@assistant-ui/react-ai-sdk",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Vercel AI SDK adapter for assistant-ui",
+        "name": "@assistant-ui/react-ai-sdk",
+        "package": {
+          "downloads": {
+            "monthly": 1520504,
+            "weekly": 361501
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai-sdk",
+            "vercel",
+            "assistant-ui",
+            "react",
+            "ai",
+            "chat",
+            "openai",
+            "streaming"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/assistant-ui/assistant-ui/issues",
+            "homepage": "https://www.assistant-ui.com/",
+            "npm": "https://www.npmjs.com/package/@assistant-ui/react-ai-sdk",
+            "repository": "git+https://github.com/assistant-ui/assistant-ui.git"
+          },
+          "package_date": "2026-08-20T18:20:39.743Z",
+          "package_name": "@assistant-ui/react-ai-sdk",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T10:47:06.178Z",
+          "version": "1.4.7"
+        },
+        "url": "https://www.npmjs.com/package/@assistant-ui/react-ai-sdk"
+      },
+      "source_record_id": "npm-search:package:@assistant-ui/react-ai-sdk",
+      "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@assistant-ui/react-ai-sdk",
+          "operation": "normalize_name",
+          "output": "@assistant-ui/react-ai-sdk",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@assistant-ui/react-ai-sdk",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
+    },
+    "url": "https://www.npmjs.com/package/@assistant-ui/react-ai-sdk"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Slack adapter for Chat SDK — webhooks, Block Kit cards, OAuth, slash commands, and AI streaming",
+    "entity_type": "tool",
+    "id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 3170421,
+          "weekly": 806958
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "chat",
+          "chat-sdk",
+          "chatbot",
+          "slack",
+          "slack-bot",
+          "bot",
+          "adapter",
+          "block-kit",
+          "messaging",
+          "ai-agent",
+          "ai-sdk",
+          "vercel"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/vercel/chat/issues",
+          "homepage": "https://chat-sdk.dev/adapters/official/slack",
+          "npm": "https://www.npmjs.com/package/@chat-adapter/slack",
+          "repository": "git+https://github.com/vercel/chat.git"
+        },
+        "package_date": "2026-08-17T21:15:12.036Z",
+        "package_name": "@chat-adapter/slack",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T10:48:15.134Z",
+        "version": "4.38.1"
+      }
+    },
+    "name": "@chat-adapter/slack",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Slack adapter for Chat SDK — webhooks, Block Kit cards, OAuth, slash commands, and AI streaming",
+        "name": "@chat-adapter/slack",
+        "package": {
+          "downloads": {
+            "monthly": 3170421,
+            "weekly": 806958
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "chat",
+            "chat-sdk",
+            "chatbot",
+            "slack",
+            "slack-bot",
+            "bot",
+            "adapter",
+            "block-kit",
+            "messaging",
+            "ai-agent",
+            "ai-sdk",
+            "vercel"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/vercel/chat/issues",
+            "homepage": "https://chat-sdk.dev/adapters/official/slack",
+            "npm": "https://www.npmjs.com/package/@chat-adapter/slack",
+            "repository": "git+https://github.com/vercel/chat.git"
+          },
+          "package_date": "2026-08-17T21:15:12.036Z",
+          "package_name": "@chat-adapter/slack",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T10:48:15.134Z",
+          "version": "4.38.1"
+        },
+        "url": "https://www.npmjs.com/package/@chat-adapter/slack"
+      },
+      "source_record_id": "npm-search:package:@chat-adapter/slack",
+      "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@chat-adapter/slack",
+          "operation": "normalize_name",
+          "output": "@chat-adapter/slack",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@chat-adapter/slack",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+    },
+    "url": "https://www.npmjs.com/package/@chat-adapter/slack"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Core LangChain.js abstractions and schemas",
+    "entity_type": "tool",
+    "id": "722a3753-3409-54f2-a51b-e450efbdec55",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 20662466,
+          "weekly": 5473447
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "llm",
+          "ai",
+          "gpt3",
+          "chain",
+          "prompt",
+          "prompt engineering",
+          "chatgpt",
+          "machine learning",
+          "ml",
+          "openai",
+          "embeddings",
+          "vectorstores"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+          "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/langchain-core/",
+          "npm": "https://www.npmjs.com/package/@langchain/core",
+          "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+        },
+        "package_date": "2026-08-20T01:18:37.261Z",
+        "package_name": "@langchain/core",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:45:39.233Z",
+        "version": "1.2.9"
+      }
+    },
+    "name": "@langchain/core",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Core LangChain.js abstractions and schemas",
+        "name": "@langchain/core",
+        "package": {
+          "downloads": {
+            "monthly": 20662466,
+            "weekly": 5473447
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "llm",
+            "ai",
+            "gpt3",
+            "chain",
+            "prompt",
+            "prompt engineering",
+            "chatgpt",
+            "machine learning",
+            "ml",
+            "openai",
+            "embeddings",
+            "vectorstores"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+            "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/langchain-core/",
+            "npm": "https://www.npmjs.com/package/@langchain/core",
+            "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+          },
+          "package_date": "2026-08-20T01:18:37.261Z",
+          "package_name": "@langchain/core",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:45:39.233Z",
+          "version": "1.2.9"
+        },
+        "url": "https://www.npmjs.com/package/@langchain/core"
+      },
+      "source_record_id": "npm-search:package:@langchain/core",
+      "source_url": "https://registry.npmjs.org/@langchain%2Fcore",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@langchain/core",
+          "operation": "normalize_name",
+          "output": "@langchain/core",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@langchain/core",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@langchain%2Fcore"
+    },
+    "url": "https://www.npmjs.com/package/@langchain/core"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows.",
+    "entity_type": "tool",
+    "id": "88cd445d-59f9-5420-ba3c-012080056db4",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 6470501,
+          "weekly": 1599331
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "openai",
+          "agents",
+          "ai",
+          "agentic"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/openai/openai-agents-js/issues",
+          "homepage": "https://openai.github.io/openai-agents-js/",
+          "npm": "https://www.npmjs.com/package/@openai/agents-core",
+          "repository": "https://github.com/openai/openai-agents-js"
+        },
+        "package_date": "2026-08-19T14:49:14.728Z",
+        "package_name": "@openai/agents-core",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:45:15.042Z",
+        "version": "0.17.0"
+      }
+    },
+    "name": "@openai/agents-core",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows.",
+        "name": "@openai/agents-core",
+        "package": {
+          "downloads": {
+            "monthly": 6470501,
+            "weekly": 1599331
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "openai",
+            "agents",
+            "ai",
+            "agentic"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/openai/openai-agents-js/issues",
+            "homepage": "https://openai.github.io/openai-agents-js/",
+            "npm": "https://www.npmjs.com/package/@openai/agents-core",
+            "repository": "https://github.com/openai/openai-agents-js"
+          },
+          "package_date": "2026-08-19T14:49:14.728Z",
+          "package_name": "@openai/agents-core",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:45:15.042Z",
+          "version": "0.17.0"
+        },
+        "url": "https://www.npmjs.com/package/@openai/agents-core"
+      },
+      "source_record_id": "npm-search:package:@openai/agents-core",
+      "source_url": "https://registry.npmjs.org/@openai%2Fagents-core",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@openai/agents-core",
+          "operation": "normalize_name",
+          "output": "@openai/agents-core",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@openai/agents-core",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    },
+    "url": "https://www.npmjs.com/package/@openai/agents-core"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "OpenTelemetry instrumentation for the `openai` OpenAI client library",
+    "entity_type": "tool",
+    "id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 24701347,
+          "weekly": 6381534
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "instrumentation",
+          "opentelemetry",
+          "observability",
+          "openai",
+          "llm",
+          "genai"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/open-telemetry/opentelemetry-js-contrib/issues",
+          "homepage": "https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/packages/instrumentation-openai#readme",
+          "npm": "https://www.npmjs.com/package/@opentelemetry/instrumentation-openai",
+          "repository": "git+https://github.com/open-telemetry/opentelemetry-js-contrib.git"
+        },
+        "package_date": "2026-07-23T17:57:47.969Z",
+        "package_name": "@opentelemetry/instrumentation-openai",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:49:05.182Z",
+        "version": "0.19.0"
+      }
+    },
+    "name": "@opentelemetry/instrumentation-openai",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "OpenTelemetry instrumentation for the `openai` OpenAI client library",
+        "name": "@opentelemetry/instrumentation-openai",
+        "package": {
+          "downloads": {
+            "monthly": 24701347,
+            "weekly": 6381534
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "instrumentation",
+            "opentelemetry",
+            "observability",
+            "openai",
+            "llm",
+            "genai"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/open-telemetry/opentelemetry-js-contrib/issues",
+            "homepage": "https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/packages/instrumentation-openai#readme",
+            "npm": "https://www.npmjs.com/package/@opentelemetry/instrumentation-openai",
+            "repository": "git+https://github.com/open-telemetry/opentelemetry-js-contrib.git"
+          },
+          "package_date": "2026-07-23T17:57:47.969Z",
+          "package_name": "@opentelemetry/instrumentation-openai",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:49:05.182Z",
+          "version": "0.19.0"
+        },
+        "url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-openai"
+      },
+      "source_record_id": "npm-search:package:@opentelemetry/instrumentation-openai",
+      "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@opentelemetry/instrumentation-openai",
+          "operation": "normalize_name",
+          "output": "@opentelemetry/instrumentation-openai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@opentelemetry/instrumentation-openai",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-openai"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Promptbook: Create persistent AI agents that turn your company's scattered knowledge into action",
+    "entity_type": "tool",
+    "id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 7085092,
+          "weekly": 1978729
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "ai-agents",
+          "ai-application-framework",
+          "ai-assistant",
+          "ai-automation",
+          "ai-development",
+          "ai-framework",
+          "ai-ops",
+          "ai-orchestration",
+          "ai-pipeline",
+          "ai-platform",
+          "ai-scripting",
+          "ai-sdk",
+          "ai-workflow",
+          "api-integration",
+          "automation-framework",
+          "book-language",
+          "browser",
+          "chatbot",
+          "content-generation",
+          "conversational-ai",
+          "cross-platform",
+          "cross-provider",
+          "developer-tools",
+          "embeddings",
+          "function-calling",
+          "generative-ai",
+          "helpers",
+          "human-readable",
+          "javascript",
+          "knowledge-base",
+          "language-model",
+          "large-language-models",
+          "llm",
+          "llmops",
+          "machine-learning",
+          "markdown-dsl",
+          "mlops",
+          "model-agnostic",
+          "multi-model",
+          "multimodal",
+          "natural-language",
+          "natural-language-processing",
+          "nlp",
+          "nodejs",
+          "orchestration",
+          "pipeline",
+          "plain-english",
+          "postprocessing",
+          "preprocessing",
+          "prompt",
+          "prompt-chaining",
+          "prompt-engineering",
+          "prompt-management",
+          "prompt-template",
+          "rag",
+          "reasoning",
+          "task-automation",
+          "template",
+          "text-generation",
+          "text-processing",
+          "tools",
+          "typescript",
+          "unified-interface",
+          "utilities",
+          "vendor-agnostic",
+          "workflow",
+          "workflow-engine"
+        ],
+        "license": "CC-BY-4.0",
+        "links": {
+          "bugs": "https://github.com/webgptorg/promptbook/issues",
+          "homepage": "https://ptbk.io/",
+          "npm": "https://www.npmjs.com/package/@promptbook/utils",
+          "repository": "git+https://github.com/webgptorg/promptbook.git"
+        },
+        "package_date": "2026-08-25T12:05:24.286Z",
+        "package_name": "@promptbook/utils",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T12:05:57.563Z",
+        "version": "0.114.0-18"
+      }
+    },
+    "name": "@promptbook/utils",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Promptbook: Create persistent AI agents that turn your company's scattered knowledge into action",
+        "name": "@promptbook/utils",
+        "package": {
+          "downloads": {
+            "monthly": 7085092,
+            "weekly": 1978729
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "ai-agents",
+            "ai-application-framework",
+            "ai-assistant",
+            "ai-automation",
+            "ai-development",
+            "ai-framework",
+            "ai-ops",
+            "ai-orchestration",
+            "ai-pipeline",
+            "ai-platform",
+            "ai-scripting",
+            "ai-sdk",
+            "ai-workflow",
+            "api-integration",
+            "automation-framework",
+            "book-language",
+            "browser",
+            "chatbot",
+            "content-generation",
+            "conversational-ai",
+            "cross-platform",
+            "cross-provider",
+            "developer-tools",
+            "embeddings",
+            "function-calling",
+            "generative-ai",
+            "helpers",
+            "human-readable",
+            "javascript",
+            "knowledge-base",
+            "language-model",
+            "large-language-models",
+            "llm",
+            "llmops",
+            "machine-learning",
+            "markdown-dsl",
+            "mlops",
+            "model-agnostic",
+            "multi-model",
+            "multimodal",
+            "natural-language",
+            "natural-language-processing",
+            "nlp",
+            "nodejs",
+            "orchestration",
+            "pipeline",
+            "plain-english",
+            "postprocessing",
+            "preprocessing",
+            "prompt",
+            "prompt-chaining",
+            "prompt-engineering",
+            "prompt-management",
+            "prompt-template",
+            "rag",
+            "reasoning",
+            "task-automation",
+            "template",
+            "text-generation",
+            "text-processing",
+            "tools",
+            "typescript",
+            "unified-interface",
+            "utilities",
+            "vendor-agnostic",
+            "workflow",
+            "workflow-engine"
+          ],
+          "license": "CC-BY-4.0",
+          "links": {
+            "bugs": "https://github.com/webgptorg/promptbook/issues",
+            "homepage": "https://ptbk.io/",
+            "npm": "https://www.npmjs.com/package/@promptbook/utils",
+            "repository": "git+https://github.com/webgptorg/promptbook.git"
+          },
+          "package_date": "2026-08-25T12:05:24.286Z",
+          "package_name": "@promptbook/utils",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T12:05:57.563Z",
+          "version": "0.114.0-18"
+        },
+        "url": "https://www.npmjs.com/package/@promptbook/utils"
+      },
+      "source_record_id": "npm-search:package:@promptbook/utils",
+      "source_url": "https://registry.npmjs.org/@promptbook%2Futils",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@promptbook/utils",
+          "operation": "normalize_name",
+          "output": "@promptbook/utils",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@promptbook/utils",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@promptbook%2Futils"
+    },
+    "url": "https://www.npmjs.com/package/@promptbook/utils"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "SDK for ComfyUI",
+    "entity_type": "tool",
+    "id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 124192,
+          "weekly": 28429
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "sdk",
+          "typescript",
+          "ts",
+          "comfy",
+          "stable-diffusion",
+          "comfyui-api",
+          "comfyui-sdk"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/tctien342/comfyui-sdk/issues",
+          "homepage": "https://github.com/tctien342/comfyui-sdk#readme",
+          "npm": "https://www.npmjs.com/package/@saintno/comfyui-sdk",
+          "repository": "git+https://github.com/tctien342/comfyui-sdk.git"
+        },
+        "package_date": "2026-04-09T17:20:49.076Z",
+        "package_name": "@saintno/comfyui-sdk",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T10:51:46.964Z",
+        "version": "0.3.1"
+      }
+    },
+    "name": "@saintno/comfyui-sdk",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "SDK for ComfyUI",
+        "name": "@saintno/comfyui-sdk",
+        "package": {
+          "downloads": {
+            "monthly": 124192,
+            "weekly": 28429
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "sdk",
+            "typescript",
+            "ts",
+            "comfy",
+            "stable-diffusion",
+            "comfyui-api",
+            "comfyui-sdk"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/tctien342/comfyui-sdk/issues",
+            "homepage": "https://github.com/tctien342/comfyui-sdk#readme",
+            "npm": "https://www.npmjs.com/package/@saintno/comfyui-sdk",
+            "repository": "git+https://github.com/tctien342/comfyui-sdk.git"
+          },
+          "package_date": "2026-04-09T17:20:49.076Z",
+          "package_name": "@saintno/comfyui-sdk",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T10:51:46.964Z",
+          "version": "0.3.1"
+        },
+        "url": "https://www.npmjs.com/package/@saintno/comfyui-sdk"
+      },
+      "source_record_id": "npm-search:package:@saintno/comfyui-sdk",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@saintno/comfyui-sdk",
+          "operation": "normalize_name",
+          "output": "@saintno/comfyui-sdk",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@saintno/comfyui-sdk",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "url": "https://www.npmjs.com/package/@saintno/comfyui-sdk"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+    "entity_type": "tool",
+    "id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 10421,
+          "weekly": 1751
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "image-generation",
+          "video-generation",
+          "stable-diffusion",
+          "flux",
+          "wan",
+          "ltx",
+          "seedance",
+          "happyhorse",
+          "alibaba",
+          "text-to-image",
+          "text-to-video",
+          "image-to-video",
+          "generative-ai",
+          "vision",
+          "vlm",
+          "multimodal",
+          "image-understanding",
+          "ocr",
+          "sogni",
+          "supernet",
+          "llm-friendly"
+        ],
+        "license": "ISC",
+        "links": {
+          "bugs": "https://github.com/Sogni-AI/sogni-client/issues",
+          "homepage": "https://github.com/Sogni-AI/sogni-client#readme",
+          "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
+          "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
+        },
+        "package_date": "2026-08-25T08:51:43.484Z",
+        "package_name": "@sogni-ai/sogni-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T08:52:14.637Z",
+        "version": "5.19.2"
+      }
+    },
+    "name": "@sogni-ai/sogni-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+        "name": "@sogni-ai/sogni-client",
+        "package": {
+          "downloads": {
+            "monthly": 10421,
+            "weekly": 1751
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "image-generation",
+            "video-generation",
+            "stable-diffusion",
+            "flux",
+            "wan",
+            "ltx",
+            "seedance",
+            "happyhorse",
+            "alibaba",
+            "text-to-image",
+            "text-to-video",
+            "image-to-video",
+            "generative-ai",
+            "vision",
+            "vlm",
+            "multimodal",
+            "image-understanding",
+            "ocr",
+            "sogni",
+            "supernet",
+            "llm-friendly"
+          ],
+          "license": "ISC",
+          "links": {
+            "bugs": "https://github.com/Sogni-AI/sogni-client/issues",
+            "homepage": "https://github.com/Sogni-AI/sogni-client#readme",
+            "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
+            "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
+          },
+          "package_date": "2026-08-25T08:51:43.484Z",
+          "package_name": "@sogni-ai/sogni-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T08:52:14.637Z",
+          "version": "5.19.2"
+        },
+        "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
+      },
+      "source_record_id": "npm-search:package:@sogni-ai/sogni-client",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@sogni-ai/sogni-client",
+          "operation": "normalize_name",
+          "output": "@sogni-ai/sogni-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@sogni-ai/sogni-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+    "entity_type": "tool",
+    "id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 9055,
+          "weekly": 2050
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "sogni",
+          "sogni-intelligence",
+          "ai",
+          "agent",
+          "agent-builder",
+          "creative-agent",
+          "contracts",
+          "tool-calling",
+          "image-generation",
+          "video-generation",
+          "audio-generation",
+          "n8n",
+          "workflow",
+          "automation",
+          "depin",
+          "stable-diffusion",
+          "flux"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/Sogni-AI/sogni-intelligence-client/issues",
+          "homepage": "https://github.com/Sogni-AI/sogni-intelligence-client#readme",
+          "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+          "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
+        },
+        "package_date": "2026-08-25T08:56:26.647Z",
+        "package_name": "@sogni-ai/sogni-intelligence-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-25T08:56:57.935Z",
+        "version": "3.23.2"
+      }
+    },
+    "name": "@sogni-ai/sogni-intelligence-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+        "name": "@sogni-ai/sogni-intelligence-client",
+        "package": {
+          "downloads": {
+            "monthly": 9055,
+            "weekly": 2050
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "sogni",
+            "sogni-intelligence",
+            "ai",
+            "agent",
+            "agent-builder",
+            "creative-agent",
+            "contracts",
+            "tool-calling",
+            "image-generation",
+            "video-generation",
+            "audio-generation",
+            "n8n",
+            "workflow",
+            "automation",
+            "depin",
+            "stable-diffusion",
+            "flux"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/Sogni-AI/sogni-intelligence-client/issues",
+            "homepage": "https://github.com/Sogni-AI/sogni-intelligence-client#readme",
+            "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+            "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
+          },
+          "package_date": "2026-08-25T08:56:26.647Z",
+          "package_name": "@sogni-ai/sogni-intelligence-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-25T08:56:57.935Z",
+          "version": "3.23.2"
+        },
+        "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
+      },
+      "source_record_id": "npm-search:package:@sogni-ai/sogni-intelligence-client",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@sogni-ai/sogni-intelligence-client",
+          "operation": "normalize_name",
+          "output": "@sogni-ai/sogni-intelligence-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
+    "entity_type": "tool",
+    "id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 21355,
+          "weekly": 5670
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "comfyui",
+          "stablediffusion",
+          "comfy-ui",
+          "stable-diffusion",
+          "comfy-ui-sdk",
+          "comfy-ui-api",
+          "comfy ui node",
+          "comfy ui web",
+          "comfy ui browser",
+          "sdxl",
+          "sd1.5",
+          "flux",
+          "wan",
+          "hunyuan"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/StableCanvas/comfyui-client/issues",
+          "homepage": "https://github.com/StableCanvas/comfyui-client#readme",
+          "npm": "https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+          "repository": "git+https://github.com/StableCanvas/comfyui-client.git"
+        },
+        "package_date": "2026-02-10T10:22:03.724Z",
+        "package_name": "@stable-canvas/comfyui-client",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-24T05:57:50.738Z",
+        "version": "1.5.9"
+      }
+    },
+    "name": "@stable-canvas/comfyui-client",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
+        "name": "@stable-canvas/comfyui-client",
+        "package": {
+          "downloads": {
+            "monthly": 21355,
+            "weekly": 5670
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "comfyui",
+            "stablediffusion",
+            "comfy-ui",
+            "stable-diffusion",
+            "comfy-ui-sdk",
+            "comfy-ui-api",
+            "comfy ui node",
+            "comfy ui web",
+            "comfy ui browser",
+            "sdxl",
+            "sd1.5",
+            "flux",
+            "wan",
+            "hunyuan"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/StableCanvas/comfyui-client/issues",
+            "homepage": "https://github.com/StableCanvas/comfyui-client#readme",
+            "npm": "https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+            "repository": "git+https://github.com/StableCanvas/comfyui-client.git"
+          },
+          "package_date": "2026-02-10T10:22:03.724Z",
+          "package_name": "@stable-canvas/comfyui-client",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-24T05:57:50.738Z",
+          "version": "1.5.9"
+        },
+        "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
+      },
+      "source_record_id": "npm-search:package:@stable-canvas/comfyui-client",
+      "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@stable-canvas/comfyui-client",
+          "operation": "normalize_name",
+          "output": "@stable-canvas/comfyui-client",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/@stable-canvas/comfyui-client",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "A home for your AI agents",
+    "entity_type": "tool",
+    "id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 5670155,
+          "weekly": 1525669
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "cloudflare",
+          "agents",
+          "ai",
+          "llm",
+          "durable objects"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/cloudflare/agents/issues",
+          "homepage": "https://github.com/cloudflare/agents#readme",
+          "npm": "https://www.npmjs.com/package/agents",
+          "repository": "git+https://github.com/cloudflare/agents.git"
+        },
+        "package_date": "2026-08-18T09:10:23.768Z",
+        "package_name": "agents",
+        "query": "keywords:llm",
+        "updated": "2026-08-25T10:47:50.873Z",
+        "version": "0.21.0"
+      }
+    },
+    "name": "agents",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "A home for your AI agents",
+        "name": "agents",
+        "package": {
+          "downloads": {
+            "monthly": 5670155,
+            "weekly": 1525669
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "cloudflare",
+            "agents",
+            "ai",
+            "llm",
+            "durable objects"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/cloudflare/agents/issues",
+            "homepage": "https://github.com/cloudflare/agents#readme",
+            "npm": "https://www.npmjs.com/package/agents",
+            "repository": "git+https://github.com/cloudflare/agents.git"
+          },
+          "package_date": "2026-08-18T09:10:23.768Z",
+          "package_name": "agents",
+          "query": "keywords:llm",
+          "updated": "2026-08-25T10:47:50.873Z",
+          "version": "0.21.0"
+        },
+        "url": "https://www.npmjs.com/package/agents"
+      },
+      "source_record_id": "npm-search:package:agents",
+      "source_url": "https://registry.npmjs.org/agents",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "agents",
+          "operation": "normalize_name",
+          "output": "agents",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/agents",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agents"
+    },
+    "url": "https://www.npmjs.com/package/agents"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
+    "entity_type": "tool",
+    "id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 86429654,
+          "weekly": 22962178
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "vercel",
+          "sdk",
+          "llm",
+          "mcp",
+          "tool-calling",
+          "tools",
+          "structured-output",
+          "agent",
+          "agentic",
+          "generative",
+          "genai",
+          "chatbot",
+          "prompt",
+          "inference",
+          "language-model",
+          "streaming",
+          "openai",
+          "anthropic",
+          "claude",
+          "gemini",
+          "xai",
+          "grok"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/vercel/ai/issues",
+          "homepage": "https://ai-sdk.dev/docs",
+          "npm": "https://www.npmjs.com/package/ai",
+          "repository": "https://github.com/vercel/ai"
+        },
+        "package_date": "2026-08-25T03:21:00.757Z",
+        "package_name": "ai",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:47:31.441Z",
+        "version": "7.0.79"
+      }
+    },
+    "name": "ai",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
+        "name": "ai",
+        "package": {
+          "downloads": {
+            "monthly": 86429654,
+            "weekly": 22962178
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "vercel",
+            "sdk",
+            "llm",
+            "mcp",
+            "tool-calling",
+            "tools",
+            "structured-output",
+            "agent",
+            "agentic",
+            "generative",
+            "genai",
+            "chatbot",
+            "prompt",
+            "inference",
+            "language-model",
+            "streaming",
+            "openai",
+            "anthropic",
+            "claude",
+            "gemini",
+            "xai",
+            "grok"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/vercel/ai/issues",
+            "homepage": "https://ai-sdk.dev/docs",
+            "npm": "https://www.npmjs.com/package/ai",
+            "repository": "https://github.com/vercel/ai"
+          },
+          "package_date": "2026-08-25T03:21:00.757Z",
+          "package_name": "ai",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:47:31.441Z",
+          "version": "7.0.79"
+        },
+        "url": "https://www.npmjs.com/package/ai"
+      },
+      "source_record_id": "npm-search:package:ai",
+      "source_url": "https://registry.npmjs.org/ai",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ai",
+          "operation": "normalize_name",
+          "output": "ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/ai",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ai"
+    },
+    "url": "https://www.npmjs.com/package/ai"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Detect agentic coding environments and AI assistant tools",
+    "entity_type": "tool",
+    "id": "4f227a12-6347-5f6c-ab79-53bf48696940",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 7233157,
+          "weekly": 2141771
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "agentic",
+          "coding",
+          "detection",
+          "llm",
+          "assistant"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/ascorbic/am-i-vibing/issues",
+          "homepage": "https://github.com/ascorbic/am-i-vibing",
+          "npm": "https://www.npmjs.com/package/am-i-vibing",
+          "repository": "git+https://github.com/ascorbic/am-i-vibing.git"
+        },
+        "package_date": "2026-06-23T15:54:00.577Z",
+        "package_name": "am-i-vibing",
+        "query": "keywords:llm",
+        "updated": "2026-08-25T10:53:20.450Z",
+        "version": "0.5.0"
+      }
+    },
+    "name": "am-i-vibing",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Detect agentic coding environments and AI assistant tools",
+        "name": "am-i-vibing",
+        "package": {
+          "downloads": {
+            "monthly": 7233157,
+            "weekly": 2141771
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "agentic",
+            "coding",
+            "detection",
+            "llm",
+            "assistant"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/ascorbic/am-i-vibing/issues",
+            "homepage": "https://github.com/ascorbic/am-i-vibing",
+            "npm": "https://www.npmjs.com/package/am-i-vibing",
+            "repository": "git+https://github.com/ascorbic/am-i-vibing.git"
+          },
+          "package_date": "2026-06-23T15:54:00.577Z",
+          "package_name": "am-i-vibing",
+          "query": "keywords:llm",
+          "updated": "2026-08-25T10:53:20.450Z",
+          "version": "0.5.0"
+        },
+        "url": "https://www.npmjs.com/package/am-i-vibing"
+      },
+      "source_record_id": "npm-search:package:am-i-vibing",
+      "source_url": "https://registry.npmjs.org/am-i-vibing",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "am-i-vibing",
+          "operation": "normalize_name",
+          "output": "am-i-vibing",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/am-i-vibing",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/am-i-vibing"
+    },
+    "url": "https://www.npmjs.com/package/am-i-vibing"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
     "description": "The official Python library for the anthropic API",
     "entity_type": "tool",
     "id": "c39b606e-3394-56fb-bbde-b1f472e08ae2",
@@ -705,7 +3039,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -754,6 +3088,476 @@
     "categories": [
       "Tools"
     ],
+    "description": "Streaming utilities for AI assistants",
+    "entity_type": "tool",
+    "id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 7233829,
+          "weekly": 1830183
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "streaming",
+          "assistant",
+          "chat",
+          "openai",
+          "llm",
+          "assistant-ui"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/assistant-ui/assistant-ui/issues",
+          "homepage": "https://www.assistant-ui.com/",
+          "npm": "https://www.npmjs.com/package/assistant-stream",
+          "repository": "git+https://github.com/assistant-ui/assistant-ui.git"
+        },
+        "package_date": "2026-08-20T18:22:25.788Z",
+        "package_name": "assistant-stream",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:44:55.764Z",
+        "version": "0.3.39"
+      }
+    },
+    "name": "assistant-stream",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Streaming utilities for AI assistants",
+        "name": "assistant-stream",
+        "package": {
+          "downloads": {
+            "monthly": 7233829,
+            "weekly": 1830183
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "streaming",
+            "assistant",
+            "chat",
+            "openai",
+            "llm",
+            "assistant-ui"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/assistant-ui/assistant-ui/issues",
+            "homepage": "https://www.assistant-ui.com/",
+            "npm": "https://www.npmjs.com/package/assistant-stream",
+            "repository": "git+https://github.com/assistant-ui/assistant-ui.git"
+          },
+          "package_date": "2026-08-20T18:22:25.788Z",
+          "package_name": "assistant-stream",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:44:55.764Z",
+          "version": "0.3.39"
+        },
+        "url": "https://www.npmjs.com/package/assistant-stream"
+      },
+      "source_record_id": "npm-search:package:assistant-stream",
+      "source_url": "https://registry.npmjs.org/assistant-stream",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "assistant-stream",
+          "operation": "normalize_name",
+          "output": "assistant-stream",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/assistant-stream",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/assistant-stream"
+    },
+    "url": "https://www.npmjs.com/package/assistant-stream"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Chat SDK — universal TypeScript toolkit for building multi-platform chat bots and AI agents on Slack, Teams, Google Chat, Discord, WhatsApp, and more",
+    "entity_type": "tool",
+    "id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 8920068,
+          "weekly": 2385490
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "chat",
+          "chat-sdk",
+          "chatbot",
+          "chat-bot",
+          "bot",
+          "bot-framework",
+          "messaging",
+          "multi-platform",
+          "slack",
+          "teams",
+          "microsoft-teams",
+          "discord",
+          "google-chat",
+          "telegram",
+          "whatsapp",
+          "github",
+          "webhook",
+          "ai-agent",
+          "ai-sdk",
+          "typescript",
+          "vercel"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/vercel/chat/issues",
+          "homepage": "https://chat-sdk.dev/docs",
+          "npm": "https://www.npmjs.com/package/chat",
+          "repository": "git+https://github.com/vercel/chat.git"
+        },
+        "package_date": "2026-08-17T21:16:24.899Z",
+        "package_name": "chat",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T10:46:16.426Z",
+        "version": "4.38.1"
+      }
+    },
+    "name": "chat",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Chat SDK — universal TypeScript toolkit for building multi-platform chat bots and AI agents on Slack, Teams, Google Chat, Discord, WhatsApp, and more",
+        "name": "chat",
+        "package": {
+          "downloads": {
+            "monthly": 8920068,
+            "weekly": 2385490
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "chat",
+            "chat-sdk",
+            "chatbot",
+            "chat-bot",
+            "bot",
+            "bot-framework",
+            "messaging",
+            "multi-platform",
+            "slack",
+            "teams",
+            "microsoft-teams",
+            "discord",
+            "google-chat",
+            "telegram",
+            "whatsapp",
+            "github",
+            "webhook",
+            "ai-agent",
+            "ai-sdk",
+            "typescript",
+            "vercel"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/vercel/chat/issues",
+            "homepage": "https://chat-sdk.dev/docs",
+            "npm": "https://www.npmjs.com/package/chat",
+            "repository": "git+https://github.com/vercel/chat.git"
+          },
+          "package_date": "2026-08-17T21:16:24.899Z",
+          "package_name": "chat",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T10:46:16.426Z",
+          "version": "4.38.1"
+        },
+        "url": "https://www.npmjs.com/package/chat"
+      },
+      "source_record_id": "npm-search:package:chat",
+      "source_url": "https://registry.npmjs.org/chat",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "chat",
+          "operation": "normalize_name",
+          "output": "chat",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/chat",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/chat"
+    },
+    "url": "https://www.npmjs.com/package/chat"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
+    "description": "Filesystem-first framework for durable backend AI agents that run anywhere.",
+    "entity_type": "tool",
+    "id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 2379796,
+          "weekly": 704906
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "agent-framework",
+          "agents",
+          "ai-agents",
+          "ai-sdk",
+          "evals",
+          "eve",
+          "mcp",
+          "model-context-protocol",
+          "nextjs",
+          "observability",
+          "react",
+          "serverless",
+          "tools",
+          "vercel",
+          "workflow"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/vercel/eve/issues",
+          "homepage": "https://github.com/vercel/eve#readme",
+          "npm": "https://www.npmjs.com/package/eve",
+          "repository": "git+https://github.com/vercel/eve.git"
+        },
+        "package_date": "2026-08-24T22:34:09.967Z",
+        "package_name": "eve",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T10:45:14.861Z",
+        "version": "0.44.4"
+      }
+    },
+    "name": "eve",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Filesystem-first framework for durable backend AI agents that run anywhere.",
+        "name": "eve",
+        "package": {
+          "downloads": {
+            "monthly": 2379796,
+            "weekly": 704906
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "agent-framework",
+            "agents",
+            "ai-agents",
+            "ai-sdk",
+            "evals",
+            "eve",
+            "mcp",
+            "model-context-protocol",
+            "nextjs",
+            "observability",
+            "react",
+            "serverless",
+            "tools",
+            "vercel",
+            "workflow"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/vercel/eve/issues",
+            "homepage": "https://github.com/vercel/eve#readme",
+            "npm": "https://www.npmjs.com/package/eve",
+            "repository": "git+https://github.com/vercel/eve.git"
+          },
+          "package_date": "2026-08-24T22:34:09.967Z",
+          "package_name": "eve",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T10:45:14.861Z",
+          "version": "0.44.4"
+        },
+        "url": "https://www.npmjs.com/package/eve"
+      },
+      "source_record_id": "npm-search:package:eve",
+      "source_url": "https://registry.npmjs.org/eve",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "eve",
+          "operation": "normalize_name",
+          "output": "eve",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/eve",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/eve"
+    },
+    "url": "https://www.npmjs.com/package/eve"
+  },
+  {
+    "categories": [
+      "Tools",
+      "Creative"
+    ],
+    "description": "GPT4 for free, No API key, no auth required.",
+    "entity_type": "tool",
+    "id": "15c7c703-213a-54e9-8672-bd5e953b6224",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 8380,
+          "weekly": 2775
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "gpt4free",
+          "gpt-free",
+          "free-gpt",
+          "gpt",
+          "gpt-3",
+          "gpt-3.5",
+          "gpt-4",
+          "bing",
+          "dalle",
+          "stable-diffusion",
+          "ai",
+          "completion",
+          "chat completion"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
+          "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
+          "npm": "https://www.npmjs.com/package/g4f",
+          "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
+        },
+        "package_date": "2024-06-30T01:42:48.000Z",
+        "package_name": "g4f",
+        "query": "keywords:stable-diffusion",
+        "updated": "2026-08-24T08:01:09.094Z",
+        "version": "1.4.6"
+      }
+    },
+    "name": "g4f",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "Creative"
+        ],
+        "description": "GPT4 for free, No API key, no auth required.",
+        "name": "g4f",
+        "package": {
+          "downloads": {
+            "monthly": 8380,
+            "weekly": 2775
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "gpt4free",
+            "gpt-free",
+            "free-gpt",
+            "gpt",
+            "gpt-3",
+            "gpt-3.5",
+            "gpt-4",
+            "bing",
+            "dalle",
+            "stable-diffusion",
+            "ai",
+            "completion",
+            "chat completion"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
+            "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
+            "npm": "https://www.npmjs.com/package/g4f",
+            "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
+          },
+          "package_date": "2024-06-30T01:42:48.000Z",
+          "package_name": "g4f",
+          "query": "keywords:stable-diffusion",
+          "updated": "2026-08-24T08:01:09.094Z",
+          "version": "1.4.6"
+        },
+        "url": "https://www.npmjs.com/package/g4f"
+      },
+      "source_record_id": "npm-search:package:g4f",
+      "source_url": "https://registry.npmjs.org/g4f",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "g4f",
+          "operation": "normalize_name",
+          "output": "g4f",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/g4f",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/g4f"
+    },
+    "url": "https://www.npmjs.com/package/g4f"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
     "description": "The NPM package description explicitly identifies the GitHub API as the integration target.",
     "entity_type": "tool",
     "id": "05ab724d-899b-524a-ba66-19cdfc43d021",
@@ -761,7 +3565,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
+      "fetched_at": "2026-08-25T12:25:08.170891+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -818,7 +3622,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -867,6 +3671,119 @@
     "categories": [
       "Tools"
     ],
+    "description": "Typescript bindings for langchain",
+    "entity_type": "tool",
+    "id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 10905591,
+          "weekly": 2891532
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "llm",
+          "ai",
+          "gpt3",
+          "chain",
+          "prompt",
+          "prompt engineering",
+          "chatgpt",
+          "machine learning",
+          "ml",
+          "openai",
+          "embeddings",
+          "vectorstores"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+          "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
+          "npm": "https://www.npmjs.com/package/langchain",
+          "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+        },
+        "package_date": "2026-08-20T01:18:36.679Z",
+        "package_name": "langchain",
+        "query": "keywords:openai",
+        "updated": "2026-08-25T10:45:32.747Z",
+        "version": "1.5.10"
+      }
+    },
+    "name": "langchain",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Typescript bindings for langchain",
+        "name": "langchain",
+        "package": {
+          "downloads": {
+            "monthly": 10905591,
+            "weekly": 2891532
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "llm",
+            "ai",
+            "gpt3",
+            "chain",
+            "prompt",
+            "prompt engineering",
+            "chatgpt",
+            "machine learning",
+            "ml",
+            "openai",
+            "embeddings",
+            "vectorstores"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/langchain-ai/langchainjs/issues",
+            "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
+            "npm": "https://www.npmjs.com/package/langchain",
+            "repository": "git+ssh://git@github.com/langchain-ai/langchainjs.git"
+          },
+          "package_date": "2026-08-20T01:18:36.679Z",
+          "package_name": "langchain",
+          "query": "keywords:openai",
+          "updated": "2026-08-25T10:45:32.747Z",
+          "version": "1.5.10"
+        },
+        "url": "https://www.npmjs.com/package/langchain"
+      },
+      "source_record_id": "npm-search:package:langchain",
+      "source_url": "https://registry.npmjs.org/langchain",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "langchain",
+          "operation": "normalize_name",
+          "output": "langchain",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/langchain",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/langchain"
+    },
+    "url": "https://www.npmjs.com/package/langchain"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
     "description": "Python Client SDK for the Mistral AI API.",
     "entity_type": "tool",
     "id": "235eb008-8407-579d-ae36-49a0ca312fe5",
@@ -884,7 +3801,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -932,6 +3849,123 @@
     "categories": [
       "Tools"
     ],
+    "description": "Use Ollama with the Vercel AI SDK, implementing the official Ollama API. This provider has minimal dependencies and is web-compatible out of the box.",
+    "entity_type": "tool",
+    "id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
+    "metadata": {
+      "package": {
+        "downloads": {
+          "monthly": 3176701,
+          "weekly": 852124
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "ai",
+          "vercel",
+          "ai-sdk",
+          "ai-sdk-v7",
+          "ollama",
+          "llm",
+          "provider",
+          "chat",
+          "streaming",
+          "tool-calling",
+          "thinking-mode",
+          "completion-models",
+          "local-ai",
+          "embeddings"
+        ],
+        "license": "Apache-2.0",
+        "links": {
+          "bugs": "https://github.com/nordwestt/ollama-ai-provider-v2/issues",
+          "homepage": "https://github.com/nordwestt/ollama-ai-provider-v2",
+          "npm": "https://www.npmjs.com/package/ollama-ai-provider-v2",
+          "repository": "git+https://github.com/nordwestt/ollama-ai-provider-v2.git"
+        },
+        "package_date": "2026-07-08T08:04:59.483Z",
+        "package_name": "ollama-ai-provider-v2",
+        "query": "keywords:ai-sdk",
+        "updated": "2026-08-25T10:46:30.569Z",
+        "version": "4.0.1"
+      }
+    },
+    "name": "ollama-ai-provider-v2",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools"
+        ],
+        "description": "Use Ollama with the Vercel AI SDK, implementing the official Ollama API. This provider has minimal dependencies and is web-compatible out of the box.",
+        "name": "ollama-ai-provider-v2",
+        "package": {
+          "downloads": {
+            "monthly": 3176701,
+            "weekly": 852124
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "ai",
+            "vercel",
+            "ai-sdk",
+            "ai-sdk-v7",
+            "ollama",
+            "llm",
+            "provider",
+            "chat",
+            "streaming",
+            "tool-calling",
+            "thinking-mode",
+            "completion-models",
+            "local-ai",
+            "embeddings"
+          ],
+          "license": "Apache-2.0",
+          "links": {
+            "bugs": "https://github.com/nordwestt/ollama-ai-provider-v2/issues",
+            "homepage": "https://github.com/nordwestt/ollama-ai-provider-v2",
+            "npm": "https://www.npmjs.com/package/ollama-ai-provider-v2",
+            "repository": "git+https://github.com/nordwestt/ollama-ai-provider-v2.git"
+          },
+          "package_date": "2026-07-08T08:04:59.483Z",
+          "package_name": "ollama-ai-provider-v2",
+          "query": "keywords:ai-sdk",
+          "updated": "2026-08-25T10:46:30.569Z",
+          "version": "4.0.1"
+        },
+        "url": "https://www.npmjs.com/package/ollama-ai-provider-v2"
+      },
+      "source_record_id": "npm-search:package:ollama-ai-provider-v2",
+      "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ollama-ai-provider-v2",
+          "operation": "normalize_name",
+          "output": "ollama-ai-provider-v2",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "tool:url:https://www.npmjs.com/package/ollama-ai-provider-v2",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ollama-ai-provider-v2"
+    },
+    "url": "https://www.npmjs.com/package/ollama-ai-provider-v2"
+  },
+  {
+    "categories": [
+      "Tools"
+    ],
     "description": "The official Python library for the openai API",
     "entity_type": "tool",
     "id": "9850b875-7965-57f0-a25a-1518f67a2952",
@@ -950,7 +3984,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Tools"

@@ -103,7 +103,7 @@ class OfficialSDKModelAdapter(SourceAdapter):
         for source in self.SOURCES:
             try:
                 text, response_url, fields = await self._fetch_source_text(source)
-                observed = self._parse_model_identifiers(text)
+                observed = self._parse_model_identifiers(text, source.type_name)
                 if not observed:
                     self._failures.append(f"{source.repository}: no model identifiers parsed")
                     continue
@@ -174,17 +174,61 @@ class OfficialSDKModelAdapter(SourceAdapter):
         text = base64.b64decode(content).decode("utf-8", "replace")
         return text, response.url, fields
 
-    def _parse_model_identifiers(self, text: str) -> list[ObservedModelIdentifier]:
+    def _parse_model_identifiers(self, text: str, type_name: str | None = None) -> list[ObservedModelIdentifier]:
+        """Parse only string literals inside the intended Literal[...] alias.
+
+        The SDK files also contain other quoted strings such as __all__ entries.
+        Those are source evidence for the Python module, not model identifiers,
+        so they must not be allowed to become model records if the preferred
+        sample list changes.
+        """
+        alias = type_name or "Model"
+        alias_match = re.search(rf"\b{re.escape(alias)}\s*:\s*TypeAlias\s*=\s*(?:Union\s*\[\s*)?Literal\s*\[", text)
+        if alias_match is None:
+            return []
+        literal_start = text.find("[", alias_match.end() - 1)
+        literal_end = self._matching_bracket_end(text, literal_start)
+        if literal_start < 0 or literal_end < 0:
+            return []
+        literal_body = text[literal_start:literal_end]
+
         observed: list[ObservedModelIdentifier] = []
         seen: set[str] = set()
-        for match in re.finditer(r'"([^"\n]+)"', text):
+        for match in re.finditer(r'"([^"\n]+)"', literal_body):
             identifier = match.group(1)
             if identifier in seen:
                 continue
             seen.add(identifier)
-            line_number = text.count("\n", 0, match.start()) + 1
+            absolute_start = literal_start + match.start()
+            line_number = text.count("\n", 0, absolute_start) + 1
             observed.append(ObservedModelIdentifier(identifier=identifier, line_number=line_number))
         return observed
+
+    def _matching_bracket_end(self, text: str, opening_index: int) -> int:
+        if opening_index < 0:
+            return -1
+        depth = 0
+        in_string = False
+        escaped = False
+        for index in range(opening_index, len(text)):
+            char = text[index]
+            if in_string:
+                if escaped:
+                    escaped = False
+                elif char == "\\":
+                    escaped = True
+                elif char == '"':
+                    in_string = False
+                continue
+            if char == '"':
+                in_string = True
+            elif char == "[":
+                depth += 1
+            elif char == "]":
+                depth -= 1
+                if depth == 0:
+                    return index
+        return -1
 
     def _select_sample(self, source: ProviderModelSource, observed: list[ObservedModelIdentifier]) -> list[ObservedModelIdentifier]:
         by_identifier = {item.identifier: item for item in observed}

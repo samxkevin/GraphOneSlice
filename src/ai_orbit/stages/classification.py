@@ -22,6 +22,12 @@ _DESCRIPTION_TASKS = [
     (re.compile(r"memory", re.I), "persistent memory"),
     (re.compile(r"problem solving|sequential thinking", re.I), "problem solving"),
     (re.compile(r"github api", re.I), "source code repository automation"),
+    (re.compile(r"agentic|\bagents?\b|multi-agent", re.I), "autonomous agent workflows"),
+    (re.compile(r"chatbot|\bchat\b|chatgpt|chat experiences", re.I), "chatbot applications"),
+    (re.compile(r"tool-calling|tool calling", re.I), "tool calling"),
+    (re.compile(r"structured-output|structured output", re.I), "structured output generation"),
+    (re.compile(r"stable diffusion|comfyui|image, video & audio generation|image generation|video generation|audio generation", re.I), "creative media generation"),
+    (re.compile(r"observability|instrumentation", re.I), "AI application observability"),
 ]
 
 

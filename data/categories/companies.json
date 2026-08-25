@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -277,7 +277,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +346,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
+      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +406,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
+      "fetched_at": "2026-08-25T12:25:07.711440+00:00",
       "observed_fields": {
         "categories": [
           "Companies"

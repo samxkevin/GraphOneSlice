@@ -9,6 +9,7 @@ from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapt
 from src.ai_orbit.adapters.github import GitHubAdapter
 from src.ai_orbit.adapters.huggingface import HuggingFaceProbeAdapter
 from src.ai_orbit.adapters.npm_mcp import NpmMcpAdapter
+from src.ai_orbit.adapters.npm_search_tools import NpmSearchToolAdapter
 from src.ai_orbit.adapters.official_sdk_models import OfficialSDKModelAdapter
 from src.ai_orbit.adapters.openai_rss_probe import OpenAIRssProbeAdapter
 from src.ai_orbit.adapters.pypi import PyPIPackageAdapter
@@ -31,6 +32,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         GitHubAdapter(settings),
         PyPIPackageAdapter(settings),
         NpmMcpAdapter(settings),
+        NpmSearchToolAdapter(settings),
         OfficialSDKModelAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),

@@ -230,6 +230,246 @@
     "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
   },
   {
+    "canonical_id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
+    "canonical_value": "ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ai",
+    "raw_value": "ai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ai"
+  },
+  {
+    "canonical_id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
+    "canonical_value": "@opentelemetry/instrumentation-openai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@opentelemetry/instrumentation-openai",
+    "raw_value": "@opentelemetry/instrumentation-openai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "canonical_id": "722a3753-3409-54f2-a51b-e450efbdec55",
+    "canonical_value": "@langchain/core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/core",
+    "raw_value": "@langchain/core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
+  },
+  {
+    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
+    "canonical_value": "langchain",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:langchain",
+    "raw_value": "langchain",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/langchain"
+  },
+  {
+    "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
+    "canonical_value": "@openai/agents-core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@openai/agents-core",
+    "raw_value": "@openai/agents-core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+  },
+  {
+    "canonical_id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
+    "canonical_value": "assistant-stream",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:assistant-stream",
+    "raw_value": "assistant-stream",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/assistant-stream"
+  },
+  {
+    "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
+    "canonical_value": "am-i-vibing",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:am-i-vibing",
+    "raw_value": "am-i-vibing",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/am-i-vibing"
+  },
+  {
+    "canonical_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
+    "canonical_value": "agents",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:agents",
+    "raw_value": "agents",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/agents"
+  },
+  {
+    "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "canonical_value": "chat",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:chat",
+    "raw_value": "chat",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/chat"
+  },
+  {
+    "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "canonical_value": "@promptbook/utils",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@promptbook/utils",
+    "raw_value": "@promptbook/utils",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
+  },
+  {
+    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
+    "canonical_value": "ollama-ai-provider-v2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
+    "raw_value": "ollama-ai-provider-v2",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
+  },
+  {
+    "canonical_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
+    "canonical_value": "eve",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:eve",
+    "raw_value": "eve",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/eve"
+  },
+  {
+    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "canonical_value": "@chat-adapter/slack",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@chat-adapter/slack",
+    "raw_value": "@chat-adapter/slack",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+  },
+  {
+    "canonical_id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
+    "canonical_value": "@assistant-ui/react-ai-sdk",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@assistant-ui/react-ai-sdk",
+    "raw_value": "@assistant-ui/react-ai-sdk",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
+  },
+  {
+    "canonical_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "canonical_value": "comfyui-mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:comfyui-mcp",
+    "raw_value": "comfyui-mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/comfyui-mcp"
+  },
+  {
+    "canonical_id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "canonical_value": "@saintno/comfyui-sdk",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@saintno/comfyui-sdk",
+    "raw_value": "@saintno/comfyui-sdk",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+  },
+  {
+    "canonical_id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "canonical_value": "@stable-canvas/comfyui-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@stable-canvas/comfyui-client",
+    "raw_value": "@stable-canvas/comfyui-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+  },
+  {
+    "canonical_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "canonical_value": "@sogni-ai/sogni-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@sogni-ai/sogni-client",
+    "raw_value": "@sogni-ai/sogni-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+  },
+  {
+    "canonical_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "canonical_value": "@sogni-ai/sogni-intelligence-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@sogni-ai/sogni-intelligence-client",
+    "raw_value": "@sogni-ai/sogni-intelligence-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+  },
+  {
+    "canonical_id": "15c7c703-213a-54e9-8672-bd5e953b6224",
+    "canonical_value": "g4f",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:g4f",
+    "raw_value": "g4f",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/g4f"
+  },
+  {
+    "canonical_id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "canonical_value": "agent-install",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:agent-install",
+    "raw_value": "agent-install",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/agent-install"
+  },
+  {
+    "canonical_id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
+    "canonical_value": "@langchain/mcp-adapters",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/mcp-adapters",
+    "raw_value": "@langchain/mcp-adapters",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+  },
+  {
+    "canonical_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "canonical_value": "add-mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:add-mcp",
+    "raw_value": "add-mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/add-mcp"
+  },
+  {
+    "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "canonical_value": "ato-mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ato-mcp",
+    "raw_value": "ato-mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ato-mcp"
+  },
+  {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "canonical_value": "OpenAI",
     "confidence": 0.92,
@@ -488,5 +728,25 @@
     "raw_value": "source code repository automation",
     "reason": "same normalized name after suffix/alias normalization",
     "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  },
+  {
+    "canonical_id": "abe4017a-270f-5e32-953b-2977f0ad7359",
+    "canonical_value": "AI application observability",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:AI application observability",
+    "raw_value": "AI application observability",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "canonical_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4",
+    "canonical_value": "creative media generation",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:creative media generation",
+    "raw_value": "creative media generation",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
   }
 ]

@@ -3,12 +3,12 @@ from src.ai_orbit.config import AIOrbitSettings
 from src.ai_orbit.utils.url import normalize_url
 
 
-def test_official_sdk_model_parser_extracts_literals_with_line_numbers():
+def test_official_sdk_model_parser_extracts_only_target_literal_block_with_line_numbers():
     adapter = OfficialSDKModelAdapter(AIOrbitSettings(log_level="CRITICAL"))
-    text = 'Model = Literal[\n    "alpha",\n    "beta",\n]\n'
-    observed = adapter._parse_model_identifiers(text)
+    text = '__all__ = ["Model"]\n\nModel: TypeAlias = Literal[\n    "alpha",\n    "beta",\n]\nOther: TypeAlias = Literal["not-a-model"]\n'
+    observed = adapter._parse_model_identifiers(text, "Model")
     assert [item.identifier for item in observed] == ["alpha", "beta"]
-    assert [item.line_number for item in observed] == [2, 3]
+    assert [item.line_number for item in observed] == [4, 5]
 
 
 def test_github_line_anchor_is_preserved_for_source_evidence_url():
