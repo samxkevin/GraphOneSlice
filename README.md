@@ -1,563 +1,625 @@
-# GraphOne / FrontierAtlas : Research Paper Vertical Slice
+# GraphOneSlice — AI Orbit Ingestion Continuation
 
-First vertical slice for the AI Engineer assessment: **arXiv → deterministic
-parsing → evidence-tiered GitHub association → GitHub star verification →
-deterministic validation → PostgreSQL → Google Sheets export**.
+This repository now contains **two distinct ingestion workstreams**. They share engineering principles, but their outputs must not be conflated.
 
-The Research Paper vertical slice has now been exercised on a **live 1,000-paper
-run**, reaching validation and export successfully.
+## Workstream A — existing research-paper pipeline
 
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/samxkevin/GraphOneSlice/blob/main/LICENSE)
-[![Google Sheet(EvidenceBackedResearchPapers)](https://img.shields.io/badge/Google%20Sheet-Live-blue?logo=google-sheets)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)
+The original repository workstream predates the AI Orbit JSON pipeline. It remains in the existing modules under `src/adapters`, `src/parsers`, `src/pipeline`, `src/storage`, `src/validator`, and related packages.
 
-The implementation deliberately keeps source-specific processing separate.
-YC, Product Hunt, News, Jobs, and Entity Resolution are separate assessment
-areas and are not represented as completed results by this vertical slice.
-
-## Current Status
-
-### Live Research Paper Results
-
-The completed live run produced:
-
-- **1,000 research papers processed and validated**
-- **1,000 research-paper records exported to Google Sheets**
-- arXiv retrieval completed successfully
-- arXiv abstract pages retrieved for repository evidence
-- GitHub repositories verified through the GitHub API
-- GitHub star counts recorded from API responses
-- raw fetch observations and repository evidence persisted for provenance
-- deterministic validation completed before export
-- **55/55 automated tests passing**
-
-The 1,000-paper result is a **live integration result**, not a mock or
-fixture-only benchmark.
-
-The implementation has **not** been benchmarked at 500,000 records.
-The 500,000-record figure is an architectural scaling target, not a claim
-about a completed 500,000-record run.
-
-### What the Research Paper Slice Proves
-
-The completed slice demonstrates an end-to-end research-paper path:
+It has demonstrated the research-paper path:
 
 ```text
 arXiv
-  ↓
-deterministic parsing
-  ↓
-paper identity
-  ↓
-abstract-page evidence retrieval
-  ↓
-explicit GitHub repository evidence extraction
-  ↓
-evidence-tiered repository association
-  ↓
-GitHub API verification
-  ↓
-star-count observation
-  ↓
-deterministic validation
-  ↓
-PostgreSQL
-  ↓
-Google Sheets export
-````
+→ deterministic parsing
+→ abstract-page repository evidence extraction
+→ evidence-backed GitHub repository association
+→ GitHub API/star verification
+→ deterministic validation
+→ PostgreSQL persistence
+→ Google Sheets export
+```
 
-The repository association stage remains deterministic and evidence-based.
-Repository popularity is not used to invent or select unsupported
-paper-to-repository relationships.
+The live 1,000-paper research-paper run is **separate** from the newer AI Orbit pipeline. The repository does not claim that those 1,000 research-paper records passed through the AI Orbit entity graph or through the LLM review chain.
 
-Ambiguity is preserved rather than silently converted into a guessed
-association.
+## Workstream B — AI Orbit ingestion pipeline
 
-## Automated Verification
+The AI Orbit pipeline lives under `src/ai_orbit/` and implements:
 
-**55/55 tests are passing** in the current test suite.
+```text
+Discovery
+→ Fetch / Extraction
+→ Cleaning
+→ Normalization
+→ Entity Resolution / Deduplication
+→ Classification
+→ Relationship Mapping
+→ Validation
+→ JSON Storage
+```
 
-The suite covers the parser, retry logic, repository associator, validator,
-GitHub client, abstract-page HTML evidence extraction, asynchronous fetch
-adapter, and integration paths involving real extracted evidence and the
-existing association engine.
+The implementation is deliberately conservative: source records are authoritative, LLM output is not used as factual evidence for these structured sources, and missing facts remain missing rather than being inferred.
 
-The provenance-lineage fixes are also covered:
+## Current verified AI Orbit baseline
 
-* arXiv Atom fetch observations are correctly linked to the papers extracted
-  from them.
-* abstract-page HTML evidence is persisted rather than discarded after
-  extraction.
-* the GitHub client's retry-exhaustion classification distinguishes actual
-  rate-limit exhaustion from ordinary server errors and network timeouts.
-
-HTTP-touching tests use `httpx.MockTransport`. Provenance-lineage tests use
-an in-memory `FakeStorage` rather than requiring a live PostgreSQL connection.
-
-Run:
+Latest verification commands run in this branch:
 
 ```bash
-python -m pytest tests/ -v
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 ```
 
-## LLM Orchestration
+Current generated artifacts report:
 
-A separate evidence-grounded LLM pipeline is implemented for semantic
-extraction and review.
+- valid entities: `148`
+- valid relationships: `50`
+- validation status: `passed`
+- validation failures: `0`
+- rejected records: `0`
+- provenance coverage: `100%`
+- recorded source failures: `13`
+- duplicate/shared URL warnings: `4`
+- test result: `85 passed`
 
-The intended normal execution sequence is:
+This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
-```text
-same ORIGINAL EVIDENCE
-        ↓
-Gemini 3.7 Flash
-initial extraction
-        ↓
-Cohere Command A+
-review and correction
-        ↓
-Groq GPT-OSS 120B
-final adjudication
-        ↓
-deterministic validation
-        ↓
-VALIDATED / QUARANTINE
+## Verification status labels
+
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, and ROS Robots Catalog ingestion. The latest executed run produced the counts above.
+- **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, and task mapping guardrails are covered by automated tests.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus news, jobs, videos, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields.
+- **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
+
+## Repository audit and current implementation status
+
+Before the AI Orbit work, the repository already had a working research-paper pipeline with arXiv, GitHub verification, PostgreSQL persistence, deterministic validation, and tests.
+
+The AI Orbit implementation added and now maintains:
+
+- common entity schema with stable IDs;
+- modular source adapters;
+- deterministic cleaning and normalization;
+- deterministic entity resolution and deduplication;
+- stable UUIDv5 identities;
+- entity mapping log generation;
+- controlled task classification from observed source values;
+- evidence-backed relationship generation;
+- deterministic validation report;
+- source-feasibility reporting;
+- required JSON outputs under `data/`;
+- automated tests for AI Orbit behavior.
+
+Entity resolution is therefore **implemented and tested for the current vertical slice**. What remains incomplete is assessment-scale entity mapping coverage across the full 250–300 record target and across additional source families.
+
+## AI Orbit source adapters and probes
+
+### Implemented ingestion adapters
+
+#### GitHub API
+
+- Access: GitHub REST JSON API.
+- Used for: repositories/tools and company/org observations.
+- Endpoints:
+  - `https://api.github.com/search/repositories`
+  - `https://api.github.com/orgs/{org}`
+- Supplies source-backed repository metadata:
+  - `full_name`
+  - `html_url`
+  - `description`
+  - `owner`
+  - `stargazers_count`
+  - `language`
+  - `updated_at`
+  - `topics`
+- Relationship evidence:
+  - repository owner metadata for company/repository ownership when the owner entity exists;
+  - observed topics for `solves` task mapping.
+- Notes:
+  - `updated_at` is treated as repository update metadata, not publication time for news/jobs.
+  - GitHub rate-limit headers are captured in source feasibility output.
+
+#### PyPI JSON API
+
+- Access: `https://pypi.org/pypi/{package}/json`.
+- Configured packages:
+  - `openai`
+  - `anthropic`
+  - `groq`
+  - `mistralai`
+- Used for: AI SDK/tool records and conservative company/author observations.
+- Supplies:
+  - package name;
+  - summary;
+  - version;
+  - Python requirement;
+  - license when supplied;
+  - project URLs;
+  - author / author-email fields.
+- Relationship evidence:
+  - `Company → develops → Tool` from PyPI author metadata.
+- Notes:
+  - PyPI package metadata is not treated as a broad product catalog.
+  - package update/version metadata is not treated as product launch time.
+
+#### NPM Registry MCP Packages
+
+- Access: NPM package JSON documents.
+- Configured packages:
+  - `@modelcontextprotocol/server-filesystem`
+  - `@modelcontextprotocol/server-memory`
+  - `@modelcontextprotocol/server-sequential-thinking`
+  - `@modelcontextprotocol/server-github`
+- Used for: MCP records and MCP/tool task relationships.
+- Supplies:
+  - package name;
+  - package description;
+  - latest version;
+  - bin field;
+  - deprecation notice when present;
+  - README evidence for npm/npx installation wording.
+- Relationship evidence:
+  - `MCP → integrates_with → Tool` for the GitHub MCP package from the NPM package description naming the GitHub API.
+  - `MCP → solves → Task` from controlled mappings over observed package descriptions.
+
+#### NPM Search AI Tool Packages
+
+- Access: NPM registry search endpoint plus package-specific registry documents.
+- Configured bounded queries include:
+  - `keywords:openai`
+  - `keywords:llm`
+  - `keywords:ai-sdk`
+  - `keywords:stable-diffusion`
+  - `keywords:model-context-protocol`
+- Used for: additional source-backed package/tool records, with MCP and Creative categories only when observed package name/description evidence supports them.
+- Supplies:
+  - package name;
+  - package description;
+  - NPM package URL;
+  - latest version;
+  - license when present;
+  - keywords;
+  - package version timestamp;
+  - download counts from NPM search.
+- Notes:
+  - NPM packages are not treated as products.
+  - package dates are version/update timestamps, not launch/news publication timestamps.
+  - package publisher/maintainer fields are not treated as company identity.
+  - each accepted search hit is verified against its package-specific registry document before export.
+  - AI relevance filtering uses token/phrase matching for short terms such as `ai`, `llm`, `gpt`, and `mcp` so unrelated substrings inside longer words are not accepted as evidence.
+  - A generic keyword-only signal such as only `ai`, `llm`, `gpt`, or `agent` is not enough for acceptance; keyword-only acceptance requires multiple explicit signals with at least one stronger source-specific signal.
+  - Creative category assignment is not made from keyword-only metadata or broad README image/badge mentions; it requires package name or package description evidence.
+  - Accepted NPM search package metadata includes the field/signals/excerpt used as AI relevance evidence, and Creative records include category evidence.
+
+#### AI Tools List Product Directory
+
+- Access: GitHub REST contents API for `lakey009/AI-Tools-List` sample JSON.
+- Used for: bounded Product records, not package/SDK/repository/model records.
+- Latest verified inventory: `1001` sample rows; `836` candidate rows after required-field, AI-evidence, and product-semantics filtering.
+- Current bounded ingestion limit: `50`.
+- Supplies source-backed product fields:
+  - directory ID;
+  - handle;
+  - website/canonical URL;
+  - description.
+- Does **not** supply reliable provider/company identity, launch date, or publication freshness. Those remain `null` or absent.
+- Notes:
+  - accepted rows require handle, website, description, valid URL, explicit AI evidence in the product description, and product/service/platform semantics;
+  - guide/article/tutorial/course/newsletter blurbs and model-family/company descriptions are rejected even if they mention AI;
+  - root `www` URL variants are deduplicated during Product discovery;
+  - records include `product.ai_relevance_evidence` with source field/signals/excerpt;
+  - the full JSON file exists but is too large for GitHub contents base64; `raw.githubusercontent.com` failed from this environment, so the implemented adapter intentionally uses the reachable sample JSON file.
+
+#### Official SDK Model Definitions
+
+- Access: GitHub REST contents API for official provider SDK type files.
+- Sources:
+  - `openai/openai-python` generated `ChatModel` type file;
+  - `anthropics/anthropic-sdk-python` generated `Model` type file.
+- Used for: model records and `Company → develops → Model` relationships.
+- Supplies:
+  - model identifier literals;
+  - provider identity from official SDK repository configuration;
+  - source file path and line number.
+- Does **not** supply:
+  - model license;
+  - modalities;
+  - pricing;
+  - launch/publication timestamp.
+- Those fields remain `null` unless a source provides them.
+
+#### Models.dev GitHub Model Catalog
+
+- Access: GitHub REST contents API for `anomalyco/models.dev` generated `models.json`.
+- Used for: bounded Model metadata records from providers not already covered by the official OpenAI/Anthropic SDK model adapter.
+- Latest verified inventory: `364` model rows; `255` candidate rows after required fields, alias/free-variant filtering, and OpenAI/Anthropic duplicate-avoidance.
+- Current bounded ingestion limit: `12`.
+- Supplies source-backed model fields:
+  - model ID;
+  - name;
+  - description;
+  - provider identity from source ID/name;
+  - modality string;
+  - input/output modalities;
+  - context length and max completion tokens when supplied;
+  - supported parameters;
+  - knowledge cutoff/source `created` fields when supplied.
+- Does **not** supply per-model license. License remains `null`.
+- The source `created` field is preserved as source metadata but is **not** treated as an independently verified model release date.
+- Direct `https://models.dev/api.json` probing still fails in this environment; this adapter uses the reachable GitHub source path for the same open-source catalog.
+
+#### ROS Robots Catalog
+
+- Access: GitHub REST contents API for `ros-infrastructure/robots.ros.org` Jekyll `_posts` Markdown records.
+- Used for: bounded Robot records, not robotics software repositories.
+- Latest verified inventory: `208` post files listed; `30` sampled; `29` sampled usable Robot records after semantic filtering.
+- Current bounded ingestion limit: `15`.
+- Supplies source-backed robot fields:
+  - title/name;
+  - catalog post date;
+  - introduction/description/body text;
+  - robot class such as ground/aerial/marine/component;
+  - tags;
+  - website and/or ROS wiki homepage where supplied;
+  - source catalog post URL.
+- Does **not** supply a dedicated manufacturer/provider field. Those remain `null`.
+- The front-matter date is preserved as `robot.catalog_posted_at`; it is the catalog post date and is **not** treated as a robot launch date.
+- The adapter rejects observed software-support blurbs such as ROS-Industrial repository/support records even when they appear in the catalog.
+
+### Feasibility probes without accepted records
+
+The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
+
+- `data/source_feasibility.json`
+- `docs/source_feasibility.md`
+
+Current probes include:
+
+- Hugging Face Hub API — models, currently unusable in this environment due TLS/network failure.
+- OpenAI News RSS — news, currently unusable in this environment due TLS/network failure.
+- Y Combinator Companies AI page — startups/companies, currently unusable due TLS/network failure before HTML inspection.
+- Product Hunt GraphQL — products, currently unusable due TLS/network failure before schema/auth inspection.
+- Hacker News Algolia AI Stories — news/story candidate, currently unusable due TLS/network failure before JSON field inspection; even if reachable, external article publication time would still need validation.
+- Himalayas AI Jobs API — jobs candidate, currently unusable due TLS/network failure before posting timestamp inspection.
+- GDELT AI News API — news candidate, currently unusable due TLS/network failure; GDELT seendate is not assumed to be publisher publication time.
+- Models.dev Model Metadata API — model-enrichment candidate, currently unusable due TLS/network failure before modalities/license inspection.
+- NPM Search AI Packages — products/tools, currently `partial`; reachable, but package search results are not automatically product records.
+- OpenRouter Models API — models, currently unusable due TLS/network failure.
+- TechCrunch AI RSS — news, currently unusable due TLS/network failure.
+- VentureBeat AI RSS — news, currently unusable due TLS/network failure.
+- Remotive AI Jobs API — jobs, currently unusable due TLS/network failure.
+- RemoteOK Jobs API — jobs, currently unusable due TLS/network failure.
+
+No source is marked usable without observed evidence.
+
+## Entity schema
+
+Every accepted entity exports the required common fields:
+
+```json
+{
+  "id": "stable-generated-uuid",
+  "entity_type": "string",
+  "name": "string",
+  "description": "string",
+  "url": "string",
+  "categories": ["string"],
+  "source": {
+    "name": "string",
+    "url": "string"
+  }
+}
 ```
 
-The original evidence remains the authoritative source throughout the LLM
-pipeline.
-
-The models are not treated as independent sources of truth. A later model
-may correct or add information only when the original evidence supports that
-change.
-
-Agreement between models is **not** treated as evidence.
-
-The implementation distinguishes normal provider execution from fallback
-execution so that an audit record does not incorrectly describe a fallback
-extraction as a normal review or adjudication stage.
-
-### LLM Live Test Status
-
-The fallback path has been exercised successfully:
-
-* Gemini 3.7 Flash returned HTTP 429 after retries.
-* Cohere successfully performed the fallback extraction.
-* Groq GPT-OSS 120B successfully performed final adjudication.
-* Deterministic evidence validation returned `VALIDATED`.
-
-The normal:
-
-```text
-Gemini → Cohere → Groq
-```
-
-three-stage path is implemented, but the complete normal three-provider path
-has **not** been live-proven because Gemini was rate-limited during the live
-test.
-
-This distinction is intentional. The repository does not claim a successful
-normal three-provider execution that was not actually observed.
-
-The LLM pipeline is also kept separate from the deterministic Research Paper
-vertical slice. The 1,000-paper Research Paper result should therefore not be
-interpreted as a claim that every one of those records passed through the
-Gemini → Cohere → Groq pipeline.
-
-## What Is Live-Proven vs. What Is Not
-
-### Live-proven in the Research Paper vertical slice
-
-* 1,000-paper live run
-* arXiv retrieval
-* deterministic paper parsing
-* paper identity handling
-* abstract-page retrieval
-* explicit repository evidence extraction
-* evidence-tiered repository association
-* GitHub API verification
-* GitHub star-count retrieval
-* PostgreSQL persistence
-* raw evidence/provenance persistence
-* deterministic validation
-* Google Sheets export
-* 55/55 automated tests
-
-### Implemented and separately exercised, but not part of the
-
-1,000-paper live-path claim
-
-* evidence-grounded LLM orchestration
-* provider retry and fallback handling
-* Gemini initial extraction
-* Cohere review/fallback extraction
-* Groq final adjudication
-* deterministic validation of the LLM result
-
-### Not completed as live assessment datasets
-
-* Startup collection at 1,000+ records
-* Product collection at 1,000+ records
-* News collection covering the required 24-hour window
-* Jobs collection covering the required 24-hour window
-* Entity Resolution / Entity Mapping Log
-* full 500,000-record production run
-* production-scale anti-bot infrastructure
-
-These areas are intentionally not represented as completed live results.
-
-## Assessment Scope
-
-The Research Paper vertical slice is deliberately narrow.
-
-Its purpose is to prove the architecture end-to-end on the research-paper
-path where the source and integration behavior have been verified.
-
-The remaining source-specific adapters are kept separate so that their
-feasibility and failure modes can be evaluated independently rather than
-being hidden behind the Research Paper result.
-
-The current assessment status is:
-
-| Assessment area                 | Status                                     |
-| ------------------------------- | ------------------------------------------ |
-| Research Papers                 | **Live-proven: 1,000 records**             |
-| GitHub repository evidence      | **Live-proven**                            |
-| GitHub star verification        | **Live-proven**                            |
-| PostgreSQL persistence          | **Live-proven**                            |
-| Google Sheets export            | **Live-proven**                            |
-| Deterministic validation        | **Live-proven**                            |
-| LLM orchestration               | **Implemented; fallback path live-tested** |
-| Startups                        | Not completed                              |
-| Products                        | Not completed                              |
-| News                            | Not completed                              |
-| Jobs                            | Not completed                              |
-| Entity Resolution / Mapping Log | Not completed                              |
-| 500,000-record run              | Not performed                              |
-
-## Architecture
-
-```text
-arxiv_adapter (fetch)
-      ↓
-fetch_observations
-(raw Atom evidence, append-only)
-      ↓
-arxiv_parser
-(deterministic, no LLM)
-      ↓
-papers
-(logical identity, arxiv_id unique)
-      ↓
-paper_fetch_observations
-(many-to-many lineage:
- one Atom fetch can contain many papers)
-      ↓
-repo_evidence_adapter
-(async fetch of paper abs-page HTML)
-      ↓
-fetch_observations
-(raw HTML evidence, append-only;
- 1:1 via scalar paper_id)
-      ↓
-repo_evidence_parser
-(deterministic HTML → RepoLinkCandidate;
- explicit links only)
-      ↓
-repo_association
-(evidence-tiered deterministic rule engine)
-      ↓
-paper_repo_links
-(0..N candidates per paper;
- ambiguity preserved)
-      ↓
-github_client
-(verify repository + live stargazers_count)
-      ↓
-github_repo_snapshots
-(append-only verification history)
-      ↓
-validator
-(deterministic schema + business rules)
-      ↓
-validated_records
-(frozen export payload)
-      ↓
-sheets_exporter
-(idempotent full-tab rewrite)
-```
-
-`fetch_observations` serves two genuinely different relationship shapes to
-`papers`:
-
-1. **Many-to-many** for the arXiv Atom discovery fetch, because one fetched
-   Atom response can contain many papers. This relationship is represented by
-   `paper_fetch_observations`.
-2. **1:1** for the abstract-page HTML fetch, because the fetch is associated
-   with a specific paper through the scalar `paper_id`.
-
-The implementation therefore uses a join table where the relationship is
-actually many-to-many and the existing scalar relationship where it is
-actually 1:1.
-
-Every stage is a separate module.
-
-`storage/db.py` is the database access boundary.
-
-The deterministic repository-association engine does not use an LLM to guess
-a repository from a paper title, repository popularity, or unrelated
-similarity.
-
-## Evidence and Provenance
-
-Raw source evidence is persisted rather than discarded after parsing.
-
-The research-paper path maintains provenance through:
-
-* raw arXiv Atom observations
-* paper-to-fetch lineage
-* raw abstract-page HTML observations
-* explicit repository-link candidates
-* repository association results
-* GitHub verification snapshots
-* deterministic validation results
-* frozen export payloads
-
-This allows downstream decisions to be traced back to the evidence from which
-they were derived.
-
-A source observation and the paper extracted from that observation are not
-assumed to have a 1:1 relationship. The lineage model reflects the actual
-shape of the source response.
-
-## Deterministic Repository Association
-
-Repository association is intentionally conservative.
-
-The system extracts explicit repository evidence from the paper's available
-evidence and applies an evidence-tiered deterministic association process.
-
-The association engine does not:
-
-* invent repository URLs
-* select a repository merely because it has the highest GitHub stars
-* use repository popularity as evidence of a paper relationship
-* silently discard ambiguity
-* use outside knowledge to manufacture an association
-
-Multiple supported candidates can remain associated with a paper rather than
-forcing an unsupported single choice.
-
-## GitHub Verification
-
-GitHub verification is performed through the GitHub API.
-
-The client records repository verification observations, including the
-observed star count.
-
-Retry behavior distinguishes different failure classes rather than treating
-every exhausted retry as a rate-limit event.
-
-In particular:
-
-* HTTP 429 is treated as rate limiting.
-* retryable 5xx responses are retried separately.
-* network and timeout failures are handled separately.
-* HTTP 413 is treated as a request-payload-size failure.
-* retry exhaustion preserves the actual failure classification.
-
-The current retry-after callback remains a deferred optimization: the client
-can fall back to computed backoff and jitter rather than requiring exact
-`Retry-After` or `X-RateLimit-Reset` parsing.
-
-## Deterministic Validation
-
-LLM output and extracted source data do not become exportable merely because
-a model produced them.
-
-The deterministic validator applies the schema and business rules before
-records reach the export stage.
-
-The resulting validated record is then frozen as the export payload.
-
-The principle is:
-
-```text
-model output
-    ↓
-evidence validation
-    ↓
-business validation
-    ↓
-VALIDATED / QUARANTINE
-    ↓
-export
-```
-
-This keeps model behavior separate from the final acceptance decision.
-
-## Scaling Design
-
-The current Research Paper implementation is designed so that increasing the target record count does not require changing application logic.
-
-The design uses:
-
-* paginated source retrieval
-* configurable request delays
-* bounded asynchronous concurrency
-* PostgreSQL as the system of record
-* idempotent state transitions
-* persisted raw evidence
-* append-only fetch and verification observations
-* deterministic validation before export
-* provider retry and fallback handling
-* structural rechunking for HTTP 413 responses
-* retry-after/backoff handling for HTTP 429 responses
-
-For a larger deployment, work can be claimed atomically from PostgreSQL and
-processed by bounded workers.
-
-A separate message broker is not required as the first scaling step.
-
-The **500,000-record figure is an architectural target**, not a claim that
-the current implementation has processed 500,000 records.
-
-The 1,000-paper live result demonstrates the current integration path; it does
-not by itself constitute a 500,000-record performance benchmark.
-
-## Known Limitations
-
-### arXiv abstract-page DOM
-
-The abstract-page evidence extractor uses the configured content-container
-selectors in `repo_evidence_parser.py`.
-
-The selectors were calibrated against the available fixtures. Additional live
-spot-checking of currently served arXiv HTML remains appropriate before using
-the extractor's observed coverage as a production recall/precision claim.
-
-### GitHub Retry-After Precision
-
-The GitHub client's `_retry_after` callback remains a no-op placeholder.
-
-The current behavior remains functionally safe because the client can fall
-back to computed backoff and jitter, but exact parsing of
-`Retry-After` / `X-RateLimit-Reset` remains an optimization.
-
-### Live PostgreSQL Coverage of the New Lineage Path
-
-The provenance-lineage behavior has been exercised through the in-memory
-`FakeStorage` test double.
-
-The corresponding live PostgreSQL behavior for the newly added
-`paper_fetch_observations` path and abstract-page HTML persistence should not
-be claimed beyond the live evidence actually obtained.
-
-### Broader Assessment Sources
-
-The Research Paper vertical slice does not constitute completion of the
-Startup, Product, News, Jobs, or Entity Resolution portions of the assessment.
-
-Those remain separate workstreams.
-
-## Remaining Work
-
-The remaining assessment work is:
-
-1. Startup collection and validation at 1,000+ records.
-2. Product collection and strict AI-product filtering at 1,000+ records.
-3. Fresh News collection covering the required 24-hour window.
-4. Fresh Jobs collection covering the required 24-hour window.
-5. Entity resolution and the final Entity Mapping Log.
-6. Production-grade anti-bot and large-scale crawling infrastructure.
-7. Further live validation of source-specific behavior where not yet proven.
-8. Larger-scale performance testing beyond the completed 1,000-paper run.
-
-These items are not hidden behind the Research Paper result.
-
-## Setup
+The pipeline also exports:
+
+- `metadata` for domain-specific values;
+- `provenance` with source record ID, source URL, observed fields, transformation history, and fetch timestamp when available.
+
+Implemented metadata support includes:
+
+- repositories:
+  - stars;
+  - primary language;
+  - last updated timestamp;
+- MCP:
+  - installation method;
+  - runtime requirements when supplied;
+  - package name/version/bin/deprecation fields;
+- companies:
+  - founding year;
+  - industry sector;
+  - headquarters;
+  - these remain `null` unless source evidence supplies them;
+- models:
+  - license when supplied;
+  - modalities;
+  - input/output modalities;
+  - provider;
+  - context/capability fields when supplied;
+  - current model records all have provider evidence; `12` Models.dev records have source-supplied modalities/input/output metadata; license remains `null` because no verified source supplies per-model license;
+- products:
+  - directory ID/handle;
+  - canonical URL;
+  - provider when supplied;
+  - AI relevance evidence;
+  - current product records have directory identity/URL/description evidence, while provider remains `null` because the source does not reliably supply it;
+- robots:
+  - catalog slug/URL;
+  - robot class;
+  - tags;
+  - website/wiki homepage when supplied;
+  - catalog post date;
+  - identity evidence;
+  - manufacturer/provider remain `null` because the ROS Robots source does not expose dedicated manufacturer/provider fields.
+
+## Entity resolution and mapping log
+
+Entity resolution is deterministic and auditable.
+
+Implemented rules include:
+
+- URL normalization for identity comparisons;
+- GitHub path case normalization;
+- preservation of GitHub source-code line anchors when they are used as evidence locators;
+- normalized company/task names;
+- organization suffix removal for common company forms;
+- tested alias handling for `OpenAI`, `Open AI`, and `OpenAI, Inc.`;
+- canonical URL identity for URL-addressable entities;
+- normalized-name identity for companies and tasks;
+- stable UUIDv5 IDs from canonical keys;
+- duplicate candidate merging;
+- mapping log generation.
+
+Mapping decisions are written to `data/entity_mapping_log.json` with:
+
+- raw value;
+- canonical value;
+- method;
+- confidence;
+- source URL;
+- raw source key;
+- canonical ID;
+- reason.
+
+## Duplicate/shared URL warning investigation
+
+The previous validation report contained five duplicate normalized URL warnings. They were investigated.
+
+Findings:
+
+1. `f/prompts.chat` duplicate:
+   - Cause: two task entities used the repository API URL as their entity URL.
+   - Fix: GitHub-topic-derived task entities now use canonical GitHub topic URLs such as `https://github.com/topics/llm` where the raw observed value is a GitHub topic.
+   - Result: this duplicate warning is removed.
+
+2. Four NPM MCP package duplicates:
+   - URLs:
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github`
+   - Cause: each MCP package and the task entity derived from its description share the package source URL.
+   - Interpretation: the MCP package and task label are distinct entities; the task URL is explicitly marked in metadata as `url_role=evidence_source_url` because no canonical external task URL was observed from that source.
+   - Fix: validation warnings now include grouped entity details and classify these as `shared_evidence_url` instead of a generic duplicate URL.
+   - Result: warnings are retained and documented rather than suppressed.
+
+This preserves provenance while making the entity URL/source URL distinction explicit.
+
+## Relationship graph
+
+Output file: `data/relationships.json`.
+
+Currently produced relationship types:
+
+- `develops`
+- `solves`
+- `integrates_with`
+
+Supported relationship types in validation:
+
+- `develops`
+- `solves`
+- `integrates_with`
+- `runs`
+- `published_by`
+- `hosts`
+
+Current evidence-backed relationships include:
+
+- `Company → develops → Tool` from PyPI author metadata;
+- `Company → develops → Model` from official SDK model literal evidence;
+- `Repository/Tool/MCP → solves → Task` from observed GitHub topics or package description phrases;
+- `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github`.
+
+Relationships are not created from guesses. Every relationship has:
+
+- source entity ID;
+- target entity ID;
+- relationship type;
+- evidence object;
+- source URL;
+- method;
+- confidence.
+
+## Validation
+
+`data/validation_report.json` includes:
+
+- total discovered/extracted/cleaned/normalized/deduplicated/classified;
+- total relationships;
+- total valid/rejected;
+- per-source counts;
+- per-category counts;
+- per-entity-type counts;
+- provenance coverage;
+- failure counts by type;
+- detailed warnings;
+- source failures;
+- embedded source-feasibility observations.
+
+Validation checks include:
+
+- required entity fields;
+- schema validity;
+- supported entity types;
+- supported categories;
+- valid URLs;
+- provenance presence;
+- duplicate IDs;
+- duplicate/shared URLs as warnings;
+- repository metadata shape;
+- MCP metadata presence;
+- model metadata presence/provider support;
+- relationship schema;
+- relationship endpoints;
+- relationship provenance/evidence.
+
+## Retry and failure strategy
+
+The AI Orbit HTTP client in `src/ai_orbit/utils/http.py` distinguishes:
+
+- HTTP `429` rate limiting;
+- HTTP `413` payload too large;
+- HTTP `404` not found;
+- HTTP `403` forbidden;
+- timeout;
+- network failure;
+- malformed JSON;
+- generic HTTP error.
+
+Retries are bounded and use exponential backoff with jitter. A source failure is recorded and isolated; records from other sources continue through validation.
+
+## LLM usage
+
+The AI Orbit JSON pipeline currently does not use LLMs for factual extraction because the accepted sources are structured APIs or source files.
+
+The repository still contains an existing provider-agnostic LLM orchestration layer in `src/llm/`. It is separate from the AI Orbit structured-source run. The prior live fallback path should be understood narrowly: Gemini returned 429, Cohere fallback extraction ran, Groq adjudication ran, and deterministic validation accepted that test result. The full normal Gemini → Cohere → Groq path is not claimed as live-proven here.
+
+## How to run
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
 
-pip install -r requirements.txt
-
+# Optional. The small AI Orbit slice runs without secrets.
 cp .env.example .env
-# Fill in DATABASE_URL, GITHUB_TOKEN, and Sheets configuration.
 
-python -m pytest tests/ -v
+.venv/bin/python run.py
 ```
 
-The automated test suite should currently report:
+Outputs are written to `data/`.
 
-```text
-55 passed
-```
-
-A live pipeline run requires the configured environment values:
+## How to test
 
 ```bash
-python -m src.pipeline.orchestrator
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovider
 ```
 
-Google Sheets export additionally requires a Google Cloud service-account
-JSON key, with its path configured through
-`GOOGLE_SERVICE_ACCOUNT_JSON_PATH`.
+Current verified result:
 
-The service account's `client_email` must have Editor access to the target
-spreadsheet.
+```text
+85 passed
+```
+
+AI Orbit-specific tests cover:
+
+- entity normalization;
+- OpenAI/Open AI/OpenAI, Inc. resolution;
+- URL normalization;
+- GitHub line-anchor preservation for source evidence;
+- deduplication;
+- provenance validation;
+- relationship endpoint validation;
+- schema/business validation;
+- bounded retry behavior;
+- source failure isolation;
+- official SDK model literal parsing;
+- NPM search/package filtering, substring false-positive rejection, weak keyword-only rejection, and MCP/Creative classification;
+- NPM MCP `New/Recently Added` category evidence from source publication timestamps rather than version-string shape;
+- task mapping guardrails for derived integration-target tools and overly broad filesystem wording;
+- Product entity validation, AI Tools List product-directory filtering, Product semantic rejects, and Product URL deduplication;
+- Models.dev catalog filtering and model metadata preservation;
+- ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection.
+
+## Generated artifacts
+
+Required artifacts:
+
+- `data/entities.json`
+- `data/relationships.json`
+- `data/entity_mapping_log.json`
+- `data/validation_report.json`
+
+Additional artifacts:
+
+- `data/source_feasibility.json`
+- `data/categories/*.json`
+- `docs/source_feasibility.md`
+
+Category exports are derived from `data/entities.json` and are convenience outputs, not independent sources of truth.
 
 ## Configuration
 
-All limits, timeouts, batch sizes, concurrency limits, and retry parameters
-are configured through environment variables in
-`src/config/settings.py` / `.env.example`.
+AI Orbit environment variables are listed in `.env.example`.
 
-The intention is to avoid embedding operational limits as magic numbers in
-the source code and to allow deployment-specific scaling without changing
-application logic.
+Important values:
 
-## Design Principles
+- `AI_ORBIT_OUTPUT_DIR`
+- `AI_ORBIT_HTTP_TIMEOUT_SECONDS`
+- `AI_ORBIT_MAX_RETRY_ATTEMPTS`
+- `AI_ORBIT_RETRY_BACKOFF_BASE_SECONDS`
+- `AI_ORBIT_RETRY_BACKOFF_MAX_SECONDS`
+- `AI_ORBIT_RETRY_JITTER_SECONDS`
+- `AI_ORBIT_CA_BUNDLE`
+- `AI_ORBIT_GITHUB_SEARCH_QUERY`
+- `AI_ORBIT_GITHUB_SEARCH_LIMIT`
+- `AI_ORBIT_OFFICIAL_SDK_MODEL_LIMIT_PER_PROVIDER`
+- `AI_ORBIT_NPM_SEARCH_TOOL_LIMIT_PER_QUERY`
+- `AI_ORBIT_NPM_SEARCH_TOOL_MAX_RECORDS`
+- `AI_ORBIT_AI_TOOLS_PRODUCT_DIRECTORY_API_URL`
+- `AI_ORBIT_AI_TOOLS_PRODUCT_LIMIT`
+- `AI_ORBIT_MODELS_DEV_GITHUB_CATALOG_API_URL`
+- `AI_ORBIT_MODELS_DEV_MODEL_LIMIT`
+- `AI_ORBIT_ROS_ROBOTS_CATALOG_API_URL`
+- `AI_ORBIT_ROS_ROBOTS_LIMIT`
+- `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
-The implementation follows a small number of strict principles:
+No real credentials are committed.
 
-### Evidence before inference
+## Implemented now
 
-Source evidence is preserved before downstream interpretation.
+- Modular AI Orbit pipeline.
+- Real source verification.
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, and the ROS Robots Catalog.
+- Feasibility-only probes for startup/company, product, model, model-enrichment, news/story, and job candidates.
+- Stable UUID generation.
+- URL normalization and GitHub evidence line-anchor handling.
+- Deterministic entity normalization and deduplication.
+- Entity mapping log.
+- Controlled task classification from observed source metadata, with guardrails for derived integration targets and over-broad wording.
+- Evidence-backed relationship extraction, including company/model relationships.
+- Validation report with metrics, failures, warnings, and source feasibility.
+- Required JSON storage artifacts.
+- Automated tests for core behavior.
 
-### Deterministic where deterministic is sufficient
+## Planned / future work
 
-The Research Paper path uses deterministic parsing and association wherever
-the source provides structured or explicit evidence.
+- Expand from `148` current valid entities toward the requested 250–300 high-quality representative records.
+- Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
+- Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
+- Find reachable news feeds/APIs with publication timestamps; current tested news/story candidates failed in this environment or do not yet establish external article publication time.
+- Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
+- Add broader products/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
+- Add `Device → runs → Model` relationships only from direct source evidence.
+- Improve assessment-scale cross-source entity resolution as more source families are added.
 
-### LLMs are not sources of truth
+## Known limitations
 
-When LLMs are used for semantic extraction, the original evidence remains
-authoritative.
-
-### Validation is independent of model confidence
-
-A model saying that something is correct does not make it correct.
-
-### Preserve uncertainty
-
-When evidence does not establish a fact, the system should preserve the
-uncertainty rather than manufacture a value.
-
-### Provenance is part of the data
-
-Raw evidence, fetch lineage, repository evidence, and verification
-observations are retained so that downstream decisions can be traced back to
-their source.
-
-### Honest status reporting
-
-Live-tested behavior, mocked/in-memory-tested behavior, implemented
-architecture, and future scaling targets are kept explicitly separate.
-
-The repository therefore does not use the 1,000-paper result, the LLM
-fallback test, or the 500,000-record architecture as evidence for claims that
-were not actually demonstrated.
-
-[Google Sheet(EvidenceBackedResearchPapers)](https://docs.google.com/spreadsheets/d/1SDXAOpoBfjw4FqSvanXcokHlRMkHdQb5lqb_ou9rKs4/edit?usp=sharing)
+- This is not yet the final 250–300 record dataset.
+- Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
+- Model license is not populated; the official SDK model source does not supply modalities, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
+- Current jobs/news/video/device/personal categories have no accepted records because tested sources were not reachable or did not yet prove required identity/timestamp semantics, and no fallback data was fabricated.
+- Product coverage is currently limited to a bounded directory sample; provider/company and launch-time metadata remain unavailable from that source. Packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
+- Robot coverage is currently limited to a bounded ROS Robots catalog sample; manufacturer/provider are not populated because the source does not expose dedicated fields.
+- Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
+- Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

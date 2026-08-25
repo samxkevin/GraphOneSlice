@@ -1,0 +1,109 @@
+[
+  {
+    "categories": [
+      "Repositories",
+      "Tools",
+      "Collections",
+      "Creative"
+    ],
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "entity_type": "repository",
+    "id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "metadata": {
+      "repository": {
+        "created_at": "2022-12-05T13:54:13Z",
+        "full_name": "f/prompts.chat",
+        "last_updated_timestamp": "2026-08-25T17:16:04Z",
+        "primary_language": "HTML",
+        "stars": 167891,
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "awesome-list",
+          "chatgpt",
+          "chatgpt-prompts",
+          "claude",
+          "gemini",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "machine-learning",
+          "nextjs",
+          "open-source",
+          "openai",
+          "prompt-engineering",
+          "prompts",
+          "prompts-chat",
+          "typescript"
+        ]
+      }
+    },
+    "name": "f/prompts.chat",
+    "provenance": {
+      "discovered_by": "GitHub API",
+      "fetched_at": "2026-08-25T17:19:14.364873+00:00",
+      "observed_fields": {
+        "categories": [
+          "Repositories",
+          "Tools",
+          "Collections",
+          "Creative"
+        ],
+        "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+        "name": "f/prompts.chat",
+        "repository": {
+          "created_at": "2022-12-05T13:54:13Z",
+          "full_name": "f/prompts.chat",
+          "last_updated_timestamp": "2026-08-25T17:16:04Z",
+          "primary_language": "HTML",
+          "stars": 167891,
+          "topics": [
+            "ai",
+            "artificial-intelligence",
+            "awesome-list",
+            "chatgpt",
+            "chatgpt-prompts",
+            "claude",
+            "gemini",
+            "gpt",
+            "gpt-4",
+            "llm",
+            "machine-learning",
+            "nextjs",
+            "open-source",
+            "openai",
+            "prompt-engineering",
+            "prompts",
+            "prompts-chat",
+            "typescript"
+          ]
+        },
+        "url": "https://github.com/f/prompts.chat"
+      },
+      "source_record_id": "github:repo:f/prompts.chat",
+      "source_url": "https://api.github.com/repos/f/prompts.chat",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "f/prompts.chat",
+          "operation": "normalize_name",
+          "output": "f/prompts chat",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "repository:url:https://github.com/f/prompts.chat",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "url": "https://github.com/f/prompts.chat"
+  }
+]

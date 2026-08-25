@@ -1,0 +1,612 @@
+[
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: instrumentation.",
+    "entity_type": "task",
+    "id": "abe4017a-270f-5e32-953b-2977f0ad7359",
+    "metadata": {
+      "task": {
+        "canonical_label": "AI application observability",
+        "evidence_source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+        "mapping_method": "description_phrase",
+        "observed_value": "instrumentation",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "AI application observability",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: instrumentation.",
+        "name": "AI application observability",
+        "task": {
+          "canonical_label": "AI application observability",
+          "evidence_source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+          "mapping_method": "description_phrase",
+          "observed_value": "instrumentation",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+      },
+      "source_record_id": "task:AI application observability",
+      "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "AI application observability",
+          "operation": "normalize_name",
+          "output": "ai application observability",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:ai application observability",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: agentic-ai.",
+    "entity_type": "task",
+    "id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
+    "metadata": {
+      "task": {
+        "canonical_label": "autonomous agent workflows",
+        "evidence_source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
+        "mapping_method": "github_topic",
+        "observed_value": "agentic-ai",
+        "url_role": "canonical_topic_url"
+      }
+    },
+    "name": "autonomous agent workflows",
+    "provenance": {
+      "discovered_by": "GitHub API",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: agentic-ai.",
+        "name": "autonomous agent workflows",
+        "task": {
+          "canonical_label": "autonomous agent workflows",
+          "evidence_source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
+          "mapping_method": "github_topic",
+          "observed_value": "agentic-ai",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/agentic-ai"
+      },
+      "source_record_id": "task:autonomous agent workflows",
+      "source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "autonomous agent workflows",
+          "operation": "normalize_name",
+          "output": "autonomous agent workflows",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:autonomous agent workflows",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    },
+    "url": "https://github.com/topics/agentic-ai"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: chatgpt.",
+    "entity_type": "task",
+    "id": "6c18211a-972b-5705-96e3-97edb92819ea",
+    "metadata": {
+      "task": {
+        "canonical_label": "chatbot applications",
+        "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+        "mapping_method": "github_topic",
+        "observed_value": "chatgpt",
+        "url_role": "canonical_topic_url"
+      }
+    },
+    "name": "chatbot applications",
+    "provenance": {
+      "discovered_by": "GitHub API",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: chatgpt.",
+        "name": "chatbot applications",
+        "task": {
+          "canonical_label": "chatbot applications",
+          "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+          "mapping_method": "github_topic",
+          "observed_value": "chatgpt",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/chatgpt"
+      },
+      "source_record_id": "task:chatbot applications",
+      "source_url": "https://api.github.com/repos/f/prompts.chat",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "chatbot applications",
+          "operation": "normalize_name",
+          "output": "chatbot applications",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:chatbot applications",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "url": "https://github.com/topics/chatgpt"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: ComfyUI.",
+    "entity_type": "task",
+    "id": "36ea22a0-1e15-591c-962c-48c4f3288cf4",
+    "metadata": {
+      "task": {
+        "canonical_label": "creative media generation",
+        "evidence_source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+        "mapping_method": "description_phrase",
+        "observed_value": "ComfyUI",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "creative media generation",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: ComfyUI.",
+        "name": "creative media generation",
+        "task": {
+          "canonical_label": "creative media generation",
+          "evidence_source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+          "mapping_method": "description_phrase",
+          "observed_value": "ComfyUI",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+      },
+      "source_record_id": "task:creative media generation",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "creative media generation",
+          "operation": "normalize_name",
+          "output": "creative media generation",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:creative media generation",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: filesystem access.",
+    "entity_type": "task",
+    "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
+    "metadata": {
+      "task": {
+        "canonical_label": "filesystem access",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+        "mapping_method": "description_phrase",
+        "observed_value": "filesystem access",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "filesystem access",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: filesystem access.",
+        "name": "filesystem access",
+        "task": {
+          "canonical_label": "filesystem access",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+          "mapping_method": "description_phrase",
+          "observed_value": "filesystem access",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+      },
+      "source_record_id": "task:filesystem access",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "filesystem access",
+          "operation": "normalize_name",
+          "output": "filesystem access",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:filesystem access",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: llm.",
+    "entity_type": "task",
+    "id": "ca2823ee-287d-56c9-895e-d742fd9b54ca",
+    "metadata": {
+      "task": {
+        "canonical_label": "large language model applications",
+        "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+        "mapping_method": "github_topic",
+        "observed_value": "llm",
+        "url_role": "canonical_topic_url"
+      }
+    },
+    "name": "large language model applications",
+    "provenance": {
+      "discovered_by": "GitHub API",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: llm.",
+        "name": "large language model applications",
+        "task": {
+          "canonical_label": "large language model applications",
+          "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+          "mapping_method": "github_topic",
+          "observed_value": "llm",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/llm"
+      },
+      "source_record_id": "task:large language model applications",
+      "source_url": "https://api.github.com/repos/f/prompts.chat",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "large language model applications",
+          "operation": "normalize_name",
+          "output": "large language model applications",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:large language model applications",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "url": "https://github.com/topics/llm"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: machine-learning.",
+    "entity_type": "task",
+    "id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82",
+    "metadata": {
+      "task": {
+        "canonical_label": "machine learning",
+        "evidence_source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
+        "mapping_method": "github_topic",
+        "observed_value": "machine-learning",
+        "url_role": "canonical_topic_url"
+      }
+    },
+    "name": "machine learning",
+    "provenance": {
+      "discovered_by": "GitHub API",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: machine-learning.",
+        "name": "machine learning",
+        "task": {
+          "canonical_label": "machine learning",
+          "evidence_source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
+          "mapping_method": "github_topic",
+          "observed_value": "machine-learning",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/machine-learning"
+      },
+      "source_record_id": "task:machine learning",
+      "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "machine learning",
+          "operation": "normalize_name",
+          "output": "machine learning",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:machine learning",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "url": "https://github.com/topics/machine-learning"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: memory.",
+    "entity_type": "task",
+    "id": "14149889-d8fa-5384-87db-95103eec7439",
+    "metadata": {
+      "task": {
+        "canonical_label": "persistent memory",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+        "mapping_method": "description_phrase",
+        "observed_value": "memory",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "persistent memory",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: memory.",
+        "name": "persistent memory",
+        "task": {
+          "canonical_label": "persistent memory",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+          "mapping_method": "description_phrase",
+          "observed_value": "memory",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+      },
+      "source_record_id": "task:persistent memory",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "persistent memory",
+          "operation": "normalize_name",
+          "output": "persistent memory",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:persistent memory",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: sequential thinking.",
+    "entity_type": "task",
+    "id": "a5f81972-f7b8-543e-8019-1f654ecae154",
+    "metadata": {
+      "task": {
+        "canonical_label": "problem solving",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+        "mapping_method": "description_phrase",
+        "observed_value": "sequential thinking",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "problem solving",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: sequential thinking.",
+        "name": "problem solving",
+        "task": {
+          "canonical_label": "problem solving",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+          "mapping_method": "description_phrase",
+          "observed_value": "sequential thinking",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+      },
+      "source_record_id": "task:problem solving",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "problem solving",
+          "operation": "normalize_name",
+          "output": "problem solving",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:problem solving",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+  },
+  {
+    "categories": [
+      "Tasks"
+    ],
+    "description": "Task label derived from observed source value: GitHub API.",
+    "entity_type": "task",
+    "id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5",
+    "metadata": {
+      "task": {
+        "canonical_label": "source code repository automation",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+        "mapping_method": "description_phrase",
+        "observed_value": "GitHub API",
+        "url_role": "evidence_source_url"
+      }
+    },
+    "name": "source code repository automation",
+    "provenance": {
+      "discovered_by": "NPM Registry MCP Packages",
+      "fetched_at": "2026-08-25T17:19:34.667580+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tasks"
+        ],
+        "description": "Task label derived from observed source value: GitHub API.",
+        "name": "source code repository automation",
+        "task": {
+          "canonical_label": "source code repository automation",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+          "mapping_method": "description_phrase",
+          "observed_value": "GitHub API",
+          "url_role": "evidence_source_url"
+        },
+        "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+      },
+      "source_record_id": "task:source code repository automation",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "source code repository automation",
+          "operation": "normalize_name",
+          "output": "source code repository automation",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "task:name:source code repository automation",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  }
+]

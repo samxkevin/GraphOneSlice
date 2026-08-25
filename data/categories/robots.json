@@ -1,0 +1,1453 @@
+[
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Allegro Hand is a low-cost and highly adaptive robotic hand.",
+    "entity_type": "robot",
+    "id": "744c90a0-da9c-5b6e-a995-754d31eda9ed",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+        "catalog_slug": "allegro-hand",
+        "catalog_url": "https://robots.ros.org/allegro-hand/",
+        "external_website": "http://www.simlab.co.kr/AllegroHand/wiki",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Allegro Hand is a low-cost and highly adaptive robotic hand.",
+          "field": "title/introduction",
+          "title": "Allegro Hand"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "component",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-allegro-hand.md",
+        "source_post_path": "_posts/2016-08-19-allegro-hand.md",
+        "tags": [
+          "hand"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/AllegroHand"
+      }
+    },
+    "name": "Allegro Hand",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Allegro Hand is a low-cost and highly adaptive robotic hand.",
+        "name": "Allegro Hand",
+        "robot": {
+          "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+          "catalog_slug": "allegro-hand",
+          "catalog_url": "https://robots.ros.org/allegro-hand/",
+          "external_website": "http://www.simlab.co.kr/AllegroHand/wiki",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Allegro Hand is a low-cost and highly adaptive robotic hand.",
+            "field": "title/introduction",
+            "title": "Allegro Hand"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "component",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-allegro-hand.md",
+          "source_post_path": "_posts/2016-08-19-allegro-hand.md",
+          "tags": [
+            "hand"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/AllegroHand"
+        },
+        "url": "http://www.simlab.co.kr/AllegroHand/wiki"
+      },
+      "source_record_id": "ros-robots:robot:allegro-hand",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-allegro-hand.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Allegro Hand",
+          "operation": "normalize_name",
+          "output": "allegro hand",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.simlab.co.kr/AllegroHand/wiki",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-allegro-hand.md?ref=gh-pages"
+    },
+    "url": "http://www.simlab.co.kr/AllegroHand/wiki"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "AMIGO is an acronym for Autonomous Mate for IntelliGent Operations. AMIGO is a domestic service robot developed and created at the Eindhoven University of Technology.",
+    "entity_type": "robot",
+    "id": "e11eca33-9bdf-5e73-95e3-76aac5a3da25",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+        "catalog_slug": "amigo",
+        "catalog_url": "https://robots.ros.org/amigo/",
+        "external_website": null,
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "AMIGO is an acronym for Autonomous Mate for IntelliGent Operations. AMIGO is a domestic service robot developed and created at the Eindhoven University of Technology.",
+          "field": "title/introduction",
+          "title": "AMIGO"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-amigo.md",
+        "source_post_path": "_posts/2016-08-12-amigo.md",
+        "tags": [
+          "ground",
+          "humanoid",
+          "indoor",
+          "wheeled"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/AMIGO"
+      }
+    },
+    "name": "AMIGO",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "AMIGO is an acronym for Autonomous Mate for IntelliGent Operations. AMIGO is a domestic service robot developed and created at the Eindhoven University of Technology.",
+        "name": "AMIGO",
+        "robot": {
+          "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+          "catalog_slug": "amigo",
+          "catalog_url": "https://robots.ros.org/amigo/",
+          "external_website": null,
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "AMIGO is an acronym for Autonomous Mate for IntelliGent Operations. AMIGO is a domestic service robot developed and created at the Eindhoven University of Technology.",
+            "field": "title/introduction",
+            "title": "AMIGO"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-amigo.md",
+          "source_post_path": "_posts/2016-08-12-amigo.md",
+          "tags": [
+            "ground",
+            "humanoid",
+            "indoor",
+            "wheeled"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/AMIGO"
+        },
+        "url": "http://wiki.ros.org/Robots/AMIGO"
+      },
+      "source_record_id": "ros-robots:robot:amigo",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-amigo.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "AMIGO",
+          "operation": "normalize_name",
+          "output": "amigo",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://wiki.ros.org/Robots/AMIGO",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-amigo.md?ref=gh-pages"
+    },
+    "url": "http://wiki.ros.org/Robots/AMIGO"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "The AscTec Pelican and Hummingbird quadrotor helicopters are built by Ascending Technologies and can be interfaced with ROS.",
+    "entity_type": "robot",
+    "id": "5f343062-158b-5708-ba66-fb60d8d7e9a5",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+        "catalog_slug": "astec-pelican-and-hummingbird",
+        "catalog_url": "https://robots.ros.org/astec-pelican-and-hummingbird/",
+        "external_website": "http://www.asctec.de/",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "The AscTec Pelican and Hummingbird quadrotor helicopters are built by Ascending Technologies and can be interfaced with ROS.",
+          "field": "title/introduction",
+          "title": "AsTec Pelican and Hummingbird"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "aerial",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-astec-pelican-and-hummingbird.md",
+        "source_post_path": "_posts/2016-08-12-astec-pelican-and-hummingbird.md",
+        "tags": [
+          "quadrotor"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/AscTec"
+      }
+    },
+    "name": "AsTec Pelican and Hummingbird",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "The AscTec Pelican and Hummingbird quadrotor helicopters are built by Ascending Technologies and can be interfaced with ROS.",
+        "name": "AsTec Pelican and Hummingbird",
+        "robot": {
+          "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+          "catalog_slug": "astec-pelican-and-hummingbird",
+          "catalog_url": "https://robots.ros.org/astec-pelican-and-hummingbird/",
+          "external_website": "http://www.asctec.de/",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "The AscTec Pelican and Hummingbird quadrotor helicopters are built by Ascending Technologies and can be interfaced with ROS.",
+            "field": "title/introduction",
+            "title": "AsTec Pelican and Hummingbird"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "aerial",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-astec-pelican-and-hummingbird.md",
+          "source_post_path": "_posts/2016-08-12-astec-pelican-and-hummingbird.md",
+          "tags": [
+            "quadrotor"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/AscTec"
+        },
+        "url": "http://www.asctec.de/"
+      },
+      "source_record_id": "ros-robots:robot:astec-pelican-and-hummingbird",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-astec-pelican-and-hummingbird.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "AsTec Pelican and Hummingbird",
+          "operation": "normalize_name",
+          "output": "astec pelican and hummingbird",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.asctec.de/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-astec-pelican-and-hummingbird.md?ref=gh-pages"
+    },
+    "url": "http://www.asctec.de/"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "The BH8-series BarrettHand™ is a multi-fingered programmable grasper with the dexterity to secure target objects of different sizes, shapes, and orientations.",
+    "entity_type": "robot",
+    "id": "1f84f16c-063f-5490-b872-06a4746cb011",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+        "catalog_slug": "barrett-hand",
+        "catalog_url": "https://robots.ros.org/barrett-hand/",
+        "external_website": null,
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "The BH8-series BarrettHand™ is a multi-fingered programmable grasper with the dexterity to secure target objects of different sizes, shapes, and orientations.",
+          "field": "title/introduction",
+          "title": "Barrett Hand"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "component",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-barrett-hand.md",
+        "source_post_path": "_posts/2016-08-19-barrett-hand.md",
+        "tags": [
+          "hand"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/BarrettHand"
+      }
+    },
+    "name": "Barrett Hand",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "The BH8-series BarrettHand™ is a multi-fingered programmable grasper with the dexterity to secure target objects of different sizes, shapes, and orientations.",
+        "name": "Barrett Hand",
+        "robot": {
+          "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+          "catalog_slug": "barrett-hand",
+          "catalog_url": "https://robots.ros.org/barrett-hand/",
+          "external_website": null,
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "The BH8-series BarrettHand™ is a multi-fingered programmable grasper with the dexterity to secure target objects of different sizes, shapes, and orientations.",
+            "field": "title/introduction",
+            "title": "Barrett Hand"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "component",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-barrett-hand.md",
+          "source_post_path": "_posts/2016-08-19-barrett-hand.md",
+          "tags": [
+            "hand"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/BarrettHand"
+        },
+        "url": "http://wiki.ros.org/Robots/BarrettHand"
+      },
+      "source_record_id": "ros-robots:robot:barrett-hand",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-barrett-hand.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Barrett Hand",
+          "operation": "normalize_name",
+          "output": "barrett hand",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://wiki.ros.org/Robots/BarrettHand",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-barrett-hand.md?ref=gh-pages"
+    },
+    "url": "http://wiki.ros.org/Robots/BarrettHand"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "BipedRobin is a biped walking robot developed at the Institute for Robotics at Johannes Kepler University Linz.",
+    "entity_type": "robot",
+    "id": "3e63c810-241b-54ea-9e27-dc7031d21a5a",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-18T00:00:00+00:00",
+        "catalog_slug": "bipedrobin",
+        "catalog_url": "https://robots.ros.org/bipedrobin/",
+        "external_website": null,
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "BipedRobin is a biped walking robot developed at the Institute for Robotics at Johannes Kepler University Linz.",
+          "field": "title/introduction",
+          "title": "BipedRobin"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-18-bipedrobin.md",
+        "source_post_path": "_posts/2016-08-18-bipedrobin.md",
+        "tags": [
+          "biped",
+          "humanoid",
+          "walking"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/BipedRobin"
+      }
+    },
+    "name": "BipedRobin",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "BipedRobin is a biped walking robot developed at the Institute for Robotics at Johannes Kepler University Linz.",
+        "name": "BipedRobin",
+        "robot": {
+          "catalog_posted_at": "2016-08-18T00:00:00+00:00",
+          "catalog_slug": "bipedrobin",
+          "catalog_url": "https://robots.ros.org/bipedrobin/",
+          "external_website": null,
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "BipedRobin is a biped walking robot developed at the Institute for Robotics at Johannes Kepler University Linz.",
+            "field": "title/introduction",
+            "title": "BipedRobin"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-18-bipedrobin.md",
+          "source_post_path": "_posts/2016-08-18-bipedrobin.md",
+          "tags": [
+            "biped",
+            "humanoid",
+            "walking"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/BipedRobin"
+        },
+        "url": "http://wiki.ros.org/Robots/BipedRobin"
+      },
+      "source_record_id": "ros-robots:robot:bipedrobin",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-bipedrobin.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "BipedRobin",
+          "operation": "normalize_name",
+          "output": "bipedrobin",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://wiki.ros.org/Robots/BipedRobin",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-bipedrobin.md?ref=gh-pages"
+    },
+    "url": "http://wiki.ros.org/Robots/BipedRobin"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "The BlueROV is a remotely operated underwater vehicle from Blue Robotics. It features Blue Robotics thrusters, a flight controller with ArduSub software, and a RaspberryPi running ROS.",
+    "entity_type": "robot",
+    "id": "c5730beb-305d-55e3-a85a-114afa93cb73",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+        "catalog_slug": "bluerov",
+        "catalog_url": "https://robots.ros.org/bluerov/",
+        "external_website": null,
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "The BlueROV is a remotely operated underwater vehicle from Blue Robotics. It features Blue Robotics thrusters, a flight controller with ArduSub software, and a RaspberryPi running ROS.",
+          "field": "title/introduction",
+          "title": "BlueROV"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "marine",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-bluerov.md",
+        "source_post_path": "_posts/2016-08-19-bluerov.md",
+        "tags": [
+          "underwater"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/BlueROV"
+      }
+    },
+    "name": "BlueROV",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "The BlueROV is a remotely operated underwater vehicle from Blue Robotics. It features Blue Robotics thrusters, a flight controller with ArduSub software, and a RaspberryPi running ROS.",
+        "name": "BlueROV",
+        "robot": {
+          "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+          "catalog_slug": "bluerov",
+          "catalog_url": "https://robots.ros.org/bluerov/",
+          "external_website": null,
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "The BlueROV is a remotely operated underwater vehicle from Blue Robotics. It features Blue Robotics thrusters, a flight controller with ArduSub software, and a RaspberryPi running ROS.",
+            "field": "title/introduction",
+            "title": "BlueROV"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "marine",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-bluerov.md",
+          "source_post_path": "_posts/2016-08-19-bluerov.md",
+          "tags": [
+            "underwater"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/BlueROV"
+        },
+        "url": "http://wiki.ros.org/Robots/BlueROV"
+      },
+      "source_record_id": "ros-robots:robot:bluerov",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-bluerov.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "BlueROV",
+          "operation": "normalize_name",
+          "output": "bluerov",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://wiki.ros.org/Robots/BlueROV",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-bluerov.md?ref=gh-pages"
+    },
+    "url": "http://wiki.ros.org/Robots/BlueROV"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Husky is a rugged, outdoor-ready unmanned ground vehicle (UGV), suitable for research and rapid prototyping applications.",
+    "entity_type": "robot",
+    "id": "e4ec2e59-2d3c-571a-8f37-e7280fe9f120",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+        "catalog_slug": "husky",
+        "catalog_url": "https://robots.ros.org/husky/",
+        "external_website": "https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Husky is a rugged, outdoor-ready unmanned ground vehicle (UGV), suitable for research and rapid prototyping applications.",
+          "field": "title/introduction",
+          "title": "Clearpath Husky UGV"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-husky.md",
+        "source_post_path": "_posts/2016-08-19-husky.md",
+        "tags": [
+          "mobile base",
+          "outdoor",
+          "rugged",
+          "mobile manipulator",
+          "unmanned ground vehicle",
+          "mobile robot",
+          "outside",
+          "research",
+          "teleoperator",
+          "diff-drive"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/Husky"
+      }
+    },
+    "name": "Clearpath Husky UGV",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Husky is a rugged, outdoor-ready unmanned ground vehicle (UGV), suitable for research and rapid prototyping applications.",
+        "name": "Clearpath Husky UGV",
+        "robot": {
+          "catalog_posted_at": "2016-08-19T00:00:00+00:00",
+          "catalog_slug": "husky",
+          "catalog_url": "https://robots.ros.org/husky/",
+          "external_website": "https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Husky is a rugged, outdoor-ready unmanned ground vehicle (UGV), suitable for research and rapid prototyping applications.",
+            "field": "title/introduction",
+            "title": "Clearpath Husky UGV"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-19-husky.md",
+          "source_post_path": "_posts/2016-08-19-husky.md",
+          "tags": [
+            "mobile base",
+            "outdoor",
+            "rugged",
+            "mobile manipulator",
+            "unmanned ground vehicle",
+            "mobile robot",
+            "outside",
+            "research",
+            "teleoperator",
+            "diff-drive"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/Husky"
+        },
+        "url": "https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot"
+      },
+      "source_record_id": "ros-robots:robot:husky",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Clearpath Husky UGV",
+          "operation": "normalize_name",
+          "output": "clearpath husky ugv",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
+    },
+    "url": "https://www.clearpathrobotics.com/husky-unmanned-ground-vehicle-robot"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Crazyflie is an open-source nano quadcopter made by Bitcraze.",
+    "entity_type": "robot",
+    "id": "086b4c0a-65f2-5940-a2de-df62977e30bc",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-18T00:00:00+00:00",
+        "catalog_slug": "crazyflie",
+        "catalog_url": "https://robots.ros.org/crazyflie/",
+        "external_website": "https://www.bitcraze.io/",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Crazyflie is an open-source nano quadcopter made by Bitcraze.",
+          "field": "title/introduction",
+          "title": "Crazyflie"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "aerial",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-18-crazyflie.md",
+        "source_post_path": "_posts/2016-08-18-crazyflie.md",
+        "tags": [
+          "aerial",
+          "quadcopter",
+          "open-source",
+          "autonomous",
+          "indoor",
+          "melodic",
+          "noetic"
+        ],
+        "wiki_homepage": null
+      }
+    },
+    "name": "Crazyflie",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Crazyflie is an open-source nano quadcopter made by Bitcraze.",
+        "name": "Crazyflie",
+        "robot": {
+          "catalog_posted_at": "2016-08-18T00:00:00+00:00",
+          "catalog_slug": "crazyflie",
+          "catalog_url": "https://robots.ros.org/crazyflie/",
+          "external_website": "https://www.bitcraze.io/",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Crazyflie is an open-source nano quadcopter made by Bitcraze.",
+            "field": "title/introduction",
+            "title": "Crazyflie"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "aerial",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-18-crazyflie.md",
+          "source_post_path": "_posts/2016-08-18-crazyflie.md",
+          "tags": [
+            "aerial",
+            "quadcopter",
+            "open-source",
+            "autonomous",
+            "indoor",
+            "melodic",
+            "noetic"
+          ],
+          "wiki_homepage": null
+        },
+        "url": "https://www.bitcraze.io/"
+      },
+      "source_record_id": "ros-robots:robot:crazyflie",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-crazyflie.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Crazyflie",
+          "operation": "normalize_name",
+          "output": "crazyflie",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:https://www.bitcraze.io/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-crazyflie.md?ref=gh-pages"
+    },
+    "url": "https://www.bitcraze.io/"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Erle-copter is a Linux-based drone that uses the award winning APM:Copter autopilot software. It’s capable of the different flight modes and ideal for outdoor operations. It has been designed for an extended flight time and it can carry a takeoff weight of about 2 kilograms.",
+    "entity_type": "robot",
+    "id": "0622826d-9a20-59ba-8c3e-c885be2dcc28",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-08T14:07:55+00:00",
+        "catalog_slug": "erlecopter",
+        "catalog_url": "https://robots.ros.org/erlecopter/",
+        "external_website": null,
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Erle-copter is a Linux-based drone that uses the award winning APM:Copter autopilot software. It’s capable of the different flight modes and ideal for outdoor operations. It has been designed for an extended flight time and it can carry a t",
+          "field": "title/introduction",
+          "title": "Erle-Copter"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "aerial",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-08-erlecopter.md",
+        "source_post_path": "_posts/2016-08-08-erlecopter.md",
+        "tags": [
+          "aerial",
+          "indigo",
+          "quadcopter"
+        ],
+        "wiki_homepage": null
+      }
+    },
+    "name": "Erle-Copter",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Erle-copter is a Linux-based drone that uses the award winning APM:Copter autopilot software. It’s capable of the different flight modes and ideal for outdoor operations. It has been designed for an extended flight time and it can carry a takeoff weight of about 2 kilograms.",
+        "name": "Erle-Copter",
+        "robot": {
+          "catalog_posted_at": "2016-08-08T14:07:55+00:00",
+          "catalog_slug": "erlecopter",
+          "catalog_url": "https://robots.ros.org/erlecopter/",
+          "external_website": null,
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Erle-copter is a Linux-based drone that uses the award winning APM:Copter autopilot software. It’s capable of the different flight modes and ideal for outdoor operations. It has been designed for an extended flight time and it can carry a t",
+            "field": "title/introduction",
+            "title": "Erle-Copter"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "aerial",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-08-erlecopter.md",
+          "source_post_path": "_posts/2016-08-08-erlecopter.md",
+          "tags": [
+            "aerial",
+            "indigo",
+            "quadcopter"
+          ],
+          "wiki_homepage": null
+        },
+        "url": "https://robots.ros.org/erlecopter"
+      },
+      "source_record_id": "ros-robots:robot:erlecopter",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-08-erlecopter.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Erle-Copter",
+          "operation": "normalize_name",
+          "output": "erle-copter",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:https://robots.ros.org/erlecopter",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-08-erlecopter.md?ref=gh-pages"
+    },
+    "url": "https://robots.ros.org/erlecopter"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Innok Heros is a modular outdoor all-terrain robot platform available in 2 or 4 wheel drive configurations. Due to its modular construction, it can be easily modified to suit lots of different agricultural, logistics, industrial and research applications.",
+    "entity_type": "robot",
+    "id": "7b59128e-2ae2-521f-8ede-e739bf1d611f",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+        "catalog_slug": "innok-heros",
+        "catalog_url": "https://robots.ros.org/innok-heros/",
+        "external_website": "http://www.innok-robotics.de/en/products/heros/applications/research-platform",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Innok Heros is a modular outdoor all-terrain robot platform available in 2 or 4 wheel drive configurations. Due to its modular construction, it can be easily modified to suit lots of different agricultural, logistics, industrial and researc",
+          "field": "title/introduction",
+          "title": "Innok Heros"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-innok-heros.md",
+        "source_post_path": "_posts/2016-08-12-innok-heros.md",
+        "tags": [
+          "ground",
+          "hydro",
+          "indigo",
+          "jade",
+          "kinetic",
+          "lunar",
+          "outdoor",
+          "rugged",
+          "autonomous",
+          "diff-drive",
+          "ground",
+          "outdoor",
+          "mobile base",
+          "mobile robot",
+          "research",
+          "skidsteer"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/Innok-Heros"
+      }
+    },
+    "name": "Innok Heros",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Innok Heros is a modular outdoor all-terrain robot platform available in 2 or 4 wheel drive configurations. Due to its modular construction, it can be easily modified to suit lots of different agricultural, logistics, industrial and research applications.",
+        "name": "Innok Heros",
+        "robot": {
+          "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+          "catalog_slug": "innok-heros",
+          "catalog_url": "https://robots.ros.org/innok-heros/",
+          "external_website": "http://www.innok-robotics.de/en/products/heros/applications/research-platform",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Innok Heros is a modular outdoor all-terrain robot platform available in 2 or 4 wheel drive configurations. Due to its modular construction, it can be easily modified to suit lots of different agricultural, logistics, industrial and researc",
+            "field": "title/introduction",
+            "title": "Innok Heros"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-innok-heros.md",
+          "source_post_path": "_posts/2016-08-12-innok-heros.md",
+          "tags": [
+            "ground",
+            "hydro",
+            "indigo",
+            "jade",
+            "kinetic",
+            "lunar",
+            "outdoor",
+            "rugged",
+            "autonomous",
+            "diff-drive",
+            "ground",
+            "outdoor",
+            "mobile base",
+            "mobile robot",
+            "research",
+            "skidsteer"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/Innok-Heros"
+        },
+        "url": "http://www.innok-robotics.de/en/products/heros/applications/research-platform"
+      },
+      "source_record_id": "ros-robots:robot:innok-heros",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-innok-heros.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Innok Heros",
+          "operation": "normalize_name",
+          "output": "innok heros",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.innok-robotics.de/en/products/heros/applications/research-platform",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-innok-heros.md?ref=gh-pages"
+    },
+    "url": "http://www.innok-robotics.de/en/products/heros/applications/research-platform"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Nao is a commercially available humanoid robot built by Aldebaran. The ROS driver was originally developed by Freiburg's Humanoid Robots Lab and Armin Hornung.",
+    "entity_type": "robot",
+    "id": "13476ad3-029f-5377-ae43-f6cec0a5f0e3",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+        "catalog_slug": "nao",
+        "catalog_url": "https://robots.ros.org/nao/",
+        "external_website": "https://www.ald.softbankrobotics.com/en/cool-robots/nao",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Nao is a commercially available humanoid robot built by Aldebaran. The ROS driver was originally developed by Freiburg's Humanoid Robots Lab and Armin Hornung.",
+          "field": "title/introduction",
+          "title": "Nao"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-nao.md",
+        "source_post_path": "_posts/2016-08-12-nao.md",
+        "tags": [
+          "biped",
+          "humanoid",
+          "walking"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/nao"
+      }
+    },
+    "name": "Nao",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Nao is a commercially available humanoid robot built by Aldebaran. The ROS driver was originally developed by Freiburg's Humanoid Robots Lab and Armin Hornung.",
+        "name": "Nao",
+        "robot": {
+          "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+          "catalog_slug": "nao",
+          "catalog_url": "https://robots.ros.org/nao/",
+          "external_website": "https://www.ald.softbankrobotics.com/en/cool-robots/nao",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Nao is a commercially available humanoid robot built by Aldebaran. The ROS driver was originally developed by Freiburg's Humanoid Robots Lab and Armin Hornung.",
+            "field": "title/introduction",
+            "title": "Nao"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-nao.md",
+          "source_post_path": "_posts/2016-08-12-nao.md",
+          "tags": [
+            "biped",
+            "humanoid",
+            "walking"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/nao"
+        },
+        "url": "https://www.ald.softbankrobotics.com/en/cool-robots/nao"
+      },
+      "source_record_id": "ros-robots:robot:nao",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-nao.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Nao",
+          "operation": "normalize_name",
+          "output": "nao",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:https://www.ald.softbankrobotics.com/en/cool-robots/nao",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-nao.md?ref=gh-pages"
+    },
+    "url": "https://www.ald.softbankrobotics.com/en/cool-robots/nao"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "Oculus Prime SLAM Navigator is a low cost, open-source mobile robot available from Xaxxon Technologies, ready for ROS applications -- with auto-charging, ROS navigation, and internet tele-operation.",
+    "entity_type": "robot",
+    "id": "8b48e2db-a1da-5280-bef6-45f5a01a1325",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2017-05-23T00:00:00+00:00",
+        "catalog_slug": "oculus-prime",
+        "catalog_url": "https://robots.ros.org/oculus-prime/",
+        "external_website": "http://www.xaxxon.com/oculusprime/slamnavigator",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "Oculus Prime SLAM Navigator is a low cost, open-source mobile robot available from Xaxxon Technologies, ready for ROS applications -- with auto-charging, ROS navigation, and internet tele-operation.",
+          "field": "title/introduction",
+          "title": "Oculus Prime"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-oculus-prime.md",
+        "source_post_path": "_posts/2016-08-12-oculus-prime.md",
+        "tags": [
+          "ground",
+          "wheeled",
+          "autonomous",
+          "research",
+          "skidsteer",
+          "mobile robot",
+          "education"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/Oculus_Prime"
+      }
+    },
+    "name": "Oculus Prime",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "Oculus Prime SLAM Navigator is a low cost, open-source mobile robot available from Xaxxon Technologies, ready for ROS applications -- with auto-charging, ROS navigation, and internet tele-operation.",
+        "name": "Oculus Prime",
+        "robot": {
+          "catalog_posted_at": "2017-05-23T00:00:00+00:00",
+          "catalog_slug": "oculus-prime",
+          "catalog_url": "https://robots.ros.org/oculus-prime/",
+          "external_website": "http://www.xaxxon.com/oculusprime/slamnavigator",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "Oculus Prime SLAM Navigator is a low cost, open-source mobile robot available from Xaxxon Technologies, ready for ROS applications -- with auto-charging, ROS navigation, and internet tele-operation.",
+            "field": "title/introduction",
+            "title": "Oculus Prime"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-oculus-prime.md",
+          "source_post_path": "_posts/2016-08-12-oculus-prime.md",
+          "tags": [
+            "ground",
+            "wheeled",
+            "autonomous",
+            "research",
+            "skidsteer",
+            "mobile robot",
+            "education"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/Oculus_Prime"
+        },
+        "url": "http://www.xaxxon.com/oculusprime/slamnavigator"
+      },
+      "source_record_id": "ros-robots:robot:oculus-prime",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-oculus-prime.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Oculus Prime",
+          "operation": "normalize_name",
+          "output": "oculus prime",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.xaxxon.com/oculusprime/slamnavigator",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-oculus-prime.md?ref=gh-pages"
+    },
+    "url": "http://www.xaxxon.com/oculusprime/slamnavigator"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "The PR2 is a state of the art mobile manipulator.",
+    "entity_type": "robot",
+    "id": "ab11b687-6bb8-5f0c-9cb0-b6c91c0db7c1",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-06-22T21:31:05+00:00",
+        "catalog_slug": "pr2",
+        "catalog_url": "https://robots.ros.org/pr2/",
+        "external_website": "http://www.willowgarage.com/pages/pr2/overview",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "The PR2 is a state of the art mobile manipulator.",
+          "field": "title/introduction",
+          "title": "PR2"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-06-22-PR2.md",
+        "source_post_path": "_posts/2016-06-22-PR2.md",
+        "tags": [
+          "cturtle",
+          "fuerte",
+          "hydro",
+          "indigo",
+          "indoor",
+          "ground",
+          "mobile manipulator"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/PR2"
+      }
+    },
+    "name": "PR2",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "The PR2 is a state of the art mobile manipulator.",
+        "name": "PR2",
+        "robot": {
+          "catalog_posted_at": "2016-06-22T21:31:05+00:00",
+          "catalog_slug": "pr2",
+          "catalog_url": "https://robots.ros.org/pr2/",
+          "external_website": "http://www.willowgarage.com/pages/pr2/overview",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "The PR2 is a state of the art mobile manipulator.",
+            "field": "title/introduction",
+            "title": "PR2"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-06-22-PR2.md",
+          "source_post_path": "_posts/2016-06-22-PR2.md",
+          "tags": [
+            "cturtle",
+            "fuerte",
+            "hydro",
+            "indigo",
+            "indoor",
+            "ground",
+            "mobile manipulator"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/PR2"
+        },
+        "url": "http://www.willowgarage.com/pages/pr2/overview"
+      },
+      "source_record_id": "ros-robots:robot:pr2",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-06-22-pr2.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "PR2",
+          "operation": "normalize_name",
+          "output": "pr2",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.willowgarage.com/pages/pr2/overview",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-06-22-pr2.md?ref=gh-pages"
+    },
+    "url": "http://www.willowgarage.com/pages/pr2/overview"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "The Segway RMPv3 Platform Family",
+    "entity_type": "robot",
+    "id": "ada35948-dac0-5c25-8647-18ac1c0d42ac",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+        "catalog_slug": "segway-rmpv3",
+        "catalog_url": "https://robots.ros.org/segway-rmpv3/",
+        "external_website": "http://stanleyinnovation.com/",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "The Segway RMPv3 Platform Family",
+          "field": "title/introduction",
+          "title": "Segway RMPv3"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-segway-rmpv3.md",
+        "source_post_path": "_posts/2016-08-12-segway-rmpv3.md",
+        "tags": [
+          "ground",
+          "indigo"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/RMPv3"
+      }
+    },
+    "name": "Segway RMPv3",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "The Segway RMPv3 Platform Family",
+        "name": "Segway RMPv3",
+        "robot": {
+          "catalog_posted_at": "2016-08-12T00:00:00+00:00",
+          "catalog_slug": "segway-rmpv3",
+          "catalog_url": "https://robots.ros.org/segway-rmpv3/",
+          "external_website": "http://stanleyinnovation.com/",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "The Segway RMPv3 Platform Family",
+            "field": "title/introduction",
+            "title": "Segway RMPv3"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-12-segway-rmpv3.md",
+          "source_post_path": "_posts/2016-08-12-segway-rmpv3.md",
+          "tags": [
+            "ground",
+            "indigo"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/RMPv3"
+        },
+        "url": "http://stanleyinnovation.com/"
+      },
+      "source_record_id": "ros-robots:robot:segway-rmpv3",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-segway-rmpv3.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Segway RMPv3",
+          "operation": "normalize_name",
+          "output": "segway rmpv3",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://stanleyinnovation.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-segway-rmpv3.md?ref=gh-pages"
+    },
+    "url": "http://stanleyinnovation.com/"
+  },
+  {
+    "categories": [
+      "Robots"
+    ],
+    "description": "TurtleBot is a low-cost, personal robot kit with open-source software",
+    "entity_type": "robot",
+    "id": "4694ad75-e832-54f4-babd-9eaae34bf893",
+    "metadata": {
+      "robot": {
+        "catalog_posted_at": "2016-08-07T01:53:39+00:00",
+        "catalog_slug": "turtlebot",
+        "catalog_url": "https://robots.ros.org/turtlebot/",
+        "external_website": "http://www.turtlebot.com/",
+        "identity_evidence": {
+          "catalog": "robots.ros.org",
+          "excerpt": "TurtleBot is a low-cost, personal robot kit with open-source software",
+          "field": "title/introduction",
+          "title": "TurtleBot2"
+        },
+        "manufacturer": null,
+        "provider": null,
+        "robot_class": "ground",
+        "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-07-turtlebot.md",
+        "source_post_path": "_posts/2016-08-07-turtlebot.md",
+        "tags": [
+          "cturtle",
+          "fuerte",
+          "hydro",
+          "ground",
+          "indigo",
+          "indoor",
+          "mobile base"
+        ],
+        "wiki_homepage": "http://wiki.ros.org/Robots/TurtleBot"
+      }
+    },
+    "name": "TurtleBot2",
+    "provenance": {
+      "discovered_by": "ROS Robots Catalog",
+      "fetched_at": "2026-08-25T17:19:31.733437+00:00",
+      "observed_fields": {
+        "categories": [
+          "Robots"
+        ],
+        "description": "TurtleBot is a low-cost, personal robot kit with open-source software",
+        "name": "TurtleBot2",
+        "robot": {
+          "catalog_posted_at": "2016-08-07T01:53:39+00:00",
+          "catalog_slug": "turtlebot",
+          "catalog_url": "https://robots.ros.org/turtlebot/",
+          "external_website": "http://www.turtlebot.com/",
+          "identity_evidence": {
+            "catalog": "robots.ros.org",
+            "excerpt": "TurtleBot is a low-cost, personal robot kit with open-source software",
+            "field": "title/introduction",
+            "title": "TurtleBot2"
+          },
+          "manufacturer": null,
+          "provider": null,
+          "robot_class": "ground",
+          "source_html_url": "https://github.com/ros-infrastructure/robots.ros.org/blob/gh-pages/_posts/2016-08-07-turtlebot.md",
+          "source_post_path": "_posts/2016-08-07-turtlebot.md",
+          "tags": [
+            "cturtle",
+            "fuerte",
+            "hydro",
+            "ground",
+            "indigo",
+            "indoor",
+            "mobile base"
+          ],
+          "wiki_homepage": "http://wiki.ros.org/Robots/TurtleBot"
+        },
+        "url": "http://www.turtlebot.com/"
+      },
+      "source_record_id": "ros-robots:robot:turtlebot",
+      "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-07-turtlebot.md?ref=gh-pages",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "TurtleBot2",
+          "operation": "normalize_name",
+          "output": "turtlebot2",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "robot:url:http://www.turtlebot.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "ROS Robots Catalog",
+      "url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-07-turtlebot.md?ref=gh-pages"
+    },
+    "url": "http://www.turtlebot.com/"
+  }
+]

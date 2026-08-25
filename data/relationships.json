@@ -1,0 +1,892 @@
+[
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 30,
+      "model_identifier": "gpt-5-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "04ce31d5-c3c1-5e39-93d1-1c1cbc554bac",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "63547484-bfb0-55ef-af07-4c01dbcf5258"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+    },
+    "id": "09284f75-20d4-50d6-84ab-a2472471f2e1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+    },
+    "source_entity_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/chat"
+    },
+    "id": "1038e149-7916-53f8-a249-3b8360799e36",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/chat"
+    },
+    "source_entity_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    },
+    "id": "11cd7e09-3604-56ea-beec-10d164841f58",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    },
+    "source_entity_id": "88cd445d-59f9-5420-ba3c-012080056db4",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "id": "13189fc3-1bcd-5632-a4cc-76ba5b680d7c",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "Anthropic <support@anthropic.com>"
+      },
+      "source_url": "https://pypi.org/pypi/anthropic/json"
+    },
+    "id": "16d5ca99-8540-5441-a098-0a450ebd1027",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/anthropic/json"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "c39b606e-3394-56fb-bbde-b1f472e08ae2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "chatgpt",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "id": "1bfdcde6-db92-54ff-b016-bf6af5b389b6",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "source_entity_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "image, video & audio generation",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "id": "254563f4-5c87-5a23-8223-43fbc04718bc",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+    },
+    "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 10,
+      "model_identifier": "claude-sonnet-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "2fca228c-2b87-5d18-9784-745fe81af6a0",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "37dbc504-2f5a-5912-a122-db10b9d2430b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "id": "3678255c-3e31-5e8e-92a4-797e07af413b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+    },
+    "source_entity_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "id": "3b47d3b5-90b1-522f-8e64-f61d17ed044b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "source_entity_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/add-mcp"
+    },
+    "id": "3bacf944-8146-54a2-b0d8-860e9eda48fe",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/add-mcp"
+    },
+    "source_entity_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 23,
+      "model_identifier": "claude-sonnet-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "3d301772-eb72-5079-8cdf-5130099fc3c7",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "197b6978-0900-59e3-a3f4-840271643cb1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "Groq <support@groq.com>"
+      },
+      "source_url": "https://pypi.org/pypi/groq/json"
+    },
+    "id": "3e86abcf-2139-5e93-8d34-79f940179756",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/groq/json"
+    },
+    "source_entity_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf",
+    "target_entity_id": "c28d6dc8-b308-5d23-a60d-bb4706e91c13"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "AGENTS",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/agent-install"
+    },
+    "id": "3fa3970c-401b-56e1-8ea5-17ac4081f2a8",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-install"
+    },
+    "source_entity_id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/thedotmack/claude-mem"
+    },
+    "id": "49ec294b-1d3e-51f9-a4c2-7f1b0d513d49",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/thedotmack/claude-mem"
+    },
+    "source_entity_id": "4075e6f9-e682-5f89-b239-9952e720286b",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 15,
+      "model_identifier": "claude-opus-4-7",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "4d8b73ba-792a-55ac-a313-332be11271c3",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "machine-learning",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "id": "5311f9e7-3458-54a7-9c51-24c70faea7a8",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
+    "target_entity_id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 13,
+      "model_identifier": "claude-opus-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "54891dc3-3b5d-56be-8dca-c3f94194b102",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "a28fa4b1-94dd-549e-97bc-54072ea793f5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 29,
+      "model_identifier": "gpt-5",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "57107a00-a4b4-58a7-96a4-0d85046fc018",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "6628ac04-9fa7-5e0e-bdb0-c13b3b88453a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "llm",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "id": "5844e014-39f2-511c-a2cf-34698595c5eb",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    },
+    "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
+    "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": "Mistral",
+        "author_email": null
+      },
+      "source_url": "https://pypi.org/pypi/mistralai/json"
+    },
+    "id": "5e3f2b57-7c61-5d08-8ea2-d4e3d759d596",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/mistralai/json"
+    },
+    "source_entity_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
+    "target_entity_id": "235eb008-8407-579d-ae36-49a0ca312fe5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ChatGPT",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "id": "6051ec2c-c8cb-5e70-80a3-9ec6aebe3236",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/comfyui-mcp"
+    },
+    "source_entity_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "llm",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "id": "671f5739-8283-5470-ac69-81e32524b752",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    "source_entity_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ChatGPT",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/ai"
+    },
+    "id": "6744fdcb-401f-5657-9a7a-68bf70c5f600",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ai"
+    },
+    "source_entity_id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "filesystem access",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "id": "674a0187-214e-5886-83fe-78e975b98536",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+    },
+    "source_entity_id": "5b2129ed-c538-58c6-999d-4387a6bf5738",
+    "target_entity_id": "5bcd60d9-8f22-52d7-8a01-253dc024f904"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ComfyUI",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "id": "6b27c614-1e61-5a21-b835-837061e4040c",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+    },
+    "source_entity_id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
+    },
+    "id": "6d2d3848-20d9-554d-8d71-b60e1e66754b",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@promptbook%2Futils"
+    },
+    "source_entity_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 44,
+      "model_identifier": "o3",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "7bb1ed3f-9513-5fcc-b398-71ed28f5b162",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "instrumentation",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "id": "7fd90bbc-3603-5beb-b85a-a6af55ef35fe",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+    },
+    "source_entity_id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
+    "target_entity_id": "abe4017a-270f-5e32-953b-2977f0ad7359"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 54,
+      "model_identifier": "gpt-4o",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "890b6e34-3f61-5381-a149-7995e3a26413",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "9a13bce7-65d3-51bb-aad3-781c4bd110b6"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 36,
+      "model_identifier": "gpt-4.1",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "8a9d89a8-7471-5f6c-9b73-c01261fad4c0",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 21,
+      "model_identifier": "claude-opus-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "8b17e0d5-16d7-567b-b88f-ea55f1b3d35f",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "3862c6ba-aafb-5be7-8218-4fd5fa47e6c8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "sequential thinking",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "id": "8ecc08cf-4566-54dd-9fc4-6421d29b5463",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+    },
+    "source_entity_id": "3d504ea5-4abd-522b-8cac-1dd3772b6a2c",
+    "target_entity_id": "a5f81972-f7b8-543e-8019-1f654ecae154"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/agents"
+    },
+    "id": "9081694d-f191-56bc-ad42-cd78e88c22d1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agents"
+    },
+    "source_entity_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "ComfyUI",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "id": "a2289370-eb66-5f4e-ab0f-1373d9ecf94d",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+    },
+    "source_entity_id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 16,
+      "model_identifier": "claude-mythos-preview",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "a6580e56-2e82-56a5-bd1b-7b45282a6fdf",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "e3c7349e-d4de-5a54-8019-c742d7d92c30"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agentic",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/am-i-vibing"
+    },
+    "id": "acb1d3eb-ea1c-5a88-8094-bfdf9b2083ac",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/am-i-vibing"
+    },
+    "source_entity_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "memory",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "id": "acc2231d-814e-5962-9415-b811e839b844",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+    },
+    "source_entity_id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
+    "target_entity_id": "14149889-d8fa-5384-87db-95103eec7439"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 19,
+      "model_identifier": "claude-haiku-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "cd1d8557-9ae0-5d14-82f4-e7b4f7b09ccd",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "fields": {
+        "author": null,
+        "author_email": "OpenAI <support@openai.com>"
+      },
+      "source_url": "https://pypi.org/pypi/openai/json"
+    },
+    "id": "d107dfde-4f68-50fa-af23-867c4d936cfe",
+    "method": "pypi_author_metadata",
+    "relationship_type": "develops",
+    "source": {
+      "name": "PyPI JSON API",
+      "url": "https://pypi.org/pypi/openai/json"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "9850b875-7965-57f0-a25a-1518f67a2952"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 70,
+      "model_identifier": "gpt-4o-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "d3fae718-c6f1-58b4-a4e3-0527b8c8d32c",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "c8edaa88-bb8d-5ad6-a39a-437a1d91bdcc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 37,
+      "model_identifier": "gpt-4.1-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "db66211e-3f2a-5c4e-80b1-c2ba88719ec7",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "a9c3642f-b257-519b-a87d-ee7f50962919"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "GitHub API",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "id": "e1d597a3-ab06-587d-88f5-265c6b051dc3",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 14,
+      "model_identifier": "claude-opus-4-8",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "e6bbfded-bd2a-5475-9225-8dca0c33d695",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "c557ca6d-eef8-5943-bc6b-741c01d8ea8a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "description",
+      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "value": "MCP server for using the GitHub API"
+    },
+    "id": "e7433b12-088c-53fe-aef1-d58e8750e1be",
+    "method": "npm_package_description",
+    "relationship_type": "integrates_with",
+    "source": {
+      "name": "NPM Registry MCP Packages",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+    },
+    "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "target_entity_id": "05ab724d-899b-524a-ba66-19cdfc43d021"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    },
+    "id": "ec9911c5-c39a-5d1f-b065-2c1d69be3a83",
+    "method": "task_mapping:github_topic",
+    "relationship_type": "solves",
+    "source": {
+      "name": "GitHub API",
+      "url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    },
+    "source_entity_id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "Chat",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/chat"
+    },
+    "id": "efa71610-37cb-5f35-bcd8-ac0ab9c712a2",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/chat"
+    },
+    "source_entity_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/eve"
+    },
+    "id": "f0711297-9708-5a6a-919f-c72d418942eb",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/eve"
+    },
+    "source_entity_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 42,
+      "model_identifier": "o4-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "f2afb48e-f38d-5cd5-9822-3ecf84170ea1",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "b34896a1-5593-5780-b254-b2b784c20db8"
+  }
+]

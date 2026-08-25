@@ -1,0 +1,1522 @@
+[
+  {
+    "canonical_id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
+    "canonical_value": "Significant-Gravitas/AutoGPT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:repo:significant-gravitas/autogpt",
+    "raw_value": "Significant-Gravitas/AutoGPT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/significant-gravitas/autogpt"
+  },
+  {
+    "canonical_id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
+    "canonical_value": "f/prompts.chat",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:repo:f/prompts.chat",
+    "raw_value": "f/prompts.chat",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/f/prompts.chat"
+  },
+  {
+    "canonical_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
+    "canonical_value": "rasbt/LLMs-from-scratch",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:repo:rasbt/llms-from-scratch",
+    "raw_value": "rasbt/LLMs-from-scratch",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+  },
+  {
+    "canonical_id": "15a0bd9e-c816-5b2d-8a65-ccd44ff34344",
+    "canonical_value": "hacksider/Deep-Live-Cam",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:repo:hacksider/deep-live-cam",
+    "raw_value": "hacksider/Deep-Live-Cam",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hacksider/deep-live-cam"
+  },
+  {
+    "canonical_id": "4075e6f9-e682-5f89-b239-9952e720286b",
+    "canonical_value": "thedotmack/claude-mem",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:repo:thedotmack/claude-mem",
+    "raw_value": "thedotmack/claude-mem",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/thedotmack/claude-mem"
+  },
+  {
+    "canonical_id": "e084e577-fb5d-5b24-8150-6625cd1f34d8",
+    "canonical_value": "Cohere",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "github:org:cohere-ai",
+    "raw_value": "Cohere",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/orgs/cohere-ai"
+  },
+  {
+    "canonical_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf",
+    "canonical_value": "Groq",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "github:org:groq",
+    "raw_value": "Groq",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/orgs/groq"
+  },
+  {
+    "canonical_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79",
+    "canonical_value": "Hugging Face",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "github:org:huggingface",
+    "raw_value": "Hugging Face",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/orgs/huggingface"
+  },
+  {
+    "canonical_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
+    "canonical_value": "Mistral AI",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "github:org:mistralai",
+    "raw_value": "Mistral AI",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/orgs/mistralai"
+  },
+  {
+    "canonical_id": "61ed733f-77b7-5339-87db-c3abab669f8d",
+    "canonical_value": "Model Context Protocol",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "github:org:modelcontextprotocol",
+    "raw_value": "Model Context Protocol",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/orgs/modelcontextprotocol"
+  },
+  {
+    "canonical_id": "9850b875-7965-57f0-a25a-1518f67a2952",
+    "canonical_value": "openai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pypi:package:openai",
+    "raw_value": "openai",
+    "reason": "same normalized URL",
+    "source_url": "https://pypi.org/pypi/openai/json"
+  },
+  {
+    "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "canonical_value": "OpenAI",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "pypi:author:openai",
+    "raw_value": "OpenAI",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://pypi.org/pypi/openai/json"
+  },
+  {
+    "canonical_id": "c39b606e-3394-56fb-bbde-b1f472e08ae2",
+    "canonical_value": "anthropic",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pypi:package:anthropic",
+    "raw_value": "anthropic",
+    "reason": "same normalized URL",
+    "source_url": "https://pypi.org/pypi/anthropic/json"
+  },
+  {
+    "canonical_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "canonical_value": "Anthropic",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "pypi:author:anthropic",
+    "raw_value": "Anthropic",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://pypi.org/pypi/anthropic/json"
+  },
+  {
+    "canonical_id": "c28d6dc8-b308-5d23-a60d-bb4706e91c13",
+    "canonical_value": "groq",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pypi:package:groq",
+    "raw_value": "groq",
+    "reason": "same normalized URL",
+    "source_url": "https://pypi.org/pypi/groq/json"
+  },
+  {
+    "canonical_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf",
+    "canonical_value": "Groq",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "pypi:author:groq",
+    "raw_value": "Groq",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://pypi.org/pypi/groq/json"
+  },
+  {
+    "canonical_id": "235eb008-8407-579d-ae36-49a0ca312fe5",
+    "canonical_value": "mistralai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pypi:package:mistralai",
+    "raw_value": "mistralai",
+    "reason": "same normalized URL",
+    "source_url": "https://pypi.org/pypi/mistralai/json"
+  },
+  {
+    "canonical_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
+    "canonical_value": "Mistral AI",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "pypi:author:mistral ai",
+    "raw_value": "Mistral AI",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://pypi.org/pypi/mistralai/json"
+  },
+  {
+    "canonical_id": "5b2129ed-c538-58c6-999d-4387a6bf5738",
+    "canonical_value": "@modelcontextprotocol/server-filesystem",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm:package:@modelcontextprotocol/server-filesystem",
+    "raw_value": "@modelcontextprotocol/server-filesystem",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+  },
+  {
+    "canonical_id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
+    "canonical_value": "@modelcontextprotocol/server-memory",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm:package:@modelcontextprotocol/server-memory",
+    "raw_value": "@modelcontextprotocol/server-memory",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+  },
+  {
+    "canonical_id": "3d504ea5-4abd-522b-8cac-1dd3772b6a2c",
+    "canonical_value": "@modelcontextprotocol/server-sequential-thinking",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm:package:@modelcontextprotocol/server-sequential-thinking",
+    "raw_value": "@modelcontextprotocol/server-sequential-thinking",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+  },
+  {
+    "canonical_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+    "canonical_value": "@modelcontextprotocol/server-github",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm:package:@modelcontextprotocol/server-github",
+    "raw_value": "@modelcontextprotocol/server-github",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  },
+  {
+    "canonical_id": "05ab724d-899b-524a-ba66-19cdfc43d021",
+    "canonical_value": "GitHub API",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "tool:github-api",
+    "raw_value": "GitHub API",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  },
+  {
+    "canonical_id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
+    "canonical_value": "ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ai",
+    "raw_value": "ai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ai"
+  },
+  {
+    "canonical_id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
+    "canonical_value": "@opentelemetry/instrumentation-openai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@opentelemetry/instrumentation-openai",
+    "raw_value": "@opentelemetry/instrumentation-openai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "canonical_id": "722a3753-3409-54f2-a51b-e450efbdec55",
+    "canonical_value": "@langchain/core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/core",
+    "raw_value": "@langchain/core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
+  },
+  {
+    "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
+    "canonical_value": "@openai/agents-core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@openai/agents-core",
+    "raw_value": "@openai/agents-core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+  },
+  {
+    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
+    "canonical_value": "langchain",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:langchain",
+    "raw_value": "langchain",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/langchain"
+  },
+  {
+    "canonical_id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
+    "canonical_value": "assistant-stream",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:assistant-stream",
+    "raw_value": "assistant-stream",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/assistant-stream"
+  },
+  {
+    "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
+    "canonical_value": "am-i-vibing",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:am-i-vibing",
+    "raw_value": "am-i-vibing",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/am-i-vibing"
+  },
+  {
+    "canonical_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
+    "canonical_value": "agents",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:agents",
+    "raw_value": "agents",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/agents"
+  },
+  {
+    "canonical_id": "81c98248-f1df-5b9a-9ae9-6c1157eb28a7",
+    "canonical_value": "@json-render/core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@json-render/core",
+    "raw_value": "@json-render/core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@json-render%2Fcore"
+  },
+  {
+    "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
+    "canonical_value": "chat",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:chat",
+    "raw_value": "chat",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/chat"
+  },
+  {
+    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
+    "canonical_value": "ollama-ai-provider-v2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
+    "raw_value": "ollama-ai-provider-v2",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
+  },
+  {
+    "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "canonical_value": "@promptbook/utils",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@promptbook/utils",
+    "raw_value": "@promptbook/utils",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
+  },
+  {
+    "canonical_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
+    "canonical_value": "eve",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:eve",
+    "raw_value": "eve",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/eve"
+  },
+  {
+    "canonical_id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
+    "canonical_value": "@assistant-ui/react-ai-sdk",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@assistant-ui/react-ai-sdk",
+    "raw_value": "@assistant-ui/react-ai-sdk",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
+  },
+  {
+    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "canonical_value": "@chat-adapter/slack",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@chat-adapter/slack",
+    "raw_value": "@chat-adapter/slack",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+  },
+  {
+    "canonical_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
+    "canonical_value": "comfyui-mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:comfyui-mcp",
+    "raw_value": "comfyui-mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/comfyui-mcp"
+  },
+  {
+    "canonical_id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
+    "canonical_value": "@saintno/comfyui-sdk",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@saintno/comfyui-sdk",
+    "raw_value": "@saintno/comfyui-sdk",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+  },
+  {
+    "canonical_id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
+    "canonical_value": "@stable-canvas/comfyui-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@stable-canvas/comfyui-client",
+    "raw_value": "@stable-canvas/comfyui-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
+  },
+  {
+    "canonical_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "canonical_value": "@sogni-ai/sogni-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@sogni-ai/sogni-client",
+    "raw_value": "@sogni-ai/sogni-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
+  },
+  {
+    "canonical_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
+    "canonical_value": "@sogni-ai/sogni-intelligence-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@sogni-ai/sogni-intelligence-client",
+    "raw_value": "@sogni-ai/sogni-intelligence-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+  },
+  {
+    "canonical_id": "15c7c703-213a-54e9-8672-bd5e953b6224",
+    "canonical_value": "g4f",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:g4f",
+    "raw_value": "g4f",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/g4f"
+  },
+  {
+    "canonical_id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
+    "canonical_value": "agent-install",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:agent-install",
+    "raw_value": "agent-install",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/agent-install"
+  },
+  {
+    "canonical_id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
+    "canonical_value": "@langchain/mcp-adapters",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/mcp-adapters",
+    "raw_value": "@langchain/mcp-adapters",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+  },
+  {
+    "canonical_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
+    "canonical_value": "add-mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:add-mcp",
+    "raw_value": "add-mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/add-mcp"
+  },
+  {
+    "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "canonical_value": "OpenAI",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "official-sdk:company:openai",
+    "raw_value": "OpenAI",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "6628ac04-9fa7-5e0e-bdb0-c13b3b88453a",
+    "canonical_value": "gpt-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-5",
+    "raw_value": "gpt-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "63547484-bfb0-55ef-af07-4c01dbcf5258",
+    "canonical_value": "gpt-5-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-5-mini",
+    "raw_value": "gpt-5-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a",
+    "canonical_value": "gpt-4.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4.1",
+    "raw_value": "gpt-4.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "a9c3642f-b257-519b-a87d-ee7f50962919",
+    "canonical_value": "gpt-4.1-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4.1-mini",
+    "raw_value": "gpt-4.1-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "9a13bce7-65d3-51bb-aad3-781c4bd110b6",
+    "canonical_value": "gpt-4o",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4o",
+    "raw_value": "gpt-4o",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "c8edaa88-bb8d-5ad6-a39a-437a1d91bdcc",
+    "canonical_value": "gpt-4o-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4o-mini",
+    "raw_value": "gpt-4o-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38",
+    "canonical_value": "o3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:o3",
+    "raw_value": "o3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "b34896a1-5593-5780-b254-b2b784c20db8",
+    "canonical_value": "o4-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:o4-mini",
+    "raw_value": "o4-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "canonical_value": "Anthropic",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "official-sdk:company:anthropic",
+    "raw_value": "Anthropic",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "37dbc504-2f5a-5912-a122-db10b9d2430b",
+    "canonical_value": "claude-sonnet-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-sonnet-5",
+    "raw_value": "claude-sonnet-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "a28fa4b1-94dd-549e-97bc-54072ea793f5",
+    "canonical_value": "claude-opus-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-5",
+    "raw_value": "claude-opus-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd",
+    "canonical_value": "claude-haiku-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-haiku-4-5",
+    "raw_value": "claude-haiku-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "3862c6ba-aafb-5be7-8218-4fd5fa47e6c8",
+    "canonical_value": "claude-opus-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-5",
+    "raw_value": "claude-opus-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "197b6978-0900-59e3-a3f4-840271643cb1",
+    "canonical_value": "claude-sonnet-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-sonnet-4-5",
+    "raw_value": "claude-sonnet-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "e3c7349e-d4de-5a54-8019-c742d7d92c30",
+    "canonical_value": "claude-mythos-preview",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-mythos-preview",
+    "raw_value": "claude-mythos-preview",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "c557ca6d-eef8-5943-bc6b-741c01d8ea8a",
+    "canonical_value": "claude-opus-4-8",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-8",
+    "raw_value": "claude-opus-4-8",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e",
+    "canonical_value": "claude-opus-4-7",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-7",
+    "raw_value": "claude-opus-4-7",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "4eab4b90-8a6a-50b2-b268-face2d57a146",
+    "canonical_value": "scrip-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:1:scrip-ai",
+    "raw_value": "scrip-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "3a29dff1-9579-5b38-98e2-3d0d067c1dcb",
+    "canonical_value": "quickads",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:2:quickads",
+    "raw_value": "quickads",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "00c2af9d-de57-55aa-812d-e4e9646011a7",
+    "canonical_value": "wonderchat",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:3:wonderchat",
+    "raw_value": "wonderchat",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "21dcea78-c226-51f2-a25c-afd4f08e4d0f",
+    "canonical_value": "blobr",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:5:blobr",
+    "raw_value": "blobr",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a426365e-c952-542e-a8d9-dabdd06be9a8",
+    "canonical_value": "pencil",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:6:pencil",
+    "raw_value": "pencil",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "31d63eef-ee6a-5c28-8039-f4ce0be02855",
+    "canonical_value": "freeadcopy-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:7:freeadcopy-com",
+    "raw_value": "freeadcopy-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "b4d36c64-9373-54ee-9db7-9692ce4675e2",
+    "canonical_value": "marpipe-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:8:marpipe-com",
+    "raw_value": "marpipe-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "cb44b1e8-8020-586e-a219-e6ad97e1d7b6",
+    "canonical_value": "omneky",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:9:omneky",
+    "raw_value": "omneky",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "9958a1d5-31ce-5493-8088-9f668bcef6f3",
+    "canonical_value": "kilo-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:10:kilo-ai",
+    "raw_value": "kilo-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "872ff1a4-e052-5742-b0ff-bd09fa07c7fb",
+    "canonical_value": "30characters",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:11:30characters",
+    "raw_value": "30characters",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "91855355-be23-5bce-8fac-0a5513598cc9",
+    "canonical_value": "adbot-your-search-ads-specialist",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:12:adbot-your-search-ads-specialist",
+    "raw_value": "adbot-your-search-ads-specialist",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a03122b8-7b8d-5dbb-ad1f-7eaf53c63a4e",
+    "canonical_value": "copycop",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:13:copycop",
+    "raw_value": "copycop",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "eee508d0-d8a4-5948-a6fc-0276f87c427f",
+    "canonical_value": "engagexai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:15:engagexai",
+    "raw_value": "engagexai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a1b4a3af-79a7-5462-a592-52bf9e6f3563",
+    "canonical_value": "ai-suggests",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:16:ai-suggests",
+    "raw_value": "ai-suggests",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "190464ba-4efc-51e2-ac91-1c25174dcc84",
+    "canonical_value": "adcopy-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:17:adcopy-ai",
+    "raw_value": "adcopy-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "620b13ce-8d03-550c-8960-49e4f677540c",
+    "canonical_value": "write-conch-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:19:write-conch-ai",
+    "raw_value": "write-conch-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "12051059-f89b-54a8-a5a1-1ca8a45eb72b",
+    "canonical_value": "copyflow-pro",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:20:copyflow-pro",
+    "raw_value": "copyflow-pro",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "d5646bbc-9171-5c09-b150-8b541b5f51d2",
+    "canonical_value": "ogilvy",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:21:ogilvy",
+    "raw_value": "ogilvy",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "9eabbe9b-bd0b-5d71-8c63-b341a603cf26",
+    "canonical_value": "salesboosta-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:22:salesboosta-com",
+    "raw_value": "salesboosta-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "c8e546fd-61cd-5ac6-8265-8d7602b8c3de",
+    "canonical_value": "ezra-ads",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:23:ezra-ads",
+    "raw_value": "ezra-ads",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "6b34f558-6228-58a2-9339-fd8ab1f72171",
+    "canonical_value": "pixcanva",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:25:pixcanva",
+    "raw_value": "pixcanva",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "489264ab-72ba-5398-aeb6-9efe27cd1e23",
+    "canonical_value": "copywritergpt-io",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:26:copywritergpt-io",
+    "raw_value": "copywritergpt-io",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "25fe80d0-8826-5fbd-acdd-dcbdd3738af4",
+    "canonical_value": "azameo-fr",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:27:azameo-fr",
+    "raw_value": "azameo-fr",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "17382691-3101-53cd-b5f9-01c246590419",
+    "canonical_value": "wordcopyai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:28:wordcopyai",
+    "raw_value": "wordcopyai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "c73b9c31-2811-563f-8167-0f77e0f6f3f7",
+    "canonical_value": "adgeneratorpro",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:29:adgeneratorpro",
+    "raw_value": "adgeneratorpro",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "999d24ce-357d-5482-b15b-b2f643ae6ee9",
+    "canonical_value": "macbeth-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:30:macbeth-ai",
+    "raw_value": "macbeth-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "b3a1b9ab-346b-5c1b-b669-f34d006669de",
+    "canonical_value": "isavantai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:32:isavantai",
+    "raw_value": "isavantai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "da466d03-b51d-5d2a-aefa-5ae51a4fe5e8",
+    "canonical_value": "unbound",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:34:unbound",
+    "raw_value": "unbound",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "781b043e-ae9e-5ec2-b020-3532b7d46eb4",
+    "canonical_value": "powered-by-agency",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:35:powered-by-agency",
+    "raw_value": "powered-by-agency",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "12f6c033-dc43-5ea3-a855-c06cda5f46a5",
+    "canonical_value": "luma-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:36:luma-ai",
+    "raw_value": "luma-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "990aaa5a-ef5f-5b4e-87fa-1f05611811f5",
+    "canonical_value": "planner-5d",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:37:planner-5d",
+    "raw_value": "planner-5d",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "d8c23c4a-1ff8-579f-9375-ee06dccee5ac",
+    "canonical_value": "tripo-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:38:tripo-ai",
+    "raw_value": "tripo-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "d0f89209-0233-5b7d-a4fd-29bb5bd73800",
+    "canonical_value": "meshy",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:39:meshy",
+    "raw_value": "meshy",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "34696b1b-0b4e-5a79-871a-a07f2c6d6a4a",
+    "canonical_value": "rodin",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:42:rodin",
+    "raw_value": "rodin",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "171c5ca8-3def-5932-90a9-f9037c761f30",
+    "canonical_value": "runcomfy",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:45:runcomfy",
+    "raw_value": "runcomfy",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "0104984d-0a12-5743-8d30-9763db3bd66f",
+    "canonical_value": "cgdream-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:46:cgdream-ai",
+    "raw_value": "cgdream-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "10827c11-ea06-5ce4-9721-39964dcbdf09",
+    "canonical_value": "vizcom",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:47:vizcom",
+    "raw_value": "vizcom",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "97a3a08c-2c57-51eb-b309-82d70f4c56a4",
+    "canonical_value": "3d-ai-studio",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:50:3d-ai-studio",
+    "raw_value": "3d-ai-studio",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "b821239e-a634-54ec-9d8c-f1009926724c",
+    "canonical_value": "rosebud",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:52:rosebud",
+    "raw_value": "rosebud",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "eaea1a2d-91f6-54da-ac0d-ed390344d5ca",
+    "canonical_value": "pageon-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:53:pageon-ai",
+    "raw_value": "pageon-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "faffb1fb-729e-53e8-8a70-9382427ca6dd",
+    "canonical_value": "alpha3d-io",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:54:alpha3d-io",
+    "raw_value": "alpha3d-io",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "7bfeb79c-578f-5d2a-ae16-a0ad24909f02",
+    "canonical_value": "sloyd",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:55:sloyd",
+    "raw_value": "sloyd",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "8aeb5ac5-48d6-5672-8f2b-6dbde5f4cfe6",
+    "canonical_value": "csm",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:56:csm",
+    "raw_value": "csm",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "78ff07e2-ec9a-59aa-9741-016f27d2fc5c",
+    "canonical_value": "avaturn-me",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:57:avaturn-me",
+    "raw_value": "avaturn-me",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "c8c6d8ff-74ba-514b-8538-a9a78c3a4ff2",
+    "canonical_value": "kaedim",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:58:kaedim",
+    "raw_value": "kaedim",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "87c7ab70-6052-503b-9b22-68405330d52d",
+    "canonical_value": "modelslab-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:59:modelslab-ai",
+    "raw_value": "modelslab-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "3c4e0c4a-8554-5883-8b68-352c13f92568",
+    "canonical_value": "ludo-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:60:ludo-ai",
+    "raw_value": "ludo-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a2554985-575d-5c3a-b67f-584ebbde3eaf",
+    "canonical_value": "backflip-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:62:backflip-ai",
+    "raw_value": "backflip-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "10ac48ac-f668-50e7-9d88-7cb790ca0c11",
+    "canonical_value": "aihouse-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:63:aihouse-com",
+    "raw_value": "aihouse-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "ea3d4abe-741c-500a-97c2-e9dcd55f0c85",
+    "canonical_value": "mappedin-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:65:mappedin-com",
+    "raw_value": "mappedin-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "550aa9a4-ff2a-573e-92d0-b8741c965d25",
+    "canonical_value": "Perceptron: Perceptron Mk1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:perceptron/perceptron-mk1",
+    "raw_value": "Perceptron: Perceptron Mk1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "dd926075-11e7-501d-a3d8-b47dad5c34f0",
+    "canonical_value": "Google: Gemini 3.1 Flash Lite",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:google/gemini-3.1-flash-lite",
+    "raw_value": "Google: Gemini 3.1 Flash Lite",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "17bb491f-6dc5-5b92-a992-7c5e47194b46",
+    "canonical_value": "xAI: Grok 4.3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:x-ai/grok-4.3",
+    "raw_value": "xAI: Grok 4.3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "2e0faca3-8dba-5222-b79a-e7e585c18e7a",
+    "canonical_value": "IBM: Granite 4.1 8B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:ibm-granite/granite-4.1-8b",
+    "raw_value": "IBM: Granite 4.1 8B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "e9a8f380-553c-5219-a3a3-678d6908a30d",
+    "canonical_value": "Mistral: Mistral Medium 3.5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:mistralai/mistral-medium-3-5",
+    "raw_value": "Mistral: Mistral Medium 3.5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "502a1636-ad07-5807-9063-62d2fe109e77",
+    "canonical_value": "Owl Alpha",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:openrouter/owl-alpha",
+    "raw_value": "Owl Alpha",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "20d76d81-67a4-5654-9c8a-28e153b72d58",
+    "canonical_value": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:qwen/qwen3.5-plus-20260420",
+    "raw_value": "Qwen: Qwen3.5 Plus 2026-04-20",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "c33c0062-ceb1-56d4-8588-66ad3bbf93ed",
+    "canonical_value": "Qwen: Qwen3.6 Flash",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:qwen/qwen3.6-flash",
+    "raw_value": "Qwen: Qwen3.6 Flash",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "2b24b541-bafb-5e42-9987-2d5da55d0e1e",
+    "canonical_value": "Qwen: Qwen3.6 35B A3B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:qwen/qwen3.6-35b-a3b",
+    "raw_value": "Qwen: Qwen3.6 35B A3B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "e4cc9a47-4974-5155-8fe9-ee83f31770bd",
+    "canonical_value": "Qwen: Qwen3.6 Max Preview",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:qwen/qwen3.6-max-preview",
+    "raw_value": "Qwen: Qwen3.6 Max Preview",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "eef32586-4e8e-551f-aa42-dc8a44a06114",
+    "canonical_value": "Qwen: Qwen3.6 27B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:qwen/qwen3.6-27b",
+    "raw_value": "Qwen: Qwen3.6 27B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "9ec6f4ea-bfff-5718-811c-2d3cd60d71e2",
+    "canonical_value": "DeepSeek: DeepSeek V4 Pro",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "models-dev:model:deepseek/deepseek-v4-pro",
+    "raw_value": "DeepSeek: DeepSeek V4 Pro",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
+  },
+  {
+    "canonical_id": "ab11b687-6bb8-5f0c-9cb0-b6c91c0db7c1",
+    "canonical_value": "PR2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:pr2",
+    "raw_value": "PR2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-06-22-pr2.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "4694ad75-e832-54f4-babd-9eaae34bf893",
+    "canonical_value": "TurtleBot2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:turtlebot",
+    "raw_value": "TurtleBot2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-07-turtlebot.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "0622826d-9a20-59ba-8c3e-c885be2dcc28",
+    "canonical_value": "Erle-Copter",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:erlecopter",
+    "raw_value": "Erle-Copter",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-08-erlecopter.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "e11eca33-9bdf-5e73-95e3-76aac5a3da25",
+    "canonical_value": "AMIGO",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:amigo",
+    "raw_value": "AMIGO",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-amigo.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "5f343062-158b-5708-ba66-fb60d8d7e9a5",
+    "canonical_value": "AsTec Pelican and Hummingbird",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:astec-pelican-and-hummingbird",
+    "raw_value": "AsTec Pelican and Hummingbird",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-astec-pelican-and-hummingbird.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "7b59128e-2ae2-521f-8ede-e739bf1d611f",
+    "canonical_value": "Innok Heros",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:innok-heros",
+    "raw_value": "Innok Heros",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-innok-heros.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "13476ad3-029f-5377-ae43-f6cec0a5f0e3",
+    "canonical_value": "Nao",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:nao",
+    "raw_value": "Nao",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-nao.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "8b48e2db-a1da-5280-bef6-45f5a01a1325",
+    "canonical_value": "Oculus Prime",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:oculus-prime",
+    "raw_value": "Oculus Prime",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-oculus-prime.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "ada35948-dac0-5c25-8647-18ac1c0d42ac",
+    "canonical_value": "Segway RMPv3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:segway-rmpv3",
+    "raw_value": "Segway RMPv3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-12-segway-rmpv3.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "3e63c810-241b-54ea-9e27-dc7031d21a5a",
+    "canonical_value": "BipedRobin",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:bipedrobin",
+    "raw_value": "BipedRobin",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-bipedrobin.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "086b4c0a-65f2-5940-a2de-df62977e30bc",
+    "canonical_value": "Crazyflie",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:crazyflie",
+    "raw_value": "Crazyflie",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-18-crazyflie.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "744c90a0-da9c-5b6e-a995-754d31eda9ed",
+    "canonical_value": "Allegro Hand",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:allegro-hand",
+    "raw_value": "Allegro Hand",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-allegro-hand.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "1f84f16c-063f-5490-b872-06a4746cb011",
+    "canonical_value": "Barrett Hand",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:barrett-hand",
+    "raw_value": "Barrett Hand",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-barrett-hand.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "c5730beb-305d-55e3-a85a-114afa93cb73",
+    "canonical_value": "BlueROV",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:bluerov",
+    "raw_value": "BlueROV",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-bluerov.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "e4ec2e59-2d3c-571a-8f37-e7280fe9f120",
+    "canonical_value": "Clearpath Husky UGV",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ros-robots:robot:husky",
+    "raw_value": "Clearpath Husky UGV",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
+    "canonical_value": "autonomous agent workflows",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:autonomous agent workflows",
+    "raw_value": "autonomous agent workflows",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/significant-gravitas/autogpt"
+  },
+  {
+    "canonical_id": "6c18211a-972b-5705-96e3-97edb92819ea",
+    "canonical_value": "chatbot applications",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:chatbot applications",
+    "raw_value": "chatbot applications",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/f/prompts.chat"
+  },
+  {
+    "canonical_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca",
+    "canonical_value": "large language model applications",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:large language model applications",
+    "raw_value": "large language model applications",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/f/prompts.chat"
+  },
+  {
+    "canonical_id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82",
+    "canonical_value": "machine learning",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:machine learning",
+    "raw_value": "machine learning",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+  },
+  {
+    "canonical_id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
+    "canonical_value": "filesystem access",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:filesystem access",
+    "raw_value": "filesystem access",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
+  },
+  {
+    "canonical_id": "14149889-d8fa-5384-87db-95103eec7439",
+    "canonical_value": "persistent memory",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:persistent memory",
+    "raw_value": "persistent memory",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
+  },
+  {
+    "canonical_id": "a5f81972-f7b8-543e-8019-1f654ecae154",
+    "canonical_value": "problem solving",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:problem solving",
+    "raw_value": "problem solving",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
+  },
+  {
+    "canonical_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5",
+    "canonical_value": "source code repository automation",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:source code repository automation",
+    "raw_value": "source code repository automation",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
+  },
+  {
+    "canonical_id": "abe4017a-270f-5e32-953b-2977f0ad7359",
+    "canonical_value": "AI application observability",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:AI application observability",
+    "raw_value": "AI application observability",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
+  },
+  {
+    "canonical_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4",
+    "canonical_value": "creative media generation",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "task:creative media generation",
+    "raw_value": "creative media generation",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
+  }
+]
