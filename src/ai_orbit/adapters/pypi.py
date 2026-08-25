@@ -41,11 +41,20 @@ class PyPIPackageAdapter(SourceAdapter):
                 access_method="PyPI project JSON endpoint /pypi/{project}/json",
                 url=response.url,
                 status="usable",
+                domain="Tools/Companies",
                 http_status=response.status_code,
                 pagination="not paginated for a single project; releases are keyed by version",
                 available_fields=list(info.keys())[:40],
+                required_fields=["name", "summary", "project_url", "project_urls", "author", "author_email", "version", "requires_python"],
                 authentication_required=False,
                 rate_limit_observed={},
+                freshness="version/release metadata exists, but package update time is not treated as product launch time",
+                anti_bot_js="PyPI JSON API returned JSON; no browser automation or JavaScript required",
+                inventory_evidence=f"configured packages={len(self.settings.pypi_packages)}; sample package={sample}",
+                company_identity_quality="author/author_email can identify provider for selected official SDK packages but is not a full company profile source",
+                ai_relevance="configured package allowlist contains AI SDK packages; no broad package search is accepted as products without filtering",
+                actual_crawl_feasibility="usable for configured package list; not used as a complete product catalog",
+                record_volume_estimate=str(len(self.settings.pypi_packages)),
                 failure_behavior="404 is project not found; malformed JSON is rejected; network/5xx use bounded retries",
             )
         except SourceFetchError as exc:
@@ -55,8 +64,12 @@ class PyPIPackageAdapter(SourceAdapter):
                 access_method="PyPI project JSON endpoint /pypi/{project}/json",
                 url=url,
                 status="unusable",
+                domain="Tools/Companies",
                 http_status=exc.status_code,
+                required_fields=["name", "summary", "project_url", "project_urls", "author", "author_email", "version", "requires_python"],
                 authentication_required=False,
+                anti_bot_js="not determined; API request failed",
+                actual_crawl_feasibility="not usable from this environment based on observed failure",
                 failure_behavior=f"{exc.failure_class.value}: {exc}",
             )
 

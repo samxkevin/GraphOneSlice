@@ -2,6 +2,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 30,
+      "model_identifier": "gpt-5-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "04ce31d5-c3c1-5e39-93d1-1c1cbc554bac",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "63547484-bfb0-55ef-af07-4c01dbcf5258"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "fields": {
         "author": null,
         "author_email": "Anthropic <support@anthropic.com>"
@@ -38,6 +57,44 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 10,
+      "model_identifier": "claude-sonnet-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "2fca228c-2b87-5d18-9784-745fe81af6a0",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "37dbc504-2f5a-5912-a122-db10b9d2430b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 23,
+      "model_identifier": "claude-sonnet-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "3d301772-eb72-5079-8cdf-5130099fc3c7",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "197b6978-0900-59e3-a3f4-840271643cb1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "fields": {
         "author": null,
         "author_email": "Groq <support@groq.com>"
@@ -57,6 +114,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 15,
+      "model_identifier": "claude-opus-4-7",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "4d8b73ba-792a-55ac-a313-332be11271c3",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "machine-learning",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
@@ -70,6 +146,44 @@
     },
     "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
     "target_entity_id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 13,
+      "model_identifier": "claude-opus-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "54891dc3-3b5d-56be-8dca-c3f94194b102",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "a28fa4b1-94dd-549e-97bc-54072ea793f5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 29,
+      "model_identifier": "gpt-5",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "57107a00-a4b4-58a7-96a4-0d85046fc018",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "6628ac04-9fa7-5e0e-bdb0-c13b3b88453a"
   },
   {
     "confidence": 1.0,
@@ -144,6 +258,82 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 44,
+      "model_identifier": "o3",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "7bb1ed3f-9513-5fcc-b398-71ed28f5b162",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 54,
+      "model_identifier": "gpt-4o",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "890b6e34-3f61-5381-a149-7995e3a26413",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "9a13bce7-65d3-51bb-aad3-781c4bd110b6"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 36,
+      "model_identifier": "gpt-4.1",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "8a9d89a8-7471-5f6c-9b73-c01261fad4c0",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 21,
+      "model_identifier": "claude-opus-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "8b17e0d5-16d7-567b-b88f-ea55f1b3d35f",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "3862c6ba-aafb-5be7-8218-4fd5fa47e6c8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "sequential thinking",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
@@ -161,6 +351,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 16,
+      "model_identifier": "claude-mythos-preview",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "a6580e56-2e82-56a5-bd1b-7b45282a6fdf",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "e3c7349e-d4de-5a54-8019-c742d7d92c30"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "memory",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
@@ -174,6 +383,25 @@
     },
     "source_entity_id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
     "target_entity_id": "14149889-d8fa-5384-87db-95103eec7439"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 19,
+      "model_identifier": "claude-haiku-4-5",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "cd1d8557-9ae0-5d14-82f4-e7b4f7b09ccd",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd"
   },
   {
     "confidence": 1.0,
@@ -197,6 +425,44 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "line_number": 70,
+      "model_identifier": "gpt-4o-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "d3fae718-c6f1-58b4-a4e3-0527b8c8d32c",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "c8edaa88-bb8d-5ad6-a39a-437a1d91bdcc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 37,
+      "model_identifier": "gpt-4.1-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "db66211e-3f2a-5c4e-80b1-c2ba88719ec7",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "a9c3642f-b257-519b-a87d-ee7f50962919"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "GitHub API",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
@@ -210,6 +476,25 @@
     },
     "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
     "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 14,
+      "model_identifier": "claude-opus-4-8",
+      "source_repository": "anthropics/anthropic-sdk-python",
+      "source_type_name": "Model",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "id": "e6bbfded-bd2a-5475-9225-8dca0c33d695",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "target_entity_id": "c557ca6d-eef8-5943-bc6b-741c01d8ea8a"
   },
   {
     "confidence": 1.0,
@@ -244,6 +529,25 @@
     },
     "source_entity_id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "line_number": 42,
+      "model_identifier": "o4-mini",
+      "source_repository": "openai/openai-python",
+      "source_type_name": "ChatModel",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "id": "f2afb48e-f38d-5cd5-9822-3ecf84170ea1",
+    "method": "official_sdk_model_literal",
+    "relationship_type": "develops",
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "target_entity_id": "b34896a1-5593-5780-b254-b2b784c20db8"
   },
   {
     "confidence": 1.0,

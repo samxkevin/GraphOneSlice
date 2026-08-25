@@ -50,11 +50,20 @@ class GitHubAdapter(SourceAdapter):
                 access_method="GitHub REST search/repository/org endpoints",
                 url=response.url,
                 status="usable",
+                domain="Repositories/Companies",
                 http_status=response.status_code,
                 pagination="page/per_page parameters; Link header appears when additional pages are available",
                 available_fields=list(first.keys())[:40],
+                required_fields=["full_name", "html_url", "description", "owner", "stargazers_count", "language", "updated_at"],
                 authentication_required=False,
                 rate_limit_observed=rate,
+                freshness="repository updated_at is available; it is not treated as publication time for news/jobs",
+                anti_bot_js="GitHub REST API returned JSON; no browser automation or JavaScript required",
+                inventory_evidence=f"search total_count={data.get('total_count')} for configured query" if isinstance(data, dict) else None,
+                company_identity_quality="repository owner and organization endpoints supply deterministic GitHub identifiers, but not all org records have company-quality descriptions",
+                ai_relevance="configured search query filters by artificial-intelligence topic/stars; downstream records retain observed topics",
+                actual_crawl_feasibility="usable with bounded page/per_page pagination and rate-limit headers",
+                record_volume_estimate=str(data.get("total_count")) if isinstance(data, dict) and data.get("total_count") is not None else None,
                 failure_behavior="429 and 5xx are retryable; 403/404 are non-retryable source failures",
             )
         except SourceFetchError as exc:
@@ -64,8 +73,12 @@ class GitHubAdapter(SourceAdapter):
                 access_method="GitHub REST search/repository/org endpoints",
                 url=url,
                 status="unusable",
+                domain="Repositories/Companies",
                 http_status=exc.status_code,
+                required_fields=["full_name", "html_url", "description", "owner", "stargazers_count", "language", "updated_at"],
                 authentication_required=False,
+                anti_bot_js="not determined; API request failed",
+                actual_crawl_feasibility="not usable from this environment based on observed failure",
                 failure_behavior=f"{exc.failure_class.value}: {exc}",
             )
 

@@ -1,12 +1,33 @@
-# GraphOneSlice — AI Orbit Ingestion Vertical Slice
+# GraphOneSlice — AI Orbit Ingestion Continuation
 
-This repository originally contained a research-paper ingestion slice (`arXiv → repository evidence → GitHub verification → validation → storage/export`). That implementation is still present under the existing `src/adapters`, `src/parsers`, `src/pipeline`, `src/storage`, and related modules.
+This repository now contains **two distinct ingestion workstreams**. They share engineering principles, but their outputs must not be conflated.
 
-This pass adds a separate **AI Orbit Data Ingestion Pipeline vertical slice** under `src/ai_orbit/`. The new pipeline is built around the requested workflow:
+## Workstream A — existing research-paper pipeline
+
+The original repository workstream predates the AI Orbit JSON pipeline. It remains in the existing modules under `src/adapters`, `src/parsers`, `src/pipeline`, `src/storage`, `src/validator`, and related packages.
+
+It has demonstrated the research-paper path:
+
+```text
+arXiv
+→ deterministic parsing
+→ abstract-page repository evidence extraction
+→ evidence-backed GitHub repository association
+→ GitHub API/star verification
+→ deterministic validation
+→ PostgreSQL persistence
+→ Google Sheets export
+```
+
+The live 1,000-paper research-paper run is **separate** from the newer AI Orbit pipeline. The repository does not claim that those 1,000 research-paper records passed through the AI Orbit entity graph or through the LLM review chain.
+
+## Workstream B — AI Orbit ingestion pipeline
+
+The AI Orbit pipeline lives under `src/ai_orbit/` and implements:
 
 ```text
 Discovery
-→ Fetching / Extraction
+→ Fetch / Extraction
 → Cleaning
 → Normalization
 → Entity Resolution / Deduplication
@@ -16,149 +37,165 @@ Discovery
 → JSON Storage
 ```
 
-The implementation is intentionally conservative: source data is authoritative, LLMs are not used as factual sources, and missing facts stay missing rather than being filled from assumptions.
+The implementation is deliberately conservative: source records are authoritative, LLM output is not used as factual evidence for these structured sources, and missing facts remain missing rather than being inferred.
 
-## Current implemented AI Orbit milestone
+## Current verified AI Orbit baseline
 
-**Implemented and executed:** first real vertical slice.
-
-Latest checked run:
+Latest verification commands run in this branch:
 
 ```bash
-.venv/bin/python run.py
 .venv/bin/python -m pytest tests/ -q
+.venv/bin/python run.py
 ```
 
-Observed result from the generated `data/validation_report.json`:
+Current generated artifacts report:
 
-- `29` valid entities
-- `15` valid relationships
-- `100%` provenance coverage for accepted entities
+- valid entities: `45`
+- valid relationships: `31`
 - validation status: `passed`
 - validation failures: `0`
-- source failures recorded, not hidden: `2`
-- automated tests: `64 passed`
+- rejected records: `0`
+- provenance coverage: `100%`
+- recorded source failures: `9`
+- duplicate/shared URL warnings: `4`
+- test result: `67 passed`
 
-This is not a 250–300 record final corpus yet. It is the required first working vertical slice with real source-backed records.
+This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
-## Repository audit summary
+## Repository audit and current implementation status
 
-Before this change, the repository already had:
+Before the AI Orbit work, the repository already had a working research-paper pipeline with arXiv, GitHub verification, PostgreSQL persistence, deterministic validation, and tests.
 
-- a working research-paper pipeline focused on arXiv papers and GitHub repository evidence;
-- PostgreSQL-oriented storage code;
-- a deterministic parser/validator path for research paper records;
-- source adapters for arXiv and repository evidence pages;
-- GitHub API verification code;
-- an existing provider-agnostic LLM orchestration layer under `src/llm/`;
-- tests for the research-paper path.
+The AI Orbit implementation added and now maintains:
 
-Gaps relative to the AI Orbit request were:
+- common entity schema with stable IDs;
+- modular source adapters;
+- deterministic cleaning and normalization;
+- deterministic entity resolution and deduplication;
+- stable UUIDv5 identities;
+- entity mapping log generation;
+- controlled task classification from observed source values;
+- evidence-backed relationship generation;
+- deterministic validation report;
+- source-feasibility reporting;
+- required JSON outputs under `data/`;
+- automated tests for AI Orbit behavior.
 
-- no common AI Orbit entity schema (`id`, `entity_type`, `name`, `description`, `url`, `categories`, `source`);
-- no AI Orbit category-oriented JSON outputs;
-- no `data/entities.json`, `data/relationships.json`, `data/entity_mapping_log.json`, or `data/validation_report.json`;
-- no deterministic AI Orbit entity resolution/mapping log;
-- no AI Orbit source feasibility output;
-- no relationship graph for companies/tools/tasks/MCP;
-- no tests for AI Orbit normalization, URL handling, deduplication, relationship validation, provenance validation, retry behavior, or source failure isolation.
+Entity resolution is therefore **implemented and tested for the current vertical slice**. What remains incomplete is assessment-scale entity mapping coverage across the full 250–300 record target and across additional source families.
 
-The new AI Orbit code is therefore separate from, and does not overwrite, the existing research-paper implementation.
+## AI Orbit source adapters and probes
 
-## AI Orbit architecture
+### Implemented ingestion adapters
 
-New modules:
+#### GitHub API
 
-```text
-run.py
-  ↓
-src/ai_orbit/pipeline.py
-  ↓
-src/ai_orbit/adapters/        source-specific discovery/fetching
-src/ai_orbit/stages/          cleaning, normalization, resolution, classification, relationships, validation, storage
-src/ai_orbit/utils/           URL normalization, stable identity, HTTP retry/failure classification
-src/ai_orbit/models.py        common schemas and internal records
-src/ai_orbit/config.py        environment-driven configuration
-```
-
-Pipeline stages:
-
-1. **Source verification** — probes each configured source and records feasibility facts in `data/source_feasibility.json`.
-2. **Discovery / extraction** — adapters fetch source-backed records and preserve raw observed fields in provenance.
-3. **Cleaning** — trims strings, collapses whitespace, normalizes URLs, and de-duplicates categories.
-4. **Normalization** — computes normalized names, normalized URLs, canonical keys, and stable UUIDv5 entity IDs.
-5. **Entity resolution / deduplication** — merges entities by deterministic canonical URL or normalized name, and writes `data/entity_mapping_log.json`.
-6. **Classification** — assigns categories and creates task entities only from observed topics or description phrases.
-7. **Relationship mapping** — creates only evidence-backed relationships with source URLs and method names.
-8. **Validation** — checks schema, required fields, provenance, URLs, unsupported categories/types, metadata shape, duplicate IDs, malformed relationships, and missing relationship endpoints.
-9. **Storage** — writes deterministic JSON artifacts under `data/`.
-
-## Sources actually used in the vertical slice
-
-### GitHub API
-
-- Access method: GitHub REST API over JSON.
-- Endpoints used:
+- Access: GitHub REST JSON API.
+- Used for: repositories/tools and company/org observations.
+- Endpoints:
   - `https://api.github.com/search/repositories`
   - `https://api.github.com/orgs/{org}`
-- Supplies:
-  - repository/tool records;
-  - repository metadata: stars, primary language, last updated timestamp, topics;
-  - organization/company records where GitHub org descriptions are present;
-  - relationship evidence from repository owner metadata;
-  - task evidence from observed repository topics.
-- Authentication: optional. `GITHUB_TOKEN` increases rate limits but is not required for the current small run.
-- Observed pagination: `page` / `per_page`; `Link` headers are available for additional pages.
-- Observed rate-limit headers are captured in `data/source_feasibility.json`.
+- Supplies source-backed repository metadata:
+  - `full_name`
+  - `html_url`
+  - `description`
+  - `owner`
+  - `stargazers_count`
+  - `language`
+  - `updated_at`
+  - `topics`
+- Relationship evidence:
+  - repository owner metadata for company/repository ownership when the owner entity exists;
+  - observed topics for `solves` task mapping.
+- Notes:
+  - `updated_at` is treated as repository update metadata, not publication time for news/jobs.
+  - GitHub rate-limit headers are captured in source feasibility output.
 
-### PyPI JSON API
+#### PyPI JSON API
 
-- Access method: public JSON endpoint `https://pypi.org/pypi/{package}/json`.
-- Packages used by default:
+- Access: `https://pypi.org/pypi/{package}/json`.
+- Configured packages:
   - `openai`
   - `anthropic`
   - `groq`
   - `mistralai`
+- Used for: AI SDK/tool records and conservative company/author observations.
 - Supplies:
-  - AI SDK/tool records;
-  - package metadata such as version, Python requirement, license when present, project URLs;
-  - company/author observations from `author` and `author_email` fields;
-  - `Company → develops → Tool` relationship evidence from PyPI author metadata.
-- Authentication: not required.
-- Pagination: single project document; releases are keyed by version.
+  - package name;
+  - summary;
+  - version;
+  - Python requirement;
+  - license when supplied;
+  - project URLs;
+  - author / author-email fields.
+- Relationship evidence:
+  - `Company → develops → Tool` from PyPI author metadata.
+- Notes:
+  - PyPI package metadata is not treated as a broad product catalog.
+  - package update/version metadata is not treated as product launch time.
 
-### NPM Registry MCP packages
+#### NPM Registry MCP Packages
 
-- Access method: NPM registry package JSON documents.
-- Packages used by default:
+- Access: NPM package JSON documents.
+- Configured packages:
   - `@modelcontextprotocol/server-filesystem`
   - `@modelcontextprotocol/server-memory`
   - `@modelcontextprotocol/server-sequential-thinking`
   - `@modelcontextprotocol/server-github`
+- Used for: MCP records and MCP/tool task relationships.
 - Supplies:
-  - MCP server records;
-  - MCP metadata: package name, version, bin field, deprecation notice when present, installation method as an observed npm/npx package mechanism;
-  - task evidence from package descriptions;
-  - `MCP → integrates_with → Tool` relationship for the GitHub MCP package, based on the package description naming the GitHub API.
-- Authentication: not required.
-- Pagination: not used for a single package document.
+  - package name;
+  - package description;
+  - latest version;
+  - bin field;
+  - deprecation notice when present;
+  - README evidence for npm/npx installation wording.
+- Relationship evidence:
+  - `MCP → integrates_with → Tool` for the GitHub MCP package from the NPM package description naming the GitHub API.
+  - `MCP → solves → Task` from controlled mappings over observed package descriptions.
 
-### Sources probed but not used for records
+#### Official SDK Model Definitions
 
-The pipeline deliberately probes these sources and records failures instead of fabricating fallback data:
+- Access: GitHub REST contents API for official provider SDK type files.
+- Sources:
+  - `openai/openai-python` generated `ChatModel` type file;
+  - `anthropics/anthropic-sdk-python` generated `Model` type file.
+- Used for: model records and `Company → develops → Model` relationships.
+- Supplies:
+  - model identifier literals;
+  - provider identity from official SDK repository configuration;
+  - source file path and line number.
+- Does **not** supply:
+  - model license;
+  - modalities;
+  - pricing;
+  - launch/publication timestamp.
+- Those fields remain `null` unless a source provides them.
 
-- **Hugging Face Hub API** — `https://huggingface.co/api/models`
-  - observed in this environment as a TLS/network failure;
-  - no model records were generated.
-- **OpenAI News RSS** — `https://openai.com/news/rss.xml`
-  - observed in this environment as a TLS/network failure;
-  - no news records were generated.
+### Feasibility probes without accepted records
 
-These failures are present in both `data/source_feasibility.json` and `data/validation_report.json`.
+The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
 
-## Common entity schema
+- `data/source_feasibility.json`
+- `docs/source_feasibility.md`
 
-Every exported entity supports the requested common fields:
+Current probes include:
+
+- Hugging Face Hub API — models, currently unusable in this environment due TLS/network failure.
+- OpenAI News RSS — news, currently unusable in this environment due TLS/network failure.
+- Y Combinator Companies AI page — startups/companies, currently unusable due TLS/network failure before HTML inspection.
+- Product Hunt GraphQL — products, currently unusable due TLS/network failure before schema/auth inspection.
+- NPM Search AI Packages — products/tools, currently `partial`; reachable, but package search results are not automatically product records.
+- OpenRouter Models API — models, currently unusable due TLS/network failure.
+- TechCrunch AI RSS — news, currently unusable due TLS/network failure.
+- VentureBeat AI RSS — news, currently unusable due TLS/network failure.
+- Remotive AI Jobs API — jobs, currently unusable due TLS/network failure.
+- RemoteOK Jobs API — jobs, currently unusable due TLS/network failure.
+
+No source is marked usable without observed evidence.
+
+## Entity schema
+
+Every accepted entity exports the required common fields:
 
 ```json
 {
@@ -175,48 +212,96 @@ Every exported entity supports the requested common fields:
 }
 ```
 
-The implementation also includes:
+The pipeline also exports:
 
-- `metadata` for domain-specific fields;
-- `provenance` for source record ID, source URL, observed fields, transformation steps, and fetch time.
+- `metadata` for domain-specific values;
+- `provenance` with source record ID, source URL, observed fields, transformation history, and fetch timestamp when available.
 
-Domain-specific metadata support exists for:
+Implemented metadata support includes:
 
-- repositories: `stars`, `primary_language`, `last_updated_timestamp`;
-- MCP: `installation_method`, `runtime_requirements`, package/version/bin/deprecation fields;
-- companies: `founding_year`, `industry_sector`, `headquarters` fields are present but remain `null` unless a source actually supports them;
-- models: validator support exists for `license`, `modalities`, and `provider`, but the current run does not emit model records because Hugging Face was inaccessible and no replacement model source was used.
+- repositories:
+  - stars;
+  - primary language;
+  - last updated timestamp;
+- MCP:
+  - installation method;
+  - runtime requirements when supplied;
+  - package name/version/bin/deprecation fields;
+- companies:
+  - founding year;
+  - industry sector;
+  - headquarters;
+  - these remain `null` unless source evidence supplies them;
+- models:
+  - license;
+  - modalities;
+  - provider;
+  - current model records have provider evidence but license/modalities remain `null`.
 
-## Entity resolution
+## Entity resolution and mapping log
 
 Entity resolution is deterministic and auditable.
 
-Implemented rules:
+Implemented rules include:
 
-- normalize URLs for stable identity comparisons;
-- normalize names by trimming/case-folding and removing common organization suffixes;
-- resolve `OpenAI`, `Open AI`, and `OpenAI, Inc.` to the same canonical key;
-- prefer canonical URL identity for tools/repositories/MCP;
-- use normalized-name identity for companies and tasks;
-- merge duplicate candidates without changing stable IDs;
-- write every raw-to-canonical decision to `data/entity_mapping_log.json`.
+- URL normalization for identity comparisons;
+- GitHub path case normalization;
+- preservation of GitHub source-code line anchors when they are used as evidence locators;
+- normalized company/task names;
+- organization suffix removal for common company forms;
+- tested alias handling for `OpenAI`, `Open AI`, and `OpenAI, Inc.`;
+- canonical URL identity for URL-addressable entities;
+- normalized-name identity for companies and tasks;
+- stable UUIDv5 IDs from canonical keys;
+- duplicate candidate merging;
+- mapping log generation.
 
-Example mapping-log fields:
+Mapping decisions are written to `data/entity_mapping_log.json` with:
 
-- `raw_value`
-- `canonical_value`
-- `method`
-- `confidence`
-- `source_url`
-- `raw_source_key`
-- `canonical_id`
-- `reason`
+- raw value;
+- canonical value;
+- method;
+- confidence;
+- source URL;
+- raw source key;
+- canonical ID;
+- reason.
+
+## Duplicate/shared URL warning investigation
+
+The previous validation report contained five duplicate normalized URL warnings. They were investigated.
+
+Findings:
+
+1. `f/prompts.chat` duplicate:
+   - Cause: two task entities used the repository API URL as their entity URL.
+   - Fix: GitHub-topic-derived task entities now use canonical GitHub topic URLs such as `https://github.com/topics/llm` where the raw observed value is a GitHub topic.
+   - Result: this duplicate warning is removed.
+
+2. Four NPM MCP package duplicates:
+   - URLs:
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking`
+     - `https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github`
+   - Cause: each MCP package and the task entity derived from its description share the package source URL.
+   - Interpretation: the MCP package and task label are distinct entities; the task URL is explicitly marked in metadata as `url_role=evidence_source_url` because no canonical external task URL was observed from that source.
+   - Fix: validation warnings now include grouped entity details and classify these as `shared_evidence_url` instead of a generic duplicate URL.
+   - Result: warnings are retained and documented rather than suppressed.
+
+This preserves provenance while making the entity URL/source URL distinction explicit.
 
 ## Relationship graph
 
 Output file: `data/relationships.json`.
 
-Relationship types supported by validation:
+Currently produced relationship types:
+
+- `develops`
+- `solves`
+- `integrates_with`
+
+Supported relationship types in validation:
 
 - `develops`
 - `solves`
@@ -225,18 +310,21 @@ Relationship types supported by validation:
 - `published_by`
 - `hosts`
 
-Relationships produced in the current vertical slice include:
+Current evidence-backed relationships include:
 
 - `Company → develops → Tool` from PyPI author metadata;
+- `Company → develops → Model` from official SDK model literal evidence;
 - `Repository/Tool/MCP → solves → Task` from observed GitHub topics or package description phrases;
-- `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github` naming the GitHub API.
+- `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github`.
 
-Relationships are not created from guesses. Each relationship includes:
+Relationships are not created from guesses. Every relationship has:
 
-- canonical source and target entity IDs;
-- evidence field/value or observed source value;
+- source entity ID;
+- target entity ID;
+- relationship type;
+- evidence object;
 - source URL;
-- method name;
+- method;
 - confidence.
 
 ## Validation
@@ -245,34 +333,36 @@ Relationships are not created from guesses. Each relationship includes:
 
 - total discovered/extracted/cleaned/normalized/deduplicated/classified;
 - total relationships;
-- valid/rejected counts;
+- total valid/rejected;
 - per-source counts;
 - per-category counts;
 - per-entity-type counts;
 - provenance coverage;
 - failure counts by type;
+- detailed warnings;
 - source failures;
-- source feasibility details;
-- duplicate URL warnings.
+- embedded source-feasibility observations.
 
-Validation checks at least:
+Validation checks include:
 
-- missing required fields;
-- missing provenance;
-- invalid URLs;
-- duplicate entity IDs;
-- duplicate URLs, reported as warnings when different abstract/task records share a source URL;
-- unsupported entity types/categories;
-- invalid metadata shape;
-- malformed relationships;
-- relationships pointing to missing entity IDs;
-- empty/suspicious records.
+- required entity fields;
+- schema validity;
+- supported entity types;
+- supported categories;
+- valid URLs;
+- provenance presence;
+- duplicate IDs;
+- duplicate/shared URLs as warnings;
+- repository metadata shape;
+- MCP metadata presence;
+- model metadata presence/provider support;
+- relationship schema;
+- relationship endpoints;
+- relationship provenance/evidence.
 
 ## Retry and failure strategy
 
-The AI Orbit HTTP client is in `src/ai_orbit/utils/http.py`.
-
-It distinguishes:
+The AI Orbit HTTP client in `src/ai_orbit/utils/http.py` distinguishes:
 
 - HTTP `429` rate limiting;
 - HTTP `413` payload too large;
@@ -281,15 +371,15 @@ It distinguishes:
 - timeout;
 - network failure;
 - malformed JSON;
-- generic HTTP errors.
+- generic HTTP error.
 
-Retries are bounded and use exponential backoff plus jitter. A source that fails verification is recorded and skipped; records from other usable sources continue through the pipeline.
+Retries are bounded and use exponential backoff with jitter. A source failure is recorded and isolated; records from other sources continue through validation.
 
 ## LLM usage
 
-The AI Orbit vertical slice does **not** use an LLM for factual extraction. This is intentional because the selected APIs already provide structured evidence.
+The AI Orbit JSON pipeline currently does not use LLMs for factual extraction because the accepted sources are structured APIs or source files.
 
-The repository still contains an existing provider-agnostic LLM orchestration layer in `src/llm/`, with structured extraction/review/adjudication concepts and bounded provider retries. That layer is separate from this AI Orbit run and is not claimed as the source of any AI Orbit entity facts.
+The repository still contains an existing provider-agnostic LLM orchestration layer in `src/llm/`. It is separate from the AI Orbit structured-source run. The prior live fallback path should be understood narrowly: Gemini returned 429, Cohere fallback extraction ran, Groq adjudication ran, and deterministic validation accepted that test result. The full normal Gemini → Cohere → Groq path is not claimed as live-proven here.
 
 ## How to run
 
@@ -297,7 +387,7 @@ The repository still contains an existing provider-agnostic LLM orchestration la
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 
-# Optional: copy and edit env values. No secrets are required for the small vertical slice.
+# Optional. The small AI Orbit slice runs without secrets.
 cp .env.example .env
 
 .venv/bin/python run.py
@@ -311,42 +401,46 @@ Outputs are written to `data/`.
 .venv/bin/python -m pytest tests/ -q
 ```
 
-Latest local result:
+Current verified result:
 
 ```text
-64 passed
+67 passed
 ```
 
 AI Orbit-specific tests cover:
 
-- entity normalization (`OpenAI`, `Open AI`, `OpenAI, Inc.`);
+- entity normalization;
+- OpenAI/Open AI/OpenAI, Inc. resolution;
 - URL normalization;
+- GitHub line-anchor preservation for source evidence;
 - deduplication;
 - provenance validation;
-- relationship validation;
+- relationship endpoint validation;
 - schema/business validation;
 - bounded retry behavior;
-- source failure isolation.
+- source failure isolation;
+- official SDK model literal parsing.
 
 ## Generated artifacts
 
-Required outputs:
+Required artifacts:
 
 - `data/entities.json`
 - `data/relationships.json`
 - `data/entity_mapping_log.json`
 - `data/validation_report.json`
 
-Additional useful outputs:
+Additional artifacts:
 
 - `data/source_feasibility.json`
 - `data/categories/*.json`
+- `docs/source_feasibility.md`
 
-The category exports are derived from `data/entities.json` and are intended for convenience only.
+Category exports are derived from `data/entities.json` and are convenience outputs, not independent sources of truth.
 
 ## Configuration
 
-Environment variables for the AI Orbit slice are listed in `.env.example`.
+AI Orbit environment variables are listed in `.env.example`.
 
 Important values:
 
@@ -359,43 +453,43 @@ Important values:
 - `AI_ORBIT_CA_BUNDLE`
 - `AI_ORBIT_GITHUB_SEARCH_QUERY`
 - `AI_ORBIT_GITHUB_SEARCH_LIMIT`
-- `GITHUB_TOKEN` (optional)
+- `AI_ORBIT_OFFICIAL_SDK_MODEL_LIMIT_PER_PROVIDER`
+- `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
 No real credentials are committed.
 
-## Implemented vs planned
+## Implemented now
 
-### Implemented now
-
-- Modular AI Orbit pipeline architecture.
+- Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, and NPM registry.
-- Explicit failure recording for Hugging Face and OpenAI RSS probes.
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry, and official SDK model definitions.
+- Feasibility-only probes for startup/company, product, model, news, and job candidates.
 - Stable UUID generation.
-- URL normalization.
-- Entity normalization and deduplication.
+- URL normalization and GitHub evidence line-anchor handling.
+- Deterministic entity normalization and deduplication.
 - Entity mapping log.
-- Category classification from observed source metadata.
-- Evidence-backed relationship extraction.
-- JSON storage artifacts.
-- Validation report with metrics and failures.
-- Automated tests for core logic.
+- Controlled task classification from observed source metadata.
+- Evidence-backed relationship extraction, including company/model relationships.
+- Validation report with metrics, failures, warnings, and source feasibility.
+- Required JSON storage artifacts.
+- Automated tests for core behavior.
 
-### Planned / future work
+## Planned / future work
 
-- Expand from the first 29-record vertical slice toward the requested 250–300 record representative dataset.
-- Add a usable model source once Hugging Face or another legitimate model API is accessible from the runtime environment.
-- Add verified news, videos, robots, devices, personal, and creative/product-specific sources rather than fabricating those categories.
-- Add model relationships such as `Company → develops → Model` and device relationships such as `Device → runs → Model` only when source evidence supports them.
-- Improve duplicate URL policy for abstract task entities if a task ontology source is added.
-- Add incremental caching if the dataset grows enough to justify avoiding repeated source calls.
+- Expand from `45` current valid entities toward the requested 250–300 high-quality representative records.
+- Add a stricter product/tool adapter only after product identity fields are verified; NPM search is currently only `partial` feasibility.
+- Find a reachable model catalog that supplies license/modalities; current official SDK model source supplies identifiers/provider but not those metadata fields.
+- Find reachable news feeds/APIs with publication timestamps; current tested news candidates failed in this environment.
+- Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
+- Add robots/devices/video/personal sources only after source feasibility is verified.
+- Add `Device → runs → Model` relationships only from direct source evidence.
+- Improve assessment-scale cross-source entity resolution as more source families are added.
 
 ## Known limitations
 
-- The current run is a vertical slice, not the final 250–300 record corpus.
-- Hugging Face and OpenAI RSS were probed but inaccessible in this environment; their failure is recorded and no records were synthesized.
-- Company founding year, industry sector, and headquarters are not populated unless sources provide those exact facts.
-- No model records are emitted in the current run.
-- The current source mix intentionally favors APIs/registries that were actually reachable during implementation.
-- Duplicate URL warnings appear where abstract task records use the source URL that supplied the observed task label.
-- The existing research-paper pipeline remains in the repository and is separate from the AI Orbit JSON pipeline.
+- This is not yet the final 250–300 record dataset.
+- Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
+- Model license and modalities are not populated by the official SDK model source.
+- Current jobs/news categories have no accepted records because tested sources were not reachable and no fallback data was fabricated.
+- Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
+- Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

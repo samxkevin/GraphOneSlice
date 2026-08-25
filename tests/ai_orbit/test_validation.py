@@ -54,3 +54,21 @@ def test_malformed_entity_fails_schema_and_business_validation():
     assert accepted == []
     assert report["status"] == "failed"
     assert report["failure_counts_by_type"]["missing_required_field"] == 2
+
+
+def test_shared_evidence_url_warning_is_not_suppressed_for_task_entities():
+    tool = _entity(entity_id="tool-1", url="https://example.com/source", name="Observed MCP", entity_type="mcp", categories=["MCP"], metadata={"mcp": {"installation_method": "npm", "runtime_requirements": None}})
+    task = _entity(
+        entity_id="task-1",
+        url="https://example.com/source",
+        name="filesystem access",
+        entity_type="task",
+        categories=["Tasks"],
+        metadata={"task": {"url_role": "evidence_source_url"}},
+    )
+    accepted, _relationships, report = validate_outputs([tool, task], [])
+    assert len(accepted) == 2
+    assert report["status"] == "passed"
+    assert report["summary"]["duplicate_url_count"] == 1
+    assert report["warnings"][0]["type"] == "shared_evidence_url"
+    assert report["warnings"][0]["entity_count"] == 2

@@ -111,11 +111,20 @@ class SourceFeasibility(BaseModel):
     access_method: str
     url: str
     status: Literal["usable", "unusable", "partial"]
+    domain: str | None = None
     http_status: int | None = None
     pagination: str | None = None
     available_fields: list[str] = Field(default_factory=list)
+    required_fields: list[str] = Field(default_factory=list)
     authentication_required: bool | None = None
     rate_limit_observed: dict[str, str] = Field(default_factory=dict)
+    freshness: str | None = None
+    anti_bot_js: str | None = None
+    inventory_evidence: str | None = None
+    company_identity_quality: str | None = None
+    ai_relevance: str | None = None
+    actual_crawl_feasibility: str | None = None
+    record_volume_estimate: str | None = None
     failure_behavior: str | None = None
     yielded_usable_records: int = 0
     checked_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())

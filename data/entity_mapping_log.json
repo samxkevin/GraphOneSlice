@@ -230,6 +230,186 @@
     "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
   },
   {
+    "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
+    "canonical_value": "OpenAI",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "official-sdk:company:openai",
+    "raw_value": "OpenAI",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "6628ac04-9fa7-5e0e-bdb0-c13b3b88453a",
+    "canonical_value": "gpt-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-5",
+    "raw_value": "gpt-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "63547484-bfb0-55ef-af07-4c01dbcf5258",
+    "canonical_value": "gpt-5-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-5-mini",
+    "raw_value": "gpt-5-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a",
+    "canonical_value": "gpt-4.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4.1",
+    "raw_value": "gpt-4.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "a9c3642f-b257-519b-a87d-ee7f50962919",
+    "canonical_value": "gpt-4.1-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4.1-mini",
+    "raw_value": "gpt-4.1-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "9a13bce7-65d3-51bb-aad3-781c4bd110b6",
+    "canonical_value": "gpt-4o",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4o",
+    "raw_value": "gpt-4o",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "c8edaa88-bb8d-5ad6-a39a-437a1d91bdcc",
+    "canonical_value": "gpt-4o-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:gpt-4o-mini",
+    "raw_value": "gpt-4o-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38",
+    "canonical_value": "o3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:o3",
+    "raw_value": "o3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "b34896a1-5593-5780-b254-b2b784c20db8",
+    "canonical_value": "o4-mini",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:openai:o4-mini",
+    "raw_value": "o4-mini",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+  },
+  {
+    "canonical_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
+    "canonical_value": "Anthropic",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "official-sdk:company:anthropic",
+    "raw_value": "Anthropic",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "37dbc504-2f5a-5912-a122-db10b9d2430b",
+    "canonical_value": "claude-sonnet-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-sonnet-5",
+    "raw_value": "claude-sonnet-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "a28fa4b1-94dd-549e-97bc-54072ea793f5",
+    "canonical_value": "claude-opus-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-5",
+    "raw_value": "claude-opus-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd",
+    "canonical_value": "claude-haiku-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-haiku-4-5",
+    "raw_value": "claude-haiku-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "3862c6ba-aafb-5be7-8218-4fd5fa47e6c8",
+    "canonical_value": "claude-opus-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-5",
+    "raw_value": "claude-opus-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "197b6978-0900-59e3-a3f4-840271643cb1",
+    "canonical_value": "claude-sonnet-4-5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-sonnet-4-5",
+    "raw_value": "claude-sonnet-4-5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "e3c7349e-d4de-5a54-8019-c742d7d92c30",
+    "canonical_value": "claude-mythos-preview",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-mythos-preview",
+    "raw_value": "claude-mythos-preview",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "c557ca6d-eef8-5943-bc6b-741c01d8ea8a",
+    "canonical_value": "claude-opus-4-8",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-8",
+    "raw_value": "claude-opus-4-8",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
+    "canonical_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e",
+    "canonical_value": "claude-opus-4-7",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "official-sdk:model:anthropic:claude-opus-4-7",
+    "raw_value": "claude-opus-4-7",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+  },
+  {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
     "canonical_value": "autonomous agent workflows",
     "confidence": 0.92,

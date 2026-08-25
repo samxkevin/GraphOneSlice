@@ -35,10 +35,17 @@ class HuggingFaceProbeAdapter(SourceAdapter):
                 access_method="Hugging Face public models endpoint",
                 url=response.url,
                 status="usable",
+                domain="Models",
                 http_status=response.status_code,
                 pagination="limit parameter observed; additional pagination not used in this vertical slice",
                 available_fields=list(sample.keys())[:40],
+                required_fields=["model id", "model URL", "provider/author", "license", "modalities", "timestamps"],
                 authentication_required=False,
+                freshness="model timestamps to be inspected before ingestion",
+                anti_bot_js="API JSON endpoint if reachable; no browser automation intended",
+                inventory_evidence="sampled limit=1 response returned at least one model" if sample else None,
+                ai_relevance="candidate model hub source",
+                actual_crawl_feasibility="usable only if endpoint remains reachable and fields validate",
                 failure_behavior="429/5xx retryable; malformed JSON rejected",
             )
         except SourceFetchError as exc:
@@ -48,8 +55,13 @@ class HuggingFaceProbeAdapter(SourceAdapter):
                 access_method="Hugging Face public models endpoint",
                 url=self.settings.huggingface_models_url,
                 status="unusable",
+                domain="Models",
                 http_status=exc.status_code,
+                required_fields=["model id", "model URL", "provider/author", "license", "modalities", "timestamps"],
                 authentication_required=False,
+                anti_bot_js="not determined; request failed before content inspection",
+                ai_relevance="candidate model hub source",
+                actual_crawl_feasibility="not usable from this environment based on observed failure",
                 failure_behavior=f"{exc.failure_class.value}: {exc}",
             )
 

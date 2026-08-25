@@ -1,0 +1,1042 @@
+[
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-haiku-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-haiku-4-5",
+        "provider": "Anthropic",
+        "source_line": 19,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-haiku-4-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-haiku-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "source_line": 19,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-haiku-4-5",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L19"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-haiku-4-5",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-haiku-4-5",
+          "operation": "normalize_name",
+          "output": "claude-haiku-4-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L19",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L19"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-mythos-preview` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "e3c7349e-d4de-5a54-8019-c742d7d92c30",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-mythos-preview",
+        "provider": "Anthropic",
+        "source_line": 16,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-mythos-preview",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-mythos-preview` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-mythos-preview",
+          "provider": "Anthropic",
+          "source_line": 16,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-mythos-preview",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L16"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-mythos-preview",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-mythos-preview",
+          "operation": "normalize_name",
+          "output": "claude-mythos-preview",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L16",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L16"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-opus-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "3862c6ba-aafb-5be7-8218-4fd5fa47e6c8",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-opus-4-5",
+        "provider": "Anthropic",
+        "source_line": 21,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-opus-4-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-opus-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-opus-4-5",
+          "provider": "Anthropic",
+          "source_line": 21,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-opus-4-5",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L21"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-opus-4-5",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-opus-4-5",
+          "operation": "normalize_name",
+          "output": "claude-opus-4-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L21",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L21"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-opus-4-7` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-opus-4-7",
+        "provider": "Anthropic",
+        "source_line": 15,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-opus-4-7",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-opus-4-7` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-opus-4-7",
+          "provider": "Anthropic",
+          "source_line": 15,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-opus-4-7",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L15"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-opus-4-7",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-opus-4-7",
+          "operation": "normalize_name",
+          "output": "claude-opus-4-7",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L15",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L15"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-opus-4-8` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "c557ca6d-eef8-5943-bc6b-741c01d8ea8a",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-opus-4-8",
+        "provider": "Anthropic",
+        "source_line": 14,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-opus-4-8",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-opus-4-8` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-opus-4-8",
+          "provider": "Anthropic",
+          "source_line": 14,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-opus-4-8",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L14"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-opus-4-8",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-opus-4-8",
+          "operation": "normalize_name",
+          "output": "claude-opus-4-8",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L14",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L14"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-opus-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "a28fa4b1-94dd-549e-97bc-54072ea793f5",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-opus-5",
+        "provider": "Anthropic",
+        "source_line": 13,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-opus-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-opus-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-opus-5",
+          "provider": "Anthropic",
+          "source_line": 13,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-opus-5",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L13"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-opus-5",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-opus-5",
+          "operation": "normalize_name",
+          "output": "claude-opus-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L13",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L13"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-sonnet-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "197b6978-0900-59e3-a3f4-840271643cb1",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-sonnet-4-5",
+        "provider": "Anthropic",
+        "source_line": 23,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-sonnet-4-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-sonnet-4-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-sonnet-4-5",
+          "provider": "Anthropic",
+          "source_line": 23,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-sonnet-4-5",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L23"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-sonnet-4-5",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-sonnet-4-5",
+          "operation": "normalize_name",
+          "output": "claude-sonnet-4-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L23",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L23"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `claude-sonnet-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+    "entity_type": "model",
+    "id": "37dbc504-2f5a-5912-a122-db10b9d2430b",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "claude-sonnet-5",
+        "provider": "Anthropic",
+        "source_line": 10,
+        "source_repository": "anthropics/anthropic-sdk-python",
+        "source_type_name": "Model"
+      }
+    },
+    "name": "claude-sonnet-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `claude-sonnet-5` observed in the Model type definition from the official Anthropic SDK repository anthropics/anthropic-sdk-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "claude-sonnet-5",
+          "provider": "Anthropic",
+          "source_line": 10,
+          "source_repository": "anthropics/anthropic-sdk-python",
+          "source_type_name": "Model"
+        },
+        "name": "claude-sonnet-5",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L10"
+      },
+      "source_record_id": "official-sdk:model:anthropic:claude-sonnet-5",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "claude-sonnet-5",
+          "operation": "normalize_name",
+          "output": "claude-sonnet-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L10",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L10"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-4.1` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "7cb0a557-81f5-5b93-a73d-f83e4496a64a",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-4.1",
+        "provider": "OpenAI",
+        "source_line": 36,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-4.1",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-4.1` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-4.1",
+          "provider": "OpenAI",
+          "source_line": 36,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-4.1",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L36"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-4.1",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-4.1",
+          "operation": "normalize_name",
+          "output": "gpt-4 1",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L36",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L36"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-4.1-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "a9c3642f-b257-519b-a87d-ee7f50962919",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-4.1-mini",
+        "provider": "OpenAI",
+        "source_line": 37,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-4.1-mini",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-4.1-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-4.1-mini",
+          "provider": "OpenAI",
+          "source_line": 37,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-4.1-mini",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L37"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-4.1-mini",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-4.1-mini",
+          "operation": "normalize_name",
+          "output": "gpt-4 1-mini",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L37",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L37"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-4o` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "9a13bce7-65d3-51bb-aad3-781c4bd110b6",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-4o",
+        "provider": "OpenAI",
+        "source_line": 54,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-4o",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-4o` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-4o",
+          "provider": "OpenAI",
+          "source_line": 54,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-4o",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L54"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-4o",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-4o",
+          "operation": "normalize_name",
+          "output": "gpt-4o",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L54",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L54"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-4o-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "c8edaa88-bb8d-5ad6-a39a-437a1d91bdcc",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-4o-mini",
+        "provider": "OpenAI",
+        "source_line": 70,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-4o-mini",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-4o-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-4o-mini",
+          "provider": "OpenAI",
+          "source_line": 70,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-4o-mini",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L70"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-4o-mini",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-4o-mini",
+          "operation": "normalize_name",
+          "output": "gpt-4o-mini",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L70",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L70"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-5` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "6628ac04-9fa7-5e0e-bdb0-c13b3b88453a",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-5",
+        "provider": "OpenAI",
+        "source_line": 29,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-5",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-5` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-5",
+          "provider": "OpenAI",
+          "source_line": 29,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-5",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L29"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-5",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-5",
+          "operation": "normalize_name",
+          "output": "gpt-5",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L29",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L29"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `gpt-5-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "63547484-bfb0-55ef-af07-4c01dbcf5258",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "gpt-5-mini",
+        "provider": "OpenAI",
+        "source_line": 30,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "gpt-5-mini",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `gpt-5-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "gpt-5-mini",
+          "provider": "OpenAI",
+          "source_line": 30,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "gpt-5-mini",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L30"
+      },
+      "source_record_id": "official-sdk:model:openai:gpt-5-mini",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "gpt-5-mini",
+          "operation": "normalize_name",
+          "output": "gpt-5-mini",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L30",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L30"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `o3` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "d372a7d3-b6e9-5dca-a4fa-9d18c2a69c38",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "o3",
+        "provider": "OpenAI",
+        "source_line": 44,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "o3",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `o3` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "o3",
+          "provider": "OpenAI",
+          "source_line": 44,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "o3",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L44"
+      },
+      "source_record_id": "official-sdk:model:openai:o3",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "o3",
+          "operation": "normalize_name",
+          "output": "o3",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L44",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L44"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Model identifier `o4-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+    "entity_type": "model",
+    "id": "b34896a1-5593-5780-b254-b2b784c20db8",
+    "metadata": {
+      "model": {
+        "license": null,
+        "modalities": null,
+        "model_identifier": "o4-mini",
+        "provider": "OpenAI",
+        "source_line": 42,
+        "source_repository": "openai/openai-python",
+        "source_type_name": "ChatModel"
+      }
+    },
+    "name": "o4-mini",
+    "provenance": {
+      "discovered_by": "Official SDK Model Definitions",
+      "fetched_at": "2026-08-25T11:57:23.987110+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Model identifier `o4-mini` observed in the ChatModel type definition from the official OpenAI SDK repository openai/openai-python.",
+        "model": {
+          "license": null,
+          "modalities": null,
+          "model_identifier": "o4-mini",
+          "provider": "OpenAI",
+          "source_line": 42,
+          "source_repository": "openai/openai-python",
+          "source_type_name": "ChatModel"
+        },
+        "name": "o4-mini",
+        "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L42"
+      },
+      "source_record_id": "official-sdk:model:openai:o4-mini",
+      "source_url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "o4-mini",
+          "operation": "normalize_name",
+          "output": "o4-mini",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L42",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Official SDK Model Definitions",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py"
+    },
+    "url": "https://github.com/openai/openai-python/blob/main/src/openai/types/shared/chat_model.py#L42"
+  }
+]

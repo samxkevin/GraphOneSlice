@@ -31,6 +31,8 @@ class AIOrbitSettings(BaseSettings):
 
     pypi_packages: list[str] = Field(default_factory=lambda: ["openai", "anthropic", "groq", "mistralai"])
 
+    official_sdk_model_limit_per_provider: int = Field(default=8, validation_alias="AI_ORBIT_OFFICIAL_SDK_MODEL_LIMIT_PER_PROVIDER")
+
     npm_mcp_packages: list[str] = Field(default_factory=lambda: [
         "@modelcontextprotocol/server-filesystem",
         "@modelcontextprotocol/server-memory",

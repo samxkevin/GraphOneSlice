@@ -6,6 +6,7 @@
     "Companies": 7,
     "Creative": 1,
     "MCP": 4,
+    "Models": 16,
     "New/Recently Added": 4,
     "Repositories": 5,
     "Tasks": 8,
@@ -14,6 +15,7 @@
   "per_entity_type_counts": {
     "company": 7,
     "mcp": 4,
+    "model": 16,
     "repository": 5,
     "task": 8,
     "tool": 5
@@ -21,6 +23,7 @@
   "per_source_counts": {
     "GitHub API": 14,
     "NPM Registry MCP Packages": 9,
+    "Official SDK Model Definitions": 16,
     "PyPI JSON API": 6
   },
   "rejected_records": [],
@@ -36,11 +39,56 @@
       "source": "OpenAI News RSS Probe",
       "stage": "source_verification",
       "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "Y Combinator Companies AI Probe",
+      "stage": "source_verification",
+      "url": "https://www.ycombinator.com/companies?industry=AI"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "Product Hunt GraphQL Probe",
+      "stage": "source_verification",
+      "url": "https://api.producthunt.com/v2/api/graphql"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "OpenRouter Models API Probe",
+      "stage": "source_verification",
+      "url": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "TechCrunch AI RSS Probe",
+      "stage": "source_verification",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "VentureBeat AI RSS Probe",
+      "stage": "source_verification",
+      "url": "https://venturebeat.com/category/ai/feed/"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "Remotive AI Jobs API Probe",
+      "stage": "source_verification",
+      "url": "https://remotive.com/api/remote-jobs?search=ai"
+    },
+    {
+      "failure": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "source": "RemoteOK Jobs API Probe",
+      "stage": "source_verification",
+      "url": "https://remoteok.com/api"
     }
   ],
   "source_feasibility": [
     {
       "access_method": "GitHub REST search/repository/org endpoints",
+      "actual_crawl_feasibility": "usable with bounded page/per_page pagination and rate-limit headers",
+      "ai_relevance": "configured search query filters by artificial-intelligence topic/stars; downstream records retain observed topics",
+      "anti_bot_js": "GitHub REST API returned JSON; no browser automation or JavaScript required",
       "authentication_required": false,
       "available_fields": [
         "id",
@@ -84,17 +132,31 @@
         "downloads_url",
         "issues_url"
       ],
-      "checked_at": "2026-08-25T11:17:12.168717+00:00",
+      "checked_at": "2026-08-25T11:57:19.330912+00:00",
+      "company_identity_quality": "repository owner and organization endpoints supply deterministic GitHub identifiers, but not all org records have company-quality descriptions",
+      "domain": "Repositories/Companies",
       "failure_behavior": "429 and 5xx are retryable; 403/404 are non-retryable source failures",
+      "freshness": "repository updated_at is available; it is not treated as publication time for news/jobs",
       "http_status": 200,
+      "inventory_evidence": "search total_count=442 for configured query",
       "pagination": "page/per_page parameters; Link header appears when additional pages are available",
       "rate_limit_observed": {
         "x-ratelimit-limit": "30",
         "x-ratelimit-remaining": "29",
-        "x-ratelimit-reset": "1787656691",
+        "x-ratelimit-reset": "1787659099",
         "x-ratelimit-resource": "search",
         "x-ratelimit-used": "1"
       },
+      "record_volume_estimate": "442",
+      "required_fields": [
+        "full_name",
+        "html_url",
+        "description",
+        "owner",
+        "stargazers_count",
+        "language",
+        "updated_at"
+      ],
       "source_name": "GitHub API",
       "source_type": "API/JSON",
       "status": "usable",
@@ -103,6 +165,9 @@
     },
     {
       "access_method": "PyPI project JSON endpoint /pypi/{project}/json",
+      "actual_crawl_feasibility": "usable for configured package list; not used as a complete product catalog",
+      "ai_relevance": "configured package allowlist contains AI SDK packages; no broad package search is accepted as products without filtering",
+      "anti_bot_js": "PyPI JSON API returned JSON; no browser automation or JavaScript required",
       "authentication_required": false,
       "available_fields": [
         "author",
@@ -136,11 +201,26 @@
         "yanked",
         "yanked_reason"
       ],
-      "checked_at": "2026-08-25T11:17:14.337346+00:00",
+      "checked_at": "2026-08-25T11:57:21.557228+00:00",
+      "company_identity_quality": "author/author_email can identify provider for selected official SDK packages but is not a full company profile source",
+      "domain": "Tools/Companies",
       "failure_behavior": "404 is project not found; malformed JSON is rejected; network/5xx use bounded retries",
+      "freshness": "version/release metadata exists, but package update time is not treated as product launch time",
       "http_status": 200,
+      "inventory_evidence": "configured packages=4; sample package=openai",
       "pagination": "not paginated for a single project; releases are keyed by version",
       "rate_limit_observed": {},
+      "record_volume_estimate": "4",
+      "required_fields": [
+        "name",
+        "summary",
+        "project_url",
+        "project_urls",
+        "author",
+        "author_email",
+        "version",
+        "requires_python"
+      ],
       "source_name": "PyPI JSON API",
       "source_type": "API/JSON",
       "status": "usable",
@@ -149,6 +229,9 @@
     },
     {
       "access_method": "NPM registry package document",
+      "actual_crawl_feasibility": "usable for configured package list; NPM search requires additional filtering before product-scale ingestion",
+      "ai_relevance": "configured allowlist contains Model Context Protocol server packages",
+      "anti_bot_js": "NPM registry JSON endpoint returned JSON; no browser automation or JavaScript required",
       "authentication_required": false,
       "available_fields": [
         "_hasShrinkwrap",
@@ -182,11 +265,24 @@
         "version",
         "versions"
       ],
-      "checked_at": "2026-08-25T11:17:14.807105+00:00",
+      "checked_at": "2026-08-25T11:57:22.035391+00:00",
+      "company_identity_quality": "MCP package records identify packages, not company profiles",
+      "domain": "MCP/Tools",
       "failure_behavior": "404 is package not found; 429/5xx are retryable; deprecated packages are retained with metadata rather than fabricated away",
+      "freshness": "package version/update metadata exists, but not treated as product/news publication time",
       "http_status": 200,
+      "inventory_evidence": "configured MCP packages=4; sample package=@modelcontextprotocol/server-filesystem",
       "pagination": "not paginated for a single package document; versions are nested by version key",
       "rate_limit_observed": {},
+      "record_volume_estimate": "4",
+      "required_fields": [
+        "name",
+        "description",
+        "dist-tags.latest",
+        "versions[latest].bin",
+        "versions[latest].deprecated",
+        "readme"
+      ],
       "source_name": "NPM Registry MCP Packages",
       "source_type": "API/JSON",
       "status": "usable",
@@ -194,14 +290,71 @@
       "yielded_usable_records": 5
     },
     {
+      "access_method": "GitHub REST contents API for official provider SDK model type files",
+      "actual_crawl_feasibility": "usable for a bounded model sample; not a complete model catalog because SDK type files do not expose all metadata",
+      "ai_relevance": "source files are provider SDK model type definitions",
+      "anti_bot_js": "GitHub REST API returned JSON; no browser automation or JavaScript required",
+      "authentication_required": false,
+      "available_fields": [
+        "_links",
+        "content",
+        "download_url",
+        "encoding",
+        "git_url",
+        "html_url",
+        "name",
+        "path",
+        "sha",
+        "size",
+        "type",
+        "url"
+      ],
+      "checked_at": "2026-08-25T11:57:23.987014+00:00",
+      "company_identity_quality": "provider inferred from official SDK repository owner/name; company records are merged by deterministic normalized name",
+      "domain": "Models",
+      "failure_behavior": "429/5xx retryable; 403/404/malformed JSON recorded as source failures",
+      "freshness": "GitHub contents response reflects the current default branch at fetch time; model launch/publication time is not supplied",
+      "http_status": 200,
+      "inventory_evidence": "OpenAI: 84 identifiers; Anthropic: 16 identifiers",
+      "pagination": "not paginated; one GitHub contents response per SDK type file",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "bounded sample configured by AI_ORBIT_OFFICIAL_SDK_MODEL_LIMIT_PER_PROVIDER",
+      "required_fields": [
+        "provider SDK repository",
+        "source file content",
+        "model identifier literal"
+      ],
+      "source_name": "Official SDK Model Definitions",
+      "source_type": "API/JSON + source file content",
+      "status": "usable",
+      "url": "https://api.github.com/repos/openai/openai-python/contents/src/openai/types/shared/chat_model.py; https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py",
+      "yielded_usable_records": 18
+    },
+    {
       "access_method": "Hugging Face public models endpoint",
+      "actual_crawl_feasibility": "not usable from this environment based on observed failure",
+      "ai_relevance": "candidate model hub source",
+      "anti_bot_js": "not determined; request failed before content inspection",
       "authentication_required": false,
       "available_fields": [],
-      "checked_at": "2026-08-25T11:17:17.326806+00:00",
+      "checked_at": "2026-08-25T11:57:25.766020+00:00",
+      "company_identity_quality": null,
+      "domain": "Models",
       "failure_behavior": "network: network failure requesting https://huggingface.co/api/models: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": null,
       "http_status": null,
+      "inventory_evidence": null,
       "pagination": null,
       "rate_limit_observed": {},
+      "record_volume_estimate": null,
+      "required_fields": [
+        "model id",
+        "model URL",
+        "provider/author",
+        "license",
+        "modalities",
+        "timestamps"
+      ],
       "source_name": "Hugging Face Hub API Probe",
       "source_type": "API/JSON",
       "status": "unusable",
@@ -210,59 +363,392 @@
     },
     {
       "access_method": "official RSS feed URL",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "official OpenAI news feed candidate",
+      "anti_bot_js": "not determined; request failed before content inspection",
       "authentication_required": false,
       "available_fields": [],
-      "checked_at": "2026-08-25T11:17:17.359249+00:00",
+      "checked_at": "2026-08-25T11:57:25.815412+00:00",
+      "company_identity_quality": null,
+      "domain": "News",
       "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "publication timestamp required but feed unavailable in this environment",
       "http_status": null,
+      "inventory_evidence": null,
       "pagination": null,
       "rate_limit_observed": {},
+      "record_volume_estimate": null,
+      "required_fields": [
+        "title",
+        "URL",
+        "publication timestamp",
+        "description/content"
+      ],
       "source_name": "OpenAI News RSS Probe",
       "source_type": "RSS/XML",
       "status": "unusable",
       "url": "https://openai.com/news/rss.xml",
       "yielded_usable_records": 0
+    },
+    {
+      "access_method": "public web page probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate startup/company source filtered by AI industry URL parameter",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": false,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:25.884850+00:00",
+      "company_identity_quality": null,
+      "domain": "Startups/Companies",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "company profile freshness not verified",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "not verified; request failed before page behavior could be inspected",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "company name",
+        "company URL",
+        "description",
+        "batch/year",
+        "AI relevance"
+      ],
+      "source_name": "Y Combinator Companies AI Probe",
+      "source_type": "HTML",
+      "status": "unusable",
+      "url": "https://www.ycombinator.com/companies?industry=AI",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "public GraphQL endpoint probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate product source; no product records accepted until API access and fields are verified",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": null,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:25.943304+00:00",
+      "company_identity_quality": null,
+      "domain": "Products",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "launch timestamp not verified",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "GraphQL pagination not verified; request failed before schema inspection",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "product name",
+        "tagline/description",
+        "product URL",
+        "launch/publication date",
+        "maker/company",
+        "AI relevance"
+      ],
+      "source_name": "Product Hunt GraphQL Probe",
+      "source_type": "API/GraphQL",
+      "status": "unusable",
+      "url": "https://api.producthunt.com/v2/api/graphql",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "NPM registry search endpoint",
+      "actual_crawl_feasibility": "partial: endpoint reachable, but a dedicated adapter must filter packages conservatively before treating them as products/tools",
+      "ai_relevance": "keyword search can find AI-related packages but package identity is not automatically product identity",
+      "anti_bot_js": "NPM registry JSON endpoint is API-first; no JavaScript required",
+      "authentication_required": false,
+      "available_fields": [
+        "objects",
+        "total",
+        "time"
+      ],
+      "checked_at": "2026-08-25T11:57:26.121330+00:00",
+      "company_identity_quality": null,
+      "domain": "Products/Tools",
+      "failure_behavior": "probe completed without ingestion; source still requires a dedicated adapter before records are accepted",
+      "freshness": "package date fields may be update times, not product launch dates",
+      "http_status": 200,
+      "inventory_evidence": "JSON response contained 5 objects in sampled page",
+      "pagination": "size/from search parameters observed by endpoint convention; not used for ingestion in this milestone",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "search endpoint exposes sampled page; full inventory not measured",
+      "required_fields": [
+        "package name",
+        "description",
+        "version/date",
+        "repository or homepage",
+        "maintainer/publisher"
+      ],
+      "source_name": "NPM Search AI Packages Probe",
+      "source_type": "API/JSON",
+      "status": "partial",
+      "url": "https://registry.npmjs.org/-/v1/search?text=keywords:ai&size=5",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "public models endpoint probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate model catalog source",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": null,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:26.163210+00:00",
+      "company_identity_quality": null,
+      "domain": "Models",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "model update/publication timestamps not verified",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "not verified; request failed before response inspection",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "model id",
+        "model name",
+        "provider",
+        "license",
+        "modalities",
+        "model URL"
+      ],
+      "source_name": "OpenRouter Models API Probe",
+      "source_type": "API/JSON",
+      "status": "unusable",
+      "url": "https://openrouter.ai/api/v1/models",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "RSS feed probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate AI news feed",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": false,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:26.218800+00:00",
+      "company_identity_quality": null,
+      "domain": "News",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "publication timestamp required but feed unavailable in this environment",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "RSS feed page only; historical pagination not verified",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "title",
+        "URL",
+        "publication timestamp",
+        "description",
+        "AI category"
+      ],
+      "source_name": "TechCrunch AI RSS Probe",
+      "source_type": "RSS/XML",
+      "status": "unusable",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "RSS feed probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate AI news feed",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": false,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:26.251128+00:00",
+      "company_identity_quality": null,
+      "domain": "News",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "publication timestamp required but feed unavailable in this environment",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "RSS feed page only; historical pagination not verified",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "title",
+        "URL",
+        "publication timestamp",
+        "description",
+        "AI category"
+      ],
+      "source_name": "VentureBeat AI RSS Probe",
+      "source_type": "RSS/XML",
+      "status": "unusable",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "jobs API search endpoint probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate jobs source searched by AI keyword",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": false,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:26.307446+00:00",
+      "company_identity_quality": null,
+      "domain": "Jobs",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "publication timestamp required but endpoint unavailable in this environment",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "not verified; request failed before response inspection",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "job title",
+        "company",
+        "listing URL",
+        "location",
+        "publication timestamp",
+        "AI relevance"
+      ],
+      "source_name": "Remotive AI Jobs API Probe",
+      "source_type": "API/JSON",
+      "status": "unusable",
+      "url": "https://remotive.com/api/remote-jobs?search=ai",
+      "yielded_usable_records": 0
+    },
+    {
+      "access_method": "jobs API endpoint probe",
+      "actual_crawl_feasibility": "not usable from this environment based on observed network failure",
+      "ai_relevance": "candidate remote jobs API requiring downstream AI tag filtering",
+      "anti_bot_js": "not determined; request failed before content inspection",
+      "authentication_required": false,
+      "available_fields": [],
+      "checked_at": "2026-08-25T11:57:26.367491+00:00",
+      "company_identity_quality": null,
+      "domain": "Jobs",
+      "failure_behavior": "network: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "freshness": "publication timestamp required but endpoint unavailable in this environment",
+      "http_status": null,
+      "inventory_evidence": null,
+      "pagination": "not verified; request failed before response inspection",
+      "rate_limit_observed": {},
+      "record_volume_estimate": "unknown from this environment",
+      "required_fields": [
+        "job title",
+        "company",
+        "listing URL",
+        "location",
+        "publication timestamp",
+        "tags/AI relevance"
+      ],
+      "source_name": "RemoteOK Jobs API Probe",
+      "source_type": "API/JSON",
+      "status": "unusable",
+      "url": "https://remoteok.com/api",
+      "yielded_usable_records": 0
     }
   ],
   "status": "passed",
   "summary": {
-    "duplicate_url_count": 5,
+    "duplicate_url_count": 4,
     "provenance_coverage": 1.0,
-    "total_classified": 29,
-    "total_cleaned": 31,
-    "total_deduplicated": 29,
-    "total_discovered": 23,
-    "total_extracted": 23,
-    "total_normalized": 31,
+    "total_classified": 45,
+    "total_cleaned": 49,
+    "total_deduplicated": 45,
+    "total_discovered": 41,
+    "total_extracted": 41,
+    "total_normalized": 49,
     "total_rejected": 0,
-    "total_relationships": 15,
-    "total_valid": 29
+    "total_relationships": 31,
+    "total_valid": 45
   },
   "warnings": [
     {
-      "message": "duplicate normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+      "entities": [
+        {
+          "entity_type": "mcp",
+          "id": "5b2129ed-c538-58c6-999d-4387a6bf5738",
+          "name": "@modelcontextprotocol/server-filesystem",
+          "source_record_id": "npm:package:@modelcontextprotocol/server-filesystem",
+          "url_role": null
+        },
+        {
+          "entity_type": "task",
+          "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
+          "name": "filesystem access",
+          "source_record_id": "task:filesystem access",
+          "url_role": "evidence_source_url"
+        }
+      ],
+      "entity_count": 2,
+      "message": "shared normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+      "reason": "At least one task entity uses the URL as an evidence source because no canonical task URL was observed.",
       "record_id": null,
-      "type": "duplicate_url"
+      "type": "shared_evidence_url",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
     },
     {
-      "message": "duplicate normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+      "entities": [
+        {
+          "entity_type": "mcp",
+          "id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
+          "name": "@modelcontextprotocol/server-memory",
+          "source_record_id": "npm:package:@modelcontextprotocol/server-memory",
+          "url_role": null
+        },
+        {
+          "entity_type": "task",
+          "id": "14149889-d8fa-5384-87db-95103eec7439",
+          "name": "persistent memory",
+          "source_record_id": "task:persistent memory",
+          "url_role": "evidence_source_url"
+        }
+      ],
+      "entity_count": 2,
+      "message": "shared normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+      "reason": "At least one task entity uses the URL as an evidence source because no canonical task URL was observed.",
       "record_id": null,
-      "type": "duplicate_url"
+      "type": "shared_evidence_url",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
     },
     {
-      "message": "duplicate normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+      "entities": [
+        {
+          "entity_type": "mcp",
+          "id": "3d504ea5-4abd-522b-8cac-1dd3772b6a2c",
+          "name": "@modelcontextprotocol/server-sequential-thinking",
+          "source_record_id": "npm:package:@modelcontextprotocol/server-sequential-thinking",
+          "url_role": null
+        },
+        {
+          "entity_type": "task",
+          "id": "a5f81972-f7b8-543e-8019-1f654ecae154",
+          "name": "problem solving",
+          "source_record_id": "task:problem solving",
+          "url_role": "evidence_source_url"
+        }
+      ],
+      "entity_count": 2,
+      "message": "shared normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+      "reason": "At least one task entity uses the URL as an evidence source because no canonical task URL was observed.",
       "record_id": null,
-      "type": "duplicate_url"
+      "type": "shared_evidence_url",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
     },
     {
-      "message": "duplicate normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "entities": [
+        {
+          "entity_type": "mcp",
+          "id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
+          "name": "@modelcontextprotocol/server-github",
+          "source_record_id": "npm:package:@modelcontextprotocol/server-github",
+          "url_role": null
+        },
+        {
+          "entity_type": "task",
+          "id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5",
+          "name": "source code repository automation",
+          "source_record_id": "task:source code repository automation",
+          "url_role": "evidence_source_url"
+        }
+      ],
+      "entity_count": 2,
+      "message": "shared normalized URL observed: https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+      "reason": "At least one task entity uses the URL as an evidence source because no canonical task URL was observed.",
       "record_id": null,
-      "type": "duplicate_url"
-    },
-    {
-      "message": "duplicate normalized URL observed: https://api.github.com/repos/f/prompts.chat",
-      "record_id": null,
-      "type": "duplicate_url"
+      "type": "shared_evidence_url",
+      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
     }
   ]
 }

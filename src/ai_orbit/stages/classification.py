@@ -39,17 +39,33 @@ def classify_and_create_tasks(entities: list[Entity], source_key_to_id: dict[str
     for entity in entities:
         if entity.entity_type not in {"repository", "tool", "mcp"}:
             continue
-        tasks: list[tuple[str, str, str]] = []
+        tasks: list[dict[str, str]] = []
         topics = (((entity.metadata or {}).get("repository") or {}).get("topics") or [])
         for topic in topics:
-            task = _TOPIC_TASKS.get(str(topic).lower())
+            topic_value = str(topic).lower()
+            task = _TOPIC_TASKS.get(topic_value)
             if task:
-                tasks.append((task, "github_topic", str(topic)))
+                tasks.append({
+                    "task_name": task,
+                    "method": "github_topic",
+                    "observed_value": str(topic),
+                    "task_url": f"https://github.com/topics/{topic_value}",
+                    "url_role": "canonical_topic_url",
+                })
         for pattern, task in _DESCRIPTION_TASKS:
             match = pattern.search(entity.description or "")
             if match:
-                tasks.append((task, "description_phrase", match.group(0)))
-        for task_name, method, observed_value in tasks[:2]:
+                tasks.append({
+                    "task_name": task,
+                    "method": "description_phrase",
+                    "observed_value": match.group(0),
+                    "task_url": entity.source.url,
+                    "url_role": "evidence_source_url",
+                })
+        for task_spec in tasks[:2]:
+            task_name = task_spec["task_name"]
+            method = task_spec["method"]
+            observed_value = task_spec["observed_value"]
             key = f"task:{task_name}"
             if key not in task_records:
                 task_records[key] = RawEntityRecord(
@@ -57,12 +73,20 @@ def classify_and_create_tasks(entities: list[Entity], source_key_to_id: dict[str
                     entity_type="task",
                     name=task_name,
                     description=f"Task label derived from observed source value: {observed_value}.",
-                    url=normalize_url(entity.source.url),
+                    url=normalize_url(task_spec["task_url"]),
                     categories=["Tasks"],
                     source_name=entity.source.name,
                     source_url=entity.source.url,
                     raw={"observed_value": observed_value, "method": method, "source_entity_id": entity.id},
-                    metadata={},
+                    metadata={
+                        "task": {
+                            "canonical_label": task_name,
+                            "observed_value": observed_value,
+                            "mapping_method": method,
+                            "url_role": task_spec["url_role"],
+                            "evidence_source_url": entity.source.url,
+                        }
+                    },
                     fetched_at=now,
                 )
             entity_task_edges.setdefault(entity.id, []).append({

@@ -23,7 +23,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -93,7 +93,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -163,7 +163,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -234,7 +234,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",

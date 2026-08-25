@@ -53,7 +53,14 @@ def normalize_url(url: str) -> str:
     query_items.sort()
     normalized_query = urlencode(query_items, doseq=True)
 
-    return urlunsplit((scheme, netloc, path, normalized_query, ""))
+    fragment = ""
+    if netloc == "github.com" and "/blob/" in path and re.fullmatch(r"L\d+(?:-L\d+)?", parts.fragment or ""):
+        # GitHub line anchors are stable evidence locators. Preserve them so
+        # source-backed records extracted from different literal lines do not
+        # collapse to the same file URL. Other fragments remain stripped.
+        fragment = parts.fragment
+
+    return urlunsplit((scheme, netloc, path, normalized_query, fragment))
 
 
 def is_valid_http_url(url: str) -> bool:

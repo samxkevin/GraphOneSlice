@@ -41,11 +41,20 @@ class NpmMcpAdapter(SourceAdapter):
                 access_method="NPM registry package document",
                 url=response.url,
                 status="usable",
+                domain="MCP/Tools",
                 http_status=response.status_code,
                 pagination="not paginated for a single package document; versions are nested by version key",
                 available_fields=fields[:40],
+                required_fields=["name", "description", "dist-tags.latest", "versions[latest].bin", "versions[latest].deprecated", "readme"],
                 authentication_required=False,
                 rate_limit_observed={},
+                freshness="package version/update metadata exists, but not treated as product/news publication time",
+                anti_bot_js="NPM registry JSON endpoint returned JSON; no browser automation or JavaScript required",
+                inventory_evidence=f"configured MCP packages={len(self.settings.npm_mcp_packages)}; sample package={package}",
+                company_identity_quality="MCP package records identify packages, not company profiles",
+                ai_relevance="configured allowlist contains Model Context Protocol server packages",
+                actual_crawl_feasibility="usable for configured package list; NPM search requires additional filtering before product-scale ingestion",
+                record_volume_estimate=str(len(self.settings.npm_mcp_packages)),
                 failure_behavior="404 is package not found; 429/5xx are retryable; deprecated packages are retained with metadata rather than fabricated away",
             )
         except SourceFetchError as exc:
@@ -55,8 +64,12 @@ class NpmMcpAdapter(SourceAdapter):
                 access_method="NPM registry package document",
                 url=url,
                 status="unusable",
+                domain="MCP/Tools",
                 http_status=exc.status_code,
+                required_fields=["name", "description", "dist-tags.latest", "versions[latest].bin", "versions[latest].deprecated", "readme"],
                 authentication_required=False,
+                anti_bot_js="not determined; API request failed",
+                actual_crawl_feasibility="not usable from this environment based on observed failure",
                 failure_behavior=f"{exc.failure_class.value}: {exc}",
             )
 

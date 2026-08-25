@@ -23,7 +23,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -94,7 +94,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -165,7 +165,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -224,9 +224,9 @@
     "metadata": {
       "repository": {
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-25T11:10:38Z",
+        "last_updated_timestamp": "2026-08-25T11:28:38Z",
         "primary_language": "JavaScript",
-        "stars": 91777,
+        "stars": 91778,
         "topics": [
           "ai",
           "ai-agents",
@@ -254,7 +254,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:12.168873+00:00",
+      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -265,9 +265,9 @@
         "name": "thedotmack/claude-mem",
         "repository": {
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-25T11:10:38Z",
+          "last_updated_timestamp": "2026-08-25T11:28:38Z",
           "primary_language": "JavaScript",
-          "stars": 91777,
+          "stars": 91778,
           "topics": [
             "ai",
             "ai-agents",

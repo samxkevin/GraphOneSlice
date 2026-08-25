@@ -23,7 +23,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -93,7 +93,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -163,7 +163,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -234,7 +234,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -294,9 +294,9 @@
     "metadata": {
       "repository": {
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T11:08:51Z",
+        "last_updated_timestamp": "2026-08-25T11:52:42Z",
         "primary_language": "HTML",
-        "stars": 167882,
+        "stars": 167885,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -322,7 +322,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:12.168873+00:00",
+      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -334,9 +334,9 @@
         "name": "f/prompts.chat",
         "repository": {
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T11:08:51Z",
+          "last_updated_timestamp": "2026-08-25T11:52:42Z",
           "primary_language": "HTML",
-          "stars": 167882,
+          "stars": 167885,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -397,9 +397,9 @@
     "metadata": {
       "repository": {
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-25T10:44:08Z",
+        "last_updated_timestamp": "2026-08-25T11:31:37Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103736,
+        "stars": 103741,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -426,7 +426,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:12.168873+00:00",
+      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -436,9 +436,9 @@
         "name": "rasbt/LLMs-from-scratch",
         "repository": {
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-25T10:44:08Z",
+          "last_updated_timestamp": "2026-08-25T11:31:37Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103736,
+          "stars": 103741,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -500,9 +500,9 @@
     "metadata": {
       "repository": {
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-25T09:01:45Z",
+        "last_updated_timestamp": "2026-08-25T11:44:26Z",
         "primary_language": "Python",
-        "stars": 186853,
+        "stars": 186854,
         "topics": [
           "agentic-ai",
           "agents",
@@ -521,7 +521,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:12.168873+00:00",
+      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -531,9 +531,9 @@
         "name": "Significant-Gravitas/AutoGPT",
         "repository": {
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-25T09:01:45Z",
+          "last_updated_timestamp": "2026-08-25T11:44:26Z",
           "primary_language": "Python",
-          "stars": 186853,
+          "stars": 186854,
           "topics": [
             "agentic-ai",
             "agents",
@@ -588,9 +588,9 @@
     "metadata": {
       "repository": {
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-25T11:10:38Z",
+        "last_updated_timestamp": "2026-08-25T11:28:38Z",
         "primary_language": "JavaScript",
-        "stars": 91777,
+        "stars": 91778,
         "topics": [
           "ai",
           "ai-agents",
@@ -618,7 +618,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:12.168873+00:00",
+      "fetched_at": "2026-08-25T11:57:19.331022+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -629,9 +629,9 @@
         "name": "thedotmack/claude-mem",
         "repository": {
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-25T11:10:38Z",
+          "last_updated_timestamp": "2026-08-25T11:28:38Z",
           "primary_language": "JavaScript",
-          "stars": 91777,
+          "stars": 91778,
           "topics": [
             "ai",
             "ai-agents",
@@ -705,7 +705,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:17:14.337674+00:00",
+      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -761,7 +761,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:14.807235+00:00",
+      "fetched_at": "2026-08-25T11:57:22.035528+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -818,7 +818,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:17:14.337674+00:00",
+      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -884,7 +884,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:17:14.337674+00:00",
+      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -950,7 +950,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T11:17:14.337674+00:00",
+      "fetched_at": "2026-08-25T11:57:21.557532+00:00",
       "observed_fields": {
         "categories": [
           "Tools"

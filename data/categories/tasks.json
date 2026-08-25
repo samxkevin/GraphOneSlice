@@ -6,18 +6,33 @@
     "description": "Task label derived from observed source value: agentic-ai.",
     "entity_type": "task",
     "id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "autonomous agent workflows",
+        "evidence_source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
+        "mapping_method": "github_topic",
+        "observed_value": "agentic-ai",
+        "url_role": "canonical_topic_url"
+      }
+    },
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: agentic-ai.",
         "name": "autonomous agent workflows",
-        "url": "https://api.github.com/repos/significant-gravitas/autogpt"
+        "task": {
+          "canonical_label": "autonomous agent workflows",
+          "evidence_source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
+          "mapping_method": "github_topic",
+          "observed_value": "agentic-ai",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/agentic-ai"
       },
       "source_record_id": "task:autonomous agent workflows",
       "source_url": "https://api.github.com/repos/significant-gravitas/autogpt",
@@ -43,7 +58,7 @@
       "name": "GitHub API",
       "url": "https://api.github.com/repos/significant-gravitas/autogpt"
     },
-    "url": "https://api.github.com/repos/significant-gravitas/autogpt"
+    "url": "https://github.com/topics/agentic-ai"
   },
   {
     "categories": [
@@ -52,18 +67,33 @@
     "description": "Task label derived from observed source value: chatgpt.",
     "entity_type": "task",
     "id": "6c18211a-972b-5705-96e3-97edb92819ea",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "chatbot applications",
+        "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+        "mapping_method": "github_topic",
+        "observed_value": "chatgpt",
+        "url_role": "canonical_topic_url"
+      }
+    },
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: chatgpt.",
         "name": "chatbot applications",
-        "url": "https://api.github.com/repos/f/prompts.chat"
+        "task": {
+          "canonical_label": "chatbot applications",
+          "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+          "mapping_method": "github_topic",
+          "observed_value": "chatgpt",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/chatgpt"
       },
       "source_record_id": "task:chatbot applications",
       "source_url": "https://api.github.com/repos/f/prompts.chat",
@@ -89,7 +119,7 @@
       "name": "GitHub API",
       "url": "https://api.github.com/repos/f/prompts.chat"
     },
-    "url": "https://api.github.com/repos/f/prompts.chat"
+    "url": "https://github.com/topics/chatgpt"
   },
   {
     "categories": [
@@ -98,17 +128,32 @@
     "description": "Task label derived from observed source value: filesystem.",
     "entity_type": "task",
     "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "filesystem access",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+        "mapping_method": "description_phrase",
+        "observed_value": "filesystem",
+        "url_role": "evidence_source_url"
+      }
+    },
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: filesystem.",
         "name": "filesystem access",
+        "task": {
+          "canonical_label": "filesystem access",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
+          "mapping_method": "description_phrase",
+          "observed_value": "filesystem",
+          "url_role": "evidence_source_url"
+        },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
       },
       "source_record_id": "task:filesystem access",
@@ -144,18 +189,33 @@
     "description": "Task label derived from observed source value: llm.",
     "entity_type": "task",
     "id": "ca2823ee-287d-56c9-895e-d742fd9b54ca",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "large language model applications",
+        "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+        "mapping_method": "github_topic",
+        "observed_value": "llm",
+        "url_role": "canonical_topic_url"
+      }
+    },
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: llm.",
         "name": "large language model applications",
-        "url": "https://api.github.com/repos/f/prompts.chat"
+        "task": {
+          "canonical_label": "large language model applications",
+          "evidence_source_url": "https://api.github.com/repos/f/prompts.chat",
+          "mapping_method": "github_topic",
+          "observed_value": "llm",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/llm"
       },
       "source_record_id": "task:large language model applications",
       "source_url": "https://api.github.com/repos/f/prompts.chat",
@@ -181,7 +241,7 @@
       "name": "GitHub API",
       "url": "https://api.github.com/repos/f/prompts.chat"
     },
-    "url": "https://api.github.com/repos/f/prompts.chat"
+    "url": "https://github.com/topics/llm"
   },
   {
     "categories": [
@@ -190,18 +250,33 @@
     "description": "Task label derived from observed source value: machine-learning.",
     "entity_type": "task",
     "id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "machine learning",
+        "evidence_source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
+        "mapping_method": "github_topic",
+        "observed_value": "machine-learning",
+        "url_role": "canonical_topic_url"
+      }
+    },
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: machine-learning.",
         "name": "machine learning",
-        "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+        "task": {
+          "canonical_label": "machine learning",
+          "evidence_source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
+          "mapping_method": "github_topic",
+          "observed_value": "machine-learning",
+          "url_role": "canonical_topic_url"
+        },
+        "url": "https://github.com/topics/machine-learning"
       },
       "source_record_id": "task:machine learning",
       "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch",
@@ -227,7 +302,7 @@
       "name": "GitHub API",
       "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
     },
-    "url": "https://api.github.com/repos/rasbt/llms-from-scratch"
+    "url": "https://github.com/topics/machine-learning"
   },
   {
     "categories": [
@@ -236,17 +311,32 @@
     "description": "Task label derived from observed source value: memory.",
     "entity_type": "task",
     "id": "14149889-d8fa-5384-87db-95103eec7439",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "persistent memory",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+        "mapping_method": "description_phrase",
+        "observed_value": "memory",
+        "url_role": "evidence_source_url"
+      }
+    },
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: memory.",
         "name": "persistent memory",
+        "task": {
+          "canonical_label": "persistent memory",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory",
+          "mapping_method": "description_phrase",
+          "observed_value": "memory",
+          "url_role": "evidence_source_url"
+        },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-memory"
       },
       "source_record_id": "task:persistent memory",
@@ -282,17 +372,32 @@
     "description": "Task label derived from observed source value: sequential thinking.",
     "entity_type": "task",
     "id": "a5f81972-f7b8-543e-8019-1f654ecae154",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "problem solving",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+        "mapping_method": "description_phrase",
+        "observed_value": "sequential thinking",
+        "url_role": "evidence_source_url"
+      }
+    },
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: sequential thinking.",
         "name": "problem solving",
+        "task": {
+          "canonical_label": "problem solving",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking",
+          "mapping_method": "description_phrase",
+          "observed_value": "sequential thinking",
+          "url_role": "evidence_source_url"
+        },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
       },
       "source_record_id": "task:problem solving",
@@ -328,17 +433,32 @@
     "description": "Task label derived from observed source value: GitHub API.",
     "entity_type": "task",
     "id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5",
-    "metadata": {},
+    "metadata": {
+      "task": {
+        "canonical_label": "source code repository automation",
+        "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+        "mapping_method": "description_phrase",
+        "observed_value": "GitHub API",
+        "url_role": "evidence_source_url"
+      }
+    },
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T11:17:17.366946+00:00",
+      "fetched_at": "2026-08-25T11:57:26.374591+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
         "description": "Task label derived from observed source value: GitHub API.",
         "name": "source code repository automation",
+        "task": {
+          "canonical_label": "source code repository automation",
+          "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github",
+          "mapping_method": "description_phrase",
+          "observed_value": "GitHub API",
+          "url_role": "evidence_source_url"
+        },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
       },
       "source_record_id": "task:source code repository automation",

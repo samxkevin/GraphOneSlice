@@ -31,6 +31,7 @@ def validate_outputs(
     accepted_entities: list[Entity] = []
     seen_ids: set[str] = set()
     url_counts: Counter[str] = Counter()
+    entities_by_url: dict[str, list[Entity]] = {}
 
     for entity in entities:
         try:
@@ -43,13 +44,15 @@ def validate_outputs(
             failures.extend(entity_failures)
             continue
         seen_ids.add(entity.id)
-        url_counts[normalize_url(entity.url)] += 1
+        normalized_url = normalize_url(entity.url)
+        url_counts[normalized_url] += 1
+        entities_by_url.setdefault(normalized_url, []).append(entity)
         accepted_entities.append(entity)
 
     duplicate_urls = [url for url, count in url_counts.items() if count > 1]
     warnings: list[dict[str, Any]] = []
     for url in duplicate_urls:
-        warnings.append({"type": "duplicate_url", "record_id": None, "message": f"duplicate normalized URL observed: {url}"})
+        warnings.append(_duplicate_url_warning(url, entities_by_url[url]))
 
     accepted_ids = {entity.id for entity in accepted_entities}
     accepted_relationships: list[Relationship] = []
@@ -99,6 +102,35 @@ def validate_outputs(
     return accepted_entities, accepted_relationships, report
 
 
+def _duplicate_url_warning(url: str, entities: list[Entity]) -> dict[str, Any]:
+    group = [
+        {
+            "id": entity.id,
+            "entity_type": entity.entity_type,
+            "name": entity.name,
+            "source_record_id": entity.provenance.source_record_id if entity.provenance else None,
+            "url_role": ((entity.metadata or {}).get("task") or {}).get("url_role"),
+        }
+        for entity in entities
+    ]
+    has_evidence_task = any(item.get("entity_type") == "task" and item.get("url_role") == "evidence_source_url" for item in group)
+    warning_type = "shared_evidence_url" if has_evidence_task else "duplicate_url"
+    reason = (
+        "At least one task entity uses the URL as an evidence source because no canonical task URL was observed."
+        if has_evidence_task
+        else "Multiple accepted entities have the same normalized entity URL; inspect for possible identity conflation."
+    )
+    return {
+        "type": warning_type,
+        "record_id": None,
+        "url": url,
+        "entity_count": len(entities),
+        "entities": group,
+        "message": f"shared normalized URL observed: {url}",
+        "reason": reason,
+    }
+
+
 def _validate_entity(entity: Entity, seen_ids: set[str]) -> list[dict[str, Any]]:
     failures: list[dict[str, Any]] = []
     if entity.id in seen_ids:
@@ -141,10 +173,14 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
         if founding is not None and (not isinstance(founding, int) or founding < 1800):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "company.founding_year invalid"})
     model = entity.metadata.get("model") if entity.metadata else None
+    if entity.entity_type == "model" and not model:
+        failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model metadata required for model entities"})
     if entity.entity_type == "model" and model:
         for key in ["license", "modalities", "provider"]:
             if key in model and model[key] is not None and not isinstance(model[key], (str, list)):
                 failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": f"model.{key} invalid"})
+        if not model.get("provider"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model.provider required when source evidence supplies provider"})
     return failures
 
 
