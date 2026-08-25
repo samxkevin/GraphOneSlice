@@ -53,6 +53,12 @@ class AIOrbitSettings(BaseSettings):
     huggingface_models_url: str = Field(default="https://huggingface.co/api/models", validation_alias="AI_ORBIT_HUGGINGFACE_MODELS_URL")
     openai_rss_url: str = Field(default="https://openai.com/news/rss.xml", validation_alias="AI_ORBIT_OPENAI_RSS_URL")
 
+    ai_tools_product_directory_api_url: str = Field(
+        default="https://api.github.com/repos/lakey009/AI-Tools-List/contents/AIToolsList-Sample.json",
+        validation_alias="AI_ORBIT_AI_TOOLS_PRODUCT_DIRECTORY_API_URL",
+    )
+    ai_tools_product_limit: int = Field(default=15, validation_alias="AI_ORBIT_AI_TOOLS_PRODUCT_LIMIT")
+
     @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", "npm_search_tool_queries", mode="before")
     @classmethod
     def parse_csv_lists(cls, value: str | list[str]) -> list[str]:

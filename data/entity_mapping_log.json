@@ -650,6 +650,156 @@
     "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
   },
   {
+    "canonical_id": "4eab4b90-8a6a-50b2-b268-face2d57a146",
+    "canonical_value": "scrip-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:1:scrip-ai",
+    "raw_value": "scrip-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "3a29dff1-9579-5b38-98e2-3d0d067c1dcb",
+    "canonical_value": "quickads",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:2:quickads",
+    "raw_value": "quickads",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "00c2af9d-de57-55aa-812d-e4e9646011a7",
+    "canonical_value": "wonderchat",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:3:wonderchat",
+    "raw_value": "wonderchat",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "21dcea78-c226-51f2-a25c-afd4f08e4d0f",
+    "canonical_value": "blobr",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:5:blobr",
+    "raw_value": "blobr",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a426365e-c952-542e-a8d9-dabdd06be9a8",
+    "canonical_value": "pencil",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:6:pencil",
+    "raw_value": "pencil",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "31d63eef-ee6a-5c28-8039-f4ce0be02855",
+    "canonical_value": "freeadcopy-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:7:freeadcopy-com",
+    "raw_value": "freeadcopy-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "b4d36c64-9373-54ee-9db7-9692ce4675e2",
+    "canonical_value": "marpipe-com",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:8:marpipe-com",
+    "raw_value": "marpipe-com",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "cb44b1e8-8020-586e-a219-e6ad97e1d7b6",
+    "canonical_value": "omneky",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:9:omneky",
+    "raw_value": "omneky",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "9958a1d5-31ce-5493-8088-9f668bcef6f3",
+    "canonical_value": "kilo-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:10:kilo-ai",
+    "raw_value": "kilo-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "872ff1a4-e052-5742-b0ff-bd09fa07c7fb",
+    "canonical_value": "30characters",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:11:30characters",
+    "raw_value": "30characters",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "91855355-be23-5bce-8fac-0a5513598cc9",
+    "canonical_value": "adbot-your-search-ads-specialist",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:12:adbot-your-search-ads-specialist",
+    "raw_value": "adbot-your-search-ads-specialist",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a03122b8-7b8d-5dbb-ad1f-7eaf53c63a4e",
+    "canonical_value": "copycop",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:13:copycop",
+    "raw_value": "copycop",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "eee508d0-d8a4-5948-a6fc-0276f87c427f",
+    "canonical_value": "engagexai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:15:engagexai",
+    "raw_value": "engagexai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "a1b4a3af-79a7-5462-a592-52bf9e6f3563",
+    "canonical_value": "ai-suggests",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:16:ai-suggests",
+    "raw_value": "ai-suggests",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
+    "canonical_id": "190464ba-4efc-51e2-ac91-1c25174dcc84",
+    "canonical_value": "adcopy-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-tools-list:product:17:adcopy-ai",
+    "raw_value": "adcopy-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+  },
+  {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
     "canonical_value": "autonomous agent workflows",
     "confidence": 0.92,

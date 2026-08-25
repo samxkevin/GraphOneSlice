@@ -172,6 +172,14 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
         founding = company.get("founding_year")
         if founding is not None and (not isinstance(founding, int) or founding < 1800):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "company.founding_year invalid"})
+    product = entity.metadata.get("product") if entity.metadata else None
+    if entity.entity_type == "product" and not product:
+        failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "product metadata required for product entities"})
+    if entity.entity_type == "product" and product:
+        if not product.get("canonical_url") or not is_valid_http_url(product.get("canonical_url")):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "product.canonical_url required"})
+        if not product.get("ai_relevance_evidence"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "product.ai_relevance_evidence required"})
     model = entity.metadata.get("model") if entity.metadata else None
     if entity.entity_type == "model" and not model:
         failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model metadata required for model entities"})

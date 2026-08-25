@@ -1,0 +1,1133 @@
+[
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered Google Ads copy generator for efficient and effective ad creation.",
+    "entity_type": "product",
+    "id": "872ff1a4-e052-5742-b0ff-bd09fa07c7fb",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered Google Ads copy generator for efficient and effective ad creation.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://30chars.com/",
+        "directory_handle": "30characters",
+        "directory_id": 11,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "30characters",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered Google Ads copy generator for efficient and effective ad creation.",
+        "name": "30characters",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered Google Ads copy generator for efficient and effective ad creation.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://30chars.com/",
+          "directory_handle": "30characters",
+          "directory_id": 11,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://30chars.com/"
+      },
+      "source_record_id": "ai-tools-list:product:11:30characters",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "30characters",
+          "operation": "normalize_name",
+          "output": "30characters",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://30chars.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://30chars.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
+    "entity_type": "product",
+    "id": "91855355-be23-5bce-8fac-0a5513598cc9",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://myadbot.com/",
+        "directory_handle": "adbot-your-search-ads-specialist",
+        "directory_id": 12,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "adbot-your-search-ads-specialist",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
+        "name": "adbot-your-search-ads-specialist",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Adbot automates and optimizes online advertising campaigns using AI for small businesses.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://myadbot.com/",
+          "directory_handle": "adbot-your-search-ads-specialist",
+          "directory_id": 12,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://myadbot.com/"
+      },
+      "source_record_id": "ai-tools-list:product:12:adbot-your-search-ads-specialist",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "adbot-your-search-ads-specialist",
+          "operation": "normalize_name",
+          "output": "adbot-your-search-ads-specialist",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://myadbot.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://myadbot.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered ad copy and campaign management tools for increased conversions and efficient scaling on Meta.",
+    "entity_type": "product",
+    "id": "190464ba-4efc-51e2-ac91-1c25174dcc84",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered ad copy and campaign management tools for increased conversions and efficient scaling on Meta.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://adcopy.ai/",
+        "directory_handle": "adcopy-ai",
+        "directory_id": 17,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "adcopy-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered ad copy and campaign management tools for increased conversions and efficient scaling on Meta.",
+        "name": "adcopy-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered ad copy and campaign management tools for increased conversions and efficient scaling on Meta.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://adcopy.ai/",
+          "directory_handle": "adcopy-ai",
+          "directory_id": 17,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://adcopy.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:17:adcopy-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "adcopy-ai",
+          "operation": "normalize_name",
+          "output": "adcopy-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://adcopy.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://adcopy.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered platform for generating unlimited content and ideas for web creators.",
+    "entity_type": "product",
+    "id": "a1b4a3af-79a7-5462-a592-52bf9e6f3563",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform for generating unlimited content and ideas for web creators.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://ai-suggests.com/",
+        "directory_handle": "ai-suggests",
+        "directory_id": 16,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "ai-suggests",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform for generating unlimited content and ideas for web creators.",
+        "name": "ai-suggests",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform for generating unlimited content and ideas for web creators.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://ai-suggests.com/",
+          "directory_handle": "ai-suggests",
+          "directory_id": 16,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://ai-suggests.com/"
+      },
+      "source_record_id": "ai-tools-list:product:16:ai-suggests",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ai-suggests",
+          "operation": "normalize_name",
+          "output": "ai-suggests",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://ai-suggests.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://ai-suggests.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI agents to optimize Google Ads spending 24/7.",
+    "entity_type": "product",
+    "id": "21dcea78-c226-51f2-a25c-afd4f08e4d0f",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI agents to optimize Google Ads spending 24/7.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://blobr.io/",
+        "directory_handle": "blobr",
+        "directory_id": 5,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "blobr",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI agents to optimize Google Ads spending 24/7.",
+        "name": "blobr",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI agents to optimize Google Ads spending 24/7.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://blobr.io/",
+          "directory_handle": "blobr",
+          "directory_id": 5,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://blobr.io/"
+      },
+      "source_record_id": "ai-tools-list:product:5:blobr",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "blobr",
+          "operation": "normalize_name",
+          "output": "blobr",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://blobr.io/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://blobr.io/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI tool for generating compliant and high-converting Facebook ad copy.",
+    "entity_type": "product",
+    "id": "a03122b8-7b8d-5dbb-ad1f-7eaf53c63a4e",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI tool for generating compliant and high-converting Facebook ad copy.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://copycopai.com/",
+        "directory_handle": "copycop",
+        "directory_id": 13,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "copycop",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI tool for generating compliant and high-converting Facebook ad copy.",
+        "name": "copycop",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI tool for generating compliant and high-converting Facebook ad copy.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://copycopai.com/",
+          "directory_handle": "copycop",
+          "directory_id": 13,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://copycopai.com/"
+      },
+      "source_record_id": "ai-tools-list:product:13:copycop",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "copycop",
+          "operation": "normalize_name",
+          "output": "copycop",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://copycopai.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://copycopai.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
+    "entity_type": "product",
+    "id": "eee508d0-d8a4-5948-a6fc-0276f87c427f",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://engagexai.com/",
+        "directory_handle": "engagexai",
+        "directory_id": 15,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "engagexai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
+        "name": "engagexai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "EngagexAI automates ad creation with AI for fast, high-quality content generation.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://engagexai.com/",
+          "directory_handle": "engagexai",
+          "directory_id": 15,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://engagexai.com/"
+      },
+      "source_record_id": "ai-tools-list:product:15:engagexai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "engagexai",
+          "operation": "normalize_name",
+          "output": "engagexai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://engagexai.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://engagexai.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
+    "entity_type": "product",
+    "id": "31d63eef-ee6a-5c28-8039-f4ce0be02855",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
+          "field": "description",
+          "signals": [
+            "ai",
+            "gpt",
+            "gpt identifier"
+          ]
+        },
+        "canonical_url": "https://freeadcopy.com/",
+        "directory_handle": "freeadcopy-com",
+        "directory_id": 7,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "freeadcopy-com",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
+        "name": "freeadcopy-com",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Free AI copy generator using GPT-4 to create high-converting ad copy.",
+            "field": "description",
+            "signals": [
+              "ai",
+              "gpt",
+              "gpt identifier"
+            ]
+          },
+          "canonical_url": "https://freeadcopy.com/",
+          "directory_handle": "freeadcopy-com",
+          "directory_id": 7,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://freeadcopy.com/"
+      },
+      "source_record_id": "ai-tools-list:product:7:freeadcopy-com",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "freeadcopy-com",
+          "operation": "normalize_name",
+          "output": "freeadcopy-com",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://freeadcopy.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://freeadcopy.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
+    "entity_type": "product",
+    "id": "9958a1d5-31ce-5493-8088-9f668bcef6f3",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://kilocode.ai/",
+        "directory_handle": "kilo-ai",
+        "directory_id": 10,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "kilo-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
+        "name": "kilo-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Open-source AI coding assistant for VS Code, enhancing coding efficiency and automation.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://kilocode.ai/",
+          "directory_handle": "kilo-ai",
+          "directory_id": 10,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://kilocode.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:10:kilo-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "kilo-ai",
+          "operation": "normalize_name",
+          "output": "kilo-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://kilocode.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://kilocode.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
+    "entity_type": "product",
+    "id": "b4d36c64-9373-54ee-9db7-9692ce4675e2",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.marpipe.com/schedule-ec",
+        "directory_handle": "marpipe-com",
+        "directory_id": 8,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "marpipe-com",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
+        "name": "marpipe-com",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Marpipe uses AI to optimize and control Dynamic Product Ads for brands.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.marpipe.com/schedule-ec",
+          "directory_handle": "marpipe-com",
+          "directory_id": 8,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.marpipe.com/schedule-ec"
+      },
+      "source_record_id": "ai-tools-list:product:8:marpipe-com",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "marpipe-com",
+          "operation": "normalize_name",
+          "output": "marpipe-com",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.marpipe.com/schedule-ec",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.marpipe.com/schedule-ec"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
+    "entity_type": "product",
+    "id": "cb44b1e8-8020-586e-a219-e6ad97e1d7b6",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.omneky.com/",
+        "directory_handle": "omneky",
+        "directory_id": 9,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "omneky",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
+        "name": "omneky",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI-powered platform to scale and optimize ad campaigns with creative automation and brand management.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.omneky.com/",
+          "directory_handle": "omneky",
+          "directory_id": 9,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.omneky.com/"
+      },
+      "source_record_id": "ai-tools-list:product:9:omneky",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "omneky",
+          "operation": "normalize_name",
+          "output": "omneky",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.omneky.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.omneky.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI ad generator for faster ad creation and improved performance.",
+    "entity_type": "product",
+    "id": "a426365e-c952-542e-a8d9-dabdd06be9a8",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI ad generator for faster ad creation and improved performance.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://trypencil.com/",
+        "directory_handle": "pencil",
+        "directory_id": 6,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "pencil",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI ad generator for faster ad creation and improved performance.",
+        "name": "pencil",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI ad generator for faster ad creation and improved performance.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://trypencil.com/",
+          "directory_handle": "pencil",
+          "directory_id": 6,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://trypencil.com/"
+      },
+      "source_record_id": "ai-tools-list:product:6:pencil",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "pencil",
+          "operation": "normalize_name",
+          "output": "pencil",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://trypencil.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://trypencil.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI ad generator for creating image and video ads quickly and efficiently.",
+    "entity_type": "product",
+    "id": "3a29dff1-9579-5b38-98e2-3d0d067c1dcb",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI ad generator for creating image and video ads quickly and efficiently.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.quickads.ai/",
+        "directory_handle": "quickads",
+        "directory_id": 2,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "quickads",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI ad generator for creating image and video ads quickly and efficiently.",
+        "name": "quickads",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI ad generator for creating image and video ads quickly and efficiently.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.quickads.ai/",
+          "directory_handle": "quickads",
+          "directory_id": 2,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://www.quickads.ai/"
+      },
+      "source_record_id": "ai-tools-list:product:2:quickads",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "quickads",
+          "operation": "normalize_name",
+          "output": "quickads",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://www.quickads.ai/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://www.quickads.ai/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "Free AI writer for creating viral short video scripts and AI content.",
+    "entity_type": "product",
+    "id": "4eab4b90-8a6a-50b2-b268-face2d57a146",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "Free AI writer for creating viral short video scripts and AI content.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://scripai.com/",
+        "directory_handle": "scrip-ai",
+        "directory_id": 1,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "scrip-ai",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "Free AI writer for creating viral short video scripts and AI content.",
+        "name": "scrip-ai",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "Free AI writer for creating viral short video scripts and AI content.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://scripai.com/",
+          "directory_handle": "scrip-ai",
+          "directory_id": 1,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://scripai.com/"
+      },
+      "source_record_id": "ai-tools-list:product:1:scrip-ai",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "scrip-ai",
+          "operation": "normalize_name",
+          "output": "scrip-ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://scripai.com/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://scripai.com/"
+  },
+  {
+    "categories": [
+      "Products"
+    ],
+    "description": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
+    "entity_type": "product",
+    "id": "00c2af9d-de57-55aa-812d-e4e9646011a7",
+    "metadata": {
+      "product": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
+          "field": "description",
+          "signals": [
+            "ai",
+            "chatgpt"
+          ]
+        },
+        "canonical_url": "https://wonderchat.io/",
+        "directory_handle": "wonderchat",
+        "directory_id": 3,
+        "provider": null,
+        "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+      }
+    },
+    "name": "wonderchat",
+    "provenance": {
+      "discovered_by": "AI Tools List Product Directory",
+      "fetched_at": "2026-08-25T15:35:39.761675+00:00",
+      "observed_fields": {
+        "categories": [
+          "Products"
+        ],
+        "description": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
+        "name": "wonderchat",
+        "product": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI Chatbot builder to create custom ChatGPT chatbots from website links or PDFs.",
+            "field": "description",
+            "signals": [
+              "ai",
+              "chatgpt"
+            ]
+          },
+          "canonical_url": "https://wonderchat.io/",
+          "directory_handle": "wonderchat",
+          "directory_id": 3,
+          "provider": null,
+          "source_evidence_url": "https://github.com/lakey009/AI-Tools-List/blob/main/AIToolsList-Sample.json"
+        },
+        "url": "https://wonderchat.io/"
+      },
+      "source_record_id": "ai-tools-list:product:3:wonderchat",
+      "source_url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "wonderchat",
+          "operation": "normalize_name",
+          "output": "wonderchat",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "product:url:https://wonderchat.io/",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Tools List Product Directory",
+      "url": "https://api.github.com/repos/lakey009/ai-tools-list/contents/aitoolslist-sample.json"
+    },
+    "url": "https://wonderchat.io/"
+  }
+]

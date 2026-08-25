@@ -20,6 +20,7 @@ REQUIRED_CATEGORIES: set[str] = {
     "MCP",
     "Collections",
     "Personal",
+    "Products",
     "Creative",
     "New/Recently Added",
 }
@@ -37,6 +38,7 @@ SUPPORTED_ENTITY_TYPES: set[str] = {
     "mcp",
     "collection",
     "personal",
+    "product",
     "creative",
 }
 
