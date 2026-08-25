@@ -19,6 +19,14 @@
         "version": "1.1.4"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@langchain/mcp-adapters",
+          "field": "name",
+          "signals": [
+            "langchain",
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 1026556,
           "weekly": 270970
@@ -48,7 +56,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -67,6 +75,14 @@
         },
         "name": "@langchain/mcp-adapters",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@langchain/mcp-adapters",
+            "field": "name",
+            "signals": [
+              "langchain",
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 1026556,
             "weekly": 270970
@@ -136,6 +152,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+        "latest_version_published_at": "2026-07-10T03:31:10.875Z",
         "package_name": "@modelcontextprotocol/server-filesystem",
         "runtime_requirements": null,
         "version": "2026.7.10"
@@ -144,7 +161,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -158,6 +175,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+          "latest_version_published_at": "2026-07-10T03:31:10.875Z",
           "package_name": "@modelcontextprotocol/server-filesystem",
           "runtime_requirements": null,
           "version": "2026.7.10"
@@ -194,7 +212,8 @@
   {
     "categories": [
       "MCP",
-      "Tools"
+      "Tools",
+      "New/Recently Added"
     ],
     "description": "MCP server for using the GitHub API",
     "entity_type": "mcp",
@@ -206,6 +225,7 @@
         },
         "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
         "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+        "latest_version_published_at": "2025-04-08T10:08:59.978Z",
         "package_name": "@modelcontextprotocol/server-github",
         "runtime_requirements": null,
         "version": "2025.4.8"
@@ -214,11 +234,12 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
-          "Tools"
+          "Tools",
+          "New/Recently Added"
         ],
         "description": "MCP server for using the GitHub API",
         "mcp": {
@@ -227,6 +248,7 @@
           },
           "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
           "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+          "latest_version_published_at": "2025-04-08T10:08:59.978Z",
           "package_name": "@modelcontextprotocol/server-github",
           "runtime_requirements": null,
           "version": "2025.4.8"
@@ -276,6 +298,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+        "latest_version_published_at": "2026-07-04T23:05:12.015Z",
         "package_name": "@modelcontextprotocol/server-memory",
         "runtime_requirements": null,
         "version": "2026.7.4"
@@ -284,7 +307,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -298,6 +321,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+          "latest_version_published_at": "2026-07-04T23:05:12.015Z",
           "package_name": "@modelcontextprotocol/server-memory",
           "runtime_requirements": null,
           "version": "2026.7.4"
@@ -347,6 +371,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+        "latest_version_published_at": "2026-07-04T23:05:13.130Z",
         "package_name": "@modelcontextprotocol/server-sequential-thinking",
         "runtime_requirements": null,
         "version": "2026.7.4"
@@ -355,7 +380,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -369,6 +394,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+          "latest_version_published_at": "2026-07-04T23:05:13.130Z",
           "package_name": "@modelcontextprotocol/server-sequential-thinking",
           "runtime_requirements": null,
           "version": "2026.7.4"
@@ -424,6 +450,13 @@
         "version": "2.3.0"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "add-mcp",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 664610,
           "weekly": 142616
@@ -473,7 +506,7 @@
     "name": "add-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -494,6 +527,13 @@
         },
         "name": "add-mcp",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "add-mcp",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 664610,
             "weekly": 142616
@@ -587,6 +627,15 @@
         "version": "0.0.8"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+          "field": "description",
+          "signals": [
+            "agent",
+            "agents",
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 7453796,
           "weekly": 1950600
@@ -620,7 +669,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -639,6 +688,15 @@
         },
         "name": "agent-install",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+            "field": "description",
+            "signals": [
+              "agent",
+              "agents",
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 7453796,
             "weekly": 1950600
@@ -716,9 +774,24 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.110"
+        "version": "0.52.111"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui",
+            "mcp"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 464853,
           "weekly": 166761
@@ -776,17 +849,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T13:46:05.315Z",
+        "package_date": "2026-08-25T14:13:08.833Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T13:46:42.622Z",
-        "version": "0.52.110"
+        "updated": "2026-08-25T14:13:40.271Z",
+        "version": "0.52.111"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -804,10 +877,25 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.110"
+          "version": "0.52.111"
         },
         "name": "comfyui-mcp",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui",
+              "mcp"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 464853,
             "weekly": 166761
@@ -865,11 +953,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T13:46:05.315Z",
+          "package_date": "2026-08-25T14:13:08.833Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T13:46:42.622Z",
-          "version": "0.52.110"
+          "updated": "2026-08-25T14:13:40.271Z",
+          "version": "0.52.111"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },

@@ -18,7 +18,7 @@ _TOPIC_TASKS = {
 }
 
 _DESCRIPTION_TASKS = [
-    (re.compile(r"filesystem", re.I), "filesystem access"),
+    (re.compile(r"filesystem access|access(?:es|ing)?[^.]{0,80}filesystem|filesystem[^.]{0,80}access", re.I), "filesystem access"),
     (re.compile(r"memory", re.I), "persistent memory"),
     (re.compile(r"problem solving|sequential thinking", re.I), "problem solving"),
     (re.compile(r"github api", re.I), "source code repository automation"),
@@ -44,6 +44,8 @@ def classify_and_create_tasks(entities: list[Entity], source_key_to_id: dict[str
 
     for entity in entities:
         if entity.entity_type not in {"repository", "tool", "mcp"}:
+            continue
+        if ((entity.metadata or {}).get("tool") or {}).get("task_mapping_allowed") is False:
             continue
         tasks: list[dict[str, str]] = []
         topics = (((entity.metadata or {}).get("repository") or {}).get("topics") or [])

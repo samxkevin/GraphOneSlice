@@ -11,8 +11,9 @@
     "id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
     "metadata": {
       "repository": {
+        "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T13:07:45Z",
+        "last_updated_timestamp": "2026-08-25T14:27:02Z",
         "primary_language": "HTML",
         "stars": 167887,
         "topics": [
@@ -40,7 +41,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -51,8 +52,9 @@
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "name": "f/prompts.chat",
         "repository": {
+          "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T13:07:45Z",
+          "last_updated_timestamp": "2026-08-25T14:27:02Z",
           "primary_language": "HTML",
           "stars": 167887,
           "topics": [
@@ -113,8 +115,9 @@
     "id": "15a0bd9e-c816-5b2d-8a65-ccd44ff34344",
     "metadata": {
       "repository": {
+        "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-25T11:35:50Z",
+        "last_updated_timestamp": "2026-08-25T14:16:20Z",
         "primary_language": "Python",
         "stars": 96107,
         "topics": [
@@ -142,7 +145,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -150,8 +153,9 @@
         "description": "real time face swap and one-click video deepfake with only a single image",
         "name": "hacksider/Deep-Live-Cam",
         "repository": {
+          "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-25T11:35:50Z",
+          "last_updated_timestamp": "2026-08-25T14:16:20Z",
           "primary_language": "Python",
           "stars": 96107,
           "topics": [
@@ -213,10 +217,11 @@
     "id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
     "metadata": {
       "repository": {
+        "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-25T13:51:18Z",
+        "last_updated_timestamp": "2026-08-25T14:07:00Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103744,
+        "stars": 103743,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -243,7 +248,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -252,10 +257,11 @@
         "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
         "name": "rasbt/LLMs-from-scratch",
         "repository": {
+          "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-25T13:51:18Z",
+          "last_updated_timestamp": "2026-08-25T14:07:00Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103744,
+          "stars": 103743,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -316,10 +322,11 @@
     "id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
     "metadata": {
       "repository": {
+        "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-25T13:53:28Z",
+        "last_updated_timestamp": "2026-08-25T14:22:08Z",
         "primary_language": "Python",
-        "stars": 186855,
+        "stars": 186856,
         "topics": [
           "agentic-ai",
           "agents",
@@ -338,7 +345,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -347,10 +354,11 @@
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "name": "Significant-Gravitas/AutoGPT",
         "repository": {
+          "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-25T13:53:28Z",
+          "last_updated_timestamp": "2026-08-25T14:22:08Z",
           "primary_language": "Python",
-          "stars": 186855,
+          "stars": 186856,
           "topics": [
             "agentic-ai",
             "agents",
@@ -404,8 +412,9 @@
     "id": "4075e6f9-e682-5f89-b239-9952e720286b",
     "metadata": {
       "repository": {
+        "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-25T13:50:09Z",
+        "last_updated_timestamp": "2026-08-25T14:31:51Z",
         "primary_language": "JavaScript",
         "stars": 91790,
         "topics": [
@@ -435,7 +444,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -445,8 +454,9 @@
         "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "name": "thedotmack/claude-mem",
         "repository": {
+          "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-25T13:50:09Z",
+          "last_updated_timestamp": "2026-08-25T14:31:51Z",
           "primary_language": "JavaScript",
           "stars": 91790,
           "topics": [

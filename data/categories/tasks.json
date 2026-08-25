@@ -18,7 +18,7 @@
     "name": "AI application observability",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -79,7 +79,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -140,7 +140,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -201,7 +201,7 @@
     "name": "creative media generation",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -247,7 +247,7 @@
     "categories": [
       "Tasks"
     ],
-    "description": "Task label derived from observed source value: filesystem.",
+    "description": "Task label derived from observed source value: filesystem access.",
     "entity_type": "task",
     "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
     "metadata": {
@@ -255,25 +255,25 @@
         "canonical_label": "filesystem access",
         "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
         "mapping_method": "description_phrase",
-        "observed_value": "filesystem",
+        "observed_value": "filesystem access",
         "url_role": "evidence_source_url"
       }
     },
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
-        "description": "Task label derived from observed source value: filesystem.",
+        "description": "Task label derived from observed source value: filesystem access.",
         "name": "filesystem access",
         "task": {
           "canonical_label": "filesystem access",
           "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
           "mapping_method": "description_phrase",
-          "observed_value": "filesystem",
+          "observed_value": "filesystem access",
           "url_role": "evidence_source_url"
         },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
@@ -323,7 +323,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -384,7 +384,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -445,7 +445,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -506,7 +506,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -567,7 +567,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"

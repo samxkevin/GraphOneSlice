@@ -51,16 +51,24 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 Current generated artifacts report:
 
 - valid entities: `71`
-- valid relationships: `52`
+- valid relationships: `50`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
-- recorded source failures: `9`
+- recorded source failures: `10`
 - duplicate/shared URL warnings: `4`
-- test result: `69 passed`
+- test result: `74 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
+
+## Verification status labels
+
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, and official SDK model definition ingestion. The latest executed run produced the counts above.
+- **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, and task mapping guardrails are covered by automated tests.
+- **PLANNED**: Product, news, jobs, videos, robots, devices, and personal records remain planned until an accessible source proves the required identity and timestamp/metadata fields.
+- **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
 
@@ -178,6 +186,9 @@ Entity resolution is therefore **implemented and tested for the current vertical
   - package publisher/maintainer fields are not treated as company identity.
   - each accepted search hit is verified against its package-specific registry document before export.
   - AI relevance filtering uses token/phrase matching for short terms such as `ai`, `llm`, `gpt`, and `mcp` so unrelated substrings inside longer words are not accepted as evidence.
+  - A generic keyword-only signal such as only `ai`, `llm`, `gpt`, or `agent` is not enough for acceptance; keyword-only acceptance requires multiple explicit signals with at least one stronger source-specific signal.
+  - Creative category assignment is not made from keyword-only metadata or broad README image/badge mentions; it requires package name or package description evidence.
+  - Accepted NPM search package metadata includes the field/signals/excerpt used as AI relevance evidence, and Creative records include category evidence.
 
 #### Official SDK Model Definitions
 
@@ -210,6 +221,7 @@ Current probes include:
 - OpenAI News RSS — news, currently unusable in this environment due TLS/network failure.
 - Y Combinator Companies AI page — startups/companies, currently unusable due TLS/network failure before HTML inspection.
 - Product Hunt GraphQL — products, currently unusable due TLS/network failure before schema/auth inspection.
+- Hacker News Algolia AI Stories — news/story candidate, currently unusable due TLS/network failure before JSON field inspection; even if reachable, external article publication time would still need validation.
 - NPM Search AI Packages — products/tools, currently `partial`; reachable, but package search results are not automatically product records.
 - OpenRouter Models API — models, currently unusable due TLS/network failure.
 - TechCrunch AI RSS — news, currently unusable due TLS/network failure.
@@ -430,7 +442,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-69 passed
+74 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -446,7 +458,9 @@ AI Orbit-specific tests cover:
 - bounded retry behavior;
 - source failure isolation;
 - official SDK model literal parsing;
-- NPM search/package filtering, substring false-positive rejection, and MCP/Creative classification.
+- NPM search/package filtering, substring false-positive rejection, weak keyword-only rejection, and MCP/Creative classification;
+- NPM MCP `New/Recently Added` category evidence from source publication timestamps rather than version-string shape;
+- task mapping guardrails for derived integration-target tools and overly broad filesystem wording.
 
 ## Generated artifacts
 
@@ -492,12 +506,12 @@ No real credentials are committed.
 - Modular AI Orbit pipeline.
 - Real source verification.
 - Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, and official SDK model definitions.
-- Feasibility-only probes for startup/company, product, model, news, and job candidates.
+- Feasibility-only probes for startup/company, product, model, news/story, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
 - Deterministic entity normalization and deduplication.
 - Entity mapping log.
-- Controlled task classification from observed source metadata.
+- Controlled task classification from observed source metadata, with guardrails for derived integration targets and over-broad wording.
 - Evidence-backed relationship extraction, including company/model relationships.
 - Validation report with metrics, failures, warnings, and source feasibility.
 - Required JSON storage artifacts.
@@ -508,9 +522,9 @@ No real credentials are committed.
 - Expand from `71` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; add true product records only after product identity fields are verified.
 - Find a reachable model catalog that supplies license/modalities; current official SDK model source supplies identifiers/provider but not those metadata fields.
-- Find reachable news feeds/APIs with publication timestamps; current tested news candidates failed in this environment.
+- Find reachable news feeds/APIs with publication timestamps; current tested news/story candidates failed in this environment or do not yet establish external article publication time.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
-- Add robots/devices/video/personal sources only after source feasibility is verified.
+- Add products/robots/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
 - Add `Device → runs → Model` relationships only from direct source evidence.
 - Improve assessment-scale cross-source entity resolution as more source families are added.
 
@@ -519,6 +533,7 @@ No real credentials are committed.
 - This is not yet the final 250–300 record dataset.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
 - Model license and modalities are not populated by the official SDK model source.
-- Current jobs/news categories have no accepted records because tested sources were not reachable and no fallback data was fabricated.
+- Current jobs/news categories have no accepted records because tested sources were not reachable or did not yet prove required timestamp semantics, and no fallback data was fabricated.
+- Products remain planned only; packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
 - Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
 - Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

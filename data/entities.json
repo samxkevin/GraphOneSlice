@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -277,7 +277,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +346,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +406,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -472,6 +472,14 @@
         "version": "1.1.4"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@langchain/mcp-adapters",
+          "field": "name",
+          "signals": [
+            "langchain",
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 1026556,
           "weekly": 270970
@@ -501,7 +509,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -520,6 +528,14 @@
         },
         "name": "@langchain/mcp-adapters",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@langchain/mcp-adapters",
+            "field": "name",
+            "signals": [
+              "langchain",
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 1026556,
             "weekly": 270970
@@ -589,6 +605,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+        "latest_version_published_at": "2026-07-10T03:31:10.875Z",
         "package_name": "@modelcontextprotocol/server-filesystem",
         "runtime_requirements": null,
         "version": "2026.7.10"
@@ -597,7 +614,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -611,6 +628,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-filesystem",
+          "latest_version_published_at": "2026-07-10T03:31:10.875Z",
           "package_name": "@modelcontextprotocol/server-filesystem",
           "runtime_requirements": null,
           "version": "2026.7.10"
@@ -647,7 +665,8 @@
   {
     "categories": [
       "MCP",
-      "Tools"
+      "Tools",
+      "New/Recently Added"
     ],
     "description": "MCP server for using the GitHub API",
     "entity_type": "mcp",
@@ -659,6 +678,7 @@
         },
         "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
         "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+        "latest_version_published_at": "2025-04-08T10:08:59.978Z",
         "package_name": "@modelcontextprotocol/server-github",
         "runtime_requirements": null,
         "version": "2025.4.8"
@@ -667,11 +687,12 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
-          "Tools"
+          "Tools",
+          "New/Recently Added"
         ],
         "description": "MCP server for using the GitHub API",
         "mcp": {
@@ -680,6 +701,7 @@
           },
           "deprecated": "Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.",
           "installation_method": "npx/npm package @modelcontextprotocol/server-github",
+          "latest_version_published_at": "2025-04-08T10:08:59.978Z",
           "package_name": "@modelcontextprotocol/server-github",
           "runtime_requirements": null,
           "version": "2025.4.8"
@@ -729,6 +751,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+        "latest_version_published_at": "2026-07-04T23:05:12.015Z",
         "package_name": "@modelcontextprotocol/server-memory",
         "runtime_requirements": null,
         "version": "2026.7.4"
@@ -737,7 +760,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -751,6 +774,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-memory",
+          "latest_version_published_at": "2026-07-04T23:05:12.015Z",
           "package_name": "@modelcontextprotocol/server-memory",
           "runtime_requirements": null,
           "version": "2026.7.4"
@@ -800,6 +824,7 @@
         },
         "deprecated": null,
         "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+        "latest_version_published_at": "2026-07-04T23:05:13.130Z",
         "package_name": "@modelcontextprotocol/server-sequential-thinking",
         "runtime_requirements": null,
         "version": "2026.7.4"
@@ -808,7 +833,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -822,6 +847,7 @@
           },
           "deprecated": null,
           "installation_method": "npx/npm package @modelcontextprotocol/server-sequential-thinking",
+          "latest_version_published_at": "2026-07-04T23:05:13.130Z",
           "package_name": "@modelcontextprotocol/server-sequential-thinking",
           "runtime_requirements": null,
           "version": "2026.7.4"
@@ -877,6 +903,13 @@
         "version": "2.3.0"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "add-mcp",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 664610,
           "weekly": 142616
@@ -926,7 +959,7 @@
     "name": "add-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -947,6 +980,13 @@
         },
         "name": "add-mcp",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "add-mcp",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 664610,
             "weekly": 142616
@@ -1040,6 +1080,15 @@
         "version": "0.0.8"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+          "field": "description",
+          "signals": [
+            "agent",
+            "agents",
+            "mcp"
+          ]
+        },
         "downloads": {
           "monthly": 7453796,
           "weekly": 1950600
@@ -1073,7 +1122,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1092,6 +1141,15 @@
         },
         "name": "agent-install",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
+            "field": "description",
+            "signals": [
+              "agent",
+              "agents",
+              "mcp"
+            ]
+          },
           "downloads": {
             "monthly": 7453796,
             "weekly": 1950600
@@ -1169,9 +1227,24 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.110"
+        "version": "0.52.111"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui",
+            "mcp"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 464853,
           "weekly": 166761
@@ -1229,17 +1302,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T13:46:05.315Z",
+        "package_date": "2026-08-25T14:13:08.833Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T13:46:42.622Z",
-        "version": "0.52.110"
+        "updated": "2026-08-25T14:13:40.271Z",
+        "version": "0.52.111"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1257,10 +1330,25 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.110"
+          "version": "0.52.111"
         },
         "name": "comfyui-mcp",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui",
+              "mcp"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 464853,
             "weekly": 166761
@@ -1318,11 +1406,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T13:46:05.315Z",
+          "package_date": "2026-08-25T14:13:08.833Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T13:46:42.622Z",
-          "version": "0.52.110"
+          "updated": "2026-08-25T14:13:40.271Z",
+          "version": "0.52.111"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -1373,7 +1461,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1438,7 +1526,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1503,7 +1591,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1568,7 +1656,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1633,7 +1721,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1698,7 +1786,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1763,7 +1851,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1828,7 +1916,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1893,7 +1981,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1958,7 +2046,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2023,7 +2111,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2088,7 +2176,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2153,7 +2241,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2218,7 +2306,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2283,7 +2371,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2348,7 +2436,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
+      "fetched_at": "2026-08-25T14:32:05.943587+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2404,8 +2492,9 @@
     "id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
     "metadata": {
       "repository": {
+        "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T13:07:45Z",
+        "last_updated_timestamp": "2026-08-25T14:27:02Z",
         "primary_language": "HTML",
         "stars": 167887,
         "topics": [
@@ -2433,7 +2522,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -2444,8 +2533,9 @@
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "name": "f/prompts.chat",
         "repository": {
+          "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T13:07:45Z",
+          "last_updated_timestamp": "2026-08-25T14:27:02Z",
           "primary_language": "HTML",
           "stars": 167887,
           "topics": [
@@ -2506,8 +2596,9 @@
     "id": "15a0bd9e-c816-5b2d-8a65-ccd44ff34344",
     "metadata": {
       "repository": {
+        "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-25T11:35:50Z",
+        "last_updated_timestamp": "2026-08-25T14:16:20Z",
         "primary_language": "Python",
         "stars": 96107,
         "topics": [
@@ -2535,7 +2626,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -2543,8 +2634,9 @@
         "description": "real time face swap and one-click video deepfake with only a single image",
         "name": "hacksider/Deep-Live-Cam",
         "repository": {
+          "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-25T11:35:50Z",
+          "last_updated_timestamp": "2026-08-25T14:16:20Z",
           "primary_language": "Python",
           "stars": 96107,
           "topics": [
@@ -2606,10 +2698,11 @@
     "id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
     "metadata": {
       "repository": {
+        "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-25T13:51:18Z",
+        "last_updated_timestamp": "2026-08-25T14:07:00Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103744,
+        "stars": 103743,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -2636,7 +2729,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -2645,10 +2738,11 @@
         "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
         "name": "rasbt/LLMs-from-scratch",
         "repository": {
+          "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-25T13:51:18Z",
+          "last_updated_timestamp": "2026-08-25T14:07:00Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103744,
+          "stars": 103743,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -2709,10 +2803,11 @@
     "id": "3bb74017-6d39-5c62-9a2f-846b118cddf1",
     "metadata": {
       "repository": {
+        "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-25T13:53:28Z",
+        "last_updated_timestamp": "2026-08-25T14:22:08Z",
         "primary_language": "Python",
-        "stars": 186855,
+        "stars": 186856,
         "topics": [
           "agentic-ai",
           "agents",
@@ -2731,7 +2826,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -2740,10 +2835,11 @@
         "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
         "name": "Significant-Gravitas/AutoGPT",
         "repository": {
+          "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-25T13:53:28Z",
+          "last_updated_timestamp": "2026-08-25T14:22:08Z",
           "primary_language": "Python",
-          "stars": 186855,
+          "stars": 186856,
           "topics": [
             "agentic-ai",
             "agents",
@@ -2797,8 +2893,9 @@
     "id": "4075e6f9-e682-5f89-b239-9952e720286b",
     "metadata": {
       "repository": {
+        "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-25T13:50:09Z",
+        "last_updated_timestamp": "2026-08-25T14:31:51Z",
         "primary_language": "JavaScript",
         "stars": 91790,
         "topics": [
@@ -2828,7 +2925,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -2838,8 +2935,9 @@
         "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "name": "thedotmack/claude-mem",
         "repository": {
+          "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-25T13:50:09Z",
+          "last_updated_timestamp": "2026-08-25T14:31:51Z",
           "primary_language": "JavaScript",
           "stars": 91790,
           "topics": [
@@ -2912,7 +3010,7 @@
     "name": "AI application observability",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -2973,7 +3071,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3034,7 +3132,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3095,7 +3193,7 @@
     "name": "creative media generation",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3141,7 +3239,7 @@
     "categories": [
       "Tasks"
     ],
-    "description": "Task label derived from observed source value: filesystem.",
+    "description": "Task label derived from observed source value: filesystem access.",
     "entity_type": "task",
     "id": "5bcd60d9-8f22-52d7-8a01-253dc024f904",
     "metadata": {
@@ -3149,25 +3247,25 @@
         "canonical_label": "filesystem access",
         "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
         "mapping_method": "description_phrase",
-        "observed_value": "filesystem",
+        "observed_value": "filesystem access",
         "url_role": "evidence_source_url"
       }
     },
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
         ],
-        "description": "Task label derived from observed source value: filesystem.",
+        "description": "Task label derived from observed source value: filesystem access.",
         "name": "filesystem access",
         "task": {
           "canonical_label": "filesystem access",
           "evidence_source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem",
           "mapping_method": "description_phrase",
-          "observed_value": "filesystem",
+          "observed_value": "filesystem access",
           "url_role": "evidence_source_url"
         },
         "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
@@ -3217,7 +3315,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3278,7 +3376,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3339,7 +3437,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3400,7 +3498,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3461,7 +3559,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:16.240292+00:00",
+      "fetched_at": "2026-08-25T14:32:08.530416+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -3512,6 +3610,14 @@
     "id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@assistant-ui/react-ai-sdk",
+          "field": "name",
+          "signals": [
+            "ai",
+            "ai sdk"
+          ]
+        },
         "downloads": {
           "monthly": 1520504,
           "weekly": 361501
@@ -3544,7 +3650,7 @@
     "name": "@assistant-ui/react-ai-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3552,6 +3658,14 @@
         "description": "Vercel AI SDK adapter for assistant-ui",
         "name": "@assistant-ui/react-ai-sdk",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@assistant-ui/react-ai-sdk",
+            "field": "name",
+            "signals": [
+              "ai",
+              "ai sdk"
+            ]
+          },
           "downloads": {
             "monthly": 1520504,
             "weekly": 361501
@@ -3617,6 +3731,13 @@
     "id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Slack adapter for Chat SDK — webhooks, Block Kit cards, OAuth, slash commands, and AI streaming",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 3170421,
           "weekly": 806958
@@ -3653,7 +3774,7 @@
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3661,6 +3782,13 @@
         "description": "Slack adapter for Chat SDK — webhooks, Block Kit cards, OAuth, slash commands, and AI streaming",
         "name": "@chat-adapter/slack",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Slack adapter for Chat SDK — webhooks, Block Kit cards, OAuth, slash commands, and AI streaming",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 3170421,
             "weekly": 806958
@@ -3730,6 +3858,13 @@
     "id": "81c98248-f1df-5b9a-9ae9-6c1157eb28a7",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "JSON becomes real things. Define your catalog, register your components, let AI generate.",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 4828134,
           "weekly": 1292190
@@ -3763,7 +3898,7 @@
     "name": "@json-render/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3771,6 +3906,13 @@
         "description": "JSON becomes real things. Define your catalog, register your components, let AI generate.",
         "name": "@json-render/core",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "JSON becomes real things. Define your catalog, register your components, let AI generate.",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 4828134,
             "weekly": 1292190
@@ -3837,6 +3979,13 @@
     "id": "722a3753-3409-54f2-a51b-e450efbdec55",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@langchain/core",
+          "field": "name",
+          "signals": [
+            "langchain"
+          ]
+        },
         "downloads": {
           "monthly": 20662466,
           "weekly": 5473447
@@ -3873,7 +4022,7 @@
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3881,6 +4030,13 @@
         "description": "Core LangChain.js abstractions and schemas",
         "name": "@langchain/core",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@langchain/core",
+            "field": "name",
+            "signals": [
+              "langchain"
+            ]
+          },
           "downloads": {
             "monthly": 20662466,
             "weekly": 5473447
@@ -3950,6 +4106,14 @@
     "id": "88cd445d-59f9-5420-ba3c-012080056db4",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@openai/agents-core",
+          "field": "name",
+          "signals": [
+            "agents",
+            "openai"
+          ]
+        },
         "downloads": {
           "monthly": 6470501,
           "weekly": 1599331
@@ -3978,7 +4142,7 @@
     "name": "@openai/agents-core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3986,6 +4150,14 @@
         "description": "The OpenAI Agents SDK is a lightweight yet powerful framework for building multi-agent workflows.",
         "name": "@openai/agents-core",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@openai/agents-core",
+            "field": "name",
+            "signals": [
+              "agents",
+              "openai"
+            ]
+          },
           "downloads": {
             "monthly": 6470501,
             "weekly": 1599331
@@ -4047,6 +4219,13 @@
     "id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@opentelemetry/instrumentation-openai",
+          "field": "name",
+          "signals": [
+            "openai"
+          ]
+        },
         "downloads": {
           "monthly": 24701347,
           "weekly": 6381534
@@ -4077,7 +4256,7 @@
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4085,6 +4264,13 @@
         "description": "OpenTelemetry instrumentation for the `openai` OpenAI client library",
         "name": "@opentelemetry/instrumentation-openai",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@opentelemetry/instrumentation-openai",
+            "field": "name",
+            "signals": [
+              "openai"
+            ]
+          },
           "downloads": {
             "monthly": 24701347,
             "weekly": 6381534
@@ -4148,6 +4334,14 @@
     "id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Promptbook: Create persistent AI agents that turn your company's scattered knowledge into action",
+          "field": "description",
+          "signals": [
+            "agents",
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 7085092,
           "weekly": 1978729
@@ -4240,7 +4434,7 @@
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4248,6 +4442,14 @@
         "description": "Promptbook: Create persistent AI agents that turn your company's scattered knowledge into action",
         "name": "@promptbook/utils",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Promptbook: Create persistent AI agents that turn your company's scattered knowledge into action",
+            "field": "description",
+            "signals": [
+              "agents",
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 7085092,
             "weekly": 1978729
@@ -4374,6 +4576,20 @@
     "id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@saintno/comfyui-sdk",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "@saintno/comfyui-sdk",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 124192,
           "weekly": 28429
@@ -4406,7 +4622,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -4415,6 +4631,20 @@
         "description": "SDK for ComfyUI",
         "name": "@saintno/comfyui-sdk",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@saintno/comfyui-sdk",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "@saintno/comfyui-sdk",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 124192,
             "weekly": 28429
@@ -4481,6 +4711,26 @@
     "id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "field": "description",
+          "signals": [
+            "ai",
+            "llm",
+            "stable diffusion"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "field": "description",
+          "signals": [
+            "audio",
+            "audio generation",
+            "image",
+            "stable diffusion",
+            "video"
+          ]
+        },
         "downloads": {
           "monthly": 10421,
           "weekly": 1751
@@ -4527,7 +4777,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -4536,6 +4786,26 @@
         "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
         "name": "@sogni-ai/sogni-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "field": "description",
+            "signals": [
+              "ai",
+              "llm",
+              "stable diffusion"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "field": "description",
+            "signals": [
+              "audio",
+              "audio generation",
+              "image",
+              "stable diffusion",
+              "video"
+            ]
+          },
           "downloads": {
             "monthly": 10421,
             "weekly": 1751
@@ -4616,6 +4886,20 @@
     "id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "nience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+          "field": "description",
+          "signals": [
+            "agent"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": ".js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+          "field": "description",
+          "signals": [
+            "creative"
+          ]
+        },
         "downloads": {
           "monthly": 9398,
           "weekly": 1863
@@ -4657,7 +4941,7 @@
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -4666,6 +4950,20 @@
         "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
         "name": "@sogni-ai/sogni-intelligence-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "nience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+            "field": "description",
+            "signals": [
+              "agent"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": ".js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+            "field": "description",
+            "signals": [
+              "creative"
+            ]
+          },
           "downloads": {
             "monthly": 9398,
             "weekly": 1863
@@ -4741,6 +5039,20 @@
     "id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@stable-canvas/comfyui-client",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "@stable-canvas/comfyui-client",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 21355,
           "weekly": 5670
@@ -4779,7 +5091,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -4788,6 +5100,20 @@
         "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
         "name": "@stable-canvas/comfyui-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@stable-canvas/comfyui-client",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "@stable-canvas/comfyui-client",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 21355,
             "weekly": 5670
@@ -4859,6 +5185,14 @@
     "id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "A home for your AI agents",
+          "field": "description",
+          "signals": [
+            "agents",
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 5670155,
           "weekly": 1525669
@@ -4888,7 +5222,7 @@
     "name": "agents",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4896,6 +5230,14 @@
         "description": "A home for your AI agents",
         "name": "agents",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "A home for your AI agents",
+            "field": "description",
+            "signals": [
+              "agents",
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 5670155,
             "weekly": 1525669
@@ -4958,6 +5300,19 @@
     "id": "8f6ed6c7-f8d7-529d-873a-810ff5961b35",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
+          "field": "description",
+          "signals": [
+            "ai",
+            "ai sdk",
+            "anthropic",
+            "chatgpt",
+            "claude",
+            "gemini",
+            "openai"
+          ]
+        },
         "downloads": {
           "monthly": 86429654,
           "weekly": 22962178
@@ -5005,7 +5360,7 @@
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5013,6 +5368,19 @@
         "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
         "name": "ai",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
+            "field": "description",
+            "signals": [
+              "ai",
+              "ai sdk",
+              "anthropic",
+              "chatgpt",
+              "claude",
+              "gemini",
+              "openai"
+            ]
+          },
           "downloads": {
             "monthly": 86429654,
             "weekly": 22962178
@@ -5093,6 +5461,14 @@
     "id": "4f227a12-6347-5f6c-ab79-53bf48696940",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Detect agentic coding environments and AI assistant tools",
+          "field": "description",
+          "signals": [
+            "agentic",
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 7233157,
           "weekly": 2141771
@@ -5123,7 +5499,7 @@
     "name": "am-i-vibing",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5131,6 +5507,14 @@
         "description": "Detect agentic coding environments and AI assistant tools",
         "name": "am-i-vibing",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Detect agentic coding environments and AI assistant tools",
+            "field": "description",
+            "signals": [
+              "agentic",
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 7233157,
             "weekly": 2141771
@@ -5207,7 +5591,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5261,6 +5645,13 @@
     "id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Streaming utilities for AI assistants",
+          "field": "description",
+          "signals": [
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 7233829,
           "weekly": 1830183
@@ -5292,7 +5683,7 @@
     "name": "assistant-stream",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5300,6 +5691,13 @@
         "description": "Streaming utilities for AI assistants",
         "name": "assistant-stream",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Streaming utilities for AI assistants",
+            "field": "description",
+            "signals": [
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 7233829,
             "weekly": 1830183
@@ -5364,6 +5762,14 @@
     "id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Chat SDK — universal TypeScript toolkit for building multi-platform chat bots and AI agents on Slack, Teams, Google Chat, Discord, WhatsApp, and more",
+          "field": "description",
+          "signals": [
+            "agents",
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 8920068,
           "weekly": 2385490
@@ -5409,7 +5815,7 @@
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5417,6 +5823,14 @@
         "description": "Chat SDK — universal TypeScript toolkit for building multi-platform chat bots and AI agents on Slack, Teams, Google Chat, Discord, WhatsApp, and more",
         "name": "chat",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Chat SDK — universal TypeScript toolkit for building multi-platform chat bots and AI agents on Slack, Teams, Google Chat, Discord, WhatsApp, and more",
+            "field": "description",
+            "signals": [
+              "agents",
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 8920068,
             "weekly": 2385490
@@ -5495,6 +5909,14 @@
     "id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Filesystem-first framework for durable backend AI agents that run anywhere.",
+          "field": "description",
+          "signals": [
+            "agents",
+            "ai"
+          ]
+        },
         "downloads": {
           "monthly": 2379796,
           "weekly": 704906
@@ -5534,7 +5956,7 @@
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5542,6 +5964,14 @@
         "description": "Filesystem-first framework for durable backend AI agents that run anywhere.",
         "name": "eve",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Filesystem-first framework for durable backend AI agents that run anywhere.",
+            "field": "description",
+            "signals": [
+              "agents",
+              "ai"
+            ]
+          },
           "downloads": {
             "monthly": 2379796,
             "weekly": 704906
@@ -5607,14 +6037,20 @@
   },
   {
     "categories": [
-      "Tools",
-      "Creative"
+      "Tools"
     ],
     "description": "GPT4 for free, No API key, no auth required.",
     "entity_type": "tool",
     "id": "15c7c703-213a-54e9-8672-bd5e953b6224",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "GPT4 for free, No API key, no auth required.",
+          "field": "description",
+          "signals": [
+            "gpt4"
+          ]
+        },
         "downloads": {
           "monthly": 8380,
           "weekly": 2775
@@ -5652,15 +6088,21 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
-          "Tools",
-          "Creative"
+          "Tools"
         ],
         "description": "GPT4 for free, No API key, no auth required.",
         "name": "g4f",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "GPT4 for free, No API key, no auth required.",
+            "field": "description",
+            "signals": [
+              "gpt4"
+            ]
+          },
           "downloads": {
             "monthly": 8380,
             "weekly": 2775
@@ -5729,17 +6171,26 @@
     "description": "The NPM package description explicitly identifies the GitHub API as the integration target.",
     "entity_type": "tool",
     "id": "05ab724d-899b-524a-ba66-19cdfc43d021",
-    "metadata": {},
+    "metadata": {
+      "tool": {
+        "derived_role": "integration_target",
+        "task_mapping_allowed": false
+      }
+    },
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T13:54:07.951346+00:00",
+      "fetched_at": "2026-08-25T14:31:59.854356+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
         ],
         "description": "The NPM package description explicitly identifies the GitHub API as the integration target.",
         "name": "GitHub API",
+        "tool": {
+          "derived_role": "integration_target",
+          "task_mapping_allowed": false
+        },
         "url": "https://api.github.com/"
       },
       "source_record_id": "tool:github-api",
@@ -5790,7 +6241,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5844,6 +6295,13 @@
     "id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "langchain",
+          "field": "name",
+          "signals": [
+            "langchain"
+          ]
+        },
         "downloads": {
           "monthly": 10905591,
           "weekly": 2891532
@@ -5880,7 +6338,7 @@
     "name": "langchain",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -5888,6 +6346,13 @@
         "description": "Typescript bindings for langchain",
         "name": "langchain",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "langchain",
+            "field": "name",
+            "signals": [
+              "langchain"
+            ]
+          },
           "downloads": {
             "monthly": 10905591,
             "weekly": 2891532
@@ -5969,7 +6434,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -6022,6 +6487,14 @@
     "id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "ollama-ai-provider-v2",
+          "field": "name",
+          "signals": [
+            "ai",
+            "ollama"
+          ]
+        },
         "downloads": {
           "monthly": 3176701,
           "weekly": 852124
@@ -6060,7 +6533,7 @@
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -6068,6 +6541,14 @@
         "description": "Use Ollama with the Vercel AI SDK, implementing the official Ollama API. This provider has minimal dependencies and is web-compatible out of the box.",
         "name": "ollama-ai-provider-v2",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "ollama-ai-provider-v2",
+            "field": "name",
+            "signals": [
+              "ai",
+              "ollama"
+            ]
+          },
           "downloads": {
             "monthly": 3176701,
             "weekly": 852124
@@ -6152,7 +6633,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-25T13:54:07.557265+00:00",
+      "fetched_at": "2026-08-25T14:31:59.424329+00:00",
       "observed_fields": {
         "categories": [
           "Tools"

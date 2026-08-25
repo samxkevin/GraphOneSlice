@@ -112,6 +112,7 @@ class NpmMcpAdapter(SourceAdapter):
             return None
         bin_field = version.get("bin")
         engines = version.get("engines")
+        latest_published_at = (data.get("time") or {}).get(latest) if latest else None
         installation_method = f"npm package {name}"
         readme = data.get("readme") or ""
         if "npx" in readme.lower():
@@ -122,12 +123,13 @@ class NpmMcpAdapter(SourceAdapter):
                 "runtime_requirements": engines,
                 "package_name": name,
                 "version": latest,
+                "latest_version_published_at": latest_published_at,
                 "deprecated": version.get("deprecated"),
                 "bin": bin_field,
             }
         }
         categories = ["MCP", "Tools"]
-        if latest and latest >= "2026.0.0":
+        if self._is_recent_package_release(latest_published_at):
             categories.append("New/Recently Added")
         return RawEntityRecord(
             source_key=f"npm:package:{name.lower()}",
@@ -157,7 +159,16 @@ class NpmMcpAdapter(SourceAdapter):
             categories=["Tools"],
             source_name=self.name,
             source_url=source_url,
-            raw={"observed_name": "GitHub API"},
-            metadata={},
+            raw={"observed_name": "GitHub API", "role": "integration_target"},
+            metadata={"tool": {"derived_role": "integration_target", "task_mapping_allowed": False}},
             fetched_at=fetched_at,
         )
+
+    def _is_recent_package_release(self, published_at: object) -> bool:
+        if not isinstance(published_at, str) or not published_at.strip():
+            return False
+        try:
+            observed = datetime.fromisoformat(published_at.replace("Z", "+00:00"))
+        except ValueError:
+            return False
+        return observed >= datetime(2025, 1, 1, tzinfo=timezone.utc)

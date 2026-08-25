@@ -161,6 +161,7 @@ class GitHubAdapter(SourceAdapter):
                     "stars": item.get("stargazers_count"),
                     "primary_language": item.get("language"),
                     "last_updated_timestamp": item.get("updated_at"),
+                    "created_at": item.get("created_at"),
                     "full_name": full_name,
                     "topics": topics,
                 }

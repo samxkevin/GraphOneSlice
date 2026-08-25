@@ -445,7 +445,7 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "filesystem",
+      "observed_value": "filesystem access",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-filesystem"
     },
@@ -492,23 +492,6 @@
     },
     "source_entity_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "observed_value": "Filesystem",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/eve"
-    },
-    "id": "731cb1b4-053a-5bb2-a140-1365f0a8ff7d",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/eve"
-    },
-    "source_entity_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
-    "target_entity_id": "5bcd60d9-8f22-52d7-8a01-253dc024f904"
   },
   {
     "confidence": 1.0,
@@ -905,22 +888,5 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "b34896a1-5593-5780-b254-b2b784c20db8"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "observed_value": "GitHub API",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
-    },
-    "id": "f523690e-437d-5599-a3c1-098aaafac238",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Registry MCP Packages",
-      "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
-    },
-    "source_entity_id": "05ab724d-899b-524a-ba66-19cdfc43d021",
-    "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
   }
 ]

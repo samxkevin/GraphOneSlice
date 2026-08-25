@@ -26,8 +26,13 @@ AI_RELEVANCE_TOKENS = {
     "agentic",
     "mcp",
     "comfyui",
+    "langchain",
+    "ollama",
     "generative",
 }
+
+WEAK_KEYWORD_ONLY_TOKENS = {"ai", "llm", "gpt", "agent", "agents", "generative"}
+AMBIGUOUS_AI_EVIDENCE_SIGNALS = {"ai", "llm", "gpt", "agent", "agents", "generative"}
 
 AI_RELEVANCE_PHRASES = {
     "model context protocol",
@@ -181,7 +186,13 @@ class NpmSearchToolAdapter(SourceAdapter):
         keywords = version_doc.get("keywords") or search_package.get("keywords") or []
         if isinstance(keywords, str):
             keywords = [keywords]
-        package_for_filter = {"name": name, "description": description, "keywords": keywords, "links": {"npm": npm_url}}
+        package_for_filter = {
+            "name": name,
+            "description": description,
+            "keywords": keywords,
+            "links": {"npm": npm_url},
+            "readme": package_doc.get("readme") or "",
+        }
         if not self._is_candidate_package(package_for_filter):
             return None
 
@@ -200,6 +211,13 @@ class NpmSearchToolAdapter(SourceAdapter):
                 "downloads": search_object.get("downloads"),
                 "links": search_package.get("links") or {},
                 "query": query,
+                "ai_relevance_evidence": self._first_signal_evidence(
+                    package_for_filter,
+                    AI_RELEVANCE_TOKENS,
+                    AI_RELEVANCE_PHRASES,
+                    fields=("name", "description", "readme", "keywords"),
+                    include_gpt_compact=True,
+                ),
             }
         }
         if is_mcp:
@@ -215,6 +233,13 @@ class NpmSearchToolAdapter(SourceAdapter):
             }
         if self._has_creative_evidence(package_for_filter):
             categories.append("Creative")
+            metadata["package"]["creative_category_evidence"] = self._first_signal_evidence(
+                package_for_filter,
+                CREATIVE_TOKENS,
+                CREATIVE_PHRASES,
+                fields=("name", "description"),
+                include_gpt_compact=False,
+            )
 
         return RawEntityRecord(
             source_key=f"npm-search:package:{name.lower()}",
@@ -243,32 +268,81 @@ class NpmSearchToolAdapter(SourceAdapter):
         return normalized_name.endswith("-mcp") or "-mcp-" in normalized_name or "/mcp-" in normalized_name or "/mcp" in normalized_name
 
     def _has_ai_relevance_evidence(self, package: dict[str, Any]) -> bool:
-        tokens = self._package_tokens(package)
-        if tokens & AI_RELEVANCE_TOKENS:
+        # Name/description/README are strong evidence because they describe the
+        # package itself. Keyword-only matches require multiple explicit signals
+        # and at least one signal stronger than generic ai/llm/gpt/agent tags.
+        strong_text = " ".join(self._package_text_by_field(package, fields=("name", "description", "readme")).values())
+        strong_text_signals = self._ai_signals_for_text(strong_text)
+        if strong_text_signals and not strong_text_signals <= {"agent", "agents"}:
             return True
-        # GPT identifiers are often written as GPT4/GPT4o without a delimiter.
-        if any(re.fullmatch(r"gpt\d+[a-z0-9]*", token) for token in tokens):
-            return True
-        return self._has_any_phrase(package, AI_RELEVANCE_PHRASES)
+
+        keyword_signals = self._ai_signals_for_text(self._keywords_text(package))
+        strong_keyword_signals = keyword_signals - WEAK_KEYWORD_ONLY_TOKENS
+        return len(keyword_signals) >= 2 and bool(strong_keyword_signals)
 
     def _has_creative_evidence(self, package: dict[str, Any]) -> bool:
-        tokens = self._package_tokens(package)
-        if tokens & CREATIVE_TOKENS:
-            return True
-        return self._has_any_phrase(package, CREATIVE_PHRASES)
+        # Creative is a semantic category, so do not assign it from keyword-only
+        # metadata or broad README mentions/images. Require package name or
+        # package description evidence.
+        creative_text = " ".join(self._package_text_by_field(package, fields=("name", "description")).values())
+        return bool(self._signals_for_text(creative_text, CREATIVE_TOKENS, CREATIVE_PHRASES, include_gpt_compact=False))
 
-    def _has_any_phrase(self, package: dict[str, Any], phrases: set[str]) -> bool:
-        normalized = f" {self._normalized_package_text(package)} "
-        return any(f" {phrase} " in normalized for phrase in phrases)
+    def _ai_signals_for_text(self, text: str) -> set[str]:
+        return self._signals_for_text(text, AI_RELEVANCE_TOKENS, AI_RELEVANCE_PHRASES, include_gpt_compact=True)
 
-    def _package_tokens(self, package: dict[str, Any]) -> set[str]:
-        return set(re.findall(r"[a-z0-9]+", self._package_haystack(package)))
+    def _signals_for_text(self, text: str, tokens: set[str], phrases: set[str], *, include_gpt_compact: bool) -> set[str]:
+        tokenized = set(re.findall(r"[a-z0-9]+", text.lower()))
+        signals = set(tokenized & tokens)
+        if include_gpt_compact:
+            signals.update(token for token in tokenized if re.fullmatch(r"gpt\d+[a-z0-9]*", token))
+        normalized = f" {re.sub(r'[^a-z0-9]+', ' ', text.lower()).strip()} "
+        signals.update(phrase for phrase in phrases if f" {phrase} " in normalized)
+        return signals
 
-    def _normalized_package_text(self, package: dict[str, Any]) -> str:
-        return re.sub(r"[^a-z0-9]+", " ", self._package_haystack(package)).strip()
+    def _first_signal_evidence(
+        self,
+        package: dict[str, Any],
+        tokens: set[str],
+        phrases: set[str],
+        *,
+        fields: tuple[str, ...],
+        include_gpt_compact: bool,
+    ) -> dict[str, Any] | None:
+        for field, text in self._package_text_by_field(package, fields=fields).items():
+            signals = self._signals_for_text(text, tokens, phrases, include_gpt_compact=include_gpt_compact)
+            if include_gpt_compact and field in {"name", "keywords"} and signals <= AMBIGUOUS_AI_EVIDENCE_SIGNALS:
+                continue
+            if signals:
+                return {
+                    "field": field,
+                    "signals": sorted(signals),
+                    "excerpt": self._evidence_excerpt(text, signals),
+                }
+        return None
 
-    def _package_haystack(self, package: dict[str, Any]) -> str:
+    def _evidence_excerpt(self, text: str, signals: set[str]) -> str:
+        compact = re.sub(r"\s+", " ", text).strip()
+        if len(compact) <= 240:
+            return compact
+        lower = compact.lower()
+        positions = [lower.find(signal.lower()) for signal in signals if lower.find(signal.lower()) >= 0]
+        start = max(min(positions) - 80, 0) if positions else 0
+        return compact[start : start + 240].strip()
+
+    def _package_text_by_field(self, package: dict[str, Any], *, fields: tuple[str, ...]) -> dict[str, str]:
+        values: dict[str, str] = {}
+        for field in fields:
+            if field == "keywords":
+                value = self._keywords_text(package)
+            else:
+                raw_value = package.get(field)
+                value = raw_value if isinstance(raw_value, str) else ""
+            if value.strip():
+                values[field] = value
+        return values
+
+    def _keywords_text(self, package: dict[str, Any]) -> str:
         keywords = package.get("keywords") or []
         if isinstance(keywords, str):
             keywords = [keywords]
-        return " ".join([str(package.get("name", "")), str(package.get("description", "")), " ".join(map(str, keywords))]).lower()
+        return " ".join(map(str, keywords))

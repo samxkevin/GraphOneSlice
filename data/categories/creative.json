@@ -19,9 +19,24 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.110"
+        "version": "0.52.111"
       },
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui",
+            "mcp"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "comfyui-mcp",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 464853,
           "weekly": 166761
@@ -79,17 +94,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T13:46:05.315Z",
+        "package_date": "2026-08-25T14:13:08.833Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T13:46:42.622Z",
-        "version": "0.52.110"
+        "updated": "2026-08-25T14:13:40.271Z",
+        "version": "0.52.111"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -107,10 +122,25 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.110"
+          "version": "0.52.111"
         },
         "name": "comfyui-mcp",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui",
+              "mcp"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "comfyui-mcp",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 464853,
             "weekly": 166761
@@ -168,11 +198,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T13:46:05.315Z",
+          "package_date": "2026-08-25T14:13:08.833Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T13:46:42.622Z",
-          "version": "0.52.110"
+          "updated": "2026-08-25T14:13:40.271Z",
+          "version": "0.52.111"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -214,8 +244,9 @@
     "id": "4e5f7103-af75-5741-9f52-10d2c942ccd7",
     "metadata": {
       "repository": {
+        "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T13:07:45Z",
+        "last_updated_timestamp": "2026-08-25T14:27:02Z",
         "primary_language": "HTML",
         "stars": 167887,
         "topics": [
@@ -243,7 +274,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
+      "fetched_at": "2026-08-25T14:31:57.143070+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -254,8 +285,9 @@
         "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
         "name": "f/prompts.chat",
         "repository": {
+          "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T13:07:45Z",
+          "last_updated_timestamp": "2026-08-25T14:27:02Z",
           "primary_language": "HTML",
           "stars": 167887,
           "topics": [
@@ -317,6 +349,20 @@
     "id": "319a8d4a-3dcd-5d9a-9d5d-01f5f2e7cc42",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@saintno/comfyui-sdk",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "@saintno/comfyui-sdk",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 124192,
           "weekly": 28429
@@ -349,7 +395,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -358,6 +404,20 @@
         "description": "SDK for ComfyUI",
         "name": "@saintno/comfyui-sdk",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@saintno/comfyui-sdk",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "@saintno/comfyui-sdk",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 124192,
             "weekly": 28429
@@ -424,6 +484,26 @@
     "id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "field": "description",
+          "signals": [
+            "ai",
+            "llm",
+            "stable diffusion"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "field": "description",
+          "signals": [
+            "audio",
+            "audio generation",
+            "image",
+            "stable diffusion",
+            "video"
+          ]
+        },
         "downloads": {
           "monthly": 10421,
           "weekly": 1751
@@ -470,7 +550,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -479,6 +559,26 @@
         "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
         "name": "@sogni-ai/sogni-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "field": "description",
+            "signals": [
+              "ai",
+              "llm",
+              "stable diffusion"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "field": "description",
+            "signals": [
+              "audio",
+              "audio generation",
+              "image",
+              "stable diffusion",
+              "video"
+            ]
+          },
           "downloads": {
             "monthly": 10421,
             "weekly": 1751
@@ -559,6 +659,20 @@
     "id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "nience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+          "field": "description",
+          "signals": [
+            "agent"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": ".js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+          "field": "description",
+          "signals": [
+            "creative"
+          ]
+        },
         "downloads": {
           "monthly": 9398,
           "weekly": 1863
@@ -600,7 +714,7 @@
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -609,6 +723,20 @@
         "description": "Public Sogni Intelligence client — Node.js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
         "name": "@sogni-ai/sogni-intelligence-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "nience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+            "field": "description",
+            "signals": [
+              "agent"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": ".js convenience wrapper for the Sogni SDK plus the public-safe subset of @sogni/creative-agent contracts (ContractRegistry, AssetManifest, RunRecord, tool envelopes). For agent builders, third-party integrations, and",
+            "field": "description",
+            "signals": [
+              "creative"
+            ]
+          },
           "downloads": {
             "monthly": 9398,
             "weekly": 1863
@@ -684,6 +812,20 @@
     "id": "dbab65a0-bdac-5490-bf27-90c19bf9caf5",
     "metadata": {
       "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@stable-canvas/comfyui-client",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
+        "creative_category_evidence": {
+          "excerpt": "@stable-canvas/comfyui-client",
+          "field": "name",
+          "signals": [
+            "comfyui"
+          ]
+        },
         "downloads": {
           "monthly": 21355,
           "weekly": 5670
@@ -722,7 +864,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
+      "fetched_at": "2026-08-25T14:32:00.397633+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -731,6 +873,20 @@
         "description": "api Client for ComfyUI that supports both NodeJS and Browser environments. It provides full support for all RESTful / WebSocket APIs.",
         "name": "@stable-canvas/comfyui-client",
         "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@stable-canvas/comfyui-client",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
+          "creative_category_evidence": {
+            "excerpt": "@stable-canvas/comfyui-client",
+            "field": "name",
+            "signals": [
+              "comfyui"
+            ]
+          },
           "downloads": {
             "monthly": 21355,
             "weekly": 5670
@@ -792,122 +948,5 @@
       "url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
     },
     "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
-  },
-  {
-    "categories": [
-      "Tools",
-      "Creative"
-    ],
-    "description": "GPT4 for free, No API key, no auth required.",
-    "entity_type": "tool",
-    "id": "15c7c703-213a-54e9-8672-bd5e953b6224",
-    "metadata": {
-      "package": {
-        "downloads": {
-          "monthly": 8380,
-          "weekly": 2775
-        },
-        "ecosystem": "npm",
-        "keywords": [
-          "gpt4free",
-          "gpt-free",
-          "free-gpt",
-          "gpt",
-          "gpt-3",
-          "gpt-3.5",
-          "gpt-4",
-          "bing",
-          "dalle",
-          "stable-diffusion",
-          "ai",
-          "completion",
-          "chat completion"
-        ],
-        "license": "MIT",
-        "links": {
-          "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
-          "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
-          "npm": "https://www.npmjs.com/package/g4f",
-          "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
-        },
-        "package_date": "2024-06-30T01:42:48.000Z",
-        "package_name": "g4f",
-        "query": "keywords:stable-diffusion",
-        "updated": "2026-08-24T08:01:09.094Z",
-        "version": "1.4.6"
-      }
-    },
-    "name": "g4f",
-    "provenance": {
-      "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
-      "observed_fields": {
-        "categories": [
-          "Tools",
-          "Creative"
-        ],
-        "description": "GPT4 for free, No API key, no auth required.",
-        "name": "g4f",
-        "package": {
-          "downloads": {
-            "monthly": 8380,
-            "weekly": 2775
-          },
-          "ecosystem": "npm",
-          "keywords": [
-            "gpt4free",
-            "gpt-free",
-            "free-gpt",
-            "gpt",
-            "gpt-3",
-            "gpt-3.5",
-            "gpt-4",
-            "bing",
-            "dalle",
-            "stable-diffusion",
-            "ai",
-            "completion",
-            "chat completion"
-          ],
-          "license": "MIT",
-          "links": {
-            "bugs": "https://github.com/VictorMRojas/g4f-ts/issues",
-            "homepage": "https://github.com/VictorMRojas/g4f-ts#readme",
-            "npm": "https://www.npmjs.com/package/g4f",
-            "repository": "git+https://github.com/VictorMRojas/g4f-ts.git"
-          },
-          "package_date": "2024-06-30T01:42:48.000Z",
-          "package_name": "g4f",
-          "query": "keywords:stable-diffusion",
-          "updated": "2026-08-24T08:01:09.094Z",
-          "version": "1.4.6"
-        },
-        "url": "https://www.npmjs.com/package/g4f"
-      },
-      "source_record_id": "npm-search:package:g4f",
-      "source_url": "https://registry.npmjs.org/g4f",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "g4f",
-          "operation": "normalize_name",
-          "output": "g4f",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "tool:url:https://www.npmjs.com/package/g4f",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/g4f"
-    },
-    "url": "https://www.npmjs.com/package/g4f"
   }
 ]
