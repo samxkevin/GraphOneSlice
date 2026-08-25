@@ -260,16 +260,6 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
   },
   {
-    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
-    "canonical_value": "langchain",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:langchain",
-    "raw_value": "langchain",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/langchain"
-  },
-  {
     "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
     "canonical_value": "@openai/agents-core",
     "confidence": 1.0,
@@ -278,6 +268,16 @@
     "raw_value": "@openai/agents-core",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+  },
+  {
+    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
+    "canonical_value": "langchain",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:langchain",
+    "raw_value": "langchain",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/langchain"
   },
   {
     "canonical_id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
@@ -310,6 +310,16 @@
     "source_url": "https://registry.npmjs.org/agents"
   },
   {
+    "canonical_id": "81c98248-f1df-5b9a-9ae9-6c1157eb28a7",
+    "canonical_value": "@json-render/core",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@json-render/core",
+    "raw_value": "@json-render/core",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@json-render%2Fcore"
+  },
+  {
     "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
     "canonical_value": "chat",
     "confidence": 1.0,
@@ -318,16 +328,6 @@
     "raw_value": "chat",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/chat"
-  },
-  {
-    "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
-    "canonical_value": "@promptbook/utils",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@promptbook/utils",
-    "raw_value": "@promptbook/utils",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
   },
   {
     "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
@@ -340,6 +340,16 @@
     "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
   },
   {
+    "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
+    "canonical_value": "@promptbook/utils",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@promptbook/utils",
+    "raw_value": "@promptbook/utils",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
+  },
+  {
     "canonical_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
     "canonical_value": "eve",
     "confidence": 1.0,
@@ -350,16 +360,6 @@
     "source_url": "https://registry.npmjs.org/eve"
   },
   {
-    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
-    "canonical_value": "@chat-adapter/slack",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@chat-adapter/slack",
-    "raw_value": "@chat-adapter/slack",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
-  },
-  {
     "canonical_id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
     "canonical_value": "@assistant-ui/react-ai-sdk",
     "confidence": 1.0,
@@ -368,6 +368,16 @@
     "raw_value": "@assistant-ui/react-ai-sdk",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
+  },
+  {
+    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "canonical_value": "@chat-adapter/slack",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@chat-adapter/slack",
+    "raw_value": "@chat-adapter/slack",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
   },
   {
     "canonical_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
@@ -458,16 +468,6 @@
     "raw_value": "add-mcp",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/add-mcp"
-  },
-  {
-    "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
-    "canonical_value": "ato-mcp",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:ato-mcp",
-    "raw_value": "ato-mcp",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/ato-mcp"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",

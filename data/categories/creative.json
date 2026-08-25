@@ -19,7 +19,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.107"
+        "version": "0.52.110"
       },
       "package": {
         "downloads": {
@@ -79,17 +79,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T12:12:08.648Z",
+        "package_date": "2026-08-25T13:46:05.315Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T12:12:40.112Z",
-        "version": "0.52.107"
+        "updated": "2026-08-25T13:46:42.622Z",
+        "version": "0.52.110"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -107,7 +107,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.107"
+          "version": "0.52.110"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -168,11 +168,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T12:12:08.648Z",
+          "package_date": "2026-08-25T13:46:05.315Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T12:12:40.112Z",
-          "version": "0.52.107"
+          "updated": "2026-08-25T13:46:42.622Z",
+          "version": "0.52.110"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -215,9 +215,9 @@
     "metadata": {
       "repository": {
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T12:19:07Z",
+        "last_updated_timestamp": "2026-08-25T13:07:45Z",
         "primary_language": "HTML",
-        "stars": 167886,
+        "stars": 167887,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -243,7 +243,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T12:25:05.297199+00:00",
+      "fetched_at": "2026-08-25T13:54:05.090864+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -255,9 +255,9 @@
         "name": "f/prompts.chat",
         "repository": {
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T12:19:07Z",
+          "last_updated_timestamp": "2026-08-25T13:07:45Z",
           "primary_language": "HTML",
-          "stars": 167886,
+          "stars": 167887,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -349,7 +349,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -470,7 +470,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -560,8 +560,8 @@
     "metadata": {
       "package": {
         "downloads": {
-          "monthly": 9055,
-          "weekly": 2050
+          "monthly": 9398,
+          "weekly": 1863
         },
         "ecosystem": "npm",
         "keywords": [
@@ -590,17 +590,17 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
         },
-        "package_date": "2026-08-25T08:56:26.647Z",
+        "package_date": "2026-08-25T12:54:17.928Z",
         "package_name": "@sogni-ai/sogni-intelligence-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T08:56:57.935Z",
-        "version": "3.23.2"
+        "updated": "2026-08-25T12:54:48.901Z",
+        "version": "3.23.3"
       }
     },
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -610,8 +610,8 @@
         "name": "@sogni-ai/sogni-intelligence-client",
         "package": {
           "downloads": {
-            "monthly": 9055,
-            "weekly": 2050
+            "monthly": 9398,
+            "weekly": 1863
           },
           "ecosystem": "npm",
           "keywords": [
@@ -640,11 +640,11 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
           },
-          "package_date": "2026-08-25T08:56:26.647Z",
+          "package_date": "2026-08-25T12:54:17.928Z",
           "package_name": "@sogni-ai/sogni-intelligence-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T08:56:57.935Z",
-          "version": "3.23.2"
+          "updated": "2026-08-25T12:54:48.901Z",
+          "version": "3.23.3"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
       },
@@ -722,7 +722,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -840,7 +840,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T12:25:09.918037+00:00",
+      "fetched_at": "2026-08-25T13:54:08.438691+00:00",
       "observed_fields": {
         "categories": [
           "Tools",

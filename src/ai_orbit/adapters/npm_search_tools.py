@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 from typing import Any
 
@@ -10,7 +11,7 @@ from src.ai_orbit.utils.http import HttpRetryConfig, JsonHttpClient, SourceFetch
 from src.ai_orbit.utils.url import normalize_url
 
 
-AI_RELEVANCE_TERMS = {
+AI_RELEVANCE_TOKENS = {
     "ai",
     "llm",
     "genai",
@@ -21,24 +22,24 @@ AI_RELEVANCE_TERMS = {
     "gemini",
     "gpt",
     "agent",
+    "agents",
     "agentic",
     "mcp",
-    "model-context-protocol",
-    "stable-diffusion",
     "comfyui",
     "generative",
 }
 
-CREATIVE_TERMS = {
-    "stable-diffusion",
-    "comfyui",
-    "image",
-    "video",
-    "audio",
-    "creative",
+AI_RELEVANCE_PHRASES = {
+    "model context protocol",
+    "stable diffusion",
+    "ai sdk",
+    "language model",
+    "tool calling",
+    "structured output",
 }
 
-MCP_TERMS = {"mcp", "model-context-protocol", "model context protocol"}
+CREATIVE_TOKENS = {"comfyui", "image", "video", "audio", "creative"}
+CREATIVE_PHRASES = {"stable diffusion", "image generation", "video generation", "audio generation"}
 
 
 class NpmSearchToolAdapter(SourceAdapter):
@@ -156,8 +157,7 @@ class NpmSearchToolAdapter(SourceAdapter):
         npm_url = (package.get("links") or {}).get("npm")
         if not isinstance(name, str) or not isinstance(description, str) or not isinstance(npm_url, str):
             return False
-        haystack = self._package_haystack(package)
-        return any(term in haystack for term in AI_RELEVANCE_TERMS)
+        return self._has_ai_relevance_evidence(package)
 
     def _record_from_package(
         self,
@@ -185,7 +185,6 @@ class NpmSearchToolAdapter(SourceAdapter):
         if not self._is_candidate_package(package_for_filter):
             return None
 
-        haystack = self._package_haystack(package_for_filter)
         is_mcp = self._is_mcp_package(name, description)
         categories = ["Tools"]
         entity_type = "tool"
@@ -214,7 +213,7 @@ class NpmSearchToolAdapter(SourceAdapter):
                 "deprecated": version_doc.get("deprecated"),
                 "bin": version_doc.get("bin"),
             }
-        if any(term in haystack for term in CREATIVE_TERMS):
+        if self._has_creative_evidence(package_for_filter):
             categories.append("Creative")
 
         return RawEntityRecord(
@@ -242,6 +241,31 @@ class NpmSearchToolAdapter(SourceAdapter):
             return True
         normalized_name = name.lower().replace("_", "-")
         return normalized_name.endswith("-mcp") or "-mcp-" in normalized_name or "/mcp-" in normalized_name or "/mcp" in normalized_name
+
+    def _has_ai_relevance_evidence(self, package: dict[str, Any]) -> bool:
+        tokens = self._package_tokens(package)
+        if tokens & AI_RELEVANCE_TOKENS:
+            return True
+        # GPT identifiers are often written as GPT4/GPT4o without a delimiter.
+        if any(re.fullmatch(r"gpt\d+[a-z0-9]*", token) for token in tokens):
+            return True
+        return self._has_any_phrase(package, AI_RELEVANCE_PHRASES)
+
+    def _has_creative_evidence(self, package: dict[str, Any]) -> bool:
+        tokens = self._package_tokens(package)
+        if tokens & CREATIVE_TOKENS:
+            return True
+        return self._has_any_phrase(package, CREATIVE_PHRASES)
+
+    def _has_any_phrase(self, package: dict[str, Any], phrases: set[str]) -> bool:
+        normalized = f" {self._normalized_package_text(package)} "
+        return any(f" {phrase} " in normalized for phrase in phrases)
+
+    def _package_tokens(self, package: dict[str, Any]) -> set[str]:
+        return set(re.findall(r"[a-z0-9]+", self._package_haystack(package)))
+
+    def _normalized_package_text(self, package: dict[str, Any]) -> str:
+        return re.sub(r"[^a-z0-9]+", " ", self._package_haystack(package)).strip()
 
     def _package_haystack(self, package: dict[str, Any]) -> str:
         keywords = package.get("keywords") or []

@@ -303,23 +303,6 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agent",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/ato-mcp"
-    },
-    "id": "4fa3eab3-7a5f-57a7-a502-6d41a311b744",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/ato-mcp"
-    },
-    "source_entity_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
       "observed_value": "machine-learning",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"

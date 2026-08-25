@@ -30,6 +30,30 @@ def test_npm_search_candidate_filter_requires_explicit_ai_evidence_and_npm_url()
             "links": {},
         }
     )
+    assert not adapter._is_candidate_package(
+        {
+            "name": "domain-mailer",
+            "description": "Chainable email utilities for domains",
+            "keywords": ["mail", "domain", "chain"],
+            "links": {"npm": "https://www.npmjs.com/package/domain-mailer"},
+        }
+    )
+    assert not adapter._is_candidate_package(
+        {
+            "name": "emcp-lite",
+            "description": "Parser utilities for embedded control protocols",
+            "keywords": ["parser"],
+            "links": {"npm": "https://www.npmjs.com/package/emcp-lite"},
+        }
+    )
+    assert adapter._is_candidate_package(
+        {
+            "name": "gpt4-client",
+            "description": "Client for GPT4-compatible model APIs",
+            "keywords": ["models"],
+            "links": {"npm": "https://www.npmjs.com/package/gpt4-client"},
+        }
+    )
     assert not adapter._is_mcp_package("ai", "AI SDK with MCP support listed only as a keyword elsewhere")
     assert adapter._is_mcp_package("comfyui-mcp", "Local-first MCP server for ComfyUI")
 

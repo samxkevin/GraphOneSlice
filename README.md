@@ -44,14 +44,14 @@ The implementation is deliberately conservative: source records are authoritativ
 Latest verification commands run in this branch:
 
 ```bash
-.venv/bin/python -m pytest tests/ -q
-.venv/bin/python run.py
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovider
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 ```
 
 Current generated artifacts report:
 
 - valid entities: `71`
-- valid relationships: `53`
+- valid relationships: `52`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
@@ -177,6 +177,7 @@ Entity resolution is therefore **implemented and tested for the current vertical
   - package dates are version/update timestamps, not launch/news publication timestamps.
   - package publisher/maintainer fields are not treated as company identity.
   - each accepted search hit is verified against its package-specific registry document before export.
+  - AI relevance filtering uses token/phrase matching for short terms such as `ai`, `llm`, `gpt`, and `mcp` so unrelated substrings inside longer words are not accepted as evidence.
 
 #### Official SDK Model Definitions
 
@@ -423,7 +424,7 @@ Outputs are written to `data/`.
 ## How to test
 
 ```bash
-.venv/bin/python -m pytest tests/ -q
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovider
 ```
 
 Current verified result:
@@ -445,7 +446,7 @@ AI Orbit-specific tests cover:
 - bounded retry behavior;
 - source failure isolation;
 - official SDK model literal parsing;
-- NPM search/package filtering and MCP/Creative classification.
+- NPM search/package filtering, substring false-positive rejection, and MCP/Creative classification.
 
 ## Generated artifacts
 

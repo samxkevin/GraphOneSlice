@@ -20,7 +20,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -85,7 +85,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -150,7 +150,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -215,7 +215,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -280,7 +280,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -345,7 +345,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -410,7 +410,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -475,7 +475,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -540,7 +540,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -605,7 +605,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -670,7 +670,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -735,7 +735,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -800,7 +800,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -865,7 +865,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -930,7 +930,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -995,7 +995,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-25T12:25:17.578040+00:00",
+      "fetched_at": "2026-08-25T13:54:13.862601+00:00",
       "observed_fields": {
         "categories": [
           "Models"
