@@ -62,7 +62,7 @@ Current generated artifacts report:
 - provenance coverage: `100%`
 - recorded source failures: `15`
 - duplicate/shared URL warnings: `4`
-- test result: `133 passed`
+- test result: `142 passed`
 - relationship types produced: `develops` (20), `solves` (27), `published_by` (10), `integrates_with` (1), `runs` (77)
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
@@ -702,7 +702,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-133 passed
+142 passed
 ```
 
 AI Orbit-specific tests cover:

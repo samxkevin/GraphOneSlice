@@ -43,7 +43,7 @@
     "name": "3D-Deep-BOX",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -144,7 +144,7 @@
     "name": "ACT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -238,7 +238,7 @@
     "name": "CavaFace",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -325,7 +325,7 @@
     "name": "centernet_resnet_v1_50_postprocess",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -396,7 +396,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -461,7 +461,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -526,7 +526,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -591,7 +591,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -656,7 +656,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -721,7 +721,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -786,7 +786,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -851,7 +851,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -923,7 +923,7 @@
     "name": "clip_vit_b_32_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1014,7 +1014,7 @@
     "name": "ConvNext-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1105,7 +1105,7 @@
     "name": "damoyolo_tinynasL35_M",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1208,7 +1208,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1320,7 +1320,7 @@
     "name": "Depth-Anything",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1407,7 +1407,7 @@
     "name": "depth_anything_vits",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1495,7 +1495,7 @@
     "name": "DETR-ResNet50-DC5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1599,7 +1599,7 @@
     "name": "EdgeTAM",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1693,7 +1693,7 @@
     "name": "efficientnet_l",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1785,7 +1785,7 @@
     "name": "EfficientViT-l2-cls",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1877,7 +1877,7 @@
     "name": "espcn_x2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1967,7 +1967,7 @@
     "name": "Facial-Landmark-Detection",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2056,7 +2056,7 @@
     "name": "fast_sam_s",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2145,7 +2145,7 @@
     "name": "FFNet-54S",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2253,7 +2253,7 @@
     "name": "Gemma-4-E2B-it",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2370,7 +2370,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2462,7 +2462,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2527,7 +2527,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2592,7 +2592,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2657,7 +2657,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2722,7 +2722,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2787,7 +2787,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2866,7 +2866,7 @@
     "name": "GR00TN1.5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2952,7 +2952,7 @@
     "name": "hailo_yolov8s_480_640",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3049,7 +3049,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3162,7 +3162,7 @@
     "name": "IndusQ-1.1B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3256,7 +3256,7 @@
     "name": "levit384",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3344,7 +3344,7 @@
     "name": "Llama-SEA-LION-v3.5-8B-R",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3438,7 +3438,7 @@
     "name": "Mask2Former",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3542,7 +3542,7 @@
     "name": "MeloTTS-EN",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3661,7 +3661,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3773,7 +3773,7 @@
     "name": "MNASNet05",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3865,7 +3865,7 @@
     "name": "mobilenet_v3",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3954,7 +3954,7 @@
     "name": "MobileSam",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4036,7 +4036,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4101,7 +4101,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4185,7 +4185,7 @@
     "name": "OpenAI-Clip",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4294,7 +4294,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4402,7 +4402,7 @@
     "name": "OWL-V2",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4491,7 +4491,7 @@
     "name": "paddle_ocr_v5_mobile_detection",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4585,7 +4585,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4698,7 +4698,7 @@
     "name": "PiperTTS-IT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4805,7 +4805,7 @@
     "name": "QuickSRNetSmall",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4906,7 +4906,7 @@
     "name": "Qwen3.5-0.8B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5015,7 +5015,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5138,7 +5138,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5267,7 +5267,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5388,7 +5388,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5503,7 +5503,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5610,7 +5610,7 @@
     "name": "Real-ESRGAN-General-x4v3",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5699,7 +5699,7 @@
     "name": "regnetx_800mf",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5784,7 +5784,7 @@
     "name": "ResNet34-SSD",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5869,7 +5869,7 @@
     "name": "resnet_v1_34",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5955,7 +5955,7 @@
     "name": "RF-DETR",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6041,7 +6041,7 @@
     "name": "scrfd_10g_nv12_fhd",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6135,7 +6135,7 @@
     "name": "Segformer-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6228,7 +6228,7 @@
     "name": "siglip_b_16_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6313,7 +6313,7 @@
     "name": "SixDRepNet",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6398,7 +6398,7 @@
     "name": "stereonet",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6489,7 +6489,7 @@
     "name": "Swin-Small",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6580,7 +6580,7 @@
     "name": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6658,7 +6658,7 @@
     "name": "unet_mobilenet_v2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6752,7 +6752,7 @@
     "name": "VIT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6845,7 +6845,7 @@
     "name": "vit_tiny",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6932,7 +6932,7 @@
     "name": "Whisper-Small-Quantized",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7041,7 +7041,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7154,7 +7154,7 @@
     "name": "YOLO26-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7246,7 +7246,7 @@
     "name": "yolo26n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7325,7 +7325,7 @@
     "name": "yolov10x",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7417,7 +7417,7 @@
     "name": "YOLOv11-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7509,7 +7509,7 @@
     "name": "yolov11s_obb",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7588,7 +7588,7 @@
     "name": "yolov4_leaky",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7667,7 +7667,7 @@
     "name": "yolov5m_vehicles_yuy2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7746,7 +7746,7 @@
     "name": "yolov5s_c3tr",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7825,7 +7825,7 @@
     "name": "yolov6n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7919,7 +7919,7 @@
     "name": "YOLOv8-OBB",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8013,7 +8013,7 @@
     "name": "yolov8m",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8092,7 +8092,7 @@
     "name": "yolov8s_seg",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8170,7 +8170,7 @@
     "name": "zero_dce_pp",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"

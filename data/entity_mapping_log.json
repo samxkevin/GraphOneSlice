@@ -260,6 +260,16 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
   },
   {
+    "canonical_id": "9147142c-7d83-5ec7-8bfe-862ed0de78c7",
+    "canonical_value": "@langchain/openai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/openai",
+    "raw_value": "@langchain/openai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
+  },
+  {
     "canonical_id": "61b4394f-3675-5be3-8ff5-f18e4b19b614",
     "canonical_value": "@earendil-works/pi-ai",
     "confidence": 1.0,
@@ -278,16 +288,6 @@
     "raw_value": "langchain",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/langchain"
-  },
-  {
-    "canonical_id": "9147142c-7d83-5ec7-8bfe-862ed0de78c7",
-    "canonical_value": "@langchain/openai",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@langchain/openai",
-    "raw_value": "@langchain/openai",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
   },
   {
     "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
@@ -440,16 +440,6 @@
     "source_url": "https://registry.npmjs.org/ato-mcp"
   },
   {
-    "canonical_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
-    "canonical_value": "agent-device",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:agent-device",
-    "raw_value": "agent-device",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/agent-device"
-  },
-  {
     "canonical_id": "f55179f4-291d-547c-b9b2-5a6700158765",
     "canonical_value": "@lovable.dev/mcp-js",
     "confidence": 1.0,
@@ -458,6 +448,16 @@
     "raw_value": "@lovable.dev/mcp-js",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js"
+  },
+  {
+    "canonical_id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "canonical_value": "pi-mcp-adapter",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:pi-mcp-adapter",
+    "raw_value": "pi-mcp-adapter",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -1410,14 +1410,14 @@
     "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
   },
   {
-    "canonical_id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
-    "canonical_value": "Patch release: v5.15.1",
+    "canonical_id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
+    "canonical_value": "Release v5.16.1",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "github:release:huggingface/transformers:372767786",
-    "raw_value": "Patch release: v5.15.1",
+    "raw_source_key": "github:release:huggingface/transformers:377216922",
+    "raw_value": "Release v5.16.1",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
   },
   {
     "canonical_id": "a981db00-4584-513a-b7fd-d250034611e2",
@@ -1480,14 +1480,14 @@
     "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
   },
   {
-    "canonical_id": "0894460e-3a4c-5dc1-903b-e563189bb0a8",
-    "canonical_value": "v1.0.0",
+    "canonical_id": "975a45d1-f64f-563d-b143-fd2c5e787e9f",
+    "canonical_value": "v1.1.0",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "github:release:anthropics/anthropic-sdk-python:373995738",
-    "raw_value": "v1.0.0",
+    "raw_source_key": "github:release:anthropics/anthropic-sdk-python:377292225",
+    "raw_value": "v1.1.0",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738"
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225"
   },
   {
     "canonical_id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
@@ -1500,14 +1500,14 @@
     "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
   },
   {
-    "canonical_id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
-    "canonical_value": "Release: v5.15.0",
+    "canonical_id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "canonical_value": "Release: v5.16.0",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "github:release:huggingface/transformers:367727332",
-    "raw_value": "Release: v5.15.0",
+    "raw_source_key": "github:release:huggingface/transformers:377105315",
+    "raw_value": "Release: v5.16.0",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
   },
   {
     "canonical_id": "14e79e04-9fa3-587f-9422-3415259f1aed",

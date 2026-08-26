@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -277,7 +277,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +346,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +406,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -482,7 +482,7 @@
     "name": "01Studio CanMV K230 Development Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -565,7 +565,7 @@
     "name": "Alif Semiconductor AK-E7-AIML",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -648,7 +648,7 @@
     "name": "Arduino Nicla Voice",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -731,7 +731,7 @@
     "name": "AVNet AES-RASYNB-120-SK-G",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -814,7 +814,7 @@
     "name": "ESP32-S3-EYE",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -896,7 +896,7 @@
     "name": "Grove Vision AI Module V2",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -973,7 +973,7 @@
     "name": "Hailo-10H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1046,7 +1046,7 @@
     "name": "Hailo-15H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1119,7 +1119,7 @@
     "name": "Hailo-15L",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1196,7 +1196,7 @@
     "name": "LAUNCHXL-F28P55X",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1278,7 +1278,7 @@
     "name": "MaaXBoard OSM93 Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1362,7 +1362,7 @@
     "name": "MAX78000FTHR",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1447,7 +1447,7 @@
     "name": "NUCLEO-N657X0-Q",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1531,7 +1531,7 @@
     "name": "NXP MCIMX93-EVK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1614,7 +1614,7 @@
     "name": "Seeed Studio XIAO ESP32S3",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1698,7 +1698,7 @@
     "name": "SiLabs NxG24-DK2601B",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1782,7 +1782,7 @@
     "name": "Sipeed Maix Bit",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1866,7 +1866,7 @@
     "name": "STM32N6570-DK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1977,7 +1977,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2113,7 +2113,7 @@
     "name": "@lovable.dev/mcp-js",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2217,7 +2217,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2290,7 +2290,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2363,7 +2363,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2436,7 +2436,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2483,221 +2483,6 @@
       "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
     },
     "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
-  },
-  {
-    "categories": [
-      "Tools",
-      "MCP"
-    ],
-    "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-    "entity_type": "mcp",
-    "id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
-    "metadata": {
-      "mcp": {
-        "bin": {
-          "agent-device": "bin/agent-device.mjs"
-        },
-        "deprecated": null,
-        "installation_method": "npm package agent-device",
-        "package_name": "agent-device",
-        "runtime_requirements": {
-          "node": ">=22.12"
-        },
-        "version": "0.20.10"
-      },
-      "package": {
-        "ai_relevance_evidence": {
-          "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-          "field": "description",
-          "signals": [
-            "agents",
-            "ai",
-            "mcp"
-          ]
-        },
-        "downloads": {
-          "monthly": 545879,
-          "weekly": 134241
-        },
-        "ecosystem": "npm",
-        "keywords": [
-          "agent",
-          "device",
-          "cli",
-          "automation",
-          "adb",
-          "simctl",
-          "devicectl",
-          "ios",
-          "android",
-          "tvos",
-          "macos",
-          "web",
-          "browser",
-          "react-native",
-          "observability",
-          "diagnostics",
-          "network",
-          "profiling",
-          "performance",
-          "mcp",
-          "model-context-protocol",
-          "mcp-server",
-          "ai-agent",
-          "mobile-automation",
-          "ios-simulator",
-          "android-emulator",
-          "xcuitest",
-          "e2e-testing",
-          "cursor",
-          "claude-code",
-          "expo",
-          "mobile-testing",
-          "qa-automation",
-          "ai-testing",
-          "ios-automation",
-          "android-automation",
-          "simulator",
-          "emulator",
-          "appium",
-          "maestro",
-          "detox"
-        ],
-        "license": "MIT",
-        "links": {
-          "bugs": "https://github.com/callstack/agent-device/issues",
-          "homepage": "https://agent-device.dev/",
-          "npm": "https://www.npmjs.com/package/agent-device",
-          "repository": "git+https://github.com/callstack/agent-device.git"
-        },
-        "package_date": "2026-08-18T19:33:12.472Z",
-        "package_name": "agent-device",
-        "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:24:09.434Z",
-        "version": "0.20.10"
-      }
-    },
-    "name": "agent-device",
-    "provenance": {
-      "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
-      "observed_fields": {
-        "categories": [
-          "Tools",
-          "MCP"
-        ],
-        "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-        "mcp": {
-          "bin": {
-            "agent-device": "bin/agent-device.mjs"
-          },
-          "deprecated": null,
-          "installation_method": "npm package agent-device",
-          "package_name": "agent-device",
-          "runtime_requirements": {
-            "node": ">=22.12"
-          },
-          "version": "0.20.10"
-        },
-        "name": "agent-device",
-        "package": {
-          "ai_relevance_evidence": {
-            "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-            "field": "description",
-            "signals": [
-              "agents",
-              "ai",
-              "mcp"
-            ]
-          },
-          "downloads": {
-            "monthly": 545879,
-            "weekly": 134241
-          },
-          "ecosystem": "npm",
-          "keywords": [
-            "agent",
-            "device",
-            "cli",
-            "automation",
-            "adb",
-            "simctl",
-            "devicectl",
-            "ios",
-            "android",
-            "tvos",
-            "macos",
-            "web",
-            "browser",
-            "react-native",
-            "observability",
-            "diagnostics",
-            "network",
-            "profiling",
-            "performance",
-            "mcp",
-            "model-context-protocol",
-            "mcp-server",
-            "ai-agent",
-            "mobile-automation",
-            "ios-simulator",
-            "android-emulator",
-            "xcuitest",
-            "e2e-testing",
-            "cursor",
-            "claude-code",
-            "expo",
-            "mobile-testing",
-            "qa-automation",
-            "ai-testing",
-            "ios-automation",
-            "android-automation",
-            "simulator",
-            "emulator",
-            "appium",
-            "maestro",
-            "detox"
-          ],
-          "license": "MIT",
-          "links": {
-            "bugs": "https://github.com/callstack/agent-device/issues",
-            "homepage": "https://agent-device.dev/",
-            "npm": "https://www.npmjs.com/package/agent-device",
-            "repository": "git+https://github.com/callstack/agent-device.git"
-          },
-          "package_date": "2026-08-18T19:33:12.472Z",
-          "package_name": "agent-device",
-          "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:24:09.434Z",
-          "version": "0.20.10"
-        },
-        "url": "https://www.npmjs.com/package/agent-device"
-      },
-      "source_record_id": "npm-search:package:agent-device",
-      "source_url": "https://registry.npmjs.org/agent-device",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "agent-device",
-          "operation": "normalize_name",
-          "output": "agent-device",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "mcp:url:https://www.npmjs.com/package/agent-device",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/agent-device"
-    },
-    "url": "https://www.npmjs.com/package/agent-device"
   },
   {
     "categories": [
@@ -2761,7 +2546,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2912,7 +2697,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -3021,7 +2806,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.129"
+        "version": "0.52.130"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -3096,17 +2881,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-26T11:41:11.288Z",
+        "package_date": "2026-08-26T12:26:01.664Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T11:41:42.620Z",
-        "version": "0.52.129"
+        "updated": "2026-08-26T12:26:36.590Z",
+        "version": "0.52.130"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -3124,7 +2909,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.129"
+          "version": "0.52.130"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -3200,11 +2985,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-26T11:41:11.288Z",
+          "package_date": "2026-08-26T12:26:01.664Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T11:41:42.620Z",
-          "version": "0.52.129"
+          "updated": "2026-08-26T12:26:36.590Z",
+          "version": "0.52.130"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -3233,6 +3018,153 @@
       "url": "https://registry.npmjs.org/comfyui-mcp"
     },
     "url": "https://www.npmjs.com/package/comfyui-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+    "entity_type": "mcp",
+    "id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "pi-mcp-adapter": "cli.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package pi-mcp-adapter",
+        "package_name": "pi-mcp-adapter",
+        "runtime_requirements": {
+          "node": ">=20"
+        },
+        "version": "2.28.0"
+      },
+      "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "pi-mcp-adapter",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
+        "downloads": {
+          "monthly": 628192,
+          "weekly": 162089
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "pi-package",
+          "pi",
+          "mcp",
+          "model-context-protocol",
+          "ai",
+          "coding-agent",
+          "extension",
+          "claude",
+          "llm"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
+          "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
+          "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
+          "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+        },
+        "package_date": "2026-08-26T05:28:20.600Z",
+        "package_name": "pi-mcp-adapter",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-26T11:26:03.244Z",
+        "version": "2.28.0"
+      }
+    },
+    "name": "pi-mcp-adapter",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+        "mcp": {
+          "bin": {
+            "pi-mcp-adapter": "cli.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package pi-mcp-adapter",
+          "package_name": "pi-mcp-adapter",
+          "runtime_requirements": {
+            "node": ">=20"
+          },
+          "version": "2.28.0"
+        },
+        "name": "pi-mcp-adapter",
+        "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "pi-mcp-adapter",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
+          "downloads": {
+            "monthly": 628192,
+            "weekly": 162089
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "pi-package",
+            "pi",
+            "mcp",
+            "model-context-protocol",
+            "ai",
+            "coding-agent",
+            "extension",
+            "claude",
+            "llm"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
+            "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
+            "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
+            "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+          },
+          "package_date": "2026-08-26T05:28:20.600Z",
+          "package_name": "pi-mcp-adapter",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-26T11:26:03.244Z",
+          "version": "2.28.0"
+        },
+        "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+      },
+      "source_record_id": "npm-search:package:pi-mcp-adapter",
+      "source_url": "https://registry.npmjs.org/pi-mcp-adapter",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "pi-mcp-adapter",
+          "operation": "normalize_name",
+          "output": "pi-mcp-adapter",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/pi-mcp-adapter",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "url": "https://www.npmjs.com/package/pi-mcp-adapter"
   },
   {
     "categories": [
@@ -3278,7 +3210,7 @@
     "name": "3D-Deep-BOX",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3379,7 +3311,7 @@
     "name": "ACT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3473,7 +3405,7 @@
     "name": "CavaFace",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3560,7 +3492,7 @@
     "name": "centernet_resnet_v1_50_postprocess",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3631,7 +3563,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3696,7 +3628,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3761,7 +3693,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3826,7 +3758,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3891,7 +3823,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3956,7 +3888,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4021,7 +3953,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4086,7 +4018,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4158,7 +4090,7 @@
     "name": "clip_vit_b_32_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4249,7 +4181,7 @@
     "name": "ConvNext-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4340,7 +4272,7 @@
     "name": "damoyolo_tinynasL35_M",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4443,7 +4375,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4555,7 +4487,7 @@
     "name": "Depth-Anything",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4642,7 +4574,7 @@
     "name": "depth_anything_vits",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4730,7 +4662,7 @@
     "name": "DETR-ResNet50-DC5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4834,7 +4766,7 @@
     "name": "EdgeTAM",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4928,7 +4860,7 @@
     "name": "efficientnet_l",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5020,7 +4952,7 @@
     "name": "EfficientViT-l2-cls",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5112,7 +5044,7 @@
     "name": "espcn_x2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5202,7 +5134,7 @@
     "name": "Facial-Landmark-Detection",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5291,7 +5223,7 @@
     "name": "fast_sam_s",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5380,7 +5312,7 @@
     "name": "FFNet-54S",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5488,7 +5420,7 @@
     "name": "Gemma-4-E2B-it",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5605,7 +5537,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5697,7 +5629,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5762,7 +5694,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5827,7 +5759,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5892,7 +5824,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5957,7 +5889,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6022,7 +5954,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6101,7 +6033,7 @@
     "name": "GR00TN1.5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6187,7 +6119,7 @@
     "name": "hailo_yolov8s_480_640",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6284,7 +6216,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6397,7 +6329,7 @@
     "name": "IndusQ-1.1B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6491,7 +6423,7 @@
     "name": "levit384",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6579,7 +6511,7 @@
     "name": "Llama-SEA-LION-v3.5-8B-R",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6673,7 +6605,7 @@
     "name": "Mask2Former",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6777,7 +6709,7 @@
     "name": "MeloTTS-EN",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6896,7 +6828,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7008,7 +6940,7 @@
     "name": "MNASNet05",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7100,7 +7032,7 @@
     "name": "mobilenet_v3",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7189,7 +7121,7 @@
     "name": "MobileSam",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7271,7 +7203,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7336,7 +7268,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T11:43:53.607964+00:00",
+      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7420,7 +7352,7 @@
     "name": "OpenAI-Clip",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7529,7 +7461,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7637,7 +7569,7 @@
     "name": "OWL-V2",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7726,7 +7658,7 @@
     "name": "paddle_ocr_v5_mobile_detection",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7820,7 +7752,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7933,7 +7865,7 @@
     "name": "PiperTTS-IT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8040,7 +7972,7 @@
     "name": "QuickSRNetSmall",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8141,7 +8073,7 @@
     "name": "Qwen3.5-0.8B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8250,7 +8182,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8373,7 +8305,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8502,7 +8434,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8623,7 +8555,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8738,7 +8670,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8845,7 +8777,7 @@
     "name": "Real-ESRGAN-General-x4v3",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8934,7 +8866,7 @@
     "name": "regnetx_800mf",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9019,7 +8951,7 @@
     "name": "ResNet34-SSD",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9104,7 +9036,7 @@
     "name": "resnet_v1_34",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9190,7 +9122,7 @@
     "name": "RF-DETR",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9276,7 +9208,7 @@
     "name": "scrfd_10g_nv12_fhd",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9370,7 +9302,7 @@
     "name": "Segformer-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9463,7 +9395,7 @@
     "name": "siglip_b_16_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9548,7 +9480,7 @@
     "name": "SixDRepNet",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9633,7 +9565,7 @@
     "name": "stereonet",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9724,7 +9656,7 @@
     "name": "Swin-Small",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9815,7 +9747,7 @@
     "name": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9893,7 +9825,7 @@
     "name": "unet_mobilenet_v2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9987,7 +9919,7 @@
     "name": "VIT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10080,7 +10012,7 @@
     "name": "vit_tiny",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10167,7 +10099,7 @@
     "name": "Whisper-Small-Quantized",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10276,7 +10208,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T11:43:54.467806+00:00",
+      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10389,7 +10321,7 @@
     "name": "YOLO26-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10481,7 +10413,7 @@
     "name": "yolo26n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10560,7 +10492,7 @@
     "name": "yolov10x",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10652,7 +10584,7 @@
     "name": "YOLOv11-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10744,7 +10676,7 @@
     "name": "yolov11s_obb",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10823,7 +10755,7 @@
     "name": "yolov4_leaky",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10902,7 +10834,7 @@
     "name": "yolov5m_vehicles_yuy2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10981,7 +10913,7 @@
     "name": "yolov5s_c3tr",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11060,7 +10992,7 @@
     "name": "yolov6n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11154,7 +11086,7 @@
     "name": "YOLOv8-OBB",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T11:44:29.572221+00:00",
+      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11248,7 +11180,7 @@
     "name": "yolov8m",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11327,7 +11259,7 @@
     "name": "yolov8s_seg",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11405,7 +11337,7 @@
     "name": "zero_dce_pp",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11494,7 +11426,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11603,7 +11535,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11720,7 +11652,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11829,7 +11761,7 @@
     "name": "7.0.9",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11934,7 +11866,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12043,7 +11975,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12113,125 +12045,6 @@
     "categories": [
       "News"
     ],
-    "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
-    "entity_type": "news",
-    "id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
-    "metadata": {
-      "news": {
-        "ai_relevance_evidence": {
-          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-          "matched_fields": [
-            "repository.description",
-            "repository.full_name",
-            "repository.topics"
-          ],
-          "matched_tokens": [
-            "machine learning",
-            "transformer",
-            "multimodal",
-            "llm",
-            "nlp",
-            "machine-learning",
-            "deep-learning",
-            "natural-language",
-            "speech-recognition",
-            "huggingface"
-          ]
-        },
-        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-        "created_at": "2026-08-19T10:45:30+00:00",
-        "prerelease": false,
-        "published_at": "2026-08-19T10:50:47+00:00",
-        "publisher": {
-          "html_url": "https://github.com/huggingface",
-          "login": "huggingface",
-          "type": "Organization"
-        },
-        "release_id": 372767786,
-        "repository": "huggingface/transformers",
-        "subtype": "github_release_announcement",
-        "tag_name": "v5.15.1",
-        "timestamp_semantics": "github_release_published_at"
-      }
-    },
-    "name": "Patch release: v5.15.1",
-    "provenance": {
-      "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
-      "observed_fields": {
-        "categories": [
-          "News"
-        ],
-        "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
-        "name": "Patch release: v5.15.1",
-        "news": {
-          "ai_relevance_evidence": {
-            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-            "matched_fields": [
-              "repository.description",
-              "repository.full_name",
-              "repository.topics"
-            ],
-            "matched_tokens": [
-              "machine learning",
-              "transformer",
-              "multimodal",
-              "llm",
-              "nlp",
-              "machine-learning",
-              "deep-learning",
-              "natural-language",
-              "speech-recognition",
-              "huggingface"
-            ]
-          },
-          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-          "created_at": "2026-08-19T10:45:30+00:00",
-          "prerelease": false,
-          "published_at": "2026-08-19T10:50:47+00:00",
-          "publisher": {
-            "html_url": "https://github.com/huggingface",
-            "login": "huggingface",
-            "type": "Organization"
-          },
-          "release_id": 372767786,
-          "repository": "huggingface/transformers",
-          "subtype": "github_release_announcement",
-          "tag_name": "v5.15.1",
-          "timestamp_semantics": "github_release_published_at"
-        },
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
-      },
-      "source_record_id": "github:release:huggingface/transformers:372767786",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "Patch release: v5.15.1",
-          "operation": "normalize_name",
-          "output": "patch release: v5 15 1",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
-    },
-    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
-  },
-  {
-    "categories": [
-      "News"
-    ],
     "description": "Generated by Speakeasy CLI 2026-08-21 09:35:18 Changes Based on: - OpenAPI Doc - Speakeasy CLI 1.763.6 (2.884.13) https://github.com/speakeasy-api/speakeasy Generated - [python v2.9.4] . Releases - [PyPI v2.9.4] https://pypi.org/project/mistralai/2.9.4 - . Publishing Completed",
     "entity_type": "news",
     "id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
@@ -12267,7 +12080,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12333,9 +12146,9 @@
     "categories": [
       "News"
     ],
-    "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
+    "description": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned around capability and efficiency. For the first time in the GLM series, we introduce a hybrid architecture combining sparse and linear attention, sharply reducing long-context serving costs while preserving precise long-context capabilities. The model also adopts Manifold-Constrained Hyper-Connections (m",
     "entity_type": "news",
-    "id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
+    "id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -12358,32 +12171,32 @@
             "huggingface"
           ]
         },
-        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-        "created_at": "2026-08-10T10:23:02+00:00",
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+        "created_at": "2026-08-26T14:31:32+00:00",
         "prerelease": false,
-        "published_at": "2026-08-10T10:28:13+00:00",
+        "published_at": "2026-08-26T14:50:01+00:00",
         "publisher": {
           "html_url": "https://github.com/huggingface",
           "login": "huggingface",
           "type": "Organization"
         },
-        "release_id": 367727332,
+        "release_id": 377216922,
         "repository": "huggingface/transformers",
         "subtype": "github_release_announcement",
-        "tag_name": "v5.15.0",
+        "tag_name": "v5.16.1",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "Release: v5.15.0",
+    "name": "Release v5.16.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
-        "name": "Release: v5.15.0",
+        "description": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned around capability and efficiency. For the first time in the GLM series, we introduce a hybrid architecture combining sparse and linear attention, sharply reducing long-context serving costs while preserving precise long-context capabilities. The model also adopts Manifold-Constrained Hyper-Connections (m",
+        "name": "Release v5.16.1",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
@@ -12405,56 +12218,175 @@
               "huggingface"
             ]
           },
-          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-          "created_at": "2026-08-10T10:23:02+00:00",
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+          "created_at": "2026-08-26T14:31:32+00:00",
           "prerelease": false,
-          "published_at": "2026-08-10T10:28:13+00:00",
+          "published_at": "2026-08-26T14:50:01+00:00",
           "publisher": {
             "html_url": "https://github.com/huggingface",
             "login": "huggingface",
             "type": "Organization"
           },
-          "release_id": 367727332,
+          "release_id": 377216922,
           "repository": "huggingface/transformers",
           "subtype": "github_release_announcement",
-          "tag_name": "v5.15.0",
+          "tag_name": "v5.16.1",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
       },
-      "source_record_id": "github:release:huggingface/transformers:367727332",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332",
+      "source_record_id": "github:release:huggingface/transformers:377216922",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "Release: v5.15.0",
+          "input": "Release v5.16.1",
           "operation": "normalize_name",
-          "output": "release: v5 15 0",
+          "output": "release v5 16 1",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.16.1",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
     },
-    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
   },
   {
     "categories": [
       "News"
     ],
-    "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
+    "description": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5 s hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected back into each stream. QSA uses multiple query heads to score compressed key blocks, selects the most relevant contiguous token blocks, and keeps the incomplete trailing block uncompressed. This block-level selection reduces indexing overhead and improves memory locality for long sequences. Combined",
     "entity_type": "news",
-    "id": "0894460e-3a4c-5dc1-903b-e563189bb0a8",
+    "id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+        "created_at": "2026-08-26T12:08:26+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-26T12:35:15+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 377105315,
+        "repository": "huggingface/transformers",
+        "subtype": "github_release_announcement",
+        "tag_name": "v5.16.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Release: v5.16.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5 s hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected back into each stream. QSA uses multiple query heads to score compressed key blocks, selects the most relevant contiguous token blocks, and keeps the incomplete trailing block uncompressed. This block-level selection reduces indexing overhead and improves memory locality for long sequences. Combined",
+        "name": "Release: v5.16.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "transformer",
+              "multimodal",
+              "llm",
+              "nlp",
+              "machine-learning",
+              "deep-learning",
+              "natural-language",
+              "speech-recognition",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+          "created_at": "2026-08-26T12:08:26+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-26T12:35:15+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 377105315,
+          "repository": "huggingface/transformers",
+          "subtype": "github_release_announcement",
+          "tag_name": "v5.16.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+      },
+      "source_record_id": "github:release:huggingface/transformers:377105315",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Release: v5.16.0",
+          "operation": "normalize_name",
+          "output": "release: v5 16 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
+    },
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) (eb4a73f) api: add missing anthropic-beta values (dbebd15) api: add support for Organization API endpoints (5a5b8fc) Bug Fixes docs: correct link for long requests error ( 1884) (4474f31), closes 1883 tools: keep the tool runner going on pause turn ( 343) (ab1ec60) Chores docs: clarify skill version latest support and memory version retention (a754f3b) internal: cancel superseded CI runs (c061ab1) internal: minor workflow reformat (1569002) internal: remove the legacy response API (a48b1dd) internal: use import httpx2 directly instead of aliasing as httpx (628d789) Documentation api: clarify session thread agent and usage.iterations compaction descriptions (beta) (4ace503)",
+    "entity_type": "news",
+    "id": "975a45d1-f64f-563d-b143-fd2c5e787e9f",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -12466,32 +12398,32 @@
             "anthropic"
           ]
         },
-        "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-        "created_at": "2026-08-20T19:58:22+00:00",
+        "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+        "created_at": "2026-08-26T17:13:27+00:00",
         "prerelease": false,
-        "published_at": "2026-08-20T19:58:48+00:00",
+        "published_at": "2026-08-26T17:14:40+00:00",
         "publisher": {
           "html_url": "https://github.com/anthropics",
           "login": "anthropics",
           "type": "Organization"
         },
-        "release_id": 373995738,
+        "release_id": 377292225,
         "repository": "anthropics/anthropic-sdk-python",
         "subtype": "github_release_announcement",
-        "tag_name": "v1.0.0",
+        "tag_name": "v1.1.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "v1.0.0",
+    "name": "v1.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
-        "name": "v1.0.0",
+        "description": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) (eb4a73f) api: add missing anthropic-beta values (dbebd15) api: add support for Organization API endpoints (5a5b8fc) Bug Fixes docs: correct link for long requests error ( 1884) (4474f31), closes 1883 tools: keep the tool runner going on pause turn ( 343) (ab1ec60) Chores docs: clarify skill version latest support and memory version retention (a754f3b) internal: cancel superseded CI runs (c061ab1) internal: minor workflow reformat (1569002) internal: remove the legacy response API (a48b1dd) internal: use import httpx2 directly instead of aliasing as httpx (628d789) Documentation api: clarify session thread agent and usage.iterations compaction descriptions (beta) (4ace503)",
+        "name": "v1.1.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "anthropics/anthropic-sdk-python",
@@ -12502,48 +12434,48 @@
               "anthropic"
             ]
           },
-          "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-          "created_at": "2026-08-20T19:58:22+00:00",
+          "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+          "created_at": "2026-08-26T17:13:27+00:00",
           "prerelease": false,
-          "published_at": "2026-08-20T19:58:48+00:00",
+          "published_at": "2026-08-26T17:14:40+00:00",
           "publisher": {
             "html_url": "https://github.com/anthropics",
             "login": "anthropics",
             "type": "Organization"
           },
-          "release_id": 373995738,
+          "release_id": 377292225,
           "repository": "anthropics/anthropic-sdk-python",
           "subtype": "github_release_announcement",
-          "tag_name": "v1.0.0",
+          "tag_name": "v1.1.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0"
       },
-      "source_record_id": "github:release:anthropics/anthropic-sdk-python:373995738",
-      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738",
+      "source_record_id": "github:release:anthropics/anthropic-sdk-python:377292225",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "v1.0.0",
+          "input": "v1.1.0",
           "operation": "normalize_name",
-          "output": "v1 0 0",
+          "output": "v1 1 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+          "output": "news:url:https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738"
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225"
     },
-    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0"
   },
   {
     "categories": [
@@ -12583,7 +12515,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12683,7 +12615,7 @@
     "name": "v3.3.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12771,7 +12703,7 @@
     "name": "30characters",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12846,7 +12778,7 @@
     "name": "3d-ai-studio",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12921,7 +12853,7 @@
     "name": "adbot-your-search-ads-specialist",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12996,7 +12928,7 @@
     "name": "adcopy-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13071,7 +13003,7 @@
     "name": "adgeneratorpro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13146,7 +13078,7 @@
     "name": "ai-suggests",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13221,7 +13153,7 @@
     "name": "aihouse-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13296,7 +13228,7 @@
     "name": "alpha3d-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13371,7 +13303,7 @@
     "name": "avaturn-me",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13446,7 +13378,7 @@
     "name": "azameo-fr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13521,7 +13453,7 @@
     "name": "backflip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13596,7 +13528,7 @@
     "name": "blobr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13671,7 +13603,7 @@
     "name": "cgdream-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13746,7 +13678,7 @@
     "name": "copycop",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13821,7 +13753,7 @@
     "name": "copyflow-pro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13896,7 +13828,7 @@
     "name": "copywritergpt-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13971,7 +13903,7 @@
     "name": "csm",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14046,7 +13978,7 @@
     "name": "engagexai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14121,7 +14053,7 @@
     "name": "ezra-ads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14198,7 +14130,7 @@
     "name": "freeadcopy-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14275,7 +14207,7 @@
     "name": "isavantai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14350,7 +14282,7 @@
     "name": "kaedim",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14425,7 +14357,7 @@
     "name": "kilo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14500,7 +14432,7 @@
     "name": "ludo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14575,7 +14507,7 @@
     "name": "luma-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14650,7 +14582,7 @@
     "name": "macbeth-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14725,7 +14657,7 @@
     "name": "mappedin-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14800,7 +14732,7 @@
     "name": "marpipe-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14875,7 +14807,7 @@
     "name": "meshy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14951,7 +14883,7 @@
     "name": "modelslab-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15027,7 +14959,7 @@
     "name": "ogilvy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15102,7 +15034,7 @@
     "name": "omneky",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15177,7 +15109,7 @@
     "name": "pageon-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15252,7 +15184,7 @@
     "name": "pencil",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15327,7 +15259,7 @@
     "name": "pixcanva",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15402,7 +15334,7 @@
     "name": "planner-5d",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15477,7 +15409,7 @@
     "name": "powered-by-agency",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15552,7 +15484,7 @@
     "name": "quickads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15627,7 +15559,7 @@
     "name": "rodin",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15702,7 +15634,7 @@
     "name": "rosebud",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15777,7 +15709,7 @@
     "name": "runcomfy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15852,7 +15784,7 @@
     "name": "salesboosta-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15927,7 +15859,7 @@
     "name": "scrip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16002,7 +15934,7 @@
     "name": "sloyd",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16077,7 +16009,7 @@
     "name": "tripo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16152,7 +16084,7 @@
     "name": "unbound",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16227,7 +16159,7 @@
     "name": "vizcom",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16303,7 +16235,7 @@
     "name": "wonderchat",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16379,7 +16311,7 @@
     "name": "wordcopyai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16454,7 +16386,7 @@
     "name": "write-conch-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T11:43:53.968007+00:00",
+      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16517,9 +16449,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T11:27:31Z",
+        "last_updated_timestamp": "2026-08-26T19:02:34Z",
         "primary_language": "HTML",
-        "stars": 167927,
+        "stars": 167955,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -16545,7 +16477,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16558,9 +16490,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T11:27:31Z",
+          "last_updated_timestamp": "2026-08-26T19:02:34Z",
           "primary_language": "HTML",
-          "stars": 167927,
+          "stars": 167955,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -16621,9 +16553,9 @@
       "repository": {
         "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-26T11:09:02Z",
+        "last_updated_timestamp": "2026-08-26T18:29:09Z",
         "primary_language": "Python",
-        "stars": 96121,
+        "stars": 96131,
         "topics": [
           "ai",
           "ai-deep-fake",
@@ -16649,7 +16581,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -16659,9 +16591,9 @@
         "repository": {
           "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-26T11:09:02Z",
+          "last_updated_timestamp": "2026-08-26T18:29:09Z",
           "primary_language": "Python",
-          "stars": 96121,
+          "stars": 96131,
           "topics": [
             "ai",
             "ai-deep-fake",
@@ -16723,9 +16655,9 @@
       "repository": {
         "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-26T11:42:52Z",
+        "last_updated_timestamp": "2026-08-26T18:59:53Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103819,
+        "stars": 103842,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -16752,7 +16684,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16763,9 +16695,9 @@
         "repository": {
           "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-26T11:42:52Z",
+          "last_updated_timestamp": "2026-08-26T18:59:53Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103819,
+          "stars": 103842,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -16828,9 +16760,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T11:38:40Z",
+        "last_updated_timestamp": "2026-08-26T18:46:20Z",
         "primary_language": "Python",
-        "stars": 186879,
+        "stars": 186888,
         "topics": [
           "agentic-ai",
           "agents",
@@ -16849,7 +16781,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16860,9 +16792,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T11:38:40Z",
+          "last_updated_timestamp": "2026-08-26T18:46:20Z",
           "primary_language": "Python",
-          "stars": 186879,
+          "stars": 186888,
           "topics": [
             "agentic-ai",
             "agents",
@@ -16918,9 +16850,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T11:43:44Z",
+        "last_updated_timestamp": "2026-08-26T18:43:42Z",
         "primary_language": "JavaScript",
-        "stars": 91887,
+        "stars": 91923,
         "topics": [
           "ai",
           "ai-agents",
@@ -16948,7 +16880,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
+      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16960,9 +16892,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T11:43:44Z",
+          "last_updated_timestamp": "2026-08-26T18:43:42Z",
           "primary_language": "JavaScript",
-          "stars": 91887,
+          "stars": 91923,
           "topics": [
             "ai",
             "ai-agents",
@@ -17047,7 +16979,7 @@
     "name": "Allegro Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17139,7 +17071,7 @@
     "name": "AMIGO",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17231,7 +17163,7 @@
     "name": "AsTec Pelican and Hummingbird",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17320,7 +17252,7 @@
     "name": "Barrett Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17411,7 +17343,7 @@
     "name": "BipedRobin",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17502,7 +17434,7 @@
     "name": "BlueROV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17600,7 +17532,7 @@
     "name": "Clearpath Husky UGV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17704,7 +17636,7 @@
     "name": "Crazyflie",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17801,7 +17733,7 @@
     "name": "Erle-Copter",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17907,7 +17839,7 @@
     "name": "Innok Heros",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18013,7 +17945,7 @@
     "name": "Nao",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18110,7 +18042,7 @@
     "name": "Oculus Prime",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18211,7 +18143,7 @@
     "name": "PR2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18307,7 +18239,7 @@
     "name": "Segway RMPv3",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18403,7 +18335,7 @@
     "name": "TurtleBot2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T11:43:57.233107+00:00",
+      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18484,7 +18416,7 @@
     "name": "AI application observability",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18545,7 +18477,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18606,7 +18538,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18667,7 +18599,7 @@
     "name": "creative media generation",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18728,7 +18660,7 @@
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18789,7 +18721,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18850,7 +18782,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18911,7 +18843,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18972,7 +18904,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -19033,7 +18965,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:44:41.929086+00:00",
+      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -19127,7 +19059,7 @@
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19250,7 +19182,7 @@
     "name": "@earendil-works/pi-ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19373,7 +19305,7 @@
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19501,7 +19433,7 @@
     "name": "@langchain/openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19623,7 +19555,7 @@
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19791,17 +19723,17 @@
           "npm": "https://www.npmjs.com/package/@promptbook/utils",
           "repository": "git+https://github.com/webgptorg/promptbook.git"
         },
-        "package_date": "2026-08-25T12:05:24.286Z",
+        "package_date": "2026-08-26T12:17:42.537Z",
         "package_name": "@promptbook/utils",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-26T11:25:26.361Z",
-        "version": "0.114.0-18"
+        "updated": "2026-08-26T12:18:14.819Z",
+        "version": "0.114.0-19"
       }
     },
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19899,11 +19831,11 @@
             "npm": "https://www.npmjs.com/package/@promptbook/utils",
             "repository": "git+https://github.com/webgptorg/promptbook.git"
           },
-          "package_date": "2026-08-25T12:05:24.286Z",
+          "package_date": "2026-08-26T12:17:42.537Z",
           "package_name": "@promptbook/utils",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-26T11:25:26.361Z",
-          "version": "0.114.0-18"
+          "updated": "2026-08-26T12:18:14.819Z",
+          "version": "0.114.0-19"
         },
         "url": "https://www.npmjs.com/package/@promptbook/utils"
       },
@@ -19989,7 +19921,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20099,8 +20031,8 @@
           ]
         },
         "downloads": {
-          "monthly": 10446,
-          "weekly": 1742
+          "monthly": 11685,
+          "weekly": 2934
         },
         "ecosystem": "npm",
         "keywords": [
@@ -20134,17 +20066,17 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
         },
-        "package_date": "2026-08-26T07:26:17.045Z",
+        "package_date": "2026-08-26T17:16:15.448Z",
         "package_name": "@sogni-ai/sogni-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T11:22:49.489Z",
-        "version": "5.21.0"
+        "updated": "2026-08-26T17:16:46.623Z",
+        "version": "5.21.3"
       }
     },
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20174,8 +20106,8 @@
             ]
           },
           "downloads": {
-            "monthly": 10446,
-            "weekly": 1742
+            "monthly": 11685,
+            "weekly": 2934
           },
           "ecosystem": "npm",
           "keywords": [
@@ -20209,11 +20141,11 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
           },
-          "package_date": "2026-08-26T07:26:17.045Z",
+          "package_date": "2026-08-26T17:16:15.448Z",
           "package_name": "@sogni-ai/sogni-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T11:22:49.489Z",
-          "version": "5.21.0"
+          "updated": "2026-08-26T17:16:46.623Z",
+          "version": "5.21.3"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
       },
@@ -20298,17 +20230,17 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
         },
-        "package_date": "2026-08-26T08:09:09.524Z",
+        "package_date": "2026-08-26T17:29:07.013Z",
         "package_name": "@sogni-ai/sogni-intelligence-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T11:26:30.357Z",
-        "version": "3.24.3"
+        "updated": "2026-08-26T17:29:37.972Z",
+        "version": "3.24.7"
       }
     },
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20362,11 +20294,11 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
           },
-          "package_date": "2026-08-26T08:09:09.524Z",
+          "package_date": "2026-08-26T17:29:07.013Z",
           "package_name": "@sogni-ai/sogni-intelligence-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T11:26:30.357Z",
-          "version": "3.24.3"
+          "updated": "2026-08-26T17:29:37.972Z",
+          "version": "3.24.7"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
       },
@@ -20458,7 +20390,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20566,8 +20498,8 @@
           ]
         },
         "downloads": {
-          "monthly": 86429654,
-          "weekly": 22962178
+          "monthly": 89099013,
+          "weekly": 23121339
         },
         "ecosystem": "npm",
         "keywords": [
@@ -20605,14 +20537,14 @@
         "package_date": "2026-08-25T03:21:00.757Z",
         "package_name": "ai",
         "query": "keywords:openai",
-        "updated": "2026-08-26T11:23:34.014Z",
+        "updated": "2026-08-26T18:10:33.393Z",
         "version": "7.0.79"
       }
     },
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20634,8 +20566,8 @@
             ]
           },
           "downloads": {
-            "monthly": 86429654,
-            "weekly": 22962178
+            "monthly": 89099013,
+            "weekly": 23121339
           },
           "ecosystem": "npm",
           "keywords": [
@@ -20673,7 +20605,7 @@
           "package_date": "2026-08-25T03:21:00.757Z",
           "package_name": "ai",
           "query": "keywords:openai",
-          "updated": "2026-08-26T11:23:34.014Z",
+          "updated": "2026-08-26T18:10:33.393Z",
           "version": "7.0.79"
         },
         "url": "https://www.npmjs.com/package/ai"
@@ -20720,13 +20652,13 @@
           "Repository": "https://github.com/anthropics/anthropic-sdk-python"
         },
         "requires_python": ">=3.10",
-        "version": "1.0.0"
+        "version": "1.1.0"
       }
     },
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20741,7 +20673,7 @@
             "Repository": "https://github.com/anthropics/anthropic-sdk-python"
           },
           "requires_python": ">=3.10",
-          "version": "1.0.0"
+          "version": "1.1.0"
         },
         "url": "https://pypi.org/project/anthropic"
       },
@@ -20833,7 +20765,7 @@
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20936,8 +20868,8 @@
           ]
         },
         "downloads": {
-          "monthly": 2479916,
-          "weekly": 747587
+          "monthly": 2582502,
+          "weekly": 750929
         },
         "ecosystem": "npm",
         "keywords": [
@@ -20964,17 +20896,17 @@
           "npm": "https://www.npmjs.com/package/eve",
           "repository": "git+https://github.com/vercel/eve.git"
         },
-        "package_date": "2026-08-26T02:36:41.372Z",
+        "package_date": "2026-08-26T18:50:16.508Z",
         "package_name": "eve",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-26T11:24:38.013Z",
-        "version": "0.45.0"
+        "updated": "2026-08-26T18:50:47.661Z",
+        "version": "0.45.1"
       }
     },
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20991,8 +20923,8 @@
             ]
           },
           "downloads": {
-            "monthly": 2479916,
-            "weekly": 747587
+            "monthly": 2582502,
+            "weekly": 750929
           },
           "ecosystem": "npm",
           "keywords": [
@@ -21019,11 +20951,11 @@
             "npm": "https://www.npmjs.com/package/eve",
             "repository": "git+https://github.com/vercel/eve.git"
           },
-          "package_date": "2026-08-26T02:36:41.372Z",
+          "package_date": "2026-08-26T18:50:16.508Z",
           "package_name": "eve",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-26T11:24:38.013Z",
-          "version": "0.45.0"
+          "updated": "2026-08-26T18:50:47.661Z",
+          "version": "0.45.1"
         },
         "url": "https://www.npmjs.com/package/eve"
       },
@@ -21106,7 +21038,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21198,7 +21130,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21259,7 +21191,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21356,7 +21288,7 @@
     "name": "langchain",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21452,7 +21384,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21551,7 +21483,7 @@
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21651,7 +21583,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
+      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21761,7 +21693,7 @@
     "name": "tokenlens",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21899,7 +21831,7 @@
     "name": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22030,7 +21962,7 @@
     "name": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22167,7 +22099,7 @@
     "name": "Accelerating Generative AI",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22299,7 +22231,7 @@
     "name": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22430,7 +22362,7 @@
     "name": "Build Your Own Data Science AI Agents",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22561,7 +22493,7 @@
     "name": "Building FPGA-based Machine Learning Accelerators in Python",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22694,7 +22626,7 @@
     "name": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22832,7 +22764,7 @@
     "name": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22963,7 +22895,7 @@
     "name": "Clasificación de violencia mediante análisis de audio y embeddings",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23088,7 +23020,7 @@
     "name": "Vector space embeddings and data maps for cyber defense",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23214,7 +23146,7 @@
     "name": "Versioning Multimodal Data: Metadata & Beyond",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23341,7 +23273,7 @@
     "name": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T11:44:06.658333+00:00",
+      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
       "observed_fields": {
         "categories": [
           "Videos"

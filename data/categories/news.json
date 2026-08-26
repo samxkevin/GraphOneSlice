@@ -38,7 +38,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -147,7 +147,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -264,7 +264,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -373,7 +373,7 @@
     "name": "7.0.9",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -478,7 +478,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -587,7 +587,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -657,125 +657,6 @@
     "categories": [
       "News"
     ],
-    "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
-    "entity_type": "news",
-    "id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
-    "metadata": {
-      "news": {
-        "ai_relevance_evidence": {
-          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-          "matched_fields": [
-            "repository.description",
-            "repository.full_name",
-            "repository.topics"
-          ],
-          "matched_tokens": [
-            "machine learning",
-            "transformer",
-            "multimodal",
-            "llm",
-            "nlp",
-            "machine-learning",
-            "deep-learning",
-            "natural-language",
-            "speech-recognition",
-            "huggingface"
-          ]
-        },
-        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-        "created_at": "2026-08-19T10:45:30+00:00",
-        "prerelease": false,
-        "published_at": "2026-08-19T10:50:47+00:00",
-        "publisher": {
-          "html_url": "https://github.com/huggingface",
-          "login": "huggingface",
-          "type": "Organization"
-        },
-        "release_id": 372767786,
-        "repository": "huggingface/transformers",
-        "subtype": "github_release_announcement",
-        "tag_name": "v5.15.1",
-        "timestamp_semantics": "github_release_published_at"
-      }
-    },
-    "name": "Patch release: v5.15.1",
-    "provenance": {
-      "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
-      "observed_fields": {
-        "categories": [
-          "News"
-        ],
-        "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
-        "name": "Patch release: v5.15.1",
-        "news": {
-          "ai_relevance_evidence": {
-            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-            "matched_fields": [
-              "repository.description",
-              "repository.full_name",
-              "repository.topics"
-            ],
-            "matched_tokens": [
-              "machine learning",
-              "transformer",
-              "multimodal",
-              "llm",
-              "nlp",
-              "machine-learning",
-              "deep-learning",
-              "natural-language",
-              "speech-recognition",
-              "huggingface"
-            ]
-          },
-          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-          "created_at": "2026-08-19T10:45:30+00:00",
-          "prerelease": false,
-          "published_at": "2026-08-19T10:50:47+00:00",
-          "publisher": {
-            "html_url": "https://github.com/huggingface",
-            "login": "huggingface",
-            "type": "Organization"
-          },
-          "release_id": 372767786,
-          "repository": "huggingface/transformers",
-          "subtype": "github_release_announcement",
-          "tag_name": "v5.15.1",
-          "timestamp_semantics": "github_release_published_at"
-        },
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
-      },
-      "source_record_id": "github:release:huggingface/transformers:372767786",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "Patch release: v5.15.1",
-          "operation": "normalize_name",
-          "output": "patch release: v5 15 1",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
-    },
-    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
-  },
-  {
-    "categories": [
-      "News"
-    ],
     "description": "Generated by Speakeasy CLI 2026-08-21 09:35:18 Changes Based on: - OpenAPI Doc - Speakeasy CLI 1.763.6 (2.884.13) https://github.com/speakeasy-api/speakeasy Generated - [python v2.9.4] . Releases - [PyPI v2.9.4] https://pypi.org/project/mistralai/2.9.4 - . Publishing Completed",
     "entity_type": "news",
     "id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
@@ -811,7 +692,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -877,9 +758,9 @@
     "categories": [
       "News"
     ],
-    "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
+    "description": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned around capability and efficiency. For the first time in the GLM series, we introduce a hybrid architecture combining sparse and linear attention, sharply reducing long-context serving costs while preserving precise long-context capabilities. The model also adopts Manifold-Constrained Hyper-Connections (m",
     "entity_type": "news",
-    "id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
+    "id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -902,32 +783,32 @@
             "huggingface"
           ]
         },
-        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-        "created_at": "2026-08-10T10:23:02+00:00",
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+        "created_at": "2026-08-26T14:31:32+00:00",
         "prerelease": false,
-        "published_at": "2026-08-10T10:28:13+00:00",
+        "published_at": "2026-08-26T14:50:01+00:00",
         "publisher": {
           "html_url": "https://github.com/huggingface",
           "login": "huggingface",
           "type": "Organization"
         },
-        "release_id": 367727332,
+        "release_id": 377216922,
         "repository": "huggingface/transformers",
         "subtype": "github_release_announcement",
-        "tag_name": "v5.15.0",
+        "tag_name": "v5.16.1",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "Release: v5.15.0",
+    "name": "Release v5.16.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
-        "name": "Release: v5.15.0",
+        "description": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned around capability and efficiency. For the first time in the GLM series, we introduce a hybrid architecture combining sparse and linear attention, sharply reducing long-context serving costs while preserving precise long-context capabilities. The model also adopts Manifold-Constrained Hyper-Connections (m",
+        "name": "Release v5.16.1",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
@@ -949,56 +830,175 @@
               "huggingface"
             ]
           },
-          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-          "created_at": "2026-08-10T10:23:02+00:00",
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+          "created_at": "2026-08-26T14:31:32+00:00",
           "prerelease": false,
-          "published_at": "2026-08-10T10:28:13+00:00",
+          "published_at": "2026-08-26T14:50:01+00:00",
           "publisher": {
             "html_url": "https://github.com/huggingface",
             "login": "huggingface",
             "type": "Organization"
           },
-          "release_id": 367727332,
+          "release_id": 377216922,
           "repository": "huggingface/transformers",
           "subtype": "github_release_announcement",
-          "tag_name": "v5.15.0",
+          "tag_name": "v5.16.1",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
       },
-      "source_record_id": "github:release:huggingface/transformers:367727332",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332",
+      "source_record_id": "github:release:huggingface/transformers:377216922",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "Release: v5.15.0",
+          "input": "Release v5.16.1",
           "operation": "normalize_name",
-          "output": "release: v5 15 0",
+          "output": "release v5 16 1",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.16.1",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
     },
-    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1"
   },
   {
     "categories": [
       "News"
     ],
-    "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
+    "description": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5 s hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected back into each stream. QSA uses multiple query heads to score compressed key blocks, selects the most relevant contiguous token blocks, and keeps the incomplete trailing block uncompressed. This block-level selection reduces indexing overhead and improves memory locality for long sequences. Combined",
     "entity_type": "news",
-    "id": "0894460e-3a4c-5dc1-903b-e563189bb0a8",
+    "id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+        "created_at": "2026-08-26T12:08:26+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-26T12:35:15+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 377105315,
+        "repository": "huggingface/transformers",
+        "subtype": "github_release_announcement",
+        "tag_name": "v5.16.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Release: v5.16.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5 s hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected back into each stream. QSA uses multiple query heads to score compressed key blocks, selects the most relevant contiguous token blocks, and keeps the incomplete trailing block uncompressed. This block-level selection reduces indexing overhead and improves memory locality for long sequences. Combined",
+        "name": "Release: v5.16.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "transformer",
+              "multimodal",
+              "llm",
+              "nlp",
+              "machine-learning",
+              "deep-learning",
+              "natural-language",
+              "speech-recognition",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+          "created_at": "2026-08-26T12:08:26+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-26T12:35:15+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 377105315,
+          "repository": "huggingface/transformers",
+          "subtype": "github_release_announcement",
+          "tag_name": "v5.16.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+      },
+      "source_record_id": "github:release:huggingface/transformers:377105315",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Release: v5.16.0",
+          "operation": "normalize_name",
+          "output": "release: v5 16 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
+    },
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) (eb4a73f) api: add missing anthropic-beta values (dbebd15) api: add support for Organization API endpoints (5a5b8fc) Bug Fixes docs: correct link for long requests error ( 1884) (4474f31), closes 1883 tools: keep the tool runner going on pause turn ( 343) (ab1ec60) Chores docs: clarify skill version latest support and memory version retention (a754f3b) internal: cancel superseded CI runs (c061ab1) internal: minor workflow reformat (1569002) internal: remove the legacy response API (a48b1dd) internal: use import httpx2 directly instead of aliasing as httpx (628d789) Documentation api: clarify session thread agent and usage.iterations compaction descriptions (beta) (4ace503)",
+    "entity_type": "news",
+    "id": "975a45d1-f64f-563d-b143-fd2c5e787e9f",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -1010,32 +1010,32 @@
             "anthropic"
           ]
         },
-        "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-        "created_at": "2026-08-20T19:58:22+00:00",
+        "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+        "created_at": "2026-08-26T17:13:27+00:00",
         "prerelease": false,
-        "published_at": "2026-08-20T19:58:48+00:00",
+        "published_at": "2026-08-26T17:14:40+00:00",
         "publisher": {
           "html_url": "https://github.com/anthropics",
           "login": "anthropics",
           "type": "Organization"
         },
-        "release_id": 373995738,
+        "release_id": 377292225,
         "repository": "anthropics/anthropic-sdk-python",
         "subtype": "github_release_announcement",
-        "tag_name": "v1.0.0",
+        "tag_name": "v1.1.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "v1.0.0",
+    "name": "v1.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
-        "name": "v1.0.0",
+        "description": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) (eb4a73f) api: add missing anthropic-beta values (dbebd15) api: add support for Organization API endpoints (5a5b8fc) Bug Fixes docs: correct link for long requests error ( 1884) (4474f31), closes 1883 tools: keep the tool runner going on pause turn ( 343) (ab1ec60) Chores docs: clarify skill version latest support and memory version retention (a754f3b) internal: cancel superseded CI runs (c061ab1) internal: minor workflow reformat (1569002) internal: remove the legacy response API (a48b1dd) internal: use import httpx2 directly instead of aliasing as httpx (628d789) Documentation api: clarify session thread agent and usage.iterations compaction descriptions (beta) (4ace503)",
+        "name": "v1.1.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "anthropics/anthropic-sdk-python",
@@ -1046,48 +1046,48 @@
               "anthropic"
             ]
           },
-          "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
-          "created_at": "2026-08-20T19:58:22+00:00",
+          "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+          "created_at": "2026-08-26T17:13:27+00:00",
           "prerelease": false,
-          "published_at": "2026-08-20T19:58:48+00:00",
+          "published_at": "2026-08-26T17:14:40+00:00",
           "publisher": {
             "html_url": "https://github.com/anthropics",
             "login": "anthropics",
             "type": "Organization"
           },
-          "release_id": 373995738,
+          "release_id": 377292225,
           "repository": "anthropics/anthropic-sdk-python",
           "subtype": "github_release_announcement",
-          "tag_name": "v1.0.0",
+          "tag_name": "v1.1.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0"
       },
-      "source_record_id": "github:release:anthropics/anthropic-sdk-python:373995738",
-      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738",
+      "source_record_id": "github:release:anthropics/anthropic-sdk-python:377292225",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "v1.0.0",
+          "input": "v1.1.0",
           "operation": "normalize_name",
-          "output": "v1 0 0",
+          "output": "v1 1 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+          "output": "news:url:https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738"
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225"
     },
-    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0"
   },
   {
     "categories": [
@@ -1127,7 +1127,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1227,7 +1227,7 @@
     "name": "v3.3.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T11:43:58.942618+00:00",
+      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
       "observed_fields": {
         "categories": [
           "News"

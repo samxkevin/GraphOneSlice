@@ -164,6 +164,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
+      "value": "huggingface"
+    },
+    "id": "11a3c611-54d6-52c2-bd4e-2315ba3898f6",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
+    },
+    "source_entity_id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "chat",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
@@ -344,25 +363,6 @@
     },
     "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
     "target_entity_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "field": "repository.owner.login",
-      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-      "repository": "huggingface/transformers",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332",
-      "value": "huggingface"
-    },
-    "id": "215e425d-d5c1-567f-a1d3-527592c112d7",
-    "method": "github_release_publisher",
-    "relationship_type": "published_by",
-    "source": {
-      "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
-    },
-    "source_entity_id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
-    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -1782,6 +1782,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+      "value": "huggingface"
+    },
+    "id": "a76c0dd9-2996-562e-92c8-c67b81f251be",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
+    },
+    "source_entity_id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_field": "info.supported_hw_arch",
       "observed_value": [
         "hailo15h",
@@ -1905,23 +1924,6 @@
     },
     "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
     "target_entity_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "observed_value": "agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/agent-device"
-    },
-    "id": "c05351cc-f378-519b-8e60-053de858da0f",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/agent-device"
-    },
-    "source_entity_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,
@@ -2317,6 +2319,23 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "id": "e20a8be7-f3ab-504a-bf64-63b14921dfd1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "source_entity_id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_field": "info.supported_hw_arch",
       "observed_value": [
         "hailo15h",
@@ -2699,24 +2718,5 @@
     },
     "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
     "target_entity_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "field": "repository.owner.login",
-      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-      "repository": "huggingface/transformers",
-      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786",
-      "value": "huggingface"
-    },
-    "id": "fcc717a2-8ea8-590f-a2a0-496805c627d9",
-    "method": "github_release_publisher",
-    "relationship_type": "published_by",
-    "source": {
-      "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
-    },
-    "source_entity_id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
-    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   }
 ]

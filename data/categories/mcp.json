@@ -56,7 +56,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -192,7 +192,7 @@
     "name": "@lovable.dev/mcp-js",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -296,7 +296,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -369,7 +369,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -442,7 +442,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -515,7 +515,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
+      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -562,221 +562,6 @@
       "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
     },
     "url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-sequential-thinking"
-  },
-  {
-    "categories": [
-      "Tools",
-      "MCP"
-    ],
-    "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-    "entity_type": "mcp",
-    "id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
-    "metadata": {
-      "mcp": {
-        "bin": {
-          "agent-device": "bin/agent-device.mjs"
-        },
-        "deprecated": null,
-        "installation_method": "npm package agent-device",
-        "package_name": "agent-device",
-        "runtime_requirements": {
-          "node": ">=22.12"
-        },
-        "version": "0.20.10"
-      },
-      "package": {
-        "ai_relevance_evidence": {
-          "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-          "field": "description",
-          "signals": [
-            "agents",
-            "ai",
-            "mcp"
-          ]
-        },
-        "downloads": {
-          "monthly": 545879,
-          "weekly": 134241
-        },
-        "ecosystem": "npm",
-        "keywords": [
-          "agent",
-          "device",
-          "cli",
-          "automation",
-          "adb",
-          "simctl",
-          "devicectl",
-          "ios",
-          "android",
-          "tvos",
-          "macos",
-          "web",
-          "browser",
-          "react-native",
-          "observability",
-          "diagnostics",
-          "network",
-          "profiling",
-          "performance",
-          "mcp",
-          "model-context-protocol",
-          "mcp-server",
-          "ai-agent",
-          "mobile-automation",
-          "ios-simulator",
-          "android-emulator",
-          "xcuitest",
-          "e2e-testing",
-          "cursor",
-          "claude-code",
-          "expo",
-          "mobile-testing",
-          "qa-automation",
-          "ai-testing",
-          "ios-automation",
-          "android-automation",
-          "simulator",
-          "emulator",
-          "appium",
-          "maestro",
-          "detox"
-        ],
-        "license": "MIT",
-        "links": {
-          "bugs": "https://github.com/callstack/agent-device/issues",
-          "homepage": "https://agent-device.dev/",
-          "npm": "https://www.npmjs.com/package/agent-device",
-          "repository": "git+https://github.com/callstack/agent-device.git"
-        },
-        "package_date": "2026-08-18T19:33:12.472Z",
-        "package_name": "agent-device",
-        "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:24:09.434Z",
-        "version": "0.20.10"
-      }
-    },
-    "name": "agent-device",
-    "provenance": {
-      "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
-      "observed_fields": {
-        "categories": [
-          "Tools",
-          "MCP"
-        ],
-        "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-        "mcp": {
-          "bin": {
-            "agent-device": "bin/agent-device.mjs"
-          },
-          "deprecated": null,
-          "installation_method": "npm package agent-device",
-          "package_name": "agent-device",
-          "runtime_requirements": {
-            "node": ">=22.12"
-          },
-          "version": "0.20.10"
-        },
-        "name": "agent-device",
-        "package": {
-          "ai_relevance_evidence": {
-            "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-            "field": "description",
-            "signals": [
-              "agents",
-              "ai",
-              "mcp"
-            ]
-          },
-          "downloads": {
-            "monthly": 545879,
-            "weekly": 134241
-          },
-          "ecosystem": "npm",
-          "keywords": [
-            "agent",
-            "device",
-            "cli",
-            "automation",
-            "adb",
-            "simctl",
-            "devicectl",
-            "ios",
-            "android",
-            "tvos",
-            "macos",
-            "web",
-            "browser",
-            "react-native",
-            "observability",
-            "diagnostics",
-            "network",
-            "profiling",
-            "performance",
-            "mcp",
-            "model-context-protocol",
-            "mcp-server",
-            "ai-agent",
-            "mobile-automation",
-            "ios-simulator",
-            "android-emulator",
-            "xcuitest",
-            "e2e-testing",
-            "cursor",
-            "claude-code",
-            "expo",
-            "mobile-testing",
-            "qa-automation",
-            "ai-testing",
-            "ios-automation",
-            "android-automation",
-            "simulator",
-            "emulator",
-            "appium",
-            "maestro",
-            "detox"
-          ],
-          "license": "MIT",
-          "links": {
-            "bugs": "https://github.com/callstack/agent-device/issues",
-            "homepage": "https://agent-device.dev/",
-            "npm": "https://www.npmjs.com/package/agent-device",
-            "repository": "git+https://github.com/callstack/agent-device.git"
-          },
-          "package_date": "2026-08-18T19:33:12.472Z",
-          "package_name": "agent-device",
-          "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:24:09.434Z",
-          "version": "0.20.10"
-        },
-        "url": "https://www.npmjs.com/package/agent-device"
-      },
-      "source_record_id": "npm-search:package:agent-device",
-      "source_url": "https://registry.npmjs.org/agent-device",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "agent-device",
-          "operation": "normalize_name",
-          "output": "agent-device",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "mcp:url:https://www.npmjs.com/package/agent-device",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/agent-device"
-    },
-    "url": "https://www.npmjs.com/package/agent-device"
   },
   {
     "categories": [
@@ -840,7 +625,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -991,7 +776,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1100,7 +885,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.129"
+        "version": "0.52.130"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -1175,17 +960,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-26T11:41:11.288Z",
+        "package_date": "2026-08-26T12:26:01.664Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T11:41:42.620Z",
-        "version": "0.52.129"
+        "updated": "2026-08-26T12:26:36.590Z",
+        "version": "0.52.130"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1203,7 +988,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.129"
+          "version": "0.52.130"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -1279,11 +1064,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-26T11:41:11.288Z",
+          "package_date": "2026-08-26T12:26:01.664Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T11:41:42.620Z",
-          "version": "0.52.129"
+          "updated": "2026-08-26T12:26:36.590Z",
+          "version": "0.52.130"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -1312,5 +1097,152 @@
       "url": "https://registry.npmjs.org/comfyui-mcp"
     },
     "url": "https://www.npmjs.com/package/comfyui-mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+    "entity_type": "mcp",
+    "id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "pi-mcp-adapter": "cli.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package pi-mcp-adapter",
+        "package_name": "pi-mcp-adapter",
+        "runtime_requirements": {
+          "node": ">=20"
+        },
+        "version": "2.28.0"
+      },
+      "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "pi-mcp-adapter",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
+        "downloads": {
+          "monthly": 628192,
+          "weekly": 162089
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "pi-package",
+          "pi",
+          "mcp",
+          "model-context-protocol",
+          "ai",
+          "coding-agent",
+          "extension",
+          "claude",
+          "llm"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
+          "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
+          "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
+          "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+        },
+        "package_date": "2026-08-26T05:28:20.600Z",
+        "package_name": "pi-mcp-adapter",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-26T11:26:03.244Z",
+        "version": "2.28.0"
+      }
+    },
+    "name": "pi-mcp-adapter",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+        "mcp": {
+          "bin": {
+            "pi-mcp-adapter": "cli.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package pi-mcp-adapter",
+          "package_name": "pi-mcp-adapter",
+          "runtime_requirements": {
+            "node": ">=20"
+          },
+          "version": "2.28.0"
+        },
+        "name": "pi-mcp-adapter",
+        "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "pi-mcp-adapter",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
+          "downloads": {
+            "monthly": 628192,
+            "weekly": 162089
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "pi-package",
+            "pi",
+            "mcp",
+            "model-context-protocol",
+            "ai",
+            "coding-agent",
+            "extension",
+            "claude",
+            "llm"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
+            "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
+            "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
+            "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+          },
+          "package_date": "2026-08-26T05:28:20.600Z",
+          "package_name": "pi-mcp-adapter",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-26T11:26:03.244Z",
+          "version": "2.28.0"
+        },
+        "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+      },
+      "source_record_id": "npm-search:package:pi-mcp-adapter",
+      "source_url": "https://registry.npmjs.org/pi-mcp-adapter",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "pi-mcp-adapter",
+          "operation": "normalize_name",
+          "output": "pi-mcp-adapter",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/pi-mcp-adapter",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "url": "https://www.npmjs.com/package/pi-mcp-adapter"
   }
 ]

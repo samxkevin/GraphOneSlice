@@ -29,7 +29,7 @@
     "name": "01Studio CanMV K230 Development Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -112,7 +112,7 @@
     "name": "Alif Semiconductor AK-E7-AIML",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -195,7 +195,7 @@
     "name": "Arduino Nicla Voice",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -278,7 +278,7 @@
     "name": "AVNet AES-RASYNB-120-SK-G",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -361,7 +361,7 @@
     "name": "ESP32-S3-EYE",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -443,7 +443,7 @@
     "name": "Grove Vision AI Module V2",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -520,7 +520,7 @@
     "name": "Hailo-10H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -593,7 +593,7 @@
     "name": "Hailo-15H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -666,7 +666,7 @@
     "name": "Hailo-15L",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T11:44:21.040869+00:00",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -743,7 +743,7 @@
     "name": "LAUNCHXL-F28P55X",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -825,7 +825,7 @@
     "name": "MaaXBoard OSM93 Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -909,7 +909,7 @@
     "name": "MAX78000FTHR",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -994,7 +994,7 @@
     "name": "NUCLEO-N657X0-Q",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1078,7 +1078,7 @@
     "name": "NXP MCIMX93-EVK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1161,7 +1161,7 @@
     "name": "Seeed Studio XIAO ESP32S3",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1245,7 +1245,7 @@
     "name": "SiLabs NxG24-DK2601B",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1329,7 +1329,7 @@
     "name": "Sipeed Maix Bit",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1413,7 +1413,7 @@
     "name": "STM32N6570-DK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T11:44:19.725880+00:00",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
