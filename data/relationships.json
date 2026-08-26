@@ -2,6 +2,27 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'levit384' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/levit384.yaml"
+    },
+    "id": "026399d9-f3e5-587f-8f18-f4962cdac836",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "d111758b-002c-5423-91c8-47e56211e1fe"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 30,
       "model_identifier": "gpt-5-mini",
       "source_repository": "openai/openai-python",
@@ -17,6 +38,28 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "63547484-bfb0-55ef-af07-4c01dbcf5258"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov10x' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov10x.yaml"
+    },
+    "id": "062dcbcb-fdd8-5cbe-b778-6e2847f431e8",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "cad23b55-bbbb-54bc-a728-c88efa6ae86d"
   },
   {
     "confidence": 1.0,
@@ -38,6 +81,72 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8m' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8m.yaml"
+    },
+    "id": "0aec13c4-b2b2-5843-bea2-83cd7edd002f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "7923b4b1-45e6-57be-a773-823354b6c8a2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'mobilenet_v3' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/mobilenet_v3.yaml"
+    },
+    "id": "0b8516e6-4342-5697-9f3e-b81f0b9db2ad",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "21f43273-c2f8-5f0b-bffe-24f74b1651fc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8s_seg' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8s_seg.yaml"
+    },
+    "id": "0f50b3a7-72b0-5730-b6d3-7602f751491b",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "d693026e-8d44-5d0f-9e65-225c204ef448"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "agents",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/chat"
@@ -55,19 +164,21 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "Agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
+      "value": "huggingface"
     },
-    "id": "11cd7e09-3604-56ea-beec-10d164841f58",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
+    "id": "11a3c611-54d6-52c2-bd4e-2315ba3898f6",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
     "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/@openai%2Fagents-core"
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
     },
-    "source_entity_id": "88cd445d-59f9-5420-ba3c-012080056db4",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+    "source_entity_id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -85,6 +196,28 @@
     },
     "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
     "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolo26n' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolo26n.yaml"
+    },
+    "id": "16980764-8836-5886-b6a4-82eb79dcc894",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "a6ec8d6e-437a-5f85-8eb6-ef9f1b3a686b"
   },
   {
     "confidence": 1.0,
@@ -108,6 +241,50 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov4_leaky' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov4_leaky.yaml"
+    },
+    "id": "17bea52d-f4a1-5218-bec6-a55e919aed3c",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "ec814a2e-4a25-5eb1-b173-7669e736970a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8m' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8m.yaml"
+    },
+    "id": "193450a5-7fbd-5e20-a0ff-e4ab7a7c2b90",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "7923b4b1-45e6-57be-a773-823354b6c8a2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "chatgpt",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/f/prompts.chat"
@@ -125,6 +302,93 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'siglip_b_16_image_encoder' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml"
+    },
+    "id": "1f1f33b4-4ae4-5195-8000-02bc0a306345",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "1825768b-0f01-58e9-8f6c-8cc6f4a34951"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov11s_obb' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov11s_obb.yaml"
+    },
+    "id": "1f69b887-2372-5b01-86af-5cfc2f700e1f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "335b2650-e568-5936-9357-483408f227df"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'unet_mobilenet_v2' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/unet_mobilenet_v2.yaml"
+    },
+    "id": "20b0c456-b8bd-59ef-b102-6878eea73f12",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov11s_obb' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov11s_obb.yaml"
+    },
+    "id": "22131a04-37ec-543a-b51a-a4522df81041",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "335b2650-e568-5936-9357-483408f227df"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "image, video & audio generation",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
@@ -138,6 +402,50 @@
     },
     "source_entity_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
     "target_entity_id": "36ea22a0-1e15-591c-962c-48c4f3288cf4"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'hailo_yolov8s_480_640' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8s_480_640.yaml"
+    },
+    "id": "26679a75-94e6-5272-860e-d062aea41738",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "1898057f-af91-5d74-bf34-55274260d687"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov6n' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov6n.yaml"
+    },
+    "id": "2d339a8e-02bc-5c34-9592-40a6ed1bb7d8",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "3d1d7295-bf70-5853-8553-c64fee352929"
   },
   {
     "confidence": 1.0,
@@ -161,6 +469,134 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'levit384' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/levit384.yaml"
+    },
+    "id": "2fdedd20-f5b6-562c-9bd3-b270ff214a6a",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "d111758b-002c-5423-91c8-47e56211e1fe"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder.yaml"
+    },
+    "id": "3079c312-9967-57d2-ab75-d5e542d18497",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "a17a16e4-d817-54f2-ad24-399f17efa10b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'efficientnet_l' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/efficientnet_l.yaml"
+    },
+    "id": "31671bd4-dd68-5c4f-8dba-53b54b13aa07",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "0f03539f-bab3-5320-937c-554031e768f1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'regnetx_800mf' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/regnetx_800mf.yaml"
+    },
+    "id": "316a67cf-c95d-517d-9857-171be145a771",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "80709cf3-1127-5ce8-8768-316c29edf670"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'fast_sam_s' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/fast_sam_s.yaml"
+    },
+    "id": "316bccab-98db-5707-b30f-a44acb966a0d",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "fefbd8e0-7164-5d61-92ca-6515e35f281d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'paddle_ocr_v5_mobile_detection' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/paddle_ocr_v5_mobile_detection.yaml"
+    },
+    "id": "35bcc162-536a-5fcc-9f48-71066e1b0e19",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "ebc558ad-8463-5b53-a884-be26a22cca7b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "agent",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
@@ -174,6 +610,25 @@
     },
     "source_entity_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4",
+      "repository": "mistralai/client-python",
+      "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539",
+      "value": "mistralai"
+    },
+    "id": "377ed68c-c8c1-58a5-bd68-393dc2549d4b",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
+    },
+    "source_entity_id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
+    "target_entity_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e"
   },
   {
     "confidence": 1.0,
@@ -195,19 +650,24 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/add-mcp"
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'espcn_x2' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/espcn_x2.yaml"
     },
-    "id": "3bacf944-8146-54a2-b0d8-860e9eda48fe",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
+    "id": "3b4ac76a-9e35-5e59-9dd5-3ff5f6a0a635",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
     "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/add-mcp"
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
     },
-    "source_entity_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b"
   },
   {
     "confidence": 1.0,
@@ -227,6 +687,28 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "197b6978-0900-59e3-a3f4-840271643cb1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'mobilenet_v3' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/mobilenet_v3.yaml"
+    },
+    "id": "3e52cd8d-1eef-546c-9f62-09ef18833ca5",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "21f43273-c2f8-5f0b-bffe-24f74b1651fc"
   },
   {
     "confidence": 1.0,
@@ -267,6 +749,69 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolo26n' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolo26n.yaml"
+    },
+    "id": "465b946a-7d6a-5086-863c-8b5a3978ecbf",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "a6ec8d6e-437a-5f85-8eb6-ef9f1b3a686b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+      "repository": "cohere-ai/cohere-python",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
+      "value": "cohere-ai"
+    },
+    "id": "478f7d9c-c0dc-54bf-a173-76af7265ce01",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+    },
+    "source_entity_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "target_entity_id": "e084e577-fb5d-5b24-8150-6625cd1f34d8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'hailo_yolov8s_480_640' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8s_480_640.yaml"
+    },
+    "id": "47aa4d80-de31-550c-83ca-fd3081be24af",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "1898057f-af91-5d74-bf34-55274260d687"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "Agent",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/thedotmack/claude-mem"
@@ -280,6 +825,28 @@
     },
     "source_entity_id": "4075e6f9-e682-5f89-b239-9952e720286b",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'unet_mobilenet_v2' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/unet_mobilenet_v2.yaml"
+    },
+    "id": "4d1c8699-7ea6-5dd4-80e1-0394c7ec2c79",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8"
   },
   {
     "confidence": 1.0,
@@ -303,6 +870,42 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/datasets/releases/tag/5.0.0",
+      "repository": "huggingface/datasets",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975",
+      "value": "huggingface"
+    },
+    "id": "4e2b4793-aece-5d54-91b5-18149f6878a8",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
+    },
+    "source_entity_id": "71074a06-3269-5ced-ab78-6f21a1813c75",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "id": "4fa3eab3-7a5f-57a7-a502-6d41a311b744",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "source_entity_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "machine-learning",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
@@ -316,6 +919,49 @@
     },
     "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
     "target_entity_id": "27d37ec1-a04e-5914-bdd8-543cb12d2c82"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'siglip_b_16_image_encoder' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml"
+    },
+    "id": "531e2e98-bb5e-532f-800d-2e61ce82a4eb",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "1825768b-0f01-58e9-8f6c-8cc6f4a34951"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov11s_obb' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov11s_obb.yaml"
+    },
+    "id": "53dec0c4-7b99-51b1-95fe-2ac616dddc25",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "335b2650-e568-5936-9357-483408f227df"
   },
   {
     "confidence": 1.0,
@@ -339,6 +985,50 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'unet_mobilenet_v2' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/unet_mobilenet_v2.yaml"
+    },
+    "id": "55f06b46-efd2-5bad-be99-4c2b03f5d838",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'mobilenet_v3' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/mobilenet_v3.yaml"
+    },
+    "id": "562a918c-1dc4-5f55-bf91-b2fc5cd2e5fa",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "21f43273-c2f8-5f0b-bffe-24f74b1651fc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 29,
       "model_identifier": "gpt-5",
       "source_repository": "openai/openai-python",
@@ -358,6 +1048,28 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5m_vehicles_yuy2' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5m_vehicles_yuy2.yaml"
+    },
+    "id": "580be9b1-d06f-5e51-befb-66736d15a37b",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "f0c2ab00-b26a-5023-b24a-9f67f94eb053"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "llm",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/rasbt/llms-from-scratch"
@@ -371,6 +1083,28 @@
     },
     "source_entity_id": "0941c38c-e5e6-5e37-83c1-9e2a0fad0673",
     "target_entity_id": "ca2823ee-287d-56c9-895e-d742fd9b54ca"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'damoyolo_tinynasL35_M' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/damoyolo_tinynasl35_m.yaml"
+    },
+    "id": "5dc139de-c84f-539b-a1c5-dab9b87df304",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "81b2a7a3-87dd-5555-ac6b-7fa3701e999e"
   },
   {
     "confidence": 1.0,
@@ -394,6 +1128,69 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/datasets/releases/tag/5.0.1",
+      "repository": "huggingface/datasets",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946",
+      "value": "huggingface"
+    },
+    "id": "5e801a55-9e00-5036-aa22-e267d40781f6",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
+    },
+    "source_entity_id": "a2168897-fce8-5202-ae9e-ecc6c8903754",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'scrfd_10g_nv12_fhd' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/scrfd_10g_nv12_fhd.yaml"
+    },
+    "id": "5f161c54-c25b-54d0-a782-0186c9f16774",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8m' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8m.yaml"
+    },
+    "id": "5fea9e1a-1f04-506f-998c-6d3a771d722c",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "7923b4b1-45e6-57be-a773-823354b6c8a2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "ChatGPT",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/comfyui-mcp"
@@ -407,6 +1204,114 @@
     },
     "source_entity_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
     "target_entity_id": "6c18211a-972b-5705-96e3-97edb92819ea"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'vit_tiny' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/vit_tiny.yaml"
+    },
+    "id": "6088892d-3355-5785-b89e-fa6c318b00d8",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "26066cd0-273c-56b3-8bf0-f9e5305c18b2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5m_vehicles_yuy2' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5m_vehicles_yuy2.yaml"
+    },
+    "id": "60c311cf-f964-596b-9119-4fd60b2ab257",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "f0c2ab00-b26a-5023-b24a-9f67f94eb053"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8s_seg' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8s_seg.yaml"
+    },
+    "id": "655aa9fa-751c-50bc-955f-e266de0e8e87",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "d693026e-8d44-5d0f-9e65-225c204ef448"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'fast_sam_s' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/fast_sam_s.yaml"
+    },
+    "id": "65cf65a8-9f83-593e-9a21-e5f23f383a00",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "fefbd8e0-7164-5d61-92ca-6515e35f281d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov4_leaky' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov4_leaky.yaml"
+    },
+    "id": "66701b36-a56e-5591-870d-399bcb791303",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "ec814a2e-4a25-5eb1-b173-7669e736970a"
   },
   {
     "confidence": 1.0,
@@ -496,6 +1401,68 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'depth_anything_vits' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/depth_anything_vits.yaml"
+    },
+    "id": "727a5157-7ac6-5e83-8ab5-c9a16dc8df5c",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "682c8554-f264-5bd6-b5d2-15143157c3c7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'efficientnet_l' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/efficientnet_l.yaml"
+    },
+    "id": "7635fd89-e62b-585e-a104-0bd29c17c46e",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "0f03539f-bab3-5320-937c-554031e768f1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+      "repository": "huggingface/diffusers",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088",
+      "value": "huggingface"
+    },
+    "id": "779f40b0-73aa-5241-bb55-3dff25965fea",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088"
+    },
+    "source_entity_id": "14e79e04-9fa3-587f-9422-3415259f1aed",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 44,
       "model_identifier": "o3",
       "source_repository": "openai/openai-python",
@@ -515,6 +1482,27 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder.yaml"
+    },
+    "id": "7bb7e1a1-ee73-5450-8073-1f4f5b7040a7",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "a17a16e4-d817-54f2-ad24-399f17efa10b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "instrumentation",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@opentelemetry%2Finstrumentation-openai"
@@ -528,6 +1516,27 @@
     },
     "source_entity_id": "74b6b837-5222-5683-b443-43ccbf4d58ee",
     "target_entity_id": "abe4017a-270f-5e32-953b-2977f0ad7359"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'stereonet' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/stereonet.yaml"
+    },
+    "id": "81157393-09e7-5b1b-8100-38c4feba767b",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "62f54f5b-dfca-5cc0-92b6-792ac2d53788"
   },
   {
     "confidence": 1.0,
@@ -570,6 +1579,28 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov4_leaky' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov4_leaky.yaml"
+    },
+    "id": "8abc2f92-d46c-5751-b079-799bd987ee7d",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "ec814a2e-4a25-5eb1-b173-7669e736970a"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 21,
       "model_identifier": "claude-opus-4-5",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -606,19 +1637,111 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/agents"
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'depth_anything_vits' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/depth_anything_vits.yaml"
     },
-    "id": "9081694d-f191-56bc-ad42-cd78e88c22d1",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
+    "id": "92856729-8a5c-528e-aece-d4c9eb08ce8f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
     "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/agents"
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
     },
-    "source_entity_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "682c8554-f264-5bd6-b5d2-15143157c3c7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'resnet_v1_34' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/resnet_v1_34.yaml"
+    },
+    "id": "99dcd750-3457-5996-baa2-a256dbc29272",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "b3d6f126-f2d0-5625-ad79-0442d365d424"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'resnet_v1_34' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/resnet_v1_34.yaml"
+    },
+    "id": "9a9bd899-d131-5103-adb0-3fac0a68f20f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "b3d6f126-f2d0-5625-ad79-0442d365d424"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5s_c3tr' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5s_c3tr.yaml"
+    },
+    "id": "9ded5080-7934-5567-9bca-34741e60fa3f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "2d9a9c86-43cd-5fa3-8602-00660d9e8eaf"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov6n' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov6n.yaml"
+    },
+    "id": "9e83efad-6347-5ea4-aa1f-8aa28d891452",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "3d1d7295-bf70-5853-8553-c64fee352929"
   },
   {
     "confidence": 1.0,
@@ -659,19 +1782,43 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agentic",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/am-i-vibing"
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+      "value": "huggingface"
     },
-    "id": "acb1d3eb-ea1c-5a88-8094-bfdf9b2083ac",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
+    "id": "a76c0dd9-2996-562e-92c8-c67b81f251be",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
     "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/am-i-vibing"
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
     },
-    "source_entity_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+    "source_entity_id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5s_c3tr' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5s_c3tr.yaml"
+    },
+    "id": "aad670bc-184b-5f16-8dd7-8d0b9f6728ce",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "2d9a9c86-43cd-5fa3-8602-00660d9e8eaf"
   },
   {
     "confidence": 1.0,
@@ -693,6 +1840,220 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'damoyolo_tinynasL35_M' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/damoyolo_tinynasl35_m.yaml"
+    },
+    "id": "b045af4f-fb99-5e19-985c-9c60c4246b95",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "81b2a7a3-87dd-5555-ac6b-7fa3701e999e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov10x' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov10x.yaml"
+    },
+    "id": "b1bfcfb7-d3f5-5ac2-b26f-ae7d4409ea05",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "cad23b55-bbbb-54bc-a728-c88efa6ae86d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'espcn_x2' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/espcn_x2.yaml"
+    },
+    "id": "b85a1e89-15d9-51db-90b8-65acd69eb456",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'scrfd_10g_nv12_fhd' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/scrfd_10g_nv12_fhd.yaml"
+    },
+    "id": "bb339e70-8d6c-522d-881e-b7a69fb7a15e",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+      "repository": "huggingface/diffusers",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176",
+      "value": "huggingface"
+    },
+    "id": "c1c37a51-6832-5d0b-867b-f2d2a3db6536",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176"
+    },
+    "source_entity_id": "a981db00-4584-513a-b7fd-d250034611e2",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'regnetx_800mf' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/regnetx_800mf.yaml"
+    },
+    "id": "c463da88-0e0d-5e9b-b053-2c3265ce657b",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "80709cf3-1127-5ce8-8768-316c29edf670"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'damoyolo_tinynasL35_M' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/damoyolo_tinynasl35_m.yaml"
+    },
+    "id": "c5746a69-00bd-5a7d-8420-0035f6b4c302",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "81b2a7a3-87dd-5555-ac6b-7fa3701e999e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'centernet_resnet_v1_50_postprocess' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/centernet_resnet_v1_50_postprocess.yaml"
+    },
+    "id": "c65e5176-9380-5d61-ab6c-e8a7fdf7387a",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "a713e142-2dc1-568b-bbcc-81f8b84cff35"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'paddle_ocr_v5_mobile_detection' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/paddle_ocr_v5_mobile_detection.yaml"
+    },
+    "id": "c9e7c947-4c1a-5a05-b1d5-8b98f2520f33",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "ebc558ad-8463-5b53-a884-be26a22cca7b"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'vit_tiny' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/vit_tiny.yaml"
+    },
+    "id": "ca0f47b3-bedf-5e7d-b2e7-902d12fdf2b2",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "26066cd0-273c-56b3-8bf0-f9e5305c18b2"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 19,
       "model_identifier": "claude-haiku-4-5",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -708,6 +2069,28 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "5bba85fd-4b5e-59c6-8f85-69187f7cb4dd"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolo26n' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolo26n.yaml"
+    },
+    "id": "d0163131-c12e-573c-94d1-bb2f8c5107c4",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "a6ec8d6e-437a-5f85-8eb6-ef9f1b3a686b"
   },
   {
     "confidence": 1.0,
@@ -750,6 +2133,93 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'stereonet' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/stereonet.yaml"
+    },
+    "id": "d419d265-44bd-5305-a04f-71174e74f973",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "62f54f5b-dfca-5cc0-92b6-792ac2d53788"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov6n' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov6n.yaml"
+    },
+    "id": "d7b597f2-9468-56e4-b648-f4f4d08e4457",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "3d1d7295-bf70-5853-8553-c64fee352929"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'efficientnet_l' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/efficientnet_l.yaml"
+    },
+    "id": "d8170dc5-a2b9-5065-9d74-6a771cdabf30",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "0f03539f-bab3-5320-937c-554031e768f1"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'scrfd_10g_nv12_fhd' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/scrfd_10g_nv12_fhd.yaml"
+    },
+    "id": "d82963ee-93a8-5192-9617-e93b7fd29085",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 37,
       "model_identifier": "gpt-4.1-mini",
       "source_repository": "openai/openai-python",
@@ -769,6 +2239,69 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/groq/groq-python/releases/tag/v1.7.0",
+      "repository": "groq/groq-python",
+      "source_url": "https://api.github.com/repos/groq/groq-python/releases/376845784",
+      "value": "groq"
+    },
+    "id": "dc64d57c-6cc4-507c-a160-0d2382f9957a",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/groq/groq-python/releases/376845784"
+    },
+    "source_entity_id": "3a203a91-2444-5759-9403-813128744653",
+    "target_entity_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'clip_vit_b_32_image_encoder' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/clip_vit_b_32_image_encoder.yaml"
+    },
+    "id": "dd0c17c0-a940-5d67-b251-cef772ed4b6a",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "9a2f6493-8b09-5605-88db-75fd50c6a6bc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5s_c3tr' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5s_c3tr.yaml"
+    },
+    "id": "df003c49-9c54-55d5-8f00-20ad6b0e1f62",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "2d9a9c86-43cd-5fa3-8602-00660d9e8eaf"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "GitHub API",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@modelcontextprotocol%2Fserver-github"
@@ -782,6 +2315,45 @@
     },
     "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
     "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "id": "e20a8be7-f3ab-504a-bf64-63b14921dfd1",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+    },
+    "source_entity_id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'clip_vit_b_32_image_encoder' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/clip_vit_b_32_image_encoder.yaml"
+    },
+    "id": "e2f458f5-7de6-5acd-a921-fcc538aeb5dc",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "9a2f6493-8b09-5605-88db-75fd50c6a6bc"
   },
   {
     "confidence": 1.0,
@@ -818,6 +2390,71 @@
     },
     "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
     "target_entity_id": "05ab724d-899b-524a-ba66-19cdfc43d021"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'zero_dce_pp' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/zero_dce_pp.yaml"
+    },
+    "id": "e87112bb-c15a-53ab-864c-ac5c3c9c3716",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "71945320-b600-514c-a6ce-52c46d670fac"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'hailo_yolov8s_480_640' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8s_480_640.yaml"
+    },
+    "id": "e8f301e9-5cea-5567-a66d-3aa84804fd7c",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "1898057f-af91-5d74-bf34-55274260d687"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov5m_vehicles_yuy2' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov5m_vehicles_yuy2.yaml"
+    },
+    "id": "ebf079d9-b524-5e13-b1d7-8314f51e6abe",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "f0c2ab00-b26a-5023-b24a-9f67f94eb053"
   },
   {
     "confidence": 1.0,
@@ -873,6 +2510,67 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'zero_dce_pp' YAML declares 'hailo15h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/zero_dce_pp.yaml"
+    },
+    "id": "f0d2af82-9122-5e88-86e8-5dcaeb11cac3",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "target_entity_id": "71945320-b600-514c-a6ce-52c46d670fac"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+      "repository": "modelcontextprotocol/typescript-sdk",
+      "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023",
+      "value": "modelcontextprotocol"
+    },
+    "id": "f166d2bb-f9f3-51fe-ba92-87baa2d3a1c0",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
+    },
+    "source_entity_id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
+    "target_entity_id": "61ed733f-77b7-5339-87db-c3abab669f8d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo10h"
+      ],
+      "reason": "model 'centernet_resnet_v1_50_postprocess' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/centernet_resnet_v1_50_postprocess.yaml"
+    },
+    "id": "f2133c1e-c66d-5a7e-95b6-18b8e9298075",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "a713e142-2dc1-568b-bbcc-81f8b84cff35"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 42,
       "model_identifier": "o4-mini",
       "source_repository": "openai/openai-python",
@@ -888,5 +2586,137 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "b34896a1-5593-5780-b254-b2b784c20db8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov8s_seg' YAML declares 'hailo10h' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov8s_seg.yaml"
+    },
+    "id": "f3c2fd5b-625f-56c5-8b62-8833bd9775f8",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "target_entity_id": "d693026e-8d44-5d0f-9e65-225c204ef448"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'regnetx_800mf' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/regnetx_800mf.yaml"
+    },
+    "id": "f4b2b635-de6a-54e8-9eda-4113ec7c706f",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "80709cf3-1127-5ce8-8768-316c29edf670"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'resnet_v1_34' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/resnet_v1_34.yaml"
+    },
+    "id": "f5370fea-dbc4-563f-a2d5-ddd07b6af154",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "b3d6f126-f2d0-5625-ad79-0442d365d424"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'yolov10x' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/yolov10x.yaml"
+    },
+    "id": "f5d53842-3bc0-5331-a50b-9b650610b768",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "cad23b55-bbbb-54bc-a728-c88efa6ae86d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'clip_vit_b_32_image_encoder' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/clip_vit_b_32_image_encoder.yaml"
+    },
+    "id": "f5daa7a0-ed83-5e1b-97c8-8ce44f8dca97",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "9a2f6493-8b09-5605-88db-75fd50c6a6bc"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_field": "info.supported_hw_arch",
+      "observed_value": [
+        "hailo15h",
+        "hailo15l",
+        "hailo10h"
+      ],
+      "reason": "model 'espcn_x2' YAML declares 'hailo15l' in info.supported_hw_arch",
+      "source_url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/espcn_x2.yaml"
+    },
+    "id": "f9eff0ca-1d58-513a-9b60-9a20503904dd",
+    "method": "source_supported_hw_arch",
+    "relationship_type": "runs",
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "source_entity_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "target_entity_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b"
   }
 ]

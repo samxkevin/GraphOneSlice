@@ -5,9 +5,14 @@ import logging
 from typing import Iterable
 
 from src.ai_orbit.adapters.ai_tools_products import AIToolsProductDirectoryAdapter
+from src.ai_orbit.adapters.ai_device_catalog import AIDeviceCatalogAdapter
 from src.ai_orbit.adapters.base import SourceAdapter
+from src.ai_orbit.adapters.hailo_model_zoo import HailoModelZooAdapter
+from src.ai_orbit.adapters.qualcomm_ai_hub import QualcommAIHubAdapter
 from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapters
+from src.ai_orbit.adapters.jobs_personal_candidates import build_jobs_personal_probe_adapters
 from src.ai_orbit.adapters.github import GitHubAdapter
+from src.ai_orbit.adapters.github_releases_news import GitHubReleasesNewsAdapter
 from src.ai_orbit.adapters.huggingface import HuggingFaceProbeAdapter
 from src.ai_orbit.adapters.npm_mcp import NpmMcpAdapter
 from src.ai_orbit.adapters.npm_search_tools import NpmSearchToolAdapter
@@ -15,6 +20,7 @@ from src.ai_orbit.adapters.models_dev_catalog import ModelsDevGitHubCatalogAdapt
 from src.ai_orbit.adapters.official_sdk_models import OfficialSDKModelAdapter
 from src.ai_orbit.adapters.openai_rss_probe import OpenAIRssProbeAdapter
 from src.ai_orbit.adapters.pypi import PyPIPackageAdapter
+from src.ai_orbit.adapters.pyvideo_videos import PyVideoVideosAdapter
 from src.ai_orbit.adapters.ros_robots import RosRobotsCatalogAdapter
 from src.ai_orbit.config import AIOrbitSettings, get_ai_orbit_settings
 from src.ai_orbit.models import PipelineState, RawEntityRecord
@@ -40,9 +46,15 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         AIToolsProductDirectoryAdapter(settings),
         ModelsDevGitHubCatalogAdapter(settings),
         RosRobotsCatalogAdapter(settings),
+        GitHubReleasesNewsAdapter(settings),
+        PyVideoVideosAdapter(settings),
+        AIDeviceCatalogAdapter(settings),
+        HailoModelZooAdapter(settings),
+        QualcommAIHubAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),
+        *build_jobs_personal_probe_adapters(settings),
     ]
 
 

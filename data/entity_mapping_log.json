@@ -260,14 +260,24 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
   },
   {
-    "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
-    "canonical_value": "@openai/agents-core",
+    "canonical_id": "9147142c-7d83-5ec7-8bfe-862ed0de78c7",
+    "canonical_value": "@langchain/openai",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@openai/agents-core",
-    "raw_value": "@openai/agents-core",
+    "raw_source_key": "npm-search:package:@langchain/openai",
+    "raw_value": "@langchain/openai",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
+  },
+  {
+    "canonical_id": "61b4394f-3675-5be3-8ff5-f18e4b19b614",
+    "canonical_value": "@earendil-works/pi-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@earendil-works/pi-ai",
+    "raw_value": "@earendil-works/pi-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@earendil-works%2Fpi-ai"
   },
   {
     "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
@@ -280,46 +290,6 @@
     "source_url": "https://registry.npmjs.org/langchain"
   },
   {
-    "canonical_id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
-    "canonical_value": "assistant-stream",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:assistant-stream",
-    "raw_value": "assistant-stream",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/assistant-stream"
-  },
-  {
-    "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
-    "canonical_value": "am-i-vibing",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:am-i-vibing",
-    "raw_value": "am-i-vibing",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/am-i-vibing"
-  },
-  {
-    "canonical_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
-    "canonical_value": "agents",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:agents",
-    "raw_value": "agents",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/agents"
-  },
-  {
-    "canonical_id": "81c98248-f1df-5b9a-9ae9-6c1157eb28a7",
-    "canonical_value": "@json-render/core",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@json-render/core",
-    "raw_value": "@json-render/core",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@json-render%2Fcore"
-  },
-  {
     "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
     "canonical_value": "chat",
     "confidence": 1.0,
@@ -328,16 +298,6 @@
     "raw_value": "chat",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/chat"
-  },
-  {
-    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
-    "canonical_value": "ollama-ai-provider-v2",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
-    "raw_value": "ollama-ai-provider-v2",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
   },
   {
     "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
@@ -350,6 +310,16 @@
     "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
   },
   {
+    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
+    "canonical_value": "ollama-ai-provider-v2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
+    "raw_value": "ollama-ai-provider-v2",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
+  },
+  {
     "canonical_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
     "canonical_value": "eve",
     "confidence": 1.0,
@@ -360,14 +330,14 @@
     "source_url": "https://registry.npmjs.org/eve"
   },
   {
-    "canonical_id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
-    "canonical_value": "@assistant-ui/react-ai-sdk",
+    "canonical_id": "03fef08d-5925-5571-af98-99d29cbe11d5",
+    "canonical_value": "tokenlens",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@assistant-ui/react-ai-sdk",
-    "raw_value": "@assistant-ui/react-ai-sdk",
+    "raw_source_key": "npm-search:package:tokenlens",
+    "raw_value": "tokenlens",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
+    "source_url": "https://registry.npmjs.org/tokenlens"
   },
   {
     "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
@@ -460,14 +430,34 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
   },
   {
-    "canonical_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
-    "canonical_value": "add-mcp",
+    "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "canonical_value": "ato-mcp",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:add-mcp",
-    "raw_value": "add-mcp",
+    "raw_source_key": "npm-search:package:ato-mcp",
+    "raw_value": "ato-mcp",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/add-mcp"
+    "source_url": "https://registry.npmjs.org/ato-mcp"
+  },
+  {
+    "canonical_id": "f55179f4-291d-547c-b9b2-5a6700158765",
+    "canonical_value": "@lovable.dev/mcp-js",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@lovable.dev/mcp-js",
+    "raw_value": "@lovable.dev/mcp-js",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js"
+  },
+  {
+    "canonical_id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "canonical_value": "pi-mcp-adapter",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:pi-mcp-adapter",
+    "raw_value": "pi-mcp-adapter",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -1418,6 +1408,1056 @@
     "raw_value": "Clearpath Husky UGV",
     "reason": "same normalized URL",
     "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "ea6a253e-2212-5afc-92ce-4f8e5bc131f8",
+    "canonical_value": "Release v5.16.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/transformers:377216922",
+    "raw_value": "Release v5.16.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922"
+  },
+  {
+    "canonical_id": "a981db00-4584-513a-b7fd-d250034611e2",
+    "canonical_value": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/diffusers:373818176",
+    "raw_value": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176"
+  },
+  {
+    "canonical_id": "a2168897-fce8-5202-ae9e-ecc6c8903754",
+    "canonical_value": "5.0.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/datasets:361026946",
+    "raw_value": "5.0.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
+  },
+  {
+    "canonical_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "canonical_value": "7.0.9",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:cohere-ai/cohere-python:372980471",
+    "raw_value": "7.0.9",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+  },
+  {
+    "canonical_id": "3a203a91-2444-5759-9403-813128744653",
+    "canonical_value": "v1.7.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:groq/groq-python:376845784",
+    "raw_value": "v1.7.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/groq/groq-python/releases/376845784"
+  },
+  {
+    "canonical_id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
+    "canonical_value": "python - v2.9.4 - 2026-08-21 18:06:04",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:mistralai/client-python:374583539",
+    "raw_value": "python - v2.9.4 - 2026-08-21 18:06:04",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
+  },
+  {
+    "canonical_id": "04ce93ed-5437-5a85-8551-324e8fac464c",
+    "canonical_value": "v3.3.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:openai/openai-python:373198010",
+    "raw_value": "v3.3.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+  },
+  {
+    "canonical_id": "975a45d1-f64f-563d-b143-fd2c5e787e9f",
+    "canonical_value": "v1.1.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:anthropics/anthropic-sdk-python:377292225",
+    "raw_value": "v1.1.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225"
+  },
+  {
+    "canonical_id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
+    "canonical_value": "1.30.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:modelcontextprotocol/typescript-sdk:360611023",
+    "raw_value": "1.30.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
+  },
+  {
+    "canonical_id": "4bea661d-5dd5-51f3-9a2f-e89003358a3c",
+    "canonical_value": "Release: v5.16.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/transformers:377105315",
+    "raw_value": "Release: v5.16.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315"
+  },
+  {
+    "canonical_id": "14e79e04-9fa3-587f-9422-3415259f1aed",
+    "canonical_value": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/diffusers:348505088",
+    "raw_value": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088"
+  },
+  {
+    "canonical_id": "71074a06-3269-5ced-ab78-6f21a1813c75",
+    "canonical_value": "5.0.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/datasets:334943975",
+    "raw_value": "5.0.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
+  },
+  {
+    "canonical_id": "a1d4c9ee-72ac-5ee7-af06-5c8d5c9f17c8",
+    "canonical_value": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2025:bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture",
+    "raw_value": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture.json"
+  },
+  {
+    "canonical_id": "2e215451-5408-58a2-b62a-beafa1f6cd70",
+    "canonical_value": "Building FPGA-based Machine Learning Accelerators in Python",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2024:building-fpga-based-machine-learning-accelerators-in-python",
+    "raw_value": "Building FPGA-based Machine Learning Accelerators in Python",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/building-fpga-based-machine-learning-accelerators-in-python.json"
+  },
+  {
+    "canonical_id": "6bdfa888-e980-5d94-847b-c8a6663c6c4e",
+    "canonical_value": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2024:a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu",
+    "raw_value": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu.json"
+  },
+  {
+    "canonical_id": "f38b6cf7-b381-503f-999d-0fb4ec8b7cb0",
+    "canonical_value": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2023:accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng",
+    "raw_value": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng.json"
+  },
+  {
+    "canonical_id": "5832c267-4992-5fb4-9ca2-8f1b84f23ea9",
+    "canonical_value": "Vector space embeddings and data maps for cyber defense",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:scipy-2024:benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024",
+    "raw_value": "Vector space embeddings and data maps for cyber defense",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024.json"
+  },
+  {
+    "canonical_id": "ff5c8a21-203b-532e-a2e4-b3c57dd40a0c",
+    "canonical_value": "Versioning Multimodal Data: Metadata & Beyond",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pydata-virginia-2025:dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025",
+    "raw_value": "Versioning Multimodal Data: Metadata & Beyond",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025.json"
+  },
+  {
+    "canonical_id": "284053f2-887f-5127-b45b-ebf0aa29913f",
+    "canonical_value": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2025:building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku",
+    "raw_value": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku.json"
+  },
+  {
+    "canonical_id": "472f40ea-fc02-5170-8dea-1fd4afaa2223",
+    "canonical_value": "Clasificación de violencia mediante análisis de audio y embeddings",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2024:clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings",
+    "raw_value": "Clasificación de violencia mediante análisis de audio y embeddings",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings.json"
+  },
+  {
+    "canonical_id": "090fe18f-d7eb-5fea-9c1e-501d43e00d13",
+    "canonical_value": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2024:building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua",
+    "raw_value": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua.json"
+  },
+  {
+    "canonical_id": "ebebf641-7782-5f99-b90b-31e2dd1636a5",
+    "canonical_value": "Accelerating Generative AI",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2023:accelerating-generative-ai-christian-puhrsch-horace-he-meta",
+    "raw_value": "Accelerating Generative AI",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-generative-ai-christian-puhrsch-horace-he-meta.json"
+  },
+  {
+    "canonical_id": "f8493f58-5c8f-5b8e-a3ef-e28255d397be",
+    "canonical_value": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:scipy-2024:eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024",
+    "raw_value": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024.json"
+  },
+  {
+    "canonical_id": "856f3369-9a41-5655-9b4f-40d98d376767",
+    "canonical_value": "Build Your Own Data Science AI Agents",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pydata-virginia-2025:krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025",
+    "raw_value": "Build Your Own Data Science AI Agents",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025.json"
+  },
+  {
+    "canonical_id": "1a4d15bf-73b2-5b7a-bd9f-01bd740899f1",
+    "canonical_value": "Grove Vision AI Module V2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:grove-vision-ai-module-v2",
+    "raw_value": "Grove Vision AI Module V2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "5c5f6ece-a713-5d2e-b55d-3ddd71c74218",
+    "canonical_value": "Alif Semiconductor AK-E7-AIML",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:alif-semiconductor-ak-e7-aiml",
+    "raw_value": "Alif Semiconductor AK-E7-AIML",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "a009369d-fa80-5751-9502-27c19c161ab2",
+    "canonical_value": "NXP MCIMX93-EVK",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:nxp-mcimx93-evk",
+    "raw_value": "NXP MCIMX93-EVK",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "462ef4ad-9e7c-5619-b689-dc39832dc4a3",
+    "canonical_value": "MaaXBoard OSM93 Board",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:maaxboard-osm93-board",
+    "raw_value": "MaaXBoard OSM93 Board",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "dc428ba6-2d30-5e9d-99f4-8074d90129ce",
+    "canonical_value": "ESP32-S3-EYE",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:esp32-s3-eye",
+    "raw_value": "ESP32-S3-EYE",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "4dd608c0-09e5-5b87-bdd4-86e0aae16b28",
+    "canonical_value": "Seeed Studio XIAO ESP32S3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:seeed-studio-xiao-esp32s3",
+    "raw_value": "Seeed Studio XIAO ESP32S3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "dfdbdfa0-b371-5179-86d9-ffd3beaf0970",
+    "canonical_value": "NUCLEO-N657X0-Q",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:nucleo-n657x0-q",
+    "raw_value": "NUCLEO-N657X0-Q",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "ef7db5ea-621e-5b26-a50c-48fbbfb9cb47",
+    "canonical_value": "LAUNCHXL-F28P55X",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:launchxl-f28p55x",
+    "raw_value": "LAUNCHXL-F28P55X",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "0234b08c-0cb8-50d7-9e08-9eb57a2c0b42",
+    "canonical_value": "STM32N6570-DK",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:stm32n6570-dk",
+    "raw_value": "STM32N6570-DK",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "1deabcbb-a20f-5bac-aea5-f3b889a60525",
+    "canonical_value": "01Studio CanMV K230 Development Board",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:01studio-canmv-k230-development-board",
+    "raw_value": "01Studio CanMV K230 Development Board",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "20481e8e-ac91-5f9e-99f9-66255fccbc14",
+    "canonical_value": "Sipeed Maix Bit",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:sipeed-maix-bit",
+    "raw_value": "Sipeed Maix Bit",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "2b9fec3c-c84d-55a3-92cb-8fe149463ed4",
+    "canonical_value": "MAX78000FTHR",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:max78000fthr",
+    "raw_value": "MAX78000FTHR",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "ffdab2da-b5d0-507d-a3f1-8f4bb50683a3",
+    "canonical_value": "Arduino Nicla Voice",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:arduino-nicla-voice",
+    "raw_value": "Arduino Nicla Voice",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "0f3927c7-e243-5dd2-adab-90604ff52f0c",
+    "canonical_value": "SiLabs NxG24-DK2601B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:silabs-nxg24-dk2601b",
+    "raw_value": "SiLabs NxG24-DK2601B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "9a89a0ef-76e5-57ea-a9e1-4fc4b7cbd004",
+    "canonical_value": "AVNet AES-RASYNB-120-SK-G",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:avnet-aes-rasynb-120-sk-g",
+    "raw_value": "AVNet AES-RASYNB-120-SK-G",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "a713e142-2dc1-568b-bbcc-81f8b84cff35",
+    "canonical_value": "centernet_resnet_v1_50_postprocess",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:centernet_resnet_v1_50_postprocess",
+    "raw_value": "centernet_resnet_v1_50_postprocess",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/centernet_resnet_v1_50_postprocess.yaml"
+  },
+  {
+    "canonical_id": "9a2f6493-8b09-5605-88db-75fd50c6a6bc",
+    "canonical_value": "clip_vit_b_32_image_encoder",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:clip_vit_b_32_image_encoder",
+    "raw_value": "clip_vit_b_32_image_encoder",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/clip_vit_b_32_image_encoder.yaml"
+  },
+  {
+    "canonical_id": "81b2a7a3-87dd-5555-ac6b-7fa3701e999e",
+    "canonical_value": "damoyolo_tinynasL35_M",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:damoyolo_tinynasL35_M",
+    "raw_value": "damoyolo_tinynasL35_M",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/damoyolo_tinynasl35_m.yaml"
+  },
+  {
+    "canonical_id": "682c8554-f264-5bd6-b5d2-15143157c3c7",
+    "canonical_value": "depth_anything_vits",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:depth_anything_vits",
+    "raw_value": "depth_anything_vits",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/depth_anything_vits.yaml"
+  },
+  {
+    "canonical_id": "0f03539f-bab3-5320-937c-554031e768f1",
+    "canonical_value": "efficientnet_l",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:efficientnet_l",
+    "raw_value": "efficientnet_l",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/efficientnet_l.yaml"
+  },
+  {
+    "canonical_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b",
+    "canonical_value": "espcn_x2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:espcn_x2",
+    "raw_value": "espcn_x2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/espcn_x2.yaml"
+  },
+  {
+    "canonical_id": "fefbd8e0-7164-5d61-92ca-6515e35f281d",
+    "canonical_value": "fast_sam_s",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:fast_sam_s",
+    "raw_value": "fast_sam_s",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/fast_sam_s.yaml"
+  },
+  {
+    "canonical_id": "1898057f-af91-5d74-bf34-55274260d687",
+    "canonical_value": "hailo_yolov8s_480_640",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:hailo_yolov8s_480_640",
+    "raw_value": "hailo_yolov8s_480_640",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/hailo_yolov8s_480_640.yaml"
+  },
+  {
+    "canonical_id": "d111758b-002c-5423-91c8-47e56211e1fe",
+    "canonical_value": "levit384",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:levit384",
+    "raw_value": "levit384",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/levit384.yaml"
+  },
+  {
+    "canonical_id": "21f43273-c2f8-5f0b-bffe-24f74b1651fc",
+    "canonical_value": "mobilenet_v3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:mobilenet_v3",
+    "raw_value": "mobilenet_v3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/mobilenet_v3.yaml"
+  },
+  {
+    "canonical_id": "ebc558ad-8463-5b53-a884-be26a22cca7b",
+    "canonical_value": "paddle_ocr_v5_mobile_detection",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:paddle_ocr_v5_mobile_detection",
+    "raw_value": "paddle_ocr_v5_mobile_detection",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/paddle_ocr_v5_mobile_detection.yaml"
+  },
+  {
+    "canonical_id": "80709cf3-1127-5ce8-8768-316c29edf670",
+    "canonical_value": "regnetx_800mf",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:regnetx_800mf",
+    "raw_value": "regnetx_800mf",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/regnetx_800mf.yaml"
+  },
+  {
+    "canonical_id": "b3d6f126-f2d0-5625-ad79-0442d365d424",
+    "canonical_value": "resnet_v1_34",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:resnet_v1_34",
+    "raw_value": "resnet_v1_34",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/resnet_v1_34.yaml"
+  },
+  {
+    "canonical_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59",
+    "canonical_value": "scrfd_10g_nv12_fhd",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:scrfd_10g_nv12_fhd",
+    "raw_value": "scrfd_10g_nv12_fhd",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/scrfd_10g_nv12_fhd.yaml"
+  },
+  {
+    "canonical_id": "1825768b-0f01-58e9-8f6c-8cc6f4a34951",
+    "canonical_value": "siglip_b_16_image_encoder",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:siglip_b_16_image_encoder",
+    "raw_value": "siglip_b_16_image_encoder",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml"
+  },
+  {
+    "canonical_id": "62f54f5b-dfca-5cc0-92b6-792ac2d53788",
+    "canonical_value": "stereonet",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:stereonet",
+    "raw_value": "stereonet",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/stereonet.yaml"
+  },
+  {
+    "canonical_id": "a17a16e4-d817-54f2-ad24-399f17efa10b",
+    "canonical_value": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
+    "raw_value": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder.yaml"
+  },
+  {
+    "canonical_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8",
+    "canonical_value": "unet_mobilenet_v2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:unet_mobilenet_v2",
+    "raw_value": "unet_mobilenet_v2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/unet_mobilenet_v2.yaml"
+  },
+  {
+    "canonical_id": "26066cd0-273c-56b3-8bf0-f9e5305c18b2",
+    "canonical_value": "vit_tiny",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:vit_tiny",
+    "raw_value": "vit_tiny",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/vit_tiny.yaml"
+  },
+  {
+    "canonical_id": "a6ec8d6e-437a-5f85-8eb6-ef9f1b3a686b",
+    "canonical_value": "yolo26n",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolo26n",
+    "raw_value": "yolo26n",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolo26n.yaml"
+  },
+  {
+    "canonical_id": "cad23b55-bbbb-54bc-a728-c88efa6ae86d",
+    "canonical_value": "yolov10x",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov10x",
+    "raw_value": "yolov10x",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov10x.yaml"
+  },
+  {
+    "canonical_id": "335b2650-e568-5936-9357-483408f227df",
+    "canonical_value": "yolov11s_obb",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov11s_obb",
+    "raw_value": "yolov11s_obb",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov11s_obb.yaml"
+  },
+  {
+    "canonical_id": "ec814a2e-4a25-5eb1-b173-7669e736970a",
+    "canonical_value": "yolov4_leaky",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov4_leaky",
+    "raw_value": "yolov4_leaky",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov4_leaky.yaml"
+  },
+  {
+    "canonical_id": "f0c2ab00-b26a-5023-b24a-9f67f94eb053",
+    "canonical_value": "yolov5m_vehicles_yuy2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov5m_vehicles_yuy2",
+    "raw_value": "yolov5m_vehicles_yuy2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5m_vehicles_yuy2.yaml"
+  },
+  {
+    "canonical_id": "2d9a9c86-43cd-5fa3-8602-00660d9e8eaf",
+    "canonical_value": "yolov5s_c3tr",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov5s_c3tr",
+    "raw_value": "yolov5s_c3tr",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5s_c3tr.yaml"
+  },
+  {
+    "canonical_id": "3d1d7295-bf70-5853-8553-c64fee352929",
+    "canonical_value": "yolov6n",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov6n",
+    "raw_value": "yolov6n",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov6n.yaml"
+  },
+  {
+    "canonical_id": "7923b4b1-45e6-57be-a773-823354b6c8a2",
+    "canonical_value": "yolov8m",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov8m",
+    "raw_value": "yolov8m",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8m.yaml"
+  },
+  {
+    "canonical_id": "d693026e-8d44-5d0f-9e65-225c204ef448",
+    "canonical_value": "yolov8s_seg",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov8s_seg",
+    "raw_value": "yolov8s_seg",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8s_seg.yaml"
+  },
+  {
+    "canonical_id": "71945320-b600-514c-a6ce-52c46d670fac",
+    "canonical_value": "zero_dce_pp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:zero_dce_pp",
+    "raw_value": "zero_dce_pp",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/zero_dce_pp.yaml"
+  },
+  {
+    "canonical_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "canonical_value": "Hailo-10H",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:device:hailo10h",
+    "raw_value": "Hailo-10H",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+  },
+  {
+    "canonical_id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "canonical_value": "Hailo-15H",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:device:hailo15h",
+    "raw_value": "Hailo-15H",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+  },
+  {
+    "canonical_id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "canonical_value": "Hailo-15L",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:device:hailo15l",
+    "raw_value": "Hailo-15L",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+  },
+  {
+    "canonical_id": "9f99dda0-e9bd-5111-9c06-d0b054ebb7a4",
+    "canonical_value": "ACT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:act",
+    "raw_value": "ACT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/act/manifest.yaml"
+  },
+  {
+    "canonical_id": "5573f666-3ea5-551f-9e4e-47e1e1940d43",
+    "canonical_value": "CavaFace",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:cavaface",
+    "raw_value": "CavaFace",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/cavaface/manifest.yaml"
+  },
+  {
+    "canonical_id": "13f7a61a-40ea-525b-ba16-e6dfb28425e7",
+    "canonical_value": "ConvNext-Base",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:convnext_base",
+    "raw_value": "ConvNext-Base",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/convnext_base/manifest.yaml"
+  },
+  {
+    "canonical_id": "8b94a8bb-ee95-53e5-9f99-4d7e3ebc8f2e",
+    "canonical_value": "3D-Deep-BOX",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:deepbox",
+    "raw_value": "3D-Deep-BOX",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/deepbox/manifest.yaml"
+  },
+  {
+    "canonical_id": "e73f0f88-2bf8-59c3-880b-68fc0a86e83d",
+    "canonical_value": "Depth-Anything",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:depth_anything",
+    "raw_value": "Depth-Anything",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/depth_anything/manifest.yaml"
+  },
+  {
+    "canonical_id": "5e5e5a8e-1db1-544e-aa1c-320964778a9c",
+    "canonical_value": "DETR-ResNet50-DC5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:detr_resnet50_dc5",
+    "raw_value": "DETR-ResNet50-DC5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/detr_resnet50_dc5/manifest.yaml"
+  },
+  {
+    "canonical_id": "30e62ff6-d6c2-53f1-9c9b-4e19fdd96f66",
+    "canonical_value": "EdgeTAM",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:edgetam",
+    "raw_value": "EdgeTAM",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/edgetam/manifest.yaml"
+  },
+  {
+    "canonical_id": "0bb92e1d-0628-5c4b-8a76-fac530abc91b",
+    "canonical_value": "EfficientViT-l2-cls",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:efficientvit_l2_cls",
+    "raw_value": "EfficientViT-l2-cls",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/efficientvit_l2_cls/manifest.yaml"
+  },
+  {
+    "canonical_id": "fc33e915-15ed-5c11-9f58-99a1a447f97d",
+    "canonical_value": "Facial-Landmark-Detection",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:facemap_3dmm",
+    "raw_value": "Facial-Landmark-Detection",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/facemap_3dmm/manifest.yaml"
+  },
+  {
+    "canonical_id": "5370cd79-5295-5057-8f90-8da3de8f1378",
+    "canonical_value": "FFNet-54S",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:ffnet_54s",
+    "raw_value": "FFNet-54S",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/ffnet_54s/manifest.yaml"
+  },
+  {
+    "canonical_id": "dfe51713-0288-54a8-9f49-ed1799d46a87",
+    "canonical_value": "Gemma-4-E2B-it",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:gemma_4_e2b_it",
+    "raw_value": "Gemma-4-E2B-it",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/gemma_4_e2b_it/manifest.yaml"
+  },
+  {
+    "canonical_id": "60d42d7b-56cb-5e00-a5e4-463e2031bb9a",
+    "canonical_value": "GR00TN1.5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:grootn15",
+    "raw_value": "GR00TN1.5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/grootn15/manifest.yaml"
+  },
+  {
+    "canonical_id": "c4bfebf2-4360-5136-afd1-a98a00a8b2db",
+    "canonical_value": "IndusQ-1.1B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:indus_1b",
+    "raw_value": "IndusQ-1.1B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/indus_1b/manifest.yaml"
+  },
+  {
+    "canonical_id": "d1d8915b-7f51-517c-9f84-c721e86e19f3",
+    "canonical_value": "Llama-SEA-LION-v3.5-8B-R",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:llama_v3_1_sea_lion_3_5_8b_r",
+    "raw_value": "Llama-SEA-LION-v3.5-8B-R",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/llama_v3_1_sea_lion_3_5_8b_r/manifest.yaml"
+  },
+  {
+    "canonical_id": "d0c38476-3ac7-5f73-9b96-a379144a2ac6",
+    "canonical_value": "Mask2Former",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mask2former",
+    "raw_value": "Mask2Former",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mask2former/manifest.yaml"
+  },
+  {
+    "canonical_id": "026888cd-b644-527a-9b4e-96a5f5242340",
+    "canonical_value": "MeloTTS-EN",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:melotts_en",
+    "raw_value": "MeloTTS-EN",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/melotts_en/manifest.yaml"
+  },
+  {
+    "canonical_id": "bc4570a9-6754-576d-b529-96af7cf6e6c5",
+    "canonical_value": "MNASNet05",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mnasnet05",
+    "raw_value": "MNASNet05",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mnasnet05/manifest.yaml"
+  },
+  {
+    "canonical_id": "75a59f14-f545-56dc-8baa-1b386fbea86e",
+    "canonical_value": "MobileSam",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mobilesam",
+    "raw_value": "MobileSam",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mobilesam/manifest.yaml"
+  },
+  {
+    "canonical_id": "ad00ee03-6c58-52ff-b29f-8766d3eb3225",
+    "canonical_value": "OpenAI-Clip",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:openai_clip",
+    "raw_value": "OpenAI-Clip",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/openai_clip/manifest.yaml"
+  },
+  {
+    "canonical_id": "eac08873-5bd3-5db9-810a-77a77c6195e0",
+    "canonical_value": "OWL-V2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:owlv2",
+    "raw_value": "OWL-V2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/owlv2/manifest.yaml"
+  },
+  {
+    "canonical_id": "9b976bbd-3ab5-527a-9bfc-a83eb7a0bd86",
+    "canonical_value": "PiperTTS-IT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:pipertts_it",
+    "raw_value": "PiperTTS-IT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/pipertts_it/manifest.yaml"
+  },
+  {
+    "canonical_id": "8491e132-3a3d-5ed7-9e4a-b911deb49083",
+    "canonical_value": "QuickSRNetSmall",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:quicksrnetsmall",
+    "raw_value": "QuickSRNetSmall",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/quicksrnetsmall/manifest.yaml"
+  },
+  {
+    "canonical_id": "c9445197-107b-5f88-b673-eb788d790214",
+    "canonical_value": "Qwen3.5-0.8B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:qwen3_5_0_8b",
+    "raw_value": "Qwen3.5-0.8B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/qwen3_5_0_8b/manifest.yaml"
+  },
+  {
+    "canonical_id": "64efb893-fc14-5ea3-89cd-6eec59b8d600",
+    "canonical_value": "Real-ESRGAN-General-x4v3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:real_esrgan_general_x4v3",
+    "raw_value": "Real-ESRGAN-General-x4v3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/real_esrgan_general_x4v3/manifest.yaml"
+  },
+  {
+    "canonical_id": "beda6086-6137-5ff2-b9d0-d43855d042c6",
+    "canonical_value": "ResNet34-SSD",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:resnet34_ssd1200",
+    "raw_value": "ResNet34-SSD",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/resnet34_ssd1200/manifest.yaml"
+  },
+  {
+    "canonical_id": "86b3581c-9e3a-5335-8a59-c50f4d588759",
+    "canonical_value": "RF-DETR",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:rf_detr",
+    "raw_value": "RF-DETR",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/rf_detr/manifest.yaml"
+  },
+  {
+    "canonical_id": "92b2d0e2-d9ba-55d4-a0a7-8fe097f7d79e",
+    "canonical_value": "Segformer-Base",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:segformer_base",
+    "raw_value": "Segformer-Base",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/segformer_base/manifest.yaml"
+  },
+  {
+    "canonical_id": "ee5e76b2-0a6b-50db-aab6-a2b78f0e20d4",
+    "canonical_value": "SixDRepNet",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:sixd_repnet",
+    "raw_value": "SixDRepNet",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/sixd_repnet/manifest.yaml"
+  },
+  {
+    "canonical_id": "c0dfbe08-a44b-5891-a0f4-8f268513db74",
+    "canonical_value": "Swin-Small",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:swin_small",
+    "raw_value": "Swin-Small",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/swin_small/manifest.yaml"
+  },
+  {
+    "canonical_id": "5df271d7-0bdb-5de2-b985-7262e4145f53",
+    "canonical_value": "VIT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:vit",
+    "raw_value": "VIT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/vit/manifest.yaml"
+  },
+  {
+    "canonical_id": "6b8e15d1-b243-5366-8bd0-4948ec08a21e",
+    "canonical_value": "Whisper-Small-Quantized",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:whisper_small_quantized",
+    "raw_value": "Whisper-Small-Quantized",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/whisper_small_quantized/manifest.yaml"
+  },
+  {
+    "canonical_id": "56f87078-f33c-58b9-8b92-d4f0872f31a4",
+    "canonical_value": "YOLO26-Segmentation",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolo26_seg",
+    "raw_value": "YOLO26-Segmentation",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolo26_seg/manifest.yaml"
+  },
+  {
+    "canonical_id": "ac395af2-7c90-5a0b-9d92-b678d5eb5401",
+    "canonical_value": "YOLOv11-Segmentation",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolov11_seg",
+    "raw_value": "YOLOv11-Segmentation",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolov11_seg/manifest.yaml"
+  },
+  {
+    "canonical_id": "de3c78a1-964e-50c2-b79a-ac9b46f38eab",
+    "canonical_value": "YOLOv8-OBB",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolov8_obb",
+    "raw_value": "YOLOv8-OBB",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolov8_obb/manifest.yaml"
   },
   {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",

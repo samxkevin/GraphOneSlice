@@ -71,7 +71,66 @@ class AIOrbitSettings(BaseSettings):
     )
     ros_robots_limit: int = Field(default=15, validation_alias="AI_ORBIT_ROS_ROBOTS_LIMIT")
 
-    @field_validator("github_company_orgs", "pypi_packages", "npm_mcp_packages", "npm_search_tool_queries", mode="before")
+    github_releases_news_repos: list[str] = Field(default_factory=lambda: [
+        "huggingface/transformers",
+        "huggingface/diffusers",
+        "huggingface/datasets",
+        "cohere-ai/cohere-python",
+        "groq/groq-python",
+        "mistralai/client-python",
+        "openai/openai-python",
+        "anthropics/anthropic-sdk-python",
+        "modelcontextprotocol/typescript-sdk",
+    ])
+    github_releases_news_limit: int = Field(default=12, validation_alias="AI_ORBIT_GITHUB_RELEASES_NEWS_LIMIT")
+    github_releases_news_per_repo: int = Field(default=3, validation_alias="AI_ORBIT_GITHUB_RELEASES_NEWS_PER_REPO")
+
+    pyvideo_events: list[str] = Field(default_factory=lambda: [
+        "pycon-us-2025",
+        "pycon-us-2024",
+        "pytorchconf-2024",
+        "pytorchconf-2023",
+        "scipy-2024",
+        "pydata-virginia-2025",
+    ])
+    pyvideo_limit: int = Field(default=12, validation_alias="AI_ORBIT_PYVIDEO_LIMIT")
+    pyvideo_per_event_limit: int = Field(default=20, validation_alias="AI_ORBIT_PYVIDEO_PER_EVENT_LIMIT")
+
+    ai_device_catalog_api_url: str = Field(
+        default="https://api.github.com/repos/Vge0rge/ai-ml-embedded-boards/contents/README.md",
+        validation_alias="AI_ORBIT_AI_DEVICE_CATALOG_API_URL",
+    )
+    ai_device_limit: int = Field(default=15, validation_alias="AI_ORBIT_AI_DEVICE_LIMIT")
+
+    hailo_model_zoo_tree_url: str = Field(
+        default="https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+        validation_alias="AI_ORBIT_HAILO_MODEL_ZOO_TREE_URL",
+    )
+    hailo_model_zoo_contents_base: str = Field(
+        default="https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/",
+        validation_alias="AI_ORBIT_HAILO_MODEL_ZOO_CONTENTS_BASE",
+    )
+    hailo_model_limit: int = Field(default=32, validation_alias="AI_ORBIT_HAILO_MODEL_LIMIT")
+
+    qualcomm_ai_hub_tree_url: str = Field(
+        default="https://api.github.com/repos/qualcomm/ai-hub-models/git/trees/main",
+        validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_TREE_URL",
+    )
+    qualcomm_ai_hub_contents_base: str = Field(
+        default="https://api.github.com/repos/qualcomm/ai-hub-models/contents/",
+        validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_CONTENTS_BASE",
+    )
+    qualcomm_ai_hub_model_limit: int = Field(default=34, validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_MODEL_LIMIT")
+
+    @field_validator(
+        "github_company_orgs",
+        "pypi_packages",
+        "npm_mcp_packages",
+        "npm_search_tool_queries",
+        "github_releases_news_repos",
+        "pyvideo_events",
+        mode="before",
+    )
     @classmethod
     def parse_csv_lists(cls, value: str | list[str]) -> list[str]:
         return _split_csv(value)

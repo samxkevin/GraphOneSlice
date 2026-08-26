@@ -1,0 +1,1470 @@
+[
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator); Price: ~55 usd Aliexpress",
+    "entity_type": "device",
+    "id": "1deabcbb-a20f-5bac-aea5-f3b889a60525",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator)",
+          "matched_tokens": [
+            "kpu",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://www.aliexpress.com/item/1005007573129445.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "01Studio",
+        "manufacturer_evidence": "matched '01studio' in board name '01Studio CanMV K230 Development Board'",
+        "price": "~55 usd Aliexpress",
+        "processor": "CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator)",
+        "supports": null,
+        "vendor": "Aliexpress",
+        "vendor_url": "https://www.aliexpress.com/item/1005007573129445.html"
+      }
+    },
+    "name": "01Studio CanMV K230 Development Board",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator); Price: ~55 usd Aliexpress",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator)",
+            "matched_tokens": [
+              "kpu",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://www.aliexpress.com/item/1005007573129445.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "01Studio",
+          "manufacturer_evidence": "matched '01studio' in board name '01Studio CanMV K230 Development Board'",
+          "price": "~55 usd Aliexpress",
+          "processor": "CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator)",
+          "supports": null,
+          "vendor": "Aliexpress",
+          "vendor_url": "https://www.aliexpress.com/item/1005007573129445.html"
+        },
+        "name": "01Studio CanMV K230 Development Board",
+        "url": "https://www.aliexpress.com/item/1005007573129445.html"
+      },
+      "source_record_id": "ai-device-catalog:device:01studio-canmv-k230-development-board",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "01Studio CanMV K230 Development Board",
+          "operation": "normalize_name",
+          "output": "01studio canmv k230 development board",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.aliexpress.com/item/1005007573129445.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.aliexpress.com/item/1005007573129445.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU); TensorFlow light; Price: ~250 usd Arrow",
+    "entity_type": "device",
+    "id": "5c5f6ece-a713-5d2e-b55d-3ddd71c74218",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU)",
+          "matched_tokens": [
+            "npu",
+            "ethos"
+          ]
+        },
+        "canonical_url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Alif Semiconductor",
+        "manufacturer_evidence": "matched 'alif' in board name 'Alif Semiconductor AK-E7-AIML'",
+        "price": "~250 usd Arrow",
+        "processor": "Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU)",
+        "supports": "TensorFlow light",
+        "vendor": "Arrow",
+        "vendor_url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor"
+      }
+    },
+    "name": "Alif Semiconductor AK-E7-AIML",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU); TensorFlow light; Price: ~250 usd Arrow",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU)",
+            "matched_tokens": [
+              "npu",
+              "ethos"
+            ]
+          },
+          "canonical_url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Alif Semiconductor",
+          "manufacturer_evidence": "matched 'alif' in board name 'Alif Semiconductor AK-E7-AIML'",
+          "price": "~250 usd Arrow",
+          "processor": "Ensemble E7 (2 x ARM Cortex-A32, 2 x ARM Cortex-M55 & Ethos-U55 NPU)",
+          "supports": "TensorFlow light",
+          "vendor": "Arrow",
+          "vendor_url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor"
+        },
+        "name": "Alif Semiconductor AK-E7-AIML",
+        "url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor"
+      },
+      "source_record_id": "ai-device-catalog:device:alif-semiconductor-ak-e7-aiml",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Alif Semiconductor AK-E7-AIML",
+          "operation": "normalize_name",
+          "output": "alif semiconductor ak-e7-aiml",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.arrow.com/en/products/ak-e7-aiml/alif-semiconductor"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor); Price: ~70 usd Arduino",
+    "entity_type": "device",
+    "id": "ffdab2da-b5d0-507d-a3f1-8f4bb50683a3",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+          "matched_tokens": [
+            "neural decision processor",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://store.arduino.cc/products/nicla-voice",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Arduino",
+        "manufacturer_evidence": "matched 'arduino' in board name 'Arduino Nicla Voice'",
+        "price": "~70 usd Arduino",
+        "processor": "nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+        "supports": null,
+        "vendor": "Arduino",
+        "vendor_url": "https://store.arduino.cc/products/nicla-voice"
+      }
+    },
+    "name": "Arduino Nicla Voice",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor); Price: ~70 usd Arduino",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+            "matched_tokens": [
+              "neural decision processor",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://store.arduino.cc/products/nicla-voice",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Arduino",
+          "manufacturer_evidence": "matched 'arduino' in board name 'Arduino Nicla Voice'",
+          "price": "~70 usd Arduino",
+          "processor": "nRF52832 (1 X ARM Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+          "supports": null,
+          "vendor": "Arduino",
+          "vendor_url": "https://store.arduino.cc/products/nicla-voice"
+        },
+        "name": "Arduino Nicla Voice",
+        "url": "https://store.arduino.cc/products/nicla-voice"
+      },
+      "source_record_id": "ai-device-catalog:device:arduino-nicla-voice",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Arduino Nicla Voice",
+          "operation": "normalize_name",
+          "output": "arduino nicla voice",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://store.arduino.cc/products/nicla-voice",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://store.arduino.cc/products/nicla-voice"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor); Price: ~100 usd Avnet",
+    "entity_type": "device",
+    "id": "9a89a0ef-76e5-57ea-a9e1-4fc4b7cbd004",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+          "matched_tokens": [
+            "neural decision processor",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Avnet",
+        "manufacturer_evidence": "matched 'avnet' in board name 'AVNet AES-RASYNB-120-SK-G'",
+        "price": "~100 usd Avnet",
+        "processor": "Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+        "supports": null,
+        "vendor": "Avnet",
+        "vendor_url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard"
+      }
+    },
+    "name": "AVNet AES-RASYNB-120-SK-G",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor); Price: ~100 usd Avnet",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+            "matched_tokens": [
+              "neural decision processor",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Avnet",
+          "manufacturer_evidence": "matched 'avnet' in board name 'AVNet AES-RASYNB-120-SK-G'",
+          "price": "~100 usd Avnet",
+          "processor": "Renesas RA6M4 (1 x Cortex-M4), Syntiant NDP120 (1 x ARM Cortex-M0, 1 x Syntiant Core 2 Neural Decision Processor)",
+          "supports": null,
+          "vendor": "Avnet",
+          "vendor_url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard"
+        },
+        "name": "AVNet AES-RASYNB-120-SK-G",
+        "url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard"
+      },
+      "source_record_id": "ai-device-catalog:device:avnet-aes-rasynb-120-sk-g",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "AVNet AES-RASYNB-120-SK-G",
+          "operation": "normalize_name",
+          "output": "avnet aes-rasynb-120-sk-g",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/rasynboard"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI); Price: ~45 usd Espressif",
+    "entity_type": "device",
+    "id": "dc428ba6-2d30-5e9d-99f4-8074d90129ce",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+          "matched_tokens": [
+            "pie",
+            "processor instruction extensions"
+          ]
+        },
+        "canonical_url": "https://www.espressif.com/en/products/devkits",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Espressif",
+        "manufacturer_evidence": "matched 'esp32' in board name 'ESP32-S3-EYE'",
+        "price": "~45 usd Espressif",
+        "processor": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+        "supports": null,
+        "vendor": "Espressif",
+        "vendor_url": "https://www.espressif.com/en/products/devkits"
+      }
+    },
+    "name": "ESP32-S3-EYE",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI); Price: ~45 usd Espressif",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+            "matched_tokens": [
+              "pie",
+              "processor instruction extensions"
+            ]
+          },
+          "canonical_url": "https://www.espressif.com/en/products/devkits",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Espressif",
+          "manufacturer_evidence": "matched 'esp32' in board name 'ESP32-S3-EYE'",
+          "price": "~45 usd Espressif",
+          "processor": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+          "supports": null,
+          "vendor": "Espressif",
+          "vendor_url": "https://www.espressif.com/en/products/devkits"
+        },
+        "name": "ESP32-S3-EYE",
+        "url": "https://www.espressif.com/en/products/devkits"
+      },
+      "source_record_id": "ai-device-catalog:device:esp32-s3-eye",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "ESP32-S3-EYE",
+          "operation": "normalize_name",
+          "output": "esp32-s3-eye",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.espressif.com/en/products/devkits",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.espressif.com/en/products/devkits"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55); TensorFlow and PyTorch frameworks; Price: ~16 usd Seedstudio",
+    "entity_type": "device",
+    "id": "1a4d15bf-73b2-5b7a-bd9f-01bd740899f1",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55)",
+          "matched_tokens": [
+            "ethos"
+          ]
+        },
+        "canonical_url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Seeed Studio",
+        "manufacturer_evidence": "matched 'grove' in board name 'Grove Vision AI Module V2'",
+        "price": "~16 usd Seedstudio",
+        "processor": "WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55)",
+        "supports": "TensorFlow and PyTorch frameworks",
+        "vendor": "Seedstudio",
+        "vendor_url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html"
+      }
+    },
+    "name": "Grove Vision AI Module V2",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55); TensorFlow and PyTorch frameworks; Price: ~16 usd Seedstudio",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55)",
+            "matched_tokens": [
+              "ethos"
+            ]
+          },
+          "canonical_url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Seeed Studio",
+          "manufacturer_evidence": "matched 'grove' in board name 'Grove Vision AI Module V2'",
+          "price": "~16 usd Seedstudio",
+          "processor": "WiseEye2 HX6538 (2 x ARM Cortex-M55 & Ethos-U55)",
+          "supports": "TensorFlow and PyTorch frameworks",
+          "vendor": "Seedstudio",
+          "vendor_url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html"
+        },
+        "name": "Grove Vision AI Module V2",
+        "url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html"
+      },
+      "source_record_id": "ai-device-catalog:device:grove-vision-ai-module-v2",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Grove Vision AI Module V2",
+          "operation": "normalize_name",
+          "output": "grove vision ai module v2",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.seeedstudio.com/Grove-Vision-AI-Module-V2-p-5851.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "Hailo-10H AI accelerator; declared as supported hardware by 29 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo10h' is declared in info.supported_hw_arch by 29 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-10H - ...' and docs/public_models/HAILO10H/"
+      }
+    },
+    "name": "Hailo-10H",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-10H AI accelerator; declared as supported hardware by 29 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo10h' is declared in info.supported_hw_arch by 29 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-10H - ...' and docs/public_models/HAILO10H/"
+        },
+        "name": "Hailo-10H",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo10h",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-10H",
+          "operation": "normalize_name",
+          "output": "hailo-10h",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "Hailo-15H AI accelerator; declared as supported hardware by 29 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15h' is declared in info.supported_hw_arch by 29 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15H - ...' and docs/public_models/HAILO15H/"
+      }
+    },
+    "name": "Hailo-15H",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-15H AI accelerator; declared as supported hardware by 29 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15h' is declared in info.supported_hw_arch by 29 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15H - ...' and docs/public_models/HAILO15H/"
+        },
+        "name": "Hailo-15H",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo15h",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-15H",
+          "operation": "normalize_name",
+          "output": "hailo-15h",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "Hailo-15L AI accelerator; declared as supported hardware by 19 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15l' is declared in info.supported_hw_arch by 19 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15L - ...' and docs/public_models/HAILO15L/"
+      }
+    },
+    "name": "Hailo-15L",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-15L AI accelerator; declared as supported hardware by 19 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15l' is declared in info.supported_hw_arch by 19 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15L - ...' and docs/public_models/HAILO15L/"
+        },
+        "name": "Hailo-15L",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo15l",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-15L",
+          "operation": "normalize_name",
+          "output": "hailo-15l",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU); Price: ~30 usd TI)",
+    "entity_type": "device",
+    "id": "ef7db5ea-621e-5b26-a50c-48fbbfb9cb47",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU)",
+          "matched_tokens": [
+            "npu"
+          ]
+        },
+        "canonical_url": "https://www.ti.com/tool/LAUNCHXL-F28P55X",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Texas Instruments",
+        "manufacturer_evidence": "matched 'launchxl' in board name 'LAUNCHXL-F28P55X'",
+        "price": "~30 usd TI)",
+        "processor": "TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU)",
+        "supports": null,
+        "vendor": "TI",
+        "vendor_url": "https://www.ti.com/tool/LAUNCHXL-F28P55X"
+      }
+    },
+    "name": "LAUNCHXL-F28P55X",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU); Price: ~30 usd TI)",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU)",
+            "matched_tokens": [
+              "npu"
+            ]
+          },
+          "canonical_url": "https://www.ti.com/tool/LAUNCHXL-F28P55X",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Texas Instruments",
+          "manufacturer_evidence": "matched 'launchxl' in board name 'LAUNCHXL-F28P55X'",
+          "price": "~30 usd TI)",
+          "processor": "TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU)",
+          "supports": null,
+          "vendor": "TI",
+          "vendor_url": "https://www.ti.com/tool/LAUNCHXL-F28P55X"
+        },
+        "name": "LAUNCHXL-F28P55X",
+        "url": "https://www.ti.com/tool/LAUNCHXL-F28P55X"
+      },
+      "source_record_id": "ai-device-catalog:device:launchxl-f28p55x",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "LAUNCHXL-F28P55X",
+          "operation": "normalize_name",
+          "output": "launchxl-f28p55x",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.ti.com/tool/LAUNCHXL-F28P55X",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.ti.com/tool/LAUNCHXL-F28P55X"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU); Price: ~200 usd AVNET",
+    "entity_type": "device",
+    "id": "462ef4ad-9e7c-5619-b689-dc39832dc4a3",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+          "matched_tokens": [
+            "npu",
+            "ethos"
+          ]
+        },
+        "canonical_url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Avnet",
+        "manufacturer_evidence": "matched 'maaxboard' in board name 'MaaXBoard OSM93 Board'",
+        "price": "~200 usd AVNET",
+        "processor": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+        "supports": null,
+        "vendor": "AVNET",
+        "vendor_url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668"
+      }
+    },
+    "name": "MaaXBoard OSM93 Board",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU); Price: ~200 usd AVNET",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+            "matched_tokens": [
+              "npu",
+              "ethos"
+            ]
+          },
+          "canonical_url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Avnet",
+          "manufacturer_evidence": "matched 'maaxboard' in board name 'MaaXBoard OSM93 Board'",
+          "price": "~200 usd AVNET",
+          "processor": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+          "supports": null,
+          "vendor": "AVNET",
+          "vendor_url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668"
+        },
+        "name": "MaaXBoard OSM93 Board",
+        "url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668"
+      },
+      "source_record_id": "ai-device-catalog:device:maaxboard-osm93-board",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "MaaXBoard OSM93 Board",
+          "operation": "normalize_name",
+          "output": "maaxboard osm93 board",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.avnet.com/shop/us/products/avnet-engineering-services/aes-maaxb-osm93-dk-g-3074457345658404668"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator); Price: ~28 usd Analog Devices",
+    "entity_type": "device",
+    "id": "2b9fec3c-c84d-55a3-92cb-8fe149463ed4",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator)",
+          "matched_tokens": [
+            "neural network accelerator",
+            "accelerator",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://www.analog.com/en/products/max78000.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Analog Devices",
+        "manufacturer_evidence": "matched 'max78000' in board name 'MAX78000FTHR'",
+        "price": "~28 usd Analog Devices",
+        "processor": "Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator)",
+        "supports": null,
+        "vendor": "Analog Devices",
+        "vendor_url": "https://www.analog.com/en/products/max78000.html"
+      }
+    },
+    "name": "MAX78000FTHR",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator); Price: ~28 usd Analog Devices",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator)",
+            "matched_tokens": [
+              "neural network accelerator",
+              "accelerator",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://www.analog.com/en/products/max78000.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Analog Devices",
+          "manufacturer_evidence": "matched 'max78000' in board name 'MAX78000FTHR'",
+          "price": "~28 usd Analog Devices",
+          "processor": "Analog Devices MAX78000 (1 x ARM Cortex-M4 & In-house Neural Network Accelerator)",
+          "supports": null,
+          "vendor": "Analog Devices",
+          "vendor_url": "https://www.analog.com/en/products/max78000.html"
+        },
+        "name": "MAX78000FTHR",
+        "url": "https://www.analog.com/en/products/max78000.html"
+      },
+      "source_record_id": "ai-device-catalog:device:max78000fthr",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "MAX78000FTHR",
+          "operation": "normalize_name",
+          "output": "max78000fthr",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.analog.com/en/products/max78000.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.analog.com/en/products/max78000.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator); Price: ~55 usd ST",
+    "entity_type": "device",
+    "id": "dfdbdfa0-b371-5179-86d9-ffd3beaf0970",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+          "matched_tokens": [
+            "neural-art",
+            "accelerator",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "STMicroelectronics",
+        "manufacturer_evidence": "matched 'nucleo' in board name 'NUCLEO-N657X0-Q'",
+        "price": "~55 usd ST",
+        "processor": "STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+        "supports": null,
+        "vendor": "ST",
+        "vendor_url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html"
+      }
+    },
+    "name": "NUCLEO-N657X0-Q",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator); Price: ~55 usd ST",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+            "matched_tokens": [
+              "neural-art",
+              "accelerator",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "STMicroelectronics",
+          "manufacturer_evidence": "matched 'nucleo' in board name 'NUCLEO-N657X0-Q'",
+          "price": "~55 usd ST",
+          "processor": "STM32N657X0 (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+          "supports": null,
+          "vendor": "ST",
+          "vendor_url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html"
+        },
+        "name": "NUCLEO-N657X0-Q",
+        "url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html"
+      },
+      "source_record_id": "ai-device-catalog:device:nucleo-n657x0-q",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "NUCLEO-N657X0-Q",
+          "operation": "normalize_name",
+          "output": "nucleo-n657x0-q",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.st.com/en/evaluation-tools/nucleo-n657x0-q.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU); Price: ~622 usd NXP",
+    "entity_type": "device",
+    "id": "a009369d-fa80-5751-9502-27c19c161ab2",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+          "matched_tokens": [
+            "npu",
+            "ethos"
+          ]
+        },
+        "canonical_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "NXP",
+        "manufacturer_evidence": "matched 'nxp' in board name 'NXP MCIMX93-EVK'",
+        "price": "~622 usd NXP",
+        "processor": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+        "supports": null,
+        "vendor": "NXP",
+        "vendor_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK"
+      }
+    },
+    "name": "NXP MCIMX93-EVK",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU); Price: ~622 usd NXP",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+            "matched_tokens": [
+              "npu",
+              "ethos"
+            ]
+          },
+          "canonical_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "NXP",
+          "manufacturer_evidence": "matched 'nxp' in board name 'NXP MCIMX93-EVK'",
+          "price": "~622 usd NXP",
+          "processor": "i.MX93 (1-2 x ARM Cortex-A55, 1 x ARM Cortex-M33, Ethos-U65 NPU)",
+          "supports": null,
+          "vendor": "NXP",
+          "vendor_url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK"
+        },
+        "name": "NXP MCIMX93-EVK",
+        "url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK"
+      },
+      "source_record_id": "ai-device-catalog:device:nxp-mcimx93-evk",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "NXP MCIMX93-EVK",
+          "operation": "normalize_name",
+          "output": "nxp mcimx93-evk",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.nxp.com/design/design-center/development-boards-and-designs/i.MX93EVK"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI); Price: ~7 usd SeedStudio",
+    "entity_type": "device",
+    "id": "4dd608c0-09e5-5b87-bdd4-86e0aae16b28",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+          "matched_tokens": [
+            "pie",
+            "processor instruction extensions"
+          ]
+        },
+        "canonical_url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Seeed Studio",
+        "manufacturer_evidence": "matched 'seeed' in board name 'Seeed Studio XIAO ESP32S3'",
+        "price": "~7 usd SeedStudio",
+        "processor": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+        "supports": null,
+        "vendor": "SeedStudio",
+        "vendor_url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+      }
+    },
+    "name": "Seeed Studio XIAO ESP32S3",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI); Price: ~7 usd SeedStudio",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+            "matched_tokens": [
+              "pie",
+              "processor instruction extensions"
+            ]
+          },
+          "canonical_url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Seeed Studio",
+          "manufacturer_evidence": "matched 'seeed' in board name 'Seeed Studio XIAO ESP32S3'",
+          "price": "~7 usd SeedStudio",
+          "processor": "ESP32-S3 (2 x XTensa LX7 cores and PIE (Processor Instruction Extensions) for AI)",
+          "supports": null,
+          "vendor": "SeedStudio",
+          "vendor_url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+        },
+        "name": "Seeed Studio XIAO ESP32S3",
+        "url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+      },
+      "source_record_id": "ai-device-catalog:device:seeed-studio-xiao-esp32s3",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Seeed Studio XIAO ESP32S3",
+          "operation": "normalize_name",
+          "output": "seeed studio xiao esp32s3",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator; Price: ~69 usd SiLabs",
+    "entity_type": "device",
+    "id": "0f3927c7-e243-5dd2-adab-90604ff52f0c",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator",
+          "matched_tokens": [
+            "neural network accelerator",
+            "accelerator",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Silicon Labs",
+        "manufacturer_evidence": "matched 'silabs' in board name 'SiLabs NxG24-DK2601B'",
+        "price": "~69 usd SiLabs",
+        "processor": "nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator",
+        "supports": null,
+        "vendor": "SiLabs",
+        "vendor_url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit"
+      }
+    },
+    "name": "SiLabs NxG24-DK2601B",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator; Price: ~69 usd SiLabs",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator",
+            "matched_tokens": [
+              "neural network accelerator",
+              "accelerator",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Silicon Labs",
+          "manufacturer_evidence": "matched 'silabs' in board name 'SiLabs NxG24-DK2601B'",
+          "price": "~69 usd SiLabs",
+          "processor": "nRF52832 (1 X ARM Cortex-M33) & In-house Neural Network Accelerator",
+          "supports": null,
+          "vendor": "SiLabs",
+          "vendor_url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit"
+        },
+        "name": "SiLabs NxG24-DK2601B",
+        "url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit"
+      },
+      "source_record_id": "ai-device-catalog:device:silabs-nxg24-dk2601b",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "SiLabs NxG24-DK2601B",
+          "operation": "normalize_name",
+          "output": "silabs nxg24-dk2601b",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.silabs.com/development-tools/wireless/efr32xg24-dev-kit"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator); Price: ~26 usd Aliexpress",
+    "entity_type": "device",
+    "id": "20481e8e-ac91-5f9e-99f9-66255fccbc14",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator)",
+          "matched_tokens": [
+            "kpu",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://www.aliexpress.com/item/1005002547039100.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "Sipeed",
+        "manufacturer_evidence": "matched 'sipeed' in board name 'Sipeed Maix Bit'",
+        "price": "~26 usd Aliexpress",
+        "processor": "CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator)",
+        "supports": null,
+        "vendor": "Aliexpress",
+        "vendor_url": "https://www.aliexpress.com/item/1005002547039100.html"
+      }
+    },
+    "name": "Sipeed Maix Bit",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator); Price: ~26 usd Aliexpress",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator)",
+            "matched_tokens": [
+              "kpu",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://www.aliexpress.com/item/1005002547039100.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "Sipeed",
+          "manufacturer_evidence": "matched 'sipeed' in board name 'Sipeed Maix Bit'",
+          "price": "~26 usd Aliexpress",
+          "processor": "CanMV K210 (2 x 64-bit RISC-V and KPU (Knowledge Process Unit) AI accelerator)",
+          "supports": null,
+          "vendor": "Aliexpress",
+          "vendor_url": "https://www.aliexpress.com/item/1005002547039100.html"
+        },
+        "name": "Sipeed Maix Bit",
+        "url": "https://www.aliexpress.com/item/1005002547039100.html"
+      },
+      "source_record_id": "ai-device-catalog:device:sipeed-maix-bit",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Sipeed Maix Bit",
+          "operation": "normalize_name",
+          "output": "sipeed maix bit",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.aliexpress.com/item/1005002547039100.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.aliexpress.com/item/1005002547039100.html"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "MCU: STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator); Price: ~185 usd ST",
+    "entity_type": "device",
+    "id": "0234b08c-0cb8-50d7-9e08-9eb57a2c0b42",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+          "matched_tokens": [
+            "neural-art",
+            "accelerator",
+            "neural"
+          ]
+        },
+        "canonical_url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
+        "device_class": "embedded-ai-board",
+        "manufacturer": "STMicroelectronics",
+        "manufacturer_evidence": "matched 'stm32' in board name 'STM32N6570-DK'",
+        "price": "~185 usd ST",
+        "processor": "STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+        "supports": null,
+        "vendor": "ST",
+        "vendor_url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html"
+      }
+    },
+    "name": "STM32N6570-DK",
+    "provenance": {
+      "discovered_by": "AI Device Catalog",
+      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "MCU: STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator); Price: ~185 usd ST",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+            "matched_tokens": [
+              "neural-art",
+              "accelerator",
+              "neural"
+            ]
+          },
+          "canonical_url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
+          "device_class": "embedded-ai-board",
+          "manufacturer": "STMicroelectronics",
+          "manufacturer_evidence": "matched 'stm32' in board name 'STM32N6570-DK'",
+          "price": "~185 usd ST",
+          "processor": "STM32N657X0H3Q (1 x ARM Cortex-M55 and ST Neural-ART Accelerator)",
+          "supports": null,
+          "vendor": "ST",
+          "vendor_url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html"
+        },
+        "name": "STM32N6570-DK",
+        "url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html"
+      },
+      "source_record_id": "ai-device-catalog:device:stm32n6570-dk",
+      "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "STM32N6570-DK",
+          "operation": "normalize_name",
+          "output": "stm32n6570-dk",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://www.st.com/en/evaluation-tools/stm32n6570-dk.html",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "AI Device Catalog",
+      "url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+    },
+    "url": "https://www.st.com/en/evaluation-tools/stm32n6570-dk.html"
+  }
+]
