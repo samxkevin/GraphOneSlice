@@ -112,6 +112,16 @@ class AIOrbitSettings(BaseSettings):
     )
     hailo_model_limit: int = Field(default=32, validation_alias="AI_ORBIT_HAILO_MODEL_LIMIT")
 
+    qualcomm_ai_hub_tree_url: str = Field(
+        default="https://api.github.com/repos/qualcomm/ai-hub-models/git/trees/main",
+        validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_TREE_URL",
+    )
+    qualcomm_ai_hub_contents_base: str = Field(
+        default="https://api.github.com/repos/qualcomm/ai-hub-models/contents/",
+        validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_CONTENTS_BASE",
+    )
+    qualcomm_ai_hub_model_limit: int = Field(default=34, validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_MODEL_LIMIT")
+
     @field_validator(
         "github_company_orgs",
         "pypi_packages",

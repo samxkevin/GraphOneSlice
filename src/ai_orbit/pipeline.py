@@ -8,6 +8,7 @@ from src.ai_orbit.adapters.ai_tools_products import AIToolsProductDirectoryAdapt
 from src.ai_orbit.adapters.ai_device_catalog import AIDeviceCatalogAdapter
 from src.ai_orbit.adapters.base import SourceAdapter
 from src.ai_orbit.adapters.hailo_model_zoo import HailoModelZooAdapter
+from src.ai_orbit.adapters.qualcomm_ai_hub import QualcommAIHubAdapter
 from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapters
 from src.ai_orbit.adapters.jobs_personal_candidates import build_jobs_personal_probe_adapters
 from src.ai_orbit.adapters.github import GitHubAdapter
@@ -49,6 +50,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         PyVideoVideosAdapter(settings),
         AIDeviceCatalogAdapter(settings),
         HailoModelZooAdapter(settings),
+        QualcommAIHubAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),

@@ -54,7 +54,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `218`
+- valid entities: `252`
 - valid relationships: `135`
 - validation status: `passed`
 - validation failures: `0`
@@ -69,9 +69,9 @@ This is still an assessment vertical slice / early expansion, not the final 250�
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, Qualcomm AI Hub Models catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
-- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, Qualcomm AI Hub manifest parsing/provider derivation, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
 - **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until a source proves the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, Devices via the AI device catalog and the Hailo model zoo, and `Device → runs → Model` via the Hailo model zoo's explicit `info.supported_hw_arch` declarations; jobs and personal remain blocked — the reachable GitHub-hosted candidates were rejected on timestamp semantics (jobs: `date_posted` = "when added", not employer posting time) and identity (personal: an awesome list of open-source frameworks/tools, not personal-assistant products).
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
@@ -251,6 +251,22 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - Does **not** supply per-model license. License remains `null`.
 - The source `created` field is preserved as source metadata but is **not** treated as an independently verified model release date.
 - Direct `https://models.dev/api.json` probing still fails in this environment; this adapter uses the reachable GitHub source path for the same open-source catalog.
+
+#### Qualcomm AI Hub Models
+
+- Access: GitHub REST git-trees API (recursive) + contents API for `qualcomm/ai-hub-models` model `manifest.yaml` files.
+- Used for: bounded Model metadata records from Qualcomm's official catalog of models optimized for Qualcomm devices (a distinct vendor from the existing sources).
+- Latest verified inventory: `236` model manifests; `34` sampled (deterministic stride) and ingested.
+- Supplies source-backed model fields:
+  - model ID and display name;
+  - description;
+  - `license` + `license_type` (34/34 sampled records have a license);
+  - `domain` (Computer Vision / Generative AI / Audio / Multimodal), `use_case`, `tags`;
+  - `source_repo` (upstream model source), `research_paper` + `research_paper_title`;
+  - `technical_details`, `supported_precisions`.
+- Provider is the upstream GitHub/Hugging Face owner when the manifest links a source repository (e.g. `ultralytics`, `facebookresearch`, `pytorch`); otherwise the Qualcomm catalog publisher is recorded as provider.
+- Does **not** supply per-model release timestamps; none is fabricated. `fetched_at` remains provenance-only.
+- Does **not** emit `Device → runs → Model` edges: the per-model manifests declare no explicit supported-device list (the catalog's `devices_and_chipsets.yaml` lists chipsets/devices but supplies no per-chipset canonical URL), so no compatibility edge is inferred.
 
 #### ROS Robots Catalog
 
@@ -473,7 +489,7 @@ Implemented metadata support includes:
   - context/capability fields when supplied;
   - supported hardware architectures (Hailo model zoo records);
   - task, input shape, operations, parameters, original model source (Hailo model zoo records);
-  - current model records all have provider evidence; `12` Models.dev records have source-supplied modalities/input/output metadata; Hailo model-zoo records carry `supported_hw_arch`/task/shape/ops/parameters and an original `source_repository` where supplied; license remains `null` where no verified source supplies a per-model license;
+  - current model records all have provider evidence; `12` Models.dev records have source-supplied modalities/input/output metadata; `34` Qualcomm AI Hub records carry source-supplied `license` + `license_url`, `domain`, `use_case`, `source_repo`, and `research_paper`; Hailo model-zoo records carry `supported_hw_arch`/task/shape/ops/parameters and an original `source_repository` where supplied; license remains `null` where no verified source supplies a per-model license;
 - products:
   - directory ID/handle;
   - canonical URL;
@@ -707,6 +723,7 @@ AI Orbit-specific tests cover:
 - task mapping guardrails for derived integration-target tools and overly broad filesystem wording;
 - Product entity validation, AI Tools List product-directory filtering, Product semantic rejects, and Product URL deduplication;
 - Models.dev catalog filtering and model metadata preservation;
+- Qualcomm AI Hub manifest parsing, license/provider preservation, and deterministic stride sampling;
 - ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection;
 - Hailo model-zoo YAML parsing, compatibility-edge extraction, deterministic stride sampling, `Device → runs → Model` direction/evidence, and Hailo device/model validation.
 
@@ -762,7 +779,7 @@ No real credentials are committed.
 
 - Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, the ROS Robots Catalog, the AI device catalog, GitHub Releases announcements (News), PyVideo conference talks (Videos), and the Hailo Model Zoo (Devices + Models + `Device → runs → Model`).
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, the Qualcomm AI Hub Models catalog, the ROS Robots Catalog, the AI device catalog, GitHub Releases announcements (News), PyVideo conference talks (Videos), and the Hailo Model Zoo (Devices + Models + `Device → runs → Model`).
 - Feasibility-only probes for startup/company, product, model, model-enrichment, news/story, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
@@ -776,9 +793,9 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `218` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `252` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
-- Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
+- Continue model metadata enrichment. The Models.dev GitHub catalog supplies modalities for a bounded sample, and the Qualcomm AI Hub catalog now supplies per-model license + license URL + domain + use_case + research paper for its 34 sampled records; license remains `null` only where no verified source supplies it.
 - Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
 - Find a Jobs source that supplies a genuine employer `posted_at`/`created_at` timestamp; the reachable SimplifyJobs listings were rejected because `date_posted` means "when added" (list ingestion time), not posting time.
 - Add Personal records only from a source that establishes explicit personal-AI-assistant product identity; the reachable awesome list of open-source assistant frameworks/tools does not qualify.
@@ -789,7 +806,7 @@ No real credentials are committed.
 
 - This is not yet the final 250–300 record dataset.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
-- Model license is only populated where a source supplies it (some Hailo model-zoo records carry `license_name`); the official SDK model source does not supply modalities or license, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
+- Model license is only populated where a source supplies it: Hailo model-zoo records carry `license_name` where present, and Qualcomm AI Hub records carry `license` + `license_url` (34/34 sampled records). The official SDK model source does not supply modalities or license, while the Models.dev GitHub catalog supplies modalities (but no license) for its bounded records.
 - Current `jobs` and `personal` categories still have no accepted records: the reachable GitHub-hosted jobs candidates (SimplifyJobs internships and new-grad listings) were rejected because `date_posted` means "when added" to the list rather than the employer's posting time, and the reachable personal candidate was an awesome list of open-source assistant frameworks/tools rather than personal-assistant product records. No fallback data was fabricated. (News, Videos, Devices, and `Device → runs → Model` are live-verified.)
 - Product coverage is currently limited to a bounded directory sample; provider/company and launch-time metadata remain unavailable from that source. Packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
 - Robot coverage is currently limited to a bounded ROS Robots catalog sample; manufacturer/provider are not populated because the source does not expose dedicated fields.

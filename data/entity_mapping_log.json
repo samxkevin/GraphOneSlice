@@ -430,16 +430,6 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
   },
   {
-    "canonical_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
-    "canonical_value": "agent-device",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:agent-device",
-    "raw_value": "agent-device",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/agent-device"
-  },
-  {
     "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
     "canonical_value": "ato-mcp",
     "confidence": 1.0,
@@ -450,14 +440,24 @@
     "source_url": "https://registry.npmjs.org/ato-mcp"
   },
   {
-    "canonical_id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
-    "canonical_value": "@azure/mcp",
+    "canonical_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
+    "canonical_value": "agent-device",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@azure/mcp",
-    "raw_value": "@azure/mcp",
+    "raw_source_key": "npm-search:package:agent-device",
+    "raw_value": "agent-device",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@azure%2Fmcp"
+    "source_url": "https://registry.npmjs.org/agent-device"
+  },
+  {
+    "canonical_id": "f55179f4-291d-547c-b9b2-5a6700158765",
+    "canonical_value": "@lovable.dev/mcp-js",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@lovable.dev/mcp-js",
+    "raw_value": "@lovable.dev/mcp-js",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -2118,6 +2118,346 @@
     "raw_value": "Hailo-15L",
     "reason": "same normalized URL",
     "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+  },
+  {
+    "canonical_id": "9f99dda0-e9bd-5111-9c06-d0b054ebb7a4",
+    "canonical_value": "ACT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:act",
+    "raw_value": "ACT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/act/manifest.yaml"
+  },
+  {
+    "canonical_id": "5573f666-3ea5-551f-9e4e-47e1e1940d43",
+    "canonical_value": "CavaFace",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:cavaface",
+    "raw_value": "CavaFace",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/cavaface/manifest.yaml"
+  },
+  {
+    "canonical_id": "13f7a61a-40ea-525b-ba16-e6dfb28425e7",
+    "canonical_value": "ConvNext-Base",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:convnext_base",
+    "raw_value": "ConvNext-Base",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/convnext_base/manifest.yaml"
+  },
+  {
+    "canonical_id": "8b94a8bb-ee95-53e5-9f99-4d7e3ebc8f2e",
+    "canonical_value": "3D-Deep-BOX",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:deepbox",
+    "raw_value": "3D-Deep-BOX",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/deepbox/manifest.yaml"
+  },
+  {
+    "canonical_id": "e73f0f88-2bf8-59c3-880b-68fc0a86e83d",
+    "canonical_value": "Depth-Anything",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:depth_anything",
+    "raw_value": "Depth-Anything",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/depth_anything/manifest.yaml"
+  },
+  {
+    "canonical_id": "5e5e5a8e-1db1-544e-aa1c-320964778a9c",
+    "canonical_value": "DETR-ResNet50-DC5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:detr_resnet50_dc5",
+    "raw_value": "DETR-ResNet50-DC5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/detr_resnet50_dc5/manifest.yaml"
+  },
+  {
+    "canonical_id": "30e62ff6-d6c2-53f1-9c9b-4e19fdd96f66",
+    "canonical_value": "EdgeTAM",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:edgetam",
+    "raw_value": "EdgeTAM",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/edgetam/manifest.yaml"
+  },
+  {
+    "canonical_id": "0bb92e1d-0628-5c4b-8a76-fac530abc91b",
+    "canonical_value": "EfficientViT-l2-cls",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:efficientvit_l2_cls",
+    "raw_value": "EfficientViT-l2-cls",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/efficientvit_l2_cls/manifest.yaml"
+  },
+  {
+    "canonical_id": "fc33e915-15ed-5c11-9f58-99a1a447f97d",
+    "canonical_value": "Facial-Landmark-Detection",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:facemap_3dmm",
+    "raw_value": "Facial-Landmark-Detection",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/facemap_3dmm/manifest.yaml"
+  },
+  {
+    "canonical_id": "5370cd79-5295-5057-8f90-8da3de8f1378",
+    "canonical_value": "FFNet-54S",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:ffnet_54s",
+    "raw_value": "FFNet-54S",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/ffnet_54s/manifest.yaml"
+  },
+  {
+    "canonical_id": "dfe51713-0288-54a8-9f49-ed1799d46a87",
+    "canonical_value": "Gemma-4-E2B-it",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:gemma_4_e2b_it",
+    "raw_value": "Gemma-4-E2B-it",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/gemma_4_e2b_it/manifest.yaml"
+  },
+  {
+    "canonical_id": "60d42d7b-56cb-5e00-a5e4-463e2031bb9a",
+    "canonical_value": "GR00TN1.5",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:grootn15",
+    "raw_value": "GR00TN1.5",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/grootn15/manifest.yaml"
+  },
+  {
+    "canonical_id": "c4bfebf2-4360-5136-afd1-a98a00a8b2db",
+    "canonical_value": "IndusQ-1.1B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:indus_1b",
+    "raw_value": "IndusQ-1.1B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/indus_1b/manifest.yaml"
+  },
+  {
+    "canonical_id": "d1d8915b-7f51-517c-9f84-c721e86e19f3",
+    "canonical_value": "Llama-SEA-LION-v3.5-8B-R",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:llama_v3_1_sea_lion_3_5_8b_r",
+    "raw_value": "Llama-SEA-LION-v3.5-8B-R",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/llama_v3_1_sea_lion_3_5_8b_r/manifest.yaml"
+  },
+  {
+    "canonical_id": "d0c38476-3ac7-5f73-9b96-a379144a2ac6",
+    "canonical_value": "Mask2Former",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mask2former",
+    "raw_value": "Mask2Former",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mask2former/manifest.yaml"
+  },
+  {
+    "canonical_id": "026888cd-b644-527a-9b4e-96a5f5242340",
+    "canonical_value": "MeloTTS-EN",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:melotts_en",
+    "raw_value": "MeloTTS-EN",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/melotts_en/manifest.yaml"
+  },
+  {
+    "canonical_id": "bc4570a9-6754-576d-b529-96af7cf6e6c5",
+    "canonical_value": "MNASNet05",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mnasnet05",
+    "raw_value": "MNASNet05",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mnasnet05/manifest.yaml"
+  },
+  {
+    "canonical_id": "75a59f14-f545-56dc-8baa-1b386fbea86e",
+    "canonical_value": "MobileSam",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:mobilesam",
+    "raw_value": "MobileSam",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/mobilesam/manifest.yaml"
+  },
+  {
+    "canonical_id": "ad00ee03-6c58-52ff-b29f-8766d3eb3225",
+    "canonical_value": "OpenAI-Clip",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:openai_clip",
+    "raw_value": "OpenAI-Clip",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/openai_clip/manifest.yaml"
+  },
+  {
+    "canonical_id": "eac08873-5bd3-5db9-810a-77a77c6195e0",
+    "canonical_value": "OWL-V2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:owlv2",
+    "raw_value": "OWL-V2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/owlv2/manifest.yaml"
+  },
+  {
+    "canonical_id": "9b976bbd-3ab5-527a-9bfc-a83eb7a0bd86",
+    "canonical_value": "PiperTTS-IT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:pipertts_it",
+    "raw_value": "PiperTTS-IT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/pipertts_it/manifest.yaml"
+  },
+  {
+    "canonical_id": "8491e132-3a3d-5ed7-9e4a-b911deb49083",
+    "canonical_value": "QuickSRNetSmall",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:quicksrnetsmall",
+    "raw_value": "QuickSRNetSmall",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/quicksrnetsmall/manifest.yaml"
+  },
+  {
+    "canonical_id": "c9445197-107b-5f88-b673-eb788d790214",
+    "canonical_value": "Qwen3.5-0.8B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:qwen3_5_0_8b",
+    "raw_value": "Qwen3.5-0.8B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/qwen3_5_0_8b/manifest.yaml"
+  },
+  {
+    "canonical_id": "64efb893-fc14-5ea3-89cd-6eec59b8d600",
+    "canonical_value": "Real-ESRGAN-General-x4v3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:real_esrgan_general_x4v3",
+    "raw_value": "Real-ESRGAN-General-x4v3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/real_esrgan_general_x4v3/manifest.yaml"
+  },
+  {
+    "canonical_id": "beda6086-6137-5ff2-b9d0-d43855d042c6",
+    "canonical_value": "ResNet34-SSD",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:resnet34_ssd1200",
+    "raw_value": "ResNet34-SSD",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/resnet34_ssd1200/manifest.yaml"
+  },
+  {
+    "canonical_id": "86b3581c-9e3a-5335-8a59-c50f4d588759",
+    "canonical_value": "RF-DETR",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:rf_detr",
+    "raw_value": "RF-DETR",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/rf_detr/manifest.yaml"
+  },
+  {
+    "canonical_id": "92b2d0e2-d9ba-55d4-a0a7-8fe097f7d79e",
+    "canonical_value": "Segformer-Base",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:segformer_base",
+    "raw_value": "Segformer-Base",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/segformer_base/manifest.yaml"
+  },
+  {
+    "canonical_id": "ee5e76b2-0a6b-50db-aab6-a2b78f0e20d4",
+    "canonical_value": "SixDRepNet",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:sixd_repnet",
+    "raw_value": "SixDRepNet",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/sixd_repnet/manifest.yaml"
+  },
+  {
+    "canonical_id": "c0dfbe08-a44b-5891-a0f4-8f268513db74",
+    "canonical_value": "Swin-Small",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:swin_small",
+    "raw_value": "Swin-Small",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/swin_small/manifest.yaml"
+  },
+  {
+    "canonical_id": "5df271d7-0bdb-5de2-b985-7262e4145f53",
+    "canonical_value": "VIT",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:vit",
+    "raw_value": "VIT",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/vit/manifest.yaml"
+  },
+  {
+    "canonical_id": "6b8e15d1-b243-5366-8bd0-4948ec08a21e",
+    "canonical_value": "Whisper-Small-Quantized",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:whisper_small_quantized",
+    "raw_value": "Whisper-Small-Quantized",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/whisper_small_quantized/manifest.yaml"
+  },
+  {
+    "canonical_id": "56f87078-f33c-58b9-8b92-d4f0872f31a4",
+    "canonical_value": "YOLO26-Segmentation",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolo26_seg",
+    "raw_value": "YOLO26-Segmentation",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolo26_seg/manifest.yaml"
+  },
+  {
+    "canonical_id": "ac395af2-7c90-5a0b-9d92-b678d5eb5401",
+    "canonical_value": "YOLOv11-Segmentation",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolov11_seg",
+    "raw_value": "YOLOv11-Segmentation",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolov11_seg/manifest.yaml"
+  },
+  {
+    "canonical_id": "de3c78a1-964e-50c2-b79a-ac9b46f38eab",
+    "canonical_value": "YOLOv8-OBB",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "qualcomm-ai-hub:model:yolov8_obb",
+    "raw_value": "YOLOv8-OBB",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolov8_obb/manifest.yaml"
   },
   {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",

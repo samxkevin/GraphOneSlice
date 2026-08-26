@@ -4,141 +4,6 @@
       "Tools",
       "MCP"
     ],
-    "description": "Azure MCP Server - Model Context Protocol implementation for Azure",
-    "entity_type": "mcp",
-    "id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
-    "metadata": {
-      "mcp": {
-        "bin": {
-          "azmcp": "index.js"
-        },
-        "deprecated": null,
-        "installation_method": "npm package @azure/mcp",
-        "package_name": "@azure/mcp",
-        "runtime_requirements": {
-          "node": ">=22.0.0"
-        },
-        "version": "3.0.0-beta.38"
-      },
-      "package": {
-        "ai_relevance_evidence": {
-          "excerpt": "@azure/mcp",
-          "field": "name",
-          "signals": [
-            "mcp"
-          ]
-        },
-        "downloads": {
-          "monthly": 499229,
-          "weekly": 145087
-        },
-        "ecosystem": "npm",
-        "keywords": [
-          "azure",
-          "mcp",
-          "model-context-protocol"
-        ],
-        "license": "MIT",
-        "links": {
-          "bugs": "https://github.com/microsoft/mcp/issues",
-          "homepage": "https://github.com/Microsoft/mcp/blob/main/servers/Azure.Mcp.Server#readme",
-          "npm": "https://www.npmjs.com/package/@azure/mcp",
-          "repository": "git+https://github.com/microsoft/mcp.git"
-        },
-        "package_date": "2026-08-25T23:40:05.446Z",
-        "package_name": "@azure/mcp",
-        "query": "keywords:model-context-protocol",
-        "updated": "2026-08-25T23:40:36.379Z",
-        "version": "3.0.0-beta.38"
-      }
-    },
-    "name": "@azure/mcp",
-    "provenance": {
-      "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
-      "observed_fields": {
-        "categories": [
-          "Tools",
-          "MCP"
-        ],
-        "description": "Azure MCP Server - Model Context Protocol implementation for Azure",
-        "mcp": {
-          "bin": {
-            "azmcp": "index.js"
-          },
-          "deprecated": null,
-          "installation_method": "npm package @azure/mcp",
-          "package_name": "@azure/mcp",
-          "runtime_requirements": {
-            "node": ">=22.0.0"
-          },
-          "version": "3.0.0-beta.38"
-        },
-        "name": "@azure/mcp",
-        "package": {
-          "ai_relevance_evidence": {
-            "excerpt": "@azure/mcp",
-            "field": "name",
-            "signals": [
-              "mcp"
-            ]
-          },
-          "downloads": {
-            "monthly": 499229,
-            "weekly": 145087
-          },
-          "ecosystem": "npm",
-          "keywords": [
-            "azure",
-            "mcp",
-            "model-context-protocol"
-          ],
-          "license": "MIT",
-          "links": {
-            "bugs": "https://github.com/microsoft/mcp/issues",
-            "homepage": "https://github.com/Microsoft/mcp/blob/main/servers/Azure.Mcp.Server#readme",
-            "npm": "https://www.npmjs.com/package/@azure/mcp",
-            "repository": "git+https://github.com/microsoft/mcp.git"
-          },
-          "package_date": "2026-08-25T23:40:05.446Z",
-          "package_name": "@azure/mcp",
-          "query": "keywords:model-context-protocol",
-          "updated": "2026-08-25T23:40:36.379Z",
-          "version": "3.0.0-beta.38"
-        },
-        "url": "https://www.npmjs.com/package/@azure/mcp"
-      },
-      "source_record_id": "npm-search:package:@azure/mcp",
-      "source_url": "https://registry.npmjs.org/@azure%2Fmcp",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "@azure/mcp",
-          "operation": "normalize_name",
-          "output": "@azure/mcp",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "mcp:url:https://www.npmjs.com/package/@azure/mcp",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/@azure%2Fmcp"
-    },
-    "url": "https://www.npmjs.com/package/@azure/mcp"
-  },
-  {
-    "categories": [
-      "Tools",
-      "MCP"
-    ],
     "description": "LangChain.js adapters for Model Context Protocol (MCP)",
     "entity_type": "mcp",
     "id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
@@ -163,8 +28,8 @@
           ]
         },
         "downloads": {
-          "monthly": 1026556,
-          "weekly": 270970
+          "monthly": 1059753,
+          "weekly": 278144
         },
         "ecosystem": "npm",
         "keywords": [
@@ -184,14 +49,14 @@
         "package_date": "2026-08-20T01:16:28.841Z",
         "package_name": "@langchain/mcp-adapters",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-25T10:46:22.234Z",
+        "updated": "2026-08-26T11:22:50.094Z",
         "version": "1.1.4"
       }
     },
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -219,8 +84,8 @@
             ]
           },
           "downloads": {
-            "monthly": 1026556,
-            "weekly": 270970
+            "monthly": 1059753,
+            "weekly": 278144
           },
           "ecosystem": "npm",
           "keywords": [
@@ -240,7 +105,7 @@
           "package_date": "2026-08-20T01:16:28.841Z",
           "package_name": "@langchain/mcp-adapters",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-25T10:46:22.234Z",
+          "updated": "2026-08-26T11:22:50.094Z",
           "version": "1.1.4"
         },
         "url": "https://www.npmjs.com/package/@langchain/mcp-adapters"
@@ -273,6 +138,141 @@
   },
   {
     "categories": [
+      "Tools",
+      "MCP"
+    ],
+    "description": "Author MCP servers for Lovable apps. Declare tools with defineTool, register them in defineMcp, and a framework adapter (TanStack or Supabase Edge Functions) emits the route(s) at build time.",
+    "entity_type": "mcp",
+    "id": "f55179f4-291d-547c-b9b2-5a6700158765",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "lovable-mcp-extract-manifest": "./dist/cli/extract-manifest.cjs"
+        },
+        "deprecated": null,
+        "installation_method": "npm package @lovable.dev/mcp-js",
+        "package_name": "@lovable.dev/mcp-js",
+        "runtime_requirements": null,
+        "version": "0.28.0"
+      },
+      "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@lovable.dev/mcp-js",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
+        "downloads": {
+          "monthly": 812425,
+          "weekly": 208333
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "mcp",
+          "model-context-protocol",
+          "tanstack",
+          "vite",
+          "lovable"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/lovablelabs/lovable/issues",
+          "homepage": "https://github.com/lovablelabs/lovable/tree/main/npm-packages/lovable-mcp-js#readme",
+          "npm": "https://www.npmjs.com/package/@lovable.dev/mcp-js",
+          "repository": "git+https://github.com/lovablelabs/lovable.git"
+        },
+        "package_date": "2026-08-24T11:22:50.618Z",
+        "package_name": "@lovable.dev/mcp-js",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-26T11:24:11.139Z",
+        "version": "0.28.0"
+      }
+    },
+    "name": "@lovable.dev/mcp-js",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Author MCP servers for Lovable apps. Declare tools with defineTool, register them in defineMcp, and a framework adapter (TanStack or Supabase Edge Functions) emits the route(s) at build time.",
+        "mcp": {
+          "bin": {
+            "lovable-mcp-extract-manifest": "./dist/cli/extract-manifest.cjs"
+          },
+          "deprecated": null,
+          "installation_method": "npm package @lovable.dev/mcp-js",
+          "package_name": "@lovable.dev/mcp-js",
+          "runtime_requirements": null,
+          "version": "0.28.0"
+        },
+        "name": "@lovable.dev/mcp-js",
+        "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@lovable.dev/mcp-js",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
+          "downloads": {
+            "monthly": 812425,
+            "weekly": 208333
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "mcp",
+            "model-context-protocol",
+            "tanstack",
+            "vite",
+            "lovable"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/lovablelabs/lovable/issues",
+            "homepage": "https://github.com/lovablelabs/lovable/tree/main/npm-packages/lovable-mcp-js#readme",
+            "npm": "https://www.npmjs.com/package/@lovable.dev/mcp-js",
+            "repository": "git+https://github.com/lovablelabs/lovable.git"
+          },
+          "package_date": "2026-08-24T11:22:50.618Z",
+          "package_name": "@lovable.dev/mcp-js",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-26T11:24:11.139Z",
+          "version": "0.28.0"
+        },
+        "url": "https://www.npmjs.com/package/@lovable.dev/mcp-js"
+      },
+      "source_record_id": "npm-search:package:@lovable.dev/mcp-js",
+      "source_url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@lovable.dev/mcp-js",
+          "operation": "normalize_name",
+          "output": "@lovable dev/mcp-js",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/@lovable.dev/mcp-js",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js"
+    },
+    "url": "https://www.npmjs.com/package/@lovable.dev/mcp-js"
+  },
+  {
+    "categories": [
       "MCP",
       "Tools",
       "New/Recently Added"
@@ -296,7 +296,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
+      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -369,7 +369,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
+      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -442,7 +442,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
+      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -515,7 +515,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
+      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -652,14 +652,14 @@
         "package_date": "2026-08-18T19:33:12.472Z",
         "package_name": "agent-device",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-25T10:48:25.698Z",
+        "updated": "2026-08-26T11:24:09.434Z",
         "version": "0.20.10"
       }
     },
     "name": "agent-device",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -747,7 +747,7 @@
           "package_date": "2026-08-18T19:33:12.472Z",
           "package_name": "agent-device",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-25T10:48:25.698Z",
+          "updated": "2026-08-26T11:24:09.434Z",
           "version": "0.20.10"
         },
         "url": "https://www.npmjs.com/package/agent-device"
@@ -808,8 +808,8 @@
           ]
         },
         "downloads": {
-          "monthly": 7453796,
-          "weekly": 1950600
+          "monthly": 7812337,
+          "weekly": 1965444
         },
         "ecosystem": "npm",
         "keywords": [
@@ -833,14 +833,14 @@
         "package_date": "2026-06-24T09:40:13.683Z",
         "package_name": "agent-install",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-25T10:54:16.892Z",
+        "updated": "2026-08-26T11:30:53.427Z",
         "version": "0.0.8"
       }
     },
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -869,8 +869,8 @@
             ]
           },
           "downloads": {
-            "monthly": 7453796,
-            "weekly": 1950600
+            "monthly": 7812337,
+            "weekly": 1965444
           },
           "ecosystem": "npm",
           "keywords": [
@@ -894,7 +894,7 @@
           "package_date": "2026-06-24T09:40:13.683Z",
           "package_name": "agent-install",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-25T10:54:16.892Z",
+          "updated": "2026-08-26T11:30:53.427Z",
           "version": "0.0.8"
         },
         "url": "https://www.npmjs.com/package/agent-install"
@@ -991,7 +991,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1100,7 +1100,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.128"
+        "version": "0.52.129"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -1119,8 +1119,8 @@
           ]
         },
         "downloads": {
-          "monthly": 464853,
-          "weekly": 166761
+          "monthly": 495516,
+          "weekly": 179620
         },
         "ecosystem": "npm",
         "keywords": [
@@ -1175,17 +1175,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-26T07:50:50.161Z",
+        "package_date": "2026-08-26T11:41:11.288Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T07:51:36.762Z",
-        "version": "0.52.128"
+        "updated": "2026-08-26T11:41:42.620Z",
+        "version": "0.52.129"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1203,7 +1203,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.128"
+          "version": "0.52.129"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -1223,8 +1223,8 @@
             ]
           },
           "downloads": {
-            "monthly": 464853,
-            "weekly": 166761
+            "monthly": 495516,
+            "weekly": 179620
           },
           "ecosystem": "npm",
           "keywords": [
@@ -1279,11 +1279,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-26T07:50:50.161Z",
+          "package_date": "2026-08-26T11:41:11.288Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T07:51:36.762Z",
-          "version": "0.52.128"
+          "updated": "2026-08-26T11:41:42.620Z",
+          "version": "0.52.129"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -1327,9 +1327,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T10:46:28Z",
+        "last_updated_timestamp": "2026-08-26T11:27:31Z",
         "primary_language": "HTML",
-        "stars": 167926,
+        "stars": 167927,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1355,7 +1355,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
+      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1368,9 +1368,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T10:46:28Z",
+          "last_updated_timestamp": "2026-08-26T11:27:31Z",
           "primary_language": "HTML",
-          "stars": 167926,
+          "stars": 167927,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -1432,9 +1432,9 @@
       "repository": {
         "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-26T10:33:53Z",
+        "last_updated_timestamp": "2026-08-26T11:42:52Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103815,
+        "stars": 103819,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1461,7 +1461,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
+      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1472,9 +1472,9 @@
         "repository": {
           "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-26T10:33:53Z",
+          "last_updated_timestamp": "2026-08-26T11:42:52Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103815,
+          "stars": 103819,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -1537,9 +1537,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T10:53:20Z",
+        "last_updated_timestamp": "2026-08-26T11:38:40Z",
         "primary_language": "Python",
-        "stars": 186877,
+        "stars": 186879,
         "topics": [
           "agentic-ai",
           "agents",
@@ -1558,7 +1558,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
+      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1569,9 +1569,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T10:53:20Z",
+          "last_updated_timestamp": "2026-08-26T11:38:40Z",
           "primary_language": "Python",
-          "stars": 186877,
+          "stars": 186879,
           "topics": [
             "agentic-ai",
             "agents",
@@ -1627,9 +1627,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T10:50:44Z",
+        "last_updated_timestamp": "2026-08-26T11:43:44Z",
         "primary_language": "JavaScript",
-        "stars": 91882,
+        "stars": 91887,
         "topics": [
           "ai",
           "ai-agents",
@@ -1657,7 +1657,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
+      "fetched_at": "2026-08-26T11:43:44.636608+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1669,9 +1669,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T10:50:44Z",
+          "last_updated_timestamp": "2026-08-26T11:43:44Z",
           "primary_language": "JavaScript",
-          "stars": 91882,
+          "stars": 91887,
           "topics": [
             "ai",
             "ai-agents",
@@ -1768,14 +1768,14 @@
         "package_date": "2026-08-17T21:15:12.036Z",
         "package_name": "@chat-adapter/slack",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-25T10:48:15.134Z",
+        "updated": "2026-08-26T11:22:38.663Z",
         "version": "4.38.1"
       }
     },
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -1819,7 +1819,7 @@
           "package_date": "2026-08-17T21:15:12.036Z",
           "package_name": "@chat-adapter/slack",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-25T10:48:15.134Z",
+          "updated": "2026-08-26T11:22:38.663Z",
           "version": "4.38.1"
         },
         "url": "https://www.npmjs.com/package/@chat-adapter/slack"
@@ -1867,8 +1867,8 @@
           ]
         },
         "downloads": {
-          "monthly": 12514902,
-          "weekly": 3972534
+          "monthly": 12992671,
+          "weekly": 3973295
         },
         "ecosystem": "npm",
         "keywords": [
@@ -1891,14 +1891,14 @@
         "package_date": "2026-08-24T11:06:27.239Z",
         "package_name": "@earendil-works/pi-ai",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:46:42.036Z",
+        "updated": "2026-08-26T11:24:06.439Z",
         "version": "0.84.3"
       }
     },
     "name": "@earendil-works/pi-ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -1914,8 +1914,8 @@
             ]
           },
           "downloads": {
-            "monthly": 12514902,
-            "weekly": 3972534
+            "monthly": 12992671,
+            "weekly": 3973295
           },
           "ecosystem": "npm",
           "keywords": [
@@ -1938,7 +1938,7 @@
           "package_date": "2026-08-24T11:06:27.239Z",
           "package_name": "@earendil-works/pi-ai",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:46:42.036Z",
+          "updated": "2026-08-26T11:24:06.439Z",
           "version": "0.84.3"
         },
         "url": "https://www.npmjs.com/package/@earendil-works/pi-ai"
@@ -1986,8 +1986,8 @@
           ]
         },
         "downloads": {
-          "monthly": 20662466,
-          "weekly": 5473447
+          "monthly": 21235099,
+          "weekly": 5612479
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2014,14 +2014,14 @@
         "package_date": "2026-08-20T01:18:37.261Z",
         "package_name": "@langchain/core",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:45:39.233Z",
+        "updated": "2026-08-26T11:25:04.877Z",
         "version": "1.2.9"
       }
     },
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2037,8 +2037,8 @@
             ]
           },
           "downloads": {
-            "monthly": 20662466,
-            "weekly": 5473447
+            "monthly": 21235099,
+            "weekly": 5612479
           },
           "ecosystem": "npm",
           "keywords": [
@@ -2065,7 +2065,7 @@
           "package_date": "2026-08-20T01:18:37.261Z",
           "package_name": "@langchain/core",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:45:39.233Z",
+          "updated": "2026-08-26T11:25:04.877Z",
           "version": "1.2.9"
         },
         "url": "https://www.npmjs.com/package/@langchain/core"
@@ -2114,8 +2114,8 @@
           ]
         },
         "downloads": {
-          "monthly": 13884748,
-          "weekly": 3754323
+          "monthly": 14677996,
+          "weekly": 3824528
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2142,14 +2142,14 @@
         "package_date": "2026-08-20T19:14:46.156Z",
         "package_name": "@langchain/openai",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:45:33.167Z",
+        "updated": "2026-08-26T11:25:12.966Z",
         "version": "1.5.10"
       }
     },
     "name": "@langchain/openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2166,8 +2166,8 @@
             ]
           },
           "downloads": {
-            "monthly": 13884748,
-            "weekly": 3754323
+            "monthly": 14677996,
+            "weekly": 3824528
           },
           "ecosystem": "npm",
           "keywords": [
@@ -2194,7 +2194,7 @@
           "package_date": "2026-08-20T19:14:46.156Z",
           "package_name": "@langchain/openai",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:45:33.167Z",
+          "updated": "2026-08-26T11:25:12.966Z",
           "version": "1.5.10"
         },
         "url": "https://www.npmjs.com/package/@langchain/openai"
@@ -2264,14 +2264,14 @@
         "package_date": "2026-07-23T17:57:47.969Z",
         "package_name": "@opentelemetry/instrumentation-openai",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:49:05.182Z",
+        "updated": "2026-08-26T11:23:51.391Z",
         "version": "0.19.0"
       }
     },
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2309,7 +2309,7 @@
           "package_date": "2026-07-23T17:57:47.969Z",
           "package_name": "@opentelemetry/instrumentation-openai",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:49:05.182Z",
+          "updated": "2026-08-26T11:23:51.391Z",
           "version": "0.19.0"
         },
         "url": "https://www.npmjs.com/package/@opentelemetry/instrumentation-openai"
@@ -2358,8 +2358,8 @@
           ]
         },
         "downloads": {
-          "monthly": 7085092,
-          "weekly": 1978729
+          "monthly": 7355009,
+          "weekly": 1990923
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2442,14 +2442,14 @@
         "package_date": "2026-08-25T12:05:24.286Z",
         "package_name": "@promptbook/utils",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-25T12:05:57.563Z",
+        "updated": "2026-08-26T11:25:26.361Z",
         "version": "0.114.0-18"
       }
     },
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2466,8 +2466,8 @@
             ]
           },
           "downloads": {
-            "monthly": 7085092,
-            "weekly": 1978729
+            "monthly": 7355009,
+            "weekly": 1990923
           },
           "ecosystem": "npm",
           "keywords": [
@@ -2550,7 +2550,7 @@
           "package_date": "2026-08-25T12:05:24.286Z",
           "package_name": "@promptbook/utils",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-25T12:05:57.563Z",
+          "updated": "2026-08-26T11:25:26.361Z",
           "version": "0.114.0-18"
         },
         "url": "https://www.npmjs.com/package/@promptbook/utils"
@@ -2606,8 +2606,8 @@
           ]
         },
         "downloads": {
-          "monthly": 124192,
-          "weekly": 28429
+          "monthly": 124967,
+          "weekly": 27733
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2630,14 +2630,14 @@
         "package_date": "2026-04-09T17:20:49.076Z",
         "package_name": "@saintno/comfyui-sdk",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T10:51:46.964Z",
+        "updated": "2026-08-26T11:29:55.149Z",
         "version": "0.3.1"
       }
     },
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2661,8 +2661,8 @@
             ]
           },
           "downloads": {
-            "monthly": 124192,
-            "weekly": 28429
+            "monthly": 124967,
+            "weekly": 27733
           },
           "ecosystem": "npm",
           "keywords": [
@@ -2685,7 +2685,7 @@
           "package_date": "2026-04-09T17:20:49.076Z",
           "package_name": "@saintno/comfyui-sdk",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T10:51:46.964Z",
+          "updated": "2026-08-26T11:29:55.149Z",
           "version": "0.3.1"
         },
         "url": "https://www.npmjs.com/package/@saintno/comfyui-sdk"
@@ -2785,14 +2785,14 @@
         "package_date": "2026-08-26T07:26:17.045Z",
         "package_name": "@sogni-ai/sogni-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T07:26:48.021Z",
+        "updated": "2026-08-26T11:22:49.489Z",
         "version": "5.21.0"
       }
     },
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2860,7 +2860,7 @@
           "package_date": "2026-08-26T07:26:17.045Z",
           "package_name": "@sogni-ai/sogni-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T07:26:48.021Z",
+          "updated": "2026-08-26T11:22:49.489Z",
           "version": "5.21.0"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
@@ -2916,8 +2916,8 @@
           ]
         },
         "downloads": {
-          "monthly": 9398,
-          "weekly": 1863
+          "monthly": 12270,
+          "weekly": 4679
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2949,14 +2949,14 @@
         "package_date": "2026-08-26T08:09:09.524Z",
         "package_name": "@sogni-ai/sogni-intelligence-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T08:09:40.811Z",
+        "updated": "2026-08-26T11:26:30.357Z",
         "version": "3.24.3"
       }
     },
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2980,8 +2980,8 @@
             ]
           },
           "downloads": {
-            "monthly": 9398,
-            "weekly": 1863
+            "monthly": 12270,
+            "weekly": 4679
           },
           "ecosystem": "npm",
           "keywords": [
@@ -3013,7 +3013,7 @@
           "package_date": "2026-08-26T08:09:09.524Z",
           "package_name": "@sogni-ai/sogni-intelligence-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T08:09:40.811Z",
+          "updated": "2026-08-26T11:26:30.357Z",
           "version": "3.24.3"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
@@ -3069,8 +3069,8 @@
           ]
         },
         "downloads": {
-          "monthly": 21355,
-          "weekly": 5670
+          "monthly": 22461,
+          "weekly": 6843
         },
         "ecosystem": "npm",
         "keywords": [
@@ -3099,14 +3099,14 @@
         "package_date": "2026-02-10T10:22:03.724Z",
         "package_name": "@stable-canvas/comfyui-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-24T05:57:50.738Z",
+        "updated": "2026-08-26T11:28:46.954Z",
         "version": "1.5.9"
       }
     },
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -3130,8 +3130,8 @@
             ]
           },
           "downloads": {
-            "monthly": 21355,
-            "weekly": 5670
+            "monthly": 22461,
+            "weekly": 6843
           },
           "ecosystem": "npm",
           "keywords": [
@@ -3160,7 +3160,7 @@
           "package_date": "2026-02-10T10:22:03.724Z",
           "package_name": "@stable-canvas/comfyui-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-24T05:57:50.738Z",
+          "updated": "2026-08-26T11:28:46.954Z",
           "version": "1.5.9"
         },
         "url": "https://www.npmjs.com/package/@stable-canvas/comfyui-client"
@@ -3253,14 +3253,14 @@
         "package_date": "2026-08-25T03:21:00.757Z",
         "package_name": "ai",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:47:31.441Z",
+        "updated": "2026-08-26T11:23:34.014Z",
         "version": "7.0.79"
       }
     },
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3321,7 +3321,7 @@
           "package_date": "2026-08-25T03:21:00.757Z",
           "package_name": "ai",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:47:31.441Z",
+          "updated": "2026-08-26T11:23:34.014Z",
           "version": "7.0.79"
         },
         "url": "https://www.npmjs.com/package/ai"
@@ -3374,7 +3374,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
+      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3437,8 +3437,8 @@
           ]
         },
         "downloads": {
-          "monthly": 8920068,
-          "weekly": 2385490
+          "monthly": 9155479,
+          "weekly": 2443539
         },
         "ecosystem": "npm",
         "keywords": [
@@ -3474,14 +3474,14 @@
         "package_date": "2026-08-17T21:16:24.899Z",
         "package_name": "chat",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-25T10:46:16.426Z",
+        "updated": "2026-08-26T11:22:32.668Z",
         "version": "4.38.1"
       }
     },
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3498,8 +3498,8 @@
             ]
           },
           "downloads": {
-            "monthly": 8920068,
-            "weekly": 2385490
+            "monthly": 9155479,
+            "weekly": 2443539
           },
           "ecosystem": "npm",
           "keywords": [
@@ -3535,7 +3535,7 @@
           "package_date": "2026-08-17T21:16:24.899Z",
           "package_name": "chat",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-25T10:46:16.426Z",
+          "updated": "2026-08-26T11:22:32.668Z",
           "version": "4.38.1"
         },
         "url": "https://www.npmjs.com/package/chat"
@@ -3615,14 +3615,14 @@
         "package_date": "2026-08-26T02:36:41.372Z",
         "package_name": "eve",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-26T02:37:12.686Z",
+        "updated": "2026-08-26T11:24:38.013Z",
         "version": "0.45.0"
       }
     },
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3670,7 +3670,7 @@
           "package_date": "2026-08-26T02:36:41.372Z",
           "package_name": "eve",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-26T02:37:12.686Z",
+          "updated": "2026-08-26T11:24:38.013Z",
           "version": "0.45.0"
         },
         "url": "https://www.npmjs.com/package/eve"
@@ -3754,7 +3754,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3846,7 +3846,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
+      "fetched_at": "2026-08-26T11:43:47.189333+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3907,7 +3907,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
+      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3969,8 +3969,8 @@
           ]
         },
         "downloads": {
-          "monthly": 10905591,
-          "weekly": 2891532
+          "monthly": 11214603,
+          "weekly": 2966143
         },
         "ecosystem": "npm",
         "keywords": [
@@ -3997,14 +3997,14 @@
         "package_date": "2026-08-20T01:18:36.679Z",
         "package_name": "langchain",
         "query": "keywords:openai",
-        "updated": "2026-08-25T10:45:32.747Z",
+        "updated": "2026-08-26T11:24:52.384Z",
         "version": "1.5.10"
       }
     },
     "name": "langchain",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4020,8 +4020,8 @@
             ]
           },
           "downloads": {
-            "monthly": 10905591,
-            "weekly": 2891532
+            "monthly": 11214603,
+            "weekly": 2966143
           },
           "ecosystem": "npm",
           "keywords": [
@@ -4048,7 +4048,7 @@
           "package_date": "2026-08-20T01:18:36.679Z",
           "package_name": "langchain",
           "query": "keywords:openai",
-          "updated": "2026-08-25T10:45:32.747Z",
+          "updated": "2026-08-26T11:24:52.384Z",
           "version": "1.5.10"
         },
         "url": "https://www.npmjs.com/package/langchain"
@@ -4100,7 +4100,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
+      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4162,8 +4162,8 @@
           ]
         },
         "downloads": {
-          "monthly": 3176701,
-          "weekly": 852124
+          "monthly": 3264839,
+          "weekly": 874752
         },
         "ecosystem": "npm",
         "keywords": [
@@ -4192,14 +4192,14 @@
         "package_date": "2026-07-08T08:04:59.483Z",
         "package_name": "ollama-ai-provider-v2",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-25T10:46:30.569Z",
+        "updated": "2026-08-26T11:23:05.901Z",
         "version": "4.0.1"
       }
     },
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4216,8 +4216,8 @@
             ]
           },
           "downloads": {
-            "monthly": 3176701,
-            "weekly": 852124
+            "monthly": 3264839,
+            "weekly": 874752
           },
           "ecosystem": "npm",
           "keywords": [
@@ -4246,7 +4246,7 @@
           "package_date": "2026-07-08T08:04:59.483Z",
           "package_name": "ollama-ai-provider-v2",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-25T10:46:30.569Z",
+          "updated": "2026-08-26T11:23:05.901Z",
           "version": "4.0.1"
         },
         "url": "https://www.npmjs.com/package/ollama-ai-provider-v2"
@@ -4299,7 +4299,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
+      "fetched_at": "2026-08-26T11:43:46.788505+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4402,14 +4402,14 @@
         "package_date": "2025-09-19T13:29:52.530Z",
         "package_name": "tokenlens",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-25T10:53:40.711Z",
+        "updated": "2026-08-26T11:23:03.659Z",
         "version": "1.3.1"
       }
     },
     "name": "tokenlens",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
+      "fetched_at": "2026-08-26T11:43:47.935422+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4466,7 +4466,7 @@
           "package_date": "2025-09-19T13:29:52.530Z",
           "package_name": "tokenlens",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-25T10:53:40.711Z",
+          "updated": "2026-08-26T11:23:03.659Z",
           "version": "1.3.1"
         },
         "url": "https://www.npmjs.com/package/tokenlens"
