@@ -85,12 +85,24 @@ class AIOrbitSettings(BaseSettings):
     github_releases_news_limit: int = Field(default=12, validation_alias="AI_ORBIT_GITHUB_RELEASES_NEWS_LIMIT")
     github_releases_news_per_repo: int = Field(default=3, validation_alias="AI_ORBIT_GITHUB_RELEASES_NEWS_PER_REPO")
 
+    pyvideo_events: list[str] = Field(default_factory=lambda: [
+        "pycon-us-2025",
+        "pycon-us-2024",
+        "pytorchconf-2024",
+        "pytorchconf-2023",
+        "scipy-2024",
+        "pydata-virginia-2025",
+    ])
+    pyvideo_limit: int = Field(default=12, validation_alias="AI_ORBIT_PYVIDEO_LIMIT")
+    pyvideo_per_event_limit: int = Field(default=20, validation_alias="AI_ORBIT_PYVIDEO_PER_EVENT_LIMIT")
+
     @field_validator(
         "github_company_orgs",
         "pypi_packages",
         "npm_mcp_packages",
         "npm_search_tool_queries",
         "github_releases_news_repos",
+        "pyvideo_events",
         mode="before",
     )
     @classmethod

@@ -1540,6 +1540,126 @@
     "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
   },
   {
+    "canonical_id": "a1d4c9ee-72ac-5ee7-af06-5c8d5c9f17c8",
+    "canonical_value": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2025:bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture",
+    "raw_value": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture.json"
+  },
+  {
+    "canonical_id": "2e215451-5408-58a2-b62a-beafa1f6cd70",
+    "canonical_value": "Building FPGA-based Machine Learning Accelerators in Python",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2024:building-fpga-based-machine-learning-accelerators-in-python",
+    "raw_value": "Building FPGA-based Machine Learning Accelerators in Python",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/building-fpga-based-machine-learning-accelerators-in-python.json"
+  },
+  {
+    "canonical_id": "6bdfa888-e980-5d94-847b-c8a6663c6c4e",
+    "canonical_value": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2024:a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu",
+    "raw_value": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu.json"
+  },
+  {
+    "canonical_id": "f38b6cf7-b381-503f-999d-0fb4ec8b7cb0",
+    "canonical_value": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2023:accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng",
+    "raw_value": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng.json"
+  },
+  {
+    "canonical_id": "5832c267-4992-5fb4-9ca2-8f1b84f23ea9",
+    "canonical_value": "Vector space embeddings and data maps for cyber defense",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:scipy-2024:benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024",
+    "raw_value": "Vector space embeddings and data maps for cyber defense",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024.json"
+  },
+  {
+    "canonical_id": "ff5c8a21-203b-532e-a2e4-b3c57dd40a0c",
+    "canonical_value": "Versioning Multimodal Data: Metadata & Beyond",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pydata-virginia-2025:dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025",
+    "raw_value": "Versioning Multimodal Data: Metadata & Beyond",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025.json"
+  },
+  {
+    "canonical_id": "284053f2-887f-5127-b45b-ebf0aa29913f",
+    "canonical_value": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2025:building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku",
+    "raw_value": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku.json"
+  },
+  {
+    "canonical_id": "472f40ea-fc02-5170-8dea-1fd4afaa2223",
+    "canonical_value": "Clasificación de violencia mediante análisis de audio y embeddings",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pycon-us-2024:clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings",
+    "raw_value": "Clasificación de violencia mediante análisis de audio y embeddings",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings.json"
+  },
+  {
+    "canonical_id": "090fe18f-d7eb-5fea-9c1e-501d43e00d13",
+    "canonical_value": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2024:building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua",
+    "raw_value": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua.json"
+  },
+  {
+    "canonical_id": "ebebf641-7782-5f99-b90b-31e2dd1636a5",
+    "canonical_value": "Accelerating Generative AI",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pytorchconf-2023:accelerating-generative-ai-christian-puhrsch-horace-he-meta",
+    "raw_value": "Accelerating Generative AI",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-generative-ai-christian-puhrsch-horace-he-meta.json"
+  },
+  {
+    "canonical_id": "f8493f58-5c8f-5b8e-a3ef-e28255d397be",
+    "canonical_value": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:scipy-2024:eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024",
+    "raw_value": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024.json"
+  },
+  {
+    "canonical_id": "856f3369-9a41-5655-9b4f-40d98d376767",
+    "canonical_value": "Build Your Own Data Science AI Agents",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "pyvideo:video:pydata-virginia-2025:krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025",
+    "raw_value": "Build Your Own Data Science AI Agents",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025.json"
+  },
+  {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",
     "canonical_value": "autonomous agent workflows",
     "confidence": 0.92,

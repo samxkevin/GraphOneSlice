@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from datetime import datetime
+from datetime import date, datetime
 from typing import Any
 
 from pydantic import ValidationError
@@ -28,6 +28,15 @@ def _is_iso_timestamp(value: str) -> bool:
     """Return True when ``value`` is a parseable ISO-8601 timestamp."""
     try:
         datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return True
+    except ValueError:
+        return False
+
+
+def _is_iso_date(value: str) -> bool:
+    """Return True when ``value`` is a parseable ISO-8601 date (YYYY-MM-DD)."""
+    try:
+        date.fromisoformat(value)
         return True
     except ValueError:
         return False
@@ -221,6 +230,22 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.publisher.login required"})
         if not news.get("ai_relevance_evidence"):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.ai_relevance_evidence required"})
+    video = entity.metadata.get("video") if entity.metadata else None
+    if entity.entity_type == "video" and not video:
+        failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video metadata required for video entities"})
+    if entity.entity_type == "video" and video:
+        if not video.get("canonical_url") or not is_valid_http_url(video.get("canonical_url")):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.canonical_url required"})
+        recorded_at = video.get("recorded_at")
+        if not isinstance(recorded_at, str) or not _is_iso_date(recorded_at):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.recorded_at must be a source-backed ISO-8601 date"})
+        if not video.get("timestamp_semantics"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.timestamp_semantics required"})
+        publisher = video.get("publisher")
+        if not isinstance(publisher, dict) or not publisher.get("name"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.publisher.name required"})
+        if not video.get("ai_relevance_evidence"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.ai_relevance_evidence required"})
     model = entity.metadata.get("model") if entity.metadata else None
     if entity.entity_type == "model" and not model:
         failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model metadata required for model entities"})

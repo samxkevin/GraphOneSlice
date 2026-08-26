@@ -54,7 +54,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `160`
+- valid entities: `172`
 - valid relationships: `60`
 - validation status: `passed`
 - validation failures: `0`
@@ -62,16 +62,16 @@ Current generated artifacts report:
 - provenance coverage: `100%`
 - recorded source failures: `13`
 - duplicate/shared URL warnings: `4`
-- test result: `93 passed`
+- test result: `100 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, and GitHub Releases announcement (News) ingestion. The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, and PyVideo conference-talk (Videos) ingestion. The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
 - **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, and task mapping guardrails are covered by automated tests.
-- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs, videos, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is now live-verified via GitHub Releases announcements; jobs, videos, devices, and personal remain blocked by unreachable candidate sources in this environment.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements and Videos via the PyVideo conference-talk catalog; jobs, devices, and personal remain blocked by unreachable candidate sources in this environment.
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
@@ -305,6 +305,37 @@ Entity resolution is therefore **implemented and tested for the current vertical
   - a release must have a valid `html_url`, a parseable `published_at`, a title, and a non-empty release-note body.
 - Current bounded ingestion limit: `AI_ORBIT_GITHUB_RELEASES_NEWS_LIMIT=12`, sampled round-robin across repositories so the bounded sample spans as many publishers as possible (newest release per repository first).
 
+#### PyVideo Conference Talks (Videos)
+
+- Access: GitHub REST contents API for the `pyvideo/data` repository (the catalog that powers pyvideo.org), one JSON document per conference-talk video.
+- Configured conferences (AI-relevant allowlist):
+  - `pycon-us-2025`
+  - `pycon-us-2024`
+  - `pytorchconf-2024`
+  - `pytorchconf-2023`
+  - `scipy-2024`
+  - `pydata-virginia-2025`
+- Used for: bounded `Video` records (actual conference-talk videos), not repositories, packages, or channel listings.
+- Supplies source-backed video fields:
+  - title;
+  - canonical YouTube URL plus extracted `youtube_video_id`;
+  - `recorded` (the source-documented date the talk was recorded);
+  - description (cleaned, bounded excerpt);
+  - publisher (the conference/event the source attributes the talk to);
+  - speakers, language, related URLs, thumbnail URL.
+- Freshness semantics:
+  - `video.recorded_at` is PyVideo's documented recording date (`YYYY-MM-DD`); it is **never** substituted with crawl, retrieval, commit, or page-modification time.
+  - `video.timestamp_semantics` is set to `pyvideo_recorded_date` so the meaning is explicit.
+  - `fetched_at` remains a separate provenance field; no `published_at`/`updated_at` is invented for videos.
+- Channel/publisher note: PyVideo does not supply a YouTube channel name. The publisher is recorded as the conference/event (type `conference`); no channel identity is fabricated.
+- AI relevance:
+  - conference allowlist plus per-record title/description evidence;
+  - acceptance requires at least one strong AI signal or at least two weaker AI signals (e.g. `llm`, `machine learning`, `pytorch`, `computer vision` are strong; a lone `ai`, `gpu`, `training`, or `agent` is not enough on its own);
+  - matched strong/weak tokens are recorded in `video.ai_relevance_evidence`.
+- Acceptance filters:
+  - a video must have a title, a canonical YouTube URL, a parseable `recorded` date, a non-empty description, and AI relevance evidence.
+- Current bounded ingestion limit: `AI_ORBIT_PYVIDEO_LIMIT=12`, sampled round-robin across conferences so the bounded sample spans as many publishers as possible.
+
 ### Feasibility probes without accepted records
 
 The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
@@ -416,6 +447,13 @@ Implemented metadata support includes:
   - repository;
   - tag name / release id / prerelease;
   - AI relevance evidence (matched fields/tokens/excerpt).
+- videos:
+  - canonical YouTube URL and `youtube_video_id`;
+  - `recorded_at` (source-documented talk recording date);
+  - `timestamp_semantics` (`pyvideo_recorded_date`);
+  - publisher (conference/event name);
+  - speakers, language, related URLs, thumbnail URL;
+  - AI relevance evidence (matched strong/weak tokens/excerpt).
 
 ## Entity resolution and mapping log
 
@@ -538,6 +576,7 @@ Validation checks include:
 - MCP metadata presence;
 - model metadata presence/provider support;
 - news metadata presence, including a source-backed ISO-8601 `published_at`, explicit `timestamp_semantics`, publisher login, and AI relevance evidence;
+- video metadata presence, including a canonical YouTube URL, a source-backed ISO-8601 `recorded_at`, explicit `timestamp_semantics`, a publisher/event name, and AI relevance evidence;
 - relationship schema;
 - relationship endpoints;
 - relationship provenance/evidence.
@@ -586,7 +625,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-93 passed
+100 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -672,12 +711,12 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `160` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `172` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
 - Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
-- Add broader products/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
+- Add broader products/devices/personal sources only after source feasibility is verified and the source establishes entity identity directly.
 - Add `Device → runs → Model` relationships only from direct source evidence.
 - Improve assessment-scale cross-source entity resolution as more source families are added.
 

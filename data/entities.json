@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -277,7 +277,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +346,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +406,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -508,7 +508,7 @@
     "name": "@azure/mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -644,7 +644,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -749,7 +749,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:27.683459+00:00",
+      "fetched_at": "2026-08-26T07:42:39.369056+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -822,7 +822,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:27.683459+00:00",
+      "fetched_at": "2026-08-26T07:42:39.369056+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -895,7 +895,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:27.683459+00:00",
+      "fetched_at": "2026-08-26T07:42:39.369056+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -968,7 +968,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:27.683459+00:00",
+      "fetched_at": "2026-08-26T07:42:39.369056+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -1094,7 +1094,7 @@
     "name": "add-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1291,7 +1291,7 @@
     "name": "agent-device",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1472,7 +1472,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1662,7 +1662,7 @@
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1811,7 +1811,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1876,7 +1876,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1941,7 +1941,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2006,7 +2006,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2071,7 +2071,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2136,7 +2136,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2201,7 +2201,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2266,7 +2266,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2362,7 +2362,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2485,7 +2485,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2577,7 +2577,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2642,7 +2642,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2707,7 +2707,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2772,7 +2772,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2837,7 +2837,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2902,7 +2902,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2992,7 +2992,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3109,7 +3109,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3201,7 +3201,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3266,7 +3266,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:31:32.624286+00:00",
+      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3356,7 +3356,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3469,7 +3469,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3582,7 +3582,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3705,7 +3705,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3834,7 +3834,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3955,7 +3955,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4070,7 +4070,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4188,7 +4188,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:31:33.743752+00:00",
+      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4299,7 +4299,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4408,7 +4408,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4525,7 +4525,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4634,7 +4634,7 @@
     "name": "7.0.9",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4739,7 +4739,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4848,7 +4848,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -4962,7 +4962,7 @@
     "name": "Patch release: v5.15.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5072,7 +5072,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5182,7 +5182,7 @@
     "name": "Release: v5.15.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5290,7 +5290,7 @@
     "name": "v1.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5388,7 +5388,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5488,7 +5488,7 @@
     "name": "v3.3.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
+      "fetched_at": "2026-08-26T07:42:49.862009+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -5576,7 +5576,7 @@
     "name": "30characters",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -5651,7 +5651,7 @@
     "name": "3d-ai-studio",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -5726,7 +5726,7 @@
     "name": "adbot-your-search-ads-specialist",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -5801,7 +5801,7 @@
     "name": "adcopy-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -5876,7 +5876,7 @@
     "name": "adgeneratorpro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -5951,7 +5951,7 @@
     "name": "ai-suggests",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6026,7 +6026,7 @@
     "name": "aihouse-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6101,7 +6101,7 @@
     "name": "alpha3d-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6176,7 +6176,7 @@
     "name": "avaturn-me",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6251,7 +6251,7 @@
     "name": "azameo-fr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6326,7 +6326,7 @@
     "name": "backflip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6401,7 +6401,7 @@
     "name": "blobr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6476,7 +6476,7 @@
     "name": "cgdream-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6551,7 +6551,7 @@
     "name": "copycop",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6626,7 +6626,7 @@
     "name": "copyflow-pro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6701,7 +6701,7 @@
     "name": "copywritergpt-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6776,7 +6776,7 @@
     "name": "csm",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6851,7 +6851,7 @@
     "name": "engagexai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -6926,7 +6926,7 @@
     "name": "ezra-ads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7003,7 +7003,7 @@
     "name": "freeadcopy-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7080,7 +7080,7 @@
     "name": "isavantai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7155,7 +7155,7 @@
     "name": "kaedim",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7230,7 +7230,7 @@
     "name": "kilo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7305,7 +7305,7 @@
     "name": "ludo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7380,7 +7380,7 @@
     "name": "luma-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7455,7 +7455,7 @@
     "name": "macbeth-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7530,7 +7530,7 @@
     "name": "mappedin-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7605,7 +7605,7 @@
     "name": "marpipe-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7680,7 +7680,7 @@
     "name": "meshy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7756,7 +7756,7 @@
     "name": "modelslab-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7832,7 +7832,7 @@
     "name": "ogilvy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7907,7 +7907,7 @@
     "name": "omneky",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -7982,7 +7982,7 @@
     "name": "pageon-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8057,7 +8057,7 @@
     "name": "pencil",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8132,7 +8132,7 @@
     "name": "pixcanva",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8207,7 +8207,7 @@
     "name": "planner-5d",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8282,7 +8282,7 @@
     "name": "powered-by-agency",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8357,7 +8357,7 @@
     "name": "quickads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8432,7 +8432,7 @@
     "name": "rodin",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8507,7 +8507,7 @@
     "name": "rosebud",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8582,7 +8582,7 @@
     "name": "runcomfy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8657,7 +8657,7 @@
     "name": "salesboosta-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8732,7 +8732,7 @@
     "name": "scrip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8807,7 +8807,7 @@
     "name": "sloyd",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8882,7 +8882,7 @@
     "name": "tripo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -8957,7 +8957,7 @@
     "name": "unbound",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -9032,7 +9032,7 @@
     "name": "vizcom",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -9108,7 +9108,7 @@
     "name": "wonderchat",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -9184,7 +9184,7 @@
     "name": "wordcopyai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -9259,7 +9259,7 @@
     "name": "write-conch-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T07:31:33.219448+00:00",
+      "fetched_at": "2026-08-26T07:42:44.850970+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -9322,9 +9322,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T07:25:41Z",
+        "last_updated_timestamp": "2026-08-26T07:31:44Z",
         "primary_language": "HTML",
-        "stars": 167917,
+        "stars": 167918,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -9350,7 +9350,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -9363,9 +9363,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T07:25:41Z",
+          "last_updated_timestamp": "2026-08-26T07:31:44Z",
           "primary_language": "HTML",
-          "stars": 167917,
+          "stars": 167918,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -9426,9 +9426,9 @@
       "repository": {
         "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-26T06:46:35Z",
+        "last_updated_timestamp": "2026-08-26T07:37:23Z",
         "primary_language": "Python",
-        "stars": 96121,
+        "stars": 96120,
         "topics": [
           "ai",
           "ai-deep-fake",
@@ -9454,7 +9454,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -9464,9 +9464,9 @@
         "repository": {
           "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-26T06:46:35Z",
+          "last_updated_timestamp": "2026-08-26T07:37:23Z",
           "primary_language": "Python",
-          "stars": 96121,
+          "stars": 96120,
           "topics": [
             "ai",
             "ai-deep-fake",
@@ -9557,7 +9557,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -9633,9 +9633,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T07:20:25Z",
+        "last_updated_timestamp": "2026-08-26T07:42:17Z",
         "primary_language": "Python",
-        "stars": 186874,
+        "stars": 186875,
         "topics": [
           "agentic-ai",
           "agents",
@@ -9654,7 +9654,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -9665,9 +9665,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T07:20:25Z",
+          "last_updated_timestamp": "2026-08-26T07:42:17Z",
           "primary_language": "Python",
-          "stars": 186874,
+          "stars": 186875,
           "topics": [
             "agentic-ai",
             "agents",
@@ -9723,9 +9723,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T07:27:01Z",
+        "last_updated_timestamp": "2026-08-26T07:40:25Z",
         "primary_language": "JavaScript",
-        "stars": 91860,
+        "stars": 91861,
         "topics": [
           "ai",
           "ai-agents",
@@ -9753,7 +9753,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:24.935763+00:00",
+      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -9765,9 +9765,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T07:27:01Z",
+          "last_updated_timestamp": "2026-08-26T07:40:25Z",
           "primary_language": "JavaScript",
-          "stars": 91860,
+          "stars": 91861,
           "topics": [
             "ai",
             "ai-agents",
@@ -9852,7 +9852,7 @@
     "name": "Allegro Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -9944,7 +9944,7 @@
     "name": "AMIGO",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10036,7 +10036,7 @@
     "name": "AsTec Pelican and Hummingbird",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10125,7 +10125,7 @@
     "name": "Barrett Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10216,7 +10216,7 @@
     "name": "BipedRobin",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10307,7 +10307,7 @@
     "name": "BlueROV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10405,7 +10405,7 @@
     "name": "Clearpath Husky UGV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10509,7 +10509,7 @@
     "name": "Crazyflie",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10606,7 +10606,7 @@
     "name": "Erle-Copter",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10712,7 +10712,7 @@
     "name": "Innok Heros",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10818,7 +10818,7 @@
     "name": "Nao",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -10915,7 +10915,7 @@
     "name": "Oculus Prime",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -11016,7 +11016,7 @@
     "name": "PR2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -11112,7 +11112,7 @@
     "name": "Segway RMPv3",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -11208,7 +11208,7 @@
     "name": "TurtleBot2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T07:31:36.320270+00:00",
+      "fetched_at": "2026-08-26T07:42:47.940255+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -11289,7 +11289,7 @@
     "name": "AI application observability",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11350,7 +11350,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11411,7 +11411,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11472,7 +11472,7 @@
     "name": "creative media generation",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11533,7 +11533,7 @@
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11594,7 +11594,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11655,7 +11655,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11716,7 +11716,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11777,7 +11777,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11838,7 +11838,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:43.318514+00:00",
+      "fetched_at": "2026-08-26T07:43:13.905215+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -11932,7 +11932,7 @@
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12055,7 +12055,7 @@
     "name": "@earendil-works/pi-ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12178,7 +12178,7 @@
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12306,7 +12306,7 @@
     "name": "@langchain/openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12427,7 +12427,7 @@
     "name": "@openai/agents-core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12541,7 +12541,7 @@
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12719,7 +12719,7 @@
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -12907,7 +12907,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -13062,7 +13062,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -13216,17 +13216,17 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
         },
-        "package_date": "2026-08-26T01:06:06.193Z",
+        "package_date": "2026-08-26T07:30:40.154Z",
         "package_name": "@sogni-ai/sogni-intelligence-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T01:06:37.409Z",
+        "updated": "2026-08-26T07:31:14.987Z",
         "version": "3.24.2"
       }
     },
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -13280,10 +13280,10 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
           },
-          "package_date": "2026-08-26T01:06:06.193Z",
+          "package_date": "2026-08-26T07:30:40.154Z",
           "package_name": "@sogni-ai/sogni-intelligence-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T01:06:37.409Z",
+          "updated": "2026-08-26T07:31:14.987Z",
           "version": "3.24.2"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
@@ -13376,7 +13376,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -13530,7 +13530,7 @@
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -13669,7 +13669,7 @@
     "name": "am-i-vibing",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -13761,7 +13761,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -13868,7 +13868,7 @@
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14009,7 +14009,7 @@
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14141,7 +14141,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14233,7 +14233,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T07:31:27.683459+00:00",
+      "fetched_at": "2026-08-26T07:42:39.369056+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14294,7 +14294,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14360,7 +14360,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14459,7 +14459,7 @@
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14559,7 +14559,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T07:31:27.283045+00:00",
+      "fetched_at": "2026-08-26T07:42:38.955934+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14669,7 +14669,7 @@
     "name": "tokenlens",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T07:31:28.195551+00:00",
+      "fetched_at": "2026-08-26T07:42:39.898865+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -14756,5 +14756,1573 @@
       "url": "https://registry.npmjs.org/tokenlens"
     },
     "url": "https://www.npmjs.com/package/tokenlens"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "A Distributed Stateful Dataloader for Large-Scale Pretraining - Davis Wertheimer, IBM & Linsong Chu, IBM Research Large-scale model pretraining crucially relies on specialized and dedicated dataloaders that can, for example, partition and stream data asynchronously across multiple processes and physical nodes. In this talk we discuss one of the torch-native dataloaders we built and use at IBM Research for addressing these needs. Intended for use in large-scale model pretraining, particularly in research settings where rapid iteration between datasets may be required, our dataloader is distributed, stateful, checkpointable, composable and rescalable – while remaining a simple extension of the existing PyTorch dataloading framework. It automatically and invisibly handles data sharding, shuff",
+    "entity_type": "video",
+    "id": "6bdfa888-e980-5d94-847b-c8a6663c6c4e",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+          "matched_strong_tokens": [
+            "pretraining",
+            "pytorch"
+          ],
+          "matched_tokens": [
+            "pretraining",
+            "pytorch",
+            "training"
+          ],
+          "matched_weak_tokens": [
+            "training"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=VtT4rdph4Qs",
+        "language": "eng",
+        "publisher": {
+          "event": "pytorchconf-2024",
+          "name": "PyTorch Conference 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-09-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pytorch.org/event/pytorch-conference-2024/"
+          }
+        ],
+        "speakers": [
+          "Davis Wertheimer",
+          "Linsong Chu"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/VtT4rdph4Qs/maxresdefault.webp",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "VtT4rdph4Qs"
+      }
+    },
+    "name": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "A Distributed Stateful Dataloader for Large-Scale Pretraining - Davis Wertheimer, IBM & Linsong Chu, IBM Research Large-scale model pretraining crucially relies on specialized and dedicated dataloaders that can, for example, partition and stream data asynchronously across multiple processes and physical nodes. In this talk we discuss one of the torch-native dataloaders we built and use at IBM Research for addressing these needs. Intended for use in large-scale model pretraining, particularly in research settings where rapid iteration between datasets may be required, our dataloader is distributed, stateful, checkpointable, composable and rescalable – while remaining a simple extension of the existing PyTorch dataloading framework. It automatically and invisibly handles data sharding, shuff",
+        "name": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+        "url": "https://www.youtube.com/watch?v=VtT4rdph4Qs",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+            "matched_strong_tokens": [
+              "pretraining",
+              "pytorch"
+            ],
+            "matched_tokens": [
+              "pretraining",
+              "pytorch",
+              "training"
+            ],
+            "matched_weak_tokens": [
+              "training"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=VtT4rdph4Qs",
+          "language": "eng",
+          "publisher": {
+            "event": "pytorchconf-2024",
+            "name": "PyTorch Conference 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-09-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pytorch.org/event/pytorch-conference-2024/"
+            }
+          ],
+          "speakers": [
+            "Davis Wertheimer",
+            "Linsong Chu"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi_webp/VtT4rdph4Qs/maxresdefault.webp",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "VtT4rdph4Qs"
+        }
+      },
+      "source_record_id": "pyvideo:video:pytorchconf-2024:a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
+          "operation": "normalize_name",
+          "output": "a distributed stateful dataloader for large-scale pretraining",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=VtT4rdph4Qs",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/a-distributed-stateful-dataloader-for-large-scale-pretraining-davis-wertheimer-linsong-chu.json"
+    },
+    "url": "https://www.youtube.com/watch?v=VtT4rdph4Qs"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "PyTorch Libraries provide building blocks (data processing transforms, modeling components, loss functions, etc.) on top of PyTorch as well as examples and tutorials on how to use these building blocks for training SoTA Models. In this talk, we’ll provide insights into ongoing work to accelerate exploration in multimodal understanding and generative AI using TorchMultimodal. We ll also present TorchVision s new transforms API, with added support for image detection, segmentation, and video tasks.",
+    "entity_type": "video",
+    "id": "f38b6cf7-b381-503f-999d-0fb4ec8b7cb0",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+          "matched_strong_tokens": [
+            "generative",
+            "generative ai",
+            "multimodal",
+            "pytorch"
+          ],
+          "matched_tokens": [
+            "pytorch",
+            "multimodal",
+            "generative ai",
+            "generative",
+            "ai",
+            "training"
+          ],
+          "matched_weak_tokens": [
+            "ai",
+            "training"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=jKdXNDSpauk",
+        "language": "eng",
+        "publisher": {
+          "event": "pytorchconf-2023",
+          "name": "PyTorch Conference 2023",
+          "type": "conference"
+        },
+        "recorded_at": "2023-10-16",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pytorch.org/event/pytorch-conference-2023/"
+          }
+        ],
+        "speakers": [
+          "Nicolas Hug",
+          "Philip Bontrager",
+          "Evan Smothers",
+          "Peng Chen"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/jKdXNDSpauk/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "jKdXNDSpauk"
+      }
+    },
+    "name": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "PyTorch Libraries provide building blocks (data processing transforms, modeling components, loss functions, etc.) on top of PyTorch as well as examples and tutorials on how to use these building blocks for training SoTA Models. In this talk, we’ll provide insights into ongoing work to accelerate exploration in multimodal understanding and generative AI using TorchMultimodal. We ll also present TorchVision s new transforms API, with added support for image detection, segmentation, and video tasks.",
+        "name": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+        "url": "https://www.youtube.com/watch?v=jKdXNDSpauk",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+            "matched_strong_tokens": [
+              "generative",
+              "generative ai",
+              "multimodal",
+              "pytorch"
+            ],
+            "matched_tokens": [
+              "pytorch",
+              "multimodal",
+              "generative ai",
+              "generative",
+              "ai",
+              "training"
+            ],
+            "matched_weak_tokens": [
+              "ai",
+              "training"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=jKdXNDSpauk",
+          "language": "eng",
+          "publisher": {
+            "event": "pytorchconf-2023",
+            "name": "PyTorch Conference 2023",
+            "type": "conference"
+          },
+          "recorded_at": "2023-10-16",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pytorch.org/event/pytorch-conference-2023/"
+            }
+          ],
+          "speakers": [
+            "Nicolas Hug",
+            "Philip Bontrager",
+            "Evan Smothers",
+            "Peng Chen"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/jKdXNDSpauk/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "jKdXNDSpauk"
+        }
+      },
+      "source_record_id": "pyvideo:video:pytorchconf-2023:accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
+          "operation": "normalize_name",
+          "output": "accelerating explorations in vision and multimodal ai using pytorch libraries",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=jKdXNDSpauk",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-explorations-in-vision-and-multimodal-ai-using-pytorch-nicolas-philip-evan-peng.json"
+    },
+    "url": "https://www.youtube.com/watch?v=jKdXNDSpauk"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "There is a Cambrian explosion of performant and efficient methods to train and serve generative AI models within the community. The PyTorch team will present optimizations to transformer based Generative AI models, using pure, native PyTorch. In this talk we aim to cover both new techniques in PyTorch for driving efficiency gains, as well as showcasing how they can be composed on popular Generative AI models. Highlights will include methods spanning torch compile, quantization, sparsity, memory efficient attention, reducing padding.",
+    "entity_type": "video",
+    "id": "ebebf641-7782-5f99-b90b-31e2dd1636a5",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Accelerating Generative AI",
+          "matched_strong_tokens": [
+            "generative",
+            "generative ai",
+            "pytorch",
+            "quantization",
+            "transformer"
+          ],
+          "matched_tokens": [
+            "generative ai",
+            "generative",
+            "transformer",
+            "pytorch",
+            "quantization",
+            "ai"
+          ],
+          "matched_weak_tokens": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=IWpM_9AsC-U",
+        "language": "eng",
+        "publisher": {
+          "event": "pytorchconf-2023",
+          "name": "PyTorch Conference 2023",
+          "type": "conference"
+        },
+        "recorded_at": "2023-10-16",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pytorch.org/event/pytorch-conference-2023/"
+          }
+        ],
+        "speakers": [
+          "Christian Puhrsch",
+          "Horace He"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/IWpM_9AsC-U/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "IWpM_9AsC-U"
+      }
+    },
+    "name": "Accelerating Generative AI",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "There is a Cambrian explosion of performant and efficient methods to train and serve generative AI models within the community. The PyTorch team will present optimizations to transformer based Generative AI models, using pure, native PyTorch. In this talk we aim to cover both new techniques in PyTorch for driving efficiency gains, as well as showcasing how they can be composed on popular Generative AI models. Highlights will include methods spanning torch compile, quantization, sparsity, memory efficient attention, reducing padding.",
+        "name": "Accelerating Generative AI",
+        "url": "https://www.youtube.com/watch?v=IWpM_9AsC-U",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Accelerating Generative AI",
+            "matched_strong_tokens": [
+              "generative",
+              "generative ai",
+              "pytorch",
+              "quantization",
+              "transformer"
+            ],
+            "matched_tokens": [
+              "generative ai",
+              "generative",
+              "transformer",
+              "pytorch",
+              "quantization",
+              "ai"
+            ],
+            "matched_weak_tokens": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=IWpM_9AsC-U",
+          "language": "eng",
+          "publisher": {
+            "event": "pytorchconf-2023",
+            "name": "PyTorch Conference 2023",
+            "type": "conference"
+          },
+          "recorded_at": "2023-10-16",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pytorch.org/event/pytorch-conference-2023/"
+            }
+          ],
+          "speakers": [
+            "Christian Puhrsch",
+            "Horace He"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/IWpM_9AsC-U/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "IWpM_9AsC-U"
+        }
+      },
+      "source_record_id": "pyvideo:video:pytorchconf-2023:accelerating-generative-ai-christian-puhrsch-horace-he-meta",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-generative-ai-christian-puhrsch-horace-he-meta.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Accelerating Generative AI",
+          "operation": "normalize_name",
+          "output": "accelerating generative ai",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=IWpM_9AsC-U",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2023/videos/accelerating-generative-ai-christian-puhrsch-horace-he-meta.json"
+    },
+    "url": "https://www.youtube.com/watch?v=IWpM_9AsC-U"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "Food Insecurity is a major challenge that is ravaging the entire world especially Africa where Agriculture faces critical challenges in productivity, sustainability, and environmental deprivation. This is due to so many factors ranging from climate change to socio-economic factors. To combat this menace, there is need for a robust and scalable system like IoT for weather monitoring and informed decision making for both the policy makers and the farmers to be able to mitigate these challenges. Python, with its rich ecosystem, serves as a bridge between the IoT devices and machine learning, assisting in resolving these challenges and improving decision making in agriculture. This talk explores the use of Python in delivering sustainable agriculture practices. We will look at how data is coll",
+    "entity_type": "video",
+    "id": "a1d4c9ee-72ac-5ee7-af06-5c8d5c9f17c8",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+          "matched_strong_tokens": [
+            "machine learning",
+            "pytorch",
+            "tensorflow"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "pytorch",
+            "tensorflow"
+          ],
+          "matched_weak_tokens": []
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=LF39_oyJtj0",
+        "language": "eng",
+        "publisher": {
+          "event": "pycon-us-2025",
+          "name": "PyCon US 2025",
+          "type": "conference"
+        },
+        "recorded_at": "2025-05-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+          },
+          {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/47/"
+          }
+        ],
+        "speakers": [
+          "Iyinoluwa Moyosola Oyelade",
+          "Alowolodu Olufunso Dayo"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/LF39_oyJtj0/hqdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "LF39_oyJtj0"
+      }
+    },
+    "name": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "Food Insecurity is a major challenge that is ravaging the entire world especially Africa where Agriculture faces critical challenges in productivity, sustainability, and environmental deprivation. This is due to so many factors ranging from climate change to socio-economic factors. To combat this menace, there is need for a robust and scalable system like IoT for weather monitoring and informed decision making for both the policy makers and the farmers to be able to mitigate these challenges. Python, with its rich ecosystem, serves as a bridge between the IoT devices and machine learning, assisting in resolving these challenges and improving decision making in agriculture. This talk explores the use of Python in delivering sustainable agriculture practices. We will look at how data is coll",
+        "name": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+        "url": "https://www.youtube.com/watch?v=LF39_oyJtj0",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+            "matched_strong_tokens": [
+              "machine learning",
+              "pytorch",
+              "tensorflow"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "pytorch",
+              "tensorflow"
+            ],
+            "matched_weak_tokens": []
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=LF39_oyJtj0",
+          "language": "eng",
+          "publisher": {
+            "event": "pycon-us-2025",
+            "name": "PyCon US 2025",
+            "type": "conference"
+          },
+          "recorded_at": "2025-05-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://us.pycon.org/2025/"
+            },
+            {
+              "label": "Presentation Webpage",
+              "url": "https://us.pycon.org/2025/schedule/presentation/47/"
+            }
+          ],
+          "speakers": [
+            "Iyinoluwa Moyosola Oyelade",
+            "Alowolodu Olufunso Dayo"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/LF39_oyJtj0/hqdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "LF39_oyJtj0"
+        }
+      },
+      "source_record_id": "pyvideo:video:pycon-us-2025:bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
+          "operation": "normalize_name",
+          "output": "bridging iot and machine learning with python for sustainable agriculture",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=LF39_oyJtj0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/bridging-iot-and-machine-learning-with-python-for-sustainable-agriculture.json"
+    },
+    "url": "https://www.youtube.com/watch?v=LF39_oyJtj0"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "When “AI Agent” became the buzz word, have you ever wondered: what exactly is an AI agent? What is the multi-agent system? And how can you use the power of AI agents in your day-to-day data science workflow? In this hands-on tutorial, I will introduce AI agents and demonstrate how to design, build, and manage a multi-agent system for your data science workflows. Participants will learn how to break down complex tasks, assign AI agents to collaborate effectively, and ensure accuracy and reliability in their outputs. We will also discuss the trade-offs, limitations, and best practices for incorporating AI agents into data science projects.",
+    "entity_type": "video",
+    "id": "856f3369-9a41-5655-9b4f-40d98d376767",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Build Your Own Data Science AI Agents",
+          "matched_strong_tokens": [],
+          "matched_tokens": [
+            "ai",
+            "agents",
+            "agent"
+          ],
+          "matched_weak_tokens": [
+            "agent",
+            "agents",
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=s5dx_4y6Iy8",
+        "language": "eng",
+        "publisher": {
+          "event": "pydata-virginia-2025",
+          "name": "PyData Virginia 2025",
+          "type": "conference"
+        },
+        "recorded_at": "2025-04-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pydata.org/virginia2025"
+          },
+          {
+            "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+            "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+          }
+        ],
+        "speakers": [
+          "Niharika Krishnan",
+          "Chuxin Liu",
+          "Astha Puri",
+          "Michelle Rojas"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/s5dx_4y6Iy8/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "s5dx_4y6Iy8"
+      }
+    },
+    "name": "Build Your Own Data Science AI Agents",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "When “AI Agent” became the buzz word, have you ever wondered: what exactly is an AI agent? What is the multi-agent system? And how can you use the power of AI agents in your day-to-day data science workflow? In this hands-on tutorial, I will introduce AI agents and demonstrate how to design, build, and manage a multi-agent system for your data science workflows. Participants will learn how to break down complex tasks, assign AI agents to collaborate effectively, and ensure accuracy and reliability in their outputs. We will also discuss the trade-offs, limitations, and best practices for incorporating AI agents into data science projects.",
+        "name": "Build Your Own Data Science AI Agents",
+        "url": "https://www.youtube.com/watch?v=s5dx_4y6Iy8",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Build Your Own Data Science AI Agents",
+            "matched_strong_tokens": [],
+            "matched_tokens": [
+              "ai",
+              "agents",
+              "agent"
+            ],
+            "matched_weak_tokens": [
+              "agent",
+              "agents",
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=s5dx_4y6Iy8",
+          "language": "eng",
+          "publisher": {
+            "event": "pydata-virginia-2025",
+            "name": "PyData Virginia 2025",
+            "type": "conference"
+          },
+          "recorded_at": "2025-04-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pydata.org/virginia2025"
+            },
+            {
+              "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+              "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+            }
+          ],
+          "speakers": [
+            "Niharika Krishnan",
+            "Chuxin Liu",
+            "Astha Puri",
+            "Michelle Rojas"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/s5dx_4y6Iy8/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "s5dx_4y6Iy8"
+        }
+      },
+      "source_record_id": "pyvideo:video:pydata-virginia-2025:krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Build Your Own Data Science AI Agents",
+          "operation": "normalize_name",
+          "output": "build your own data science ai agents",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=s5dx_4y6Iy8",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025.json"
+    },
+    "url": "https://www.youtube.com/watch?v=s5dx_4y6Iy8"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "In this talk, we will demo a simple machine learning accelerator deployed on a commodity FPGA and developed using a Python-based toolchain. The FPGA platform is based on an entry level Xilinx FPGA, with a total cost of materials for modeling, and Migen and LiteX for the construction of the System-on-chip. We will also survey the wide array of both open source and proprietary vendor tools necessary to build this project, and discuss the broader open source silicon landscape.",
+    "entity_type": "video",
+    "id": "2e215451-5408-58a2-b62a-beafa1f6cd70",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Building FPGA-based Machine Learning Accelerators in Python",
+          "matched_strong_tokens": [
+            "machine learning",
+            "pytorch"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "pytorch",
+            "ai"
+          ],
+          "matched_weak_tokens": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=pFRFZDLnr-s",
+        "language": "eng",
+        "publisher": {
+          "event": "pycon-us-2024",
+          "name": "PyCon US 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-05-19",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+          },
+          {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/131/"
+          }
+        ],
+        "speakers": [
+          "Tim Paine"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/pFRFZDLnr-s/hqdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "pFRFZDLnr-s"
+      }
+    },
+    "name": "Building FPGA-based Machine Learning Accelerators in Python",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "In this talk, we will demo a simple machine learning accelerator deployed on a commodity FPGA and developed using a Python-based toolchain. The FPGA platform is based on an entry level Xilinx FPGA, with a total cost of materials for modeling, and Migen and LiteX for the construction of the System-on-chip. We will also survey the wide array of both open source and proprietary vendor tools necessary to build this project, and discuss the broader open source silicon landscape.",
+        "name": "Building FPGA-based Machine Learning Accelerators in Python",
+        "url": "https://www.youtube.com/watch?v=pFRFZDLnr-s",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Building FPGA-based Machine Learning Accelerators in Python",
+            "matched_strong_tokens": [
+              "machine learning",
+              "pytorch"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "pytorch",
+              "ai"
+            ],
+            "matched_weak_tokens": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=pFRFZDLnr-s",
+          "language": "eng",
+          "publisher": {
+            "event": "pycon-us-2024",
+            "name": "PyCon US 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-05-19",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://us.pycon.org/2024/"
+            },
+            {
+              "label": "Presentation Webpage",
+              "url": "https://us.pycon.org/2024/schedule/presentation/131/"
+            }
+          ],
+          "speakers": [
+            "Tim Paine"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/pFRFZDLnr-s/hqdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "pFRFZDLnr-s"
+        }
+      },
+      "source_record_id": "pyvideo:video:pycon-us-2024:building-fpga-based-machine-learning-accelerators-in-python",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/building-fpga-based-machine-learning-accelerators-in-python.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Building FPGA-based Machine Learning Accelerators in Python",
+          "operation": "normalize_name",
+          "output": "building fpga-based machine learning accelerators in python",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=pFRFZDLnr-s",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/building-fpga-based-machine-learning-accelerators-in-python.json"
+    },
+    "url": "https://www.youtube.com/watch?v=pFRFZDLnr-s"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades - Emmanuel Acheampong, roboMUA At roboMUA we re leading the charge in building predictive AI models for diverse skin shades with the use of Convolutional Neural Networks (CNNs), and harnessing the power of Generative Adversarial Networks (GANs) specifically for generating realistic images of black hairstyles. Our session showcases PyTorch s versatility in both predictive and generative tasks, offering a comprehensive approach to inclusive AI. For predictive AI models, we leverage PyTorch s flexible framework to develop CNNs. Through innovative techniques in feature engineering and model architecture design, we demonstrate how PyTorch enables accurate prediction across 100 skin shades. Simultaneously, we showcase the transforma",
+    "entity_type": "video",
+    "id": "090fe18f-d7eb-5fea-9c1e-501d43e00d13",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+          "matched_strong_tokens": [
+            "computer vision",
+            "generative",
+            "neural network",
+            "pytorch"
+          ],
+          "matched_tokens": [
+            "computer vision",
+            "pytorch",
+            "neural network",
+            "generative",
+            "ai",
+            "training",
+            "neural"
+          ],
+          "matched_weak_tokens": [
+            "ai",
+            "neural",
+            "training"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=eGZ3-8ZbFj0",
+        "language": "eng",
+        "publisher": {
+          "event": "pytorchconf-2024",
+          "name": "PyTorch Conference 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-09-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pytorch.org/event/pytorch-conference-2024/"
+          }
+        ],
+        "speakers": [
+          "Emmanuel Acheampong"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/eGZ3-8ZbFj0/maxresdefault.webp",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "eGZ3-8ZbFj0"
+      }
+    },
+    "name": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades - Emmanuel Acheampong, roboMUA At roboMUA we re leading the charge in building predictive AI models for diverse skin shades with the use of Convolutional Neural Networks (CNNs), and harnessing the power of Generative Adversarial Networks (GANs) specifically for generating realistic images of black hairstyles. Our session showcases PyTorch s versatility in both predictive and generative tasks, offering a comprehensive approach to inclusive AI. For predictive AI models, we leverage PyTorch s flexible framework to develop CNNs. Through innovative techniques in feature engineering and model architecture design, we demonstrate how PyTorch enables accurate prediction across 100 skin shades. Simultaneously, we showcase the transforma",
+        "name": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+        "url": "https://www.youtube.com/watch?v=eGZ3-8ZbFj0",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+            "matched_strong_tokens": [
+              "computer vision",
+              "generative",
+              "neural network",
+              "pytorch"
+            ],
+            "matched_tokens": [
+              "computer vision",
+              "pytorch",
+              "neural network",
+              "generative",
+              "ai",
+              "training",
+              "neural"
+            ],
+            "matched_weak_tokens": [
+              "ai",
+              "neural",
+              "training"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=eGZ3-8ZbFj0",
+          "language": "eng",
+          "publisher": {
+            "event": "pytorchconf-2024",
+            "name": "PyTorch Conference 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-09-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pytorch.org/event/pytorch-conference-2024/"
+            }
+          ],
+          "speakers": [
+            "Emmanuel Acheampong"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi_webp/eGZ3-8ZbFj0/maxresdefault.webp",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "eGZ3-8ZbFj0"
+        }
+      },
+      "source_record_id": "pyvideo:video:pytorchconf-2024:building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
+          "operation": "normalize_name",
+          "output": "building pytorch computer vision algorithms for 100 skin shades",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=eGZ3-8ZbFj0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pytorchconf-2024/videos/building-pytorch-computer-vision-algorithms-for-100-skin-shades-emmanuel-acheampong-robomua.json"
+    },
+    "url": "https://www.youtube.com/watch?v=eGZ3-8ZbFj0"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "Large Language Models (LLMs) become vastly more powerful when given the ability to call external tools to gather information and take real-world actions - such as querying APIs, modifying databases, or kicking off workflows. This talk explores how to build and scale these tool servers using Python and the Model Context Protocol (MCP). MCP is an open-source protocol that provides a standardized request format and response structure for LLMs interacting with external tools, ensuring consistency while allowing flexible execution under the hood. We’ll walk through implementing an MCP-compliant tool server in Python, covering topics like transport types, the connection lifecycle, and best practices. LLM tool servers must handle increasing traffic efficiently, requiring strategies for load balan",
+    "entity_type": "video",
+    "id": "284053f2-887f-5127-b45b-ebf0aa29913f",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+          "matched_strong_tokens": [
+            "large language model",
+            "llm",
+            "model context protocol"
+          ],
+          "matched_tokens": [
+            "model context protocol",
+            "llm",
+            "large language model",
+            "ai",
+            "agents"
+          ],
+          "matched_weak_tokens": [
+            "agents",
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=01I4ywanRDc",
+        "language": "eng",
+        "publisher": {
+          "event": "pycon-us-2025",
+          "name": "PyCon US 2025",
+          "type": "conference"
+        },
+        "recorded_at": "2025-05-15",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2025/"
+          },
+          {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2025/schedule/presentation/3/"
+          }
+        ],
+        "speakers": [
+          "Hillary Sanders",
+          "Ken Alger"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/01I4ywanRDc/hqdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "01I4ywanRDc"
+      }
+    },
+    "name": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "Large Language Models (LLMs) become vastly more powerful when given the ability to call external tools to gather information and take real-world actions - such as querying APIs, modifying databases, or kicking off workflows. This talk explores how to build and scale these tool servers using Python and the Model Context Protocol (MCP). MCP is an open-source protocol that provides a standardized request format and response structure for LLMs interacting with external tools, ensuring consistency while allowing flexible execution under the hood. We’ll walk through implementing an MCP-compliant tool server in Python, covering topics like transport types, the connection lifecycle, and best practices. LLM tool servers must handle increasing traffic efficiently, requiring strategies for load balan",
+        "name": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+        "url": "https://www.youtube.com/watch?v=01I4ywanRDc",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+            "matched_strong_tokens": [
+              "large language model",
+              "llm",
+              "model context protocol"
+            ],
+            "matched_tokens": [
+              "model context protocol",
+              "llm",
+              "large language model",
+              "ai",
+              "agents"
+            ],
+            "matched_weak_tokens": [
+              "agents",
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=01I4ywanRDc",
+          "language": "eng",
+          "publisher": {
+            "event": "pycon-us-2025",
+            "name": "PyCon US 2025",
+            "type": "conference"
+          },
+          "recorded_at": "2025-05-15",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://us.pycon.org/2025/"
+            },
+            {
+              "label": "Presentation Webpage",
+              "url": "https://us.pycon.org/2025/schedule/presentation/3/"
+            }
+          ],
+          "speakers": [
+            "Hillary Sanders",
+            "Ken Alger"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/01I4ywanRDc/hqdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "01I4ywanRDc"
+        }
+      },
+      "source_record_id": "pyvideo:video:pycon-us-2025:building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
+          "operation": "normalize_name",
+          "output": "building scalable ai tool servers with model context protocol mcp and heroku sponsor: heroku",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=01I4ywanRDc",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2025/videos/building-scalable-ai-tool-servers-with-model-context-protocol-mcp-and-heroku.json"
+    },
+    "url": "https://www.youtube.com/watch?v=01I4ywanRDc"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "La investigación se centra en la clasificación y análisis de audio mediante el uso de embeddings para evaluar la severidad de episodios auditivos, para lograr esto, se ha desarrollado un proyecto que abarca la creación de un dataset específico destinado al entrenamiento de una red neuronal diseñada para analizar señales de audio. En la primera fase del proyecto, se ha puesto énfasis en la recopilación y procesamiento de datos de audio, con el objetivo de construir un conjunto de entrenamiento robusto y representativo, este dataset se ha utilizado para alimentar una red neuronal especializada capaz de clasificar violencia en 5 clases. Además del análisis de audio, se ha explorado el análisis de texto utilizando embeddings para determinar la cercanía semántica de las palabras y frases asocia",
+    "entity_type": "video",
+    "id": "472f40ea-fc02-5170-8dea-1fd4afaa2223",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Clasificación de violencia mediante análisis de audio y embeddings",
+          "matched_strong_tokens": [
+            "embedding",
+            "embeddings"
+          ],
+          "matched_tokens": [
+            "embedding",
+            "embeddings"
+          ],
+          "matched_weak_tokens": []
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=jX20gFPf6xI",
+        "language": "spa",
+        "publisher": {
+          "event": "pycon-us-2024",
+          "name": "PyCon US 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-05-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://us.pycon.org/2024/"
+          },
+          {
+            "label": "Presentation Webpage",
+            "url": "https://us.pycon.org/2024/schedule/presentation/121/"
+          }
+        ],
+        "speakers": [
+          "Carla Marcela Florida Román"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/jX20gFPf6xI/hqdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "jX20gFPf6xI"
+      }
+    },
+    "name": "Clasificación de violencia mediante análisis de audio y embeddings",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "La investigación se centra en la clasificación y análisis de audio mediante el uso de embeddings para evaluar la severidad de episodios auditivos, para lograr esto, se ha desarrollado un proyecto que abarca la creación de un dataset específico destinado al entrenamiento de una red neuronal diseñada para analizar señales de audio. En la primera fase del proyecto, se ha puesto énfasis en la recopilación y procesamiento de datos de audio, con el objetivo de construir un conjunto de entrenamiento robusto y representativo, este dataset se ha utilizado para alimentar una red neuronal especializada capaz de clasificar violencia en 5 clases. Además del análisis de audio, se ha explorado el análisis de texto utilizando embeddings para determinar la cercanía semántica de las palabras y frases asocia",
+        "name": "Clasificación de violencia mediante análisis de audio y embeddings",
+        "url": "https://www.youtube.com/watch?v=jX20gFPf6xI",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Clasificación de violencia mediante análisis de audio y embeddings",
+            "matched_strong_tokens": [
+              "embedding",
+              "embeddings"
+            ],
+            "matched_tokens": [
+              "embedding",
+              "embeddings"
+            ],
+            "matched_weak_tokens": []
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=jX20gFPf6xI",
+          "language": "spa",
+          "publisher": {
+            "event": "pycon-us-2024",
+            "name": "PyCon US 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-05-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://us.pycon.org/2024/"
+            },
+            {
+              "label": "Presentation Webpage",
+              "url": "https://us.pycon.org/2024/schedule/presentation/121/"
+            }
+          ],
+          "speakers": [
+            "Carla Marcela Florida Román"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/jX20gFPf6xI/hqdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "jX20gFPf6xI"
+        }
+      },
+      "source_record_id": "pyvideo:video:pycon-us-2024:clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Clasificación de violencia mediante análisis de audio y embeddings",
+          "operation": "normalize_name",
+          "output": "clasificación de violencia mediante análisis de audio y embeddings",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=jX20gFPf6xI",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pycon-us-2024/videos/clasificacion-de-violencia-mediante-analisis-de-audio-y-embeddings.json"
+    },
+    "url": "https://www.youtube.com/watch?v=jX20gFPf6xI"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "Vast amounts of information of interest to cyber defense organizations comes in the form of unstructured data; from host-based telemetry and malware binaries, to phishing emails and network packet sequences. All of this data is extremely challenging to analyze. In recent years there have been huge advances in the methodology for converting unstructured media into vectors. However, leveraging such techniques for cyber defense data remains a challenge. Imposing structure on unstructured data allows us to leverage powerful data science and machine learning tools. Structure can be imposed in multiple ways, but vector space representations, with a meaningful distance measure, have proven to be one of the most fruitful. In this talk, we will demonstrate a number of techniques for embedding cyber",
+    "entity_type": "video",
+    "id": "5832c267-4992-5fb4-9ca2-8f1b84f23ea9",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Vector space embeddings and data maps for cyber defense",
+          "matched_strong_tokens": [
+            "embedding",
+            "embeddings",
+            "machine learning"
+          ],
+          "matched_tokens": [
+            "embedding",
+            "embeddings",
+            "machine learning"
+          ],
+          "matched_weak_tokens": []
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=j1w4WHgtfDg",
+        "language": "eng",
+        "publisher": {
+          "event": "scipy-2024",
+          "name": "SciPy 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-07-08",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://www.scipy2024.scipy.org/"
+          },
+          {
+            "label": "https://github.com/TutteInstitute/",
+            "url": "https://github.com/TutteInstitute/"
+          }
+        ],
+        "speakers": [
+          "Benoit Hamelin"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/j1w4WHgtfDg/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "j1w4WHgtfDg"
+      }
+    },
+    "name": "Vector space embeddings and data maps for cyber defense",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "Vast amounts of information of interest to cyber defense organizations comes in the form of unstructured data; from host-based telemetry and malware binaries, to phishing emails and network packet sequences. All of this data is extremely challenging to analyze. In recent years there have been huge advances in the methodology for converting unstructured media into vectors. However, leveraging such techniques for cyber defense data remains a challenge. Imposing structure on unstructured data allows us to leverage powerful data science and machine learning tools. Structure can be imposed in multiple ways, but vector space representations, with a meaningful distance measure, have proven to be one of the most fruitful. In this talk, we will demonstrate a number of techniques for embedding cyber",
+        "name": "Vector space embeddings and data maps for cyber defense",
+        "url": "https://www.youtube.com/watch?v=j1w4WHgtfDg",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Vector space embeddings and data maps for cyber defense",
+            "matched_strong_tokens": [
+              "embedding",
+              "embeddings",
+              "machine learning"
+            ],
+            "matched_tokens": [
+              "embedding",
+              "embeddings",
+              "machine learning"
+            ],
+            "matched_weak_tokens": []
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=j1w4WHgtfDg",
+          "language": "eng",
+          "publisher": {
+            "event": "scipy-2024",
+            "name": "SciPy 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-07-08",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://www.scipy2024.scipy.org/"
+            },
+            {
+              "label": "https://github.com/TutteInstitute/",
+              "url": "https://github.com/TutteInstitute/"
+            }
+          ],
+          "speakers": [
+            "Benoit Hamelin"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/j1w4WHgtfDg/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "j1w4WHgtfDg"
+        }
+      },
+      "source_record_id": "pyvideo:video:scipy-2024:benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Vector space embeddings and data maps for cyber defense",
+          "operation": "normalize_name",
+          "output": "vector space embeddings and data maps for cyber defense",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=j1w4WHgtfDg",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/benoit-hamelin-vector-space-embeddings-and-data-maps-for-cyber-defense-scipy-2024.json"
+    },
+    "url": "https://www.youtube.com/watch?v=j1w4WHgtfDg"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "The team behind DVC has spent years tackling data versioning challenges. With the rise of AI, we’ve seen new complexities emerge - especially with multimodal datasets like images, video, audio, and text. This talk shows why multimodal data versioning is different and how Pydantic provides a powerful way to structure and integrate metadata.",
+    "entity_type": "video",
+    "id": "ff5c8a21-203b-532e-a2e4-b3c57dd40a0c",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Versioning Multimodal Data: Metadata & Beyond",
+          "matched_strong_tokens": [
+            "multimodal"
+          ],
+          "matched_tokens": [
+            "multimodal",
+            "ai"
+          ],
+          "matched_weak_tokens": [
+            "ai"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=yNBoJSKl49U",
+        "language": "eng",
+        "publisher": {
+          "event": "pydata-virginia-2025",
+          "name": "PyData Virginia 2025",
+          "type": "conference"
+        },
+        "recorded_at": "2025-04-18",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://pydata.org/virginia2025"
+          },
+          {
+            "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+            "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+          }
+        ],
+        "speakers": [
+          "Dmitry Petrov"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/yNBoJSKl49U/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "yNBoJSKl49U"
+      }
+    },
+    "name": "Versioning Multimodal Data: Metadata & Beyond",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "The team behind DVC has spent years tackling data versioning challenges. With the rise of AI, we’ve seen new complexities emerge - especially with multimodal datasets like images, video, audio, and text. This talk shows why multimodal data versioning is different and how Pydantic provides a powerful way to structure and integrate metadata.",
+        "name": "Versioning Multimodal Data: Metadata & Beyond",
+        "url": "https://www.youtube.com/watch?v=yNBoJSKl49U",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Versioning Multimodal Data: Metadata & Beyond",
+            "matched_strong_tokens": [
+              "multimodal"
+            ],
+            "matched_tokens": [
+              "multimodal",
+              "ai"
+            ],
+            "matched_weak_tokens": [
+              "ai"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=yNBoJSKl49U",
+          "language": "eng",
+          "publisher": {
+            "event": "pydata-virginia-2025",
+            "name": "PyData Virginia 2025",
+            "type": "conference"
+          },
+          "recorded_at": "2025-04-18",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://pydata.org/virginia2025"
+            },
+            {
+              "label": "https://github.com/numfocus/YouTubeVideoTimestamps",
+              "url": "https://github.com/numfocus/YouTubeVideoTimestamps"
+            }
+          ],
+          "speakers": [
+            "Dmitry Petrov"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/yNBoJSKl49U/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "yNBoJSKl49U"
+        }
+      },
+      "source_record_id": "pyvideo:video:pydata-virginia-2025:dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Versioning Multimodal Data: Metadata & Beyond",
+          "operation": "normalize_name",
+          "output": "versioning multimodal data: metadata and beyond",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=yNBoJSKl49U",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/dmitry-petrov-versioning-multimodal-data-metadata-beyond-pydata-virginia-2025.json"
+    },
+    "url": "https://www.youtube.com/watch?v=yNBoJSKl49U"
+  },
+  {
+    "categories": [
+      "Videos"
+    ],
+    "description": "In this talk we introduce NVIDIA Warp, an open-source Python framework designed for accelerated differentiable computing. Warp enhances Python functions with just-in-time (JIT) compilation, allowing for efficient execution on CPUs and GPUs. The talk’s focus is on Warp’s application in physics simulation, perception, robotics, and geometry processing, along with its capability to integrate with machine-learning frameworks like PyTorch and JAX. Participants will learn the basics of Warp, including its JIT compilation process and the runtime library that supports various spatial computing operations. These concepts will be illustrated with hands-on projects based on research from institutions like MIT and UCLA, providing practical experience in using Warp to address computational challenges.",
+    "entity_type": "video",
+    "id": "f8493f58-5c8f-5b8e-a3ef-e28255d397be",
+    "metadata": {
+      "video": {
+        "ai_relevance_evidence": {
+          "excerpt": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+          "matched_strong_tokens": [
+            "jax",
+            "machine-learning",
+            "pytorch"
+          ],
+          "matched_tokens": [
+            "machine-learning",
+            "pytorch",
+            "jax",
+            "ai",
+            "gpu"
+          ],
+          "matched_weak_tokens": [
+            "ai",
+            "gpu"
+          ]
+        },
+        "canonical_url": "https://www.youtube.com/watch?v=jDOekvNddFo",
+        "language": "eng",
+        "publisher": {
+          "event": "scipy-2024",
+          "name": "SciPy 2024",
+          "type": "conference"
+        },
+        "recorded_at": "2024-07-08",
+        "related_urls": [
+          {
+            "label": "Conference Website",
+            "url": "https://www.scipy2024.scipy.org/"
+          }
+        ],
+        "speakers": [
+          "Eric Heiden"
+        ],
+        "thumbnail_url": "https://i.ytimg.com/vi/jDOekvNddFo/maxresdefault.jpg",
+        "timestamp_semantics": "pyvideo_recorded_date",
+        "youtube_video_id": "jDOekvNddFo"
+      }
+    },
+    "name": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+    "provenance": {
+      "discovered_by": "PyVideo Catalog",
+      "fetched_at": "2026-08-26T07:42:57.811251+00:00",
+      "observed_fields": {
+        "categories": [
+          "Videos"
+        ],
+        "description": "In this talk we introduce NVIDIA Warp, an open-source Python framework designed for accelerated differentiable computing. Warp enhances Python functions with just-in-time (JIT) compilation, allowing for efficient execution on CPUs and GPUs. The talk’s focus is on Warp’s application in physics simulation, perception, robotics, and geometry processing, along with its capability to integrate with machine-learning frameworks like PyTorch and JAX. Participants will learn the basics of Warp, including its JIT compilation process and the runtime library that supports various spatial computing operations. These concepts will be illustrated with hands-on projects based on research from institutions like MIT and UCLA, providing practical experience in using Warp to address computational challenges.",
+        "name": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+        "url": "https://www.youtube.com/watch?v=jDOekvNddFo",
+        "video": {
+          "ai_relevance_evidence": {
+            "excerpt": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+            "matched_strong_tokens": [
+              "jax",
+              "machine-learning",
+              "pytorch"
+            ],
+            "matched_tokens": [
+              "machine-learning",
+              "pytorch",
+              "jax",
+              "ai",
+              "gpu"
+            ],
+            "matched_weak_tokens": [
+              "ai",
+              "gpu"
+            ]
+          },
+          "canonical_url": "https://www.youtube.com/watch?v=jDOekvNddFo",
+          "language": "eng",
+          "publisher": {
+            "event": "scipy-2024",
+            "name": "SciPy 2024",
+            "type": "conference"
+          },
+          "recorded_at": "2024-07-08",
+          "related_urls": [
+            {
+              "label": "Conference Website",
+              "url": "https://www.scipy2024.scipy.org/"
+            }
+          ],
+          "speakers": [
+            "Eric Heiden"
+          ],
+          "thumbnail_url": "https://i.ytimg.com/vi/jDOekvNddFo/maxresdefault.jpg",
+          "timestamp_semantics": "pyvideo_recorded_date",
+          "youtube_video_id": "jDOekvNddFo"
+        }
+      },
+      "source_record_id": "pyvideo:video:scipy-2024:eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024",
+      "source_url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024.json",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
+          "operation": "normalize_name",
+          "output": "warp: advancing simulation ai with differentiable gpu computing in python",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "video:url:https://www.youtube.com/watch?v=jDOekvNddFo",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "PyVideo Catalog",
+      "url": "https://api.github.com/repos/pyvideo/data/contents/scipy-2024/videos/eric-heiden-warp-advancing-simulation-ai-with-differentiable-gpu-computing-in-python-scipy-2024.json"
+    },
+    "url": "https://www.youtube.com/watch?v=jDOekvNddFo"
   }
 ]
