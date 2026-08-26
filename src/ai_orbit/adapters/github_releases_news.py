@@ -209,13 +209,18 @@ class GitHubReleasesNewsAdapter(SourceAdapter):
 
         # Fetch (or reuse cached) releases for every configured repository so
         # that publisher diversity is not truncated by the bounded record
-        # limit being reached early on the first few repositories.
+        # limit being reached early on the first few repositories. A per-
+        # repository release fetch failure is isolated: it skips that
+        # repository without aborting the rest of the source.
         repo_release_lists: list[list[dict[str, Any]]] = []
         for repo in self._repos:
             repo_name = str(repo.get("full_name") or "")
             releases = self._releases_cache.get(repo_name)
             if releases is None:
-                releases = await self._fetch_releases(repo)
+                try:
+                    releases = await self._fetch_releases(repo)
+                except SourceFetchError:
+                    releases = []
                 self._releases_cache[repo_name] = releases
             repo_release_lists.append(releases)
 
@@ -316,6 +321,7 @@ class GitHubReleasesNewsAdapter(SourceAdapter):
             metadata={
                 "news": {
                     "canonical_url": html_url,
+                    "subtype": "github_release_announcement",
                     "published_at": published_at,
                     "created_at": created_at,
                     "timestamp_semantics": "github_release_published_at",

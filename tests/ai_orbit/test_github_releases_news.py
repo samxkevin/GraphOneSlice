@@ -1,5 +1,7 @@
 from datetime import datetime, timezone
 
+import pytest
+
 from src.ai_orbit.adapters.github_releases_news import (
     GitHubReleasesNewsAdapter,
     _ai_signal_tokens,
@@ -8,6 +10,7 @@ from src.ai_orbit.adapters.github_releases_news import (
 from src.ai_orbit.config import AIOrbitSettings
 from src.ai_orbit.models import Entity, Provenance, SourceRef
 from src.ai_orbit.stages.validation import validate_outputs
+from src.ai_orbit.utils.http import FailureClass, SourceFetchError
 
 
 def _release(**overrides):
@@ -79,6 +82,7 @@ def test_record_from_release_preserves_source_backed_news_fields():
 
     news = record.metadata["news"]
     assert news["canonical_url"] == "https://github.com/openai/openai-python/releases/tag/v1.2.3"
+    assert news["subtype"] == "github_release_announcement"
     assert news["published_at"] == "2026-08-19T10:50:47+00:00"
     assert news["timestamp_semantics"] == "github_release_published_at"
     assert news["tag_name"] == "v1.2.3"
@@ -128,6 +132,7 @@ def test_news_validation_requires_published_at_semantics_and_evidence():
         metadata={
             "news": {
                 "canonical_url": "https://github.com/openai/openai-python/releases/tag/v1.2.3",
+                "subtype": "github_release_announcement",
                 "published_at": "2026-08-19T10:50:47+00:00",
                 "timestamp_semantics": "github_release_published_at",
                 "publisher": {"login": "openai", "type": "Organization", "html_url": "https://github.com/openai"},
@@ -159,3 +164,41 @@ def test_news_validation_requires_published_at_semantics_and_evidence():
     accepted, _relationships, report = validate_outputs([fabricated_timestamp], [])
     assert accepted == []
     assert report["failure_counts_by_type"]["invalid_metadata"] == 1
+
+    missing_subtype = news.model_copy(update={"id": "news-5", "metadata": {"news": {k: v for k, v in news.metadata["news"].items() if k != "subtype"}}})
+    accepted, _relationships, report = validate_outputs([missing_subtype], [])
+    assert accepted == []
+    assert report["failure_counts_by_type"]["invalid_metadata"] == 1
+
+    unsupported_subtype = news.model_copy(update={"id": "news-6", "metadata": {"news": {**news.metadata["news"], "subtype": "general_press_article"}}})
+    accepted, _relationships, report = validate_outputs([unsupported_subtype], [])
+    assert accepted == []
+    assert report["failure_counts_by_type"]["invalid_metadata"] == 1
+
+
+@pytest.mark.asyncio
+async def test_release_fetch_failure_is_isolated_per_repository():
+    adapter = _adapter()
+    repo_a = _repo()
+    repo_b = _repo(
+        full_name="groq/groq-python",
+        owner={"login": "groq", "type": "Organization", "html_url": "https://github.com/groq"},
+    )
+    adapter._repos = [repo_a, repo_b]
+
+    calls = {"count": 0}
+
+    async def fake_fetch_releases(repo):
+        name = str(repo.get("full_name") or "")
+        if name == "openai/openai-python":
+            raise SourceFetchError(FailureClass.NOT_FOUND, f"HTTP 404 requesting {name}")
+        calls["count"] += 1
+        return [_release()]
+
+    adapter._fetch_releases = fake_fetch_releases  # type: ignore[method-assign]
+    records = await adapter.discover()
+
+    # The failing repository was skipped without aborting the whole source.
+    assert len(records) == 1
+    assert records[0].metadata["news"]["repository"] == "groq/groq-python"
+    assert calls["count"] == 1

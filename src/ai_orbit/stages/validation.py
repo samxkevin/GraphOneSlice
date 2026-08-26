@@ -18,6 +18,11 @@ from src.ai_orbit.utils.url import is_valid_http_url, normalize_url
 # Exported for tests and README clarity.
 SUPPORTED_CATEGORIES = REQUIRED_CATEGORIES
 
+# News records must declare their subtype explicitly so that structured
+# announcements (e.g. GitHub release notes) are never conflated with general
+# press/news articles.
+SUPPORTED_NEWS_SUBTYPES = {"github_release_announcement"}
+
 
 def _is_iso_timestamp(value: str) -> bool:
     """Return True when ``value`` is a parseable ISO-8601 timestamp."""
@@ -209,6 +214,8 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.published_at must be a source-backed ISO-8601 timestamp"})
         if not news.get("timestamp_semantics"):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.timestamp_semantics required"})
+        if news.get("subtype") not in SUPPORTED_NEWS_SUBTYPES:
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.subtype must be a supported news subtype (github_release_announcement)"})
         publisher = news.get("publisher")
         if not isinstance(publisher, dict) or not publisher.get("login"):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "news.publisher.login required"})

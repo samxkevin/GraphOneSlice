@@ -30,6 +30,7 @@
         },
         "release_id": 360611023,
         "repository": "modelcontextprotocol/typescript-sdk",
+        "subtype": "github_release_announcement",
         "tag_name": "1.30.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -37,7 +38,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -67,6 +68,7 @@
           },
           "release_id": 360611023,
           "repository": "modelcontextprotocol/typescript-sdk",
+          "subtype": "github_release_announcement",
           "tag_name": "1.30.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -137,6 +139,7 @@
         },
         "release_id": 334943975,
         "repository": "huggingface/datasets",
+        "subtype": "github_release_announcement",
         "tag_name": "5.0.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -144,7 +147,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -182,6 +185,7 @@
           },
           "release_id": 334943975,
           "repository": "huggingface/datasets",
+          "subtype": "github_release_announcement",
           "tag_name": "5.0.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -252,6 +256,7 @@
         },
         "release_id": 361026946,
         "repository": "huggingface/datasets",
+        "subtype": "github_release_announcement",
         "tag_name": "5.0.1",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -259,7 +264,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -297,6 +302,7 @@
           },
           "release_id": 361026946,
           "repository": "huggingface/datasets",
+          "subtype": "github_release_announcement",
           "tag_name": "5.0.1",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -359,6 +365,7 @@
         },
         "release_id": 372980471,
         "repository": "cohere-ai/cohere-python",
+        "subtype": "github_release_announcement",
         "tag_name": "7.0.9",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -366,7 +373,7 @@
     "name": "7.0.9",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -396,6 +403,7 @@
           },
           "release_id": 372980471,
           "repository": "cohere-ai/cohere-python",
+          "subtype": "github_release_announcement",
           "tag_name": "7.0.9",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -462,6 +470,7 @@
         },
         "release_id": 348505088,
         "repository": "huggingface/diffusers",
+        "subtype": "github_release_announcement",
         "tag_name": "v0.39.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -469,7 +478,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -503,6 +512,7 @@
           },
           "release_id": 348505088,
           "repository": "huggingface/diffusers",
+          "subtype": "github_release_announcement",
           "tag_name": "v0.39.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -569,6 +579,7 @@
         },
         "release_id": 373818176,
         "repository": "huggingface/diffusers",
+        "subtype": "github_release_announcement",
         "tag_name": "v0.40.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -576,7 +587,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -610,6 +621,7 @@
           },
           "release_id": 373818176,
           "repository": "huggingface/diffusers",
+          "subtype": "github_release_announcement",
           "tag_name": "v0.40.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -681,6 +693,7 @@
         },
         "release_id": 372767786,
         "repository": "huggingface/transformers",
+        "subtype": "github_release_announcement",
         "tag_name": "v5.15.1",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -688,7 +701,7 @@
     "name": "Patch release: v5.15.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -727,6 +740,7 @@
           },
           "release_id": 372767786,
           "repository": "huggingface/transformers",
+          "subtype": "github_release_announcement",
           "tag_name": "v5.15.1",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -789,6 +803,7 @@
         },
         "release_id": 374583539,
         "repository": "mistralai/client-python",
+        "subtype": "github_release_announcement",
         "tag_name": "v2.9.4",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -796,7 +811,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -826,6 +841,7 @@
           },
           "release_id": 374583539,
           "repository": "mistralai/client-python",
+          "subtype": "github_release_announcement",
           "tag_name": "v2.9.4",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -897,6 +913,7 @@
         },
         "release_id": 367727332,
         "repository": "huggingface/transformers",
+        "subtype": "github_release_announcement",
         "tag_name": "v5.15.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -904,7 +921,7 @@
     "name": "Release: v5.15.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -943,6 +960,7 @@
           },
           "release_id": 367727332,
           "repository": "huggingface/transformers",
+          "subtype": "github_release_announcement",
           "tag_name": "v5.15.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -1003,6 +1021,7 @@
         },
         "release_id": 373995738,
         "repository": "anthropics/anthropic-sdk-python",
+        "subtype": "github_release_announcement",
         "tag_name": "v1.0.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -1010,7 +1029,7 @@
     "name": "v1.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1038,6 +1057,7 @@
           },
           "release_id": 373995738,
           "repository": "anthropics/anthropic-sdk-python",
+          "subtype": "github_release_announcement",
           "tag_name": "v1.0.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -1099,6 +1119,7 @@
         },
         "release_id": 376845784,
         "repository": "groq/groq-python",
+        "subtype": "github_release_announcement",
         "tag_name": "v1.7.0",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -1106,7 +1127,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1135,6 +1156,7 @@
           },
           "release_id": 376845784,
           "repository": "groq/groq-python",
+          "subtype": "github_release_announcement",
           "tag_name": "v1.7.0",
           "timestamp_semantics": "github_release_published_at"
         },
@@ -1197,6 +1219,7 @@
         },
         "release_id": 373198010,
         "repository": "openai/openai-python",
+        "subtype": "github_release_announcement",
         "tag_name": "v3.3.1",
         "timestamp_semantics": "github_release_published_at"
       }
@@ -1204,7 +1227,7 @@
     "name": "v3.3.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "fetched_at": "2026-08-26T07:31:38.048665+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1234,6 +1257,7 @@
           },
           "release_id": 373198010,
           "repository": "openai/openai-python",
+          "subtype": "github_release_announcement",
           "tag_name": "v3.3.1",
           "timestamp_semantics": "github_release_published_at"
         },

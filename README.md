@@ -55,14 +55,14 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 Current generated artifacts report:
 
 - valid entities: `160`
-- valid relationships: `62`
+- valid relationships: `60`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
 - recorded source failures: `13`
 - duplicate/shared URL warnings: `4`
-- test result: `92 passed`
+- test result: `93 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
@@ -283,10 +283,12 @@ Entity resolution is therefore **implemented and tested for the current vertical
   - `anthropics/anthropic-sdk-python`
   - `modelcontextprotocol/typescript-sdk`
 - Used for: bounded `News` records (release announcements), not repository/tool/model records.
+- **Semantics — not general news**: these records are **GitHub release announcements**, a distinct News subtype. They are not represented as general press/news articles. Each record carries `news.subtype = "github_release_announcement"` so the distinction is explicit in the data itself.
 - Supplies source-backed news fields:
   - title (`name`, falling back to `tag_name`);
   - canonical release URL (`html_url`);
   - publisher (repository owner login/type/html_url);
+  - `subtype` (`github_release_announcement`);
   - `published_at` (genuine GitHub release publication timestamp);
   - `created_at`;
   - release-note body (cleaned, bounded excerpt);
@@ -406,6 +408,7 @@ Implemented metadata support includes:
   - manufacturer/provider remain `null` because the ROS Robots source does not expose dedicated manufacturer/provider fields.
 - news:
   - canonical URL;
+  - `subtype` (`github_release_announcement` — records are release announcements, not general news articles);
   - `published_at` (source-backed GitHub release publication timestamp);
   - `created_at`;
   - `timestamp_semantics` (`github_release_published_at`);
@@ -583,7 +586,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-85 passed
+93 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -669,10 +672,10 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `148` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `160` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
-- Find reachable news feeds/APIs with publication timestamps; current tested news/story candidates failed in this environment or do not yet establish external article publication time.
+- Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
 - Add broader products/devices/video/personal sources only after source feasibility is verified and the source establishes entity identity directly.
 - Add `Device → runs → Model` relationships only from direct source evidence.
