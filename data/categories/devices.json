@@ -29,7 +29,7 @@
     "name": "01Studio CanMV K230 Development Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -112,7 +112,7 @@
     "name": "Alif Semiconductor AK-E7-AIML",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -195,7 +195,7 @@
     "name": "Arduino Nicla Voice",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -278,7 +278,7 @@
     "name": "AVNet AES-RASYNB-120-SK-G",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -361,7 +361,7 @@
     "name": "ESP32-S3-EYE",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -443,7 +443,7 @@
     "name": "Grove Vision AI Module V2",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -499,6 +499,225 @@
     "categories": [
       "Devices"
     ],
+    "description": "Hailo-10H AI accelerator; declared as supported hardware by 14 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo10h' is declared in info.supported_hw_arch by 14 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-10H - ...' and docs/public_models/HAILO10H/"
+      }
+    },
+    "name": "Hailo-10H",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-10H AI accelerator; declared as supported hardware by 14 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo10h' is declared in info.supported_hw_arch by 14 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-10H - ...' and docs/public_models/HAILO10H/"
+        },
+        "name": "Hailo-10H",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo10h",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-10H",
+          "operation": "normalize_name",
+          "output": "hailo-10h",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo10h"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "Hailo-15H AI accelerator; declared as supported hardware by 14 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "8f1f30c8-493c-5084-b2a3-cd4a4b8867d5",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15h' is declared in info.supported_hw_arch by 14 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15H - ...' and docs/public_models/HAILO15H/"
+      }
+    },
+    "name": "Hailo-15H",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-15H AI accelerator; declared as supported hardware by 14 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15h' is declared in info.supported_hw_arch by 14 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15H - ...' and docs/public_models/HAILO15H/"
+        },
+        "name": "Hailo-15H",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo15h",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-15H",
+          "operation": "normalize_name",
+          "output": "hailo-15h",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15h"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
+    "description": "Hailo-15L AI accelerator; declared as supported hardware by 9 sampled Hailo Model Zoo model definitions.",
+    "entity_type": "device",
+    "id": "34492720-4c04-58f4-897f-bc8b161e1b41",
+    "metadata": {
+      "device": {
+        "ai_relevance_evidence": {
+          "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15l' is declared in info.supported_hw_arch by 9 sampled model YAMLs",
+          "matched_tokens": [
+            "hailo",
+            "accelerator"
+          ]
+        },
+        "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+        "device_class": "ai-accelerator",
+        "manufacturer": "Hailo",
+        "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15L - ...' and docs/public_models/HAILO15L/"
+      }
+    },
+    "name": "Hailo-15L",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Devices"
+        ],
+        "description": "Hailo-15L AI accelerator; declared as supported hardware by 9 sampled Hailo Model Zoo model definitions.",
+        "device": {
+          "ai_relevance_evidence": {
+            "excerpt": "The Hailo Model Zoo includes pre-trained models and a full building and evaluation environment; 'hailo15l' is declared in info.supported_hw_arch by 9 sampled model YAMLs",
+            "matched_tokens": [
+              "hailo",
+              "accelerator"
+            ]
+          },
+          "canonical_url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+          "device_class": "ai-accelerator",
+          "manufacturer": "Hailo",
+          "manufacturer_evidence": "source repository is the official hailo-ai/hailo_model_zoo repository; README.rst: 'For Hailo-15L - ...' and docs/public_models/HAILO15L/"
+        },
+        "name": "Hailo-15L",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l"
+      },
+      "source_record_id": "hailo-model-zoo:device:hailo15l",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Hailo-15L",
+          "operation": "normalize_name",
+          "output": "hailo-15l",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "device:url:https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/tree/master/docs/public_models/hailo15l"
+  },
+  {
+    "categories": [
+      "Devices"
+    ],
     "description": "MCU: TMS320F28P550SJ9 (1 x C28x 32-bit DSP CPU & NPU); Price: ~30 usd TI)",
     "entity_type": "device",
     "id": "ef7db5ea-621e-5b26-a50c-48fbbfb9cb47",
@@ -524,7 +743,7 @@
     "name": "LAUNCHXL-F28P55X",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -606,7 +825,7 @@
     "name": "MaaXBoard OSM93 Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -690,7 +909,7 @@
     "name": "MAX78000FTHR",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -775,7 +994,7 @@
     "name": "NUCLEO-N657X0-Q",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -859,7 +1078,7 @@
     "name": "NXP MCIMX93-EVK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -942,7 +1161,7 @@
     "name": "Seeed Studio XIAO ESP32S3",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1026,7 +1245,7 @@
     "name": "SiLabs NxG24-DK2601B",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1110,7 +1329,7 @@
     "name": "Sipeed Maix Bit",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1194,7 +1413,7 @@
     "name": "STM32N6570-DK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T09:45:10.260777+00:00",
+      "fetched_at": "2026-08-26T10:22:03.226008+00:00",
       "observed_fields": {
         "categories": [
           "Devices"

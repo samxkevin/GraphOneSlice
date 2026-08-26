@@ -7,6 +7,7 @@ from typing import Iterable
 from src.ai_orbit.adapters.ai_tools_products import AIToolsProductDirectoryAdapter
 from src.ai_orbit.adapters.ai_device_catalog import AIDeviceCatalogAdapter
 from src.ai_orbit.adapters.base import SourceAdapter
+from src.ai_orbit.adapters.hailo_model_zoo import HailoModelZooAdapter
 from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapters
 from src.ai_orbit.adapters.github import GitHubAdapter
 from src.ai_orbit.adapters.github_releases_news import GitHubReleasesNewsAdapter
@@ -46,6 +47,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         GitHubReleasesNewsAdapter(settings),
         PyVideoVideosAdapter(settings),
         AIDeviceCatalogAdapter(settings),
+        HailoModelZooAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),

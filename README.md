@@ -54,24 +54,25 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `187`
-- valid relationships: `59`
+- valid entities: `204`
+- valid relationships: `96`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
 - recorded source failures: `13`
 - duplicate/shared URL warnings: `4`
-- test result: `111 passed`
+- test result: `123 passed`
+- relationship types produced: `develops` (20), `solves` (28), `published_by` (10), `integrates_with` (1), `runs` (37)
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, and AI device catalog (Devices) ingestion. The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
-- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, and task mapping guardrails are covered by automated tests.
-- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, and Devices via the AI device catalog; jobs and personal remain blocked by unreachable candidate sources in this environment.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, Devices via the AI device catalog and the Hailo model zoo, and `Device → runs → Model` via the Hailo model zoo's explicit `info.supported_hw_arch` declarations; jobs and personal remain blocked by unreachable candidate sources in this environment.
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
@@ -358,6 +359,29 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - Freshness: the source does not supply per-device timestamps, so no release/publication date is fabricated for devices; `fetched_at` remains provenance-only.
 - Current bounded ingestion limit: `AI_ORBIT_AI_DEVICE_LIMIT=15`.
 
+#### Hailo Model Zoo (Device → Model compatibility)
+
+- Access: GitHub REST git-trees API (recursive enumeration) plus the contents API for the official `hailo-ai/hailo_model_zoo` repository's `hailo_model_zoo/cfg/networks/*.yaml` files.
+- Used for: bounded `Model` records, three `Device` records (Hailo-15H, Hailo-15L, Hailo-10H AI accelerators), and `Device → runs → Model` relationships.
+- Why this source: each model YAML declares `network.network_name` (model identity) together with an explicit `info.supported_hw_arch` list naming the Hailo accelerators that run it. This is direct, per-model compatibility evidence — the exact pattern the assessment requires for `Device → runs → Model`, and distinct from framework support or popularity.
+- Supplies source-backed fields:
+  - model: `network_name`, `supported_hw_arch`, `task`, `input_shape`, `operations`, `parameters`, original `source` URL, `license_name`, and pre-trained artifact `url` where supplied;
+  - device: arch code → product name (`hailo15h` → `Hailo-15H`, from the source README's own spelling), per-device docs directory (`docs/public_models/HAILO15H`, `HAILO15L`, `HAILO10H`).
+- Evidence rule:
+  - a `runs` edge is created **only** when a model's own YAML lists the device in `info.supported_hw_arch`; the edge records `observed_field`, the observed arch list, the model YAML blob URL, and the reason;
+  - models whose YAML has no `supported_hw_arch` (six legacy face/person models in the catalog) are excluded — no edge is inferred for them;
+  - no edge is inferred from TensorFlow/PyTorch/CUDA generality or from popularity.
+- Device identity:
+  - `device.manufacturer` = `Hailo` (the repository owner is the official `hailo-ai` organization), recorded with evidence;
+  - `device.device_class` = `ai-accelerator`;
+  - `device.canonical_url` is the device's own documentation directory in the source (e.g. `docs/public_models/HAILO15H`), not a vendor product page — the manufacturer product pages are on `hailo.ai`, which is unreachable from this environment, so no unverified product URL is fabricated.
+- Bounded sample:
+  - latest verified catalog inventory: `233` network YAMLs; `227` declare `supported_hw_arch`; `3` device families (Hailo-15H/15L/10H);
+  - the adapter ingests a deterministic stride sample (bounded by `AI_ORBIT_HAILO_MODEL_LIMIT=16`) across the alphabetically sorted catalog so the sample spans task families (classification, detection, segmentation, face, NLP, zero-shot) instead of concentrating on one;
+  - the latest run ingested `14` sampled models and `3` devices, producing `37` `runs` edges (two stride positions hit legacy no-arch YAMLs and were correctly skipped).
+- Failure isolation: a single unparseable or no-arch model YAML is skipped without failing the source; tree/contents failures are recorded as source failures.
+- Freshness: the source does not supply per-device/per-model publication timestamps, so none is fabricated; `fetched_at` remains provenance-only.
+
 ### Feasibility probes without accepted records
 
 The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
@@ -444,7 +468,9 @@ Implemented metadata support includes:
   - input/output modalities;
   - provider;
   - context/capability fields when supplied;
-  - current model records all have provider evidence; `12` Models.dev records have source-supplied modalities/input/output metadata; license remains `null` because no verified source supplies per-model license;
+  - supported hardware architectures (Hailo model zoo records);
+  - task, input shape, operations, parameters, original model source (Hailo model zoo records);
+  - current model records all have provider evidence; `12` Models.dev records have source-supplied modalities/input/output metadata; Hailo model-zoo records carry `supported_hw_arch`/task/shape/ops/parameters and an original `source_repository` where supplied; license remains `null` where no verified source supplies a per-model license;
 - products:
   - directory ID/handle;
   - canonical URL;
@@ -478,7 +504,7 @@ Implemented metadata support includes:
   - AI relevance evidence (matched strong/weak tokens/excerpt).
 - devices:
   - canonical vendor URL;
-  - device class (`embedded-ai-board`);
+  - device class (`embedded-ai-board` for the board catalog, `ai-accelerator` for Hailo accelerators);
   - `manufacturer` (source-derived or `null`) plus `manufacturer_evidence`;
   - vendor label and URL;
   - processor/accelerator description, framework support, price;
@@ -547,6 +573,7 @@ Currently produced relationship types:
 - `solves`
 - `integrates_with`
 - `published_by`
+- `runs`
 
 Supported relationship types in validation:
 
@@ -564,6 +591,7 @@ Current evidence-backed relationships include:
 - `Repository/Tool/MCP → solves → Task` from observed GitHub topics or package description phrases;
 - `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github`;
 - `News → published_by → Company` from the GitHub release repository owner, emitted only when the owner organization resolves to an ingested company entity.
+- `Device → runs → Model` from the Hailo model zoo, emitted only when a model's own YAML declares the device in `info.supported_hw_arch`.
 
 Relationships are not created from guesses. Every relationship has:
 
@@ -606,7 +634,7 @@ Validation checks include:
 - model metadata presence/provider support;
 - news metadata presence, including a source-backed ISO-8601 `published_at`, explicit `timestamp_semantics`, publisher login, and AI relevance evidence;
 - video metadata presence, including a canonical YouTube URL, a source-backed ISO-8601 `recorded_at`, explicit `timestamp_semantics`, a publisher/event name, and AI relevance evidence;
-- device metadata presence, including a canonical vendor URL and AI relevance evidence (manufacturer is optional and may be `null`);
+- device metadata presence, including a canonical URL and AI relevance evidence (manufacturer is optional and may be `null`);
 - relationship schema;
 - relationship endpoints;
 - relationship provenance/evidence.
@@ -655,7 +683,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-111 passed
+123 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -676,7 +704,8 @@ AI Orbit-specific tests cover:
 - task mapping guardrails for derived integration-target tools and overly broad filesystem wording;
 - Product entity validation, AI Tools List product-directory filtering, Product semantic rejects, and Product URL deduplication;
 - Models.dev catalog filtering and model metadata preservation;
-- ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection.
+- ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection;
+- Hailo model-zoo YAML parsing, compatibility-edge extraction, deterministic stride sampling, `Device → runs → Model` direction/evidence, and Hailo device/model validation.
 
 ## Generated artifacts
 
@@ -719,6 +748,9 @@ Important values:
 - `AI_ORBIT_MODELS_DEV_MODEL_LIMIT`
 - `AI_ORBIT_ROS_ROBOTS_CATALOG_API_URL`
 - `AI_ORBIT_ROS_ROBOTS_LIMIT`
+- `AI_ORBIT_HAILO_MODEL_ZOO_TREE_URL`
+- `AI_ORBIT_HAILO_MODEL_ZOO_CONTENTS_BASE`
+- `AI_ORBIT_HAILO_MODEL_LIMIT`
 - `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
 No real credentials are committed.
@@ -727,7 +759,7 @@ No real credentials are committed.
 
 - Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, and the ROS Robots Catalog.
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, the ROS Robots Catalog, the AI device catalog, GitHub Releases announcements (News), PyVideo conference talks (Videos), and the Hailo Model Zoo (Devices + Models + `Device → runs → Model`).
 - Feasibility-only probes for startup/company, product, model, model-enrichment, news/story, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
@@ -741,22 +773,24 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `187` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `204` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
 - Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
 - Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
-- Add broader products/personal sources only after source feasibility is verified and the source establishes entity identity directly. (Devices are now covered by the AI device catalog; `Device → runs → Model` remains blocked until a reachable source supplies direct model-compatibility evidence.)
-- Add `Device → runs → Model` relationships only from direct source evidence.
+- Add broader products/personal sources only after source feasibility is verified and the source establishes entity identity directly.
+- Broaden `Device → runs → Model` coverage beyond the Hailo bounded sample (e.g. a larger deterministic sample of the 227 compatibility-tagged Hailo models) only if each additional edge remains directly evidenced by the model YAML's `info.supported_hw_arch`.
 - Improve assessment-scale cross-source entity resolution as more source families are added.
 
 ## Known limitations
 
 - This is not yet the final 250–300 record dataset.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
-- Model license is not populated; the official SDK model source does not supply modalities, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
-- Current jobs/news/video/device/personal categories have no accepted records because tested sources were not reachable or did not yet prove required identity/timestamp semantics, and no fallback data was fabricated.
+- Model license is only populated where a source supplies it (some Hailo model-zoo records carry `license_name`); the official SDK model source does not supply modalities or license, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
+- Current `jobs` and `personal` categories still have no accepted records because tested sources were not reachable or did not prove the required identity/timestamp semantics, and no fallback data was fabricated. (News, Videos, and Devices are now live-verified.)
 - Product coverage is currently limited to a bounded directory sample; provider/company and launch-time metadata remain unavailable from that source. Packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
 - Robot coverage is currently limited to a bounded ROS Robots catalog sample; manufacturer/provider are not populated because the source does not expose dedicated fields.
+- Hailo device canonical URLs point at each device's documentation directory in the `hailo-ai/hailo_model_zoo` source rather than at a manufacturer product page, because `hailo.ai` is unreachable from this environment and no unverified product URL is fabricated.
+- `Device → runs → Model` coverage is limited to a bounded deterministic Hailo model sample (14 models / 37 edges); the full catalog has 227 compatibility-tagged models that could be sampled more broadly later.
 - Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
 - Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

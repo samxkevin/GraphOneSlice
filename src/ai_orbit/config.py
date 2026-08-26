@@ -102,6 +102,16 @@ class AIOrbitSettings(BaseSettings):
     )
     ai_device_limit: int = Field(default=15, validation_alias="AI_ORBIT_AI_DEVICE_LIMIT")
 
+    hailo_model_zoo_tree_url: str = Field(
+        default="https://api.github.com/repos/hailo-ai/hailo_model_zoo/git/trees/master",
+        validation_alias="AI_ORBIT_HAILO_MODEL_ZOO_TREE_URL",
+    )
+    hailo_model_zoo_contents_base: str = Field(
+        default="https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/",
+        validation_alias="AI_ORBIT_HAILO_MODEL_ZOO_CONTENTS_BASE",
+    )
+    hailo_model_limit: int = Field(default=16, validation_alias="AI_ORBIT_HAILO_MODEL_LIMIT")
+
     @field_validator(
         "github_company_orgs",
         "pypi_packages",

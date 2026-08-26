@@ -20,7 +20,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -85,7 +85,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -150,7 +150,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -215,7 +215,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -280,7 +280,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -345,7 +345,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -410,7 +410,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -475,7 +475,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -518,6 +518,83 @@
       "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/contents/src/anthropic/types/model.py"
     },
     "url": "https://github.com/anthropics/anthropic-sdk-python/blob/main/src/anthropic/types/model.py#L10"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network clip_vit_b_16_text_encoder; input shape: 1x77x512; operations: 6.0G; parameters: 37.8M",
+    "entity_type": "model",
+    "id": "d2c11aba-689b-5a3e-aa6c-6f87b1d73e6a",
+    "metadata": {
+      "model": {
+        "input_shape": "1x77x512",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "clip_vit_b_16_text_encoder",
+        "operations": "6.0G",
+        "parameters": "37.8M",
+        "provider": "Hailo",
+        "source_repository": "https://huggingface.co/openai/clip-vit-base-patch16",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo10h"
+        ],
+        "task": null
+      }
+    },
+    "name": "clip_vit_b_16_text_encoder",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network clip_vit_b_16_text_encoder; input shape: 1x77x512; operations: 6.0G; parameters: 37.8M",
+        "model": {
+          "input_shape": "1x77x512",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "clip_vit_b_16_text_encoder",
+          "operations": "6.0G",
+          "parameters": "37.8M",
+          "provider": "Hailo",
+          "source_repository": "https://huggingface.co/openai/clip-vit-base-patch16",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo10h"
+          ],
+          "task": null
+        },
+        "name": "clip_vit_b_16_text_encoder",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/clip/clip_vit_base_patch16_224/text_encoder/pretrained/2024-12-04/clip_text_encoder_vitb_16_sim.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:clip_vit_b_16_text_encoder",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/clip_vit_b_16_text_encoder.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "clip_vit_b_16_text_encoder",
+          "operation": "normalize_name",
+          "output": "clip_vit_b_16_text_encoder",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/clip/clip_vit_base_patch16_224/text_encoder/pretrained/2024-12-04/clip_text_encoder_vitb_16_sim.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/clip_vit_b_16_text_encoder.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/clip/clip_vit_base_patch16_224/text_encoder/pretrained/2024-12-04/clip_text_encoder_vitb_16_sim.zip"
   },
   {
     "categories": [
@@ -571,7 +648,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -650,6 +727,162 @@
     "categories": [
       "Models"
     ],
+    "description": "Hailo Model Zoo network deit_tiny; task: classification; input shape: 224x224x3; operations: 2.57G; parameters: 5.3M",
+    "entity_type": "model",
+    "id": "7a4fc1a1-7dbf-590e-8be4-6a7f5cbc55ee",
+    "metadata": {
+      "model": {
+        "input_shape": "224x224x3",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "deit_tiny",
+        "operations": "2.57G",
+        "parameters": "5.3M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/facebookresearch/deit",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo10h"
+        ],
+        "task": "classification"
+      }
+    },
+    "name": "deit_tiny",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network deit_tiny; task: classification; input shape: 224x224x3; operations: 2.57G; parameters: 5.3M",
+        "model": {
+          "input_shape": "224x224x3",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "deit_tiny",
+          "operations": "2.57G",
+          "parameters": "5.3M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/facebookresearch/deit",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo10h"
+          ],
+          "task": "classification"
+        },
+        "name": "deit_tiny",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/deit_tiny/pretrained/2024-05-21/deit_tiny.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:deit_tiny",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/deit_tiny.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "deit_tiny",
+          "operation": "normalize_name",
+          "output": "deit_tiny",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/deit_tiny/pretrained/2024-05-21/deit_tiny.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/deit_tiny.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/deit_tiny/pretrained/2024-05-21/deit_tiny.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network efficientnet_lite4; task: classification; input shape: 300x300x3; operations: 5.10G; parameters: 12.95M",
+    "entity_type": "model",
+    "id": "c1e1f50d-4972-503d-a863-8d665adc297e",
+    "metadata": {
+      "model": {
+        "input_shape": "300x300x3",
+        "license": "Apache-2.0",
+        "modalities": null,
+        "model_identifier": "efficientnet_lite4",
+        "operations": "5.10G",
+        "parameters": "12.95M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "classification"
+      }
+    },
+    "name": "efficientnet_lite4",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network efficientnet_lite4; task: classification; input shape: 300x300x3; operations: 5.10G; parameters: 12.95M",
+        "model": {
+          "input_shape": "300x300x3",
+          "license": "Apache-2.0",
+          "modalities": null,
+          "model_identifier": "efficientnet_lite4",
+          "operations": "5.10G",
+          "parameters": "12.95M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "classification"
+        },
+        "name": "efficientnet_lite4",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/efficientnet_lite4/pretrained/2023-07-18/efficientnet_lite4.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:efficientnet_lite4",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/efficientnet_lite4.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "efficientnet_lite4",
+          "operation": "normalize_name",
+          "output": "efficientnet_lite4",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/efficientnet_lite4/pretrained/2023-07-18/efficientnet_lite4.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/efficientnet_lite4.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/efficientnet_lite4/pretrained/2023-07-18/efficientnet_lite4.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
     "entity_type": "model",
     "id": "dd926075-11e7-501d-a3d8-b47dad5c34f0",
@@ -694,7 +927,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -786,7 +1019,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -851,7 +1084,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -916,7 +1149,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -981,7 +1214,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1046,7 +1279,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1111,7 +1344,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1159,6 +1392,85 @@
     "categories": [
       "Models"
     ],
+    "description": "Hailo Model Zoo network hailo_yolov8m_480_640; task: pipeline; input shape: 480x640x3; operations: 59.0G; parameters: 25.9M",
+    "entity_type": "model",
+    "id": "6dde9d7a-7000-5171-8f4f-b4023eeda8fa",
+    "metadata": {
+      "model": {
+        "input_shape": "480x640x3",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "hailo_yolov8m_480_640",
+        "operations": "59.0G",
+        "parameters": "25.9M",
+        "provider": "Hailo",
+        "source_repository": null,
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "pipeline"
+      }
+    },
+    "name": "hailo_yolov8m_480_640",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network hailo_yolov8m_480_640; task: pipeline; input shape: 480x640x3; operations: 59.0G; parameters: 25.9M",
+        "model": {
+          "input_shape": "480x640x3",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "hailo_yolov8m_480_640",
+          "operations": "59.0G",
+          "parameters": "25.9M",
+          "provider": "Hailo",
+          "source_repository": null,
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "pipeline"
+        },
+        "name": "hailo_yolov8m_480_640",
+        "url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml"
+      },
+      "source_record_id": "hailo-model-zoo:model:hailo_yolov8m_480_640",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "hailo_yolov8m_480_640",
+          "operation": "normalize_name",
+          "output": "hailo_yolov8m_480_640",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml"
+    },
+    "url": "https://github.com/hailo-ai/hailo_model_zoo/blob/master/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
     "entity_type": "model",
     "id": "2e0faca3-8dba-5222-b79a-e7e585c18e7a",
@@ -1201,7 +1513,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1274,6 +1586,85 @@
     "categories": [
       "Models"
     ],
+    "description": "Hailo Model Zoo network lprnet; task: pipeline; input shape: 75x300x3; operations: 36.54G; parameters: 7.14M",
+    "entity_type": "model",
+    "id": "01ca5941-1c54-5352-a8bc-e43ccc464e79",
+    "metadata": {
+      "model": {
+        "input_shape": "75x300x3",
+        "license": "MIT",
+        "modalities": null,
+        "model_identifier": "lprnet",
+        "operations": "36.54G",
+        "parameters": "7.14M",
+        "provider": "Hailo",
+        "source_repository": null,
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "pipeline"
+      }
+    },
+    "name": "lprnet",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network lprnet; task: pipeline; input shape: 75x300x3; operations: 36.54G; parameters: 7.14M",
+        "model": {
+          "input_shape": "75x300x3",
+          "license": "MIT",
+          "modalities": null,
+          "model_identifier": "lprnet",
+          "operations": "36.54G",
+          "parameters": "7.14M",
+          "provider": "Hailo",
+          "source_repository": null,
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "pipeline"
+        },
+        "name": "lprnet",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/ocr/lprnet/2022-03-09/lprnet.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:lprnet",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/lprnet.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "lprnet",
+          "operation": "normalize_name",
+          "output": "lprnet",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/ocr/lprnet/2022-03-09/lprnet.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/lprnet.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/ocr/lprnet/2022-03-09/lprnet.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
     "entity_type": "model",
     "id": "e9a8f380-553c-5219-a3a3-678d6908a30d",
@@ -1318,7 +1709,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1410,7 +1801,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1475,7 +1866,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
+      "fetched_at": "2026-08-26T10:21:37.738522+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1565,7 +1956,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1678,7 +2069,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1791,7 +2182,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1914,7 +2305,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2043,7 +2434,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2164,7 +2555,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2279,7 +2670,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2352,6 +2743,318 @@
     "categories": [
       "Models"
     ],
+    "description": "Hailo Model Zoo network resnet_v1_50; task: classification; input shape: 224x224x3; operations: 6.98G; parameters: 25.53M",
+    "entity_type": "model",
+    "id": "6c3b0f88-636a-5637-9a29-d9655f0892e5",
+    "metadata": {
+      "model": {
+        "input_shape": "224x224x3",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "resnet_v1_50",
+        "operations": "6.98G",
+        "parameters": "25.53M",
+        "provider": "Hailo",
+        "source_repository": null,
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "classification"
+      }
+    },
+    "name": "resnet_v1_50",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network resnet_v1_50; task: classification; input shape: 224x224x3; operations: 6.98G; parameters: 25.53M",
+        "model": {
+          "input_shape": "224x224x3",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "resnet_v1_50",
+          "operations": "6.98G",
+          "parameters": "25.53M",
+          "provider": "Hailo",
+          "source_repository": null,
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "classification"
+        },
+        "name": "resnet_v1_50",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/resnet_v1_50/pretrained/2025-01-15/resnet_v1_50.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:resnet_v1_50",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/resnet_v1_50.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "resnet_v1_50",
+          "operation": "normalize_name",
+          "output": "resnet_v1_50",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/resnet_v1_50/pretrained/2025-01-15/resnet_v1_50.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/resnet_v1_50.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/resnet_v1_50/pretrained/2025-01-15/resnet_v1_50.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network siglip_b_16_image_encoder; task: zero-shot classification; input shape: 224x224x3; operations: 35.5G; parameters: 92.1M",
+    "entity_type": "model",
+    "id": "1825768b-0f01-58e9-8f6c-8cc6f4a34951",
+    "metadata": {
+      "model": {
+        "input_shape": "224x224x3",
+        "license": "Apache-2.0",
+        "modalities": null,
+        "model_identifier": "siglip_b_16_image_encoder",
+        "operations": "35.5G",
+        "parameters": "92.1M",
+        "provider": "Hailo",
+        "source_repository": "https://huggingface.co/google/siglip-base-patch16-224",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo10h"
+        ],
+        "task": "zero-shot classification"
+      }
+    },
+    "name": "siglip_b_16_image_encoder",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network siglip_b_16_image_encoder; task: zero-shot classification; input shape: 224x224x3; operations: 35.5G; parameters: 92.1M",
+        "model": {
+          "input_shape": "224x224x3",
+          "license": "Apache-2.0",
+          "modalities": null,
+          "model_identifier": "siglip_b_16_image_encoder",
+          "operations": "35.5G",
+          "parameters": "92.1M",
+          "provider": "Hailo",
+          "source_repository": "https://huggingface.co/google/siglip-base-patch16-224",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo10h"
+          ],
+          "task": "zero-shot classification"
+        },
+        "name": "siglip_b_16_image_encoder",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/siglip/siglip_base_patch16_224/image_encoder/pretrained/2025-03-16/siglip_base_patch16_224_vision_encoder.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:siglip_b_16_image_encoder",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "siglip_b_16_image_encoder",
+          "operation": "normalize_name",
+          "output": "siglip_b_16_image_encoder",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/siglip/siglip_base_patch16_224/image_encoder/pretrained/2025-03-16/siglip_base_patch16_224_vision_encoder.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ZeroShotClassification/siglip/siglip_base_patch16_224/image_encoder/pretrained/2025-03-16/siglip_base_patch16_224_vision_encoder.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network tiny_yolov4_license_plates_yuy2; task: pipeline; input shape: 416x416x2; operations: 6.8G; parameters: 5.87M",
+    "entity_type": "model",
+    "id": "c384644a-ca0c-5aae-b532-1a9589800340",
+    "metadata": {
+      "model": {
+        "input_shape": "416x416x2",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "tiny_yolov4_license_plates_yuy2",
+        "operations": "6.8G",
+        "parameters": "5.87M",
+        "provider": "Hailo",
+        "source_repository": null,
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "pipeline"
+      }
+    },
+    "name": "tiny_yolov4_license_plates_yuy2",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network tiny_yolov4_license_plates_yuy2; task: pipeline; input shape: 416x416x2; operations: 6.8G; parameters: 5.87M",
+        "model": {
+          "input_shape": "416x416x2",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "tiny_yolov4_license_plates_yuy2",
+          "operations": "6.8G",
+          "parameters": "5.87M",
+          "provider": "Hailo",
+          "source_repository": null,
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "pipeline"
+        },
+        "name": "tiny_yolov4_license_plates_yuy2",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/lp_detector/tiny_yolov4_license_plates/2021-12-23/tiny_yolov4_license_plates.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:tiny_yolov4_license_plates_yuy2",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/tiny_yolov4_license_plates_yuy2.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "tiny_yolov4_license_plates_yuy2",
+          "operation": "normalize_name",
+          "output": "tiny_yolov4_license_plates_yuy2",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/lp_detector/tiny_yolov4_license_plates/2021-12-23/tiny_yolov4_license_plates.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/tiny_yolov4_license_plates_yuy2.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/HailoNets/LPR/lp_detector/tiny_yolov4_license_plates/2021-12-23/tiny_yolov4_license_plates.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network vit_small; task: classification; input shape: 224x224x3; operations: 8.62G; parameters: 21.12M",
+    "entity_type": "model",
+    "id": "08cb97bc-fd89-5781-87bc-58f5839281c4",
+    "metadata": {
+      "model": {
+        "input_shape": "224x224x3",
+        "license": null,
+        "modalities": null,
+        "model_identifier": "vit_small",
+        "operations": "8.62G",
+        "parameters": "21.12M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/rwightman/pytorch-image-models",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo10h"
+        ],
+        "task": "classification"
+      }
+    },
+    "name": "vit_small",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network vit_small; task: classification; input shape: 224x224x3; operations: 8.62G; parameters: 21.12M",
+        "model": {
+          "input_shape": "224x224x3",
+          "license": null,
+          "modalities": null,
+          "model_identifier": "vit_small",
+          "operations": "8.62G",
+          "parameters": "21.12M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/rwightman/pytorch-image-models",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo10h"
+          ],
+          "task": "classification"
+        },
+        "name": "vit_small",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/vit_small/pretrained/2024-04-03/vit_small_patch16_224_ops17.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:vit_small",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/vit_small.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "vit_small",
+          "operation": "normalize_name",
+          "output": "vit_small",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/vit_small/pretrained/2024-04-03/vit_small_patch16_224_ops17.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/vit_small.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/Classification/vit_small/pretrained/2024-04-03/vit_small_patch16_224_ops17.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
     "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
     "entity_type": "model",
     "id": "17bb491f-6dc5-5b92-a992-7c5e47194b46",
@@ -2397,7 +3100,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
+      "fetched_at": "2026-08-26T10:21:38.620880+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2468,5 +3171,398 @@
       "url": "https://api.github.com/repos/anomalyco/models.dev/contents/models.json?ref=dev"
     },
     "url": "https://models.dev/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network yolov10b; task: object detection; input shape: 640x640x3; operations: 92.09G; parameters: 20.15M",
+    "entity_type": "model",
+    "id": "0ed302d2-7287-5b0e-b04d-b7877a21b473",
+    "metadata": {
+      "model": {
+        "input_shape": "640x640x3",
+        "license": "AGPL-3.0",
+        "modalities": null,
+        "model_identifier": "yolov10b",
+        "operations": "92.09G",
+        "parameters": "20.15M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/THU-MIG/yolov10",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "object detection"
+      }
+    },
+    "name": "yolov10b",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network yolov10b; task: object detection; input shape: 640x640x3; operations: 92.09G; parameters: 20.15M",
+        "model": {
+          "input_shape": "640x640x3",
+          "license": "AGPL-3.0",
+          "modalities": null,
+          "model_identifier": "yolov10b",
+          "operations": "92.09G",
+          "parameters": "20.15M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/THU-MIG/yolov10",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "object detection"
+        },
+        "name": "yolov10b",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov10b/pretrained/2024-07-02/yolov10b.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:yolov10b",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov10b.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "yolov10b",
+          "operation": "normalize_name",
+          "output": "yolov10b",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov10b/pretrained/2024-07-02/yolov10b.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov10b.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov10b/pretrained/2024-07-02/yolov10b.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network yolov3; task: object detection; input shape: 608x608x3; operations: 158.10G; parameters: 68.79M",
+    "entity_type": "model",
+    "id": "a0ea9bcd-e827-591d-8cfd-ba6d71972fb6",
+    "metadata": {
+      "model": {
+        "input_shape": "608x608x3",
+        "license": "YOLO",
+        "modalities": null,
+        "model_identifier": "yolov3",
+        "operations": "158.10G",
+        "parameters": "68.79M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/AlexeyAB/darknet",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "object detection"
+      }
+    },
+    "name": "yolov3",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network yolov3; task: object detection; input shape: 608x608x3; operations: 158.10G; parameters: 68.79M",
+        "model": {
+          "input_shape": "608x608x3",
+          "license": "YOLO",
+          "modalities": null,
+          "model_identifier": "yolov3",
+          "operations": "158.10G",
+          "parameters": "68.79M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/AlexeyAB/darknet",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "object detection"
+        },
+        "name": "yolov3",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov3/pretrained/2021-08-16/yolov3.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:yolov3",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov3.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "yolov3",
+          "operation": "normalize_name",
+          "output": "yolov3",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov3/pretrained/2021-08-16/yolov3.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov3.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov3/pretrained/2021-08-16/yolov3.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network yolov5n_seg; task: instance segmentation; input shape: 640x640x3; operations: 7.1G; parameters: 1.99M",
+    "entity_type": "model",
+    "id": "6b470fcb-85ce-5485-be9f-3f6d0f3406bc",
+    "metadata": {
+      "model": {
+        "input_shape": "640x640x3",
+        "license": "GPL-3.0",
+        "modalities": null,
+        "model_identifier": "yolov5n_seg",
+        "operations": "7.1G",
+        "parameters": "1.99M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/ultralytics/yolov5",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "instance segmentation"
+      }
+    },
+    "name": "yolov5n_seg",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network yolov5n_seg; task: instance segmentation; input shape: 640x640x3; operations: 7.1G; parameters: 1.99M",
+        "model": {
+          "input_shape": "640x640x3",
+          "license": "GPL-3.0",
+          "modalities": null,
+          "model_identifier": "yolov5n_seg",
+          "operations": "7.1G",
+          "parameters": "1.99M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/ultralytics/yolov5",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "instance segmentation"
+        },
+        "name": "yolov5n_seg",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5n/pretrained/2022-10-30/yolov5n-seg.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:yolov5n_seg",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5n_seg.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "yolov5n_seg",
+          "operation": "normalize_name",
+          "output": "yolov5n_seg",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5n/pretrained/2022-10-30/yolov5n-seg.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5n_seg.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/InstanceSegmentation/coco/yolov5/yolov5n/pretrained/2022-10-30/yolov5n-seg.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network yolov6n_0.2.1_nms_core; task: object detection; input shape: 640x640x3; operations: 11.12G; parameters: 4.32M",
+    "entity_type": "model",
+    "id": "5231299b-cc6c-592c-8b32-5df7665707fd",
+    "metadata": {
+      "model": {
+        "input_shape": "640x640x3",
+        "license": "GPL-3.0",
+        "modalities": null,
+        "model_identifier": "yolov6n_0.2.1_nms_core",
+        "operations": "11.12G",
+        "parameters": "4.32M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/meituan/YOLOv6/releases/tag/0.2.1",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo10h"
+        ],
+        "task": "object detection"
+      }
+    },
+    "name": "yolov6n_0.2.1_nms_core",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network yolov6n_0.2.1_nms_core; task: object detection; input shape: 640x640x3; operations: 11.12G; parameters: 4.32M",
+        "model": {
+          "input_shape": "640x640x3",
+          "license": "GPL-3.0",
+          "modalities": null,
+          "model_identifier": "yolov6n_0.2.1_nms_core",
+          "operations": "11.12G",
+          "parameters": "4.32M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/meituan/YOLOv6/releases/tag/0.2.1",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo10h"
+          ],
+          "task": "object detection"
+        },
+        "name": "yolov6n_0.2.1_nms_core",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov6n_0.2.1/pretrained/2023-04-17/yolov6n_0.2.1.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:yolov6n_0.2.1_nms_core",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov6n_0.2.1_nms_core.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "yolov6n_0.2.1_nms_core",
+          "operation": "normalize_name",
+          "output": "yolov6n_0 2 1_nms_core",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov6n_0.2.1/pretrained/2023-04-17/yolov6n_0.2.1.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov6n_0.2.1_nms_core.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov6n_0.2.1/pretrained/2023-04-17/yolov6n_0.2.1.zip"
+  },
+  {
+    "categories": [
+      "Models"
+    ],
+    "description": "Hailo Model Zoo network yolov8x; task: object detection; input shape: 640x640x3; operations: 258G; parameters: 68.2M",
+    "entity_type": "model",
+    "id": "dfc298e3-f947-5bab-91a7-62562e62a160",
+    "metadata": {
+      "model": {
+        "input_shape": "640x640x3",
+        "license": "AGPL-3.0",
+        "modalities": null,
+        "model_identifier": "yolov8x",
+        "operations": "258G",
+        "parameters": "68.2M",
+        "provider": "Hailo",
+        "source_repository": "https://github.com/ultralytics/ultralytics",
+        "supported_hw_arch": [
+          "hailo15h",
+          "hailo15l",
+          "hailo10h"
+        ],
+        "task": "object detection"
+      }
+    },
+    "name": "yolov8x",
+    "provenance": {
+      "discovered_by": "Hailo Model Zoo",
+      "fetched_at": "2026-08-26T10:22:04.474752+00:00",
+      "observed_fields": {
+        "categories": [
+          "Models"
+        ],
+        "description": "Hailo Model Zoo network yolov8x; task: object detection; input shape: 640x640x3; operations: 258G; parameters: 68.2M",
+        "model": {
+          "input_shape": "640x640x3",
+          "license": "AGPL-3.0",
+          "modalities": null,
+          "model_identifier": "yolov8x",
+          "operations": "258G",
+          "parameters": "68.2M",
+          "provider": "Hailo",
+          "source_repository": "https://github.com/ultralytics/ultralytics",
+          "supported_hw_arch": [
+            "hailo15h",
+            "hailo15l",
+            "hailo10h"
+          ],
+          "task": "object detection"
+        },
+        "name": "yolov8x",
+        "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov8x/2023-02-02/yolov8x.zip"
+      },
+      "source_record_id": "hailo-model-zoo:model:yolov8x",
+      "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8x.yaml",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "yolov8x",
+          "operation": "normalize_name",
+          "output": "yolov8x",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "model:url:https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov8x/2023-02-02/yolov8x.zip",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "Hailo Model Zoo",
+      "url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8x.yaml"
+    },
+    "url": "https://hailo-model-zoo.s3.eu-west-2.amazonaws.com/ObjectDetection/Detection-COCO/yolo/yolov8x/2023-02-02/yolov8x.zip"
   }
 ]
