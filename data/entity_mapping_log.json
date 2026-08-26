@@ -260,6 +260,26 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fcore"
   },
   {
+    "canonical_id": "61b4394f-3675-5be3-8ff5-f18e4b19b614",
+    "canonical_value": "@earendil-works/pi-ai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@earendil-works/pi-ai",
+    "raw_value": "@earendil-works/pi-ai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@earendil-works%2Fpi-ai"
+  },
+  {
+    "canonical_id": "9147142c-7d83-5ec7-8bfe-862ed0de78c7",
+    "canonical_value": "@langchain/openai",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@langchain/openai",
+    "raw_value": "@langchain/openai",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
+  },
+  {
     "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
     "canonical_value": "@openai/agents-core",
     "confidence": 1.0,
@@ -268,26 +288,6 @@
     "raw_value": "@openai/agents-core",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
-  },
-  {
-    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
-    "canonical_value": "langchain",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:langchain",
-    "raw_value": "langchain",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/langchain"
-  },
-  {
-    "canonical_id": "53c1937e-92e3-5fb2-8e6e-f4c9c6a0cafe",
-    "canonical_value": "assistant-stream",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:assistant-stream",
-    "raw_value": "assistant-stream",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/assistant-stream"
   },
   {
     "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
@@ -300,26 +300,6 @@
     "source_url": "https://registry.npmjs.org/am-i-vibing"
   },
   {
-    "canonical_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
-    "canonical_value": "agents",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:agents",
-    "raw_value": "agents",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/agents"
-  },
-  {
-    "canonical_id": "81c98248-f1df-5b9a-9ae9-6c1157eb28a7",
-    "canonical_value": "@json-render/core",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@json-render/core",
-    "raw_value": "@json-render/core",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@json-render%2Fcore"
-  },
-  {
     "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
     "canonical_value": "chat",
     "confidence": 1.0,
@@ -328,16 +308,6 @@
     "raw_value": "chat",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/chat"
-  },
-  {
-    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
-    "canonical_value": "ollama-ai-provider-v2",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
-    "raw_value": "ollama-ai-provider-v2",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
   },
   {
     "canonical_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
@@ -350,6 +320,26 @@
     "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
   },
   {
+    "canonical_id": "03fef08d-5925-5571-af98-99d29cbe11d5",
+    "canonical_value": "tokenlens",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:tokenlens",
+    "raw_value": "tokenlens",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/tokenlens"
+  },
+  {
+    "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
+    "canonical_value": "ollama-ai-provider-v2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:ollama-ai-provider-v2",
+    "raw_value": "ollama-ai-provider-v2",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/ollama-ai-provider-v2"
+  },
+  {
     "canonical_id": "1482fb0d-48cf-59d2-a1a2-97cd30fae7a6",
     "canonical_value": "eve",
     "confidence": 1.0,
@@ -358,16 +348,6 @@
     "raw_value": "eve",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/eve"
-  },
-  {
-    "canonical_id": "2463503e-4935-5cd1-8f96-e15d74adb52a",
-    "canonical_value": "@assistant-ui/react-ai-sdk",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@assistant-ui/react-ai-sdk",
-    "raw_value": "@assistant-ui/react-ai-sdk",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@assistant-ui%2Freact-ai-sdk"
   },
   {
     "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
@@ -458,6 +438,26 @@
     "raw_value": "@langchain/mcp-adapters",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+  },
+  {
+    "canonical_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
+    "canonical_value": "agent-device",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:agent-device",
+    "raw_value": "agent-device",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/agent-device"
+  },
+  {
+    "canonical_id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
+    "canonical_value": "@azure/mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@azure/mcp",
+    "raw_value": "@azure/mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@azure%2Fmcp"
   },
   {
     "canonical_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
@@ -1418,6 +1418,126 @@
     "raw_value": "Clearpath Husky UGV",
     "reason": "same normalized URL",
     "source_url": "https://api.github.com/repos/ros-infrastructure/robots.ros.org/contents/_posts/2016-08-19-husky.md?ref=gh-pages"
+  },
+  {
+    "canonical_id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
+    "canonical_value": "Patch release: v5.15.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/transformers:372767786",
+    "raw_value": "Patch release: v5.15.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
+  },
+  {
+    "canonical_id": "a981db00-4584-513a-b7fd-d250034611e2",
+    "canonical_value": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/diffusers:373818176",
+    "raw_value": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176"
+  },
+  {
+    "canonical_id": "a2168897-fce8-5202-ae9e-ecc6c8903754",
+    "canonical_value": "5.0.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/datasets:361026946",
+    "raw_value": "5.0.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
+  },
+  {
+    "canonical_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "canonical_value": "7.0.9",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:cohere-ai/cohere-python:372980471",
+    "raw_value": "7.0.9",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+  },
+  {
+    "canonical_id": "3a203a91-2444-5759-9403-813128744653",
+    "canonical_value": "v1.7.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:groq/groq-python:376845784",
+    "raw_value": "v1.7.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/groq/groq-python/releases/376845784"
+  },
+  {
+    "canonical_id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
+    "canonical_value": "python - v2.9.4 - 2026-08-21 18:06:04",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:mistralai/client-python:374583539",
+    "raw_value": "python - v2.9.4 - 2026-08-21 18:06:04",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
+  },
+  {
+    "canonical_id": "04ce93ed-5437-5a85-8551-324e8fac464c",
+    "canonical_value": "v3.3.1",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:openai/openai-python:373198010",
+    "raw_value": "v3.3.1",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+  },
+  {
+    "canonical_id": "0894460e-3a4c-5dc1-903b-e563189bb0a8",
+    "canonical_value": "v1.0.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:anthropics/anthropic-sdk-python:373995738",
+    "raw_value": "v1.0.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738"
+  },
+  {
+    "canonical_id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
+    "canonical_value": "1.30.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:modelcontextprotocol/typescript-sdk:360611023",
+    "raw_value": "1.30.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
+  },
+  {
+    "canonical_id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
+    "canonical_value": "Release: v5.15.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/transformers:367727332",
+    "raw_value": "Release: v5.15.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+  },
+  {
+    "canonical_id": "14e79e04-9fa3-587f-9422-3415259f1aed",
+    "canonical_value": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/diffusers:348505088",
+    "raw_value": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088"
+  },
+  {
+    "canonical_id": "71074a06-3269-5ced-ab78-6f21a1813c75",
+    "canonical_value": "5.0.0",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "github:release:huggingface/datasets:334943975",
+    "raw_value": "5.0.0",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
   },
   {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",

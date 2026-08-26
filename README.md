@@ -54,24 +54,24 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `148`
-- valid relationships: `50`
+- valid entities: `160`
+- valid relationships: `62`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
 - recorded source failures: `13`
 - duplicate/shared URL warnings: `4`
-- test result: `85 passed`
+- test result: `92 passed`
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, and ROS Robots Catalog ingestion. The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, and GitHub Releases announcement (News) ingestion. The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
 - **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, and task mapping guardrails are covered by automated tests.
-- **PLANNED**: Broader product coverage beyond the bounded sample, plus news, jobs, videos, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs, videos, devices, and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is now live-verified via GitHub Releases announcements; jobs, videos, devices, and personal remain blocked by unreachable candidate sources in this environment.
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
@@ -269,6 +269,40 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - The front-matter date is preserved as `robot.catalog_posted_at`; it is the catalog post date and is **not** treated as a robot launch date.
 - The adapter rejects observed software-support blurbs such as ROS-Industrial repository/support records even when they appear in the catalog.
 
+#### GitHub Releases Announcements (News)
+
+- Access: GitHub REST releases API `https://api.github.com/repos/{owner}/{repo}/releases` for a curated allowlist of AI repositories.
+- Configured repositories:
+  - `huggingface/transformers`
+  - `huggingface/diffusers`
+  - `huggingface/datasets`
+  - `cohere-ai/cohere-python`
+  - `groq/groq-python`
+  - `mistralai/client-python`
+  - `openai/openai-python`
+  - `anthropics/anthropic-sdk-python`
+  - `modelcontextprotocol/typescript-sdk`
+- Used for: bounded `News` records (release announcements), not repository/tool/model records.
+- Supplies source-backed news fields:
+  - title (`name`, falling back to `tag_name`);
+  - canonical release URL (`html_url`);
+  - publisher (repository owner login/type/html_url);
+  - `published_at` (genuine GitHub release publication timestamp);
+  - `created_at`;
+  - release-note body (cleaned, bounded excerpt);
+  - `tag_name` / `release_id` / `prerelease`;
+  - AI relevance evidence from observed repository description/topics/full_name tokens.
+- Freshness semantics:
+  - `news.published_at` is the time GitHub recorded the release as published; it is **never** substituted with crawl, retrieval, commit, or page-modification time.
+  - `news.timestamp_semantics` is set to `github_release_published_at` so the meaning is explicit.
+  - `fetched_at` remains a separate provenance field; no `updated_at` is invented for releases.
+- Relationship evidence:
+  - `News → published_by → Company` is emitted only when the repository owner is a GitHub `Organization` and that organization already resolves to an ingested company entity. OpenAI and Anthropic records carry publisher metadata but no company relationship because their GitHub orgs supply no company description and their company entities are PyPI-sourced.
+- Acceptance filters:
+  - draft releases and prereleases are rejected;
+  - a release must have a valid `html_url`, a parseable `published_at`, a title, and a non-empty release-note body.
+- Current bounded ingestion limit: `AI_ORBIT_GITHUB_RELEASES_NEWS_LIMIT=12`, sampled round-robin across repositories so the bounded sample spans as many publishers as possible (newest release per repository first).
+
 ### Feasibility probes without accepted records
 
 The pipeline also records feasibility probes for candidate sources before implementing adapters. Current findings are in:
@@ -292,6 +326,21 @@ Current probes include:
 - VentureBeat AI RSS : news, currently unusable due TLS/network failure.
 - Remotive AI Jobs API : jobs, currently unusable due TLS/network failure.
 - RemoteOK Jobs API : jobs, currently unusable due TLS/network failure.
+
+Additional one-time reachability probes performed during the News milestone (not added as permanent probes, to avoid repeatedly hitting conclusively-blocked hosts):
+
+- Hacker News Firebase API (`hacker-news.firebaseio.com`) : unusable due TLS/network failure.
+- Hacker News Algolia (`hn.algolia.com`) : unusable due TLS/network failure.
+- `news.ycombinator.com` : unusable due TLS/network failure.
+- Reddit JSON API (`www.reddit.com`, `api.reddit.com`) : unusable due TLS/network failure.
+- Lobsters (`lobste.rs`) : unusable due TLS/network failure.
+- Wikipedia API (`en.wikipedia.org`) : unusable due TLS/network failure.
+- GitHub Blog changelog RSS (`github.blog`) : unusable due TLS/network failure.
+- RSSHub (`rsshub.app`) : unusable due TLS/network failure.
+- `raw.githubusercontent.com` : unusable due TLS/network failure.
+- arXiv API (`export.arxiv.org`) : unusable due TLS/network failure.
+
+Reachability conclusion for this environment: only `api.github.com`, `pypi.org`, and `registry.npmjs.org` returned parseable JSON; every non-GitHub news/feed/jobs/video host probed failed at TLS connection setup with the same error. GitHub REST Releases is therefore the one structured, reachable, GitHub-hosted dataset that supplies genuine publication timestamps for a News category.
 
 No source is marked usable without observed evidence.
 
@@ -355,6 +404,15 @@ Implemented metadata support includes:
   - catalog post date;
   - identity evidence;
   - manufacturer/provider remain `null` because the ROS Robots source does not expose dedicated manufacturer/provider fields.
+- news:
+  - canonical URL;
+  - `published_at` (source-backed GitHub release publication timestamp);
+  - `created_at`;
+  - `timestamp_semantics` (`github_release_published_at`);
+  - publisher (login/type/html_url);
+  - repository;
+  - tag name / release id / prerelease;
+  - AI relevance evidence (matched fields/tokens/excerpt).
 
 ## Entity resolution and mapping log
 
@@ -418,6 +476,7 @@ Currently produced relationship types:
 - `develops`
 - `solves`
 - `integrates_with`
+- `published_by`
 
 Supported relationship types in validation:
 
@@ -433,7 +492,8 @@ Current evidence-backed relationships include:
 - `Company → develops → Tool` from PyPI author metadata;
 - `Company → develops → Model` from official SDK model literal evidence;
 - `Repository/Tool/MCP → solves → Task` from observed GitHub topics or package description phrases;
-- `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github`.
+- `MCP → integrates_with → Tool` from the NPM package description for `@modelcontextprotocol/server-github`;
+- `News → published_by → Company` from the GitHub release repository owner, emitted only when the owner organization resolves to an ingested company entity.
 
 Relationships are not created from guesses. Every relationship has:
 
@@ -474,6 +534,7 @@ Validation checks include:
 - repository metadata shape;
 - MCP metadata presence;
 - model metadata presence/provider support;
+- news metadata presence, including a source-backed ISO-8601 `published_at`, explicit `timestamp_semantics`, publisher login, and AI relevance evidence;
 - relationship schema;
 - relationship endpoints;
 - relationship provenance/evidence.

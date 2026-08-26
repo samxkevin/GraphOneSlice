@@ -19,7 +19,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.112"
+        "version": "0.52.127"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -94,17 +94,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T16:18:43.527Z",
+        "package_date": "2026-08-26T07:01:49.766Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T16:19:14.788Z",
-        "version": "0.52.112"
+        "updated": "2026-08-26T07:02:21.144Z",
+        "version": "0.52.127"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -122,7 +122,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.112"
+          "version": "0.52.127"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -198,11 +198,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T16:18:43.527Z",
+          "package_date": "2026-08-26T07:01:49.766Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T16:19:14.788Z",
-          "version": "0.52.112"
+          "updated": "2026-08-26T07:02:21.144Z",
+          "version": "0.52.127"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -246,9 +246,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-25T17:16:04Z",
+        "last_updated_timestamp": "2026-08-26T06:59:55Z",
         "primary_language": "HTML",
-        "stars": 167891,
+        "stars": 167914,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -274,7 +274,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-25T17:19:14.364873+00:00",
+      "fetched_at": "2026-08-26T07:09:14.285295+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -287,9 +287,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-25T17:16:04Z",
+          "last_updated_timestamp": "2026-08-26T06:59:55Z",
           "primary_language": "HTML",
-          "stars": 167891,
+          "stars": 167914,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -395,7 +395,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -479,13 +479,13 @@
       "Tools",
       "Creative"
     ],
-    "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+    "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
     "entity_type": "tool",
     "id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
     "metadata": {
       "package": {
         "ai_relevance_evidence": {
-          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
           "field": "description",
           "signals": [
             "ai",
@@ -494,7 +494,7 @@
           ]
         },
         "creative_category_evidence": {
-          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+          "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
           "field": "description",
           "signals": [
             "audio",
@@ -540,27 +540,27 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
         },
-        "package_date": "2026-08-25T16:40:17.750Z",
+        "package_date": "2026-08-25T21:42:48.942Z",
         "package_name": "@sogni-ai/sogni-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T16:40:48.870Z",
-        "version": "5.19.3"
+        "updated": "2026-08-25T21:43:20.002Z",
+        "version": "5.20.0"
       }
     },
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
           "Creative"
         ],
-        "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+        "description": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
         "name": "@sogni-ai/sogni-client",
         "package": {
           "ai_relevance_evidence": {
-            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
             "field": "description",
             "signals": [
               "ai",
@@ -569,7 +569,7 @@
             ]
           },
           "creative_category_evidence": {
-            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN 2.2, LTX-2, Seedance, HappyHorse, Qwen VLM)",
+            "excerpt": "Sogni SDK - AI image, video & audio generation plus LLM chat with vision via the Sogni Supernet (Stable Diffusion, Flux, WAN, LTX-2, Seedance, HappyHorse, Qwen VLM)",
             "field": "description",
             "signals": [
               "audio",
@@ -615,11 +615,11 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-client.git"
           },
-          "package_date": "2026-08-25T16:40:17.750Z",
+          "package_date": "2026-08-25T21:42:48.942Z",
           "package_name": "@sogni-ai/sogni-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T16:40:48.870Z",
-          "version": "5.19.3"
+          "updated": "2026-08-25T21:43:20.002Z",
+          "version": "5.20.0"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-client"
       },
@@ -704,17 +704,17 @@
           "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
           "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
         },
-        "package_date": "2026-08-25T16:43:06.099Z",
+        "package_date": "2026-08-26T01:06:06.193Z",
         "package_name": "@sogni-ai/sogni-intelligence-client",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T16:43:37.490Z",
-        "version": "3.23.4"
+        "updated": "2026-08-26T01:06:37.409Z",
+        "version": "3.24.1"
       }
     },
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -768,11 +768,11 @@
             "npm": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client",
             "repository": "git+https://github.com/Sogni-AI/sogni-intelligence-client.git"
           },
-          "package_date": "2026-08-25T16:43:06.099Z",
+          "package_date": "2026-08-26T01:06:06.193Z",
           "package_name": "@sogni-ai/sogni-intelligence-client",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T16:43:37.490Z",
-          "version": "3.23.4"
+          "updated": "2026-08-26T01:06:37.409Z",
+          "version": "3.24.1"
         },
         "url": "https://www.npmjs.com/package/@sogni-ai/sogni-intelligence-client"
       },
@@ -864,7 +864,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",

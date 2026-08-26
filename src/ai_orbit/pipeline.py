@@ -8,6 +8,7 @@ from src.ai_orbit.adapters.ai_tools_products import AIToolsProductDirectoryAdapt
 from src.ai_orbit.adapters.base import SourceAdapter
 from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapters
 from src.ai_orbit.adapters.github import GitHubAdapter
+from src.ai_orbit.adapters.github_releases_news import GitHubReleasesNewsAdapter
 from src.ai_orbit.adapters.huggingface import HuggingFaceProbeAdapter
 from src.ai_orbit.adapters.npm_mcp import NpmMcpAdapter
 from src.ai_orbit.adapters.npm_search_tools import NpmSearchToolAdapter
@@ -40,6 +41,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         AIToolsProductDirectoryAdapter(settings),
         ModelsDevGitHubCatalogAdapter(settings),
         RosRobotsCatalogAdapter(settings),
+        GitHubReleasesNewsAdapter(settings),
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),

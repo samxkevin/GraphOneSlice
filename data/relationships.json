@@ -125,6 +125,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332",
+      "value": "huggingface"
+    },
+    "id": "215e425d-d5c1-567f-a1d3-527592c112d7",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+    },
+    "source_entity_id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "image, video & audio generation",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
@@ -174,6 +193,25 @@
     },
     "source_entity_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4",
+      "repository": "mistralai/client-python",
+      "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539",
+      "value": "mistralai"
+    },
+    "id": "377ed68c-c8c1-58a5-bd68-393dc2549d4b",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
+    },
+    "source_entity_id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
+    "target_entity_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e"
   },
   {
     "confidence": 1.0,
@@ -267,6 +305,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+      "repository": "cohere-ai/cohere-python",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
+      "value": "cohere-ai"
+    },
+    "id": "478f7d9c-c0dc-54bf-a173-76af7265ce01",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+    },
+    "source_entity_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "target_entity_id": "e084e577-fb5d-5b24-8150-6625cd1f34d8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "observed_value": "Agent",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://api.github.com/repos/thedotmack/claude-mem"
@@ -299,6 +356,25 @@
     },
     "source_entity_id": "f1a016a0-797b-54dc-9e50-2bf307b876df",
     "target_entity_id": "bd761a0a-0fee-5803-b765-a1c01d27bb0e"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/datasets/releases/tag/5.0.0",
+      "repository": "huggingface/datasets",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975",
+      "value": "huggingface"
+    },
+    "id": "4e2b4793-aece-5d54-91b5-18149f6878a8",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
+    },
+    "source_entity_id": "71074a06-3269-5ced-ab78-6f21a1813c75",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -390,6 +466,25 @@
     },
     "source_entity_id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
     "target_entity_id": "235eb008-8407-579d-ae36-49a0ca312fe5"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/datasets/releases/tag/5.0.1",
+      "repository": "huggingface/datasets",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946",
+      "value": "huggingface"
+    },
+    "id": "5e801a55-9e00-5036-aa22-e267d40781f6",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
+    },
+    "source_entity_id": "a2168897-fce8-5202-ae9e-ecc6c8903754",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -492,6 +587,25 @@
     },
     "source_entity_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+      "repository": "huggingface/diffusers",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088",
+      "value": "huggingface"
+    },
+    "id": "779f40b0-73aa-5241-bb55-3dff25965fea",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088"
+    },
+    "source_entity_id": "14e79e04-9fa3-587f-9422-3415259f1aed",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -606,23 +720,6 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/agents"
-    },
-    "id": "9081694d-f191-56bc-ad42-cd78e88c22d1",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/agents"
-    },
-    "source_entity_id": "c14a9b48-3ee6-5859-9f66-a9f3076d3db0",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
       "observed_value": "ComfyUI",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@saintno%2Fcomfyui-sdk"
@@ -689,6 +786,42 @@
     },
     "source_entity_id": "6ef82ce0-afb6-504c-92a4-24b1c2656b02",
     "target_entity_id": "14149889-d8fa-5384-87db-95103eec7439"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agents",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/agent-device"
+    },
+    "id": "c05351cc-f378-519b-8e60-053de858da0f",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-device"
+    },
+    "source_entity_id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+      "repository": "huggingface/diffusers",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176",
+      "value": "huggingface"
+    },
+    "id": "c1c37a51-6832-5d0b-867b-f2d2a3db6536",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176"
+    },
+    "source_entity_id": "a981db00-4584-513a-b7fd-d250034611e2",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   },
   {
     "confidence": 1.0,
@@ -765,6 +898,25 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "a9c3642f-b257-519b-a87d-ee7f50962919"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/groq/groq-python/releases/tag/v1.7.0",
+      "repository": "groq/groq-python",
+      "source_url": "https://api.github.com/repos/groq/groq-python/releases/376845784",
+      "value": "groq"
+    },
+    "id": "dc64d57c-6cc4-507c-a160-0d2382f9957a",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/groq/groq-python/releases/376845784"
+    },
+    "source_entity_id": "3a203a91-2444-5759-9403-813128744653",
+    "target_entity_id": "025306f5-fc1e-59ad-8fa8-466d542ab5cf"
   },
   {
     "confidence": 1.0,
@@ -873,6 +1025,25 @@
   {
     "confidence": 1.0,
     "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+      "repository": "modelcontextprotocol/typescript-sdk",
+      "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023",
+      "value": "modelcontextprotocol"
+    },
+    "id": "f166d2bb-f9f3-51fe-ba92-87baa2d3a1c0",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
+    },
+    "source_entity_id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
+    "target_entity_id": "61ed733f-77b7-5339-87db-c3abab669f8d"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
       "line_number": 42,
       "model_identifier": "o4-mini",
       "source_repository": "openai/openai-python",
@@ -888,5 +1059,24 @@
     },
     "source_entity_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
     "target_entity_id": "b34896a1-5593-5780-b254-b2b784c20db8"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "repository": "huggingface/transformers",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786",
+      "value": "huggingface"
+    },
+    "id": "fcc717a2-8ea8-590f-a2a0-496805c627d9",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
+    },
+    "source_entity_id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
+    "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
   }
 ]

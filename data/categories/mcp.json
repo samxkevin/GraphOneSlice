@@ -4,6 +4,141 @@
       "Tools",
       "MCP"
     ],
+    "description": "Azure MCP Server - Model Context Protocol implementation for Azure",
+    "entity_type": "mcp",
+    "id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "azmcp": "index.js"
+        },
+        "deprecated": null,
+        "installation_method": "npm package @azure/mcp",
+        "package_name": "@azure/mcp",
+        "runtime_requirements": {
+          "node": ">=22.0.0"
+        },
+        "version": "3.0.0-beta.38"
+      },
+      "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "@azure/mcp",
+          "field": "name",
+          "signals": [
+            "mcp"
+          ]
+        },
+        "downloads": {
+          "monthly": 499229,
+          "weekly": 145087
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "azure",
+          "mcp",
+          "model-context-protocol"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/microsoft/mcp/issues",
+          "homepage": "https://github.com/Microsoft/mcp/blob/main/servers/Azure.Mcp.Server#readme",
+          "npm": "https://www.npmjs.com/package/@azure/mcp",
+          "repository": "git+https://github.com/microsoft/mcp.git"
+        },
+        "package_date": "2026-08-25T23:40:05.446Z",
+        "package_name": "@azure/mcp",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T23:40:36.379Z",
+        "version": "3.0.0-beta.38"
+      }
+    },
+    "name": "@azure/mcp",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Azure MCP Server - Model Context Protocol implementation for Azure",
+        "mcp": {
+          "bin": {
+            "azmcp": "index.js"
+          },
+          "deprecated": null,
+          "installation_method": "npm package @azure/mcp",
+          "package_name": "@azure/mcp",
+          "runtime_requirements": {
+            "node": ">=22.0.0"
+          },
+          "version": "3.0.0-beta.38"
+        },
+        "name": "@azure/mcp",
+        "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "@azure/mcp",
+            "field": "name",
+            "signals": [
+              "mcp"
+            ]
+          },
+          "downloads": {
+            "monthly": 499229,
+            "weekly": 145087
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "azure",
+            "mcp",
+            "model-context-protocol"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/microsoft/mcp/issues",
+            "homepage": "https://github.com/Microsoft/mcp/blob/main/servers/Azure.Mcp.Server#readme",
+            "npm": "https://www.npmjs.com/package/@azure/mcp",
+            "repository": "git+https://github.com/microsoft/mcp.git"
+          },
+          "package_date": "2026-08-25T23:40:05.446Z",
+          "package_name": "@azure/mcp",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T23:40:36.379Z",
+          "version": "3.0.0-beta.38"
+        },
+        "url": "https://www.npmjs.com/package/@azure/mcp"
+      },
+      "source_record_id": "npm-search:package:@azure/mcp",
+      "source_url": "https://registry.npmjs.org/@azure%2Fmcp",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "@azure/mcp",
+          "operation": "normalize_name",
+          "output": "@azure/mcp",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/@azure/mcp",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/@azure%2Fmcp"
+    },
+    "url": "https://www.npmjs.com/package/@azure/mcp"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
     "description": "LangChain.js adapters for Model Context Protocol (MCP)",
     "entity_type": "mcp",
     "id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
@@ -56,7 +191,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -161,7 +296,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T17:19:17.259817+00:00",
+      "fetched_at": "2026-08-26T07:09:16.968635+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -234,7 +369,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T17:19:17.259817+00:00",
+      "fetched_at": "2026-08-26T07:09:16.968635+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -307,7 +442,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T17:19:17.259817+00:00",
+      "fetched_at": "2026-08-26T07:09:16.968635+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -380,7 +515,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-25T17:19:17.259817+00:00",
+      "fetched_at": "2026-08-26T07:09:16.968635+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -506,7 +641,7 @@
     "name": "add-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -612,6 +747,221 @@
       "Tools",
       "MCP"
     ],
+    "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+    "entity_type": "mcp",
+    "id": "4f8bc722-01b5-57c6-ba45-b50ad6f6edd7",
+    "metadata": {
+      "mcp": {
+        "bin": {
+          "agent-device": "bin/agent-device.mjs"
+        },
+        "deprecated": null,
+        "installation_method": "npm package agent-device",
+        "package_name": "agent-device",
+        "runtime_requirements": {
+          "node": ">=22.12"
+        },
+        "version": "0.20.10"
+      },
+      "package": {
+        "ai_relevance_evidence": {
+          "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+          "field": "description",
+          "signals": [
+            "agents",
+            "ai",
+            "mcp"
+          ]
+        },
+        "downloads": {
+          "monthly": 545879,
+          "weekly": 134241
+        },
+        "ecosystem": "npm",
+        "keywords": [
+          "agent",
+          "device",
+          "cli",
+          "automation",
+          "adb",
+          "simctl",
+          "devicectl",
+          "ios",
+          "android",
+          "tvos",
+          "macos",
+          "web",
+          "browser",
+          "react-native",
+          "observability",
+          "diagnostics",
+          "network",
+          "profiling",
+          "performance",
+          "mcp",
+          "model-context-protocol",
+          "mcp-server",
+          "ai-agent",
+          "mobile-automation",
+          "ios-simulator",
+          "android-emulator",
+          "xcuitest",
+          "e2e-testing",
+          "cursor",
+          "claude-code",
+          "expo",
+          "mobile-testing",
+          "qa-automation",
+          "ai-testing",
+          "ios-automation",
+          "android-automation",
+          "simulator",
+          "emulator",
+          "appium",
+          "maestro",
+          "detox"
+        ],
+        "license": "MIT",
+        "links": {
+          "bugs": "https://github.com/callstack/agent-device/issues",
+          "homepage": "https://agent-device.dev/",
+          "npm": "https://www.npmjs.com/package/agent-device",
+          "repository": "git+https://github.com/callstack/agent-device.git"
+        },
+        "package_date": "2026-08-18T19:33:12.472Z",
+        "package_name": "agent-device",
+        "query": "keywords:model-context-protocol",
+        "updated": "2026-08-25T10:48:25.698Z",
+        "version": "0.20.10"
+      }
+    },
+    "name": "agent-device",
+    "provenance": {
+      "discovered_by": "NPM Search AI Tool Packages",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
+      "observed_fields": {
+        "categories": [
+          "Tools",
+          "MCP"
+        ],
+        "description": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+        "mcp": {
+          "bin": {
+            "agent-device": "bin/agent-device.mjs"
+          },
+          "deprecated": null,
+          "installation_method": "npm package agent-device",
+          "package_name": "agent-device",
+          "runtime_requirements": {
+            "node": ">=22.12"
+          },
+          "version": "0.20.10"
+        },
+        "name": "agent-device",
+        "package": {
+          "ai_relevance_evidence": {
+            "excerpt": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+            "field": "description",
+            "signals": [
+              "agents",
+              "ai",
+              "mcp"
+            ]
+          },
+          "downloads": {
+            "monthly": 545879,
+            "weekly": 134241
+          },
+          "ecosystem": "npm",
+          "keywords": [
+            "agent",
+            "device",
+            "cli",
+            "automation",
+            "adb",
+            "simctl",
+            "devicectl",
+            "ios",
+            "android",
+            "tvos",
+            "macos",
+            "web",
+            "browser",
+            "react-native",
+            "observability",
+            "diagnostics",
+            "network",
+            "profiling",
+            "performance",
+            "mcp",
+            "model-context-protocol",
+            "mcp-server",
+            "ai-agent",
+            "mobile-automation",
+            "ios-simulator",
+            "android-emulator",
+            "xcuitest",
+            "e2e-testing",
+            "cursor",
+            "claude-code",
+            "expo",
+            "mobile-testing",
+            "qa-automation",
+            "ai-testing",
+            "ios-automation",
+            "android-automation",
+            "simulator",
+            "emulator",
+            "appium",
+            "maestro",
+            "detox"
+          ],
+          "license": "MIT",
+          "links": {
+            "bugs": "https://github.com/callstack/agent-device/issues",
+            "homepage": "https://agent-device.dev/",
+            "npm": "https://www.npmjs.com/package/agent-device",
+            "repository": "git+https://github.com/callstack/agent-device.git"
+          },
+          "package_date": "2026-08-18T19:33:12.472Z",
+          "package_name": "agent-device",
+          "query": "keywords:model-context-protocol",
+          "updated": "2026-08-25T10:48:25.698Z",
+          "version": "0.20.10"
+        },
+        "url": "https://www.npmjs.com/package/agent-device"
+      },
+      "source_record_id": "npm-search:package:agent-device",
+      "source_url": "https://registry.npmjs.org/agent-device",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "agent-device",
+          "operation": "normalize_name",
+          "output": "agent-device",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "mcp:url:https://www.npmjs.com/package/agent-device",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/agent-device"
+    },
+    "url": "https://www.npmjs.com/package/agent-device"
+  },
+  {
+    "categories": [
+      "Tools",
+      "MCP"
+    ],
     "description": "Install SKILL.md files, MCP servers, and AGENTS.md guidance for any coding agent. Ships both a Node API and a CLI.",
     "entity_type": "mcp",
     "id": "d6f3e33c-955c-599f-af6e-36a9db0c0674",
@@ -669,7 +1019,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -774,7 +1124,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.112"
+        "version": "0.52.127"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -849,17 +1199,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-25T16:18:43.527Z",
+        "package_date": "2026-08-26T07:01:49.766Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-25T16:19:14.788Z",
-        "version": "0.52.112"
+        "updated": "2026-08-26T07:02:21.144Z",
+        "version": "0.52.127"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-25T17:19:18.280974+00:00",
+      "fetched_at": "2026-08-26T07:09:17.565138+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -877,7 +1227,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.112"
+          "version": "0.52.127"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -953,11 +1303,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-25T16:18:43.527Z",
+          "package_date": "2026-08-26T07:01:49.766Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-25T16:19:14.788Z",
-          "version": "0.52.112"
+          "updated": "2026-08-26T07:02:21.144Z",
+          "version": "0.52.127"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },

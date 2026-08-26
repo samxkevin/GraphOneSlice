@@ -1,0 +1,1268 @@
+[
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "What s Changed fix(server): prioritize zod issues and format them by @mozmo15 in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503 chore(ci): switch publish to OIDC trusted publishing by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/1839 Add end-to-end test suite by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2167 v1 stdio buffer limit by @KKonstantinov in https://github.com/modelcontextprotocol/typescript-sdk/pull/2239 fix: support Zod 3.25 method literals by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2368 Validate Content-Type by parsed media type instead of substring match (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2444 fix:",
+    "entity_type": "news",
+    "id": "c4282c98-23ee-51a8-8e8e-99d59f421f34",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "The official TypeScript SDK for Model Context Protocol servers and clients",
+          "matched_fields": [
+            "repository.description",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "model context protocol",
+            "mcp"
+          ]
+        },
+        "canonical_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+        "created_at": "2026-07-27T17:53:15+00:00",
+        "prerelease": false,
+        "published_at": "2026-07-27T17:54:36+00:00",
+        "publisher": {
+          "html_url": "https://github.com/modelcontextprotocol",
+          "login": "modelcontextprotocol",
+          "type": "Organization"
+        },
+        "release_id": 360611023,
+        "repository": "modelcontextprotocol/typescript-sdk",
+        "tag_name": "1.30.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "1.30.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "What s Changed fix(server): prioritize zod issues and format them by @mozmo15 in https://github.com/modelcontextprotocol/typescript-sdk/pull/1503 chore(ci): switch publish to OIDC trusted publishing by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/1839 Add end-to-end test suite by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2167 v1 stdio buffer limit by @KKonstantinov in https://github.com/modelcontextprotocol/typescript-sdk/pull/2239 fix: support Zod 3.25 method literals by @mattzcarey in https://github.com/modelcontextprotocol/typescript-sdk/pull/2368 Validate Content-Type by parsed media type instead of substring match (v1.x) by @felixweinberger in https://github.com/modelcontextprotocol/typescript-sdk/pull/2444 fix:",
+        "name": "1.30.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "The official TypeScript SDK for Model Context Protocol servers and clients",
+            "matched_fields": [
+              "repository.description",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "model context protocol",
+              "mcp"
+            ]
+          },
+          "canonical_url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+          "created_at": "2026-07-27T17:53:15+00:00",
+          "prerelease": false,
+          "published_at": "2026-07-27T17:54:36+00:00",
+          "publisher": {
+            "html_url": "https://github.com/modelcontextprotocol",
+            "login": "modelcontextprotocol",
+            "type": "Organization"
+          },
+          "release_id": 360611023,
+          "repository": "modelcontextprotocol/typescript-sdk",
+          "tag_name": "1.30.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0"
+      },
+      "source_record_id": "github:release:modelcontextprotocol/typescript-sdk:360611023",
+      "source_url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "1.30.0",
+          "operation": "normalize_name",
+          "output": "1 30 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases/360611023"
+    },
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk/releases/tag/1.30.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "Datasets Features Agent traces Parse Agent traces messages for SFT using teich by @lhoestq in https://github.com/huggingface/datasets/pull/8232 Agent traces from claude code/pi/codex and others can now be loaded with load dataset Using the teich library (new optional dependency), traces are parsed to messages to enable training on traces using e.g. trl Load the data: python >>> from datasets import load dataset >>> ds = load dataset( lhoestq/agent-traces-example , split= train ) >>> ds[0][ messages ] [{ role : user , content : Download a random dataset from Hugging Face, use DuckDB to inspect it, and come back with a short report about it. Be concise and include: dataset name, what files/format you found, row count or rough size if you can determine it,... ...] Train on agent traces: bash",
+    "entity_type": "news",
+    "id": "71074a06-3269-5ced-ab78-6f21a1813c75",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "ai",
+            "llm",
+            "nlp",
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "huggingface",
+            "natural-language",
+            "computer-vision"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/datasets/releases/tag/5.0.0",
+        "created_at": "2026-06-05T13:18:39+00:00",
+        "prerelease": false,
+        "published_at": "2026-06-05T13:29:36+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 334943975,
+        "repository": "huggingface/datasets",
+        "tag_name": "5.0.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "5.0.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Datasets Features Agent traces Parse Agent traces messages for SFT using teich by @lhoestq in https://github.com/huggingface/datasets/pull/8232 Agent traces from claude code/pi/codex and others can now be loaded with load dataset Using the teich library (new optional dependency), traces are parsed to messages to enable training on traces using e.g. trl Load the data: python >>> from datasets import load dataset >>> ds = load dataset( lhoestq/agent-traces-example , split= train ) >>> ds[0][ messages ] [{ role : user , content : Download a random dataset from Hugging Face, use DuckDB to inspect it, and come back with a short report about it. Be concise and include: dataset name, what files/format you found, row count or rough size if you can determine it,... ...] Train on agent traces: bash",
+        "name": "5.0.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "ai",
+              "llm",
+              "nlp",
+              "artificial-intelligence",
+              "machine-learning",
+              "deep-learning",
+              "huggingface",
+              "natural-language",
+              "computer-vision"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/datasets/releases/tag/5.0.0",
+          "created_at": "2026-06-05T13:18:39+00:00",
+          "prerelease": false,
+          "published_at": "2026-06-05T13:29:36+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 334943975,
+          "repository": "huggingface/datasets",
+          "tag_name": "5.0.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/datasets/releases/tag/5.0.0"
+      },
+      "source_record_id": "github:release:huggingface/datasets:334943975",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/334943975",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "5.0.0",
+          "operation": "normalize_name",
+          "output": "5 0 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/datasets/releases/tag/5.0.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/334943975"
+    },
+    "url": "https://github.com/huggingface/datasets/releases/tag/5.0.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "Bug fixes Fix version string in init .py by @qgallouedec in https://github.com/huggingface/datasets/pull/8244 fix conda build by @lhoestq in https://github.com/huggingface/datasets/pull/8250 Fix JSON loader schema inference for files starting with a UTF-8 BOM ( 8241) by @archievi in https://github.com/huggingface/datasets/pull/8243 Support hermes traces by @lhoestq in https://github.com/huggingface/datasets/pull/8255 Fix batch(by column=...) crashing after shard/shuffle/split by @pkooij in https://github.com/huggingface/datasets/pull/8259 fix traces streaming by @lhoestq in https://github.com/huggingface/datasets/pull/8277 support droid agent traces by @cfahlgren1 in https://github.com/huggingface/datasets/pull/8263 Fix CI: commit operation equality (hfh 1.20.0) and pytest parametrize coll",
+    "entity_type": "news",
+    "id": "a2168897-fce8-5202-ae9e-ecc6c8903754",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "ai",
+            "llm",
+            "nlp",
+            "artificial-intelligence",
+            "machine-learning",
+            "deep-learning",
+            "huggingface",
+            "natural-language",
+            "computer-vision"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/datasets/releases/tag/5.0.1",
+        "created_at": "2026-07-28T11:09:25+00:00",
+        "prerelease": false,
+        "published_at": "2026-07-28T11:11:35+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 361026946,
+        "repository": "huggingface/datasets",
+        "tag_name": "5.0.1",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "5.0.1",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Bug fixes Fix version string in init .py by @qgallouedec in https://github.com/huggingface/datasets/pull/8244 fix conda build by @lhoestq in https://github.com/huggingface/datasets/pull/8250 Fix JSON loader schema inference for files starting with a UTF-8 BOM ( 8241) by @archievi in https://github.com/huggingface/datasets/pull/8243 Support hermes traces by @lhoestq in https://github.com/huggingface/datasets/pull/8255 Fix batch(by column=...) crashing after shard/shuffle/split by @pkooij in https://github.com/huggingface/datasets/pull/8259 fix traces streaming by @lhoestq in https://github.com/huggingface/datasets/pull/8277 support droid agent traces by @cfahlgren1 in https://github.com/huggingface/datasets/pull/8263 Fix CI: commit operation equality (hfh 1.20.0) and pytest parametrize coll",
+        "name": "5.0.1",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "ai",
+              "llm",
+              "nlp",
+              "artificial-intelligence",
+              "machine-learning",
+              "deep-learning",
+              "huggingface",
+              "natural-language",
+              "computer-vision"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/datasets/releases/tag/5.0.1",
+          "created_at": "2026-07-28T11:09:25+00:00",
+          "prerelease": false,
+          "published_at": "2026-07-28T11:11:35+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 361026946,
+          "repository": "huggingface/datasets",
+          "tag_name": "5.0.1",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/datasets/releases/tag/5.0.1"
+      },
+      "source_record_id": "github:release:huggingface/datasets:361026946",
+      "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "5.0.1",
+          "operation": "normalize_name",
+          "output": "5 0 1",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/datasets/releases/tag/5.0.1",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
+    },
+    "url": "https://github.com/huggingface/datasets/releases/tag/5.0.1"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
+    "entity_type": "news",
+    "id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "Python Library for Accessing the Cohere API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "cohere",
+            "ai"
+          ]
+        },
+        "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+        "created_at": "2026-08-19T10:56:35+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-19T10:59:07+00:00",
+        "publisher": {
+          "html_url": "https://github.com/cohere-ai",
+          "login": "cohere-ai",
+          "type": "Organization"
+        },
+        "release_id": 372980471,
+        "repository": "cohere-ai/cohere-python",
+        "tag_name": "7.0.9",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "7.0.9",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
+        "name": "7.0.9",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "Python Library for Accessing the Cohere API",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name"
+            ],
+            "matched_tokens": [
+              "cohere",
+              "ai"
+            ]
+          },
+          "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+          "created_at": "2026-08-19T10:56:35+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-19T10:59:07+00:00",
+          "publisher": {
+            "html_url": "https://github.com/cohere-ai",
+            "login": "cohere-ai",
+            "type": "Organization"
+          },
+          "release_id": 372980471,
+          "repository": "cohere-ai/cohere-python",
+          "tag_name": "7.0.9",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+      },
+      "source_record_id": "github:release:cohere-ai/cohere-python:372980471",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "7.0.9",
+          "operation": "normalize_name",
+          "output": "7 0 9",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+    },
+    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "New Pipelines Cosmos 3 Cosmos 3 is NVIDIA s unified world foundation model (WFM) for Physical AI — a single omni-model built on a Mixture-of-Transformers (MoT) architecture that combines world generation, physical reasoning, and action generation, replacing the separate Predict, Reason, and Transfer models from earlier Cosmos releases. A single Cosmos3OmniTransformer runs a Qwen-style language model in parallel with a diffusion generation pathway, joined by a 3D multimodal RoPE. This release also lands video-to-video and action-conditioned generation, and a sound encoder. - PR: https://github.com/huggingface/diffusers/pull/13818 - Docs: https://huggingface.co/docs/diffusers/main/api/pipelines/cosmos3 Thanks to @atharvajoshi10, @yzhautouskay, and @MaciejBalaNV for the contributions. Ideogra",
+    "entity_type": "news",
+    "id": "14e79e04-9fa3-587f-9422-3415259f1aed",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "diffusion",
+            "deep-learning",
+            "generative",
+            "stable-diffusion",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+        "created_at": "2026-07-03T08:45:32+00:00",
+        "prerelease": false,
+        "published_at": "2026-07-03T08:55:32+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 348505088,
+        "repository": "huggingface/diffusers",
+        "tag_name": "v0.39.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "New Pipelines Cosmos 3 Cosmos 3 is NVIDIA s unified world foundation model (WFM) for Physical AI — a single omni-model built on a Mixture-of-Transformers (MoT) architecture that combines world generation, physical reasoning, and action generation, replacing the separate Predict, Reason, and Transfer models from earlier Cosmos releases. A single Cosmos3OmniTransformer runs a Qwen-style language model in parallel with a diffusion generation pathway, joined by a 3D multimodal RoPE. This release also lands video-to-video and action-conditioned generation, and a sound encoder. - PR: https://github.com/huggingface/diffusers/pull/13818 - Docs: https://huggingface.co/docs/diffusers/main/api/pipelines/cosmos3 Thanks to @atharvajoshi10, @yzhautouskay, and @MaciejBalaNV for the contributions. Ideogra",
+        "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "diffusion",
+              "deep-learning",
+              "generative",
+              "stable-diffusion",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+          "created_at": "2026-07-03T08:45:32+00:00",
+          "prerelease": false,
+          "published_at": "2026-07-03T08:55:32+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 348505088,
+          "repository": "huggingface/diffusers",
+          "tag_name": "v0.39.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+      },
+      "source_record_id": "github:release:huggingface/diffusers:348505088",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
+          "operation": "normalize_name",
+          "output": "diffusers 0 39 0: new image and video pipelines core library improvements and more",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/diffusers/releases/tag/v0.39.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/348505088"
+    },
+    "url": "https://github.com/huggingface/diffusers/releases/tag/v0.39.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "> [!TIP] > This release features several new pipelines, including LTX2.5, MiniMax H3, and Wan Animate 2. We re also graduating Modular Diffusers out of the experimental phase and announcing its stable support. Additionally, this release includes minimal support for tensor-parallel. There s a lot more that went down in this release. So, please consult the notes for details. New Pipelines MiniMax-H3 MiniMax-H3 generates video and its soundtrack together. A single transformer denoises one packed sequence containing the text conditioning, the conditioning media, and the target video and audio latents — there is no separate vocoder and no post-hoc audio pass. Its conditioner is a Qwen3VLForConditionalGeneration whose unnormalized 50th-decoder-layer hidden state is read instead of the last one.",
+    "entity_type": "news",
+    "id": "a981db00-4584-513a-b7fd-d250034611e2",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "diffusion",
+            "deep-learning",
+            "generative",
+            "stable-diffusion",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+        "created_at": "2026-08-20T14:27:24+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-20T14:53:43+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 373818176,
+        "repository": "huggingface/diffusers",
+        "tag_name": "v0.40.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "> [!TIP] > This release features several new pipelines, including LTX2.5, MiniMax H3, and Wan Animate 2. We re also graduating Modular Diffusers out of the experimental phase and announcing its stable support. Additionally, this release includes minimal support for tensor-parallel. There s a lot more that went down in this release. So, please consult the notes for details. New Pipelines MiniMax-H3 MiniMax-H3 generates video and its soundtrack together. A single transformer denoises one packed sequence containing the text conditioning, the conditioning media, and the target video and audio latents — there is no separate vocoder and no post-hoc audio pass. Its conditioner is a Qwen3VLForConditionalGeneration whose unnormalized 50th-decoder-layer hidden state is read instead of the last one.",
+        "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "diffusion",
+              "deep-learning",
+              "generative",
+              "stable-diffusion",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+          "created_at": "2026-08-20T14:27:24+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-20T14:53:43+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 373818176,
+          "repository": "huggingface/diffusers",
+          "tag_name": "v0.40.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
+      },
+      "source_record_id": "github:release:huggingface/diffusers:373818176",
+      "source_url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
+          "operation": "normalize_name",
+          "output": "diffusers 0 40 0: new pipelines tensor-parallel support improved cli and more",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/diffusers/releases/tag/v0.40.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases/373818176"
+    },
+    "url": "https://github.com/huggingface/diffusers/releases/tag/v0.40.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
+    "entity_type": "news",
+    "id": "cff41437-08d6-5abb-99f8-64882f60e1a1",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+        "created_at": "2026-08-19T10:45:30+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-19T10:50:47+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 372767786,
+        "repository": "huggingface/transformers",
+        "tag_name": "v5.15.1",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Patch release: v5.15.1",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It contains the following commits: - Fix DFlash candidate token device mismatch with device map= auto ( 47877) by @sywangyi and @Cyrilvallez - Align logit distributions for CandidateGenerators using sampling ( 48007) by @Cyrilvallez - Fix MTP config when mlp layer types is absent ( 48015) by @Cyrilvallez - Fallback from lanczos to bicubic when on cuda ( 48026) by @zucchini-nlp - Fix gemma4 video to device ( 47896) by @guarin",
+        "name": "Patch release: v5.15.1",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "transformer",
+              "multimodal",
+              "llm",
+              "nlp",
+              "machine-learning",
+              "deep-learning",
+              "natural-language",
+              "speech-recognition",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+          "created_at": "2026-08-19T10:45:30+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-19T10:50:47+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 372767786,
+          "repository": "huggingface/transformers",
+          "tag_name": "v5.15.1",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
+      },
+      "source_record_id": "github:release:huggingface/transformers:372767786",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/372767786",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Patch release: v5.15.1",
+          "operation": "normalize_name",
+          "output": "patch release: v5 15 1",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/372767786"
+    },
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "Generated by Speakeasy CLI 2026-08-21 09:35:18 Changes Based on: - OpenAPI Doc - Speakeasy CLI 1.763.6 (2.884.13) https://github.com/speakeasy-api/speakeasy Generated - [python v2.9.4] . Releases - [PyPI v2.9.4] https://pypi.org/project/mistralai/2.9.4 - . Publishing Completed",
+    "entity_type": "news",
+    "id": "6a3c6002-0604-5a81-aafc-eb0b6350fd42",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "Python client library for Mistral AI platform",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "ai",
+            "mistral"
+          ]
+        },
+        "canonical_url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4",
+        "created_at": "2026-08-21T17:55:28+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-21T18:06:05+00:00",
+        "publisher": {
+          "html_url": "https://github.com/mistralai",
+          "login": "mistralai",
+          "type": "Organization"
+        },
+        "release_id": 374583539,
+        "repository": "mistralai/client-python",
+        "tag_name": "v2.9.4",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "python - v2.9.4 - 2026-08-21 18:06:04",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Generated by Speakeasy CLI 2026-08-21 09:35:18 Changes Based on: - OpenAPI Doc - Speakeasy CLI 1.763.6 (2.884.13) https://github.com/speakeasy-api/speakeasy Generated - [python v2.9.4] . Releases - [PyPI v2.9.4] https://pypi.org/project/mistralai/2.9.4 - . Publishing Completed",
+        "name": "python - v2.9.4 - 2026-08-21 18:06:04",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "Python client library for Mistral AI platform",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name"
+            ],
+            "matched_tokens": [
+              "ai",
+              "mistral"
+            ]
+          },
+          "canonical_url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4",
+          "created_at": "2026-08-21T17:55:28+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-21T18:06:05+00:00",
+          "publisher": {
+            "html_url": "https://github.com/mistralai",
+            "login": "mistralai",
+            "type": "Organization"
+          },
+          "release_id": 374583539,
+          "repository": "mistralai/client-python",
+          "tag_name": "v2.9.4",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4"
+      },
+      "source_record_id": "github:release:mistralai/client-python:374583539",
+      "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "python - v2.9.4 - 2026-08-21 18:06:04",
+          "operation": "normalize_name",
+          "output": "python - v2 9 4 - 2026-08-21 18:06:04",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/mistralai/client-python/releases/tag/v2.9.4",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
+    },
+    "url": "https://github.com/mistralai/client-python/releases/tag/v2.9.4"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
+    "entity_type": "news",
+    "id": "cf9a12aa-65cc-5511-9013-4698723f1da7",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+        "created_at": "2026-08-10T10:23:02+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-10T10:28:13+00:00",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_id": 367727332,
+        "repository": "huggingface/transformers",
+        "tag_name": "v5.15.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "Release: v5.15.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups. Muse Glimmer is a dense 30B parameter model consisting of: - 2B ViT-style encoder for vision (Perception Encoder) - 28B parameter text decoder We re covering it in the following blogpost: http://hf.co/blog/muse-glimmer --- GraniteMoeSWA & GraniteSWA Links: Documentation Add Granite-swa and Granitemoe-swa model support ( 47179) by @daviswer in 47179 Links: Documentation Add Granite-swa and Granitemoe-swa m",
+        "name": "Release: v5.15.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "machine learning",
+              "transformer",
+              "multimodal",
+              "llm",
+              "nlp",
+              "machine-learning",
+              "deep-learning",
+              "natural-language",
+              "speech-recognition",
+              "huggingface"
+            ]
+          },
+          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+          "created_at": "2026-08-10T10:23:02+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-10T10:28:13+00:00",
+          "publisher": {
+            "html_url": "https://github.com/huggingface",
+            "login": "huggingface",
+            "type": "Organization"
+          },
+          "release_id": 367727332,
+          "repository": "huggingface/transformers",
+          "tag_name": "v5.15.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+      },
+      "source_record_id": "github:release:huggingface/transformers:367727332",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/367727332",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Release: v5.15.0",
+          "operation": "normalize_name",
+          "output": "release: v5 15 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases/367727332"
+    },
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
+    "entity_type": "news",
+    "id": "0894460e-3a4c-5dc1-903b-e563189bb0a8",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "anthropics/anthropic-sdk-python",
+          "matched_fields": [
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "anthropic"
+          ]
+        },
+        "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+        "created_at": "2026-08-20T19:58:22+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-20T19:58:48+00:00",
+        "publisher": {
+          "html_url": "https://github.com/anthropics",
+          "login": "anthropics",
+          "type": "Organization"
+        },
+        "release_id": 373995738,
+        "repository": "anthropics/anthropic-sdk-python",
+        "tag_name": "v1.0.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "v1.0.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "1.0.0 (2026-08-20) Full Changelog: v0.125.0...v1.0.0 ⚠ BREAKING CHANGES client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details Features client: upgrade to httpx2 and some minor breaking changes. See MIGRATION.md for details (33e2967) Bug Fixes beta: stop warning about output format= on the parse/stream/tool runner helpers (59bf261) Chores streaming: restore the original event imports in lib/streaming/ types.py (87e9e01) Documentation examples: use adaptive thinking in thinking examples (b5870af)",
+        "name": "v1.0.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "anthropics/anthropic-sdk-python",
+            "matched_fields": [
+              "repository.full_name"
+            ],
+            "matched_tokens": [
+              "anthropic"
+            ]
+          },
+          "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+          "created_at": "2026-08-20T19:58:22+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-20T19:58:48+00:00",
+          "publisher": {
+            "html_url": "https://github.com/anthropics",
+            "login": "anthropics",
+            "type": "Organization"
+          },
+          "release_id": 373995738,
+          "repository": "anthropics/anthropic-sdk-python",
+          "tag_name": "v1.0.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+      },
+      "source_record_id": "github:release:anthropics/anthropic-sdk-python:373995738",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "v1.0.0",
+          "operation": "normalize_name",
+          "output": "v1 0 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/373995738"
+    },
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "1.7.0 (2026-08-25) Full Changelog: v1.6.0...v1.7.0 Features chat: add Qwen3.8 reasoning guidance (5d65203) Bug Fixes GitHub Terraform: Create/Update .github/workflows/stale.yaml [skip ci] (26fdd4f) GitHub Terraform: Create/Update .github/workflows/stale.yaml [skip ci] (01f00ea) Chores deps: update lock files to fix known vulnerabilities (GC1-104) ( 280) (9620fde) GitHub Terraform: Create/Update .github/workflows/code-freeze-bypass.yaml [skip ci] (85b6cce) internal: allow the mock server port to be set with STAINLESS MOCK PORT (4e10497)",
+    "entity_type": "news",
+    "id": "3a203a91-2444-5759-9403-813128744653",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "The official Python Library for the Groq API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "groq"
+          ]
+        },
+        "canonical_url": "https://github.com/groq/groq-python/releases/tag/v1.7.0",
+        "created_at": "2026-08-26T02:35:55+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-26T02:36:01+00:00",
+        "publisher": {
+          "html_url": "https://github.com/groq",
+          "login": "groq",
+          "type": "Organization"
+        },
+        "release_id": 376845784,
+        "repository": "groq/groq-python",
+        "tag_name": "v1.7.0",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "v1.7.0",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "1.7.0 (2026-08-25) Full Changelog: v1.6.0...v1.7.0 Features chat: add Qwen3.8 reasoning guidance (5d65203) Bug Fixes GitHub Terraform: Create/Update .github/workflows/stale.yaml [skip ci] (26fdd4f) GitHub Terraform: Create/Update .github/workflows/stale.yaml [skip ci] (01f00ea) Chores deps: update lock files to fix known vulnerabilities (GC1-104) ( 280) (9620fde) GitHub Terraform: Create/Update .github/workflows/code-freeze-bypass.yaml [skip ci] (85b6cce) internal: allow the mock server port to be set with STAINLESS MOCK PORT (4e10497)",
+        "name": "v1.7.0",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "The official Python Library for the Groq API",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name"
+            ],
+            "matched_tokens": [
+              "groq"
+            ]
+          },
+          "canonical_url": "https://github.com/groq/groq-python/releases/tag/v1.7.0",
+          "created_at": "2026-08-26T02:35:55+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-26T02:36:01+00:00",
+          "publisher": {
+            "html_url": "https://github.com/groq",
+            "login": "groq",
+            "type": "Organization"
+          },
+          "release_id": 376845784,
+          "repository": "groq/groq-python",
+          "tag_name": "v1.7.0",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/groq/groq-python/releases/tag/v1.7.0"
+      },
+      "source_record_id": "github:release:groq/groq-python:376845784",
+      "source_url": "https://api.github.com/repos/groq/groq-python/releases/376845784",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "v1.7.0",
+          "operation": "normalize_name",
+          "output": "v1 7 0",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/groq/groq-python/releases/tag/v1.7.0",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/groq/groq-python/releases/376845784"
+    },
+    "url": "https://github.com/groq/groq-python/releases/tag/v1.7.0"
+  },
+  {
+    "categories": [
+      "News"
+    ],
+    "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
+    "entity_type": "news",
+    "id": "04ce93ed-5437-5a85-8551-324e8fac464c",
+    "metadata": {
+      "news": {
+        "ai_relevance_evidence": {
+          "excerpt": "The official Python library for the OpenAI API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "openai"
+          ]
+        },
+        "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
+        "created_at": "2026-08-19T16:27:51+00:00",
+        "prerelease": false,
+        "published_at": "2026-08-19T16:30:47+00:00",
+        "publisher": {
+          "html_url": "https://github.com/openai",
+          "login": "openai",
+          "type": "Organization"
+        },
+        "release_id": 373198010,
+        "repository": "openai/openai-python",
+        "tag_name": "v3.3.1",
+        "timestamp_semantics": "github_release_published_at"
+      }
+    },
+    "name": "v3.3.1",
+    "provenance": {
+      "discovered_by": "GitHub Releases Announcements",
+      "fetched_at": "2026-08-26T07:09:27.976711+00:00",
+      "observed_fields": {
+        "categories": [
+          "News"
+        ],
+        "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
+        "name": "v3.3.1",
+        "news": {
+          "ai_relevance_evidence": {
+            "excerpt": "The official Python library for the OpenAI API",
+            "matched_fields": [
+              "repository.description",
+              "repository.full_name",
+              "repository.topics"
+            ],
+            "matched_tokens": [
+              "openai"
+            ]
+          },
+          "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
+          "created_at": "2026-08-19T16:27:51+00:00",
+          "prerelease": false,
+          "published_at": "2026-08-19T16:30:47+00:00",
+          "publisher": {
+            "html_url": "https://github.com/openai",
+            "login": "openai",
+            "type": "Organization"
+          },
+          "release_id": 373198010,
+          "repository": "openai/openai-python",
+          "tag_name": "v3.3.1",
+          "timestamp_semantics": "github_release_published_at"
+        },
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+      },
+      "source_record_id": "github:release:openai/openai-python:373198010",
+      "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "v3.3.1",
+          "operation": "normalize_name",
+          "output": "v3 3 1",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "news:url:https://github.com/openai/openai-python/releases/tag/v3.3.1",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+    },
+    "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+  }
+]
