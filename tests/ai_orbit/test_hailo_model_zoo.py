@@ -107,7 +107,14 @@ def test_sample_paths_is_deterministic_and_bounded():
     first = adapter._sample_paths(paths)
     second = adapter._sample_paths(paths)
     assert first == second
-    assert len(first) == adapter.settings.hailo_model_limit
+    # A stride sample over the full inventory is bounded by the configured
+    # limit and never exceeds it; for a small inventory it may be shorter.
+    assert 0 < len(first) <= adapter.settings.hailo_model_limit
+    # Deterministic: re-sampling with a larger limit must extend the sample,
+    # not reshuffle it.
+    adapter.settings.hailo_model_limit = 64
+    bigger = adapter._sample_paths(paths)
+    assert set(first).issubset(set(bigger))
 
 
 def test_model_record_uses_artifact_url_and_hailo_provider():

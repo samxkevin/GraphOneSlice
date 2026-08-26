@@ -9,6 +9,7 @@ from src.ai_orbit.adapters.ai_device_catalog import AIDeviceCatalogAdapter
 from src.ai_orbit.adapters.base import SourceAdapter
 from src.ai_orbit.adapters.hailo_model_zoo import HailoModelZooAdapter
 from src.ai_orbit.adapters.feasibility_probes import build_candidate_probe_adapters
+from src.ai_orbit.adapters.jobs_personal_candidates import build_jobs_personal_probe_adapters
 from src.ai_orbit.adapters.github import GitHubAdapter
 from src.ai_orbit.adapters.github_releases_news import GitHubReleasesNewsAdapter
 from src.ai_orbit.adapters.huggingface import HuggingFaceProbeAdapter
@@ -51,6 +52,7 @@ def build_default_adapters(settings: AIOrbitSettings) -> list[SourceAdapter]:
         HuggingFaceProbeAdapter(settings),
         OpenAIRssProbeAdapter(settings),
         *build_candidate_probe_adapters(settings),
+        *build_jobs_personal_probe_adapters(settings),
     ]
 
 

@@ -54,16 +54,16 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `204`
-- valid relationships: `96`
+- valid entities: `218`
+- valid relationships: `135`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
-- recorded source failures: `13`
+- recorded source failures: `15`
 - duplicate/shared URL warnings: `4`
-- test result: `123 passed`
-- relationship types produced: `develops` (20), `solves` (28), `published_by` (10), `integrates_with` (1), `runs` (37)
+- test result: `133 passed`
+- relationship types produced: `develops` (20), `solves` (27), `published_by` (10), `integrates_with` (1), `runs` (77)
 
 This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
 
@@ -72,7 +72,7 @@ This is still an assessment vertical slice / early expansion, not the final 250�
 - **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
 - **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
-- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until accessible sources prove the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, Devices via the AI device catalog and the Hailo model zoo, and `Device → runs → Model` via the Hailo model zoo's explicit `info.supported_hw_arch` declarations; jobs and personal remain blocked by unreachable candidate sources in this environment.
+- **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until a source proves the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, Devices via the AI device catalog and the Hailo model zoo, and `Device → runs → Model` via the Hailo model zoo's explicit `info.supported_hw_arch` declarations; jobs and personal remain blocked — the reachable GitHub-hosted candidates were rejected on timestamp semantics (jobs: `date_posted` = "when added", not employer posting time) and identity (personal: an awesome list of open-source frameworks/tools, not personal-assistant products).
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
 ## Repository audit and current implementation status
@@ -377,8 +377,8 @@ Entity resolution is therefore **implemented and tested for the current vertical
   - `device.canonical_url` is the device's own documentation directory in the source (e.g. `docs/public_models/HAILO15H`), not a vendor product page — the manufacturer product pages are on `hailo.ai`, which is unreachable from this environment, so no unverified product URL is fabricated.
 - Bounded sample:
   - latest verified catalog inventory: `233` network YAMLs; `227` declare `supported_hw_arch`; `3` device families (Hailo-15H/15L/10H);
-  - the adapter ingests a deterministic stride sample (bounded by `AI_ORBIT_HAILO_MODEL_LIMIT=16`) across the alphabetically sorted catalog so the sample spans task families (classification, detection, segmentation, face, NLP, zero-shot) instead of concentrating on one;
-  - the latest run ingested `14` sampled models and `3` devices, producing `37` `runs` edges (two stride positions hit legacy no-arch YAMLs and were correctly skipped).
+  - the adapter ingests a deterministic stride sample (bounded by `AI_ORBIT_HAILO_MODEL_LIMIT=32`) across the alphabetically sorted catalog so the sample spans task families (classification, detection, segmentation, face, NLP, zero-shot) instead of concentrating on one;
+  - the latest run ingested `29` sampled models and `3` devices, producing `77` `runs` edges (stride positions hitting legacy no-arch YAMLs are correctly skipped).
 - Failure isolation: a single unparseable or no-arch model YAML is skipped without failing the source; tree/contents failures are recorded as source failures.
 - Freshness: the source does not supply per-device/per-model publication timestamps, so none is fabricated; `fetched_at` remains provenance-only.
 
@@ -397,6 +397,9 @@ Current probes include:
 - Product Hunt GraphQL : products, currently unusable due TLS/network failure before schema/auth inspection.
 - Hacker News Algolia AI Stories : news/story candidate, currently unusable due TLS/network failure before JSON field inspection; even if reachable, external article publication time would still need validation.
 - Himalayas AI Jobs API : jobs candidate, currently unusable due TLS/network failure before posting timestamp inspection.
+- SimplifyJobs Internships Listings : jobs candidate, reachable and parseable (GitHub-hosted `listings.json`; 14,764 listing objects; schema documents `company_name`, `title`, `url`, `locations`, `terms`, `sponsorship`), but `date_posted` is documented as "Unix timestamp when added" (list ingestion time, not the employer's posting time) and the contribution form collects no posting date — rejected for Jobs under the posting-timestamp requirement.
+- SimplifyJobs New-Grad Positions : jobs candidate (sibling of the above), reachable with 19,034 listing objects using the same schema; same "when added" `date_posted` semantics, so it is likewise not accepted as a Jobs source.
+- Awesome Personal AI Assistants : personal candidate, reachable; a curated Markdown list of open-source self-hosted assistant frameworks/tools (repository links + one-line descriptions), not personal-assistant product identity — rejected under the identity gate.
 - GDELT AI News API : news candidate, currently unusable due TLS/network failure; GDELT seendate is not assumed to be publisher publication time.
 - Models.dev Model Metadata API : model-enrichment candidate, currently unusable due TLS/network failure before modalities/license inspection.
 - NPM Search AI Packages : products/tools, currently `partial`; reachable, but package search results are not automatically product records.
@@ -419,7 +422,7 @@ Additional one-time reachability probes performed during the News milestone (not
 - `raw.githubusercontent.com` : unusable due TLS/network failure.
 - arXiv API (`export.arxiv.org`) : unusable due TLS/network failure.
 
-Reachability conclusion for this environment: only `api.github.com`, `pypi.org`, and `registry.npmjs.org` returned parseable JSON; every non-GitHub news/feed/jobs/video host probed failed at TLS connection setup with the same error. GitHub REST Releases is therefore the one structured, reachable, GitHub-hosted dataset that supplies genuine publication timestamps for a News category.
+Reachability conclusion for this environment: only `api.github.com`, `pypi.org`, and `registry.npmjs.org` returned parseable JSON; every non-GitHub news/feed/jobs/video host probed failed at TLS connection setup with the same error. GitHub REST Releases is therefore the one structured, reachable, GitHub-hosted dataset that supplies genuine publication timestamps for a News category. For Jobs, the reachable GitHub-hosted SimplifyJobs listings were inspected in depth and rejected because their only date field (`date_posted`) means "when added" to the list rather than the employer's posting time; for Personal, the reachable GitHub-hosted candidate was an awesome list of open-source frameworks/tools rather than personal-assistant product records. Neither category gained records, and none were fabricated.
 
 No source is marked usable without observed evidence.
 
@@ -683,7 +686,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-123 passed
+133 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -773,12 +776,12 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `204` current valid entities toward the requested 250–300 high-quality representative records.
+- Expand from `218` current valid entities toward the requested 250–300 high-quality representative records.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog now supplies modalities for a bounded sample, but no verified source currently supplies per-model license fields.
 - Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
-- Find reachable jobs APIs with posted timestamps; current tested jobs candidates failed in this environment.
-- Add broader products/personal sources only after source feasibility is verified and the source establishes entity identity directly.
+- Find a Jobs source that supplies a genuine employer `posted_at`/`created_at` timestamp; the reachable SimplifyJobs listings were rejected because `date_posted` means "when added" (list ingestion time), not posting time.
+- Add Personal records only from a source that establishes explicit personal-AI-assistant product identity; the reachable awesome list of open-source assistant frameworks/tools does not qualify.
 - Broaden `Device → runs → Model` coverage beyond the Hailo bounded sample (e.g. a larger deterministic sample of the 227 compatibility-tagged Hailo models) only if each additional edge remains directly evidenced by the model YAML's `info.supported_hw_arch`.
 - Improve assessment-scale cross-source entity resolution as more source families are added.
 
@@ -787,10 +790,10 @@ No real credentials are committed.
 - This is not yet the final 250–300 record dataset.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
 - Model license is only populated where a source supplies it (some Hailo model-zoo records carry `license_name`); the official SDK model source does not supply modalities or license, while the Models.dev GitHub catalog supplies modalities for its bounded records only.
-- Current `jobs` and `personal` categories still have no accepted records because tested sources were not reachable or did not prove the required identity/timestamp semantics, and no fallback data was fabricated. (News, Videos, and Devices are now live-verified.)
+- Current `jobs` and `personal` categories still have no accepted records: the reachable GitHub-hosted jobs candidates (SimplifyJobs internships and new-grad listings) were rejected because `date_posted` means "when added" to the list rather than the employer's posting time, and the reachable personal candidate was an awesome list of open-source assistant frameworks/tools rather than personal-assistant product records. No fallback data was fabricated. (News, Videos, Devices, and `Device → runs → Model` are live-verified.)
 - Product coverage is currently limited to a bounded directory sample; provider/company and launch-time metadata remain unavailable from that source. Packages, SDKs, repositories, models, features, and tasks are not reclassified as products without direct product-source evidence.
 - Robot coverage is currently limited to a bounded ROS Robots catalog sample; manufacturer/provider are not populated because the source does not expose dedicated fields.
 - Hailo device canonical URLs point at each device's documentation directory in the `hailo-ai/hailo_model_zoo` source rather than at a manufacturer product page, because `hailo.ai` is unreachable from this environment and no unverified product URL is fabricated.
-- `Device → runs → Model` coverage is limited to a bounded deterministic Hailo model sample (14 models / 37 edges); the full catalog has 227 compatibility-tagged models that could be sampled more broadly later.
+- `Device → runs → Model` coverage is limited to a bounded deterministic Hailo model sample (29 models / 77 edges); the full catalog has 227 compatibility-tagged models that could be sampled more broadly later.
 - Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
 - Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.

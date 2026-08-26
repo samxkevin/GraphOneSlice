@@ -290,16 +290,6 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
   },
   {
-    "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
-    "canonical_value": "am-i-vibing",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:am-i-vibing",
-    "raw_value": "am-i-vibing",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/am-i-vibing"
-  },
-  {
     "canonical_id": "81ca51bd-6371-5c20-b5e9-9b49e5ed4ba8",
     "canonical_value": "chat",
     "confidence": 1.0,
@@ -450,16 +440,6 @@
     "source_url": "https://registry.npmjs.org/agent-device"
   },
   {
-    "canonical_id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
-    "canonical_value": "@azure/mcp",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@azure/mcp",
-    "raw_value": "@azure/mcp",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@azure%2Fmcp"
-  },
-  {
     "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
     "canonical_value": "ato-mcp",
     "confidence": 1.0,
@@ -468,6 +448,16 @@
     "raw_value": "ato-mcp",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/ato-mcp"
+  },
+  {
+    "canonical_id": "6f8fb4eb-9d4a-5457-9d56-f028955e11ac",
+    "canonical_value": "@azure/mcp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@azure/mcp",
+    "raw_value": "@azure/mcp",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@azure%2Fmcp"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -1810,64 +1800,144 @@
     "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
   },
   {
-    "canonical_id": "d2c11aba-689b-5a3e-aa6c-6f87b1d73e6a",
-    "canonical_value": "clip_vit_b_16_text_encoder",
+    "canonical_id": "a713e142-2dc1-568b-bbcc-81f8b84cff35",
+    "canonical_value": "centernet_resnet_v1_50_postprocess",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:clip_vit_b_16_text_encoder",
-    "raw_value": "clip_vit_b_16_text_encoder",
+    "raw_source_key": "hailo-model-zoo:model:centernet_resnet_v1_50_postprocess",
+    "raw_value": "centernet_resnet_v1_50_postprocess",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/clip_vit_b_16_text_encoder.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/centernet_resnet_v1_50_postprocess.yaml"
   },
   {
-    "canonical_id": "7a4fc1a1-7dbf-590e-8be4-6a7f5cbc55ee",
-    "canonical_value": "deit_tiny",
+    "canonical_id": "9a2f6493-8b09-5605-88db-75fd50c6a6bc",
+    "canonical_value": "clip_vit_b_32_image_encoder",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:deit_tiny",
-    "raw_value": "deit_tiny",
+    "raw_source_key": "hailo-model-zoo:model:clip_vit_b_32_image_encoder",
+    "raw_value": "clip_vit_b_32_image_encoder",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/deit_tiny.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/clip_vit_b_32_image_encoder.yaml"
   },
   {
-    "canonical_id": "c1e1f50d-4972-503d-a863-8d665adc297e",
-    "canonical_value": "efficientnet_lite4",
+    "canonical_id": "81b2a7a3-87dd-5555-ac6b-7fa3701e999e",
+    "canonical_value": "damoyolo_tinynasL35_M",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:efficientnet_lite4",
-    "raw_value": "efficientnet_lite4",
+    "raw_source_key": "hailo-model-zoo:model:damoyolo_tinynasL35_M",
+    "raw_value": "damoyolo_tinynasL35_M",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/efficientnet_lite4.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/damoyolo_tinynasl35_m.yaml"
   },
   {
-    "canonical_id": "6dde9d7a-7000-5171-8f4f-b4023eeda8fa",
-    "canonical_value": "hailo_yolov8m_480_640",
+    "canonical_id": "682c8554-f264-5bd6-b5d2-15143157c3c7",
+    "canonical_value": "depth_anything_vits",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:hailo_yolov8m_480_640",
-    "raw_value": "hailo_yolov8m_480_640",
+    "raw_source_key": "hailo-model-zoo:model:depth_anything_vits",
+    "raw_value": "depth_anything_vits",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/hailo_yolov8m_480_640.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/depth_anything_vits.yaml"
   },
   {
-    "canonical_id": "01ca5941-1c54-5352-a8bc-e43ccc464e79",
-    "canonical_value": "lprnet",
+    "canonical_id": "0f03539f-bab3-5320-937c-554031e768f1",
+    "canonical_value": "efficientnet_l",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:lprnet",
-    "raw_value": "lprnet",
+    "raw_source_key": "hailo-model-zoo:model:efficientnet_l",
+    "raw_value": "efficientnet_l",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/lprnet.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/efficientnet_l.yaml"
   },
   {
-    "canonical_id": "6c3b0f88-636a-5637-9a29-d9655f0892e5",
-    "canonical_value": "resnet_v1_50",
+    "canonical_id": "1eddd1ac-0ee0-590b-aadf-e090de88527b",
+    "canonical_value": "espcn_x2",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:resnet_v1_50",
-    "raw_value": "resnet_v1_50",
+    "raw_source_key": "hailo-model-zoo:model:espcn_x2",
+    "raw_value": "espcn_x2",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/resnet_v1_50.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/espcn_x2.yaml"
+  },
+  {
+    "canonical_id": "fefbd8e0-7164-5d61-92ca-6515e35f281d",
+    "canonical_value": "fast_sam_s",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:fast_sam_s",
+    "raw_value": "fast_sam_s",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/fast_sam_s.yaml"
+  },
+  {
+    "canonical_id": "1898057f-af91-5d74-bf34-55274260d687",
+    "canonical_value": "hailo_yolov8s_480_640",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:hailo_yolov8s_480_640",
+    "raw_value": "hailo_yolov8s_480_640",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/hailo_yolov8s_480_640.yaml"
+  },
+  {
+    "canonical_id": "d111758b-002c-5423-91c8-47e56211e1fe",
+    "canonical_value": "levit384",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:levit384",
+    "raw_value": "levit384",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/levit384.yaml"
+  },
+  {
+    "canonical_id": "21f43273-c2f8-5f0b-bffe-24f74b1651fc",
+    "canonical_value": "mobilenet_v3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:mobilenet_v3",
+    "raw_value": "mobilenet_v3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/mobilenet_v3.yaml"
+  },
+  {
+    "canonical_id": "ebc558ad-8463-5b53-a884-be26a22cca7b",
+    "canonical_value": "paddle_ocr_v5_mobile_detection",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:paddle_ocr_v5_mobile_detection",
+    "raw_value": "paddle_ocr_v5_mobile_detection",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/paddle_ocr_v5_mobile_detection.yaml"
+  },
+  {
+    "canonical_id": "80709cf3-1127-5ce8-8768-316c29edf670",
+    "canonical_value": "regnetx_800mf",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:regnetx_800mf",
+    "raw_value": "regnetx_800mf",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/regnetx_800mf.yaml"
+  },
+  {
+    "canonical_id": "b3d6f126-f2d0-5625-ad79-0442d365d424",
+    "canonical_value": "resnet_v1_34",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:resnet_v1_34",
+    "raw_value": "resnet_v1_34",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/resnet_v1_34.yaml"
+  },
+  {
+    "canonical_id": "0a920e6a-64e4-5b63-b7c0-759fe60bff59",
+    "canonical_value": "scrfd_10g_nv12_fhd",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:scrfd_10g_nv12_fhd",
+    "raw_value": "scrfd_10g_nv12_fhd",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/scrfd_10g_nv12_fhd.yaml"
   },
   {
     "canonical_id": "1825768b-0f01-58e9-8f6c-8cc6f4a34951",
@@ -1880,74 +1950,144 @@
     "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/siglip_b_16_image_encoder.yaml"
   },
   {
-    "canonical_id": "c384644a-ca0c-5aae-b532-1a9589800340",
-    "canonical_value": "tiny_yolov4_license_plates_yuy2",
+    "canonical_id": "62f54f5b-dfca-5cc0-92b6-792ac2d53788",
+    "canonical_value": "stereonet",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:tiny_yolov4_license_plates_yuy2",
-    "raw_value": "tiny_yolov4_license_plates_yuy2",
+    "raw_source_key": "hailo-model-zoo:model:stereonet",
+    "raw_value": "stereonet",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/tiny_yolov4_license_plates_yuy2.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/stereonet.yaml"
   },
   {
-    "canonical_id": "08cb97bc-fd89-5781-87bc-58f5839281c4",
-    "canonical_value": "vit_small",
+    "canonical_id": "a17a16e4-d817-54f2-ad24-399f17efa10b",
+    "canonical_value": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:vit_small",
-    "raw_value": "vit_small",
+    "raw_source_key": "hailo-model-zoo:model:tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
+    "raw_value": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/vit_small.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder.yaml"
   },
   {
-    "canonical_id": "0ed302d2-7287-5b0e-b04d-b7877a21b473",
-    "canonical_value": "yolov10b",
+    "canonical_id": "02e42fdf-fd44-5b52-ad6a-44b96fdea7f8",
+    "canonical_value": "unet_mobilenet_v2",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:yolov10b",
-    "raw_value": "yolov10b",
+    "raw_source_key": "hailo-model-zoo:model:unet_mobilenet_v2",
+    "raw_value": "unet_mobilenet_v2",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov10b.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/unet_mobilenet_v2.yaml"
   },
   {
-    "canonical_id": "a0ea9bcd-e827-591d-8cfd-ba6d71972fb6",
-    "canonical_value": "yolov3",
+    "canonical_id": "26066cd0-273c-56b3-8bf0-f9e5305c18b2",
+    "canonical_value": "vit_tiny",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:yolov3",
-    "raw_value": "yolov3",
+    "raw_source_key": "hailo-model-zoo:model:vit_tiny",
+    "raw_value": "vit_tiny",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov3.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/vit_tiny.yaml"
   },
   {
-    "canonical_id": "6b470fcb-85ce-5485-be9f-3f6d0f3406bc",
-    "canonical_value": "yolov5n_seg",
+    "canonical_id": "a6ec8d6e-437a-5f85-8eb6-ef9f1b3a686b",
+    "canonical_value": "yolo26n",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:yolov5n_seg",
-    "raw_value": "yolov5n_seg",
+    "raw_source_key": "hailo-model-zoo:model:yolo26n",
+    "raw_value": "yolo26n",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5n_seg.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolo26n.yaml"
   },
   {
-    "canonical_id": "5231299b-cc6c-592c-8b32-5df7665707fd",
-    "canonical_value": "yolov6n_0.2.1_nms_core",
+    "canonical_id": "cad23b55-bbbb-54bc-a728-c88efa6ae86d",
+    "canonical_value": "yolov10x",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:yolov6n_0.2.1_nms_core",
-    "raw_value": "yolov6n_0.2.1_nms_core",
+    "raw_source_key": "hailo-model-zoo:model:yolov10x",
+    "raw_value": "yolov10x",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov6n_0.2.1_nms_core.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov10x.yaml"
   },
   {
-    "canonical_id": "dfc298e3-f947-5bab-91a7-62562e62a160",
-    "canonical_value": "yolov8x",
+    "canonical_id": "335b2650-e568-5936-9357-483408f227df",
+    "canonical_value": "yolov11s_obb",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "hailo-model-zoo:model:yolov8x",
-    "raw_value": "yolov8x",
+    "raw_source_key": "hailo-model-zoo:model:yolov11s_obb",
+    "raw_value": "yolov11s_obb",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8x.yaml"
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov11s_obb.yaml"
+  },
+  {
+    "canonical_id": "ec814a2e-4a25-5eb1-b173-7669e736970a",
+    "canonical_value": "yolov4_leaky",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov4_leaky",
+    "raw_value": "yolov4_leaky",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov4_leaky.yaml"
+  },
+  {
+    "canonical_id": "f0c2ab00-b26a-5023-b24a-9f67f94eb053",
+    "canonical_value": "yolov5m_vehicles_yuy2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov5m_vehicles_yuy2",
+    "raw_value": "yolov5m_vehicles_yuy2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5m_vehicles_yuy2.yaml"
+  },
+  {
+    "canonical_id": "2d9a9c86-43cd-5fa3-8602-00660d9e8eaf",
+    "canonical_value": "yolov5s_c3tr",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov5s_c3tr",
+    "raw_value": "yolov5s_c3tr",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov5s_c3tr.yaml"
+  },
+  {
+    "canonical_id": "3d1d7295-bf70-5853-8553-c64fee352929",
+    "canonical_value": "yolov6n",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov6n",
+    "raw_value": "yolov6n",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov6n.yaml"
+  },
+  {
+    "canonical_id": "7923b4b1-45e6-57be-a773-823354b6c8a2",
+    "canonical_value": "yolov8m",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov8m",
+    "raw_value": "yolov8m",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8m.yaml"
+  },
+  {
+    "canonical_id": "d693026e-8d44-5d0f-9e65-225c204ef448",
+    "canonical_value": "yolov8s_seg",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:yolov8s_seg",
+    "raw_value": "yolov8s_seg",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/yolov8s_seg.yaml"
+  },
+  {
+    "canonical_id": "71945320-b600-514c-a6ce-52c46d670fac",
+    "canonical_value": "zero_dce_pp",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "hailo-model-zoo:model:zero_dce_pp",
+    "raw_value": "zero_dce_pp",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/hailo_model_zoo/cfg/networks/zero_dce_pp.yaml"
   },
   {
     "canonical_id": "24c94f2e-37c7-5bf5-86fd-a67d3903cbe9",

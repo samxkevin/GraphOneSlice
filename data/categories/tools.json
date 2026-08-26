@@ -55,7 +55,7 @@
     "name": "@azure/mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -191,7 +191,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -296,7 +296,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:21:29.742829+00:00",
+      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -369,7 +369,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:21:29.742829+00:00",
+      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -442,7 +442,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:21:29.742829+00:00",
+      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -515,7 +515,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:21:29.742829+00:00",
+      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -659,7 +659,7 @@
     "name": "agent-device",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -840,7 +840,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -991,7 +991,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1185,7 +1185,7 @@
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -1327,9 +1327,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T10:12:22Z",
+        "last_updated_timestamp": "2026-08-26T10:46:28Z",
         "primary_language": "HTML",
-        "stars": 167925,
+        "stars": 167926,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1355,7 +1355,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:21:27.077853+00:00",
+      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1368,9 +1368,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T10:12:22Z",
+          "last_updated_timestamp": "2026-08-26T10:46:28Z",
           "primary_language": "HTML",
-          "stars": 167925,
+          "stars": 167926,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -1432,9 +1432,9 @@
       "repository": {
         "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-26T10:06:35Z",
+        "last_updated_timestamp": "2026-08-26T10:33:53Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103814,
+        "stars": 103815,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -1461,7 +1461,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:21:27.077853+00:00",
+      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1472,9 +1472,9 @@
         "repository": {
           "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-26T10:06:35Z",
+          "last_updated_timestamp": "2026-08-26T10:33:53Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103814,
+          "stars": 103815,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -1537,9 +1537,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T09:07:23Z",
+        "last_updated_timestamp": "2026-08-26T10:53:20Z",
         "primary_language": "Python",
-        "stars": 186876,
+        "stars": 186877,
         "topics": [
           "agentic-ai",
           "agents",
@@ -1558,7 +1558,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:21:27.077853+00:00",
+      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1569,9 +1569,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T09:07:23Z",
+          "last_updated_timestamp": "2026-08-26T10:53:20Z",
           "primary_language": "Python",
-          "stars": 186876,
+          "stars": 186877,
           "topics": [
             "agentic-ai",
             "agents",
@@ -1627,9 +1627,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T10:06:48Z",
+        "last_updated_timestamp": "2026-08-26T10:50:44Z",
         "primary_language": "JavaScript",
-        "stars": 91879,
+        "stars": 91882,
         "topics": [
           "ai",
           "ai-agents",
@@ -1657,7 +1657,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T10:21:27.077853+00:00",
+      "fetched_at": "2026-08-26T10:55:51.248930+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -1669,9 +1669,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T10:06:48Z",
+          "last_updated_timestamp": "2026-08-26T10:50:44Z",
           "primary_language": "JavaScript",
-          "stars": 91879,
+          "stars": 91882,
           "topics": [
             "ai",
             "ai-agents",
@@ -1775,7 +1775,7 @@
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -1898,7 +1898,7 @@
     "name": "@earendil-works/pi-ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2021,7 +2021,7 @@
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2149,7 +2149,7 @@
     "name": "@langchain/openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2271,7 +2271,7 @@
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2449,7 +2449,7 @@
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -2637,7 +2637,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2792,7 +2792,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2956,7 +2956,7 @@
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -3106,7 +3106,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -3260,7 +3260,7 @@
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3356,123 +3356,6 @@
     "categories": [
       "Tools"
     ],
-    "description": "Detect agentic coding environments and AI assistant tools",
-    "entity_type": "tool",
-    "id": "4f227a12-6347-5f6c-ab79-53bf48696940",
-    "metadata": {
-      "package": {
-        "ai_relevance_evidence": {
-          "excerpt": "Detect agentic coding environments and AI assistant tools",
-          "field": "description",
-          "signals": [
-            "agentic",
-            "ai"
-          ]
-        },
-        "downloads": {
-          "monthly": 7233157,
-          "weekly": 2141771
-        },
-        "ecosystem": "npm",
-        "keywords": [
-          "ai",
-          "agentic",
-          "coding",
-          "detection",
-          "llm",
-          "assistant"
-        ],
-        "license": "MIT",
-        "links": {
-          "bugs": "https://github.com/ascorbic/am-i-vibing/issues",
-          "homepage": "https://github.com/ascorbic/am-i-vibing",
-          "npm": "https://www.npmjs.com/package/am-i-vibing",
-          "repository": "git+https://github.com/ascorbic/am-i-vibing.git"
-        },
-        "package_date": "2026-06-23T15:54:00.577Z",
-        "package_name": "am-i-vibing",
-        "query": "keywords:llm",
-        "updated": "2026-08-25T10:53:20.450Z",
-        "version": "0.5.0"
-      }
-    },
-    "name": "am-i-vibing",
-    "provenance": {
-      "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
-      "observed_fields": {
-        "categories": [
-          "Tools"
-        ],
-        "description": "Detect agentic coding environments and AI assistant tools",
-        "name": "am-i-vibing",
-        "package": {
-          "ai_relevance_evidence": {
-            "excerpt": "Detect agentic coding environments and AI assistant tools",
-            "field": "description",
-            "signals": [
-              "agentic",
-              "ai"
-            ]
-          },
-          "downloads": {
-            "monthly": 7233157,
-            "weekly": 2141771
-          },
-          "ecosystem": "npm",
-          "keywords": [
-            "ai",
-            "agentic",
-            "coding",
-            "detection",
-            "llm",
-            "assistant"
-          ],
-          "license": "MIT",
-          "links": {
-            "bugs": "https://github.com/ascorbic/am-i-vibing/issues",
-            "homepage": "https://github.com/ascorbic/am-i-vibing",
-            "npm": "https://www.npmjs.com/package/am-i-vibing",
-            "repository": "git+https://github.com/ascorbic/am-i-vibing.git"
-          },
-          "package_date": "2026-06-23T15:54:00.577Z",
-          "package_name": "am-i-vibing",
-          "query": "keywords:llm",
-          "updated": "2026-08-25T10:53:20.450Z",
-          "version": "0.5.0"
-        },
-        "url": "https://www.npmjs.com/package/am-i-vibing"
-      },
-      "source_record_id": "npm-search:package:am-i-vibing",
-      "source_url": "https://registry.npmjs.org/am-i-vibing",
-      "transformations": [
-        {
-          "operation": "trim_collapse_whitespace_and_normalize_url",
-          "stage": "cleaning"
-        },
-        {
-          "input": "am-i-vibing",
-          "operation": "normalize_name",
-          "output": "am-i-vibing",
-          "stage": "normalization"
-        },
-        {
-          "operation": "canonical_key",
-          "output": "tool:url:https://www.npmjs.com/package/am-i-vibing",
-          "stage": "normalization"
-        }
-      ]
-    },
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/am-i-vibing"
-    },
-    "url": "https://www.npmjs.com/package/am-i-vibing"
-  },
-  {
-    "categories": [
-      "Tools"
-    ],
     "description": "The official Python library for the anthropic API",
     "entity_type": "tool",
     "id": "c39b606e-3394-56fb-bbde-b1f472e08ae2",
@@ -3491,7 +3374,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:21:29.330615+00:00",
+      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3598,7 +3481,7 @@
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3739,7 +3622,7 @@
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3871,7 +3754,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -3963,7 +3846,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T10:21:29.742829+00:00",
+      "fetched_at": "2026-08-26T10:55:54.002494+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4024,7 +3907,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:21:29.330615+00:00",
+      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4121,7 +4004,7 @@
     "name": "langchain",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4217,7 +4100,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:21:29.330615+00:00",
+      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4316,7 +4199,7 @@
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4416,7 +4299,7 @@
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T10:21:29.330615+00:00",
+      "fetched_at": "2026-08-26T10:55:53.456457+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -4526,7 +4409,7 @@
     "name": "tokenlens",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T10:21:30.323804+00:00",
+      "fetched_at": "2026-08-26T10:55:54.470827+00:00",
       "observed_fields": {
         "categories": [
           "Tools"

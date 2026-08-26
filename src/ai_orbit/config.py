@@ -110,7 +110,7 @@ class AIOrbitSettings(BaseSettings):
         default="https://api.github.com/repos/hailo-ai/hailo_model_zoo/contents/",
         validation_alias="AI_ORBIT_HAILO_MODEL_ZOO_CONTENTS_BASE",
     )
-    hailo_model_limit: int = Field(default=16, validation_alias="AI_ORBIT_HAILO_MODEL_LIMIT")
+    hailo_model_limit: int = Field(default=32, validation_alias="AI_ORBIT_HAILO_MODEL_LIMIT")
 
     @field_validator(
         "github_company_orgs",
