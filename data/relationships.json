@@ -55,23 +55,6 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "Agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
-    },
-    "id": "11cd7e09-3604-56ea-beec-10d164841f58",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/@openai%2Fagents-core"
-    },
-    "source_entity_id": "88cd445d-59f9-5420-ba3c-012080056db4",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
       "observed_value": "chat",
       "reason": "controlled task mapping from observed source metadata",
       "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
@@ -233,23 +216,6 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "observed_value": "agents",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/add-mcp"
-    },
-    "id": "3bacf944-8146-54a2-b0d8-860e9eda48fe",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/add-mcp"
-    },
-    "source_entity_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
       "line_number": 23,
       "model_identifier": "claude-sonnet-4-5",
       "source_repository": "anthropics/anthropic-sdk-python",
@@ -375,6 +341,23 @@
     },
     "source_entity_id": "71074a06-3269-5ced-ab78-6f21a1813c75",
     "target_entity_id": "5f3366ff-c463-55a1-934a-f4b3a26eaa79"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "observed_value": "agent",
+      "reason": "controlled task mapping from observed source metadata",
+      "source_url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "id": "4fa3eab3-7a5f-57a7-a502-6d41a311b744",
+    "method": "task_mapping:description_phrase",
+    "relationship_type": "solves",
+    "source": {
+      "name": "NPM Search AI Tool Packages",
+      "url": "https://registry.npmjs.org/ato-mcp"
+    },
+    "source_entity_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,

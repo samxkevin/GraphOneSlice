@@ -13,9 +13,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T07:31:44Z",
+        "last_updated_timestamp": "2026-08-26T09:40:55Z",
         "primary_language": "HTML",
-        "stars": 167918,
+        "stars": 167922,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -41,7 +41,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
+      "fetched_at": "2026-08-26T09:44:35.403189+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -54,9 +54,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T07:31:44Z",
+          "last_updated_timestamp": "2026-08-26T09:40:55Z",
           "primary_language": "HTML",
-          "stars": 167918,
+          "stars": 167922,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -117,7 +117,7 @@
       "repository": {
         "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-26T07:37:23Z",
+        "last_updated_timestamp": "2026-08-26T09:41:03Z",
         "primary_language": "Python",
         "stars": 96120,
         "topics": [
@@ -145,7 +145,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
+      "fetched_at": "2026-08-26T09:44:35.403189+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -155,7 +155,7 @@
         "repository": {
           "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-26T07:37:23Z",
+          "last_updated_timestamp": "2026-08-26T09:41:03Z",
           "primary_language": "Python",
           "stars": 96120,
           "topics": [
@@ -219,9 +219,9 @@
       "repository": {
         "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-26T07:10:51Z",
+        "last_updated_timestamp": "2026-08-26T09:40:57Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103803,
+        "stars": 103815,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -248,7 +248,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
+      "fetched_at": "2026-08-26T09:44:35.403189+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -259,9 +259,9 @@
         "repository": {
           "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-26T07:10:51Z",
+          "last_updated_timestamp": "2026-08-26T09:40:57Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103803,
+          "stars": 103815,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -324,9 +324,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T07:42:17Z",
+        "last_updated_timestamp": "2026-08-26T09:07:23Z",
         "primary_language": "Python",
-        "stars": 186875,
+        "stars": 186876,
         "topics": [
           "agentic-ai",
           "agents",
@@ -345,7 +345,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
+      "fetched_at": "2026-08-26T09:44:35.403189+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -356,9 +356,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T07:42:17Z",
+          "last_updated_timestamp": "2026-08-26T09:07:23Z",
           "primary_language": "Python",
-          "stars": 186875,
+          "stars": 186876,
           "topics": [
             "agentic-ai",
             "agents",
@@ -414,9 +414,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T07:40:25Z",
+        "last_updated_timestamp": "2026-08-26T09:43:12Z",
         "primary_language": "JavaScript",
-        "stars": 91861,
+        "stars": 91877,
         "topics": [
           "ai",
           "ai-agents",
@@ -444,7 +444,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T07:42:36.581209+00:00",
+      "fetched_at": "2026-08-26T09:44:35.403189+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -456,9 +456,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T07:40:25Z",
+          "last_updated_timestamp": "2026-08-26T09:43:12Z",
           "primary_language": "JavaScript",
-          "stars": 91861,
+          "stars": 91877,
           "topics": [
             "ai",
             "ai-agents",

@@ -246,6 +246,17 @@ def _validate_metadata(entity: Entity) -> list[dict[str, Any]]:
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.publisher.name required"})
         if not video.get("ai_relevance_evidence"):
             failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "video.ai_relevance_evidence required"})
+    device = entity.metadata.get("device") if entity.metadata else None
+    if entity.entity_type == "device" and not device:
+        failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "device metadata required for device entities"})
+    if entity.entity_type == "device" and device:
+        if not device.get("canonical_url") or not is_valid_http_url(device.get("canonical_url")):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "device.canonical_url required"})
+        if not device.get("ai_relevance_evidence"):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "device.ai_relevance_evidence required"})
+        manufacturer = device.get("manufacturer")
+        if manufacturer is not None and (not isinstance(manufacturer, str) or not manufacturer.strip()):
+            failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "device.manufacturer must be string or null"})
     model = entity.metadata.get("model") if entity.metadata else None
     if entity.entity_type == "model" and not model:
         failures.append({"type": "invalid_metadata", "record_id": entity.id, "message": "model metadata required for model entities"})

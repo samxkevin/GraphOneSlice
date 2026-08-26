@@ -20,7 +20,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -85,7 +85,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -150,7 +150,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -215,7 +215,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -280,7 +280,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -345,7 +345,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -410,7 +410,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -475,7 +475,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -571,7 +571,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -694,7 +694,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -786,7 +786,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -851,7 +851,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -916,7 +916,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -981,7 +981,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1046,7 +1046,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1111,7 +1111,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1201,7 +1201,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1318,7 +1318,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1410,7 +1410,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1475,7 +1475,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T07:42:44.473087+00:00",
+      "fetched_at": "2026-08-26T09:44:44.094783+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1565,7 +1565,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1678,7 +1678,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1791,7 +1791,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -1914,7 +1914,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2043,7 +2043,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2164,7 +2164,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2279,7 +2279,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -2397,7 +2397,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T07:42:45.285220+00:00",
+      "fetched_at": "2026-08-26T09:44:44.956915+00:00",
       "observed_fields": {
         "categories": [
           "Models"

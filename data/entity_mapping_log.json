@@ -280,14 +280,14 @@
     "source_url": "https://registry.npmjs.org/@langchain%2Fopenai"
   },
   {
-    "canonical_id": "88cd445d-59f9-5420-ba3c-012080056db4",
-    "canonical_value": "@openai/agents-core",
+    "canonical_id": "b800f14c-dc5f-5354-bf39-78bb6aa923b5",
+    "canonical_value": "langchain",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@openai/agents-core",
-    "raw_value": "@openai/agents-core",
+    "raw_source_key": "npm-search:package:langchain",
+    "raw_value": "langchain",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@openai%2Fagents-core"
+    "source_url": "https://registry.npmjs.org/langchain"
   },
   {
     "canonical_id": "4f227a12-6347-5f6c-ab79-53bf48696940",
@@ -320,16 +320,6 @@
     "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
   },
   {
-    "canonical_id": "03fef08d-5925-5571-af98-99d29cbe11d5",
-    "canonical_value": "tokenlens",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:tokenlens",
-    "raw_value": "tokenlens",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/tokenlens"
-  },
-  {
     "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
     "canonical_value": "ollama-ai-provider-v2",
     "confidence": 1.0,
@@ -348,6 +338,16 @@
     "raw_value": "eve",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/eve"
+  },
+  {
+    "canonical_id": "03fef08d-5925-5571-af98-99d29cbe11d5",
+    "canonical_value": "tokenlens",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:tokenlens",
+    "raw_value": "tokenlens",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/tokenlens"
   },
   {
     "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
@@ -460,14 +460,14 @@
     "source_url": "https://registry.npmjs.org/@azure%2Fmcp"
   },
   {
-    "canonical_id": "c32447ec-6ae1-53d4-8feb-0ab4f949fbec",
-    "canonical_value": "add-mcp",
+    "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
+    "canonical_value": "ato-mcp",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:add-mcp",
-    "raw_value": "add-mcp",
+    "raw_source_key": "npm-search:package:ato-mcp",
+    "raw_value": "ato-mcp",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/add-mcp"
+    "source_url": "https://registry.npmjs.org/ato-mcp"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -1658,6 +1658,156 @@
     "raw_value": "Build Your Own Data Science AI Agents",
     "reason": "same normalized URL",
     "source_url": "https://api.github.com/repos/pyvideo/data/contents/pydata-virginia-2025/videos/krishnan-liu-puri-rojas-build-your-own-data-science-ai-agents-pydata-virginia-2025.json"
+  },
+  {
+    "canonical_id": "1a4d15bf-73b2-5b7a-bd9f-01bd740899f1",
+    "canonical_value": "Grove Vision AI Module V2",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:grove-vision-ai-module-v2",
+    "raw_value": "Grove Vision AI Module V2",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "5c5f6ece-a713-5d2e-b55d-3ddd71c74218",
+    "canonical_value": "Alif Semiconductor AK-E7-AIML",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:alif-semiconductor-ak-e7-aiml",
+    "raw_value": "Alif Semiconductor AK-E7-AIML",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "a009369d-fa80-5751-9502-27c19c161ab2",
+    "canonical_value": "NXP MCIMX93-EVK",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:nxp-mcimx93-evk",
+    "raw_value": "NXP MCIMX93-EVK",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "462ef4ad-9e7c-5619-b689-dc39832dc4a3",
+    "canonical_value": "MaaXBoard OSM93 Board",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:maaxboard-osm93-board",
+    "raw_value": "MaaXBoard OSM93 Board",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "dc428ba6-2d30-5e9d-99f4-8074d90129ce",
+    "canonical_value": "ESP32-S3-EYE",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:esp32-s3-eye",
+    "raw_value": "ESP32-S3-EYE",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "4dd608c0-09e5-5b87-bdd4-86e0aae16b28",
+    "canonical_value": "Seeed Studio XIAO ESP32S3",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:seeed-studio-xiao-esp32s3",
+    "raw_value": "Seeed Studio XIAO ESP32S3",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "dfdbdfa0-b371-5179-86d9-ffd3beaf0970",
+    "canonical_value": "NUCLEO-N657X0-Q",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:nucleo-n657x0-q",
+    "raw_value": "NUCLEO-N657X0-Q",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "ef7db5ea-621e-5b26-a50c-48fbbfb9cb47",
+    "canonical_value": "LAUNCHXL-F28P55X",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:launchxl-f28p55x",
+    "raw_value": "LAUNCHXL-F28P55X",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "0234b08c-0cb8-50d7-9e08-9eb57a2c0b42",
+    "canonical_value": "STM32N6570-DK",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:stm32n6570-dk",
+    "raw_value": "STM32N6570-DK",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "1deabcbb-a20f-5bac-aea5-f3b889a60525",
+    "canonical_value": "01Studio CanMV K230 Development Board",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:01studio-canmv-k230-development-board",
+    "raw_value": "01Studio CanMV K230 Development Board",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "20481e8e-ac91-5f9e-99f9-66255fccbc14",
+    "canonical_value": "Sipeed Maix Bit",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:sipeed-maix-bit",
+    "raw_value": "Sipeed Maix Bit",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "2b9fec3c-c84d-55a3-92cb-8fe149463ed4",
+    "canonical_value": "MAX78000FTHR",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:max78000fthr",
+    "raw_value": "MAX78000FTHR",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "ffdab2da-b5d0-507d-a3f1-8f4bb50683a3",
+    "canonical_value": "Arduino Nicla Voice",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:arduino-nicla-voice",
+    "raw_value": "Arduino Nicla Voice",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "0f3927c7-e243-5dd2-adab-90604ff52f0c",
+    "canonical_value": "SiLabs NxG24-DK2601B",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:silabs-nxg24-dk2601b",
+    "raw_value": "SiLabs NxG24-DK2601B",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
+  },
+  {
+    "canonical_id": "9a89a0ef-76e5-57ea-a9e1-4fc4b7cbd004",
+    "canonical_value": "AVNet AES-RASYNB-120-SK-G",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "ai-device-catalog:device:avnet-aes-rasynb-120-sk-g",
+    "raw_value": "AVNet AES-RASYNB-120-SK-G",
+    "reason": "same normalized URL",
+    "source_url": "https://api.github.com/repos/vge0rge/ai-ml-embedded-boards/contents/readme.md"
   },
   {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",

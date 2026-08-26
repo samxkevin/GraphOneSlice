@@ -95,6 +95,32 @@ def test_record_from_row_preserves_source_backed_video_fields():
     assert "large language model applications" in record.description
 
 
+def test_video_recorded_at_is_a_recording_date_not_a_publication_timestamp():
+    """Document the semantic meaning of the PyVideo timestamp field.
+
+    The source ``recorded`` field is the date the talk was recorded, not a
+    publication/upload timestamp. The adapter must preserve that meaning and
+    must not invent a publication timestamp. ``fetched_at`` is the only
+    ingestion-time field and it is stored separately in provenance, never
+    inside ``video.metadata`` as a publication time.
+    """
+    adapter = _adapter()
+    fetched_at = datetime(2026, 8, 26, 12, 0, 0, tzinfo=timezone.utc)
+    record = adapter._record_from_row(_row(), event="pycon-us-2024", event_title="PyCon US 2024", fetched_at=fetched_at)
+    assert record is not None
+    video = record.metadata["video"]
+    # recorded_at is the recording date from the source, not the fetch time.
+    assert video["recorded_at"] == "2024-05-19"
+    assert video["timestamp_semantics"] == "pyvideo_recorded_date"
+    # No publication/upload timestamp is fabricated for videos.
+    assert "published_at" not in video
+    assert "uploaded_at" not in video
+    assert "updated_at" not in video
+    # fetched_at lives only in provenance, separate from the video metadata.
+    assert record.fetched_at == fetched_at
+    assert video["recorded_at"] != fetched_at.isoformat()
+
+
 def test_slug_suggests_ai_uses_slug_tokens():
     adapter = _adapter()
     assert adapter._slug_suggests_ai("building-llm-applications-with-python.json")

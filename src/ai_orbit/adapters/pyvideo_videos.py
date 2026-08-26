@@ -150,8 +150,12 @@ class PyVideoVideosAdapter(SourceAdapter):
     (the date the talk was recorded). This adapter ingests those as video
     entities for a curated allowlist of AI-relevant conferences.
 
-    ``video.recorded_at`` is the source's talk recording date; it is never
-    substituted with crawl/retrieval/commit time. ``fetched_at`` remains a
+    ``video.recorded_at`` is the source's talk recording date — a recording
+    date, **not** a publication or upload timestamp. PyVideo's schema documents
+    ``recorded`` as "ISO 8601 Date on which video was recorded", and the
+    assessment schema does not require a publication timestamp for Videos, so
+    none is fabricated. ``video.timestamp_semantics`` is set to
+    ``pyvideo_recorded_date`` to make this explicit. ``fetched_at`` remains a
     separate provenance field. No channel name is fabricated: the publisher is
     the conference/event the source attributes the talk to.
     """

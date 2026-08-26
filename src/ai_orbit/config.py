@@ -96,6 +96,12 @@ class AIOrbitSettings(BaseSettings):
     pyvideo_limit: int = Field(default=12, validation_alias="AI_ORBIT_PYVIDEO_LIMIT")
     pyvideo_per_event_limit: int = Field(default=20, validation_alias="AI_ORBIT_PYVIDEO_PER_EVENT_LIMIT")
 
+    ai_device_catalog_api_url: str = Field(
+        default="https://api.github.com/repos/Vge0rge/ai-ml-embedded-boards/contents/README.md",
+        validation_alias="AI_ORBIT_AI_DEVICE_CATALOG_API_URL",
+    )
+    ai_device_limit: int = Field(default=15, validation_alias="AI_ORBIT_AI_DEVICE_LIMIT")
+
     @field_validator(
         "github_company_orgs",
         "pypi_packages",
