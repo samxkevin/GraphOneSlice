@@ -38,7 +38,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -147,7 +147,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -264,7 +264,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -338,9 +338,9 @@
     "categories": [
       "News"
     ],
-    "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
+    "description": "What s Changed SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803 Support for new /parse endpoint Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0",
     "entity_type": "news",
-    "id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "id": "e9ac83ab-21ac-5425-83d0-86a3e09e0b60",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -354,32 +354,32 @@
             "ai"
           ]
         },
-        "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
-        "created_at": "2026-08-19T10:56:35+00:00",
+        "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+        "created_at": "2026-08-26T21:09:55+00:00",
         "prerelease": false,
-        "published_at": "2026-08-19T10:59:07+00:00",
+        "published_at": "2026-08-26T21:35:00+00:00",
         "publisher": {
           "html_url": "https://github.com/cohere-ai",
           "login": "cohere-ai",
           "type": "Organization"
         },
-        "release_id": 372980471,
+        "release_id": 377436193,
         "repository": "cohere-ai/cohere-python",
         "subtype": "github_release_announcement",
-        "tag_name": "7.0.9",
+        "tag_name": "7.1.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "7.0.9",
+    "name": "7.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
-        "name": "7.0.9",
+        "description": "What s Changed SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803 Support for new /parse endpoint Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0",
+        "name": "7.1.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "Python Library for Accessing the Cohere API",
@@ -392,48 +392,48 @@
               "ai"
             ]
           },
-          "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
-          "created_at": "2026-08-19T10:56:35+00:00",
+          "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+          "created_at": "2026-08-26T21:09:55+00:00",
           "prerelease": false,
-          "published_at": "2026-08-19T10:59:07+00:00",
+          "published_at": "2026-08-26T21:35:00+00:00",
           "publisher": {
             "html_url": "https://github.com/cohere-ai",
             "login": "cohere-ai",
             "type": "Organization"
           },
-          "release_id": 372980471,
+          "release_id": 377436193,
           "repository": "cohere-ai/cohere-python",
           "subtype": "github_release_announcement",
-          "tag_name": "7.0.9",
+          "tag_name": "7.1.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+        "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0"
       },
-      "source_record_id": "github:release:cohere-ai/cohere-python:372980471",
-      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
+      "source_record_id": "github:release:cohere-ai/cohere-python:377436193",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "7.0.9",
+          "input": "7.1.0",
           "operation": "normalize_name",
-          "output": "7 0 9",
+          "output": "7 1 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+          "output": "news:url:https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193"
     },
-    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0"
   },
   {
     "categories": [
@@ -478,7 +478,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -587,7 +587,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -692,7 +692,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -802,7 +802,7 @@
     "name": "Release v5.16.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -921,7 +921,7 @@
     "name": "Release: v5.16.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1029,7 +1029,7 @@
     "name": "v1.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1127,7 +1127,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -1192,9 +1192,9 @@
     "categories": [
       "News"
     ],
-    "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
+    "description": "3.5.0 (2026-08-27) Features api: make function call output call IDs optional ( 3738) (c74501d)",
     "entity_type": "news",
-    "id": "04ce93ed-5437-5a85-8551-324e8fac464c",
+    "id": "ecdd1df3-0c08-57bc-a919-30e07167dba3",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -1208,32 +1208,32 @@
             "openai"
           ]
         },
-        "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
-        "created_at": "2026-08-19T16:27:51+00:00",
+        "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
+        "created_at": "2026-08-27T00:56:50+00:00",
         "prerelease": false,
-        "published_at": "2026-08-19T16:30:47+00:00",
+        "published_at": "2026-08-27T01:00:03+00:00",
         "publisher": {
           "html_url": "https://github.com/openai",
           "login": "openai",
           "type": "Organization"
         },
-        "release_id": 373198010,
+        "release_id": 377505517,
         "repository": "openai/openai-python",
         "subtype": "github_release_announcement",
-        "tag_name": "v3.3.1",
+        "tag_name": "v3.5.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "v3.3.1",
+    "name": "v3.5.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
-        "name": "v3.3.1",
+        "description": "3.5.0 (2026-08-27) Features api: make function call output call IDs optional ( 3738) (c74501d)",
+        "name": "v3.5.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "The official Python library for the OpenAI API",
@@ -1246,47 +1246,47 @@
               "openai"
             ]
           },
-          "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
-          "created_at": "2026-08-19T16:27:51+00:00",
+          "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
+          "created_at": "2026-08-27T00:56:50+00:00",
           "prerelease": false,
-          "published_at": "2026-08-19T16:30:47+00:00",
+          "published_at": "2026-08-27T01:00:03+00:00",
           "publisher": {
             "html_url": "https://github.com/openai",
             "login": "openai",
             "type": "Organization"
           },
-          "release_id": 373198010,
+          "release_id": 377505517,
           "repository": "openai/openai-python",
           "subtype": "github_release_announcement",
-          "tag_name": "v3.3.1",
+          "tag_name": "v3.5.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.5.0"
       },
-      "source_record_id": "github:release:openai/openai-python:373198010",
-      "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010",
+      "source_record_id": "github:release:openai/openai-python:377505517",
+      "source_url": "https://api.github.com/repos/openai/openai-python/releases/377505517",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "v3.3.1",
+          "input": "v3.5.0",
           "operation": "normalize_name",
-          "output": "v3 3 1",
+          "output": "v3 5 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/openai/openai-python/releases/tag/v3.3.1",
+          "output": "news:url:https://github.com/openai/openai-python/releases/tag/v3.5.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+      "url": "https://api.github.com/repos/openai/openai-python/releases/377505517"
     },
-    "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+    "url": "https://github.com/openai/openai-python/releases/tag/v3.5.0"
   }
 ]

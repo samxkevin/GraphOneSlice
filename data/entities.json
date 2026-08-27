@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -261,6 +261,105 @@
     "categories": [
       "Companies"
     ],
+    "description": "Open Source @ IBM",
+    "entity_type": "company",
+    "id": "7033f343-4936-5091-a5c5-ce3ef4804504",
+    "metadata": {
+      "company": {
+        "founding_year": 1911,
+        "founding_year_evidence": {
+          "field": "Founded",
+          "semantics": "sp500_founded_year",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "1911"
+        },
+        "github_created_at_not_used_as_founding_year": true,
+        "github_created_at_observed": "2012-02-21T22:13:01Z",
+        "github_login": "IBM",
+        "headquarters": "Armonk, New York",
+        "headquarters_evidence": {
+          "field": "Headquarters Location",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Armonk, New York"
+        },
+        "industry_sector": "Information Technology",
+        "industry_sector_evidence": {
+          "field": "GICS Sector",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Information Technology"
+        },
+        "sp500_security": "IBM",
+        "sp500_symbol": "IBM"
+      }
+    },
+    "name": "IBM",
+    "provenance": {
+      "discovered_by": "S&P 500 Companies Dataset",
+      "fetched_at": "2026-08-27T09:10:22.539064+00:00",
+      "observed_fields": {
+        "categories": [
+          "Companies"
+        ],
+        "company": {
+          "founding_year": 1911,
+          "founding_year_evidence": {
+            "field": "Founded",
+            "semantics": "sp500_founded_year",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "1911"
+          },
+          "github_created_at_not_used_as_founding_year": true,
+          "github_created_at_observed": "2012-02-21T22:13:01Z",
+          "github_login": "IBM",
+          "headquarters": "Armonk, New York",
+          "headquarters_evidence": {
+            "field": "Headquarters Location",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Armonk, New York"
+          },
+          "industry_sector": "Information Technology",
+          "industry_sector_evidence": {
+            "field": "GICS Sector",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Information Technology"
+          },
+          "sp500_security": "IBM",
+          "sp500_symbol": "IBM"
+        },
+        "description": "Open Source @ IBM",
+        "name": "IBM",
+        "url": "https://github.com/ibm"
+      },
+      "source_record_id": "sp500:company:ibm",
+      "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "IBM",
+          "operation": "normalize_name",
+          "output": "ibm",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "company:name:ibm",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "S&P 500 Companies Dataset",
+      "url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
+    },
+    "url": "https://github.com/ibm"
+  },
+  {
+    "categories": [
+      "Companies"
+    ],
     "description": "Mistral AI",
     "entity_type": "company",
     "id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
@@ -277,7 +376,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +445,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +505,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -454,6 +553,105 @@
   },
   {
     "categories": [
+      "Companies"
+    ],
+    "description": "At Qualcomm Technologies, Inc., we transform how the world connects, computes and communicates.",
+    "entity_type": "company",
+    "id": "ae36991c-ef31-5015-ad0b-29c783d4be37",
+    "metadata": {
+      "company": {
+        "founding_year": 1985,
+        "founding_year_evidence": {
+          "field": "Founded",
+          "semantics": "sp500_founded_year",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "1985"
+        },
+        "github_created_at_not_used_as_founding_year": true,
+        "github_created_at_observed": "2019-09-13T18:49:06Z",
+        "github_login": "qualcomm",
+        "headquarters": "San Diego, California",
+        "headquarters_evidence": {
+          "field": "Headquarters Location",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "San Diego, California"
+        },
+        "industry_sector": "Information Technology",
+        "industry_sector_evidence": {
+          "field": "GICS Sector",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Information Technology"
+        },
+        "sp500_security": "Qualcomm",
+        "sp500_symbol": "QCOM"
+      }
+    },
+    "name": "Qualcomm",
+    "provenance": {
+      "discovered_by": "S&P 500 Companies Dataset",
+      "fetched_at": "2026-08-27T09:10:22.539064+00:00",
+      "observed_fields": {
+        "categories": [
+          "Companies"
+        ],
+        "company": {
+          "founding_year": 1985,
+          "founding_year_evidence": {
+            "field": "Founded",
+            "semantics": "sp500_founded_year",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "1985"
+          },
+          "github_created_at_not_used_as_founding_year": true,
+          "github_created_at_observed": "2019-09-13T18:49:06Z",
+          "github_login": "qualcomm",
+          "headquarters": "San Diego, California",
+          "headquarters_evidence": {
+            "field": "Headquarters Location",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "San Diego, California"
+          },
+          "industry_sector": "Information Technology",
+          "industry_sector_evidence": {
+            "field": "GICS Sector",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Information Technology"
+          },
+          "sp500_security": "Qualcomm",
+          "sp500_symbol": "QCOM"
+        },
+        "description": "At Qualcomm Technologies, Inc., we transform how the world connects, computes and communicates.",
+        "name": "Qualcomm",
+        "url": "https://github.com/qualcomm"
+      },
+      "source_record_id": "sp500:company:qcom",
+      "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qualcomm",
+          "operation": "normalize_name",
+          "output": "qualcomm",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "company:name:qualcomm",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "S&P 500 Companies Dataset",
+      "url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
+    },
+    "url": "https://github.com/qualcomm"
+  },
+  {
+    "categories": [
       "Devices"
     ],
     "description": "MCU: CanMV K230 (1 x 64-bit RISC-V (up to 1.6GHz), 1 x 64-bit RISC-V 800 MHz and KPU (Knowledge Process Unit) AI accelerator); Price: ~55 usd Aliexpress",
@@ -482,7 +680,7 @@
     "name": "01Studio CanMV K230 Development Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -565,7 +763,7 @@
     "name": "Alif Semiconductor AK-E7-AIML",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -648,7 +846,7 @@
     "name": "Arduino Nicla Voice",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -731,7 +929,7 @@
     "name": "AVNet AES-RASYNB-120-SK-G",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -814,7 +1012,7 @@
     "name": "ESP32-S3-EYE",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -896,7 +1094,7 @@
     "name": "Grove Vision AI Module V2",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -973,7 +1171,7 @@
     "name": "Hailo-10H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1046,7 +1244,7 @@
     "name": "Hailo-15H",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1119,7 +1317,7 @@
     "name": "Hailo-15L",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1196,7 +1394,7 @@
     "name": "LAUNCHXL-F28P55X",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1278,7 +1476,7 @@
     "name": "MaaXBoard OSM93 Board",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1362,7 +1560,7 @@
     "name": "MAX78000FTHR",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1447,7 +1645,7 @@
     "name": "NUCLEO-N657X0-Q",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1531,7 +1729,7 @@
     "name": "NXP MCIMX93-EVK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1614,7 +1812,7 @@
     "name": "Seeed Studio XIAO ESP32S3",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1698,7 +1896,7 @@
     "name": "SiLabs NxG24-DK2601B",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1782,7 +1980,7 @@
     "name": "Sipeed Maix Bit",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1866,7 +2064,7 @@
     "name": "STM32N6570-DK",
     "provenance": {
       "discovered_by": "AI Device Catalog",
-      "fetched_at": "2026-08-26T19:03:16.026614+00:00",
+      "fetched_at": "2026-08-27T09:10:03.976173+00:00",
       "observed_fields": {
         "categories": [
           "Devices"
@@ -1977,7 +2175,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2085,8 +2283,8 @@
           ]
         },
         "downloads": {
-          "monthly": 812425,
-          "weekly": 208333
+          "monthly": 834690,
+          "weekly": 217512
         },
         "ecosystem": "npm",
         "keywords": [
@@ -2106,14 +2304,14 @@
         "package_date": "2026-08-24T11:22:50.618Z",
         "package_name": "@lovable.dev/mcp-js",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:24:11.139Z",
+        "updated": "2026-08-27T09:01:57.902Z",
         "version": "0.28.0"
       }
     },
     "name": "@lovable.dev/mcp-js",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2140,8 +2338,8 @@
             ]
           },
           "downloads": {
-            "monthly": 812425,
-            "weekly": 208333
+            "monthly": 834690,
+            "weekly": 217512
           },
           "ecosystem": "npm",
           "keywords": [
@@ -2161,7 +2359,7 @@
           "package_date": "2026-08-24T11:22:50.618Z",
           "package_name": "@lovable.dev/mcp-js",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:24:11.139Z",
+          "updated": "2026-08-27T09:01:57.902Z",
           "version": "0.28.0"
         },
         "url": "https://www.npmjs.com/package/@lovable.dev/mcp-js"
@@ -2217,7 +2415,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2290,7 +2488,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2363,7 +2561,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2436,7 +2634,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -2546,7 +2744,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2697,7 +2895,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2806,7 +3004,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.130"
+        "version": "0.52.139"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -2881,17 +3079,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-26T12:26:01.664Z",
+        "package_date": "2026-08-27T05:57:54.794Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T12:26:36.590Z",
-        "version": "0.52.130"
+        "updated": "2026-08-27T05:58:25.973Z",
+        "version": "0.52.139"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -2909,7 +3107,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.130"
+          "version": "0.52.139"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -2985,11 +3183,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-26T12:26:01.664Z",
+          "package_date": "2026-08-27T05:57:54.794Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T12:26:36.590Z",
-          "version": "0.52.130"
+          "updated": "2026-08-27T05:58:25.973Z",
+          "version": "0.52.139"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -3024,147 +3222,135 @@
       "Tools",
       "MCP"
     ],
-    "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+    "description": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
     "entity_type": "mcp",
-    "id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "id": "48d46616-f095-5769-afee-56f3c79a2888",
     "metadata": {
       "mcp": {
         "bin": {
-          "pi-mcp-adapter": "cli.js"
+          "mcporter": "dist/cli.js"
         },
         "deprecated": null,
-        "installation_method": "npm package pi-mcp-adapter",
-        "package_name": "pi-mcp-adapter",
+        "installation_method": "npm package mcporter",
+        "package_name": "mcporter",
         "runtime_requirements": {
-          "node": ">=20"
+          "node": ">=24"
         },
-        "version": "2.28.0"
+        "version": "0.13.7"
       },
       "package": {
         "ai_relevance_evidence": {
-          "excerpt": "pi-mcp-adapter",
-          "field": "name",
+          "excerpt": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
+          "field": "description",
           "signals": [
-            "mcp"
+            "model context protocol"
           ]
         },
         "downloads": {
-          "monthly": 628192,
-          "weekly": 162089
+          "monthly": 1279059,
+          "weekly": 586241
         },
         "ecosystem": "npm",
         "keywords": [
-          "pi-package",
-          "pi",
+          "cli",
           "mcp",
-          "model-context-protocol",
-          "ai",
-          "coding-agent",
-          "extension",
-          "claude",
-          "llm"
+          "model-context-protocol"
         ],
         "license": "MIT",
         "links": {
-          "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
-          "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
-          "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
-          "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+          "bugs": "https://github.com/openclaw/mcporter/issues",
+          "homepage": "https://github.com/openclaw/mcporter#readme",
+          "npm": "https://www.npmjs.com/package/mcporter",
+          "repository": "git+https://github.com/openclaw/mcporter.git"
         },
-        "package_date": "2026-08-26T05:28:20.600Z",
-        "package_name": "pi-mcp-adapter",
+        "package_date": "2026-08-14T20:03:58.745Z",
+        "package_name": "mcporter",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:26:03.244Z",
-        "version": "2.28.0"
+        "updated": "2026-08-26T11:28:13.556Z",
+        "version": "0.13.7"
       }
     },
-    "name": "pi-mcp-adapter",
+    "name": "mcporter",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
           "MCP"
         ],
-        "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+        "description": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
         "mcp": {
           "bin": {
-            "pi-mcp-adapter": "cli.js"
+            "mcporter": "dist/cli.js"
           },
           "deprecated": null,
-          "installation_method": "npm package pi-mcp-adapter",
-          "package_name": "pi-mcp-adapter",
+          "installation_method": "npm package mcporter",
+          "package_name": "mcporter",
           "runtime_requirements": {
-            "node": ">=20"
+            "node": ">=24"
           },
-          "version": "2.28.0"
+          "version": "0.13.7"
         },
-        "name": "pi-mcp-adapter",
+        "name": "mcporter",
         "package": {
           "ai_relevance_evidence": {
-            "excerpt": "pi-mcp-adapter",
-            "field": "name",
+            "excerpt": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
+            "field": "description",
             "signals": [
-              "mcp"
+              "model context protocol"
             ]
           },
           "downloads": {
-            "monthly": 628192,
-            "weekly": 162089
+            "monthly": 1279059,
+            "weekly": 586241
           },
           "ecosystem": "npm",
           "keywords": [
-            "pi-package",
-            "pi",
+            "cli",
             "mcp",
-            "model-context-protocol",
-            "ai",
-            "coding-agent",
-            "extension",
-            "claude",
-            "llm"
+            "model-context-protocol"
           ],
           "license": "MIT",
           "links": {
-            "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
-            "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
-            "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
-            "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+            "bugs": "https://github.com/openclaw/mcporter/issues",
+            "homepage": "https://github.com/openclaw/mcporter#readme",
+            "npm": "https://www.npmjs.com/package/mcporter",
+            "repository": "git+https://github.com/openclaw/mcporter.git"
           },
-          "package_date": "2026-08-26T05:28:20.600Z",
-          "package_name": "pi-mcp-adapter",
+          "package_date": "2026-08-14T20:03:58.745Z",
+          "package_name": "mcporter",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:26:03.244Z",
-          "version": "2.28.0"
+          "updated": "2026-08-26T11:28:13.556Z",
+          "version": "0.13.7"
         },
-        "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+        "url": "https://www.npmjs.com/package/mcporter"
       },
-      "source_record_id": "npm-search:package:pi-mcp-adapter",
-      "source_url": "https://registry.npmjs.org/pi-mcp-adapter",
+      "source_record_id": "npm-search:package:mcporter",
+      "source_url": "https://registry.npmjs.org/mcporter",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "pi-mcp-adapter",
+          "input": "mcporter",
           "operation": "normalize_name",
-          "output": "pi-mcp-adapter",
+          "output": "mcporter",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "mcp:url:https://www.npmjs.com/package/pi-mcp-adapter",
+          "output": "mcp:url:https://www.npmjs.com/package/mcporter",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+      "url": "https://registry.npmjs.org/mcporter"
     },
-    "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+    "url": "https://www.npmjs.com/package/mcporter"
   },
   {
     "categories": [
@@ -3210,7 +3396,7 @@
     "name": "3D-Deep-BOX",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3311,7 +3497,7 @@
     "name": "ACT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3405,7 +3591,7 @@
     "name": "CavaFace",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3492,7 +3678,7 @@
     "name": "centernet_resnet_v1_50_postprocess",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3563,7 +3749,7 @@
     "name": "claude-haiku-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3628,7 +3814,7 @@
     "name": "claude-mythos-preview",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3693,7 +3879,7 @@
     "name": "claude-opus-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3758,7 +3944,7 @@
     "name": "claude-opus-4-7",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3823,7 +4009,7 @@
     "name": "claude-opus-4-8",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3888,7 +4074,7 @@
     "name": "claude-opus-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -3953,7 +4139,7 @@
     "name": "claude-sonnet-4-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4018,7 +4204,7 @@
     "name": "claude-sonnet-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4090,7 +4276,7 @@
     "name": "clip_vit_b_32_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4181,7 +4367,7 @@
     "name": "ConvNext-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4272,7 +4458,7 @@
     "name": "damoyolo_tinynasL35_M",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4375,7 +4561,7 @@
     "name": "DeepSeek: DeepSeek V4 Pro",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4487,7 +4673,7 @@
     "name": "Depth-Anything",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4574,7 +4760,7 @@
     "name": "depth_anything_vits",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4662,7 +4848,7 @@
     "name": "DETR-ResNet50-DC5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4766,7 +4952,7 @@
     "name": "EdgeTAM",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4860,7 +5046,7 @@
     "name": "efficientnet_l",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -4952,7 +5138,7 @@
     "name": "EfficientViT-l2-cls",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5044,7 +5230,7 @@
     "name": "espcn_x2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5134,7 +5320,7 @@
     "name": "Facial-Landmark-Detection",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5223,7 +5409,7 @@
     "name": "fast_sam_s",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5312,7 +5498,7 @@
     "name": "FFNet-54S",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5420,7 +5606,7 @@
     "name": "Gemma-4-E2B-it",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5537,7 +5723,7 @@
     "name": "Google: Gemini 3.1 Flash Lite",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5629,7 +5815,7 @@
     "name": "gpt-4.1",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5694,7 +5880,7 @@
     "name": "gpt-4.1-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5759,7 +5945,7 @@
     "name": "gpt-4o",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5824,7 +6010,7 @@
     "name": "gpt-4o-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5889,7 +6075,7 @@
     "name": "gpt-5",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -5954,7 +6140,7 @@
     "name": "gpt-5-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6033,7 +6219,7 @@
     "name": "GR00TN1.5",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6119,7 +6305,7 @@
     "name": "hailo_yolov8s_480_640",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6216,7 +6402,7 @@
     "name": "IBM: Granite 4.1 8B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6329,7 +6515,7 @@
     "name": "IndusQ-1.1B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6423,7 +6609,7 @@
     "name": "levit384",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6511,7 +6697,7 @@
     "name": "Llama-SEA-LION-v3.5-8B-R",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6605,7 +6791,7 @@
     "name": "Mask2Former",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6709,7 +6895,7 @@
     "name": "MeloTTS-EN",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6828,7 +7014,7 @@
     "name": "Mistral: Mistral Medium 3.5",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -6940,7 +7126,7 @@
     "name": "MNASNet05",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7032,7 +7218,7 @@
     "name": "mobilenet_v3",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7121,7 +7307,7 @@
     "name": "MobileSam",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7203,7 +7389,7 @@
     "name": "o3",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7268,7 +7454,7 @@
     "name": "o4-mini",
     "provenance": {
       "discovered_by": "Official SDK Model Definitions",
-      "fetched_at": "2026-08-26T19:02:48.874839+00:00",
+      "fetched_at": "2026-08-27T09:09:37.254553+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7352,7 +7538,7 @@
     "name": "OpenAI-Clip",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7461,7 +7647,7 @@
     "name": "Owl Alpha",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7569,7 +7755,7 @@
     "name": "OWL-V2",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7658,7 +7844,7 @@
     "name": "paddle_ocr_v5_mobile_detection",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7752,7 +7938,7 @@
     "name": "Perceptron: Perceptron Mk1",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7865,7 +8051,7 @@
     "name": "PiperTTS-IT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -7972,7 +8158,7 @@
     "name": "QuickSRNetSmall",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8073,7 +8259,7 @@
     "name": "Qwen3.5-0.8B",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8182,7 +8368,7 @@
     "name": "Qwen: Qwen3.5 Plus 2026-04-20",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8305,7 +8491,7 @@
     "name": "Qwen: Qwen3.6 27B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8434,7 +8620,7 @@
     "name": "Qwen: Qwen3.6 35B A3B",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8555,7 +8741,7 @@
     "name": "Qwen: Qwen3.6 Flash",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8670,7 +8856,7 @@
     "name": "Qwen: Qwen3.6 Max Preview",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8777,7 +8963,7 @@
     "name": "Real-ESRGAN-General-x4v3",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8866,7 +9052,7 @@
     "name": "regnetx_800mf",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -8951,7 +9137,7 @@
     "name": "ResNet34-SSD",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9036,7 +9222,7 @@
     "name": "resnet_v1_34",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9122,7 +9308,7 @@
     "name": "RF-DETR",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9208,7 +9394,7 @@
     "name": "scrfd_10g_nv12_fhd",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9302,7 +9488,7 @@
     "name": "Segformer-Base",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9395,7 +9581,7 @@
     "name": "siglip_b_16_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9480,7 +9666,7 @@
     "name": "SixDRepNet",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9565,7 +9751,7 @@
     "name": "stereonet",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9656,7 +9842,7 @@
     "name": "Swin-Small",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9747,7 +9933,7 @@
     "name": "tinyclip_vit_39m_16_text_19m_yfcc15m_image_encoder",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9825,7 +10011,7 @@
     "name": "unet_mobilenet_v2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -9919,7 +10105,7 @@
     "name": "VIT",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10012,7 +10198,7 @@
     "name": "vit_tiny",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10099,7 +10285,7 @@
     "name": "Whisper-Small-Quantized",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10208,7 +10394,7 @@
     "name": "xAI: Grok 4.3",
     "provenance": {
       "discovered_by": "Models.dev GitHub Model Catalog",
-      "fetched_at": "2026-08-26T19:02:49.806115+00:00",
+      "fetched_at": "2026-08-27T09:09:38.163559+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10321,7 +10507,7 @@
     "name": "YOLO26-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10413,7 +10599,7 @@
     "name": "yolo26n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10492,7 +10678,7 @@
     "name": "yolov10x",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10584,7 +10770,7 @@
     "name": "YOLOv11-Segmentation",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10676,7 +10862,7 @@
     "name": "yolov11s_obb",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10755,7 +10941,7 @@
     "name": "yolov4_leaky",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10834,7 +11020,7 @@
     "name": "yolov5m_vehicles_yuy2",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10913,7 +11099,7 @@
     "name": "yolov5s_c3tr",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -10992,7 +11178,7 @@
     "name": "yolov6n",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11086,7 +11272,7 @@
     "name": "YOLOv8-OBB",
     "provenance": {
       "discovered_by": "Qualcomm AI Hub Models",
-      "fetched_at": "2026-08-26T19:03:25.697569+00:00",
+      "fetched_at": "2026-08-27T09:10:14.032743+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11180,7 +11366,7 @@
     "name": "yolov8m",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11259,7 +11445,7 @@
     "name": "yolov8s_seg",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11337,7 +11523,7 @@
     "name": "zero_dce_pp",
     "provenance": {
       "discovered_by": "Hailo Model Zoo",
-      "fetched_at": "2026-08-26T19:03:17.132096+00:00",
+      "fetched_at": "2026-08-27T09:10:05.099440+00:00",
       "observed_fields": {
         "categories": [
           "Models"
@@ -11426,7 +11612,7 @@
     "name": "1.30.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11535,7 +11721,7 @@
     "name": "5.0.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11652,7 +11838,7 @@
     "name": "5.0.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11726,9 +11912,9 @@
     "categories": [
       "News"
     ],
-    "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
+    "description": "What s Changed SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803 Support for new /parse endpoint Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0",
     "entity_type": "news",
-    "id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
+    "id": "e9ac83ab-21ac-5425-83d0-86a3e09e0b60",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -11742,32 +11928,32 @@
             "ai"
           ]
         },
-        "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
-        "created_at": "2026-08-19T10:56:35+00:00",
+        "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+        "created_at": "2026-08-26T21:09:55+00:00",
         "prerelease": false,
-        "published_at": "2026-08-19T10:59:07+00:00",
+        "published_at": "2026-08-26T21:35:00+00:00",
         "publisher": {
           "html_url": "https://github.com/cohere-ai",
           "login": "cohere-ai",
           "type": "Organization"
         },
-        "release_id": 372980471,
+        "release_id": 377436193,
         "repository": "cohere-ai/cohere-python",
         "subtype": "github_release_announcement",
-        "tag_name": "7.0.9",
+        "tag_name": "7.1.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "7.0.9",
+    "name": "7.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "What s Changed fix(utils): close streamed dataset responses by @OllieinCanada in https://github.com/cohere-ai/cohere-python/pull/799 Omit Authorization header when api key is empty by @fern-support in https://github.com/cohere-ai/cohere-python/pull/795 New Contributors @OllieinCanada made their first contribution in https://github.com/cohere-ai/cohere-python/pull/799 Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.8...7.0.9",
-        "name": "7.0.9",
+        "description": "What s Changed SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803 Support for new /parse endpoint Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0",
+        "name": "7.1.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "Python Library for Accessing the Cohere API",
@@ -11780,48 +11966,48 @@
               "ai"
             ]
           },
-          "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
-          "created_at": "2026-08-19T10:56:35+00:00",
+          "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+          "created_at": "2026-08-26T21:09:55+00:00",
           "prerelease": false,
-          "published_at": "2026-08-19T10:59:07+00:00",
+          "published_at": "2026-08-26T21:35:00+00:00",
           "publisher": {
             "html_url": "https://github.com/cohere-ai",
             "login": "cohere-ai",
             "type": "Organization"
           },
-          "release_id": 372980471,
+          "release_id": 377436193,
           "repository": "cohere-ai/cohere-python",
           "subtype": "github_release_announcement",
-          "tag_name": "7.0.9",
+          "tag_name": "7.1.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+        "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0"
       },
-      "source_record_id": "github:release:cohere-ai/cohere-python:372980471",
-      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
+      "source_record_id": "github:release:cohere-ai/cohere-python:377436193",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "7.0.9",
+          "input": "7.1.0",
           "operation": "normalize_name",
-          "output": "7 0 9",
+          "output": "7 1 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
+          "output": "news:url:https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193"
     },
-    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9"
+    "url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0"
   },
   {
     "categories": [
@@ -11866,7 +12052,7 @@
     "name": "Diffusers 0.39.0: New image and video pipelines, core library improvements, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -11975,7 +12161,7 @@
     "name": "Diffusers 0.40.0: New pipelines, tensor-parallel support, improved CLI, and more",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12080,7 +12266,7 @@
     "name": "python - v2.9.4 - 2026-08-21 18:06:04",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12190,7 +12376,7 @@
     "name": "Release v5.16.1",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12309,7 +12495,7 @@
     "name": "Release: v5.16.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12417,7 +12603,7 @@
     "name": "v1.1.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12515,7 +12701,7 @@
     "name": "v1.7.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
@@ -12580,9 +12766,9 @@
     "categories": [
       "News"
     ],
-    "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
+    "description": "3.5.0 (2026-08-27) Features api: make function call output call IDs optional ( 3738) (c74501d)",
     "entity_type": "news",
-    "id": "04ce93ed-5437-5a85-8551-324e8fac464c",
+    "id": "ecdd1df3-0c08-57bc-a919-30e07167dba3",
     "metadata": {
       "news": {
         "ai_relevance_evidence": {
@@ -12596,32 +12782,32 @@
             "openai"
           ]
         },
-        "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
-        "created_at": "2026-08-19T16:27:51+00:00",
+        "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
+        "created_at": "2026-08-27T00:56:50+00:00",
         "prerelease": false,
-        "published_at": "2026-08-19T16:30:47+00:00",
+        "published_at": "2026-08-27T01:00:03+00:00",
         "publisher": {
           "html_url": "https://github.com/openai",
           "login": "openai",
           "type": "Organization"
         },
-        "release_id": 373198010,
+        "release_id": 377505517,
         "repository": "openai/openai-python",
         "subtype": "github_release_announcement",
-        "tag_name": "v3.3.1",
+        "tag_name": "v3.5.0",
         "timestamp_semantics": "github_release_published_at"
       }
     },
-    "name": "v3.3.1",
+    "name": "v3.5.0",
     "provenance": {
       "discovered_by": "GitHub Releases Announcements",
-      "fetched_at": "2026-08-26T19:02:54.452372+00:00",
+      "fetched_at": "2026-08-27T09:09:42.425891+00:00",
       "observed_fields": {
         "categories": [
           "News"
         ],
-        "description": "3.3.1 (2026-08-19) Bug Fixes deps: update dependencies with published security fixes ( 3680) (53aa4fc) Chores build: migrate to uv ( 3653) (b37e85d) deps: remove jsonschema and unused fixture-validation dependencies (0dfdfdd) lock the repository Pyright toolchain ( 3678) (3079be2) run the mock server from locked local tooling ( 3679) (370fcc6) Refactors deps: use the standard library for platform detection (d5b0065) Build System replace the external README metadata hook (e673ca8)",
-        "name": "v3.3.1",
+        "description": "3.5.0 (2026-08-27) Features api: make function call output call IDs optional ( 3738) (c74501d)",
+        "name": "v3.5.0",
         "news": {
           "ai_relevance_evidence": {
             "excerpt": "The official Python library for the OpenAI API",
@@ -12634,48 +12820,48 @@
               "openai"
             ]
           },
-          "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.3.1",
-          "created_at": "2026-08-19T16:27:51+00:00",
+          "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
+          "created_at": "2026-08-27T00:56:50+00:00",
           "prerelease": false,
-          "published_at": "2026-08-19T16:30:47+00:00",
+          "published_at": "2026-08-27T01:00:03+00:00",
           "publisher": {
             "html_url": "https://github.com/openai",
             "login": "openai",
             "type": "Organization"
           },
-          "release_id": 373198010,
+          "release_id": 377505517,
           "repository": "openai/openai-python",
           "subtype": "github_release_announcement",
-          "tag_name": "v3.3.1",
+          "tag_name": "v3.5.0",
           "timestamp_semantics": "github_release_published_at"
         },
-        "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.5.0"
       },
-      "source_record_id": "github:release:openai/openai-python:373198010",
-      "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010",
+      "source_record_id": "github:release:openai/openai-python:377505517",
+      "source_url": "https://api.github.com/repos/openai/openai-python/releases/377505517",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "v3.3.1",
+          "input": "v3.5.0",
           "operation": "normalize_name",
-          "output": "v3 3 1",
+          "output": "v3 5 0",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "news:url:https://github.com/openai/openai-python/releases/tag/v3.3.1",
+          "output": "news:url:https://github.com/openai/openai-python/releases/tag/v3.5.0",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+      "url": "https://api.github.com/repos/openai/openai-python/releases/377505517"
     },
-    "url": "https://github.com/openai/openai-python/releases/tag/v3.3.1"
+    "url": "https://github.com/openai/openai-python/releases/tag/v3.5.0"
   },
   {
     "categories": [
@@ -12703,7 +12889,7 @@
     "name": "30characters",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12778,7 +12964,7 @@
     "name": "3d-ai-studio",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12853,7 +13039,7 @@
     "name": "adbot-your-search-ads-specialist",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -12928,7 +13114,7 @@
     "name": "adcopy-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13003,7 +13189,7 @@
     "name": "adgeneratorpro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13078,7 +13264,7 @@
     "name": "ai-suggests",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13153,7 +13339,7 @@
     "name": "aihouse-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13228,7 +13414,7 @@
     "name": "alpha3d-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13303,7 +13489,7 @@
     "name": "avaturn-me",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13378,7 +13564,7 @@
     "name": "azameo-fr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13453,7 +13639,7 @@
     "name": "backflip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13528,7 +13714,7 @@
     "name": "blobr",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13603,7 +13789,7 @@
     "name": "cgdream-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13678,7 +13864,7 @@
     "name": "copycop",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13753,7 +13939,7 @@
     "name": "copyflow-pro",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13828,7 +14014,7 @@
     "name": "copywritergpt-io",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13903,7 +14089,7 @@
     "name": "csm",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -13978,7 +14164,7 @@
     "name": "engagexai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14053,7 +14239,7 @@
     "name": "ezra-ads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14130,7 +14316,7 @@
     "name": "freeadcopy-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14207,7 +14393,7 @@
     "name": "isavantai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14282,7 +14468,7 @@
     "name": "kaedim",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14357,7 +14543,7 @@
     "name": "kilo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14432,7 +14618,7 @@
     "name": "ludo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14507,7 +14693,7 @@
     "name": "luma-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14582,7 +14768,7 @@
     "name": "macbeth-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14657,7 +14843,7 @@
     "name": "mappedin-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14732,7 +14918,7 @@
     "name": "marpipe-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14807,7 +14993,7 @@
     "name": "meshy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14883,7 +15069,7 @@
     "name": "modelslab-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -14959,7 +15145,7 @@
     "name": "ogilvy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15034,7 +15220,7 @@
     "name": "omneky",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15109,7 +15295,7 @@
     "name": "pageon-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15184,7 +15370,7 @@
     "name": "pencil",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15259,7 +15445,7 @@
     "name": "pixcanva",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15334,7 +15520,7 @@
     "name": "planner-5d",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15409,7 +15595,7 @@
     "name": "powered-by-agency",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15484,7 +15670,7 @@
     "name": "quickads",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15559,7 +15745,7 @@
     "name": "rodin",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15634,7 +15820,7 @@
     "name": "rosebud",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15709,7 +15895,7 @@
     "name": "runcomfy",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15784,7 +15970,7 @@
     "name": "salesboosta-com",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15859,7 +16045,7 @@
     "name": "scrip-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -15934,7 +16120,7 @@
     "name": "sloyd",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16009,7 +16195,7 @@
     "name": "tripo-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16084,7 +16270,7 @@
     "name": "unbound",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16159,7 +16345,7 @@
     "name": "vizcom",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16235,7 +16421,7 @@
     "name": "wonderchat",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16311,7 +16497,7 @@
     "name": "wordcopyai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16386,7 +16572,7 @@
     "name": "write-conch-ai",
     "provenance": {
       "discovered_by": "AI Tools List Product Directory",
-      "fetched_at": "2026-08-26T19:02:49.423622+00:00",
+      "fetched_at": "2026-08-27T09:09:37.657879+00:00",
       "observed_fields": {
         "categories": [
           "Products"
@@ -16449,9 +16635,9 @@
       "repository": {
         "created_at": "2022-12-05T13:54:13Z",
         "full_name": "f/prompts.chat",
-        "last_updated_timestamp": "2026-08-26T19:02:34Z",
+        "last_updated_timestamp": "2026-08-27T09:05:47Z",
         "primary_language": "HTML",
-        "stars": 167955,
+        "stars": 168037,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -16477,7 +16663,7 @@
     "name": "f/prompts.chat",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16490,9 +16676,9 @@
         "repository": {
           "created_at": "2022-12-05T13:54:13Z",
           "full_name": "f/prompts.chat",
-          "last_updated_timestamp": "2026-08-26T19:02:34Z",
+          "last_updated_timestamp": "2026-08-27T09:05:47Z",
           "primary_language": "HTML",
-          "stars": 167955,
+          "stars": 168037,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -16553,9 +16739,9 @@
       "repository": {
         "created_at": "2023-09-24T13:19:31Z",
         "full_name": "hacksider/Deep-Live-Cam",
-        "last_updated_timestamp": "2026-08-26T18:29:09Z",
+        "last_updated_timestamp": "2026-08-27T09:07:57Z",
         "primary_language": "Python",
-        "stars": 96131,
+        "stars": 96150,
         "topics": [
           "ai",
           "ai-deep-fake",
@@ -16581,7 +16767,7 @@
     "name": "hacksider/Deep-Live-Cam",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Repositories"
@@ -16591,9 +16777,9 @@
         "repository": {
           "created_at": "2023-09-24T13:19:31Z",
           "full_name": "hacksider/Deep-Live-Cam",
-          "last_updated_timestamp": "2026-08-26T18:29:09Z",
+          "last_updated_timestamp": "2026-08-27T09:07:57Z",
           "primary_language": "Python",
-          "stars": 96131,
+          "stars": 96150,
           "topics": [
             "ai",
             "ai-deep-fake",
@@ -16655,9 +16841,9 @@
       "repository": {
         "created_at": "2023-07-23T18:15:57Z",
         "full_name": "rasbt/LLMs-from-scratch",
-        "last_updated_timestamp": "2026-08-26T18:59:53Z",
+        "last_updated_timestamp": "2026-08-27T09:03:59Z",
         "primary_language": "Jupyter Notebook",
-        "stars": 103842,
+        "stars": 103878,
         "topics": [
           "ai",
           "artificial-intelligence",
@@ -16684,7 +16870,7 @@
     "name": "rasbt/LLMs-from-scratch",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16695,9 +16881,9 @@
         "repository": {
           "created_at": "2023-07-23T18:15:57Z",
           "full_name": "rasbt/LLMs-from-scratch",
-          "last_updated_timestamp": "2026-08-26T18:59:53Z",
+          "last_updated_timestamp": "2026-08-27T09:03:59Z",
           "primary_language": "Jupyter Notebook",
-          "stars": 103842,
+          "stars": 103878,
           "topics": [
             "ai",
             "artificial-intelligence",
@@ -16760,9 +16946,9 @@
       "repository": {
         "created_at": "2023-03-16T09:21:07Z",
         "full_name": "Significant-Gravitas/AutoGPT",
-        "last_updated_timestamp": "2026-08-26T18:46:20Z",
+        "last_updated_timestamp": "2026-08-27T08:49:16Z",
         "primary_language": "Python",
-        "stars": 186888,
+        "stars": 186918,
         "topics": [
           "agentic-ai",
           "agents",
@@ -16781,7 +16967,7 @@
     "name": "Significant-Gravitas/AutoGPT",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16792,9 +16978,9 @@
         "repository": {
           "created_at": "2023-03-16T09:21:07Z",
           "full_name": "Significant-Gravitas/AutoGPT",
-          "last_updated_timestamp": "2026-08-26T18:46:20Z",
+          "last_updated_timestamp": "2026-08-27T08:49:16Z",
           "primary_language": "Python",
-          "stars": 186888,
+          "stars": 186918,
           "topics": [
             "agentic-ai",
             "agents",
@@ -16850,9 +17036,9 @@
       "repository": {
         "created_at": "2025-08-31T20:50:03Z",
         "full_name": "thedotmack/claude-mem",
-        "last_updated_timestamp": "2026-08-26T18:43:42Z",
+        "last_updated_timestamp": "2026-08-27T08:49:42Z",
         "primary_language": "JavaScript",
-        "stars": 91923,
+        "stars": 91986,
         "topics": [
           "ai",
           "ai-agents",
@@ -16880,7 +17066,7 @@
     "name": "thedotmack/claude-mem",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Repositories",
@@ -16892,9 +17078,9 @@
         "repository": {
           "created_at": "2025-08-31T20:50:03Z",
           "full_name": "thedotmack/claude-mem",
-          "last_updated_timestamp": "2026-08-26T18:43:42Z",
+          "last_updated_timestamp": "2026-08-27T08:49:42Z",
           "primary_language": "JavaScript",
-          "stars": 91923,
+          "stars": 91986,
           "topics": [
             "ai",
             "ai-agents",
@@ -16979,7 +17165,7 @@
     "name": "Allegro Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17071,7 +17257,7 @@
     "name": "AMIGO",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17163,7 +17349,7 @@
     "name": "AsTec Pelican and Hummingbird",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17252,7 +17438,7 @@
     "name": "Barrett Hand",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17343,7 +17529,7 @@
     "name": "BipedRobin",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17434,7 +17620,7 @@
     "name": "BlueROV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17532,7 +17718,7 @@
     "name": "Clearpath Husky UGV",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17636,7 +17822,7 @@
     "name": "Crazyflie",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17733,7 +17919,7 @@
     "name": "Erle-Copter",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17839,7 +18025,7 @@
     "name": "Innok Heros",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -17945,7 +18131,7 @@
     "name": "Nao",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18042,7 +18228,7 @@
     "name": "Oculus Prime",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18143,7 +18329,7 @@
     "name": "PR2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18239,7 +18425,7 @@
     "name": "Segway RMPv3",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18335,7 +18521,7 @@
     "name": "TurtleBot2",
     "provenance": {
       "discovered_by": "ROS Robots Catalog",
-      "fetched_at": "2026-08-26T19:02:52.387772+00:00",
+      "fetched_at": "2026-08-27T09:09:40.704073+00:00",
       "observed_fields": {
         "categories": [
           "Robots"
@@ -18416,7 +18602,7 @@
     "name": "AI application observability",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18477,7 +18663,7 @@
     "name": "autonomous agent workflows",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18538,7 +18724,7 @@
     "name": "chatbot applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18599,7 +18785,7 @@
     "name": "creative media generation",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18660,7 +18846,7 @@
     "name": "filesystem access",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18721,7 +18907,7 @@
     "name": "large language model applications",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18782,7 +18968,7 @@
     "name": "machine learning",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18843,7 +19029,7 @@
     "name": "persistent memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18904,7 +19090,7 @@
     "name": "problem solving",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -18965,7 +19151,7 @@
     "name": "source code repository automation",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:03:37.970007+00:00",
+      "fetched_at": "2026-08-27T09:10:27.044389+00:00",
       "observed_fields": {
         "categories": [
           "Tasks"
@@ -19059,7 +19245,7 @@
     "name": "@chat-adapter/slack",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19182,7 +19368,7 @@
     "name": "@earendil-works/pi-ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19305,7 +19491,7 @@
     "name": "@langchain/core",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19433,7 +19619,7 @@
     "name": "@langchain/openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19555,7 +19741,7 @@
     "name": "@opentelemetry/instrumentation-openai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19733,7 +19919,7 @@
     "name": "@promptbook/utils",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -19921,7 +20107,7 @@
     "name": "@saintno/comfyui-sdk",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20076,7 +20262,7 @@
     "name": "@sogni-ai/sogni-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20240,7 +20426,7 @@
     "name": "@sogni-ai/sogni-intelligence-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20390,7 +20576,7 @@
     "name": "@stable-canvas/comfyui-client",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -20534,17 +20720,17 @@
           "npm": "https://www.npmjs.com/package/ai",
           "repository": "https://github.com/vercel/ai"
         },
-        "package_date": "2026-08-25T03:21:00.757Z",
+        "package_date": "2026-08-26T22:50:47.587Z",
         "package_name": "ai",
         "query": "keywords:openai",
-        "updated": "2026-08-26T18:10:33.393Z",
-        "version": "7.0.79"
+        "updated": "2026-08-26T22:51:37.080Z",
+        "version": "7.0.83"
       }
     },
     "name": "ai",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20602,11 +20788,11 @@
             "npm": "https://www.npmjs.com/package/ai",
             "repository": "https://github.com/vercel/ai"
           },
-          "package_date": "2026-08-25T03:21:00.757Z",
+          "package_date": "2026-08-26T22:50:47.587Z",
           "package_name": "ai",
           "query": "keywords:openai",
-          "updated": "2026-08-26T18:10:33.393Z",
-          "version": "7.0.79"
+          "updated": "2026-08-26T22:51:37.080Z",
+          "version": "7.0.83"
         },
         "url": "https://www.npmjs.com/package/ai"
       },
@@ -20658,7 +20844,7 @@
     "name": "anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20765,7 +20951,7 @@
     "name": "chat",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20896,17 +21082,17 @@
           "npm": "https://www.npmjs.com/package/eve",
           "repository": "git+https://github.com/vercel/eve.git"
         },
-        "package_date": "2026-08-26T18:50:16.508Z",
+        "package_date": "2026-08-26T22:07:28.085Z",
         "package_name": "eve",
         "query": "keywords:ai-sdk",
-        "updated": "2026-08-26T18:50:47.661Z",
-        "version": "0.45.1"
+        "updated": "2026-08-26T22:07:59.267Z",
+        "version": "0.45.2"
       }
     },
     "name": "eve",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -20951,11 +21137,11 @@
             "npm": "https://www.npmjs.com/package/eve",
             "repository": "git+https://github.com/vercel/eve.git"
           },
-          "package_date": "2026-08-26T18:50:16.508Z",
+          "package_date": "2026-08-26T22:07:28.085Z",
           "package_name": "eve",
           "query": "keywords:ai-sdk",
-          "updated": "2026-08-26T18:50:47.661Z",
-          "version": "0.45.1"
+          "updated": "2026-08-26T22:07:59.267Z",
+          "version": "0.45.2"
         },
         "url": "https://www.npmjs.com/package/eve"
       },
@@ -21038,7 +21224,7 @@
     "name": "g4f",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21130,7 +21316,7 @@
     "name": "GitHub API",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21191,7 +21377,7 @@
     "name": "groq",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21288,7 +21474,7 @@
     "name": "langchain",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21384,7 +21570,7 @@
     "name": "mistralai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21483,7 +21669,7 @@
     "name": "ollama-ai-provider-v2",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21577,13 +21763,13 @@
           "Repository": "https://github.com/openai/openai-python"
         },
         "requires_python": ">=3.10",
-        "version": "3.3.1"
+        "version": "3.5.0"
       }
     },
     "name": "openai",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21598,7 +21784,7 @@
             "Repository": "https://github.com/openai/openai-python"
           },
           "requires_python": ">=3.10",
-          "version": "3.3.1"
+          "version": "3.5.0"
         },
         "url": "https://pypi.org/project/openai"
       },
@@ -21693,7 +21879,7 @@
     "name": "tokenlens",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools"
@@ -21831,7 +22017,7 @@
     "name": "A Distributed Stateful Dataloader for Large-Scale Pretraining",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -21962,7 +22148,7 @@
     "name": "Accelerating Explorations in Vision and Multimodal AI Using Pytorch Libraries",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22099,7 +22285,7 @@
     "name": "Accelerating Generative AI",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22231,7 +22417,7 @@
     "name": "Bridging IoT and Machine Learning with Python for Sustainable Agriculture",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22362,7 +22548,7 @@
     "name": "Build Your Own Data Science AI Agents",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22493,7 +22679,7 @@
     "name": "Building FPGA-based Machine Learning Accelerators in Python",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22626,7 +22812,7 @@
     "name": "Building PyTorch Computer Vision Algorithms for 100 Skin Shades",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22764,7 +22950,7 @@
     "name": "Building Scalable AI Tool Servers with Model Context Protocol (MCP) and Heroku (Sponsor: Heroku)",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -22895,7 +23081,7 @@
     "name": "Clasificación de violencia mediante análisis de audio y embeddings",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23020,7 +23206,7 @@
     "name": "Vector space embeddings and data maps for cyber defense",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23146,7 +23332,7 @@
     "name": "Versioning Multimodal Data: Metadata & Beyond",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"
@@ -23273,7 +23459,7 @@
     "name": "Warp: Advancing Simulation AI with Differentiable GPU Computing in Python",
     "provenance": {
       "discovered_by": "PyVideo Catalog",
-      "fetched_at": "2026-08-26T19:03:02.421332+00:00",
+      "fetched_at": "2026-08-27T09:09:51.235462+00:00",
       "observed_fields": {
         "categories": [
           "Videos"

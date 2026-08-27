@@ -771,25 +771,6 @@
   {
     "confidence": 1.0,
     "evidence": {
-      "field": "repository.owner.login",
-      "release_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.0.9",
-      "repository": "cohere-ai/cohere-python",
-      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471",
-      "value": "cohere-ai"
-    },
-    "id": "478f7d9c-c0dc-54bf-a173-76af7265ce01",
-    "method": "github_release_publisher",
-    "relationship_type": "published_by",
-    "source": {
-      "name": "GitHub Releases Announcements",
-      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
-    },
-    "source_entity_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
-    "target_entity_id": "e084e577-fb5d-5b24-8150-6625cd1f34d8"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
       "observed_field": "info.supported_hw_arch",
       "observed_value": [
         "hailo15h",
@@ -1397,6 +1378,25 @@
     },
     "source_entity_id": "040ed4bd-6718-57ce-a8b6-e10bb19f231a",
     "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
+  },
+  {
+    "confidence": 1.0,
+    "evidence": {
+      "field": "repository.owner.login",
+      "release_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+      "repository": "cohere-ai/cohere-python",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193",
+      "value": "cohere-ai"
+    },
+    "id": "6deb6166-3c68-5b9b-bd68-f4f089d3e946",
+    "method": "github_release_publisher",
+    "relationship_type": "published_by",
+    "source": {
+      "name": "GitHub Releases Announcements",
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193"
+    },
+    "source_entity_id": "e9ac83ab-21ac-5425-83d0-86a3e09e0b60",
+    "target_entity_id": "e084e577-fb5d-5b24-8150-6625cd1f34d8"
   },
   {
     "confidence": 1.0,
@@ -2315,23 +2315,6 @@
     },
     "source_entity_id": "0e1d7d40-0b2b-5178-a1fe-8b1e83189d13",
     "target_entity_id": "846b84b5-5a4f-5a40-ada1-f9b4c24bdaf5"
-  },
-  {
-    "confidence": 1.0,
-    "evidence": {
-      "observed_value": "agent",
-      "reason": "controlled task mapping from observed source metadata",
-      "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
-    },
-    "id": "e20a8be7-f3ab-504a-bf64-63b14921dfd1",
-    "method": "task_mapping:description_phrase",
-    "relationship_type": "solves",
-    "source": {
-      "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/pi-mcp-adapter"
-    },
-    "source_entity_id": "476facb8-073c-50f8-a741-9cefc975e273",
-    "target_entity_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7"
   },
   {
     "confidence": 1.0,
