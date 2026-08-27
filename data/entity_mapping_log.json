@@ -310,6 +310,16 @@
     "source_url": "https://registry.npmjs.org/@promptbook%2Futils"
   },
   {
+    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
+    "canonical_value": "@chat-adapter/slack",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@chat-adapter/slack",
+    "raw_value": "@chat-adapter/slack",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
+  },
+  {
     "canonical_id": "ea3b0642-7e26-5203-8260-42cc3fa89403",
     "canonical_value": "ollama-ai-provider-v2",
     "confidence": 1.0,
@@ -338,16 +348,6 @@
     "raw_value": "tokenlens",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/tokenlens"
-  },
-  {
-    "canonical_id": "f28fbbbf-b527-5e38-8e0b-d5a42df85aae",
-    "canonical_value": "@chat-adapter/slack",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@chat-adapter/slack",
-    "raw_value": "@chat-adapter/slack",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@chat-adapter%2Fslack"
   },
   {
     "canonical_id": "89149bd0-0274-5095-a797-d4dc94a71d03",
@@ -380,16 +380,6 @@
     "source_url": "https://registry.npmjs.org/@stable-canvas%2Fcomfyui-client"
   },
   {
-    "canonical_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
-    "canonical_value": "@sogni-ai/sogni-client",
-    "confidence": 1.0,
-    "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@sogni-ai/sogni-client",
-    "raw_value": "@sogni-ai/sogni-client",
-    "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
-  },
-  {
     "canonical_id": "b0dba8e0-dbf6-53a0-8a74-b55a82b9062c",
     "canonical_value": "@sogni-ai/sogni-intelligence-client",
     "confidence": 1.0,
@@ -398,6 +388,16 @@
     "raw_value": "@sogni-ai/sogni-intelligence-client",
     "reason": "same normalized URL",
     "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-intelligence-client"
+  },
+  {
+    "canonical_id": "20fce795-fd39-5b87-85f7-ddf787d3688a",
+    "canonical_value": "@sogni-ai/sogni-client",
+    "confidence": 1.0,
+    "method": "canonical_url",
+    "raw_source_key": "npm-search:package:@sogni-ai/sogni-client",
+    "raw_value": "@sogni-ai/sogni-client",
+    "reason": "same normalized URL",
+    "source_url": "https://registry.npmjs.org/@sogni-ai%2Fsogni-client"
   },
   {
     "canonical_id": "15c7c703-213a-54e9-8672-bd5e953b6224",
@@ -420,14 +420,14 @@
     "source_url": "https://registry.npmjs.org/agent-install"
   },
   {
-    "canonical_id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
-    "canonical_value": "@langchain/mcp-adapters",
+    "canonical_id": "48d46616-f095-5769-afee-56f3c79a2888",
+    "canonical_value": "mcporter",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:@langchain/mcp-adapters",
-    "raw_value": "@langchain/mcp-adapters",
+    "raw_source_key": "npm-search:package:mcporter",
+    "raw_value": "mcporter",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
+    "source_url": "https://registry.npmjs.org/mcporter"
   },
   {
     "canonical_id": "bd4bc630-c8b8-5d7e-9b2d-f4d8f1298596",
@@ -450,14 +450,14 @@
     "source_url": "https://registry.npmjs.org/@lovable.dev%2Fmcp-js"
   },
   {
-    "canonical_id": "476facb8-073c-50f8-a741-9cefc975e273",
-    "canonical_value": "pi-mcp-adapter",
+    "canonical_id": "9bb1b120-e6e2-51b3-8c8c-190b6858e36d",
+    "canonical_value": "@langchain/mcp-adapters",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "npm-search:package:pi-mcp-adapter",
-    "raw_value": "pi-mcp-adapter",
+    "raw_source_key": "npm-search:package:@langchain/mcp-adapters",
+    "raw_value": "@langchain/mcp-adapters",
     "reason": "same normalized URL",
-    "source_url": "https://registry.npmjs.org/pi-mcp-adapter"
+    "source_url": "https://registry.npmjs.org/@langchain%2Fmcp-adapters"
   },
   {
     "canonical_id": "f9e08aa7-9365-591f-bf84-f2fa83b8289a",
@@ -1440,14 +1440,14 @@
     "source_url": "https://api.github.com/repos/huggingface/datasets/releases/361026946"
   },
   {
-    "canonical_id": "ffccea17-fa5b-5973-b19a-d3ded3b2749d",
-    "canonical_value": "7.0.9",
+    "canonical_id": "e9ac83ab-21ac-5425-83d0-86a3e09e0b60",
+    "canonical_value": "7.1.0",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "github:release:cohere-ai/cohere-python:372980471",
-    "raw_value": "7.0.9",
+    "raw_source_key": "github:release:cohere-ai/cohere-python:377436193",
+    "raw_value": "7.1.0",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/372980471"
+    "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193"
   },
   {
     "canonical_id": "3a203a91-2444-5759-9403-813128744653",
@@ -1470,14 +1470,14 @@
     "source_url": "https://api.github.com/repos/mistralai/client-python/releases/374583539"
   },
   {
-    "canonical_id": "04ce93ed-5437-5a85-8551-324e8fac464c",
-    "canonical_value": "v3.3.1",
+    "canonical_id": "ecdd1df3-0c08-57bc-a919-30e07167dba3",
+    "canonical_value": "v3.5.0",
     "confidence": 1.0,
     "method": "canonical_url",
-    "raw_source_key": "github:release:openai/openai-python:373198010",
-    "raw_value": "v3.3.1",
+    "raw_source_key": "github:release:openai/openai-python:377505517",
+    "raw_value": "v3.5.0",
     "reason": "same normalized URL",
-    "source_url": "https://api.github.com/repos/openai/openai-python/releases/373198010"
+    "source_url": "https://api.github.com/repos/openai/openai-python/releases/377505517"
   },
   {
     "canonical_id": "975a45d1-f64f-563d-b143-fd2c5e787e9f",
@@ -2458,6 +2458,26 @@
     "raw_value": "YOLOv8-OBB",
     "reason": "same normalized URL",
     "source_url": "https://api.github.com/repos/qualcomm/ai-hub-models/contents/src/qai_hub_models/models/yolov8_obb/manifest.yaml"
+  },
+  {
+    "canonical_id": "ae36991c-ef31-5015-ad0b-29c783d4be37",
+    "canonical_value": "Qualcomm",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "sp500:company:qcom",
+    "raw_value": "Qualcomm",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
+  },
+  {
+    "canonical_id": "7033f343-4936-5091-a5c5-ce3ef4804504",
+    "canonical_value": "IBM",
+    "confidence": 0.92,
+    "method": "normalized_name",
+    "raw_source_key": "sp500:company:ibm",
+    "raw_value": "IBM",
+    "reason": "same normalized name after suffix/alias normalization",
+    "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
   },
   {
     "canonical_id": "b98f362b-e397-58a4-a93b-d7a3f13166b7",

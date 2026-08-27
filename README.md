@@ -54,24 +54,25 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run.py
 
 Current generated artifacts report:
 
-- valid entities: `252`
-- valid relationships: `135`
+- valid entities: `254`
+- valid relationships: `134`
 - validation status: `passed`
 - validation failures: `0`
 - rejected records: `0`
 - provenance coverage: `100%`
 - recorded source failures: `15`
 - duplicate/shared URL warnings: `4`
-- test result: `142 passed`
-- relationship types produced: `develops` (20), `solves` (27), `published_by` (10), `integrates_with` (1), `runs` (77)
+- test result: `155 passed`
+- relationship types produced: `develops` (20), `solves` (26), `published_by` (10), `integrates_with` (1), `runs` (77)
+- company metadata completeness: founding year / industry sector / headquarters populated for `2/9` companies (IBM, Qualcomm) from the S&P 500 dataset; the other seven remain `null` because no reachable source supplies those fields
 
-This is still an assessment vertical slice / early expansion, not the final 250–300 record representative corpus.
+The record count is inside the assessment's 250–300 quality target. Remaining work is metadata, relationship, and blocked-category quality, not row-count expansion.
 
 ## Verification status labels
 
-- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, Qualcomm AI Hub Models catalog ingestion, ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
+- **LIVE VERIFIED**: The current AI Orbit run has live-verified GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definition ingestion, AI Tools List product-directory ingestion, Models.dev GitHub model-catalog ingestion, Qualcomm AI Hub Models catalog ingestion, S&P 500 company-metadata enrichment (IBM + Qualcomm founding year / GICS sector / headquarters), ROS Robots Catalog ingestion, GitHub Releases announcement (News) ingestion, PyVideo conference-talk (Videos) ingestion, AI device catalog (Devices) ingestion, and Hailo Model Zoo ingestion (Devices + Models + `Device → runs → Model`). The latest executed run produced the counts above.
 - **IMPLEMENTED BUT NOT LIVE-VERIFIED**: No additional accepted AI Orbit source adapter is claimed beyond the sources listed as live verified. Candidate probes may be implemented without accepted records.
-- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, Qualcomm AI Hub manifest parsing/provider derivation, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
+- **UNIT/MOCK TESTED**: HTTP retry boundaries, source failure isolation, entity normalization/resolution, validation behavior, official SDK literal parsing, NPM relevance filtering, NPM category quality gates, Product quality gates, Models.dev metadata filtering, Qualcomm AI Hub manifest parsing/provider derivation, S&P 500 founding-year parsing and org↔constituent matching, ROS robot catalog filtering, Hailo model-zoo YAML parsing/compatibility-edge extraction, and task mapping guardrails are covered by automated tests.
 - **PLANNED**: Broader product coverage beyond the bounded sample, plus jobs and personal records remain planned until a source proves the required identity and timestamp/metadata fields. News is live-verified via GitHub Releases announcements, Videos via the PyVideo conference-talk catalog, Devices via the AI device catalog and the Hailo model zoo, and `Device → runs → Model` via the Hailo model zoo's explicit `info.supported_hw_arch` declarations; jobs and personal remain blocked — the reachable GitHub-hosted candidates were rejected on timestamp semantics (jobs: `date_posted` = "when added", not employer posting time) and identity (personal: an awesome list of open-source frameworks/tools, not personal-assistant products).
 - **ARCHITECTURAL TARGET**: The long-term 250–300 record representative corpus remains a quality target, not a row-count target; no synthetic data is used to fill gaps.
 
@@ -268,6 +269,23 @@ Entity resolution is therefore **implemented and tested for the current vertical
 - Does **not** supply per-model release timestamps; none is fabricated. `fetched_at` remains provenance-only.
 - Does **not** emit `Device → runs → Model` edges: the per-model manifests declare no explicit supported-device list (the catalog's `devices_and_chipsets.yaml` lists chipsets/devices but supplies no per-chipset canonical URL), so no compatibility edge is inferred.
 
+#### S&P 500 Companies Dataset (company metadata)
+
+- Access: GitHub REST contents API for `datasets/s-and-p-500-companies` `data/constituents.csv`.
+- Used for: founding year, GICS industry sector, and headquarters on company records whose official GitHub organization already matches a constituent. The full 503-row index is **not** ingested.
+- Why this source: the specification requires company founding year, industry sector, and headquarters. GitHub org payloads do not supply those fields. Wikidata, ROR, and Wikipedia failed at TLS in this environment. The S&P datapackage documents `Founded`, `GICS Sector`, and `Headquarters Location` explicitly.
+- Configured GitHub org lookups (model providers already observed in this dataset): `qualcomm`, `ibm`, `nvidia`, `google`.
+- Latest live run: `503` constituent rows; `2` companies emitted (`IBM`, `Qualcomm`).
+  - IBM: founding year `1911`, industry `Information Technology`, headquarters `Armonk, New York`.
+  - Qualcomm: founding year `1985`, industry `Information Technology`, headquarters `San Diego, California`.
+- Identity: GitHub org `html_url` + description; listed name is the S&P `Security` value. Matching is deterministic (normalized security name, share-class-stripped name, ticker symbol, GitHub login) and requires a unique row.
+- Rejected without fabrication:
+  - `nvidia`: S&P match exists, but the GitHub org has an empty description, so no company record is emitted;
+  - `google`: GitHub org `Google` does not uniquely match S&P `Alphabet Inc. (Class A/C)` without an unverified alias, so no record is emitted;
+  - OpenAI, Anthropic, Cohere, Groq, Hugging Face, Mistral AI, and Model Context Protocol are not S&P constituents.
+- GitHub org `created_at` is recorded as observed and is **never** used as founding year. Index `Date added` is also not founding year.
+- Does **not** emit `Company → develops → Product/Model` from the index. Membership in the S&P 500 is not development evidence.
+
 #### ROS Robots Catalog
 
 - Access: GitHub REST contents API for `ros-infrastructure/robots.ros.org` Jekyll `_posts` Markdown records.
@@ -433,6 +451,8 @@ Additional one-time reachability probes performed during the News milestone (not
 - Reddit JSON API (`www.reddit.com`, `api.reddit.com`) : unusable due TLS/network failure.
 - Lobsters (`lobste.rs`) : unusable due TLS/network failure.
 - Wikipedia API (`en.wikipedia.org`) : unusable due TLS/network failure.
+- Wikidata EntityData / wbsearchentities (`www.wikidata.org`) : unusable due TLS/network failure; not used as a company-metadata source.
+- ROR API (`api.ror.org`) : unusable due TLS/network failure; not used as a company-metadata source.
 - GitHub Blog changelog RSS (`github.blog`) : unusable due TLS/network failure.
 - RSSHub (`rsshub.app`) : unusable due TLS/network failure.
 - `raw.githubusercontent.com` : unusable due TLS/network failure.
@@ -481,6 +501,7 @@ Implemented metadata support includes:
   - industry sector;
   - headquarters;
   - these remain `null` unless source evidence supplies them;
+  - current run: `2/9` companies (IBM, Qualcomm) have source-backed founding year, GICS sector, and headquarters from the S&P 500 dataset, each with field-level evidence; the other seven stay `null`;
 - models:
   - license when supplied;
   - modalities;
@@ -702,7 +723,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-142 passed
+155 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -724,6 +745,7 @@ AI Orbit-specific tests cover:
 - Product entity validation, AI Tools List product-directory filtering, Product semantic rejects, and Product URL deduplication;
 - Models.dev catalog filtering and model metadata preservation;
 - Qualcomm AI Hub manifest parsing, license/provider preservation, and deterministic stride sampling;
+- S&P 500 founding-year parsing (including `2013 (1888)` legal-entity semantics), GitHub-org↔constituent matching, empty-description rejection, and no Alphabet/Google alias invention;
 - ROS Robots catalog parsing, Robot metadata validation, and software-support record rejection;
 - Hailo model-zoo YAML parsing, compatibility-edge extraction, deterministic stride sampling, `Device → runs → Model` direction/evidence, and Hailo device/model validation.
 
@@ -771,6 +793,7 @@ Important values:
 - `AI_ORBIT_HAILO_MODEL_ZOO_TREE_URL`
 - `AI_ORBIT_HAILO_MODEL_ZOO_CONTENTS_BASE`
 - `AI_ORBIT_HAILO_MODEL_LIMIT`
+- `AI_ORBIT_SP500_CONSTITUENTS_API_URL`
 - `GITHUB_TOKEN` optional for higher GitHub API rate limits
 
 No real credentials are committed.
@@ -779,7 +802,7 @@ No real credentials are committed.
 
 - Modular AI Orbit pipeline.
 - Real source verification.
-- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, the Qualcomm AI Hub Models catalog, the ROS Robots Catalog, the AI device catalog, GitHub Releases announcements (News), PyVideo conference talks (Videos), and the Hailo Model Zoo (Devices + Models + `Device → runs → Model`).
+- Source-backed ingestion from GitHub API, PyPI JSON API, NPM registry MCP package documents, NPM search/package documents, official SDK model definitions, the AI Tools List product directory sample, the Models.dev GitHub model catalog, the Qualcomm AI Hub Models catalog, the S&P 500 companies dataset (bounded company-metadata enrichment), the ROS Robots Catalog, the AI device catalog, GitHub Releases announcements (News), PyVideo conference talks (Videos), and the Hailo Model Zoo (Devices + Models + `Device → runs → Model`).
 - Feasibility-only probes for startup/company, product, model, model-enrichment, news/story, and job candidates.
 - Stable UUID generation.
 - URL normalization and GitHub evidence line-anchor handling.
@@ -793,7 +816,8 @@ No real credentials are committed.
 
 ## Planned / future work
 
-- Expand from `252` current valid entities toward the requested 250–300 high-quality representative records.
+- The current `254` valid entities are inside the 250–300 target. Further expansion is only for metadata, relationship, or blocked-category quality, not row count.
+- Continue company metadata enrichment only through sources that document founding year / industry / headquarters. Wikidata, ROR, and Wikipedia remain TLS-blocked; private AI labs (OpenAI, Anthropic, Cohere, Groq, Hugging Face, Mistral, MCP) are not S&P constituents.
 - Keep NPM search records classified as package/tool records, not products; expand Product coverage only through sources that directly provide product identity fields.
 - Continue model metadata enrichment. The Models.dev GitHub catalog supplies modalities for a bounded sample, and the Qualcomm AI Hub catalog now supplies per-model license + license URL + domain + use_case + research paper for its 34 sampled records; license remains `null` only where no verified source supplies it.
 - Expand News coverage beyond GitHub release announcements only through sources that establish genuine article publication timestamps; external news feed/API candidates remain blocked in this environment.
@@ -804,7 +828,9 @@ No real credentials are committed.
 
 ## Known limitations
 
-- This is not yet the final 250–300 record dataset.
+- Record count (`254`) is inside the 250–300 target; remaining gaps are metadata completeness, product→company linking, Jobs/Personal, and blocked external hosts — not missing row count.
+- Company founding year / industry / headquarters are populated only for IBM and Qualcomm. The other seven companies stay `null` because Wikidata/ROR/Wikipedia are TLS-blocked and those firms are not S&P constituents (or, for NVIDIA/Google, fail the description / unique-match gates).
+- Relationship count `solves` is `26` in this run versus `27` in the previous committed run. That is live NPM-search sample drift, not a regression: the executed counts are authoritative.
 - Several candidate sources fail in this environment at TLS/network setup and are recorded as unusable.
 - Model license is only populated where a source supplies it: Hailo model-zoo records carry `license_name` where present, and Qualcomm AI Hub records carry `license` + `license_url` (34/34 sampled records). The official SDK model source does not supply modalities or license, while the Models.dev GitHub catalog supplies modalities (but no license) for its bounded records.
 - Current `jobs` and `personal` categories still have no accepted records: the reachable GitHub-hosted jobs candidates (SimplifyJobs internships and new-grad listings) were rejected because `date_posted` means "when added" to the list rather than the employer's posting time, and the reachable personal candidate was an awesome list of open-source assistant frameworks/tools rather than personal-assistant product records. No fallback data was fabricated. (News, Videos, Devices, and `Device → runs → Model` are live-verified.)

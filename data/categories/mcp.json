@@ -56,7 +56,7 @@
     "name": "@langchain/mcp-adapters",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -164,8 +164,8 @@
           ]
         },
         "downloads": {
-          "monthly": 812425,
-          "weekly": 208333
+          "monthly": 834690,
+          "weekly": 217512
         },
         "ecosystem": "npm",
         "keywords": [
@@ -185,14 +185,14 @@
         "package_date": "2026-08-24T11:22:50.618Z",
         "package_name": "@lovable.dev/mcp-js",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:24:11.139Z",
+        "updated": "2026-08-27T09:01:57.902Z",
         "version": "0.28.0"
       }
     },
     "name": "@lovable.dev/mcp-js",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -219,8 +219,8 @@
             ]
           },
           "downloads": {
-            "monthly": 812425,
-            "weekly": 208333
+            "monthly": 834690,
+            "weekly": 217512
           },
           "ecosystem": "npm",
           "keywords": [
@@ -240,7 +240,7 @@
           "package_date": "2026-08-24T11:22:50.618Z",
           "package_name": "@lovable.dev/mcp-js",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:24:11.139Z",
+          "updated": "2026-08-27T09:01:57.902Z",
           "version": "0.28.0"
         },
         "url": "https://www.npmjs.com/package/@lovable.dev/mcp-js"
@@ -296,7 +296,7 @@
     "name": "@modelcontextprotocol/server-filesystem",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -369,7 +369,7 @@
     "name": "@modelcontextprotocol/server-github",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -442,7 +442,7 @@
     "name": "@modelcontextprotocol/server-memory",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -515,7 +515,7 @@
     "name": "@modelcontextprotocol/server-sequential-thinking",
     "provenance": {
       "discovered_by": "NPM Registry MCP Packages",
-      "fetched_at": "2026-08-26T19:02:42.016659+00:00",
+      "fetched_at": "2026-08-27T09:09:29.693028+00:00",
       "observed_fields": {
         "categories": [
           "MCP",
@@ -625,7 +625,7 @@
     "name": "agent-install",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -776,7 +776,7 @@
     "name": "ato-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -885,7 +885,7 @@
         "runtime_requirements": {
           "node": ">=22.0.0"
         },
-        "version": "0.52.130"
+        "version": "0.52.139"
       },
       "package": {
         "ai_relevance_evidence": {
@@ -960,17 +960,17 @@
           "npm": "https://www.npmjs.com/package/comfyui-mcp",
           "repository": "git+https://github.com/artokun/comfyui-mcp.git"
         },
-        "package_date": "2026-08-26T12:26:01.664Z",
+        "package_date": "2026-08-27T05:57:54.794Z",
         "package_name": "comfyui-mcp",
         "query": "keywords:stable-diffusion",
-        "updated": "2026-08-26T12:26:36.590Z",
-        "version": "0.52.130"
+        "updated": "2026-08-27T05:58:25.973Z",
+        "version": "0.52.139"
       }
     },
     "name": "comfyui-mcp",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
@@ -988,7 +988,7 @@
           "runtime_requirements": {
             "node": ">=22.0.0"
           },
-          "version": "0.52.130"
+          "version": "0.52.139"
         },
         "name": "comfyui-mcp",
         "package": {
@@ -1064,11 +1064,11 @@
             "npm": "https://www.npmjs.com/package/comfyui-mcp",
             "repository": "git+https://github.com/artokun/comfyui-mcp.git"
           },
-          "package_date": "2026-08-26T12:26:01.664Z",
+          "package_date": "2026-08-27T05:57:54.794Z",
           "package_name": "comfyui-mcp",
           "query": "keywords:stable-diffusion",
-          "updated": "2026-08-26T12:26:36.590Z",
-          "version": "0.52.130"
+          "updated": "2026-08-27T05:58:25.973Z",
+          "version": "0.52.139"
         },
         "url": "https://www.npmjs.com/package/comfyui-mcp"
       },
@@ -1103,146 +1103,134 @@
       "Tools",
       "MCP"
     ],
-    "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+    "description": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
     "entity_type": "mcp",
-    "id": "476facb8-073c-50f8-a741-9cefc975e273",
+    "id": "48d46616-f095-5769-afee-56f3c79a2888",
     "metadata": {
       "mcp": {
         "bin": {
-          "pi-mcp-adapter": "cli.js"
+          "mcporter": "dist/cli.js"
         },
         "deprecated": null,
-        "installation_method": "npm package pi-mcp-adapter",
-        "package_name": "pi-mcp-adapter",
+        "installation_method": "npm package mcporter",
+        "package_name": "mcporter",
         "runtime_requirements": {
-          "node": ">=20"
+          "node": ">=24"
         },
-        "version": "2.28.0"
+        "version": "0.13.7"
       },
       "package": {
         "ai_relevance_evidence": {
-          "excerpt": "pi-mcp-adapter",
-          "field": "name",
+          "excerpt": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
+          "field": "description",
           "signals": [
-            "mcp"
+            "model context protocol"
           ]
         },
         "downloads": {
-          "monthly": 628192,
-          "weekly": 162089
+          "monthly": 1279059,
+          "weekly": 586241
         },
         "ecosystem": "npm",
         "keywords": [
-          "pi-package",
-          "pi",
+          "cli",
           "mcp",
-          "model-context-protocol",
-          "ai",
-          "coding-agent",
-          "extension",
-          "claude",
-          "llm"
+          "model-context-protocol"
         ],
         "license": "MIT",
         "links": {
-          "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
-          "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
-          "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
-          "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+          "bugs": "https://github.com/openclaw/mcporter/issues",
+          "homepage": "https://github.com/openclaw/mcporter#readme",
+          "npm": "https://www.npmjs.com/package/mcporter",
+          "repository": "git+https://github.com/openclaw/mcporter.git"
         },
-        "package_date": "2026-08-26T05:28:20.600Z",
-        "package_name": "pi-mcp-adapter",
+        "package_date": "2026-08-14T20:03:58.745Z",
+        "package_name": "mcporter",
         "query": "keywords:model-context-protocol",
-        "updated": "2026-08-26T11:26:03.244Z",
-        "version": "2.28.0"
+        "updated": "2026-08-26T11:28:13.556Z",
+        "version": "0.13.7"
       }
     },
-    "name": "pi-mcp-adapter",
+    "name": "mcporter",
     "provenance": {
       "discovered_by": "NPM Search AI Tool Packages",
-      "fetched_at": "2026-08-26T19:02:42.538411+00:00",
+      "fetched_at": "2026-08-27T09:09:30.316047+00:00",
       "observed_fields": {
         "categories": [
           "Tools",
           "MCP"
         ],
-        "description": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+        "description": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
         "mcp": {
           "bin": {
-            "pi-mcp-adapter": "cli.js"
+            "mcporter": "dist/cli.js"
           },
           "deprecated": null,
-          "installation_method": "npm package pi-mcp-adapter",
-          "package_name": "pi-mcp-adapter",
+          "installation_method": "npm package mcporter",
+          "package_name": "mcporter",
           "runtime_requirements": {
-            "node": ">=20"
+            "node": ">=24"
           },
-          "version": "2.28.0"
+          "version": "0.13.7"
         },
-        "name": "pi-mcp-adapter",
+        "name": "mcporter",
         "package": {
           "ai_relevance_evidence": {
-            "excerpt": "pi-mcp-adapter",
-            "field": "name",
+            "excerpt": "TypeScript runtime and CLI for connecting to configured Model Context Protocol servers.",
+            "field": "description",
             "signals": [
-              "mcp"
+              "model context protocol"
             ]
           },
           "downloads": {
-            "monthly": 628192,
-            "weekly": 162089
+            "monthly": 1279059,
+            "weekly": 586241
           },
           "ecosystem": "npm",
           "keywords": [
-            "pi-package",
-            "pi",
+            "cli",
             "mcp",
-            "model-context-protocol",
-            "ai",
-            "coding-agent",
-            "extension",
-            "claude",
-            "llm"
+            "model-context-protocol"
           ],
           "license": "MIT",
           "links": {
-            "bugs": "https://github.com/nicobailon/pi-mcp-adapter/issues",
-            "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
-            "npm": "https://www.npmjs.com/package/pi-mcp-adapter",
-            "repository": "git+https://github.com/nicobailon/pi-mcp-adapter.git"
+            "bugs": "https://github.com/openclaw/mcporter/issues",
+            "homepage": "https://github.com/openclaw/mcporter#readme",
+            "npm": "https://www.npmjs.com/package/mcporter",
+            "repository": "git+https://github.com/openclaw/mcporter.git"
           },
-          "package_date": "2026-08-26T05:28:20.600Z",
-          "package_name": "pi-mcp-adapter",
+          "package_date": "2026-08-14T20:03:58.745Z",
+          "package_name": "mcporter",
           "query": "keywords:model-context-protocol",
-          "updated": "2026-08-26T11:26:03.244Z",
-          "version": "2.28.0"
+          "updated": "2026-08-26T11:28:13.556Z",
+          "version": "0.13.7"
         },
-        "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+        "url": "https://www.npmjs.com/package/mcporter"
       },
-      "source_record_id": "npm-search:package:pi-mcp-adapter",
-      "source_url": "https://registry.npmjs.org/pi-mcp-adapter",
+      "source_record_id": "npm-search:package:mcporter",
+      "source_url": "https://registry.npmjs.org/mcporter",
       "transformations": [
         {
           "operation": "trim_collapse_whitespace_and_normalize_url",
           "stage": "cleaning"
         },
         {
-          "input": "pi-mcp-adapter",
+          "input": "mcporter",
           "operation": "normalize_name",
-          "output": "pi-mcp-adapter",
+          "output": "mcporter",
           "stage": "normalization"
         },
         {
           "operation": "canonical_key",
-          "output": "mcp:url:https://www.npmjs.com/package/pi-mcp-adapter",
+          "output": "mcp:url:https://www.npmjs.com/package/mcporter",
           "stage": "normalization"
         }
       ]
     },
     "source": {
       "name": "NPM Search AI Tool Packages",
-      "url": "https://registry.npmjs.org/pi-mcp-adapter"
+      "url": "https://registry.npmjs.org/mcporter"
     },
-    "url": "https://www.npmjs.com/package/pi-mcp-adapter"
+    "url": "https://www.npmjs.com/package/mcporter"
   }
 ]

@@ -122,6 +122,14 @@ class AIOrbitSettings(BaseSettings):
     )
     qualcomm_ai_hub_model_limit: int = Field(default=34, validation_alias="AI_ORBIT_QUALCOMM_AI_HUB_MODEL_LIMIT")
 
+    sp500_constituents_api_url: str = Field(
+        default="https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv",
+        validation_alias="AI_ORBIT_SP500_CONSTITUENTS_API_URL",
+    )
+    # GitHub org logins for AI model providers already observed in this dataset
+    # that may match an S&P 500 constituent. The full index is never ingested.
+    sp500_github_orgs: list[str] = Field(default_factory=lambda: ["qualcomm", "ibm", "nvidia", "google"])
+
     @field_validator(
         "github_company_orgs",
         "pypi_packages",
@@ -129,6 +137,7 @@ class AIOrbitSettings(BaseSettings):
         "npm_search_tool_queries",
         "github_releases_news_repos",
         "pyvideo_events",
+        "sp500_github_orgs",
         mode="before",
     )
     @classmethod

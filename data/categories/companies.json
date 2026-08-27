@@ -16,7 +16,7 @@
     "name": "Anthropic",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -82,7 +82,7 @@
     "name": "Cohere",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -145,7 +145,7 @@
     "name": "Groq",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -214,7 +214,7 @@
     "name": "Hugging Face",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -261,6 +261,105 @@
     "categories": [
       "Companies"
     ],
+    "description": "Open Source @ IBM",
+    "entity_type": "company",
+    "id": "7033f343-4936-5091-a5c5-ce3ef4804504",
+    "metadata": {
+      "company": {
+        "founding_year": 1911,
+        "founding_year_evidence": {
+          "field": "Founded",
+          "semantics": "sp500_founded_year",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "1911"
+        },
+        "github_created_at_not_used_as_founding_year": true,
+        "github_created_at_observed": "2012-02-21T22:13:01Z",
+        "github_login": "IBM",
+        "headquarters": "Armonk, New York",
+        "headquarters_evidence": {
+          "field": "Headquarters Location",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Armonk, New York"
+        },
+        "industry_sector": "Information Technology",
+        "industry_sector_evidence": {
+          "field": "GICS Sector",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Information Technology"
+        },
+        "sp500_security": "IBM",
+        "sp500_symbol": "IBM"
+      }
+    },
+    "name": "IBM",
+    "provenance": {
+      "discovered_by": "S&P 500 Companies Dataset",
+      "fetched_at": "2026-08-27T09:10:22.539064+00:00",
+      "observed_fields": {
+        "categories": [
+          "Companies"
+        ],
+        "company": {
+          "founding_year": 1911,
+          "founding_year_evidence": {
+            "field": "Founded",
+            "semantics": "sp500_founded_year",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "1911"
+          },
+          "github_created_at_not_used_as_founding_year": true,
+          "github_created_at_observed": "2012-02-21T22:13:01Z",
+          "github_login": "IBM",
+          "headquarters": "Armonk, New York",
+          "headquarters_evidence": {
+            "field": "Headquarters Location",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Armonk, New York"
+          },
+          "industry_sector": "Information Technology",
+          "industry_sector_evidence": {
+            "field": "GICS Sector",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Information Technology"
+          },
+          "sp500_security": "IBM",
+          "sp500_symbol": "IBM"
+        },
+        "description": "Open Source @ IBM",
+        "name": "IBM",
+        "url": "https://github.com/ibm"
+      },
+      "source_record_id": "sp500:company:ibm",
+      "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "IBM",
+          "operation": "normalize_name",
+          "output": "ibm",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "company:name:ibm",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "S&P 500 Companies Dataset",
+      "url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
+    },
+    "url": "https://github.com/ibm"
+  },
+  {
+    "categories": [
+      "Companies"
+    ],
     "description": "Mistral AI",
     "entity_type": "company",
     "id": "1c4bba6c-fc20-5e6c-9ee6-aa6d10692e3e",
@@ -277,7 +376,7 @@
     "name": "Mistral AI",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -346,7 +445,7 @@
     "name": "Model Context Protocol",
     "provenance": {
       "discovered_by": "GitHub API",
-      "fetched_at": "2026-08-26T19:02:39.332046+00:00",
+      "fetched_at": "2026-08-27T09:09:26.992472+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -406,7 +505,7 @@
     "name": "OpenAI",
     "provenance": {
       "discovered_by": "PyPI JSON API",
-      "fetched_at": "2026-08-26T19:02:41.597754+00:00",
+      "fetched_at": "2026-08-27T09:09:29.286603+00:00",
       "observed_fields": {
         "categories": [
           "Companies"
@@ -451,5 +550,104 @@
       "url": "https://pypi.org/pypi/openai/json"
     },
     "url": "https://pypi.org/pypi/openai/json"
+  },
+  {
+    "categories": [
+      "Companies"
+    ],
+    "description": "At Qualcomm Technologies, Inc., we transform how the world connects, computes and communicates.",
+    "entity_type": "company",
+    "id": "ae36991c-ef31-5015-ad0b-29c783d4be37",
+    "metadata": {
+      "company": {
+        "founding_year": 1985,
+        "founding_year_evidence": {
+          "field": "Founded",
+          "semantics": "sp500_founded_year",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "1985"
+        },
+        "github_created_at_not_used_as_founding_year": true,
+        "github_created_at_observed": "2019-09-13T18:49:06Z",
+        "github_login": "qualcomm",
+        "headquarters": "San Diego, California",
+        "headquarters_evidence": {
+          "field": "Headquarters Location",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "San Diego, California"
+        },
+        "industry_sector": "Information Technology",
+        "industry_sector_evidence": {
+          "field": "GICS Sector",
+          "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+          "value": "Information Technology"
+        },
+        "sp500_security": "Qualcomm",
+        "sp500_symbol": "QCOM"
+      }
+    },
+    "name": "Qualcomm",
+    "provenance": {
+      "discovered_by": "S&P 500 Companies Dataset",
+      "fetched_at": "2026-08-27T09:10:22.539064+00:00",
+      "observed_fields": {
+        "categories": [
+          "Companies"
+        ],
+        "company": {
+          "founding_year": 1985,
+          "founding_year_evidence": {
+            "field": "Founded",
+            "semantics": "sp500_founded_year",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "1985"
+          },
+          "github_created_at_not_used_as_founding_year": true,
+          "github_created_at_observed": "2019-09-13T18:49:06Z",
+          "github_login": "qualcomm",
+          "headquarters": "San Diego, California",
+          "headquarters_evidence": {
+            "field": "Headquarters Location",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "San Diego, California"
+          },
+          "industry_sector": "Information Technology",
+          "industry_sector_evidence": {
+            "field": "GICS Sector",
+            "source_url": "https://github.com/datasets/s-and-p-500-companies/blob/main/data/constituents.csv",
+            "value": "Information Technology"
+          },
+          "sp500_security": "Qualcomm",
+          "sp500_symbol": "QCOM"
+        },
+        "description": "At Qualcomm Technologies, Inc., we transform how the world connects, computes and communicates.",
+        "name": "Qualcomm",
+        "url": "https://github.com/qualcomm"
+      },
+      "source_record_id": "sp500:company:qcom",
+      "source_url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv",
+      "transformations": [
+        {
+          "operation": "trim_collapse_whitespace_and_normalize_url",
+          "stage": "cleaning"
+        },
+        {
+          "input": "Qualcomm",
+          "operation": "normalize_name",
+          "output": "qualcomm",
+          "stage": "normalization"
+        },
+        {
+          "operation": "canonical_key",
+          "output": "company:name:qualcomm",
+          "stage": "normalization"
+        }
+      ]
+    },
+    "source": {
+      "name": "S&P 500 Companies Dataset",
+      "url": "https://api.github.com/repos/datasets/s-and-p-500-companies/contents/data/constituents.csv"
+    },
+    "url": "https://github.com/qualcomm"
   }
 ]
