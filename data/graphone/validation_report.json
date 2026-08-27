@@ -1,0 +1,488 @@
+{
+  "failure_counts_by_type": {},
+  "failures": [],
+  "generatedAt": "2026-08-27T12:07:08+00:00",
+  "per_tab": {
+    "Entity Mapping Log": {
+      "accepted_rows": 3010,
+      "mapping_coverage": 1.0,
+      "methods": {
+        "canonical_paper_url": 1000,
+        "canonical_product_url": 1000,
+        "github_release_identity": 10,
+        "source_row_identity": 1000
+      }
+    },
+    "Jobs": {
+      "accepted_rows": 0,
+      "freshness_requirement": "An accepted Job requires an actual employer posted_at timestamp within the prior 24 hours; crawl, response, and page-update times are not substitutes.",
+      "rejected_by_reason": {
+        "source_timestamp_semantics_invalid_or_unavailable": 3
+      },
+      "source_checks": 3
+    },
+    "News": {
+      "accepted_rows": 10,
+      "freshness_requirement": "published_at must be within the inclusive 24-hour window and use GitHub release publication semantics",
+      "freshness_window_end": "2026-08-27T12:07:08+00:00",
+      "freshness_window_start": "2026-08-26T12:07:08+00:00",
+      "rejected_by_reason": {
+        "outside_24_hour_window": 816,
+        "prerelease_release": 74,
+        "repository_missing_observed_ai_relevance": 1
+      },
+      "release_source_successes": 30,
+      "repositories_configured": 32,
+      "repository_metadata_successes": 31,
+      "source_name": "GitHub REST Releases API"
+    },
+    "Products": {
+      "accepted_rows": 1000,
+      "candidate_rows_after_quality_gates": 15770,
+      "pricing_model_coverage": 0.0,
+      "provider_coverage": 0.0,
+      "rejected_by_reason": {
+        "duplicate_canonical_product_url": 205,
+        "missing_explicit_ai_evidence": 3264,
+        "non_product_semantics": 227
+      },
+      "source_blob_api_url": "https://api.github.com/repos/lakey009/AI-Tools-List/git/blobs/208576ae39b4cf1f4a96e448378b7582dc679559",
+      "source_file_url": "https://github.com/lakey009/AI-Tools-List/blob/ccdff902d7e77774df46e66761e811ada4838ea1/AIToolsList.json",
+      "source_input_rows": 19466,
+      "source_name": "AI Tools List Product Directory",
+      "valid_rows_not_exported_due_target_limit": 14770
+    },
+    "Research Papers": {
+      "accepted_rows": 1000,
+      "rejected_by_reason": {},
+      "source_csv": "ResearchPaperSpreadsheetsAvailableForOfflineView/GraphOneSliceResearchPapers(FirstOneThousandEntries).csv",
+      "source_csv_sha256": "6f16d27b1834ab8ed1a8ce9e2e57988d306a214f47ad8fe995f98edb805b463d",
+      "source_input_rows": 1000,
+      "source_name": "arXiv preserved research-paper export",
+      "unique_paper_urls": 1000
+    },
+    "Startups": {
+      "accepted_rows": 1000,
+      "candidate_rows_after_quality_gates": 4928,
+      "employee_count_coverage": 1.0,
+      "rejected_by_reason": {
+        "accelerator_not_portfolio_startup": 1,
+        "missing_employee_count": 168,
+        "non_positive_employee_count": 10,
+        "not_active_in_source_snapshot": 68
+      },
+      "source_blob_api_url": "https://api.github.com/repos/lukaflpvc/YC-Vault/git/blobs/cda06c1570edf61b4e2200b5cc1de53fed4376ad",
+      "source_file_url": "https://github.com/lukaflpvc/YC-Vault/blob/1c86f32a981d479249496298f6bb746ff3c79efe/data/2025-04-21/YC_Companies.csv",
+      "source_input_rows": 5175,
+      "source_name": "YC Vault public YC Directory snapshot",
+      "source_snapshot_date": "2025-04-21",
+      "valid_rows_not_exported_due_target_limit": 3928
+    }
+  },
+  "rejected_records": {
+    "generatedAt": "2026-08-27T12:07:08+00:00",
+    "jobs": {
+      "rejected_by_reason": {
+        "source_timestamp_semantics_invalid_or_unavailable": 3
+      },
+      "source_checks": [
+        {
+          "checked_at": "2026-08-27T12:07:08+00:00",
+          "reason": "Source documentation defines date_posted as a Unix timestamp when added to the listing, not an employer posting timestamp; no jobs were accepted.",
+          "required_missing_or_invalid_field": "actual employer posted_at",
+          "source_name": "SimplifyJobs Summer2027 Internships listings",
+          "status": "rejected",
+          "url": "https://api.github.com/repos/SimplifyJobs/Summer2027-Internships/contents/CONTRIBUTING.md"
+        },
+        {
+          "checked_at": "2026-08-27T12:07:08+00:00",
+          "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+          "required_missing_or_invalid_field": "actual employer posted_at",
+          "source_name": "Greenhouse OpenAI board",
+          "status": "unusable",
+          "url": "https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true"
+        },
+        {
+          "checked_at": "2026-08-27T12:07:08+00:00",
+          "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+          "required_missing_or_invalid_field": "actual employer posted_at",
+          "source_name": "Lever Anthropic board",
+          "status": "unusable",
+          "url": "https://api.lever.co/v0/postings/anthropic?mode=json"
+        }
+      ]
+    },
+    "news": {
+      "rejected_by_reason": {
+        "outside_24_hour_window": 816,
+        "prerelease_release": 74,
+        "repository_missing_observed_ai_relevance": 1
+      }
+    },
+    "products": {
+      "rejected_by_reason": {
+        "duplicate_canonical_product_url": 205,
+        "missing_explicit_ai_evidence": 3264,
+        "non_product_semantics": 227
+      },
+      "valid_rows_not_exported_due_target_limit": 14770
+    },
+    "research_papers": {
+      "rejected_by_reason": {}
+    },
+    "startups": {
+      "rejected_by_reason": {
+        "accelerator_not_portfolio_startup": 1,
+        "missing_employee_count": 168,
+        "non_positive_employee_count": 10,
+        "not_active_in_source_snapshot": 68
+      },
+      "valid_rows_not_exported_due_target_limit": 3928
+    }
+  },
+  "source_checks": {
+    "jobs": [
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "Source documentation defines date_posted as a Unix timestamp when added to the listing, not an employer posting timestamp; no jobs were accepted.",
+        "required_missing_or_invalid_field": "actual employer posted_at",
+        "source_name": "SimplifyJobs Summer2027 Internships listings",
+        "status": "rejected",
+        "url": "https://api.github.com/repos/SimplifyJobs/Summer2027-Internships/contents/CONTRIBUTING.md"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+        "required_missing_or_invalid_field": "actual employer posted_at",
+        "source_name": "Greenhouse OpenAI board",
+        "status": "unusable",
+        "url": "https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+        "required_missing_or_invalid_field": "actual employer posted_at",
+        "source_name": "Lever Anthropic board",
+        "status": "unusable",
+        "url": "https://api.lever.co/v0/postings/anthropic?mode=json"
+      }
+    ],
+    "news": [
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "huggingface/transformers",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/huggingface/transformers/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "huggingface/diffusers",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/huggingface/diffusers/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "huggingface/datasets",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/huggingface/datasets/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "huggingface/peft",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/huggingface/peft/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "huggingface/accelerate",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/huggingface/accelerate/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "cohere-ai/cohere-python",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "groq/groq-python",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/groq/groq-python/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "mistralai/client-python",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/mistralai/client-python/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "openai/openai-python",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/openai/openai-python/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "anthropics/anthropic-sdk-python",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "modelcontextprotocol/typescript-sdk",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "langchain-ai/langchain",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/langchain-ai/langchain/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "langchain-ai/langgraph",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/langchain-ai/langgraph/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "run-llama/llama_index",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/run-llama/llama_index/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "vllm-project/vllm",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "ollama/ollama",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/ollama/ollama/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "Comfy-Org/ComfyUI",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/Comfy-Org/ComfyUI/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "microsoft/semantic-kernel",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/microsoft/semantic-kernel/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "microsoft/autogen",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/microsoft/autogen/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "deepset-ai/haystack",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/deepset-ai/haystack/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "milvus-io/milvus",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/milvus-io/milvus/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "qdrant/qdrant",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/qdrant/qdrant/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "chroma-core/chroma",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/chroma-core/chroma/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "weaviate/weaviate",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/weaviate/weaviate/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "BentoML/BentoML",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/BentoML/BentoML/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "gradio-app/gradio",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/gradio-app/gradio/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "mlflow/mlflow",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/mlflow/mlflow/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "pytorch/pytorch",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "tensorflow/tensorflow",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/tensorflow/tensorflow/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "GitHub returns release published_at as a source publication timestamp.",
+        "records_examined": 30,
+        "repository": "scikit-learn/scikit-learn",
+        "source_name": "GitHub REST Releases API",
+        "status": "usable",
+        "url": "https://api.github.com/repos/scikit-learn/scikit-learn/releases?per_page=30"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "repository description/topics/full_name contained no accepted AI signal",
+        "repository": "black-forest-labs/flux",
+        "source_name": "GitHub REST repository API",
+        "status": "rejected",
+        "url": "https://api.github.com/repos/black-forest-labs/flux"
+      },
+      {
+        "checked_at": "2026-08-27T12:07:08+00:00",
+        "reason": "HTTP 404 retrieving https://api.github.com/repos/stability-ai/stablediffusion",
+        "repository": "stability-ai/stablediffusion",
+        "source_name": "GitHub REST repository API",
+        "status": "unusable",
+        "url": "https://api.github.com/repos/stability-ai/stablediffusion"
+      }
+    ]
+  },
+  "source_coverage": {
+    "jobs": [],
+    "news": [
+      "GitHub REST Releases API"
+    ],
+    "products": [
+      "AI Tools List Product Directory"
+    ],
+    "research_papers": [
+      "arXiv preserved research-paper export"
+    ],
+    "startups": [
+      "YC Vault public YC Directory snapshot"
+    ]
+  },
+  "status": "passed",
+  "summary": {
+    "entity_mapping_log": 3010,
+    "freshness_window_end": "2026-08-27T12:07:08+00:00",
+    "freshness_window_start": "2026-08-26T12:07:08+00:00",
+    "jobs": 0,
+    "mapping_coverage": 1.0,
+    "news": 10,
+    "products": 1000,
+    "provenance_coverage": 1.0,
+    "research_papers": 1000,
+    "startups": 1000,
+    "total_records": 3010
+  }
+}

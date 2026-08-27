@@ -62,7 +62,7 @@ Current generated artifacts report:
 - provenance coverage: `100%`
 - recorded source failures: `15`
 - duplicate/shared URL warnings: `4`
-- test result: `155 passed`
+- test result (final suite, including GraphOne/reviewer tests): `164 passed`
 - relationship types produced: `develops` (20), `solves` (26), `published_by` (10), `integrates_with` (1), `runs` (77)
 - company metadata completeness: founding year / industry sector / headquarters populated for `2/9` companies (IBM, Qualcomm) from the S&P 500 dataset; the other seven remain `null` because no reachable source supplies those fields
 
@@ -723,7 +723,7 @@ PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest tests/ -q -p no:cacheprovid
 Current verified result:
 
 ```text
-155 passed
+164 passed
 ```
 
 AI Orbit-specific tests cover:
@@ -840,3 +840,86 @@ No real credentials are committed.
 - `Device → runs → Model` coverage is limited to a bounded deterministic Hailo model sample (29 models / 77 edges); the full catalog has 227 compatibility-tagged models that could be sampled more broadly later.
 - Four shared URL warnings remain intentionally for task labels derived from NPM package descriptions where the source URL is the only observed URL for the task evidence.
 - Google Sheets remains part of the older research-paper export path; it is not the AI Orbit system of record.
+
+## Final GraphOne trial output (separate from AI Orbit)
+
+The final GraphOne artifacts live under [`data/graphone/`](data/graphone/) and
+are deliberately separate from `data/entities.json`. They were built and
+validated at `2026-08-27T12:07:08+00:00` with:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m src.graphone.build
+```
+
+The committed [`data/graphone/validation_report.json`](data/graphone/validation_report.json)
+reports `passed`, zero validation failures, 100% provenance coverage, and 100%
+mapping coverage. Exact accepted rows are:
+
+| GraphOne tab | Rows | Evidence boundary |
+| --- | ---: | --- |
+| Startups | 1,000 | Active public YC-directory snapshot rows with direct positive `Team Size`; dated snapshot provenance is retained per row. |
+| Products | 1,000 | Direct AI product-directory handle, URL, description, explicit AI evidence, and product-semantic gate. |
+| Research Papers | 1,000 | Preserved and independently checked from the existing arXiv export. |
+| Jobs | 0 | No source proved actual employer `posted_at`; no crawl/listing-added/update time was substituted. |
+| News | 10 | GitHub release announcements whose source `published_at` fell inside the final 24-hour window. |
+| Entity Mapping Log | 3,010 | One deterministic mapping entry for every accepted GraphOne startup, product, paper, and News record. |
+
+The exact source pins, row-quality rules, source coverage, freshness interval,
+and rejected-record counts are documented in
+[`docs/graphone_trial.md`](docs/graphone_trial.md) and
+[`data/graphone/run_manifest.json`](data/graphone/run_manifest.json). In
+particular, GraphOne product `provider` and `pricing_model` remain `null` where
+the selected directory does not supply them; startup source-row identity is
+preserved instead of unsafe name-only merging; and the 1,000 research-paper
+output is not counted as AI Orbit data.
+
+Six Sheet-shaped CSV exports are ready under
+[`data/graphone/sheets/`](data/graphone/sheets/): `Startups`, `Products`,
+`Research Papers`, `Jobs`, `News`, and `Entity Mapping Log`. They can be
+synchronized only from already validated files:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python run_graphone.py --skip-build --sync-sheets
+```
+
+That command needs the non-committed `GOOGLE_SERVICE_ACCOUNT_JSON_PATH` and
+`GOOGLE_SHEETS_SPREADSHEET_ID` settings. The existing public research-paper
+Sheet is linked by the badge above. This checkout did not contain a configured
+service account or spreadsheet ID, so it does **not** claim that the six
+GraphOne tabs were uploaded; local JSON/CSV artifacts remain the source of
+truth.
+
+## Read-only reviewer and static deployment
+
+[`reviewer_app.py`](reviewer_app.py) serves the committed artifacts locally and
+does not import any ingestion adapter or make network calls. It exposes these
+route paths:
+
+```text
+/  /ai-orbit  /graphone  /entities  /relationships
+/validation  /mapping  /feasibility  /categories
+```
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python reviewer_app.py --host 0.0.0.0 --port 8080
+```
+
+- **Georgia** is used for prose;
+- **Times New Roman** is used for numeric/stat displays; and
+- **Roboto Mono** is used for navigation, source keys, and IDs.
+
+The static reviewer source is in [`reviewer_site/`](reviewer_site/), with
+materialized route pages for direct links. The ready-to-enable GitHub Pages
+workflow template is at
+[`docs/deploy-reviewer.workflow.yml`](docs/deploy-reviewer.workflow.yml); it
+packages that static site together with the same committed `data/` directory
+from `main` and uses only relative artifact URLs, so browser code never calls
+`localhost`. The GitHub App credential available for this session was explicitly
+rejected when attempting to write an active `.github/workflows/` file because it
+lacks the `workflows` permission. Therefore no public deployment is claimed;
+the public deployment URL is reported only after an authorized workflow has
+actually completed successfully.
+
+For the full final architecture and isolation guarantees, see
+[`docs/final_architecture.md`](docs/final_architecture.md) alongside the
+existing [`GraphOneSliceSystemArchitecture.pdf`](GraphOneSliceSystemArchitecture.pdf).
