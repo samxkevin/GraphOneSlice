@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-08-27T12:07:08+00:00",
+  "purpose": "Separate GraphOne trial source-of-truth artifacts. AI Orbit entity/relationship JSON is not used to meet the GraphOne 1,000 startup/product/research-paper targets.",
+  "schemaVersion": "1.0",
+  "sources": {
+    "jobs": {
+      "selection": "No rows accepted without a source-proven employer posted_at timestamp."
+    },
+    "news": {
+      "repositories": [
+        "huggingface/transformers",
+        "huggingface/diffusers",
+        "huggingface/datasets",
+        "huggingface/peft",
+        "huggingface/accelerate",
+        "cohere-ai/cohere-python",
+        "groq/groq-python",
+        "mistralai/client-python",
+        "openai/openai-python",
+        "anthropics/anthropic-sdk-python",
+        "modelcontextprotocol/typescript-sdk",
+        "langchain-ai/langchain",
+        "langchain-ai/langgraph",
+        "run-llama/llama_index",
+        "vllm-project/vllm",
+        "ollama/ollama",
+        "Comfy-Org/ComfyUI",
+        "microsoft/semantic-kernel",
+        "microsoft/autogen",
+        "deepset-ai/haystack",
+        "milvus-io/milvus",
+        "qdrant/qdrant",
+        "chroma-core/chroma",
+        "weaviate/weaviate",
+        "BentoML/BentoML",
+        "gradio-app/gradio",
+        "mlflow/mlflow",
+        "pytorch/pytorch",
+        "tensorflow/tensorflow",
+        "scikit-learn/scikit-learn",
+        "black-forest-labs/flux",
+        "stability-ai/stablediffusion"
+      ],
+      "selection": "Non-draft, non-prerelease GitHub releases with source release published_at inside the final 24-hour window and observed repository AI relevance."
+    },
+    "products": {
+      "blob_sha": "208576ae39b4cf1f4a96e448378b7582dc679559",
+      "commit": "ccdff902d7e77774df46e66761e811ada4838ea1",
+      "path": "AIToolsList.json",
+      "repository": "lakey009/AI-Tools-List",
+      "selection": "First 1,000 distinct product URLs after direct identity, AI-evidence, and non-editorial semantics gates.",
+      "source_blob_api_url": "https://api.github.com/repos/lakey009/AI-Tools-List/git/blobs/208576ae39b4cf1f4a96e448378b7582dc679559",
+      "source_file_url": "https://github.com/lakey009/AI-Tools-List/blob/ccdff902d7e77774df46e66761e811ada4838ea1/AIToolsList.json",
+      "source_name": "AI Tools List Product Directory"
+    },
+    "research_papers": {
+      "input": "ResearchPaperSpreadsheetsAvailableForOfflineView/GraphOneSliceResearchPapers(FirstOneThousandEntries).csv",
+      "preservation": "Existing 1,000-row output copied without a new network ingestion run."
+    },
+    "startups": {
+      "blob_sha": "cda06c1570edf61b4e2200b5cc1de53fed4376ad",
+      "commit": "1c86f32a981d479249496298f6bb746ff3c79efe",
+      "path": "data/2025-04-21/YC_Companies.csv",
+      "readme_url": "https://github.com/lukaflpvc/YC-Vault/blob/1c86f32a981d479249496298f6bb746ff3c79efe/README.md",
+      "repository": "lukaflpvc/YC-Vault",
+      "selection": "Active YC-directory snapshot rows with direct positive Team Size; first 1,000 in source order after gates.",
+      "snapshot_date": "2025-04-21",
+      "source_blob_api_url": "https://api.github.com/repos/lukaflpvc/YC-Vault/git/blobs/cda06c1570edf61b4e2200b5cc1de53fed4376ad",
+      "source_file_url": "https://github.com/lukaflpvc/YC-Vault/blob/1c86f32a981d479249496298f6bb746ff3c79efe/data/2025-04-21/YC_Companies.csv",
+      "source_name": "YC Vault public YC Directory snapshot"
+    }
+  },
+  "tabs": [
+    "Startups",
+    "Products",
+    "Research Papers",
+    "Jobs",
+    "News",
+    "Entity Mapping Log"
+  ]
+}

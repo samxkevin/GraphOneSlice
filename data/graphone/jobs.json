@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-08-27T12:07:08+00:00",
+  "notes": [
+    "No accepted jobs: no investigated source established an actual employer posting timestamp within the required 24-hour window.",
+    "Crawl, response, page-update, and listing-added timestamps were not substituted for posted_at."
+  ],
+  "recordType": "JOB",
+  "records": [],
+  "schemaVersion": "1.0",
+  "source_checks": [
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "Source documentation defines date_posted as a Unix timestamp when added to the listing, not an employer posting timestamp; no jobs were accepted.",
+      "required_missing_or_invalid_field": "actual employer posted_at",
+      "source_name": "SimplifyJobs Summer2027 Internships listings",
+      "status": "rejected",
+      "url": "https://api.github.com/repos/SimplifyJobs/Summer2027-Internships/contents/CONTRIBUTING.md"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "required_missing_or_invalid_field": "actual employer posted_at",
+      "source_name": "Greenhouse OpenAI board",
+      "status": "unusable",
+      "url": "https://boards-api.greenhouse.io/v1/boards/openai/jobs?content=true"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "network failure during source feasibility probe: TLS/SSL connection has been closed (EOF) (_ssl.c:992)",
+      "required_missing_or_invalid_field": "actual employer posted_at",
+      "source_name": "Lever Anthropic board",
+      "status": "unusable",
+      "url": "https://api.lever.co/v0/postings/anthropic?mode=json"
+    }
+  ]
+}

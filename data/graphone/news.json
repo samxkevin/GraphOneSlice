@@ -1,0 +1,847 @@
+{
+  "generatedAt": "2026-08-27T12:07:08+00:00",
+  "notes": [
+    "Each accepted record is a GitHub release announcement, not a general press article.",
+    "published_at uses GitHub's release publication semantics and is constrained to the final 24-hour window."
+  ],
+  "recordType": "NEWS",
+  "records": [
+    {
+      "ai_relevance": {
+        "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+        "matched_fields": [
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "generative",
+          "neural"
+        ]
+      },
+      "canonical_url": "https://github.com/weaviate/weaviate/releases/tag/v1.38.13",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "Breaking Changes none New Features none Fixes feat(generative-digitalocean): add DigitalOcean generative module by @antas-marcin in https://github.com/weaviate/weaviate/pull/12786 Backport: drain in-flight references before drop tears the shard store down by @jfrancoa in https://github.com/weaviate/weaviate/pull/12797 security(docker): pin minimum openssl version so cached builds pull CVE fixes by @antas-marcin in https://github.com/weaviate/weaviate/pull/12799 chore(Dockerfile): remove unnecessary comments by @antas-marcin in https://github.com/weaviate/weaviate/pull/12803 feat(users): export/import endpoints for db user API-key hashes by @tsmith023 in https://github.com/weaviate/weaviate/pull/12782 fix: respect named-vector source properties when re-vectorizing on update by @g-despot in ",
+      "id": "6b116144-91d6-593b-84ee-eebbd8e8016c",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+          "matched_fields": [
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "generative",
+            "neural"
+          ]
+        },
+        "observed_published_at": "2026-08-27T10:13:43Z",
+        "publisher": {
+          "html_url": "https://github.com/weaviate",
+          "login": "weaviate",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/weaviate/weaviate/releases/377705968",
+        "repository": "weaviate/weaviate",
+        "repository_api_url": "https://api.github.com/repos/weaviate/weaviate",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-27T10:13:43+00:00",
+      "publisher": "weaviate",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377705968,
+      "repository": "weaviate/weaviate",
+      "source_record_id": "github-release:weaviate/weaviate:377705968",
+      "source_url": "https://api.github.com/repos/weaviate/weaviate/releases/377705968",
+      "tag_name": "v1.38.13",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v1.38.13 - MCP stateless endpoint Fix, New generative-digitalocean module"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+        "matched_fields": [
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "generative",
+          "neural"
+        ]
+      },
+      "canonical_url": "https://github.com/weaviate/weaviate/releases/tag/v1.37.15",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "Breaking Changes none New Features none Fixes Remove support for restoring old backup formats by @dirkkul in https://github.com/weaviate/weaviate/pull/12338 Route shard access through Index.withShardOrRemote by @dirkkul in https://github.com/weaviate/weaviate/pull/12366 Allocate per-tenant vector cache memory lazily and proportionally to tenant size by @asdine in https://github.com/weaviate/weaviate/pull/12116 fix(replication): unify the loading-shard readiness check and fix FetchObjects by @moogacs in https://github.com/weaviate/weaviate/pull/12370 Add retry to module base client by @dirkkul in https://github.com/weaviate/weaviate/pull/12377 fix(queue): fix data race in TestPartialChunkRecovery by @asdine in https://github.com/weaviate/weaviate/pull/12383 feat: add support for cross-prope",
+      "id": "034bda6e-0d8f-52b9-9c3f-72778f4d3390",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+          "matched_fields": [
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "generative",
+            "neural"
+          ]
+        },
+        "observed_published_at": "2026-08-27T06:41:32Z",
+        "publisher": {
+          "html_url": "https://github.com/weaviate",
+          "login": "weaviate",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/weaviate/weaviate/releases/377599838",
+        "repository": "weaviate/weaviate",
+        "repository_api_url": "https://api.github.com/repos/weaviate/weaviate",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-27T06:41:32+00:00",
+      "publisher": "weaviate",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377599838,
+      "repository": "weaviate/weaviate",
+      "source_record_id": "github-release:weaviate/weaviate:377599838",
+      "source_url": "https://api.github.com/repos/weaviate/weaviate/releases/377599838",
+      "tag_name": "v1.37.15",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v1.37.15 - LSM store and HFresh Fixes, New multi2vec-twelvelabs and generative-digitalocean modules"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "The official Python library for the OpenAI API",
+        "matched_fields": [
+          "repository.description",
+          "repository.full_name",
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "openai"
+        ]
+      },
+      "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.5.0",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "3.5.0 (2026-08-27) Features api: make function call output call IDs optional ( 3738) (c74501d)",
+      "id": "22bdf5a3-785e-5fcf-822a-1f9561bfdb7e",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "The official Python library for the OpenAI API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "openai"
+          ]
+        },
+        "observed_published_at": "2026-08-27T01:00:03Z",
+        "publisher": {
+          "html_url": "https://github.com/openai",
+          "login": "openai",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/openai/openai-python/releases/377505517",
+        "repository": "openai/openai-python",
+        "repository_api_url": "https://api.github.com/repos/openai/openai-python",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-27T01:00:03+00:00",
+      "publisher": "openai",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377505517,
+      "repository": "openai/openai-python",
+      "source_record_id": "github-release:openai/openai-python:377505517",
+      "source_url": "https://api.github.com/repos/openai/openai-python/releases/377505517",
+      "tag_name": "v3.5.0",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v3.5.0"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "The official Python library for the OpenAI API",
+        "matched_fields": [
+          "repository.description",
+          "repository.full_name",
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "openai"
+        ]
+      },
+      "canonical_url": "https://github.com/openai/openai-python/releases/tag/v3.4.0",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "3.4.0 (2026-08-25) Features api: Add obfuscation field to ChatCompletionChunk ( 3690) (c7d8e1d) api: add project residency configuration and cost quantity units ( 3726) (bc4f8ef) Bug Fixes api: encode Realtime call offers and session configuration ( 3736) (555ac48) apply consistent origin checks to WebSocket redirects ( 3693) (1b324d0) azure: encode deployment names consistently ( 3683) (689538d) azure: keep provider validation errors value-free ( 3691) (72529c0) azure: resolve one authentication mode ( 3689) (e3d0681) compute custom-code summaries from trusted workflow code ( 3692) (2b5868d) create upload example fixtures in private directories ( 3686) (f36e6f7) decode SSE incrementally without limiting event size ( 3687) (2598d53) keep Python SDK diagnostics metadata-only ( 3685) (600aa8",
+      "id": "255d2a12-a550-57e8-8f14-a7e775dbda36",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "The official Python library for the OpenAI API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "openai"
+          ]
+        },
+        "observed_published_at": "2026-08-26T21:48:40Z",
+        "publisher": {
+          "html_url": "https://github.com/openai",
+          "login": "openai",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/openai/openai-python/releases/377441965",
+        "repository": "openai/openai-python",
+        "repository_api_url": "https://api.github.com/repos/openai/openai-python",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T21:48:40+00:00",
+      "publisher": "openai",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377441965,
+      "repository": "openai/openai-python",
+      "source_record_id": "github-release:openai/openai-python:377441965",
+      "source_url": "https://api.github.com/repos/openai/openai-python/releases/377441965",
+      "tag_name": "v3.4.0",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v3.4.0"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "Python Library for Accessing the Cohere API",
+        "matched_fields": [
+          "repository.description",
+          "repository.full_name"
+        ],
+        "matched_tokens": [
+          "cohere",
+          "ai"
+        ]
+      },
+      "canonical_url": "https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "What s Changed SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803 Support for new /parse endpoint Full Changelog : https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0",
+      "id": "721a2ec5-0e45-5bb5-b5b7-ec9f122ba61b",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "Python Library for Accessing the Cohere API",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "cohere",
+            "ai"
+          ]
+        },
+        "observed_published_at": "2026-08-26T21:35:00Z",
+        "publisher": {
+          "html_url": "https://github.com/cohere-ai",
+          "login": "cohere-ai",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193",
+        "repository": "cohere-ai/cohere-python",
+        "repository_api_url": "https://api.github.com/repos/cohere-ai/cohere-python",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T21:35:00+00:00",
+      "publisher": "cohere-ai",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377436193,
+      "repository": "cohere-ai/cohere-python",
+      "source_record_id": "github-release:cohere-ai/cohere-python:377436193",
+      "source_url": "https://api.github.com/repos/cohere-ai/cohere-python/releases/377436193",
+      "tag_name": "7.1.0",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "7.1.0"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+        "matched_fields": [
+          "repository.description",
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "gpt",
+          "llm",
+          "mistral"
+        ]
+      },
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.33.1",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "What s Changed MLX: Qwen3.8 Flash Next support cmake: make external compat patches idempotent MLX and llama.cpp update mlxrunner: add structured output support mlxrunner: avoid Metal GPU timeouts when loading models from slow storage New Contributors @pd95 made their first contribution in https://github.com/ollama/ollama/pull/17948 Full Changelog : https://github.com/ollama/ollama/compare/v0.33.0...v0.33.1",
+      "id": "8b792da4-1265-5c8f-a449-64ae3c7e1aa3",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+          "matched_fields": [
+            "repository.description",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "gpt",
+            "llm",
+            "mistral"
+          ]
+        },
+        "observed_published_at": "2026-08-26T18:09:57Z",
+        "publisher": {
+          "html_url": "https://github.com/ollama",
+          "login": "ollama",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/ollama/ollama/releases/377321070",
+        "repository": "ollama/ollama",
+        "repository_api_url": "https://api.github.com/repos/ollama/ollama",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T18:09:57+00:00",
+      "publisher": "ollama",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377321070,
+      "repository": "ollama/ollama",
+      "source_record_id": "github-release:ollama/ollama:377321070",
+      "source_url": "https://api.github.com/repos/ollama/ollama/releases/377321070",
+      "tag_name": "v0.33.1",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v0.33.1"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+        "matched_fields": [
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "generative",
+          "neural"
+        ]
+      },
+      "canonical_url": "https://github.com/weaviate/weaviate/releases/tag/v1.39.2",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "Breaking Changes none New Features none Fixes ci: upgrade modules light and modules api runners to ubicloud-standard-4 by @antas-marcin in https://github.com/weaviate/weaviate/pull/12776 Make the resource scanner s shard status check-and-set atomic by @dirkkul in https://github.com/weaviate/weaviate/pull/12703 fix(aggregator): merge remote shard aggregations after JSON round trip (mean/median/mode panic on multi-node) by @amourao in https://github.com/weaviate/weaviate/pull/12746 Keep a per-namespace collection count and report it as a metric by @dirkkul in https://github.com/weaviate/weaviate/pull/12772 perf(async-replication): batch root pre-filter across classes per target node by @jeroiraz in https://github.com/weaviate/weaviate/pull/12765 Put both cron jobs on one shared registration ",
+      "id": "4d357228-facf-5e7a-bd7e-3aa663222dba",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+          "matched_fields": [
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "generative",
+            "neural"
+          ]
+        },
+        "observed_published_at": "2026-08-26T17:21:38Z",
+        "publisher": {
+          "html_url": "https://github.com/weaviate",
+          "login": "weaviate",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/weaviate/weaviate/releases/377270751",
+        "repository": "weaviate/weaviate",
+        "repository_api_url": "https://api.github.com/repos/weaviate/weaviate",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T17:21:38+00:00",
+      "publisher": "weaviate",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377270751,
+      "repository": "weaviate/weaviate",
+      "source_record_id": "github-release:weaviate/weaviate:377270751",
+      "source_url": "https://api.github.com/repos/weaviate/weaviate/releases/377270751",
+      "tag_name": "v1.39.2",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v1.39.2 - DB user API-key export/import, generative-digitalocean module, async replication & shard lifecycle fixes"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "anthropics/anthropic-sdk-python",
+        "matched_fields": [
+          "repository.full_name"
+        ],
+        "matched_tokens": [
+          "anthropic"
+        ]
+      },
+      "canonical_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.1.0",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "1.1.0 (2026-08-26) Full Changelog: v1.0.0...v1.1.0 Features api: add updates thinking display mode (beta) (eb4a73f) api: add missing anthropic-beta values (dbebd15) api: add support for Organization API endpoints (5a5b8fc) Bug Fixes docs: correct link for long requests error ( 1884) (4474f31), closes 1883 tools: keep the tool runner going on pause turn ( 343) (ab1ec60) Chores docs: clarify skill version latest support and memory version retention (a754f3b) internal: cancel superseded CI runs (c061ab1) internal: minor workflow reformat (1569002) internal: remove the legacy response API (a48b1dd) internal: use import httpx2 directly instead of aliasing as httpx (628d789) Documentation api: clarify session thread agent and usage.iterations compaction descriptions (beta) (4ace503)",
+      "id": "2ca51b74-e774-5afa-bd6d-52d788e43cc3",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "anthropics/anthropic-sdk-python",
+          "matched_fields": [
+            "repository.full_name"
+          ],
+          "matched_tokens": [
+            "anthropic"
+          ]
+        },
+        "observed_published_at": "2026-08-26T17:14:40Z",
+        "publisher": {
+          "html_url": "https://github.com/anthropics",
+          "login": "anthropics",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225",
+        "repository": "anthropics/anthropic-sdk-python",
+        "repository_api_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T17:14:40+00:00",
+      "publisher": "anthropics",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377292225,
+      "repository": "anthropics/anthropic-sdk-python",
+      "source_record_id": "github-release:anthropics/anthropic-sdk-python:377292225",
+      "source_url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases/377292225",
+      "tag_name": "v1.1.0",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "v1.1.0"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+        "matched_fields": [
+          "repository.description",
+          "repository.full_name",
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "machine learning",
+          "transformer",
+          "multimodal",
+          "llm",
+          "nlp",
+          "machine-learning",
+          "deep-learning",
+          "natural-language",
+          "speech-recognition",
+          "huggingface"
+        ]
+      },
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks. GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned around capability and efficiency. For the first time in the GLM series, we introduce a hybrid architecture combining sparse and linear attention, sharply reducing long-context serving costs while preserving precise long-context capabilities. The model also adopts Manifold-Constrained Hyper-Connections (m",
+      "id": "8fda5498-9e08-54ec-9fd8-716825b3c9f9",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "observed_published_at": "2026-08-26T14:50:01Z",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
+        "repository": "huggingface/transformers",
+        "repository_api_url": "https://api.github.com/repos/huggingface/transformers",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T14:50:01+00:00",
+      "publisher": "huggingface",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377216922,
+      "repository": "huggingface/transformers",
+      "source_record_id": "github-release:huggingface/transformers:377216922",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377216922",
+      "tag_name": "v5.16.1",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "Release v5.16.1"
+    },
+    {
+      "ai_relevance": {
+        "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+        "matched_fields": [
+          "repository.description",
+          "repository.full_name",
+          "repository.topics"
+        ],
+        "matched_tokens": [
+          "machine learning",
+          "transformer",
+          "multimodal",
+          "llm",
+          "nlp",
+          "machine-learning",
+          "deep-learning",
+          "natural-language",
+          "speech-recognition",
+          "huggingface"
+        ]
+      },
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "collectedAt": "2026-08-27T12:07:08+00:00",
+      "description": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5 s hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE). GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected back into each stream. QSA uses multiple query heads to score compressed key blocks, selects the most relevant contiguous token blocks, and keeps the incomplete trailing block uncompressed. This block-level selection reduces indexing overhead and improves memory locality for long sequences. Combined",
+      "id": "80321c60-c69c-5efc-ac38-ad44c4ab74e6",
+      "provenance": {
+        "ai_relevance_evidence": {
+          "excerpt": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "matched_fields": [
+            "repository.description",
+            "repository.full_name",
+            "repository.topics"
+          ],
+          "matched_tokens": [
+            "machine learning",
+            "transformer",
+            "multimodal",
+            "llm",
+            "nlp",
+            "machine-learning",
+            "deep-learning",
+            "natural-language",
+            "speech-recognition",
+            "huggingface"
+          ]
+        },
+        "observed_published_at": "2026-08-26T12:35:15Z",
+        "publisher": {
+          "html_url": "https://github.com/huggingface",
+          "login": "huggingface",
+          "type": "Organization"
+        },
+        "release_api_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+        "repository": "huggingface/transformers",
+        "repository_api_url": "https://api.github.com/repos/huggingface/transformers",
+        "source_name": "GitHub REST Releases API",
+        "timestamp_semantics": "GitHub release published_at; it is not a crawl, retrieval, update, or commit timestamp."
+      },
+      "published_at": "2026-08-26T12:35:15+00:00",
+      "publisher": "huggingface",
+      "publisher_type": "Organization",
+      "recordType": "NEWS",
+      "release_id": 377105315,
+      "repository": "huggingface/transformers",
+      "source_record_id": "github-release:huggingface/transformers:377105315",
+      "source_url": "https://api.github.com/repos/huggingface/transformers/releases/377105315",
+      "tag_name": "v5.16.0",
+      "timestamp_semantics": "github_release_published_at",
+      "title": "Release: v5.16.0"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "source_checks": [
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "huggingface/transformers",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/huggingface/transformers/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "huggingface/diffusers",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/huggingface/diffusers/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "huggingface/datasets",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/huggingface/datasets/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "huggingface/peft",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/huggingface/peft/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "huggingface/accelerate",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/huggingface/accelerate/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "cohere-ai/cohere-python",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/cohere-ai/cohere-python/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "groq/groq-python",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/groq/groq-python/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "mistralai/client-python",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/mistralai/client-python/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "openai/openai-python",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/openai/openai-python/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "anthropics/anthropic-sdk-python",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "modelcontextprotocol/typescript-sdk",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/modelcontextprotocol/typescript-sdk/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "langchain-ai/langchain",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/langchain-ai/langchain/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "langchain-ai/langgraph",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/langchain-ai/langgraph/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "run-llama/llama_index",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/run-llama/llama_index/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "vllm-project/vllm",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/vllm-project/vllm/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "ollama/ollama",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/ollama/ollama/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "Comfy-Org/ComfyUI",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/Comfy-Org/ComfyUI/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "microsoft/semantic-kernel",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/microsoft/semantic-kernel/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "microsoft/autogen",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/microsoft/autogen/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "deepset-ai/haystack",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/deepset-ai/haystack/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "milvus-io/milvus",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/milvus-io/milvus/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "qdrant/qdrant",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/qdrant/qdrant/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "chroma-core/chroma",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/chroma-core/chroma/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "weaviate/weaviate",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/weaviate/weaviate/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "BentoML/BentoML",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/BentoML/BentoML/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "gradio-app/gradio",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/gradio-app/gradio/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "mlflow/mlflow",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/mlflow/mlflow/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "pytorch/pytorch",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/pytorch/pytorch/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "tensorflow/tensorflow",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/tensorflow/tensorflow/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "GitHub returns release published_at as a source publication timestamp.",
+      "records_examined": 30,
+      "repository": "scikit-learn/scikit-learn",
+      "source_name": "GitHub REST Releases API",
+      "status": "usable",
+      "url": "https://api.github.com/repos/scikit-learn/scikit-learn/releases?per_page=30"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "repository description/topics/full_name contained no accepted AI signal",
+      "repository": "black-forest-labs/flux",
+      "source_name": "GitHub REST repository API",
+      "status": "rejected",
+      "url": "https://api.github.com/repos/black-forest-labs/flux"
+    },
+    {
+      "checked_at": "2026-08-27T12:07:08+00:00",
+      "reason": "HTTP 404 retrieving https://api.github.com/repos/stability-ai/stablediffusion",
+      "repository": "stability-ai/stablediffusion",
+      "source_name": "GitHub REST repository API",
+      "status": "unusable",
+      "url": "https://api.github.com/repos/stability-ai/stablediffusion"
+    }
+  ]
+}
