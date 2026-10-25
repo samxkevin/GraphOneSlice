@@ -202,8 +202,6 @@ def extract_facts(dataset_dir):
                 elif typ==".sql":parse_sql(facts,s,fid,cap)
                 else:parse_lines(facts,s,fid,cap)
             except (ValueError,TypeError,KeyError):continue
-    # Propagate previously evidenced subject links across observations of the same resource.
-    links=collections.defaultdict(set)
-    for f in facts:links[f["resource_id"]].update(f["refs"])
-    for f in facts:f["refs"]=sorted(links[f["resource_id"]])
+    # Do not merge aliases from future observations into historical facts;
+    # main.evaluate joins references within each case's audit cutoff.
     return facts
