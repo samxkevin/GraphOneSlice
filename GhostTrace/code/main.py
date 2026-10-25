@@ -159,7 +159,14 @@ def evaluate(req,all_facts,users,emailidx,audits,rules):
     for f in eligible:
         key=(f["system_id"],f["resource_id"])
         if not links[key].intersection(refs):continue
-        if key not in relevant or (dt(f.get("timestamp")),f.get("confidence",1))>(dt(relevant[key].get("timestamp")),relevant[key].get("confidence",1)):
+        # At equal timestamps, a compliant primary cannot conceal a surviving replica.
+        def violation(x):
+            act=treatment(category(x),rules);state=infer_state(x)
+            expected={"DELETE":{"ABSENT"},"REDACT":{"REDACTED"},
+                      "ANONYMIZE":{"ANONYMIZED"},"DISABLE":{"DISABLED"},
+                      "BLOCK":{"BLOCKED"},"RETAIN":{"PRESENT","REDACTED","ANONYMIZED","ACTIVE"}}
+            return int(state not in expected.get(act,{state}))
+        if key not in relevant or (dt(f.get("timestamp")),violation(f),f.get("confidence",1))>(dt(relevant[key].get("timestamp")),violation(relevant[key]),relevant[key].get("confidence",1)):
             relevant[key]=f
     findings=[]; remedy=[]; checks=[]
     for k in sorted(relevant):
