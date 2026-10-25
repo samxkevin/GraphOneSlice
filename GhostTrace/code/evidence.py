@@ -157,6 +157,22 @@ def parse_lines(out,text,file_id,captured):
                 emit(out,file_id,captured,bits[2],bits[1],bits[3],bits[4],refs=[bits[5]],timestamp=ts)
                 continue
         kv=tokenize_log(line)
+        # Recognize JSONL and pipe-formatted source readbacks, not generic task success.
+        payload=line[line.find("{"):] if "{" in line else ""
+        if payload:
+            try:
+                obj=json.loads(payload)
+                if isinstance(obj,dict):
+                    kv.update({str(k):("true" if v else "false") if isinstance(v,bool)
+                               else str(v) if v is not None else "null"
+                               for k,v in obj.items() if not isinstance(v,(dict,list))})
+            except ValueError:pass
+        if "|" in line:
+            parts=[v.strip() for v in line.split("|")]
+            if len(parts)>=6 and re.match(r"^\w+_service$|^analytics_platform$|^support_platform$",parts[2]):
+                kv.setdefault("service",parts[2]);kv.setdefault("trace_id",parts[3])
+                kv.setdefault("event",parts[4])
+                kv.update(tokenize_log(" ".join(parts[5:])))
         trace=kv.get("trace_id")
         refs=[kv[k] for k in ("lookup_key","match_key","subject_key","customer_reference","customer_email",
               "email","subject_ref","matched_value","correlation_key","subject_reference","scan_key")
@@ -185,6 +201,14 @@ def parse_lines(out,text,file_id,captured):
         elif ev in ("contact_lookup_completed","contact_query_completed"):
             if kv.get("rows","").isdigit():state="PRESENT" if int(kv["rows"])>0 else "ABSENT"
             else:continue
+        elif ev=="record_lookup":
+            if state.upper() not in ("FOUND","NOT_FOUND","IDENTIFIABLE","ANONYMIZED",
+                                     "REDACTED","ACTIVE","DISABLED","BLOCKED","PRESENT","ABSENT"):
+                continue
+        elif ev in ("export_download_check_completed","export_metadata_read_completed"):
+            if kv.get("available") in ("true","false"):
+                state="PRESENT" if kv["available"]=="true" else "ABSENT"
+            else:continue
         elif ev in ("audit_record_read_completed",):
             if kv.get("rows")=="0":state="ABSENT"
             elif kv.get("rows","").isdigit() and int(kv["rows"])>0:state="PRESENT"
@@ -207,11 +231,13 @@ def parse_lines(out,text,file_id,captured):
         elif ev not in ("message_pii_scan", "attachment_pii_scan", "analytics_profile_read_completed",
                         "support_ticket_read_completed", "connector_config_read_completed",
                         "restore_policy_read_completed", "restore_candidate_evaluated",
-                        "connector_heartbeat", "connector_state_read", "deletion_marker_check"):
+                        "connector_heartbeat", "connector_state_read", "deletion_marker_check",
+                        "record_lookup", "export_download_check_completed","export_metadata_read_completed"):
             # Initiation, generic SUCCESS, and unknown completed operations are not readbacks.
             continue
         refs+=list(traces.get(trace,())) if trace else []
-        emit(out,file_id,captured,rid,kv.get("service"),override,state,refs,kv,ts)
+        emit(out,file_id,captured,rid,kv.get("system") or kv.get("service"),
+             kv.get("record_type") or override,state,refs,kv,ts)
 def parse_pdf(out,path,file_id,captured):
     if not shutil.which("pdftotext"):
         log.warning("PDF text extraction unavailable file_id=%s path=%s",file_id,path)
