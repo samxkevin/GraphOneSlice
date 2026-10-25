@@ -40,6 +40,18 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(status,"INCOMPLETE")
         self.assertEqual([s["operation"] for s in steps],
          ["REPORT_RESTORE_RISK","BLOCK_RESTORE","VERIFY_RESTORE_BLOCKED"])
+    def test_simultaneous_replica_drift(self):
+        absent=fact("account_101","USER_PROFILE","ABSENT",["user_101"])
+        replica=fact("account_101","USER_PROFILE","PRESENT",["user_101"])
+        status,steps=self.check(REQ,[absent,replica])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual(steps[0]["operation"],"REPORT_REMAINING_RECORD")
+    def test_simultaneous_analytics_replica_pii(self):
+        anonym=fact("analytics_101","ANALYTICS_PROFILE","ANONYMIZED",["user_101"])
+        exposed=fact("analytics_101","ANALYTICS_PROFILE","PRESENT",["user_101"])
+        status,steps=self.check(REQ,[anonym,exposed])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual(steps[0]["operation"],"REPORT_EXPOSED_PII")
     def test_ignore_future_evidence(self):
         status,steps=self.check(REQ,[fact("account_101","USER_PROFILE","ABSENT",["user_101"],"2026-09-05T00:00:00Z")])
         self.assertEqual(status,"INCOMPLETE")
