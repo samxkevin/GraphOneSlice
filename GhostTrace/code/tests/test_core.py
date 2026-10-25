@@ -60,6 +60,15 @@ class CoreTests(unittest.TestCase):
         status,steps=self.check(REQ,[fact("audit_record_51","SECURITY_AUDIT_LOG","PRESENT",["user_101"])])
         self.assertEqual(status,"COMPLETE")
         self.assertEqual(steps[0]["operation"],"VERIFY_RECORD_PRESENT")
+    def test_explicit_non_deletion_cases(self):
+        for message in (
+            "Please stop the promotional emails. I still need the account and my order history, so I am not asking for deletion.",
+            "I can't access my profile and need help resetting the login. Do not close the account.",
+            "My surname is misspelled on the account. Can you correct it without removing any of my records?",
+            "Please remove me from marketing lists only. I still want receipts and service messages for this account.",
+            "Can you tell me what personal information you hold about me? This is an information request, not a request to erase it.",
+        ):
+            self.assertFalse(request_is_deletion(message),message)
     def test_multilingual(self):
         self.assertTrue(request_is_deletion("Je demande la suppression définitive du compte"))
         self.assertTrue(request_is_deletion("このアカウントの完全な削除を依頼します"))
