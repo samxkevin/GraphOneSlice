@@ -28,7 +28,7 @@ Last updated: 2026-10-25, ~14:00 IST. Deadline: 2026-10-25 18:00 IST (user-confi
 The most recent successful workflow, rather than README estimates, is authoritative. As of implementation baseline:
 
 - 518 evaluation requests produce exactly 518 rows; schema/step-order/evidence-reference checks pass.
-- 32 labelled samples: **29 status correct** (90.625%); exact sequence **8** (25%); 154 matched steps out of 158 predicted and 193 reference, precision 97.47%, recall 79.79%.
+- 32 labelled samples: **29 status correct** (90.625%); exact sequence **8** (25%); 152 matched steps out of 156 predicted and 193 reference, precision 97.44%, recall 78.76%.
 - Multi-model mock tests, synthetic adversarial tests, and end-to-end mini evidence tests added to CI. Do not claim live API tests.
 - No hidden-label accuracy, production data completeness, image interpretation, or provider latency measured.
 
