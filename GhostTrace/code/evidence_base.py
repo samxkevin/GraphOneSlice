@@ -52,7 +52,7 @@ def emit(out,file_id,captured,rid,system=None,category=None,state=None,refs=None
     f=fields if isinstance(fields,dict) else {}
     extra=extract_refs(f)
     if refs:extra+=list(refs)
-    out.append({"evidence_id":file_id,"timestamp":timestamp or captured,
+    out.append({"evidence_id":file_id,"captured_at":captured,"timestamp":timestamp or captured,
                 "system_id":system or sys_for(str(rid)),
                 "resource_id":str(rid),"category":category or cat_for(str(rid)),
                 "state":state or "", "fields":f,"refs":sorted(set(str(v).strip().lower() for v in extra if v)),
