@@ -1,0 +1,54 @@
+"""Synthetic contract tests; no organizer-only data used."""
+import sys,unittest,json
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from main import evaluate,identity_index,request_is_deletion
+REQ={"case_id":"test_1","email":"new@example.org","audit_at":"2026-09-01T12:00:00Z",
+     "request_text":"Please delete my account","reported_status":"COMPLETE"}
+USERS=[{"user_id":"user_101","email":"new@example.org","name":"Test Person",
+        "phone":"+10000000000","email_hash":"abcd","updated_at":"2026-01-01T00:00:00Z"}]
+AUDITS=[{"user_id":"user_101","field_name":"email","old_value":"old@example.org",
+         "new_value":"new@example.org","event_time":"2026-02-01T00:00:00Z"}]
+def fact(rid,cat,state,refs,when="2026-08-01T00:00:00Z",evid="evidence_01"):
+    prefix=rid.split("_")[0]
+    system={"account":"account_service","backup":"backup_service",
+            "search":"search_service","audit":"security_service"}.get(prefix,"account_service")
+    return {"resource_id":rid,"system_id":system,"category":cat,
+            "state":state,"refs":refs,"timestamp":when,"evidence_id":evid}
+class CoreTests(unittest.TestCase):
+    def setUp(self):
+        self.users,self.idx=identity_index(USERS,AUDITS)
+    def check(self,req,facts):
+        r=evaluate(req,facts,self.users,self.idx,AUDITS,{})
+        return r["deletion_status"],json.loads(r["steps_json"])
+    def test_non_deletion(self):
+        r={**REQ,"request_text":"Only send me an export of my data, do not delete anything"}
+        status,steps=self.check(r,[fact("account_101","USER_PROFILE","PRESENT",["user_101"])])
+        self.assertEqual((status,steps),("NOT_APPLICABLE",[]))
+    def test_false_complete_with_replica(self):
+        status,steps=self.check(REQ,[fact("account_101","USER_PROFILE","PRESENT",["user_101"])])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual([s["operation"] for s in steps],
+          ["REPORT_REMAINING_RECORD","DELETE_RECORD","VERIFY_RECORD_ABSENT"])
+    def test_historical_email(self):
+        req={**REQ,"email":"old@example.org"}
+        status,steps=self.check(req,[fact("search_301","SEARCH_INDEX_ENTRY","PRESENT",["old@example.org"])])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual(steps[0]["resource_id"],"search_301")
+    def test_active_backup_restoration(self):
+        status,steps=self.check(REQ,[fact("backup_51","BACKUP_ARCHIVE","ACTIVE",["user_101"])])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual([s["operation"] for s in steps],
+         ["REPORT_RESTORE_RISK","BLOCK_RESTORE","VERIFY_RESTORE_BLOCKED"])
+    def test_ignore_future_evidence(self):
+        status,steps=self.check(REQ,[fact("account_101","USER_PROFILE","ABSENT",["user_101"],"2026-09-05T00:00:00Z")])
+        self.assertEqual(status,"INCOMPLETE")
+        self.assertEqual(steps,[])
+    def test_retention(self):
+        status,steps=self.check(REQ,[fact("audit_record_51","SECURITY_AUDIT_LOG","PRESENT",["user_101"])])
+        self.assertEqual(status,"COMPLETE")
+        self.assertEqual(steps[0]["operation"],"VERIFY_RECORD_PRESENT")
+    def test_multilingual(self):
+        self.assertTrue(request_is_deletion("Je demande la suppression définitive du compte"))
+        self.assertTrue(request_is_deletion("このアカウントの完全な削除を依頼します"))
+if __name__=="__main__":unittest.main()
