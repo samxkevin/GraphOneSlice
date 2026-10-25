@@ -141,11 +141,17 @@ def evaluate(req,all_facts,users,emailidx,audits,rules):
     if not request_is_deletion(req.get("request_text","")):return {"case_id":req["case_id"],"deletion_status":"NOT_APPLICABLE","steps_json":"[]"}
     uid,refs=identify(req,users,emailidx,audits)
     cutoff=dt(req["audit_at"]); relevant={}
-    for f in all_facts:
-        if not f.get("resource_id") or not f.get("system_id"):continue
-        if dt(f.get("timestamp"))>cutoff or dt(f.get("captured_at"))>cutoff:continue
-        if not matches(f,refs):continue
+    eligible=[f for f in all_facts
+              if f.get("resource_id") and f.get("system_id")
+              and dt(f.get("timestamp"))<=cutoff
+              and dt(f.get("captured_at"))<=cutoff]
+    # Join aliases only from evidence visible at audit_at, never from future snapshots.
+    links=collections.defaultdict(set)
+    for f in eligible:
+        links[(f["system_id"],f["resource_id"])].update(norm(x) for x in f.get("refs",[]))
+    for f in eligible:
         key=(f["system_id"],f["resource_id"])
+        if not links[key].intersection(refs):continue
         if key not in relevant or (dt(f.get("timestamp")),f.get("confidence",1))>(dt(relevant[key].get("timestamp")),relevant[key].get("confidence",1)):
             relevant[key]=f
     findings=[]; remedy=[]; checks=[]
