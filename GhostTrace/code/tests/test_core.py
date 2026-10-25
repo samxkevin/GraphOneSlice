@@ -63,4 +63,6 @@ class CoreTests(unittest.TestCase):
     def test_multilingual(self):
         self.assertTrue(request_is_deletion("Je demande la suppression définitive du compte"))
         self.assertTrue(request_is_deletion("このアカウントの完全な削除を依頼します"))
+        self.assertTrue(request_is_deletion("Solicito a exclusão permanente da conta associada a este e-mail."))
+        self.assertFalse(request_is_deletion("Por favor, não excluam minha conta. Quero apenas uma cópia dos dados."))
 if __name__=="__main__":unittest.main()
