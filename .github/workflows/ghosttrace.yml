@@ -1,0 +1,94 @@
+name: GhostTrace challenge validation
+on:
+  push:
+    branches: [ghosttrace-orchestrate-oct2026]
+    paths:
+      - "GhostTrace/code/**"
+      - "GhostTrace/README.md"
+      - ".github/workflows/ghosttrace.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Fetch participant-facing challenge data
+        run: |
+          git clone --depth 1 https://github.com/interviewstreet/hackerrank-orchestrate-october26.git /tmp/ghosttrace-official
+          cp -r /tmp/ghosttrace-official/dataset GhostTrace/dataset
+          test -f GhostTrace/dataset/sample_output.csv
+      - name: Run synthetic unit tests
+        run: |
+          python -m unittest discover -s GhostTrace/code/tests -p "test_*.py" -v
+      - name: Generate sample predictions
+        run: |
+          python GhostTrace/code/main.py --sample
+      - name: Evaluate against authorized 32 labelled samples
+        run: |
+          python GhostTrace/code/evaluation/evaluate.py --dataset GhostTrace/dataset --pred GhostTrace/sample_predictions.csv --output GhostTrace/code/evaluation/evaluation_report.md || echo "Evaluation exposed errors; inspect report, do not claim success."
+      - name: Produce predictions for all evaluation requests
+        run: |
+          python GhostTrace/code/main.py
+      - name: Strictly validate all 518 prediction rows
+        run: |
+          python - <<'PY'
+          import csv,sys
+          sys.path.insert(0,"GhostTrace/code/evaluation")
+          from evaluate import load,validate
+          d="GhostTrace/dataset/"
+          ids=set(r["file_id"] for r in load(d+"evidence_files.csv"))
+          ids.update(r["activity_id"] for r in load(d+"system_activity.csv"))
+          ids.update(r["audit_id"] for r in load(d+"user_audit_log.csv"))
+          rows=load("GhostTrace/output.csv")
+          errors=validate(rows,load(d+"deletion_requests.csv"),ids)
+          assert len(rows)==518,f"unexpected {len(rows)} rows"
+          assert not errors,"\n".join(errors[:40])
+          print("All 518 rows pass contract validation")
+          PY
+      - name: Actual model usage report
+        run: |
+          cat > GhostTrace/code/evaluation/usage_report.md <<'EOF'
+          # GhostTrace Final Run: Model Usage and Cost
+          
+          This baseline operates entirely on local participant-provided evidence using Python standard-library parsers and deterministic policy logic. It makes **zero** model API calls.
+          
+          | Provider | Model | Calls | Input tokens | Output tokens | Total tokens | Cost |
+          |---|---|---:|---:|---:|---:|---:|
+          | None | None | 0 | 0 | 0 | 0 | $0.00 |
+          
+          Total model calls: 0. Input tokens: 0. Output tokens: 0. Total tokens: 0. Mean tokens per evaluation request: 0. Estimated model cost: $0.00 total and $0.00 per request.
+          
+          This is actual architecture-level usage, not a provider billing measurement. It excludes GitHub Actions compute, network bandwidth, time spent developing, and hardware electricity. The original GraphOneSlice Gemini/Cohere/Groq extraction chain was inspected but **not invoked** by this baseline.
+          
+          If a future revision enables model calls, this report must be regenerated using real provider usage records.
+          EOF
+      - name: Package submission without dataset
+        run: |
+          cd GhostTrace
+          zip -r -q code.zip README.md code -x "*/__pycache__/*" "*.pyc" "*.zip"
+          ls -lh code.zip output.csv log.txt || true
+      - name: Publish run artifacts and reports to this branch
+        run: |
+          git config user.name "ghosttrace-ci"
+          git config user.email "ghosttrace-ci@users.noreply.github.com"
+          git add GhostTrace/output.csv GhostTrace/sample_predictions.csv GhostTrace/code/evaluation/evaluation_report.md GhostTrace/code/evaluation/usage_report.md GhostTrace/code.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate GhostTrace submission artifacts [skip ci]"
+            git push origin HEAD:ghosttrace-orchestrate-oct2026
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GhostTrace-submission
+          path: |
+            GhostTrace/code.zip
+            GhostTrace/output.csv
+            GhostTrace/log.txt
+          if-no-files-found: warn
