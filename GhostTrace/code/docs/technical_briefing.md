@@ -2,7 +2,7 @@
 
 **Challenge**: HackerRank Orchestrate October 2026, Ghost Data Still Exists.  
 **Implementation**: `GhostTrace/` in `samxkevin/GraphOneSlice` branch `ghosttrace-orchestrate-oct2026`.  
-**Status at audit**: A real 518-row CSV was generated and re-parsed successfully. Unit tests passed. Participant-sample status accuracy 29/32 (90.625%); exact six-field step match precision 152/156 (97.4359%), recall 152/193 (78.7565%); exact ordered sequence 8/32 (25%). These figures are **participant-sample only**, not hidden evaluation accuracy.
+**Status at audit**: A real 518-row CSV was generated and re-parsed successfully. Unit tests passed. Participant-sample status accuracy 29/32 (90.625%); exact six-field step match precision 155/159 (97.4843%), recall 155/193 (80.3109%); exact ordered sequence 8/32 (25%). These figures are **participant-sample only**, not hidden evaluation accuracy.
 
 ## Problem, mission and why this architecture
 
@@ -28,7 +28,7 @@ We selected GraphOneSlice as a **pattern library**, not a drop-in code dependenc
 
 ## What the measurements actually show
 
-The participant labels are 32 cases. CI ran the seven initial unit tests including adversarial false-COMPLETE primary status, an old-email identity match, active restore blocking, future evidence filtering, explicit retention, non-deletion intent and multilingual classification. Test failures are not concealed: the first run failed French `suppression` matching, corrected. Initial sample status accuracy was 17/32 (53.125%). A JSON parser error dropped whole JSON files when a non-`hits` resource lacked that key. Fixing that restored structured evidence coverage; after additional policy and log parser fixes, the latest measured status score reached 29/32 (90.625%). The 518 evaluation rows are schema-valid, but hidden correctness is unknown.
+The participant labels are 32 cases. CI ran the 25 implemented unit tests including adversarial false-COMPLETE primary status, an old-email identity match, active restore blocking, future evidence filtering, explicit retention, non-deletion intent and multilingual classification. Test failures are not concealed: the first run failed French `suppression` matching, corrected. Initial sample status accuracy was 17/32 (53.125%). A JSON parser error dropped whole JSON files when a non-`hits` resource lacked that key. Fixing that restored structured evidence coverage; after additional policy and log parser fixes, the latest measured status score reached 29/32 (90.625%). The 518 evaluation rows are schema-valid, but hidden correctness is unknown. After examining the complete participant request list, we corrected Portuguese `exclusão` deletion intent and explicit English negations/marketing-only removal. This changed non-deletion predictions from an erroneous 19 to 10 while preserving the 29/32 sample status score; there are no hidden correctness labels.
 
 Remaining errors come from **evidence recall and linkage**, especially absent accounts and anonymized profiles whose readbacks contain no customer identifier, PDF/image-only evidence and sparse log context. Synthetic or hardcoded expected resource IDs would be unacceptable. Exact sequence accuracy is only 25%; do not describe the agent as fully solved.
 
