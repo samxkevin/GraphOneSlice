@@ -83,7 +83,7 @@ def identify(req,users,email_idx,audits):
     if len(ids)!=1:return None,{email}
     uid=next(iter(ids)); u=users[uid]
     refs={uid,email}
-    for k in ("email","phone","email_hash","name"):
+    for k in ("email","phone","email_hash"):
         if u.get(k):refs.add(str(u[k]).strip().lower())
     for a in audits:
         if a.get("user_id")!=uid or dt(a.get("event_time"))>dt(req["audit_at"]):continue
