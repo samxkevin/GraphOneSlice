@@ -1,7 +1,8 @@
 """Participant-visible sample evaluator and exact output contract validator."""
 from __future__ import annotations
-import argparse,csv,json,collections
+import argparse,csv,json,collections,sys
 from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from main import OPS,PHASE
 KEYS={"step_no","phase","system_id","resource_id","operation","state","evidence_id"}
 LABELS={"COMPLETE","INCOMPLETE","NOT_APPLICABLE"}
