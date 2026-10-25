@@ -108,6 +108,8 @@ def parse_sql(out,text,file_id,captured):
         # SQLite's authorizer blocks external database attachment and unsafe pragmas/functions.
         def authorize(action, arg1, arg2, dbname, trigger):
             denied={sqlite3.SQLITE_ATTACH,sqlite3.SQLITE_DETACH,sqlite3.SQLITE_PRAGMA}
+            if action==sqlite3.SQLITE_PRAGMA and str(arg1).lower()=="foreign_keys" and str(arg2).lower() in ("on","off","0","1"):
+                return sqlite3.SQLITE_OK
             if action in denied:return sqlite3.SQLITE_DENY
             if action==sqlite3.SQLITE_FUNCTION and (arg2 or arg1 or "").lower() in {"load_extension","readfile","writefile"}:
                 return sqlite3.SQLITE_DENY
@@ -166,7 +168,8 @@ def parse_lines(out,text,file_id,captured):
         if not rid:continue
         ev=kv.get("event","").lower()
         override=tracecategories.get(trace)
-        if ev=="contact_lookup_completed":override="SECONDARY_IDENTIFIER"
+        if ev in ("contact_lookup_completed","contact_query_completed"):
+            override="SECONDARY_IDENTIFIER"
         if ev=="attachment_pii_scan":override="SUPPORT_ATTACHMENT"
         state=kv.get("result","")
         if ev.endswith("_started") or ev in ("retry","connection_acquired","dependency_retry"):
@@ -178,6 +181,9 @@ def parse_lines(out,text,file_id,captured):
         elif ev=="index_query_completed":
             if kv.get("total_hits","").isdigit():state="PRESENT" if int(kv["total_hits"])>0 else "ABSENT"
             elif kv.get("result")=="hit":state="PRESENT"
+            else:continue
+        elif ev in ("contact_lookup_completed","contact_query_completed"):
+            if kv.get("rows","").isdigit():state="PRESENT" if int(kv["rows"])>0 else "ABSENT"
             else:continue
         elif ev in ("audit_record_read_completed",):
             if kv.get("rows")=="0":state="ABSENT"
@@ -207,12 +213,28 @@ def parse_lines(out,text,file_id,captured):
         refs+=list(traces.get(trace,())) if trace else []
         emit(out,file_id,captured,rid,kv.get("service"),override,state,refs,kv,ts)
 def parse_pdf(out,path,file_id,captured):
-    if not shutil.which("pdftotext"):return
+    if not shutil.which("pdftotext"):
+        log.warning("PDF text extraction unavailable file_id=%s path=%s",file_id,path)
+        return
     try:
         p=subprocess.run(["pdftotext","-layout",str(path),"-"],capture_output=True,
                          text=True,timeout=12,check=True)
-        parse_lines(out,p.stdout,file_id,captured)
-    except (OSError,subprocess.SubprocessError):pass
+    except (OSError,subprocess.SubprocessError) as exc:
+        log.warning("PDF text extraction failed file_id=%s path=%s error=%s",file_id,path,type(exc).__name__)
+        return
+    source=p.stdout
+    ids=set(ID.findall(source))
+    subjects=set(x.lower() for x in EMAIL.findall(source))
+    if not subjects:subjects=set(x.lower() for x in USER.findall(source))
+    if len(ids)==1 and len(subjects)==1:
+        rid=next(iter(ids));subject=next(iter(subjects))
+        cat=cat_for(rid)
+        if cat=="SUPPORT_MESSAGE" and "attachment" in (path.name.lower()+" "+source.lower()):
+            cat="SUPPORT_ATTACHMENT"
+        if cat:
+            emit(out,file_id,captured,rid,sys_for(rid),cat,"PRESENT",
+                 [subject],{"pdf_file":path.name,"source_text":source[:2000]},captured)
+    parse_lines(out,source,file_id,captured)
 def extract_facts(dataset_dir: Path) -> list[dict]:
     root=Path(dataset_dir)
     with open(root/"evidence_files.csv",encoding="utf-8-sig",newline="") as f:
