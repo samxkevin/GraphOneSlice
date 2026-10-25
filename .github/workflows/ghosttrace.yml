@@ -36,7 +36,7 @@ jobs:
           python GhostTrace/code/main.py --sample
       - name: Evaluate against authorized 32 labelled samples
         run: |
-          python GhostTrace/code/evaluation/evaluate.py --dataset GhostTrace/dataset --pred GhostTrace/sample_predictions.csv --output GhostTrace/code/evaluation/evaluation_report.md || echo "Evaluation exposed errors; inspect report, do not claim success."
+          python GhostTrace/code/evaluation/evaluate.py --dataset GhostTrace/dataset --pred GhostTrace/sample_predictions.csv --output GhostTrace/code/evaluation/evaluation_report.md
       - name: Produce predictions for all evaluation requests
         run: |
           python GhostTrace/code/main.py
