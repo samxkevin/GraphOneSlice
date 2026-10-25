@@ -41,7 +41,12 @@ NEGATIVE=[
     r"\b(do not|don.t|not|never|stop)\s+(want|need|request|ask)\s+(?:.*\s+)?(delet|eras|remov)",
     r"\b(do not|don't|dont)\s+delete\b",r"\bwithout deleting\b",
     r"\b(only|just)\s+(want|need)\s+(?:a\s+)?(copy|download|export|access|correction|update|marketing)",
-    r"\b(opt.?out|unsubscribe|marketing preferences|correct my|update my|access my data|download my data)\b"
+    r"\b(opt.?out|unsubscribe|marketing preferences|correct my|update my|access my data|download my data)\b",
+    r"\bnot\s+(?:a\s+request\s+to\s+|asking\s+for\s+|requesting\s+)(?:erase|delet|remov)\w*",
+    r"\bwithout\s+(?:delet|remov|eras)\w*",
+    r"\b(?:remove me from|unsubscribe from)\s+(?:the\s+)?(?:marketing|promotional)\b",
+    r"\b(?:marketing lists only|promotional emails)\b",
+    r"\bdo not\s+(?:close|delete|remove)\s+(?:my|the|this)?\s*account\b"
 ]
 POSITIVE=[
     r"\b(delet|eras|remov|forget|purge|wipe)\w*",
