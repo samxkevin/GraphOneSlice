@@ -33,3 +33,23 @@ worktree=main
 parent_agent=none
 
 IMPORTANT: This is an auditable session-summary log, NOT an exact complete ChatGPT conversation export. For compliance with the challenge's verbatim-transcript requirement, the user should submit a genuine conversation export if available. Do not misrepresent this synthesized summary as verbatim AI-agent interaction.
+
+## [2026-10-25T14:03:15+05:30] CORRECTION: actual execution boundary
+
+User Prompt (verbatim, secrets redacted):
+[No new user turn; this is a factual correction to the preceding entry.]
+
+Agent Response Summary:
+Previous log field `Repo Root: /home/runner/work/GraphOneSlice/GraphOneSlice/GhostTrace` names the GitHub Actions checkout path, not an interactive checkout occupied by ChatGPT. ChatGPT executed writes using the connected GitHub repository tool; there was no local authenticated GitHub checkout. GitHub Actions on Ubuntu cloned participant-facing data and ran the actual commands. This log is a transparent session summary, not a complete verbatim conversation record, and must not be substituted for an authentic chat export without disclosure. The user should upload a real conversation log for the transcript rubric where possible.
+
+Actions:
+* Verified branch commits and actual GitHub Actions run logs through GitHub connector.
+* Independently unpacked downloaded GitHub Actions artifact and reran 18 offline tests on the submitted code ZIP in the sandbox.
+
+Context:
+tool=ChatGPT
+model=GPT-6
+branch=ghosttrace-orchestrate-oct2026
+repo_root=GitHub repository samxkevin/GraphOneSlice/GhostTrace (remote; no local GitHub checkout)
+worktree=none; GitHub Actions later creates a temporary Linux checkout
+parent_agent=none
