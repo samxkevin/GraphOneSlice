@@ -47,7 +47,7 @@ POSITIVE=[
     r"\b(delet|eras|remov|forget|purge|wipe)\w*",
     r"\b(close|closing|terminate|termination)\s+(?:my|this|the|an?)?\s*(?:customer\s*)?(?:account|profile)",
     r"\b(right to be forgotten|permanent account closure|account was deleted|account is gone|profile is gone|deletion was complete|audit the deletion)\b",
-    r"(elimin|borr|suprim|suppres|effac|supprim|apagar|excluir|löschen|删除|削除|消去|삭제|удал|حذف|حذف|हटा|मिटा)"
+    r"(elimin|borr|suprim|suppres|effac|supprim|apagar|excluir|exclus[aã]o|löschen|删除|削除|消去|삭제|удал|حذف|हटा|मिटा)"
 ]
 def load(path):
     with open(path,encoding="utf-8-sig",newline="") as f:return list(csv.DictReader(f))
