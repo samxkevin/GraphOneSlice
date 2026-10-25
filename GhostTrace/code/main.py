@@ -120,12 +120,12 @@ def infer_state(f):
     if cat=="DATA_FLOW" and "enabled" in fields:
         return "ACTIVE" if fields["enabled"] in (True,"true","True",1) else "DISABLED"
     if cat in ("ANALYTICS_PROFILE","PRODUCT_TELEMETRY") and s in ("","PRESENT","ACTIVE"):
-        if not any(fields.get(x) not in (None,"","null") for x in ("user_id","email","phone","email_hash","customer_reference")):
+        if fields and any(x in fields for x in ("user_id","email","phone","email_hash","customer_reference")) and not any(fields.get(x) not in (None,"","null") for x in ("user_id","email","phone","email_hash","customer_reference")):
             return "ANONYMIZED"
         return "PRESENT"
     if cat in ("SUPPORT_MESSAGE","EMAIL_DELIVERY_LOG","ACCOUNT_TOMBSTONE") and s in ("","PRESENT","ACTIVE"):
         pii=("email","phone","email_hash","name","requester_email","requester_phone","full_name","matched_value")
-        if not any(fields.get(x) not in (None,"","null") for x in pii):
+        if fields and any(x in fields for x in pii) and not any(fields.get(x) not in (None,"","null") for x in pii):
             return "REDACTED"
         return "PRESENT"
     if not s and fields:return "PRESENT"
@@ -143,7 +143,7 @@ def evaluate(req,all_facts,users,emailidx,audits,rules):
     cutoff=dt(req["audit_at"]); relevant={}
     for f in all_facts:
         if not f.get("resource_id") or not f.get("system_id"):continue
-        if dt(f.get("timestamp"))>cutoff:continue
+        if dt(f.get("timestamp"))>cutoff or dt(f.get("captured_at"))>cutoff:continue
         if not matches(f,refs):continue
         key=(f["system_id"],f["resource_id"])
         if key not in relevant or (dt(f.get("timestamp")),f.get("confidence",1))>(dt(relevant[key].get("timestamp")),relevant[key].get("confidence",1)):
