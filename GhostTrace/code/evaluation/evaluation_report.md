@@ -10,11 +10,11 @@ Evaluation against the **32 participant-provided labelled examples**, not the hi
 - exact_sequence_correct: **8**
 - exact_sequence_accuracy: **0.25**
 - step_true: **193**
-- step_pred: **156**
-- step_exact_overlap: **152**
-- step_precision: **0.974359**
-- step_recall: **0.787565**
-- index_aligned_field_accuracy: **0.685567**
+- step_pred: **159**
+- step_exact_overlap: **155**
+- step_precision: **0.974843**
+- step_recall: **0.803109**
+- index_aligned_field_accuracy: **0.699558**
 
 Definitions: status accuracy is exact label matching; sequence accuracy requires exactly matching ordered step objects (excluding step_no, which is checked by schema validation). Step precision/recall use multisets of all six other fields, not fuzzy matches. Field accuracy aligns steps by array index and treats unmatched positions as incorrect. No hidden-label accuracy is claimed.
 
@@ -29,7 +29,7 @@ Definitions: status accuracy is exact label matching; sequence accuracy requires
 - case_03: status COMPLETE vs COMPLETE; expected VERIFY_RECORD_ABSENT:account_7566, VERIFY_RECORD_PRESENT:audit_record_2016, VERIFY_RECORD_ANONYMIZED:analytics_9406; observed VERIFY_RECORD_ABSENT:account_7566, VERIFY_RECORD_PRESENT:audit_record_2016.
 - case_04: status INCOMPLETE vs COMPLETE; expected VERIFY_RECORD_ABSENT:account_004, VERIFY_RECORD_ANONYMIZED:analytics_901; observed .
 - case_06: status INCOMPLETE vs INCOMPLETE; expected REPORT_REMAINING_RECORD:search_001, DELETE_RECORD:search_001, VERIFY_RECORD_ABSENT:account_006, VERIFY_RECORD_ABSENT:search_001; observed REPORT_REMAINING_RECORD:search_001, DELETE_RECORD:search_001, VERIFY_RECORD_ABSENT:search_001.
-- case_07: status INCOMPLETE vs INCOMPLETE; expected REPORT_REMAINING_RECORD:support_001, DELETE_RECORD:support_001, VERIFY_RECORD_ABSENT:account_007, VERIFY_RECORD_ABSENT:support_001; observed .
+- case_07: status INCOMPLETE vs INCOMPLETE; expected REPORT_REMAINING_RECORD:support_001, DELETE_RECORD:support_001, VERIFY_RECORD_ABSENT:account_007, VERIFY_RECORD_ABSENT:support_001; observed REPORT_REMAINING_RECORD:support_001, DELETE_RECORD:support_001, VERIFY_RECORD_ABSENT:support_001.
 - case_08: status INCOMPLETE vs INCOMPLETE; expected REPORT_REMAINING_RECORD:export_001, DELETE_RECORD:export_001, VERIFY_RECORD_ABSENT:account_008, VERIFY_RECORD_ABSENT:export_001; observed REPORT_REMAINING_RECORD:export_001, DELETE_RECORD:export_001, VERIFY_RECORD_ABSENT:export_001.
 - case_09: status INCOMPLETE vs INCOMPLETE; expected REPORT_RESTORE_RISK:backup_4978, BLOCK_RESTORE:backup_4978, VERIFY_RECORD_ABSENT:account_3960, VERIFY_RECORD_PRESENT:audit_record_4902, VERIFY_RESTORE_BLOCKED:backup_4978; observed REPORT_RESTORE_RISK:backup_4978, BLOCK_RESTORE:backup_4978, VERIFY_RESTORE_BLOCKED:backup_4978.
 - case_10: status INCOMPLETE vs INCOMPLETE; expected REPORT_REMAINING_RECORD:support_002, DELETE_RECORD:support_002, VERIFY_RECORD_ABSENT:account_010, VERIFY_RECORD_ABSENT:support_002; observed REPORT_REMAINING_RECORD:support_002, DELETE_RECORD:support_002, VERIFY_RECORD_ABSENT:support_002.
