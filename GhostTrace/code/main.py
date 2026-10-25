@@ -59,7 +59,14 @@ def request_is_deletion(text):
     t=str(text or "").strip().lower()
     if not t:return False
     if any(re.search(p,t) for p in NEGATIVE):return False
-    return any(re.search(p,t) for p in POSITIVE)
+    if any(re.search(p,t) for p in POSITIVE):return True
+    # Source-validated AI consensus is opt-in and used only for ambiguity.
+    # When providers are absent, never silently treat an unverified model guess as evidence.
+    try:
+        from ai_bridge import decide_intent
+        return decide_intent(str(text)) is True
+    except (ImportError,ValueError):
+        return False
 def identity_index(users,audits):
     records={u["user_id"]:u for u in users}
     emails=collections.defaultdict(set)
