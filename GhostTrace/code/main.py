@@ -38,7 +38,7 @@ OPS={
 }
 PHASE={"FINDING":0,"REMEDIATION":1,"VERIFICATION":2}
 NEGATIVE=[
-    r"\b(do not|don.t|not|no longer|never|stop)\s+(want|need|request|ask)\s+(?:.*\s+)?(delet|eras|remov)",
+    r"\b(do not|don.t|not|never|stop)\s+(want|need|request|ask)\s+(?:.*\s+)?(delet|eras|remov)",
     r"\b(do not|don't|dont)\s+delete\b",r"\bwithout deleting\b",
     r"\b(only|just)\s+(want|need)\s+(?:a\s+)?(copy|download|export|access|correction|update|marketing)",
     r"\b(opt.?out|unsubscribe|marketing preferences|correct my|update my|access my data|download my data)\b"
@@ -46,7 +46,7 @@ NEGATIVE=[
 POSITIVE=[
     r"\b(delet|eras|remov|forget|purge|wipe)\w*",
     r"\b(close|closing|terminate|termination)\s+(?:my|this|the|an?)?\s*(?:customer\s*)?(?:account|profile)",
-    r"\b(right to be forgotten|permanent account closure)\b",
+    r"\b(right to be forgotten|permanent account closure|account was deleted|account is gone|profile is gone|deletion was complete|audit the deletion)\b",
     r"(elimin|borr|suprim|suppres|effac|supprim|apagar|excluir|löschen|删除|削除|消去|삭제|удал|حذف|حذف|हटा|मिटा)"
 ]
 def load(path):
@@ -124,13 +124,14 @@ def infer_state(f):
             return "ANONYMIZED"
         return "PRESENT"
     if cat in ("SUPPORT_MESSAGE","EMAIL_DELIVERY_LOG","ACCOUNT_TOMBSTONE") and s in ("","PRESENT","ACTIVE"):
-        pii=("email","phone","email_hash","name","requester_email","requester_phone","full_name")
+        pii=("email","phone","email_hash","name","requester_email","requester_phone","full_name","matched_value")
         if not any(fields.get(x) not in (None,"","null") for x in pii):
             return "REDACTED"
         return "PRESENT"
     if not s and fields:return "PRESENT"
     return s
 def treatment(cat,rules):
+    if cat=="BACKUP_ARCHIVE":return "BLOCK" # RETAIN archive but block unsafe restoration
     return rules.get(cat,CATS.get(cat,""))
 def make(oper,f,evid=None):
     return {"step_no":0,"phase":OPS[oper][0],"system_id":f["system_id"],
