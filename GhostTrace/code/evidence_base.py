@@ -125,7 +125,7 @@ def tokenize_log(line):
     except ValueError:
         return dict(re.findall(r'(\w+)=("[^"]*"|\S+)',line))
 def parse_lines(out,text,file_id,captured):
-    traces={}
+    traces={};tracecategories={}
     for line in text.splitlines():
         m=TIME.search(line)
         if not m:continue
@@ -142,9 +142,13 @@ def parse_lines(out,text,file_id,captured):
               if kv.get(k) and kv[k].lower()!="null"]
         if trace:
             traces.setdefault(trace,set()).update(x.lower() for x in refs)
+            if kv.get("source")=="legacy_contact_index":tracecategories[trace]="SECONDARY_IDENTIFIER"
         rid=kv.get("resource_id")
         if not rid:continue
         ev=kv.get("event","").lower()
+        override=tracecategories.get(trace)
+        if ev=="contact_lookup_completed":override="SECONDARY_IDENTIFIER"
+        if ev=="attachment_pii_scan":override="SUPPORT_ATTACHMENT"
         state=kv.get("result","")
         if ev.endswith("_started") or ev in ("retry","connection_acquired","dependency_retry"):
             continue
@@ -163,9 +167,15 @@ def parse_lines(out,text,file_id,captured):
             state="ACTIVE" if kv.get("enabled")=="true" else "DISABLED"
         elif ev=="restore_policy_read_completed":
             state="ACTIVE" if kv.get("restore_allowed")=="true" else "BLOCKED"
+        elif ev=="restore_candidate_evaluated":
+            state="ACTIVE" if kv.get("eligible")=="true" and kv.get("deletion_block")!="true" else "BLOCKED"
+        elif ev in ("connector_heartbeat","connector_state_read"):
+            state="ACTIVE" if kv.get("enabled")=="true" else "DISABLED"
+        elif ev=="deletion_marker_check":
+            state="PRESENT" if kv.get("marker_found")=="false" else "ABSENT"
         elif not state and "completed" not in ev:continue
         refs+=list(traces.get(trace,())) if trace else []
-        emit(out,file_id,captured,rid,kv.get("service"),None,state,refs,kv,ts)
+        emit(out,file_id,captured,rid,kv.get("service"),override,state,refs,kv,ts)
 def parse_pdf(out,path,file_id,captured):
     if not shutil.which("pdftotext"):return
     try:
