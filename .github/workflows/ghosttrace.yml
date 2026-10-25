@@ -7,6 +7,9 @@ on:
       - "GhostTrace/README.md"
       - ".github/workflows/ghosttrace.yml"
   workflow_dispatch:
+concurrency:
+  group: ghosttrace-dataset-validation
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
@@ -85,7 +88,11 @@ jobs:
           git add GhostTrace/output.csv GhostTrace/sample_predictions.csv GhostTrace/code/evaluation/evaluation_report.md GhostTrace/code/evaluation/usage_report.md GhostTrace/code.zip
           if ! git diff --cached --quiet; then
             git commit -m "Generate GhostTrace submission artifacts [skip ci]"
-            git push origin HEAD:ghosttrace-orchestrate-oct2026
+            git push origin HEAD:ghosttrace-orchestrate-oct2026 || {
+              git fetch origin ghosttrace-orchestrate-oct2026
+              git rebase origin/ghosttrace-orchestrate-oct2026
+              git push origin HEAD:ghosttrace-orchestrate-oct2026
+            }
           fi
       - uses: actions/upload-artifact@v4
         with:
