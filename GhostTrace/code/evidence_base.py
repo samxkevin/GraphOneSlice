@@ -75,7 +75,7 @@ def parse_json(out,text,file_id,captured):
                 state=x.get("result") or x.get("state") or x.get("status")
                 if x.get("status_code")==404:state="ABSENT"
                 elif x.get("status_code")==200:state="PRESENT"
-                if x.get("hits",{}).__class__==dict:
+                if isinstance(x.get("hits"),dict):
                     state="PRESENT" if x["hits"].get("total",0)>0 else "ABSENT"
                 emit(out,file_id,captured,rid,system,category,state,fields=record,timestamp=timestamp or captured)
             if "records" in x and isinstance(x["records"],list):
