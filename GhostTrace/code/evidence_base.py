@@ -177,12 +177,28 @@ def parse_lines(out,text,file_id,captured):
         refs+=list(traces.get(trace,())) if trace else []
         emit(out,file_id,captured,rid,kv.get("service"),override,state,refs,kv,ts)
 def parse_pdf(out,path,file_id,captured):
-    if not shutil.which("pdftotext"):return
+    if not shutil.which("pdftotext"):
+        return
     try:
         p=subprocess.run(["pdftotext","-layout",str(path),"-"],capture_output=True,
                          text=True,timeout=12,check=True)
-        parse_lines(out,p.stdout,file_id,captured)
-    except (OSError,subprocess.SubprocessError):pass
+    except (OSError,subprocess.SubprocessError):
+        return
+    source=p.stdout
+    # Connect a PDF only when its contents identify exactly one resource and subject.
+    ids=set(ID.findall(source))
+    subjects=set(x.lower() for x in EMAIL.findall(source))
+    if not subjects:subjects=set(x.lower() for x in USER.findall(source))
+    if len(ids)==1 and len(subjects)==1:
+        rid=next(iter(ids));subject=next(iter(subjects))
+        cat=cat_for(rid)
+        if cat=="SUPPORT_MESSAGE" and "attachment" in (path.name.lower()+" "+source.lower()):
+            cat="SUPPORT_ATTACHMENT"
+        if cat:
+            emit(out,file_id,captured,rid,sys_for(rid),cat,"PRESENT",
+                 [subject],{"pdf_file":path.name,"source_text":source[:2000]},captured)
+    parse_lines(out,source,file_id,captured)
+
 def extract_facts(dataset_dir):
     root=Path(dataset_dir)
     with open(root/"evidence_files.csv",encoding="utf-8-sig",newline="") as f:
