@@ -2,7 +2,7 @@
 
 **Challenge**: HackerRank Orchestrate October 2026, Ghost Data Still Exists.  
 **Implementation**: `GhostTrace/` in `samxkevin/GraphOneSlice` branch `ghosttrace-orchestrate-oct2026`.  
-**Status at audit**: A real 518-row CSV was generated and re-parsed successfully. Unit tests passed. Participant-sample status accuracy 29/32 (90.625%); exact six-field step match precision 154/158 (97.4684%), recall 154/193 (79.7927%); exact ordered sequence 8/32 (25%). These figures are **participant-sample only**, not hidden evaluation accuracy.
+**Status at audit**: A real 518-row CSV was generated and re-parsed successfully. Unit tests passed. Participant-sample status accuracy 29/32 (90.625%); exact six-field step match precision 152/156 (97.4359%), recall 152/193 (78.7565%); exact ordered sequence 8/32 (25%). These figures are **participant-sample only**, not hidden evaluation accuracy.
 
 ## Problem, mission and why this architecture
 
