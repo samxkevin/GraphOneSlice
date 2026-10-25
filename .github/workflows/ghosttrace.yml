@@ -103,7 +103,9 @@ jobs:
             git commit -m "Generate GhostTrace submission artifacts [skip ci]"
             git push origin HEAD:ghosttrace-orchestrate-oct2026 || {
               git fetch origin ghosttrace-orchestrate-oct2026
-              git rebase origin/ghosttrace-orchestrate-oct2026
+              git reset --mixed origin/ghosttrace-orchestrate-oct2026
+              git add GhostTrace/output.csv GhostTrace/sample_predictions.csv GhostTrace/code/evaluation/evaluation_report.md GhostTrace/code/evaluation/usage_report.md GhostTrace/code.zip
+              git commit -m "Refresh GhostTrace outputs after concurrent changes [skip ci]"
               git push origin HEAD:ghosttrace-orchestrate-oct2026
             }
           fi
